@@ -1,0 +1,10 @@
+aqt/__init__.py,sha256=UAJ1YaTJk5K7jd9TrIpHGpRvavIJH_1zBNd0glAdfTc,3372
+aqt/archives.py,sha256=WPG3XguEiOcqDYIuBqFNnWfQfkJa_w7NWsyl-pY4NWI,3745
+aqt/httpproxy.py,sha256=pORD77jozjszUztIT1lHNAoILW1mqe1HA6B7kiVhsMo,3186
+aqt/installer.py,sha256=CT3IE-q835m-t-lnY5A6B-SjiXfZNk7E-IaUyMAzIPs,3424
+aqtinstall-0.2.0.data/scripts/aqtinst,sha256=QW_yt00JDzBt5Jazlj-r-H18hleFQmIoBoqX6mXrnbw,96
+aqtinstall-0.2.0.dist-info/LICENSE,sha256=qY98SCWuh2Y2u3vMjKZwbGhfr0XmifbFSOovsq1K7Ds,1136
+aqtinstall-0.2.0.dist-info/METADATA,sha256=5ZE5GEe4L_RIe-gL_WI_znkx7RT335i5-pxZ8CRd9Us,3779
+aqtinstall-0.2.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+aqtinstall-0.2.0.dist-info/top_level.txt,sha256=4ZbCrra52FYe2xDXU7vB2Svv_pFdR-swV4VwN5Hhl-4,4
+aqtinstall-0.2.0.dist-info/RECORD,,
