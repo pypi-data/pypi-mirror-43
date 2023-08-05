@@ -1,0 +1,6 @@
+include setup.py
+include README
+include *.ini
+recursive-include cubicweb_addressbook *.py
+recursive-include cubicweb_addressbook/i18n *.pot *.po
+recursive-include cubicweb_addressbook/schema *.sql
