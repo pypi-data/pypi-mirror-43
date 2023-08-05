@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: django-admin-vali
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/JchJ/Vali-Django-Admin
+Author: Juan Carlo
+Author-email: juancarlo.h.junger@hotmail.com
+License: MIT License
+Description: # Projeto: Bootstrap Vali Django Admin
+        
+        ## Glosário de termos
+        
+        ### Atores
+        
+        **Administrador:** Usuário que possui permissão para acessar o dashboard.
+        
+        #### Requisitos
+        * Django:
+          * **versão:**```2.0+```
+        
+        ### Rotas
+        * Site:
+          * **url:**```/<lang>/admin```
+            Página com acesso ao administrador.
+          * **url:**```/<lang>/admin/dashboard```
+            Página com acesso ao dashboard.
+        
+        ### Funcionalidades
+        * Usuário:
+          * **url:**```/<lang>/admin```
+            * Pode visualizar o log do sistema.
+          * **url:**```/<lang>/admin/dashboard```
+            * Pode visualizar dados dinâmicos do sistema.
+        
+        #### Início
+        ```bash
+            apt-get install python-pip
+            pip install virtualenv <envname>
+            source envname/bin/activate
+            pip install -r requirements.txt
+            python manage.py makemigrations
+            python manage.py migrate
+            python manage.py createsuperuser
+            python manage.py runserver
+        ```
+        
+        ## Changelog
+        *02/03/2019* - Início  
+        *05/03/2019* - Adicionando funcionalidade de impressão de múltiplos e-mails.  
+        *05/03/2019* - Adicionando funcionalidade de impressão individual de e-mail.  
+        *06/03/2019* - Adicionando funcionalidade de exportar os contatos selecionados em um arquivo csv.  
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
