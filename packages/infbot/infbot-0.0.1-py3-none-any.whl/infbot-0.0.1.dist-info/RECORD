@@ -1,0 +1,16 @@
+infbot/__init__.py,sha256=Lp7NyVdYSg00na8fvwfH6L3VNiqymLKy7CzRRmIwi7w,233
+infbot/version.txt,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+infbot/serve/__init__.py,sha256=h-s5cbr5Sy-YcCqSTSV5xh2A1t9XLG889mzuvf7XBq4,49
+infbot/serve/__main__.py,sha256=IfRDXty7Wpc5W8b4V6xHU8Ufq8Jle6hjhdxKxKbYO0Y,1406
+infbot/train/__init__.py,sha256=2wqBeiktIwerostCgj8r0r3ShFojIdzsgecBr6HnU80,72
+infbot/train/__main__.py,sha256=K1Ex1rw8OCHGEtUA3rgqFqs5s9MYUFJZ_gTdgDAFTQ0,2999
+infbot/train/dpl.py,sha256=eXAO-865RXQO4icuK31nfKORwNy1JdbyfeU5fwtp8-8,233
+infbot/train/dst.py,sha256=7ubqmaU8EjwGs5dKAhc3oco0V1PUm9q0sbxSjJETXrQ,245
+infbot/train/nlg.py,sha256=SNsRbW_xcxp971z3b8FgXqu86_8QANw80Y2GMC_lY_I,252
+infbot/train/nlu.py,sha256=aS2eKsEG3thQohg8vr66HHLxpATEL1t8t1YyrP93XqM,492
+infbot-0.0.1.dist-info/DESCRIPTION.rst,sha256=1Pr9D1ExR8tRPXK24WsPE4Pre7KFxFLGwcOpIi_e_Ks,16
+infbot-0.0.1.dist-info/METADATA,sha256=s5SfV8xu_UU8sSrBB_RNnpF3uWupO8BC2uFAVI7dAZI,266
+infbot-0.0.1.dist-info/RECORD,,
+infbot-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+infbot-0.0.1.dist-info/metadata.json,sha256=vxyXoXnSxU6boPGcQqw09Uc1nfDPVEmOcDqoaF3ksM8,502
+infbot-0.0.1.dist-info/top_level.txt,sha256=QX4pemQg_1-odcoiHVwOuGnN793QXc-FHGz5JC9xBFU,7

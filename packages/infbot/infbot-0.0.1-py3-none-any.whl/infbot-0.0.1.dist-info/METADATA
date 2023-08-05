@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: infbot
+Version: 0.0.1
+Summary: NLP tool
+Home-page: https://github.com/infinity-future/infbot
+Author: infinityfuture
+Author-email: infinityfuture@foxmail.com
+License: Private
+Keywords: bot
+Platform: any
+Requires-Dist: bot
+
+Dialog System
+
+
