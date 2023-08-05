@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: deicode
+Version: 0.1.6
+Summary: Robust Aitchison compositional biplots from sparse count data
+Home-page: UNKNOWN
+Author: deicode development team
+Author-email: cameronmartino@gmail.com
+Maintainer: deicode development team
+Maintainer-email: cameronmartino@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Dist: numpy (>=1.12.1)
+Requires-Dist: click
+Requires-Dist: pandas (>=0.10.0)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: nose (>=1.3.7)
+Requires-Dist: scikit-learn (>=0.18.1)
+Requires-Dist: scikit-bio (>0.5.3)
+Requires-Dist: biom-format
+Requires-Dist: h5py
+
+[![Build Status](https://travis-ci.org/biocore/DEICODE.svg?branch=master)](https://travis-ci.org/biocore/DEICODE)
+[![Coverage Status](https://coveralls.io/repos/github/biocore/DEICODE/badge.svg?branch=master)](https://coveralls.io/github/biocore/DEICODE?branch=master)
+
+DEICODE is a tool box for running Robust Aitchison PCA on sparse compositional omics datasets, linking specific features to beta-diversity ordination. 
+
+## Installation
+
+To install the most up to date version of deicode, run the following command
+
+    # pip (only supported for QIIME2 >= 2018.8)
+    pip install deicode
+
+    # conda (only supported for QIIME2 >= 2019.1)
+    conda install -c conda-forge deicode 
+
+**Note**: that deicode is not compatible with python 2, and is compatible with Python 3.4 or later. deicode is currently in alpha. We are actively developing it, and backward-incompatible interface changes may arise.
+
+## QIIME2 tutorial
+
+* The QIIME2 forum tutorial can be found [here](https://forum.qiime2.org/t/robust-aitchison-pca-beta-diversity-with-deicode/8333).
+* The official plugin docs and tutorial can be found [here](https://library.qiime2.org/plugins/deicode).
+* The in-repo tutorial can be found [here](https://github.com/biocore/DEICODE/blob/master/ipynb/tutorials/moving-pictures.md).
+
+## Other Resources
+
+* [Aitchison Distance Introduction](https://github.com/biocore/DEICODE/blob/master/ipynb/introduction.ipynb)
+
+- The code for OptSpace was translated to python from a [MATLAB package](http://swoh.web.engr.illinois.edu/software/optspace/code.html) maintained by Sewoong Oh (UIUC).
+- Transforms and PCoA : [Scikit-bio](http://scikit-bio.org)
+- Data For Examples : [Qiita](https://qiita.ucsd.edu/)
+
+#### Simulation and Benchmarking
+
+* [simulations and case studies](https://github.com/cameronmartino/deicode-benchmarking)
+
