@@ -1,0 +1,13 @@
+odoo/addons/sale_disable_inventory_check/README.rst,sha256=B2w7Hf9DbUKLP84llD8ZcVCYIpXTevT9JkruDzxl0w0,1297
+odoo/addons/sale_disable_inventory_check/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/sale_disable_inventory_check/__manifest__.py,sha256=m7bJyos25dJSUF3rPM5IeJTyZ1TCr6g12F0dn7Rhbc4,616
+odoo/addons/sale_disable_inventory_check/i18n/sale_disable_inventory_check.pot,sha256=EoGnET4R_up6bLP-IoxzqrxHTnI6u_yn097rBLbbJnE,527
+odoo/addons/sale_disable_inventory_check/models/__init__.py,sha256=yCAWDCLx_aU99KdvMaLWuyr8nrXS32gT88GDWeFgIOM,96
+odoo/addons/sale_disable_inventory_check/models/sale_order_line.py,sha256=Sa-zpPl4bLyg2WIyFztNC2DHLeWQeu2jzBGzLUYISyo,351
+odoo/addons/sale_disable_inventory_check/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/sale_disable_inventory_check/tests/__init__.py,sha256=Rdf5rh5vUg-GyXn8QslPHM7PCQRUbJEnZ9GDj9OyZdk,109
+odoo/addons/sale_disable_inventory_check/tests/test_disable_inventory_check.py,sha256=VAXmjdtzGjA2Ye_5SzHSU8DHP8hQFdo67_bxyLRHBhM,1221
+odoo11_addon_sale_disable_inventory_check-11.0.1.0.0.99.dev1.dist-info/METADATA,sha256=4VLsIN2Dz7TGtoQ0xw1qQSnIfbSTNaitQ6W4ub7sf5c,1944
+odoo11_addon_sale_disable_inventory_check-11.0.1.0.0.99.dev1.dist-info/RECORD,,
+odoo11_addon_sale_disable_inventory_check-11.0.1.0.0.99.dev1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+odoo11_addon_sale_disable_inventory_check-11.0.1.0.0.99.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
