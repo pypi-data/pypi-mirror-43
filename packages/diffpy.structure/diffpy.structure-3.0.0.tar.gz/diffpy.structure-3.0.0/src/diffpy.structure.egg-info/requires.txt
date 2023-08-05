@@ -1,0 +1,2 @@
+six
+pycifrw>=4.2
