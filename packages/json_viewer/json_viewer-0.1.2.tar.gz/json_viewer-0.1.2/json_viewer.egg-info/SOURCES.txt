@@ -1,0 +1,7 @@
+README.md
+json_viewer
+setup.py
+json_viewer.egg-info/PKG-INFO
+json_viewer.egg-info/SOURCES.txt
+json_viewer.egg-info/dependency_links.txt
+json_viewer.egg-info/top_level.txt
