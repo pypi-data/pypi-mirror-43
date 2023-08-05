@@ -1,0 +1,14 @@
+NEWS.md
+README.md
+news.py
+setup.py
+tox.ini
+trivrepr/__init__.py
+trivrepr/py.typed
+trivrepr.egg-info/PKG-INFO
+trivrepr.egg-info/SOURCES.txt
+trivrepr.egg-info/dependency_links.txt
+trivrepr.egg-info/top_level.txt
+trivrepr.egg-info/zip-safe
+unit_tests/__init__.py
+unit_tests/test_trivial.py
