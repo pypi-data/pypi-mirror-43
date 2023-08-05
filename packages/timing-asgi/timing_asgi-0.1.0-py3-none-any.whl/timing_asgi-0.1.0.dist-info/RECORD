@@ -1,0 +1,9 @@
+timing_asgi/__init__.py,sha256=LYz5mk-n2aQgONtlQwFz84yNJdqBokqv7LhPz6OH8LU,174
+timing_asgi/integrations/__init__.py,sha256=BFAfqctN2LR_0sOTikYr6W63WsB2OLNlhEgSqafIpDI,78
+timing_asgi/integrations/starlette.py,sha256=Hgcrj-hwaJsGIIT4ZKQfx7Wt-MOunF2YVbwzI2N3jq4,1103
+timing_asgi/interfaces.py,sha256=FeRbnCXMNklD4Mpuc92G1UHOKxv0H_7qNPp6ftTF0O4,391
+timing_asgi/middleware.py,sha256=B5e73LiMlAv_LNKFaDAG73YJIp6lONCbSSoaiPpPF08,2362
+timing_asgi/utils.py,sha256=FjLMy03eXLj9nGw9u8laZi3Rb2mb-QS75ejNJg0OGtk,994
+timing_asgi-0.1.0.dist-info/WHEEL,sha256=H7yrFj8VKNed-wu3KWeKkUfcdeHU1Pxzug6QeeO165Q,84
+timing_asgi-0.1.0.dist-info/METADATA,sha256=GBTd1RnUyMiUk-0UbYSDiHLx7QFd4fSiGHuQyuALBwY,498
+timing_asgi-0.1.0.dist-info/RECORD,,
