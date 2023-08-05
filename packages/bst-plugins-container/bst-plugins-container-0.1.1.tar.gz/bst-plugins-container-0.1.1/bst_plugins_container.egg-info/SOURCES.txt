@@ -1,0 +1,12 @@
+README.rst
+setup.py
+bst_plugins_container/__init__.py
+bst_plugins_container.egg-info/PKG-INFO
+bst_plugins_container.egg-info/SOURCES.txt
+bst_plugins_container.egg-info/dependency_links.txt
+bst_plugins_container.egg-info/entry_points.txt
+bst_plugins_container.egg-info/not-zip-safe
+bst_plugins_container.egg-info/requires.txt
+bst_plugins_container.egg-info/top_level.txt
+bst_plugins_container/sources/__init__.py
+bst_plugins_container/sources/docker.py
