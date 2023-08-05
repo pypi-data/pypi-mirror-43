@@ -1,0 +1,8 @@
+numpy
+pandas>=0.24.1
+bokeh>=0.13.0
+scipy
+scikit-learn
+statsmodels
+tqdm
+xlrd
