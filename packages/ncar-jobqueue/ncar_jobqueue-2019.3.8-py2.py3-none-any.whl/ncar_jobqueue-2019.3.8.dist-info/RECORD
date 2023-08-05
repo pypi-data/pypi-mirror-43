@@ -1,0 +1,8 @@
+ncar_jobqueue/__init__.py,sha256=lVQzLSywlF1yWg9esBo3KRnb9HZPC7wB4s0tt9AJLC0,191
+ncar_jobqueue/_version.py,sha256=CyewlqSHDhqkCKAu_LXlirNTpnH9ggU31YbpPfNp9aI,501
+ncar_jobqueue/cluster.py,sha256=DtH0hNRwNRNMMnO87wImrfrpmf44uSfr8p2Ywrdl1FQ,1207
+ncar_jobqueue-2019.3.8.dist-info/LICENSE,sha256=ZB2I9_mFOoLjmq6cppIKelzqUvckDeRPFXiSdooTKCY,11390
+ncar_jobqueue-2019.3.8.dist-info/METADATA,sha256=QL4hdbXKmZO6iAd3ZSPl9tL8xxvi874nFz8wBFFRxf4,1090
+ncar_jobqueue-2019.3.8.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+ncar_jobqueue-2019.3.8.dist-info/top_level.txt,sha256=NjAGZ2M2Z8i56yrQH2TspzBLTC8xeZQ8X-dTcAn9MP0,14
+ncar_jobqueue-2019.3.8.dist-info/RECORD,,
