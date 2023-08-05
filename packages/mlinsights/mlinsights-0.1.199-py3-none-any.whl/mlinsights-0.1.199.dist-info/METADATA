@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: mlinsights
+Version: 0.1.199
+Summary: Extends scikit-learn with a couple of new models, transform, metrics, plotting.
+Home-page: http://www.xavierdupre.fr/app/mlinsights/helpsphinx/index.html
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+License: MIT
+Download-URL: https://github.com/sdpython/mlinsights/
+Keywords: mlinsights,Xavier Dupré
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: pandas-streaming
+
+
+.. image:: https://travis-ci.org/sdpython/mlinsights.svg?branch=master
+    :target: https://travis-ci.org/sdpython/mlinsights
+    :alt: Build status
+
+.. image:: https://ci.appveyor.com/api/projects/status/uj6tq445k3na7hs9?svg=true
+    :target: https://ci.appveyor.com/project/sdpython/mlinsights
+    :alt: Build Status Windows
+
+.. image:: https://circleci.com/gh/sdpython/mlinsights/tree/master.svg?style=svg
+    :target: https://circleci.com/gh/sdpython/mlinsights/tree/master
+
+.. image:: https://badge.fury.io/py/mlinsights.svg
+    :target: http://badge.fury.io/py/mlinsights
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :alt: MIT License
+    :target: http://opensource.org/licenses/MIT
+
+.. image:: https://requires.io/github/sdpython/mlinsights/requirements.svg?branch=master
+     :target: https://requires.io/github/sdpython/mlinsights/requirements/?branch=master
+     :alt: Requirements Status
+
+.. image:: https://codecov.io/github/sdpython/mlinsights/coverage.svg?branch=master
+    :target: https://codecov.io/github/sdpython/mlinsights?branch=master
+
+.. image:: http://img.shields.io/github/issues/sdpython/mlinsights.png
+    :alt: GitHub Issues
+    :target: https://github.com/sdpython/mlinsights/issues
+
+.. image:: https://badge.waffle.io/sdpython/mlinsights.png?label=to%20do&title=to%20do
+    :alt: Waffle
+    :target: https://waffle.io/sdpython/mlinsights
+
+.. image:: http://www.xavierdupre.fr/app/mlinsights/helpsphinx/_images/nbcov.png
+    :target: http://www.xavierdupre.fr/app/mlinsights/helpsphinx/all_notebooks_coverage.html
+    :alt: Notebook Coverage
+
+.. _l-README:
+
+mlsinsights
+===========
+
+*mlinsights* extends *scikit-learn* with a couple of new models,
+transform, metrics, plotting. It provides new trainer such as
+*QuantileLinearRegression* trains a linear regression with *L1* norm
+non-linear correlation based on decision trees, or
+*QuantileMLPRegressor* a modification of scikit-learn's MLPRegressor
+which trains a multi-layer perceptron with *L1* norm.
+It also explores *PredictableTSNE* which trains a supervized
+model to replicate *t-SNE* results or a *PiecewiseRegression*
+which partitions the data before fitting a model on each bucket.
+
+* `GitHub/mlinsights <https://github.com/sdpython/mlinsights/>`_
+* `documentation <http://www.xavierdupre.fr/app/mlinsights/helpsphinx/index.html>`_
+* `Blog <http://www.xavierdupre.fr/app/mlinsights/helpsphinx/blog/main_0000.html#ap-main-0>`_
+
+
+.. _l-HISTORY:
+
+=======
+History
+=======
+
+current - 2019-03-05 - 0.00Mb
+=============================
+
+* `37`: implements interaction_only for polynomial features (2019-02-26)
+* `36`: add parameter include_bias to extended features (2019-02-25)
+* `34`: rename PiecewiseLinearRegression into PiecewiseRegression (2019-02-23)
+* `33`: implement the piecewise classifier (2019-02-23)
+* `31`: uses joblib for piecewise linear regression (2019-02-23)
+* `30`: explore transpose matrix before computing the polynomial features (2019-02-17)
+* `29`: explore different implementation of polynomialfeatures (2019-02-15)
+* `28`: implement PiecewiseLinearRegression (2019-02-10)
+* `27`: implement TransferTransformer (2019-02-04)
+
+0.1.138 - 2019-02-01 - 0.05Mb
+=============================
+
+* `26`: add function to convert a scikit-learn pipeline into a graph (2019-02-01)
+* `25`: implements kind of trainable t-SNE (2019-01-31)
+* `6`: use keras and pytorch (2019-01-03)
+
+0.1.116 - 2018-11-12 - 0.04Mb
+=============================
+
+* `22`: modifies plot gallery to impose coordinates (2018-11-10)
+* `20`: implements a QuantileMLPRegressor (quantile regression with MLP) (2018-10-22)
+* `19`: fix issues introduced with changes in keras 2.2.4 (2018-10-06)
+* `18`: remove warning from scikit-learn about cloning (2018-09-16)
+* `16`: move CI to python 3.7 (2018-08-21)
+* `17`: replace as_matrix by values (pandas deprecated warning) (2018-07-29)
+* `14`: add transform to convert a learner into a transform (sometimes called a  featurizer) (2018-06-19)
+* `13`: add transform to do model stacking (2018-06-19)
+* `8`: move items from papierstat (2018-06-19)
+* `12`: fix bug in quantile regression: wrong weight for linear regression (2018-06-16)
+* `11`: specifying quantile (2018-06-16)
+* `4`: add function to compute non linear correlations (2018-06-16)
+* `10`: implements combination between logistic regression and k-means (2018-05-27)
+* `9`: move items from ensae_teaching_cs (2018-05-08)
+* `7`: add quantile regression (2018-05-07)
+* `5`: replace flake8 by code style (2018-04-14)
+* `1`: change background for cells in notebooks converted into rst then in html, highlight-ipython3 (2018-01-05)
+
+0.1.38 - 2017-12-06 - 0.01Mb
+============================
+
+* `2`: save features and metadatas for the search engine and retrieves them (2017-12-03)
+
+
