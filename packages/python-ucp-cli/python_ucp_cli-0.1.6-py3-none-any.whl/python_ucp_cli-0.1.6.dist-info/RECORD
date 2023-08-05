@@ -1,0 +1,15 @@
+ucp_cli.py,sha256=OQPxsAnxjFiLYlLVHQaXx2hfKR27BZSIbPv_6EHHEbI,402
+apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apis/accounts.py,sha256=bEe432fobcT8TYEfDS06kq8rMOaeLSz65LmdKgCoIss,13754
+apis/auth.py,sha256=ShjhqSMhuVrnOjLPhtIq6RHZE7bRlyJIPJlavUOwshE,1904
+commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commands/auth.py,sha256=Yo9pcJfaujYl_Py5rD278aPAG-52i2imBszlWkN0Viw,1027
+commands/common.py,sha256=ud4xc93IYoHDjHpRojTXf2qo_8GpAg2M_YxXeNt5GsE,1389
+commands/config.py,sha256=Rh1-psZ7OcFOlrhp7c8k5zaZtH_3zIDtLnc4NRBbn6k,2798
+commands/subjects.py,sha256=korShRgvWDPemZ83L0dPxHVg6BPP7ct5_S5duPmnJxQ,7355
+python_ucp_cli-0.1.6.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+python_ucp_cli-0.1.6.dist-info/METADATA,sha256=a7ppjAUIBpyj7SocUyzjCG3chWJhTisehWj4FqT_HjE,1783
+python_ucp_cli-0.1.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+python_ucp_cli-0.1.6.dist-info/entry_points.txt,sha256=kavL4x8QRlXA3eTj9K0W-h4ZFa5s9vD2IgAkJgND-2g,49
+python_ucp_cli-0.1.6.dist-info/top_level.txt,sha256=l8c_NdkA2UFf7ZpCbj6-jIP5W4nO6hr-X2ODov90KhQ,22
+python_ucp_cli-0.1.6.dist-info/RECORD,,
