@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+  <title>Test the Python-Markdown extension tagtomarkdown</title>
+</head>
+<style> td, th {border: 1px solid black; padding:5px;} table {border-collapse: collapse;}</style>
+<h2 id="test-tagtomarkdown-tags-in-markdown-file">Test tagtomarkdown tags in markdown file</h2>
+<p>Just some text, until further.
+<br />and a home made line break
+and more text.</p>
+<h3 id="try-tables">Try tables</h3>
+<table>
+<thead>
+<tr>
+<th align="center">No</th>
+<th>Text</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>Here is the first row. You can write as many lines here as you want.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>And the second</td>
+<td>And a bit of a comment here.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>and that's it.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 1:  Some caption text for the table</strong></p>
+<h3 id="try-ordered-lists">Try ordered lists</h3>
+<ol>
+<li>Number one and with quite some text, so that we can show
+that there can be more input lines here. But note that when there is a
+keyword after the &gt;li, there should be no more text in that line</li>
+<li>Next item.</li>
+<li>Note no keyword (*incr) here.</li>
+</ol>
+<h2 id="test-references-to-table-row-numbers-and-ordered-list-numbers">Test references to table row numbers and ordered list numbers</h2>
+<p>Here, we can refer symbolically row
+2
+in the table above and the ordered list item
+2.</p>
+<h2 id="a-few-other-services">A few other services</h2>
+<p>Last update:
+2019-02-28 14:44:42.</p>
