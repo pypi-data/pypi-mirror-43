@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: cmdcmd
+Version: 2
+Summary: Ergonomic command line interface maker
+Home-page: https://github.com/aperezdc/python-cmdcmd
+Author: Adrian Perez de Castro
+Author-email: aperez@igalia.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8-author ; extra == 'dev'
+Requires-Dist: flake8-builtins ; extra == 'dev'
+Requires-Dist: flake8-comprehensions ; extra == 'dev'
+Requires-Dist: flake8-debugger ; extra == 'dev'
+Requires-Dist: flake8-deprecated ; extra == 'dev'
+Requires-Dist: flake8-diff ; extra == 'dev'
+Requires-Dist: flake8-dodgy ; extra == 'dev'
+Requires-Dist: flake8-double-quotes ; extra == 'dev'
+Requires-Dist: flake8-pep3101 ; extra == 'dev'
+Requires-Dist: flake8-tuple ; extra == 'dev'
+Requires-Dist: green ; extra == 'dev'
+
+cmdcmd
+======
+
+.. .. image:: https://readthedocs.org/projects/hipack-python/badge/?version=latest
+..    :target: https://hipack-python.readthedocs.io/en/latest
+..    :alt: Documentation Status
+
+.. image:: https://img.shields.io/travis/aperezdc/python-cmdcmd.svg?style=flat
+   :target: https://travis-ci.org/aperezdc/python-cmdcmd
+   :alt: Build Status
+
+.. image:: https://img.shields.io/coveralls/aperezdc/python-cmdcmd/master.svg?style=flat
+   :target: https://coveralls.io/r/aperezdc/python-cmdcmd?branch=master
+   :alt: Code Coverage
+
+
+
