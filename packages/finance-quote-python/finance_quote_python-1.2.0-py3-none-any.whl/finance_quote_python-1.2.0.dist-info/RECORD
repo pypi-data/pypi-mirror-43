@@ -1,0 +1,12 @@
+finance_quote_python/__init__.py,sha256=a99ooMwOgW6GhpY2LF_I9JXZ5RIlGJ8e7aATUJHOG0g,26
+finance_quote_python/alphavantage.py,sha256=KAx2UyiWOxcoT6lLsZZwk3B60lNbNm1ywGE7I7Su4ww,1450
+finance_quote_python/boerse_frankfurt.py,sha256=IttBlPyYXPlf_nfusRhCNlmS1xhrbGLsHeG7dJsFlYo,2313
+finance_quote_python/finance.py,sha256=8Ux1VQd9tg849ul3IDckwfgtOgmo2xmxrrkZCG51h6s,4349
+finance_quote_python/fixerio.py,sha256=T-aUuaXAQiCuSa-chnKxSs0CGDaU97vagKXeyV7is44,6255
+finance_quote_python/morningstar.py,sha256=JiENhFvUII-5RyqU_XDmlgmHB_ehfQmo7eAV0FZ3av8,3066
+finance_quote_python/vanguard_au.py,sha256=Lc882ONI9eMlYR9I7SsfeMKTk3p9DF5zTrTpP_2YrpE,5051
+finance_quote_python-1.2.0.dist-info/LICENSE,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+finance_quote_python-1.2.0.dist-info/METADATA,sha256=yJGHYfrN4eT41ZxGbulry1cs0rNzrU1YxQAUkj3FoiA,269
+finance_quote_python-1.2.0.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+finance_quote_python-1.2.0.dist-info/top_level.txt,sha256=driRAaVBqXMc5S2u74NC6fPmoMXshvF0y7SP3IHrzRA,21
+finance_quote_python-1.2.0.dist-info/RECORD,,
