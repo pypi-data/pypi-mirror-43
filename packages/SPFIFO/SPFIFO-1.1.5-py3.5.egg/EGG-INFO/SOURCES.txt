@@ -1,0 +1,8 @@
+README.md
+setup.py
+spfifo.py
+SPFIFO.egg-info/PKG-INFO
+SPFIFO.egg-info/SOURCES.txt
+SPFIFO.egg-info/dependency_links.txt
+SPFIFO.egg-info/requires.txt
+SPFIFO.egg-info/top_level.txt
