@@ -1,0 +1,7 @@
+setup.py
+ociopath/__init__.py
+ociopath.egg-info/PKG-INFO
+ociopath.egg-info/SOURCES.txt
+ociopath.egg-info/dependency_links.txt
+ociopath.egg-info/not-zip-safe
+ociopath.egg-info/top_level.txt
