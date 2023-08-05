@@ -1,0 +1,3 @@
+six
+Django<2.0,>=1.8
+django-model-utils
