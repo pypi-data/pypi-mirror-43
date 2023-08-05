@@ -1,0 +1,3 @@
+[console_scripts]
+dupe_remove = dupe_remove.cli:main
+
