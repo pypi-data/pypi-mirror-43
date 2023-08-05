@@ -1,0 +1,3 @@
+[console_scripts]
+pontaria = app:main
+
