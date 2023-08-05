@@ -1,0 +1,5 @@
+click
+attrs
+
+[boto3]
+boto3
