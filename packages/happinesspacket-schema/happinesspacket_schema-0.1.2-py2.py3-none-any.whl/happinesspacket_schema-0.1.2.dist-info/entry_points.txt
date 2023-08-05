@@ -1,0 +1,3 @@
+[fedora.messages]
+happinesspacket.messageV1 = happinesspacket_schema.schema:MessageV1
+

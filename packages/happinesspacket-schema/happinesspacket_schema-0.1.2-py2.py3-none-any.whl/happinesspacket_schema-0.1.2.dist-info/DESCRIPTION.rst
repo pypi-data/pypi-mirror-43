@@ -1,0 +1,3 @@
+A schema package for Fedora Happiness Packets
+
+
