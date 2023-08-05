@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: PyPhoenixS
+Version: 1.0
+Summary: Python interface to Phoenix
+Home-page: UNKNOWN
+Author: Karteek
+Author-email: karteek@coverfoxmail.com.com
+License: Apache License, Version 2.0
+Description: long_description
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Front-Ends
+Requires-Python: >3.6
