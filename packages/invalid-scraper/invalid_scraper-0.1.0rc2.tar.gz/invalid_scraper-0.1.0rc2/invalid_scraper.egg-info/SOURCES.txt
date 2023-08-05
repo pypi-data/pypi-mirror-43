@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+invalid_scraper/__init__.py
+invalid_scraper/__meta__.py
+invalid_scraper/cli.py
+invalid_scraper.egg-info/PKG-INFO
+invalid_scraper.egg-info/SOURCES.txt
+invalid_scraper.egg-info/dependency_links.txt
+invalid_scraper.egg-info/entry_points.txt
+invalid_scraper.egg-info/requires.txt
+invalid_scraper.egg-info/top_level.txt
+invalid_scraper/data/hosts.yml
+packaging/requirements.txt

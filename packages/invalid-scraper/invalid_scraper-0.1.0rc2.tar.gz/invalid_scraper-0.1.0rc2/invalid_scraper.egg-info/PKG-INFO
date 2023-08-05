@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: invalid-scraper
+Version: 0.1.0rc2
+Summary: A tool for finding rov-invalid received routes.
+Home-page: https://github.com/wolcomm/invalid-scraper
+Author: Ben Maddison
+Author-email: benm@workonline.africa
+License: MIT
+Download-URL: https://github.com/wolcomm/invalid-scraper/0.1.0rc2
+Description: [![PyPI](https://img.shields.io/pypi/v/invalid-scraper.svg)](https://pypi.python.org/pypi/invalid-scraper)
+        [![Build Status](https://travis-ci.com/wolcomm/invalid-scraper.svg?branch=master)](https://travis-ci.com/wolcomm/invalid-scraper)
+        [![codecov](https://codecov.io/gh/wolcomm/invalid-scraper/branch/master/graph/badge.svg)](https://codecov.io/gh/wolcomm/invalid-scraper)
+        
+        # invalid-scraper
+        
+        Iterate through a list of Cisco IOS routers (`invalid_scraper/data/hosts.yml`)
+        and find RPKI Invalid routes learnt from neighbors.
+        
+        ## Usage
+        
+        ```
+        usage: invalid-scraper [-h] [--domain DOMAIN] [--username USERNAME]
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          --domain DOMAIN, -d DOMAIN
+          --username USERNAME, -u USERNAME
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
