@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: stockai
+Version: 0.0.2
+Summary: Get stock info from Yahoo! Finance
+Home-page: https://github.com/dalenguyen/stockai
+Author: Dale Nguyen
+Author-email: dungnq@itbox4vn.com
+License: UNKNOWN
+Description: # Stock AI
+        
+        Python module to get stock data from Yahoo! Finance
+        
+        ## Install
+        
+        From PyPI with pip
+        
+        ```sh
+        pip install stockai
+        ```
+        
+        ## Usage examples
+        
+        ```python
+        from stockai import Stock
+        td = Stock('TD.TO')
+        
+        print(td.get_summary_profile())
+        print(td.get_price())
+        print(td.get_currency())
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
