@@ -1,0 +1,5 @@
+setup.py
+kw_emails.egg-info/PKG-INFO
+kw_emails.egg-info/SOURCES.txt
+kw_emails.egg-info/dependency_links.txt
+kw_emails.egg-info/top_level.txt
