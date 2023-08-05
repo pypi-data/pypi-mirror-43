@@ -1,0 +1,6 @@
+pynput
+pykeepass
+colorama
+pygpgme
+future
+pygpgme
