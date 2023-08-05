@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: PArray
+Version: 1.0.1
+Summary: Share narray between processes
+Home-page: https://github.com
+Author: XXX
+Author-email: XXX@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: numpy array shared memory shm
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
