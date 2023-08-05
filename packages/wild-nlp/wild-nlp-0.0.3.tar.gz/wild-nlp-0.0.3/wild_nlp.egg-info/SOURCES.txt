@@ -1,0 +1,15 @@
+README.md
+setup.py
+wild_nlp.egg-info/PKG-INFO
+wild_nlp.egg-info/SOURCES.txt
+wild_nlp.egg-info/dependency_links.txt
+wild_nlp.egg-info/top_level.txt
+wildnlp/__init__.py
+wildnlp/aspects/__init__.py
+wildnlp/aspects/base.py
+wildnlp/aspects/piglatin.py
+wildnlp/aspects/reverser.py
+wildnlp/aspects/utils.py
+wildnlp/datasets/__init__.py
+wildnlp/datasets/base.py
+wildnlp/datasets/sample_dataset.py
