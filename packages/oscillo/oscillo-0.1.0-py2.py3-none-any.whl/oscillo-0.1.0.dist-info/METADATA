@@ -1,0 +1,57 @@
+Metadata-Version: 2.0
+Name: oscillo
+Version: 0.1.0
+Summary: Record the system load at the execution of the command line and display it graphically
+Home-page: https://blog.atomicer.cn
+Author: Rao Mengnan
+Author-email: raomengnan@gmail.com
+Maintainer: Rao Mengnan
+Maintainer-email: raomengnan@gmail.com
+License: UNKNOWN
+Platform: Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: psutil (==5.2.2)
+Requires-Dist: matplotlib (==2.1.0)
+Requires-Dist: numpy (==1.13.1)
+Requires-Dist: PyYAML (==3.13)
+
+# oscillo
+
+Record the system load at the execution of the command line and display it graphically
+
+![demo](https://raw.githubusercontent.com/raomuyang/cmd-oscillo/master/demo/metrix.log.png)
+
+## Usage
+
+```shell
+pip install oscillo
+
+oscillo -c </path/to/config-file.yml> [-g]
+```
+
+## Config file
+
+The command line in commands will be executed in order
+
+```yml
+# Demo
+commands:
+  -
+    name: gzip
+    cmd: gzip big-file
+
+  -
+    name: tar
+    cmd: tar -zcf tmp.tar.gz big-file
+
+output: gzip-and-tar-gz
+```
+
+
