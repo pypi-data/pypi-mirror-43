@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: shapeshifter
+Version: 1.1.0
+Summary: A tool for managing large datasets
+Home-page: https://github.com/srp33/ShapeShifter
+Author: Piccolo Lab
+Author-email: stephen_piccolo@byu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: numpy (==1.15.4)
+Requires-Dist: sqlalchemy
+Requires-Dist: xlsxwriter
+Requires-Dist: tables
+Requires-Dist: xlrd
+Requires-Dist: nbformat
+
+UNKNOWN
+
+
