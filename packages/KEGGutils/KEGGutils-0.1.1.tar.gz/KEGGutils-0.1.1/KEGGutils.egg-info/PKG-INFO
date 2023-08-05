@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: KEGGutils
+Version: 0.1.1
+Summary: Simple utils to work with KEGG data on NetworkX
+Home-page: https://github.com/filippocastelli/KEGGutils
+Author: Filippo Castelli
+Author-email: filippocastelli42@gmail.com
+License: Unlicense
+Description: # KEGGutils
+        Utils for working with KEGG data on NetworkX
+        
+Keywords: KEGG networkx utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: Public Domain
