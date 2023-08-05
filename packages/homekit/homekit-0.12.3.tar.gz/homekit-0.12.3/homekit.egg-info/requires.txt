@@ -1,0 +1,4 @@
+zeroconf
+hkdf
+ed25519
+cryptography
