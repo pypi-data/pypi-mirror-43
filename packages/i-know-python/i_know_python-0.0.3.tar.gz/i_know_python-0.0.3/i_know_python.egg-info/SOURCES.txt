@@ -1,0 +1,11 @@
+README.md
+setup.py
+i_know_python/__init__.py
+i_know_python/__version__.py
+i_know_python/main.py
+i_know_python.egg-info/PKG-INFO
+i_know_python.egg-info/SOURCES.txt
+i_know_python.egg-info/dependency_links.txt
+i_know_python.egg-info/entry_points.txt
+i_know_python.egg-info/not-zip-safe
+i_know_python.egg-info/top_level.txt
