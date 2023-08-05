@@ -1,0 +1,5 @@
+setup.py
+kw_lcappdb.egg-info/PKG-INFO
+kw_lcappdb.egg-info/SOURCES.txt
+kw_lcappdb.egg-info/dependency_links.txt
+kw_lcappdb.egg-info/top_level.txt
