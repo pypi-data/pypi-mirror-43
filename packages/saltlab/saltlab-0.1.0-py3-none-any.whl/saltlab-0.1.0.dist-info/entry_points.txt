@@ -1,0 +1,3 @@
+[console_scripts]
+saltlab=saltlab.cli:saltlab
+

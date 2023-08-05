@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: saltlab
+Version: 0.1.0
+Summary: SaltStack experimental setup manager
+Home-page: https://gitlab.com/spirostack/saltlab
+License: GPL-3.0+
+Keywords: salt,saltstack,docker
+Author: Jamie Bliss
+Author-email: jamie@ivyleav.es
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Systems Administration
+Requires-Dist: camel (>=0.1.2,<0.2.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: docker (>=3.7,<4.0)
+Requires-Dist: setuptools (>=40.8,<41.0)

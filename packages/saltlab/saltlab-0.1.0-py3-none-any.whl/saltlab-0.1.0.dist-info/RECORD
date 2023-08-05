@@ -1,0 +1,11 @@
+saltlab/__init__.py,sha256=XBdgNhrtxoRVtwDR7d8b5g1X_i2XP87eL5VOe68ZC0g,612
+saltlab/bootstrap-salt.sh,sha256=I3KOS15U9WQGIHDjvlPFYCtVwkyadmcZaKu_PWCSWMs,264955
+saltlab/cli.py,sha256=H4T6PeiTTmwZdJreQpcCXQ2K7ynYQw4cj2GOMwSyTtw,4667
+saltlab/client.py,sha256=5LfFOfd2AEt0lsGVs0RD-tXfWt-6kdhyQuHJ10xgy08,11126
+saltlab/cluster.py,sha256=x056BFxIGYq798Vs3Owmi1YDZUW2fHiMUsaHdklGCBU,6499
+saltlab/desert.py,sha256=xQL4IX7jVnvVj2Cf9ntZzBt9GMr4R-I3OY7AqJU2XiY,1956
+saltlab/di.py,sha256=ohxSjVkIsQ3FFa7HE1aQJV5B-VeDGnO-0d7JTONnwjI,3545
+saltlab-0.1.0.dist-info/entry_points.txt,sha256=d75Ji_z1pBzA5V0V0v5oJJgBUw4zfppw2i8HqQfVJMQ,47
+saltlab-0.1.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+saltlab-0.1.0.dist-info/METADATA,sha256=kXs-_-qZxcCKzv-bqFPBtmDLMiXPPHnR_hHP4KqmLaA,890
+saltlab-0.1.0.dist-info/RECORD,,
