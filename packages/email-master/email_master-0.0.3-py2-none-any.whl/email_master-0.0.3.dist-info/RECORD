@@ -1,0 +1,8 @@
+email_master/__init__.py,sha256=_lNtQ3lOt3xzO17ksO8KI_-TLjtdC92EwWC9WkUUHQA,118
+email_master/eml.py,sha256=bNTyShhSLNzxHg35fQRcN1d10_Q0AikmtJpTsXFhloM,10854
+email_master/msg.py,sha256=Hdd4kvCwU3Me6g9RKyAPf74KKB-HaB3EiwOtlWb4Bgo,3010
+email_master/util.py,sha256=DYq3WaDbhxV2_tpOT5PLzTaNuegued33qBvSO1zPzu4,14334
+email_master-0.0.3.dist-info/METADATA,sha256=2Dwfl3Rlrc6HcREOeZ23BPQsTZ6_P3C7XS2PwN-XwWQ,411
+email_master-0.0.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+email_master-0.0.3.dist-info/top_level.txt,sha256=xpGMPUifwS9izVRr35-X0lDiwkkPaME8uVbMmyQhSdg,13
+email_master-0.0.3.dist-info/RECORD,,
