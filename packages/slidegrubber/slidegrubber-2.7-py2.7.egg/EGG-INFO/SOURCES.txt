@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+slidegrubber/__init__.py
+slidegrubber/grub.py
+slidegrubber.egg-info/PKG-INFO
+slidegrubber.egg-info/SOURCES.txt
+slidegrubber.egg-info/dependency_links.txt
+slidegrubber.egg-info/not-zip-safe
+slidegrubber.egg-info/requires.txt
+slidegrubber.egg-info/top_level.txt
