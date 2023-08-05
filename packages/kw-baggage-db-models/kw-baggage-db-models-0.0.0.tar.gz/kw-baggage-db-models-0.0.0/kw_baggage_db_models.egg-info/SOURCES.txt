@@ -1,0 +1,5 @@
+setup.py
+kw_baggage_db_models.egg-info/PKG-INFO
+kw_baggage_db_models.egg-info/SOURCES.txt
+kw_baggage_db_models.egg-info/dependency_links.txt
+kw_baggage_db_models.egg-info/top_level.txt
