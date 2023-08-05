@@ -1,0 +1,12 @@
+aiosfstream/__init__.py,sha256=leDV_moWa7qv-yT81RRO9VDAQvuvZJPk8js3vYqKzgI,903
+aiosfstream/_metadata.py,sha256=oA94DuhzPBDr5OZ4QFLLekLpWIgVSGPAfXiRHGpLlbU,501
+aiosfstream/auth.py,sha256=LolwHSpqzNk71SEJp70klEiA9g8TKSKxFMBlBQRrPDU,9752
+aiosfstream/client.py,sha256=60ZuKONLxl9SfFWcdNxJotIacR7NIks2AoQ2ZprnWkM,16637
+aiosfstream/exceptions.py,sha256=0WCeDPe3lRlixf8f5bEIR8U6hfhAMOp1s70Fycb0NTc,4586
+aiosfstream/py.typed,sha256=qvMWwBEgc3rYU78bBPtaCXibkNuPeIXRYljQBD0JzpE,14
+aiosfstream/replay.py,sha256=qfovqEkzkIyoXi-4ivViiWYwL78Fbab46GUEZQzucZk,11906
+aiosfstream-0.5.0.dist-info/LICENSE.txt,sha256=A1hAIQExM2gyDdnEvHnA_h3APLrmcQrR-jIpDogjwLI,1074
+aiosfstream-0.5.0.dist-info/METADATA,sha256=dlDIZrTVs-KFxBGg-v5W4b6VGRzyCNBLz1NF8KXlcfc,7398
+aiosfstream-0.5.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+aiosfstream-0.5.0.dist-info/top_level.txt,sha256=IP-GfgFL10nYcGO7V49f6rR_yUp15zI2QqrFBQc3OZc,12
+aiosfstream-0.5.0.dist-info/RECORD,,
