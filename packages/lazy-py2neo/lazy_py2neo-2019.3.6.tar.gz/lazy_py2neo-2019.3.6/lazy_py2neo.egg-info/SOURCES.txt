@@ -1,0 +1,8 @@
+README.md
+lazy_py2neo.py
+setup.py
+lazy_py2neo.egg-info/PKG-INFO
+lazy_py2neo.egg-info/SOURCES.txt
+lazy_py2neo.egg-info/dependency_links.txt
+lazy_py2neo.egg-info/requires.txt
+lazy_py2neo.egg-info/top_level.txt
