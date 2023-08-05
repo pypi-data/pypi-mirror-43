@@ -1,0 +1,4 @@
+[console_scripts]
+jujubes = jujubes_pill:jujube
+pill = jujubes_pill:pill
+
