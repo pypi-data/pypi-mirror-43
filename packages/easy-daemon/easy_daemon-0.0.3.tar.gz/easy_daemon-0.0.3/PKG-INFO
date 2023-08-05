@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: easy_daemon
+Version: 0.0.3
+Summary: Easy daemon base class
+Home-page: https://github.com/oleglpts/easy_daemon
+Author: Oleg Lupats
+Author-email: oleglupats@gmail.com
+License: MIT
+Description: Very simple base daemon class. Just override method 'run'. See examples
+Platform: any
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
