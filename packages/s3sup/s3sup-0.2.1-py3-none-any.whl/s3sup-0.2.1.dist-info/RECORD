@@ -1,0 +1,15 @@
+s3sup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3sup/catalogue.py,sha256=jHWNdsDR9eq455q4Rw91nqCNXtmT9JLmvelwvGyQc-8,4988
+s3sup/fileprepper.py,sha256=8S3QKGTt2oLLvG4MVnzY8Tx4Ofos7m6eqDDS4Ye-1Ug,5633
+s3sup/project.py,sha256=cfWuMLNVOElkIQ4H8sFbqmaVcx_59ztE2dZmAozDWyo,7188
+s3sup/rules.py,sha256=WBLDbvSJx8qEV8xce-9mz1Dn-U-XFsDsxSDFCgqaZ-0,997
+s3sup/rules.schema.json,sha256=Gg30PCouKgHJVbn3LwSaNmTa_ND2S9AMf0zfoPzBU3c,5032
+s3sup/utils.py,sha256=zHKR0PYTDDxF3ob7oR70UE_PZ0gKUOmbYrASuVKIA6I,712
+s3sup/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3sup/scripts/s3sup.py,sha256=BYVoYgiLOh4yNT58WMig4BTh9xOPSR58nnzbN_XhdQM,4880
+s3sup-0.2.1.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+s3sup-0.2.1.dist-info/METADATA,sha256=VrME54OF1VfeSMaMvu08LDiwoyQuVn17I3A88VSB0WQ,6037
+s3sup-0.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+s3sup-0.2.1.dist-info/entry_points.txt,sha256=HjClVys0tzpdrFPnC-D1MgudrcOXY8b5Xx6Uu2myKng,51
+s3sup-0.2.1.dist-info/top_level.txt,sha256=5F2RaSdx0dRlx4pacx4p1uh_wn0nOuAD3HvVWm-z0t0,6
+s3sup-0.2.1.dist-info/RECORD,,
