@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: rpnChiladaData
+Version: 1.0.0
+Summary: command-line RPN calculator data files
+Home-page: http://github.com/ConceptJunkie/rpn/
+Author: Rick Gutleber
+Author-email: rickg@his.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Environment :: Console
+Requires-Dist: mpmath (>=1.1.0)
+
+
+rpnChilada is a command-line Reverse-Polish Notation calculator that was
+first written in C in 1988 as a four-function calculator.
+
+rpnChiladaData is the package containing the data files for rpnChilada that
+rarely change.
+
+
