@@ -1,0 +1,5 @@
+setup.py
+kw_cucamelon.egg-info/PKG-INFO
+kw_cucamelon.egg-info/SOURCES.txt
+kw_cucamelon.egg-info/dependency_links.txt
+kw_cucamelon.egg-info/top_level.txt
