@@ -1,0 +1,7 @@
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/install/strip.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/install/local.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/_hello_sk.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/rebuild_cache.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/edit_cache.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/install.dir
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-build/CMakeFiles/list_install_components.dir

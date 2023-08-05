@@ -1,0 +1,4 @@
+# ninja log v5
+0	69	1547128386344863479	CMakeFiles/_hello_sk.dir/hello/_hello_sk.cxx.o	16f3f4b2c5169239
+69	89	1547128386364863514	_hello_sk.cpython-35m-x86_64-linux-gnu.so	e45b179d67219f3a
+90	92	0	CMakeFiles/install.util	e759c4be004c15c

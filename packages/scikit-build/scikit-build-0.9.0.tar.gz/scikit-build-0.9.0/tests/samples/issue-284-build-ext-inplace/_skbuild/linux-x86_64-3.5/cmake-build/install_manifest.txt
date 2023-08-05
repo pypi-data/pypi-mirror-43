@@ -1,0 +1,1 @@
+/home/jcfr/Projects/scikit-build/tests/samples/issue-284-build-ext-inplace/_skbuild/linux-x86_64-3.5/cmake-install/hello/_hello_sk.cpython-35m-x86_64-linux-gnu.so
