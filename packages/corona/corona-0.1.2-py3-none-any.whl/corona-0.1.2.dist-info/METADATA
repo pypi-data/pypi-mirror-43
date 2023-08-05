@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: corona
+Version: 0.1.2
+Summary: Website Screenshot Utility
+Home-page: https://github.com/pyarmory/corona
+Author: John Vrbanac
+Author-email: john.vrbanac@linux.com
+License: Apache v2
+Keywords: screenshot website
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: pyppeteer (==0.0.25)
+
+Corona
+======
+
+Corona is essentially a basic webpage screenshot utility that
+uses headless Chromium via pyppeteer.
+
+Running
+-------
+
+.. code-block:: shell
+
+
+    # Download a version of Chromium to use
+    corona setup
+
+    # Take a snapshot
+    corona snap https://google.com google.png
+
+
+Troubleshooting
+---------------
+
+Depending on your execution environment, you might need to disable the
+Chrome sandbox. To do so, add the ``--disable-sandbox`` argument; however,
+please be aware of the risks in doing this.
+
+
+Extension
+---------
+The application allows for a couple of extension points via a python
+script that follows this format:
+
+.. code-block:: python
+
+
+    async def pre_snapshot(page):
+        # Do something awesome just before the
+        # snapshot here
+
+    async def post_snapshot(page):
+        # Do something even more awesome after
+        # the snapshot has been taken
+
+
