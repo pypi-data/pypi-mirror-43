@@ -1,0 +1,3 @@
+[console_scripts]
+slrunner = commands.lint:lint
+
