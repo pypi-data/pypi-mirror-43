@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+jupyterlab
+nengo
+tqdm
