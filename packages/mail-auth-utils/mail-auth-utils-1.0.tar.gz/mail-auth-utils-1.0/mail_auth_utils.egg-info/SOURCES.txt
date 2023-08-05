@@ -1,0 +1,12 @@
+setup.py
+mail_auth_utils.egg-info/PKG-INFO
+mail_auth_utils.egg-info/SOURCES.txt
+mail_auth_utils.egg-info/dependency_links.txt
+mail_auth_utils.egg-info/entry_points.txt
+mail_auth_utils.egg-info/top_level.txt
+mailauthutils/__init__.py
+mailauthutils/auth.py
+mailauthutils/cmd.py
+mailauthutils/imap_auth.py
+mailauthutils/sieve_auth.py
+mailauthutils/smtp_auth.py

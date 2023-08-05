@@ -1,0 +1,5 @@
+[console_scripts]
+imap-auth = mailauthutils.imap_auth:main
+sieve-auth = mailauthutils.sieve_auth:main
+smtp-auth = mailauthutils.smtp_auth:main
+
