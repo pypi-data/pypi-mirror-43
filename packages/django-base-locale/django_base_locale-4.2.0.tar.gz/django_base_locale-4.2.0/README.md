@@ -1,0 +1,151 @@
+# Django Base Locale
+## Simple way to create multi language Django app.
+
+#### 1. Install package:
+```text
+pip install django-base-locale
+```
+
+#### 2. Register app in INSTALLED_APPS is your settings.py:
+```text
+INSTALLED_APPS = [
+    ...
+    'base_locale.apps.BaseLocaleConfig',
+    ...
+]
+```
+
+#### 3. Create your model with model locale:
+```python
+from base_locale.models import BaseModel, BaseModelLocale
+
+
+class Example(BaseModel):
+    pass
+    
+
+class ExampleLocale(BaseModelLocale):
+    pass
+```
+
+#### Your base urls.py file:
+```text
+from base_locale.urls import include_locale_urls
+
+from example.urls import urlpatterns as example_urls
+
+
+app_urls = [
+    *example_urls,
+]
+
+urlpatterns = [
+    ...,
+    path('', include_locale_urls(app_urls)),
+    """
+    # In base_locale/urls.py
+    def include_locale_urls(urls):
+        return include([ 
+            re_path(r'^(?P<language>[a-z]{2})/', include(urls)),
+            path('', include(urls)),
+        ])
+    """
+]
+```
+
+#### How to use
+##### views.py
+We create class BaseLocaleContext(ContextMixin).
+```text
+from django.views.generic import DetailView
+
+from base_locale.views import BaseLocaleContext
+
+
+class ExampleView(BaseLocaleContext, DetailView):
+    model = Example
+    template_name = 'template.html'
+    context_object_name = 'example'
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        """
+        Now context have instance language, all languages and path with out current language slug.
+            context['language']
+            context['languages']
+            context['path'](form request path '/ru/...' replace language slug)
+        
+        context['example'] have methods:
+            property locales
+                Return all locales
+            property locale_default
+                Use in admin panel, for display locale instance
+            get_locale
+                Need argument language
+                Return Locale instance by language
+                context['example_locale'] = context['example'].get_locale(context['language'])
+        """
+        return context
+
+```
+
+##### template.html
+For getting current locale from instance load base_locale_extras
+```text
+{% load base_locale_extras %}
+{% bl_locale example as example_locale %}
+    Now we use the locale object.
+    {{ example_locale.language.code }}
+    Two ways for use example instance:
+    1. {{ example.pk }}
+    2. {{ example_locale.base.pk }}
+{% end_bl_locale %}
+``` 
+
+##### How to create page translation links:
+```text
+{% for lang in languages %}
+    <a href="{% bl_trans_url lang %}">lang.code</a>
+{% endfor %}
+{# or #}
+{% for lang in languages %}
+    <a href="{% bl_trans_url lang path %}">lang.code</a>
+{% endfor %}
+```
+path is not require. path is request.path with out language code.
+
+##### How to create page locale links:
+```text
+{% load base_locale_extras %}
+<a href="{% bl_url '...' %}"></a>
+{# or #}
+<a href="{% bl_url '...' *args **kwargs %}"></a>
+```
+
+### Register tags in settings.py
+```text
+TEMPLATES = [
+    {
+        ...
+        'OPTIONS': {
+            ...
+            'builtins': [
+                'base_locale.templatetags.base_locale_extras',
+            ]  
+        },
+    },
+]
+```
+
+### Models reference
+base_locale app has modifier django metaclass, and use new metaclass for BaseModelLocale.
+New metaclass was auto generation foreign key for BaseModel. See [How to use](#how-to-use).
+For access from BaseModelLocale to BaseModel use attribute 'base'.
+
+BaseModel have attributes:
+- property locales: return all locales.
+- property locale_default: return locale by language__is_default is True.
+- get_locale(language): return locale by language.
+
+BaseModelLocale have attributes:
+- property base: return instance ForeignKey for BaseModel.
