@@ -1,0 +1,3 @@
+[console_scripts]
+quantdom=quantdom.cli:cli
+
