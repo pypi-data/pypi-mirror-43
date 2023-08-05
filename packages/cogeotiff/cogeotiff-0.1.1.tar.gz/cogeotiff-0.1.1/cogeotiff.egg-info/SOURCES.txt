@@ -1,0 +1,17 @@
+README.md
+setup.py
+cogeotiff/__init__.py
+cogeotiff/cog.py
+cogeotiff/profiles.py
+cogeotiff/utils.py
+cogeotiff/validate_cogeotiff.py
+cogeotiff.egg-info/PKG-INFO
+cogeotiff.egg-info/SOURCES.txt
+cogeotiff.egg-info/dependency_links.txt
+cogeotiff.egg-info/entry_points.txt
+cogeotiff.egg-info/requires.txt
+cogeotiff.egg-info/top_level.txt
+cogeotiff/cli/__init__.py
+cogeotiff/cli/cli.py
+cogeotiff/cli/create.py
+cogeotiff/cli/validate.py
