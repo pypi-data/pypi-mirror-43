@@ -1,0 +1,8 @@
+pals/__init__.py,sha256=9lKyWmOGYTDnLF-5nW6Kgv6LgfCFN9J-kACbJHQd0eM,32
+pals/core.py,sha256=XhPAhtv-FXh9DH9YL9E1NejDF4qzJzKKfRXw7hTbbfo,4776
+pals/version.py,sha256=Te87yKMugWziDTANt72vxbLxpfD405Ve4s9uS1gESGU,18
+pals/tests/test_core.py,sha256=aZk6fXnLJoftRFhQNw-D9O5ds5qrxs_srwt6fTLvv7Q,4650
+PALs-0.2.0.dist-info/METADATA,sha256=mO4jLXVWJozn9_-UauxX4-ve0IrvkRFGcxmQgYBHccA,7362
+PALs-0.2.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+PALs-0.2.0.dist-info/top_level.txt,sha256=mT8LlYHn26T1WekhWYjjDdpcfU1y4Gsm8LUvl3S2mJ0,5
+PALs-0.2.0.dist-info/RECORD,,
