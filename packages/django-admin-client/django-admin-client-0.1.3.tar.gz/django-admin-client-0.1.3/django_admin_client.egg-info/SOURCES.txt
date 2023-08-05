@@ -1,0 +1,15 @@
+README.md
+setup.py
+django_admin_client/__init__.py
+django_admin_client/base.py
+django_admin_client/exceptions.py
+django_admin_client/helpers.py
+django_admin_client/settings.py
+django_admin_client/templates.py
+django_admin_client.egg-info/PKG-INFO
+django_admin_client.egg-info/SOURCES.txt
+django_admin_client.egg-info/dependency_links.txt
+django_admin_client.egg-info/entry_points.txt
+django_admin_client.egg-info/not-zip-safe
+django_admin_client.egg-info/requires.txt
+django_admin_client.egg-info/top_level.txt
