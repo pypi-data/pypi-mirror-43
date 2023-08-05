@@ -1,0 +1,8 @@
+README.rst
+pyrhyme.py
+setup.py
+pyrhyme.egg-info/PKG-INFO
+pyrhyme.egg-info/SOURCES.txt
+pyrhyme.egg-info/dependency_links.txt
+pyrhyme.egg-info/requires.txt
+pyrhyme.egg-info/top_level.txt
