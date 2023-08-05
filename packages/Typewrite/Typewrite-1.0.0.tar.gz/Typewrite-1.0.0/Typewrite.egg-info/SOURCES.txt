@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+Typewrite.egg-info/PKG-INFO
+Typewrite.egg-info/SOURCES.txt
+Typewrite.egg-info/dependency_links.txt
+Typewrite.egg-info/top_level.txt
