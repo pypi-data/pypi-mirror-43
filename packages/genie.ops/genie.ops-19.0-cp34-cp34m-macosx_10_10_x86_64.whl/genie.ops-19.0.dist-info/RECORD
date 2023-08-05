@@ -1,0 +1,13 @@
+genie.ops-19.0-py3.4-nspkg.pth,sha256=55hGpnePXkOAWbNjXAykyxJsVWn9MIFjxHxKb746fn4,352
+genie/ops/__init__.py,sha256=o9mEI5RWyHWcSgX509oVk0QqYgGEaMbvJTGAta2dC2c,1278
+genie/ops/utils.so,sha256=0wgTeakybZOl85hRohxnlihTHgaenulHV7KdFTSzpdY,39544
+genie/ops/base/__init__.py,sha256=i0kwZsl5KbyBk8qONG_eTs5ktsulwuBe2b9xIb_vXq8,49
+genie/ops/base/base.so,sha256=-P85buX553V3KiwcrIBM323S3RP4yX1DrJ_-T8Bi5bc,172096
+genie/ops/base/diffdict.so,sha256=SRnHHgwL7ebhIV0ciH66UbefoqES90GtkQaCmY1ei3w,123472
+genie/ops/base/exceptions.so,sha256=Z3cn9EqAGtVxk365g7-ryq8rbWZfhZ4QYICCIpJ1-hc,18972
+genie/ops/base/maker.so,sha256=iAV3F5TKO4HRHdZfZ78Oe6mfuMU3mMjKkZqnN-LWccM,436092
+genie.ops-19.0.dist-info/METADATA,sha256=oIRL7zHWiDFYduWI2kVrsuWKPPriBiOtR396ge6JgYY,3349
+genie.ops-19.0.dist-info/WHEEL,sha256=NxJwBTuLPY7ebcEZAvprEKrQPjeP7QDJsmGX_XLjILM,111
+genie.ops-19.0.dist-info/namespace_packages.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.ops-19.0.dist-info/top_level.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.ops-19.0.dist-info/RECORD,,
