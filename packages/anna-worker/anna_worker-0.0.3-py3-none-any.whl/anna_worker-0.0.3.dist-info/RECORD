@@ -1,0 +1,8 @@
+anna_worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anna_worker/__main__.py,sha256=CmXznehao4GAWoJcu-xVAs60al3zkQr25FyjfzfCgac,828
+anna_worker/job.py,sha256=neLnOjX70Te3Fe27WZHxOvoNZq3SH2S5MLyVP5jE3_4,897
+anna_worker/worker.py,sha256=6ib3dN65PZyumsY6W9Id2UQMbZ-njKBOYOMquAZvMAk,5924
+anna_worker-0.0.3.dist-info/METADATA,sha256=4rJCY1hZCkUiXm5hf2YKp2aSm2f3NVLyVv6v1TlFNAU,370
+anna_worker-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+anna_worker-0.0.3.dist-info/top_level.txt,sha256=LGieEiu-gdpQhdMKswLnZIi-TUKMkfShydkiULBwOLM,12
+anna_worker-0.0.3.dist-info/RECORD,,
