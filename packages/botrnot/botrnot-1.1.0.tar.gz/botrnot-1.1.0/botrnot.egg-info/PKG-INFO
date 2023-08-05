@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: botrnot
+Version: 1.1.0
+Summary: Evaluate if a twitter account is a bot or not
+Home-page: https://github.com/jamesacampbell/botrnot
+Author: James Campbell
+Author-email: james@jamescampbell.us
+License: GPLv3
+Download-URL: https://github.com/jamesacampbell/botrnot/archive/1.1.0.tar.gz
+Description: # botrnot
+        Bot or Not detector
+        
+        ## WIP!
+        
+        `pip3 install botrnot`
+        
+        ## Usage
+        
+        You can run `botrnot -h` and it shows the following:
+        
+        ```
+        $ botrnot -h
+        usage: botrnot [-h] [-u USERNAME] [-n] [-v] [-j]
+        
+        collects and processes twitter data example: botrnot -u jamescampbell
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -u USERNAME, --user USERNAME
+                                username to evaluate (default: jamescampbell)
+          -n, --no-logo         dont display logo (default False) (default: False)
+          -v, --verbose         print more things out about search (default: False)
+          -j, --json            save tweets out to json file (default: False)
+        ```
+        
+Keywords: bots,data-analysis,twitter,osint-research,osint
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
