@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bouchon
+Version: 0.1.2
+Summary: 
+Home-page: None
+Author: Romain Dorgueil
+Author-email: romain@dorgueil.net
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: flask (>=1.0,<2.0)
+Requires-Dist: gunicorn (>=19.9,<20.0)
