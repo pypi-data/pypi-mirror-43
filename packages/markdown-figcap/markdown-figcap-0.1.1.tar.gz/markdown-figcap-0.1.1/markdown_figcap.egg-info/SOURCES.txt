@@ -1,0 +1,9 @@
+README.md
+setup.py
+markdown_figcap/__init__.py
+markdown_figcap/fig_cap.py
+markdown_figcap.egg-info/PKG-INFO
+markdown_figcap.egg-info/SOURCES.txt
+markdown_figcap.egg-info/dependency_links.txt
+markdown_figcap.egg-info/requires.txt
+markdown_figcap.egg-info/top_level.txt
