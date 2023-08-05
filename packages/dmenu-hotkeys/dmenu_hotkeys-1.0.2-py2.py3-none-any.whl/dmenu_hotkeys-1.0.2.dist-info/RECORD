@@ -1,0 +1,14 @@
+dmenu_hotkeys/__init__.py,sha256=vwTPzfkb9EQaBOGOYXQv1cBPKSVQpHYtTo1zGyF7FKA,161
+dmenu_hotkeys/__main__.py,sha256=UnVLj1qze2VoV-sOp9pK9b6E1xTPK6zMLb335ymq7LI,844
+dmenu_hotkeys/config.cfg,sha256=4pzYkT-S_0bz470HnAlVZuAbcnmT-ISlrWcjS70ptFk,219
+dmenu_hotkeys/config.py,sha256=TZyUzmrEGsDK8I2nNU9gah2bW1kLYF5TaYR03wwvMrE,202
+dmenu_hotkeys/constans.py,sha256=JnbuXub7iM59Jr80Ep7-rpr_BGL9ut26uMVgDgvRE9M,200
+dmenu_hotkeys/hotkeys.py,sha256=Fo25dbnDNntU42ZXPO7b-_Qap6jjD0OGmkx2a_iekQI,3217
+dmenu_hotkeys/parsers.py,sha256=RcBaZbYoIK-_uj-KZuxOwk3VBP3c7ecjzB7aKMb5FOg,760
+dmenu_hotkeys-1.0.2.dist-info/AUTHORS.rst,sha256=7uEBoFkEeYULS3ASu-jZKE1xSm4RZ5alAwZijM_VEIg,161
+dmenu_hotkeys-1.0.2.dist-info/LICENSE,sha256=ACZq0ztVg7hBTQyJ3Netm4dT8m3al9nfjDD_4o4ORdQ,1075
+dmenu_hotkeys-1.0.2.dist-info/METADATA,sha256=2ZirJLdrrQj99-6wBRfge5GTnWNczrgGqQ25RtEWSX0,2709
+dmenu_hotkeys-1.0.2.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+dmenu_hotkeys-1.0.2.dist-info/entry_points.txt,sha256=cjX0DllkLU4kUvjb5mQ4zh3vVL10HsTxx3T1QsFLx3E,63
+dmenu_hotkeys-1.0.2.dist-info/top_level.txt,sha256=Z-dKCN5mqI_gVfBCKN21aqRsApBg_i2amDJubAeNAZA,14
+dmenu_hotkeys-1.0.2.dist-info/RECORD,,
