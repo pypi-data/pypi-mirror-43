@@ -1,0 +1,9 @@
+README.md
+setup.py
+librecell_lib.egg-info/PKG-INFO
+librecell_lib.egg-info/SOURCES.txt
+librecell_lib.egg-info/dependency_links.txt
+librecell_lib.egg-info/entry_points.txt
+librecell_lib.egg-info/not-zip-safe
+librecell_lib.egg-info/requires.txt
+librecell_lib.egg-info/top_level.txt
