@@ -1,0 +1,6 @@
+#! /usr/bin/env hy
+; 666 chars - with nice print / repr
+(eval-and-compile (defn A[x](instance? F x))(defn B[x](if(coll? x)(%"(%s)"(.join" "(map B x)))(str x)))(defn C[x](if(and(coll? x)(not(A x)))(B(map str(map C x)))x))(defn D[x y](while(and(callable x)y)(setv x(x(.pop y 0))))(if y(doto x(.extend y))x))(defn E[x](if(coll? x)(if(A(first x))(D(first x)(list(rest x)))(if(A x)x(do(setv y(list(map E x)))(if(A(first y))(E y)y))))x))(defclass F[list](defn --repr--[self](%"(λ%s.%s)"(,(first self)(C(second self)))))(defn --call--[self x &rest y](setv v((fn[z](if y(D z(list y))z))(E((last self)x))))(if(A v)v(B v)))))(defmacro L[&rest x](reduce(fn[y z]`((fn[](setv ~z(str'~z))(F['~z ~y(fn[~z]~y)]))))(doto(list x).reverse)))
+
+; 457 chars - ugly print / repr
+;(eval-and-compile(defn A[x](instance? F x))(defn D[x y](while(and(callable x)y)(setv x(x(.pop y 0))))(if y(doto x(.extend y))x))(defn E[x](if(coll? x)(if(A(first x))(D(first x)(list(rest x)))(if(A x)x(do(setv y(list(map E x)))(if(A(first y))(E y)y))))x))(defclass F[list](defn --call--[self x &rest y]((fn[z](if y(D z(list y))z))(E((last self)x))))))(defmacro L[&rest x](reduce(fn[y z]`((fn[](setv ~z(str'~z))(F['~z ~y(fn[~z]~y)]))))(doto(list x).reverse)))
