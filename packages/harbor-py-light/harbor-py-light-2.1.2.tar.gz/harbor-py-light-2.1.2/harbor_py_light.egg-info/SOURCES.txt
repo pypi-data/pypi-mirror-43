@@ -1,0 +1,9 @@
+README.md
+setup.py
+harbor_py_light.egg-info/PKG-INFO
+harbor_py_light.egg-info/SOURCES.txt
+harbor_py_light.egg-info/dependency_links.txt
+harbor_py_light.egg-info/top_level.txt
+harborclient_light/__init__.py
+harborclient_light/harborclient.py
+harborclient_light/test_harborclient.py
