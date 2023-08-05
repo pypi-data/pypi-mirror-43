@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: python-2c2p
+Version: 0.0.1
+Summary: Python class to connect with 2c2p.com redirect API
+Home-page: https://github.com/joncombe/python-2c2p
+Author: Jon Combe
+Author-email: jon@getsalebox.com
+License: BSD licence, see LICENCE file
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
