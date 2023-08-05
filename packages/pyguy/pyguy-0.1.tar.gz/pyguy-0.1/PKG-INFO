@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyguy
+Version: 0.1
+Summary: Python libary for handle Person data
+Home-page: https://github.com/Spezialcoder/pyguy
+Author: Lewin Sorg
+Author-email: developermind405@gmail.com
+License: MIT
+Download-URL: https://github.com/spezialcoder/pyguy/archive/master.zip
+Description: UNKNOWN
+Keywords: Person data
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
