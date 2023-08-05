@@ -1,0 +1,3 @@
+[2019-03-08 22:17:13,756] INFO: [32mLoading environment variables from D:\Datas\GitDatas\ZYBATS\testsexample\.env
+[2019-03-08 22:17:13,822] INFO: [32mStart to run testcase: 
+[2019-03-08 22:17:13,828] ERROR: [31m!!!!!!!!!! exception stage: run test suite !!!!!!!!!!

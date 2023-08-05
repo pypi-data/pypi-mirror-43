@@ -1,0 +1,15 @@
+config:
+    name: the demo for use testsuite
+    variables:
+        device_sn: "testsuit_global_sign"
+
+testcases:
+    call testcase demo one.:
+        testcase: testcase/testcase_demo.yml
+        variables:
+            device_sn: "testsuit_setep_sign_one"
+
+    call testcase demo two.:
+        testcase: testcase/testcase_demo.yml
+        variables:
+            device_sn: "testsuit_setep_sign_two"

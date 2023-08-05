@@ -1,0 +1,23 @@
+[2019-03-06 20:51:08,443] INFO: [32mLoading environment variables from E:\python\automation\projects\test\tests\example\.env
+[2019-03-06 20:51:08,681] INFO: [32mStart to run testcase: call testcase demo one.
+[2019-03-06 20:51:08,683] INFO: [32mPOST http://172.23.136.190:8080/api/getTokenId
+[2019-03-06 20:51:08,702] INFO: [32mstatus_code: 200, response_time(ms): 17.95 ms, response_length: 77 bytes
+
+[2019-03-06 20:51:08,756] INFO: [32mPOST http://172.23.136.190:8080/set/redis
+[2019-03-06 20:51:08,768] INFO: [32mstatus_code: 200, response_time(ms): 9.97 ms, response_length: 12 bytes
+
+[2019-03-06 20:51:08,788] INFO: [32mPOST http://172.23.136.190:8080/set/mysql
+[2019-03-06 20:51:08,801] INFO: [32mstatus_code: 200, response_time(ms): 11.97 ms, response_length: 12 bytes
+
+[2019-03-06 20:51:08,908] INFO: [32mStart to run testcase: call testcase demo two.
+[2019-03-06 20:51:08,910] INFO: [32mPOST http://172.23.136.190:8080/api/getTokenId
+[2019-03-06 20:51:08,922] INFO: [32mstatus_code: 200, response_time(ms): 10.97 ms, response_length: 77 bytes
+
+[2019-03-06 20:51:08,925] INFO: [32mPOST http://172.23.136.190:8080/set/redis
+[2019-03-06 20:51:08,933] INFO: [32mstatus_code: 200, response_time(ms): 6.98 ms, response_length: 12 bytes
+
+[2019-03-06 20:51:08,946] INFO: [32mPOST http://172.23.136.190:8080/set/mysql
+[2019-03-06 20:51:08,953] INFO: [32mstatus_code: 200, response_time(ms): 5.98 ms, response_length: 12 bytes
+
+[2019-03-06 20:51:09,068] INFO: [32mStart to render Html report ...
+[2019-03-06 20:51:09,131] INFO: [32mGenerated Html report: E:\python\automation\projects\test\tests\example\reports\1551876668.html
