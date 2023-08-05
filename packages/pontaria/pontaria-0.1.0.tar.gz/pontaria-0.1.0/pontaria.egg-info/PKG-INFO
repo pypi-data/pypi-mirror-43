@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pontaria
+Version: 0.1.0
+Summary: A time monitoring utility for Birdie's tasks
+Home-page: UNKNOWN
+Author: Henrique Cunha
+Author-email: henrique.cunha@birdie.ai
+License: UNKNOWN
+Description: # pontaria
+        
+        # Usage
+        ## Start a work shift
+        Use `pontaria start`, or `pontaria start "activity"` or `pontaria s` or `pontaria s "activity"`
+        ## Commit a work shit
+        Use `pontaria commit`, or `pontaria commit "activity"` or `pontaria c` or `pontaria c "activity"`
+        ## Analytics
+        Use `pontaria analytics` or `pontaria a`
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
