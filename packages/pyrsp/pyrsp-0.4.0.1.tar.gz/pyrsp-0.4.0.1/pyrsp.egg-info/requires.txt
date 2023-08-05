@@ -1,0 +1,4 @@
+pyelftools
+pyserial
+construct
+six
