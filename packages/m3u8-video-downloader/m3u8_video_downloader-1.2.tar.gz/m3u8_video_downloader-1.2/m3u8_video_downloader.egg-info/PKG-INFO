@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: m3u8-video-downloader
+Version: 1.2
+Summary: Download video from m3u8 url
+Home-page: https://github.com/synsis/m3u8_video_downloader
+Author: Synsis
+Author-email: synsis@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3
