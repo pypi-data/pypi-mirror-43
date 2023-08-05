@@ -1,0 +1,12 @@
+gimmebio.hiveplots-0.4.0-py3.6-nspkg.pth,sha256=pxTb1jWsCspdqoPmV2TGBVot_a6QmHbVwKXbDN4rHTs,549
+gimmebio/hiveplots/__init__.py,sha256=RTn3DwaS-Fjd9Ut5d3HVhkdrVC1pXBncqEcGO4Y5tyA,44
+gimmebio/hiveplots/geometry.py,sha256=Dbxsa73sZvtRhgb_Nn0GRGodg3eOXEpksQ_ZENaxapg,5760
+gimmebio/hiveplots/hiveplots.py,sha256=bYTR5IJ518z4Cmo9sT1_yIYUrnUM1DMLWuYa98byg60,3843
+gimmebio/hiveplots/colors/__init__.py,sha256=mdZINB_LFFyQ77YRRK3NLEXatz_mdrICcS35gu_i1r0,55
+gimmebio/hiveplots/colors/color_tree.py,sha256=2PLdTke2fjIHOVQYHDsopJaNXoIJurFjB3jV7Wu9JYY,3155
+gimmebio/hiveplots/colors/parse_mpa_to_colors.py,sha256=cDoT-F0yLHXxPRuFfwj_4iS06OcK-b1iPCgUS5PA4lg,370
+gimmebio.hiveplots-0.4.0.dist-info/METADATA,sha256=AzarMe6gUl5u90rPbd4oqZm7QK24E4qiUBf4Cbf4Puc,389
+gimmebio.hiveplots-0.4.0.dist-info/RECORD,,
+gimmebio.hiveplots-0.4.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+gimmebio.hiveplots-0.4.0.dist-info/namespace_packages.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
+gimmebio.hiveplots-0.4.0.dist-info/top_level.txt,sha256=ZtXh7YhZv8YK6bNlKCHwVooOVbYqdaS6-ibUenEYqgA,9
