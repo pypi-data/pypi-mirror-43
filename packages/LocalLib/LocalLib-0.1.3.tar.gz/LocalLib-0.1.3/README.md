@@ -1,0 +1,76 @@
+### Thank you for using LocalLib! Below is a list of its defined functions:
+
+
+
+**locallib.pymath:**
+	
+	Contains simple math functions: add, subtract, multiply, and divide.
+
+
+
+
+**locallib.pygui:**
+
+	Contains functions for sending notifications:
+
+		Notification(title, msg, dur, threaded=None):
+
+			For Windows 10. Sends a notification to the system notification bar.
+			If a threaded notification is desired, set threaded to True.
+
+
+
+**locallib.pystrs:**
+
+	Contains functions for string editing:
+
+		Contains(string, substring):
+	
+			Checks if a substring or char occurs in the specified string, and returns True or False.
+
+		TrimLastChar(string):
+
+			Returns a string with the last character removed from the given string.
+
+		TrimFirstChar(string):
+
+			Returns a string with the first character removed from the give string.
+
+		RemoveAt(string, index):
+
+			Returns an edited string with a character removed at the specified zero-based index.
+
+		Remove(string, char):
+
+			Returns a string with all occurrences of the specified character removed.
+
+		RemoveFirst(string, char):
+
+			Removes the first occurrence of the specified character from the given string and returns the new string.
+
+		RemoveLast(string, char):
+
+			Removes the last occurrence of the specified character from the given string and returns the new string.
+
+		RemoveRange(string, startindex, stopindex):
+
+			Removes a range of characters by index from the given string and returns the new string.
+
+
+
+**locallib.Bible:**
+
+	Contains functions for Bible verse actions:
+
+		GetVerse(version, book, chap, verse):
+
+			Returns the specified verse from the given version, book, chapter, and verse.  Currently, the only avaliable version is KJV.
+
+
+			Use it like so:
+
+				from locallib import Bible as B
+
+				verse = B.GetVerse('KJV', 'Genesis', 1, 1)
+				print(verse)
+

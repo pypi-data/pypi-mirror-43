@@ -1,0 +1,14 @@
+README.md
+setup.py
+LocalLib.egg-info/PKG-INFO
+LocalLib.egg-info/SOURCES.txt
+LocalLib.egg-info/dependency_links.txt
+LocalLib.egg-info/requires.txt
+LocalLib.egg-info/top_level.txt
+locallib/Bible.py
+locallib/__init__.py
+locallib/dat.py
+locallib/exc.py
+locallib/pygui.py
+locallib/pymath.py
+locallib/pystrs.py
