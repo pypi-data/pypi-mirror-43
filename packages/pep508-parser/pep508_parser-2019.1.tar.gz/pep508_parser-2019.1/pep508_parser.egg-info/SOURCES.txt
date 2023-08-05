@@ -1,0 +1,11 @@
+README.md
+setup.py
+pep508_parser/__init__.py
+pep508_parser/grammar.py
+pep508_parser/parser.py
+pep508_parser.egg-info/PKG-INFO
+pep508_parser.egg-info/SOURCES.txt
+pep508_parser.egg-info/dependency_links.txt
+pep508_parser.egg-info/entry_points.txt
+pep508_parser.egg-info/requires.txt
+pep508_parser.egg-info/top_level.txt
