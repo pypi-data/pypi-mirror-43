@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aioconnpass
+Version: 0.0.1
+Summary: an API wrapper for connpass
+Home-page: https://github.com/sizumita/aioconnpass
+Author: sizumita
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Japanese
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5.3
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+# Aioconnpass
+aioconnpassは、connpass APIのラッパーです。
+aiohttpを使用しています。
+
+# Installing
+`pip`でインストール可能です。
+```commandline
+pip install aiospotipy
+```
+
+# Quick Example
+```python
+from aioconnpass import Connpass
+
+connpass = Connpass()
+
+results = await connpass.search(keyword="長野")
+```
+
