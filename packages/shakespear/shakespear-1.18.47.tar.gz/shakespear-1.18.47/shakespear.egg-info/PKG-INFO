@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: shakespear
+Version: 1.18.47
+Summary: Pretty display text from python
+Home-page: https://github.com/Price47/Shakespear
+Author: Richard Stoeffel
+Author-email: richardstoeffel47@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
