@@ -1,0 +1,16 @@
+__init__.py,sha256=V7jV8iKD5luQJFCYAhfyGnHcd7QFfYjA1dwNH8bgIP0,402
+tagtomarkdown.py,sha256=GIpGdCyv3pATeoJm1oRhHH7WI1v29UgqJ8gfZzDr334,27739
+tagtomarkdown-0.3.0.data/data/sample/Page1.html,sha256=RMFLz1aJz7YKhyDdKF9RLJkJnyK2sihB6HWWB_97SL8,6493
+tagtomarkdown-0.3.0.data/data/sample/Page1.md,sha256=Phbq3Bq12Qdq_BItW0oEZBI1biUjjTDAddx3i5gqoh8,1184
+tagtomarkdown-0.3.0.data/data/sample/README.txt,sha256=Wp1ee3NhoJfIVUht7xaDeylpf0R3NyiP8xtXzrW2W5U,1166
+tagtomarkdown-0.3.0.data/data/sample/book.json,sha256=wuZwAa9JhfmVTEWhWfgu86mHGEVuwLout7Jq0bnEI3I,913
+tagtomarkdown-0.3.0.data/data/sample/extra.css,sha256=BupJ3zW5c5vUirBWYtTN3BwyuVFRj4wpu0GYHWeup48,596
+tagtomarkdown-0.3.0.data/data/sample/mkdocs.yml,sha256=wK9Dgl7kaYlQzWDYhL_MD9K0eTucmtJIUg2fNIImpvU,422
+tagtomarkdown-0.3.0.data/data/sample/produceHtml.py,sha256=HTu0H57BOCDtkXv01kH1fnMMGSdixbhjj1eWkibhhQ8,1559
+tagtomarkdown-0.3.0.dist-info/LICENSE.txt,sha256=yPRULdqOPVMi7qXCRAsqAsjO0bZX1yV-ZW2Jfcj1L1M,1093
+tagtomarkdown-0.3.0.dist-info/LICENSE.txt~,sha256=B-L1agxFCxxqVpfWsTpZrUvtzbN_gav1PNjLhYBQFVA,1073
+tagtomarkdown-0.3.0.dist-info/METADATA,sha256=ZgurDGblS8jDiaRCMfHWtoA8aIqvZVvZR1NoP7o---M,8495
+tagtomarkdown-0.3.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+tagtomarkdown-0.3.0.dist-info/entry_points.txt,sha256=PWlt34bCxO6l80QO4h50Q-OpqSg7whOfvNrYFDUwKkk,122
+tagtomarkdown-0.3.0.dist-info/top_level.txt,sha256=VeJOdhQa2V0GtC78tjYL7LYU9g0kbhIA3Lgiybfw8z0,14
+tagtomarkdown-0.3.0.dist-info/RECORD,,
