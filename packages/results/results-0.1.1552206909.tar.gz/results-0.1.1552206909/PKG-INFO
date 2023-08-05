@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: results
+Version: 0.1.1552206909
+Summary: Don't get mad, get results
+Home-page: None
+Author: Robert Lechte
+Author-email: rlechte@actu.org.au
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: excel
+Requires-Dist: chardet
+Requires-Dist: csvx
+Requires-Dist: furl
+Requires-Dist: logx
+Requires-Dist: markdown
+Requires-Dist: migra
+Requires-Dist: openpyxl (<2.5.10); extra == "excel"
+Requires-Dist: pendulum
+Requires-Dist: psycopg2-binary
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlbag (>=0.1.1548994599)
+Requires-Dist: tabulate
+Requires-Dist: xlrd; extra == "excel"
+Requires-Dist: xlsxwriter; extra == "excel"
