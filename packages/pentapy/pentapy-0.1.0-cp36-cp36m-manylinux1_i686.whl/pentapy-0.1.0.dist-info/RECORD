@@ -1,0 +1,10 @@
+pentapy/solver.cpython-36m-i386-linux-gnu.so,sha256=uXX4ncxLzqIhiIMN06GS2amfYqTt-nKsDlM89i6Gm0g,690714
+pentapy/py_solver.py,sha256=LOa_8f6anDy8YQ31p7OdufmY2AUJBdIhWdyP9KaY4VA,3577
+pentapy/__init__.py,sha256=voYghJw9Wr-J4JsPQj-QeBW1vGBy1_vdLgPOeIW8jZQ,425
+pentapy/solver.c,sha256=vJVmOUyyYPnR3PFPWCuJlMydGa7YkivbxK0c0uuQQrU,920341
+pentapy/_version.py,sha256=DjkgZQfFtcs-4U3fLYdCXI_-qC1-v0Op1m8EVcXMkqI,54
+pentapy/core.py,sha256=DsfiZ0I7Ahh3q0jX_6l1OT93vrAokRbP1O1jcQNbvRw,3144
+pentapy-0.1.0.dist-info/WHEEL,sha256=4RUeCnPOaAmHKINNrvtBwd3oNgi5_IueObVoFx2ZrXo,107
+pentapy-0.1.0.dist-info/top_level.txt,sha256=goRKLgOhKlpDiqNg4mHFXb3VhVOqmC4jnJFNPOzI-Qo,8
+pentapy-0.1.0.dist-info/METADATA,sha256=5-xPQBXA4ihfvw_z2urTVB1H7g0aU5P9aEVBpk_6QPA,3061
+pentapy-0.1.0.dist-info/RECORD,,
