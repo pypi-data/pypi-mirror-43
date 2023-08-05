@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+biobb_wf_mutations/__init__.py
+biobb_wf_mutations.egg-info/PKG-INFO
+biobb_wf_mutations.egg-info/SOURCES.txt
+biobb_wf_mutations.egg-info/dependency_links.txt
+biobb_wf_mutations.egg-info/requires.txt
+biobb_wf_mutations.egg-info/top_level.txt
+biobb_wf_mutations/notebooks/mutations.ipynb
+biobb_wf_mutations/pycompss/__init__.py
+biobb_wf_mutations/pycompss/mutations.py
+biobb_wf_mutations/python/__init__.py
+biobb_wf_mutations/python/mutations.py

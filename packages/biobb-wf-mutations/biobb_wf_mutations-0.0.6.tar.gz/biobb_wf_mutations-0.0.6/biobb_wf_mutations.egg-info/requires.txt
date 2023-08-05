@@ -1,0 +1,5 @@
+biobb_common>=0.1.2
+biobb_io>=0.1.4
+biobb_model>=0.1.5
+biobb_md>=0.1.5
+biobb_adapters>=0.1.4
