@@ -1,0 +1,9 @@
+README.md
+byrd.py
+setup.py
+Byrd.egg-info/PKG-INFO
+Byrd.egg-info/SOURCES.txt
+Byrd.egg-info/dependency_links.txt
+Byrd.egg-info/entry_points.txt
+Byrd.egg-info/requires.txt
+Byrd.egg-info/top_level.txt
