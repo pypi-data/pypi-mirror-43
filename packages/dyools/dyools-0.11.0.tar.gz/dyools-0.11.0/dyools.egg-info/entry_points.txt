@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dyools_agent=dyools:ws_start_agent
+    
