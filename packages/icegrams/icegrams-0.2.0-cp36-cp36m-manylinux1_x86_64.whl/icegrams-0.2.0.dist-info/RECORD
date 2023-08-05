@@ -1,0 +1,13 @@
+icegrams-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+icegrams-0.2.0.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+icegrams-0.2.0.dist-info/RECORD,,
+icegrams-0.2.0.dist-info/METADATA,sha256=Gbm19EjolUQBoQtG8sxbIxzOLM98b51gn1gMLVbISdY,11597
+icegrams-0.2.0.dist-info/top_level.txt,sha256=SA2bwH1rt9hJ9qN0w-ErBpG26DHyvl7NrSA6vCdOn3s,9
+icegrams/trie_build.py,sha256=pgx2gEyA_GVhodrPMv9wDrRx6vQ18ANiQYhnMTO7cjI,3332
+icegrams/__init__.py,sha256=wqvlnIJBY5Th-DXQVK5F209O_lBLnNMp8n6UI1e8QW8,1140
+icegrams/trie.cpp,sha256=gstPg5xH2gTD_SF1uSIJCZaJRbNL3kU0hC4F33CaoAU,18767
+icegrams/ngrams.py,sha256=Tkrub9K2ObVnWrQcBWVL4fUN8h2v4JtYGve4nDn5nlQ,60438
+icegrams/_trie.abi3.so,sha256=thtZ5kp_0ucWrdZDSdkzVYoGeBzNxl_X9TlwzQ6vpOo,78354
+icegrams/trie.py,sha256=MciI4T8wlgzP1UBcP_Q2Oo9PdhZFtFwlW3ztmotcv38,11410
+icegrams/trie.h,sha256=b-1CHj7kgf372StInTm61AEFo3c7BabSOC08ap3PBFc,2927
+icegrams/resources/trigrams.bin,sha256=Jb5TFiJkhV077-rxbabuh8sXPu9Ppnx95RTzgk7VLcY,97221619
