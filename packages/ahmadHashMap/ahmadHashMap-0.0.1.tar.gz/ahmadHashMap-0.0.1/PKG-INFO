@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ahmadHashMap
+Version: 0.0.1
+Summary: A small printer package
+Home-page: https://github.com/AhmadTaj1754/PythonHashMap
+Author: Ahmad Taj
+Author-email: Ahmadtaj77@gmail.com
+License: UNKNOWN
+Description: ahmadHashMap
+        =========
+        
+        ahmadHashMap is a cross-platform hashing/mapping Python module for human beings. Used to simulate a Python dictionary.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
