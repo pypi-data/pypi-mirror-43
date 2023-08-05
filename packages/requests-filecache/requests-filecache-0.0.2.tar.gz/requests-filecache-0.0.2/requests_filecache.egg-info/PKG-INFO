@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: requests-filecache
+Version: 0.0.2
+Summary: Saves fetched HTML into files in current directory.
+Home-page: https://github.com/strizhechenko/requests-filecache
+Author: Oleg Strizhechenko
+Author-email: oleg.strizhechenko@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
