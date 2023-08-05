@@ -1,0 +1,5 @@
+setup.py
+kw_scraping.egg-info/PKG-INFO
+kw_scraping.egg-info/SOURCES.txt
+kw_scraping.egg-info/dependency_links.txt
+kw_scraping.egg-info/top_level.txt
