@@ -1,0 +1,3 @@
+[console_scripts]
+td-dbf2csv = td_dbf2csv.main:main
+
