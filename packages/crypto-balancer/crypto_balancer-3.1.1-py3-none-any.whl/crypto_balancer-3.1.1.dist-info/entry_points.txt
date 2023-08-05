@@ -1,0 +1,3 @@
+[console_scripts]
+crypto_balancer = crypto_balancer.main:main
+
