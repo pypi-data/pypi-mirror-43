@@ -1,0 +1,11 @@
+flywheel_bids_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flywheel_bids_tools/group_query.py,sha256=CHSbpIHYS7BKBK0mhGXiMZcpdUE-afZQfAcqMYgANrE,1926
+flywheel_bids_tools/query_bids.py,sha256=mpdSvdyCEsWmf67gOqMvaqDacQWahdpw7ZXDDsXNtPw,8024
+flywheel_bids_tools/query_gears.py,sha256=wweHWWkGirDzSlTE9KQb3VZs4jk0pkSmsvhRlZ2LI5M,1406
+flywheel_bids_tools/ungroup_query.py,sha256=AAPjPHgBPnG2hy2P4COpyyLFJ-tqU_ZZHP5LFwds4sM,2692
+flywheel_bids_tools/upload_bids.py,sha256=ocKwz1uZezoGpP029MlbpmpbPZhus8RFUyEGvePf_lY,9548
+flywheel_bids_tools-0.0.4.dist-info/METADATA,sha256=X8Oq8lR76jyzIKF7ZSXTJ39a6C7ey9l-cpUeG4FMOmY,771
+flywheel_bids_tools-0.0.4.dist-info/RECORD,,
+flywheel_bids_tools-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+flywheel_bids_tools-0.0.4.dist-info/entry_points.txt,sha256=8wGam0SI5mSDowlkc4EiFIQAIu1eXcC8KoyNZYEOCNc,276
+flywheel_bids_tools-0.0.4.dist-info/top_level.txt,sha256=zQe5N2zSwjvUBjOpHcdNErNf1UdgYT7iDbhb62NUqZs,20
