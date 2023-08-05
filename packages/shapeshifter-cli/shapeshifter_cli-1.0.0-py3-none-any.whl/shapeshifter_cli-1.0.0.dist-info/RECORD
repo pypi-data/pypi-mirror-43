@@ -1,0 +1,12 @@
+mergecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mergecli/__main__.py,sha256=z0tu14TKbAddLTK-uk4-FUXpBF78OhCJ3evKZw_plJY,34
+mergecli/mergecli.py,sha256=j2eQ_-CL1C6IHxFvb3nF69yIQmbvn3h1Zzea6FN0qkI,3292
+shapeshiftercli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapeshiftercli/__main__.py,sha256=W47PEQCjX4kRunIvp2a6CFCafxPraDQO-Uln3qIRi1c,41
+shapeshiftercli/shapeshiftercli.py,sha256=KjRhlmNJWSX4dJaG6tMrGBqMD5NS9CUnphHUn3OiRWs,6669
+shapeshifter_cli-1.0.0.dist-info/LICENSE,sha256=ZHa2PJ_c0A3xCXTz4BKQ0Y5DtA1GW_ZSw9gU62pWMJs,1072
+shapeshifter_cli-1.0.0.dist-info/METADATA,sha256=39ds7SJrrZATx8cf_X5C5lK-w0o40IQLkoc58jaSB14,5685
+shapeshifter_cli-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+shapeshifter_cli-1.0.0.dist-info/entry_points.txt,sha256=CCJjsxN77330Xp9iCw1m0-ogr3qT0lHP36OO7qdO4hc,181
+shapeshifter_cli-1.0.0.dist-info/top_level.txt,sha256=c9axxDFV7n3OcP0U0cZt2ATrclqbIpWpNJE0KfCVMD8,25
+shapeshifter_cli-1.0.0.dist-info/RECORD,,
