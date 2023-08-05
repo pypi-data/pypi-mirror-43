@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: abconfig
+Version: 0.3.1
+Summary: Dad for your config
+Home-page: https://github.com/kudato/abconfig.git
+Author: Alexander Shevchenko
+Author-email: kudato@me.com
+License: MIT
+Description: ### Class for creating configuration models
+        
+        #### Install
+        
+        ```bash
+        pip install abconfig
+        ```
+        
+        #### File + Env
+        
+        ```python
+        >>> from abconfig import ABConfig
+        >>> 
+        >>> class DBConfig(ABConfig):
+        ...     file = '/path/to/your/config_file.yaml'
+        ...     postgres = dict(
+        ...         host='127.0.0.1',
+        ...         port='5432',
+        ...         user='your_user',
+        ...         password='your_pass'
+        ...     )
+        ... 
+        >>> dbconfig = DBConfig()
+        >>> print(dbconfig.get())
+        {'postgres': {'host': '127.0.0.1', 'port': '5432', 'user': 'name', 'password': 'pass'}}
+        >>> print(dbconfig['postgres']['host'])
+        '127.0.0.1'
+        ```
+        
+        #### Vault 
+        
+        ```python
+        >>> class Vault(ABConfig):
+        ...     vault = dict(
+        ...             kv_version=1,
+        ...             enabled=False,
+        ...             addr='127.0.0.1',
+        ...             path='default/project',
+        ...             token=False,
+        ...     )
+        ... 
+        >>> config = Vault()
+        >>> print(config.get())
+        {'your': 'secrets_from_vault'}
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
