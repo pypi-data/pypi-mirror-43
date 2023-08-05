@@ -1,0 +1,4 @@
+lxml
+
+[postgres]
+psycopg2
