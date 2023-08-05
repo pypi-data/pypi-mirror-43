@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: testing-pubsub
+Version: 0.0.3
+Summary: Run a temporary instance of Cloud PubSub emulator for Python tests
+Home-page: https://github.com/peachfinance/testing_pubsub
+Author: Steven Harlow
+Author-email: stharlow@gmail.com
+License: UNKNOWN
+Description: ## About
+        Run a temporary instance of Cloud PubSub emulator for Python tests
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
