@@ -1,0 +1,30 @@
+Source: cubicweb-folder
+Section: web
+Priority: optional
+Maintainer: Logilab Packaging Team <contact@logilab.fr>
+Uploaders: 
+ David Douard <david.douard@logilab.fr>, 
+ Nicolas Chauvat <nicolas.chauvat@logilab.fr>
+Build-Depends:
+ debhelper (>= 9),
+ python (>= 2.7),
+ python-setuptools,
+ dh-python,
+Standards-Version: 3.9.8
+Homepage: http://www.cubicweb.org/project/cubicweb-folder
+X-Python-Version: >= 2.7
+
+Package: cubicweb-folder
+Conflicts: cubicweb-folders
+Replaces: cubicweb-folders
+Architecture: all
+Depends:
+ cubicweb-common (>= 3.24),
+ python-six (>= 1.4.0),
+ ${python:Depends},
+ ${misc:Depends},
+Description: folder component for the CubicWeb framework
+ This Cubicweb component provides folders that group pieces
+ of content in a hierarchical and container-like maner.
+ .
+ CubicWeb is a semantic web application framework, see http://www.cubicweb.org
