@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: swimbundle-email
+Version: 0.2.0
+Summary: Swimlane Email Utility Package
+Home-page: UNKNOWN
+Author: Swimlane
+Author-email: info@swimlane.com
+License: UNKNOWN
+Keywords: utilities,email,parsing
+Platform: UNKNOWN
+Requires-Dist: python-magic (==0.4.15)
+
+UNKNOWN
+
+
