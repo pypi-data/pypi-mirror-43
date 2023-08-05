@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: tung
+Version: 0.1
+Summary: Say hello to this world!
+Home-page: UNKNOWN
+Author: Quang Tung Luu
+Author-email: tungluu18@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: py-mysql
+
+#### Nothing to read
+
+
