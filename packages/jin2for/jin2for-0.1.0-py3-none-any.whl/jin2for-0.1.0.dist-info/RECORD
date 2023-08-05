@@ -1,0 +1,10 @@
+jin2for/__init__.py,sha256=vshAklvkU0LGpR4zsak2FBqaIyvBhulyk1bZzPVSV88,5029
+jin2for/intrinsic_type.py,sha256=LWtIrAGRRAJ772EWN2D1jE6rtS8uAk2-NRZ_EptOYI4,772
+jin2for/kind_info.py,sha256=cFOPTmIbedfaY9iW41eSXUnURGOFtBgWSbNjNy3_bCk,2072
+jin2for/data/kinds.f90,sha256=VZhlDnFpT_THeZdxNAgfJDw_jaVXfJob8IMonjJUqPY,1049
+jin2for-0.1.0.dist-info/LICENSE,sha256=M9OEsNS4vPSped2XILXN5J55Uu9dW5l7LH8foDeZd_Y,35055
+jin2for-0.1.0.dist-info/METADATA,sha256=saJ7bMo8MjxbtkMyQ5kbmnk-8L1TeOrDxsVinMF5s60,5524
+jin2for-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jin2for-0.1.0.dist-info/entry_points.txt,sha256=tAz5gmJI4c1TTpSCADfzNFjBmYvzhU3xsZtLCDuOp5A,42
+jin2for-0.1.0.dist-info/top_level.txt,sha256=-KL73dXI6--XxMnqjpkgR1sofmkG6QAPZlwIg9EPilA,8
+jin2for-0.1.0.dist-info/RECORD,,

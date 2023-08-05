@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: jin2for
+Version: 0.1.0
+Summary: A jinja2-based template engine for FORTRAN projects
+Home-page: https://gitlab.com/fverdugo/jin2for
+Author: Francesc Verdugo
+Author-email: fverdugo@cimne.upc.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Fortran
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: jinja2
+
+# jin2for - Generate FORTRAN source files from jinja2 templates
+
+[![pipeline status](https://gitlab.com/fverdugo/jin2for/badges/master/pipeline.svg)](https://gitlab.com/fverdugo/jin2for/commits/master)
+[![coverage report](https://gitlab.com/fverdugo/jin2for/badges/master/coverage.svg)](https://gitlab.com/fverdugo/jin2for/commits/master)
+[![coverage report](https://img.shields.io/pypi/pyversions/jin2for.svg)](https://pypi.org/project/jin2for/)
+[![coverage report](https://img.shields.io/pypi/v/jin2for.svg)](https://pypi.org/project/jin2for/)
+
+# Why
+
+The FORTRAN programing language has not a built-in templating engine like C++ does.
+In concequence, it is not unusual to end-up needing to write code like this one
+
+```fortran
+function sum_i2(a,b) result (c)
+  implicit none
+  integer(2), intent(in) :: a
+  integer(2), intent(in) :: b
+  integer(2) :: c
+  c = a + b
+end function
+
+function sum_i4(a,b) result (c)
+  implicit none
+  integer(4), intent(in) :: a
+  integer(4), intent(in) :: b
+  integer(4) :: c
+  c = a + b
+end function
+
+function sum_i8(a,b) result (c)
+  implicit none
+  integer(8), intent(in) :: a
+  integer(8), intent(in) :: b
+  integer(8) :: c
+  c = a + b
+end function
+```
+
+The standard approach to circumvent code repetition is to use pre-processor directives.
+However, the functionality of the preprocessor is quite limited and this approach often
+leads to criptic code that is difficult to read.
+
+The goal of `jin2for` is to facilitate the usage of  [jinja2](http://jinja.pocoo.org/) as a more flexible preprocessor in FORTRAN projects.
+[jinja2](http://jinja.pocoo.org/) is a mature, powerful, and flexible templeting engine that allows to write templates like this one:
+
+``` fortran
+{% for ip in [2, 4, 8] %}
+function sum_i{{ip}}(a,b) result (c)
+  implicit none
+  integer({{ip}}), intent(in) :: a
+  integer({{ip}}), intent(in) :: b
+  integer({{ip}}) :: c
+  c = a + b
+end function
+{% endfor %}
+```
+
+If you store this templated code in a file, say `foo.t90`, and compile it with `jin2for`
+
+```bash
+$ jin2for foo.t90
+```
+you will obtain a file `foo.f90` that contains piece of FORTRAN code shown at the beginning of this README file.
+Internally, `jin2for` uses the [jinja2](http://jinja.pocoo.org/) engine to render the templates. So, any valid [jinja2](http://jinja.pocoo.org/) template can be processed in this way.
+
+## jin2for is environment aware
+
+`jin2for` predefines a number of useful python objects that can be used as template parameters.
+
+For instance, if we want to generate the previous `sum` function for all the integer
+types available in the installed `gfortran` compiler, we can use the predefined `integer_types` object. 
+Create a file `sum_ints.t90` containing this template:
+
+``` fortran
+{% for t in integer_types %}
+function sum_{{t.alias}}(a,b) result (c)
+  implicit none
+  {{t.decl}}, intent(in) :: a
+  {{t.decl}}, intent(in) :: b
+  {{t.decl}} :: c
+  c = a + b
+end function
+{% endfor %}
+```
+
+and compile it with
+
+```bash
+$ jin2for --generate-for gfortran sum_ints.t90
+```
+
+`jin2for` will find out for you which are the supported integer kinds of the installed `gfortran` compiler
+and render the template only for those kinds.
+
+## Installation
+
+`jin2for` is a command line application written in Python 3 and distributed via [pypi.org](https://pypi.org/project/jin2for/).
+
+It can be installed using pip:
+
+```bash
+$ pip install jin2for
+```
+
+If you obtain any installation error, make sure that you are using Python 3, e.g.,
+
+```bash
+$ python3 -m pip install jin2for
+```
+
+The latest development version can be installed manually from soruce:
+
+```bash
+$ git clone https://gitlab.com/fverdugo/jin2for
+$ cd jin2for
+$ python3 setup.py test # optional
+$ python3 setup.py install
+```
+
+## Usage
+
+### Basic usage
+
+The basic command line interface (CLI) ressembles to the one of the GNU and Intel compilers. For instance, 
+
+```bash
+$ jin2for file1.t90 file2.t90
+```
+will "compile" (i.e., render) the [jinja2](http://jinja.pocoo.org/) template files `file1.t90` and `file2.t90`  into the FORTRAN source files `file1.f90` and `file2.f90`.
+By default, `jin2for` will replace the extension of the input files to `.f90` to generate the output file names.
+
+The files `file1.t90` and `file2.t90` are allowed to include or import some other [jinja2](http://jinja.pocoo.org/) templates containing, e.g., macros or definitions.
+If these included template files are located in a folder,
+namely `folder/for/included/templates`, different from the current working directory, `jin2for` has to be informed with the `-I` flag:
+
+```bash
+$ jin2for -I folder/for/included/templates file1.t90 file2.t90
+```
+
+### More advanced usage
+
+See documentation
+
+## Documentation
+
+For the template syntax, see the official [jinja2 documentation](http://jinja.pocoo.org/).
+
+For the full CLI reference:
+
+```bash
+$ jin2for -h
+```
+
+

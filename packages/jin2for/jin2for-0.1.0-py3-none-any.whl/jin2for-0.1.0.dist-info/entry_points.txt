@@ -1,0 +1,3 @@
+[console_scripts]
+jin2for = jin2for:main
+
