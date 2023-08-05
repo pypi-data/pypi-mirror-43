@@ -1,0 +1,6 @@
+README.md
+setup.py
+yieldcurve_vlademel.egg-info/PKG-INFO
+yieldcurve_vlademel.egg-info/SOURCES.txt
+yieldcurve_vlademel.egg-info/dependency_links.txt
+yieldcurve_vlademel.egg-info/top_level.txt
