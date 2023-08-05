@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: munchkinapi
+Version: 0.0.1
+Summary: Munckin server side API
+Home-page: https://git.unistra.fr/huba/eh-pi/tree/develop/packages/api
+Author: EH-PI Team
+Author-email: thomas.huba@etu.unistra.fr
+License: GNU/GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
