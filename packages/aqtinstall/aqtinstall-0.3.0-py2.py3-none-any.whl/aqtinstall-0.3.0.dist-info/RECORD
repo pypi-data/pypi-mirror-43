@@ -1,0 +1,12 @@
+aqt/__init__.py,sha256=d2VpQmhNmde9nKAGJa9pYsAJ048x2y2YKyhXtIR_aiA,3282
+aqt/__main__.py,sha256=Har5P2Aokvil4T2S282F58kQDX6NWgBg3o__pz_ffiM,1263
+aqt/archives.py,sha256=WPG3XguEiOcqDYIuBqFNnWfQfkJa_w7NWsyl-pY4NWI,3745
+aqt/httpproxy.py,sha256=pORD77jozjszUztIT1lHNAoILW1mqe1HA6B7kiVhsMo,3186
+aqt/installer.py,sha256=CT3IE-q835m-t-lnY5A6B-SjiXfZNk7E-IaUyMAzIPs,3424
+aqtinstall-0.3.0.data/scripts/aqtinst,sha256=QW_yt00JDzBt5Jazlj-r-H18hleFQmIoBoqX6mXrnbw,96
+aqtinstall-0.3.0.dist-info/DESCRIPTION.rst,sha256=bSDvyE_7vLoSwhCDL9yyzjWM43Aq8LNsNpKs6-d8b94,3646
+aqtinstall-0.3.0.dist-info/METADATA,sha256=CRz2vy4p6iKqqiAELt1xNJyBZKps9hIGvxLPyePWHbo,3874
+aqtinstall-0.3.0.dist-info/RECORD,,
+aqtinstall-0.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+aqtinstall-0.3.0.dist-info/metadata.json,sha256=CTXLLeCunF_tfUHTo772qwmYak7T_hkQKSc20mUejDA,414
+aqtinstall-0.3.0.dist-info/top_level.txt,sha256=4ZbCrra52FYe2xDXU7vB2Svv_pFdR-swV4VwN5Hhl-4,4
