@@ -1,0 +1,5 @@
+setup.py
+kw_provider_clients.egg-info/PKG-INFO
+kw_provider_clients.egg-info/SOURCES.txt
+kw_provider_clients.egg-info/dependency_links.txt
+kw_provider_clients.egg-info/top_level.txt
