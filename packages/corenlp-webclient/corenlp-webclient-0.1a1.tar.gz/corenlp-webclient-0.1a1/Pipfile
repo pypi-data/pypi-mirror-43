@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+corenlp-webclient = {editable = true,path = "."}
+autopep8 = "*"
+pylint = "*"
+jupyter = "*"
+twine = "*"
+
+[packages]
+
+[requires]
+
