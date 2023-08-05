@@ -1,0 +1,11 @@
+abot/__init__.py,sha256=_5Lc6wubncwkV6c0fvrqi_CWp7wATaGadTnLF2nz8NY,122
+abot/bot.py,sha256=DRxW19789SVVhJG-K_Oi-zfzpqrPsn4UnqrGpE5Vs68,9503
+abot/cli.py,sha256=8GXtXR0k7-WtaKCy5NkGPUiK_kqwfPDX551qEtTeNtg,7333
+abot/dubtrack.py,sha256=K3N3Hn7wz6OhfRn-e9-DZQcvQ4khFW2S1JrSca-S01Y,80072
+abot/slack.py,sha256=NhYFBfUpJPnYlbJrxWRT6UBNsRQgrIwGWfcj2DvfexI,27854
+abot/util.py,sha256=7GsKkCptZ7pYxKXzm0YxZrRSMAr50bUVSoebvqRcYb8,1247
+abot-0.0.1a1.post0.dev30.dist-info/LICENSE.txt,sha256=HI-YZTf_sf5CkLG-i7NwRXamnMwIpKZoXct0XtuWuNM,1075
+abot-0.0.1a1.post0.dev30.dist-info/METADATA,sha256=euAYb9-eS_-yibRn5wmFHNE1wtdnzsWPFcHHTE4PqbY,1312
+abot-0.0.1a1.post0.dev30.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+abot-0.0.1a1.post0.dev30.dist-info/top_level.txt,sha256=vZPR4z3Jp5Bbs873ReGVoroJvPClmymJaozGMijY-zk,5
+abot-0.0.1a1.post0.dev30.dist-info/RECORD,,
