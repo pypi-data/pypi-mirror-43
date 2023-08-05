@@ -1,0 +1,9 @@
+background_rm/__init__.py,sha256=FpTHuqq1p34Pm3FOzr4r4-a4bNWVFSNL--uMWPNku_o,21238
+background_rm/compiled.py,sha256=NstGxo4_4YZebxB3snwuYEaE6QLYD1doYFdic2h4bOo,4274
+background_rm/tests/test_data/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+background_rm/tests/test_data/bg.tif,sha256=jfg3c7B8QmE_bSGUJCWRU1-qZINbCVQ-IPK75VYH5l8,2012184
+background_rm/tests/test_data/im.tif,sha256=PmMIUztsWzLjIyT4T3dsao5c0CE9FrvtYGo8NmxhC58,2012184
+background_rm-0.1.3.dist-info/METADATA,sha256=hMZR9S0ib__EozkUw-azSh05pcx_0a5rOHyRWIrFbxI,1059
+background_rm-0.1.3.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+background_rm-0.1.3.dist-info/top_level.txt,sha256=Eeb7se50Zkk1GrnTX2QnRJA2fDo0c8KhODk4zE-8Oqw,14
+background_rm-0.1.3.dist-info/RECORD,,
