@@ -1,0 +1,3 @@
+[console_scripts]
+mix-splitter = mix_splitter:main
+
