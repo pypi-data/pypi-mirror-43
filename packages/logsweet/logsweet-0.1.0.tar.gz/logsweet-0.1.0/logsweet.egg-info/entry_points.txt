@@ -1,0 +1,3 @@
+[console_scripts]
+logsweet = logsweet.cli:main
+
