@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: revo-utils
+Version: 0.1.1
+Summary: A collection of utilities which we use in all our projects
+Home-page: https://github.com/RobertBinneman/revo_utils/
+Author: Robert Binneman
+Author-email: r.binneman@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/RobertBinneman/revo_utils/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: UTILITIES
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
