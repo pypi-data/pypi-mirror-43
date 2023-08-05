@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: envision
+Version: 0.1.0
+Summary: A encrypted environment variables manager for python projects
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: AndreGuerra123
+Author-email: guerraandre@hotmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: cryptography (>=2.6,<3.0)
