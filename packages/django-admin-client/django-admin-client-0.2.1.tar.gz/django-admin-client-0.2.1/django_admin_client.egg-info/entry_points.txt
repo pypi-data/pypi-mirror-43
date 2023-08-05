@@ -1,0 +1,4 @@
+[console_scripts]
+generate-package = django_admin_client.command_line.generate_package:main
+generate-spec = django_admin_client.command_line.generate_spec:main
+
