@@ -1,0 +1,9 @@
+README.md
+setup.py
+isimud/__init__.py
+isimud/isimud.py
+isimud.egg-info/PKG-INFO
+isimud.egg-info/SOURCES.txt
+isimud.egg-info/dependency_links.txt
+isimud.egg-info/requires.txt
+isimud.egg-info/top_level.txt

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: isimud
+Version: 0.2
+Summary: Package to get commonly used details of the network interface and access points you are using..
+Home-page: https://github.com/carlosplanchon/isimud
+Author: Carlos A. Planchón
+Author-email: bubbledoloresuruguay2@gmail.com
+License: GPL3
+Download-URL: https://github.com/carlosplanchon/isimud/archive/v0.2.tar.gz
+Description: # isimud
+        *Package to get commonly used details of the network interface and access points you are using.*
+        
+        ## installation
+        ### install with pip
+        ```
+        pip3 install -U isimud
+        ```
+        
+        ## features
+        
+        - Get loopback, ethernet and wifi interfaces.
+        - Get operstate, mac_address, recv and sent bytes of an interface.
+        - Get ESSID, signal percent and MAC address of an interface.
+        
+        ## usage
+        ```
+        In [3]: import isimud
+        
+        In [4]: isimud.get_eth_interfaces()
+        
+        Out[4]: ['enp9s0']
+        ```
+        
+Keywords: isimud,sensors,wifi,networking
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
