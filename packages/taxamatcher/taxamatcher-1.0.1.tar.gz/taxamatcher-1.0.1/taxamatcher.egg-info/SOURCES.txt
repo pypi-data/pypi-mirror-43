@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+scripts/taxamatcher
+taxamatcher/__init__.py
+taxamatcher/_tm_constants.py
+taxamatcher/_tm_main.py
+taxamatcher/tm_handler.py
+taxamatcher.egg-info/PKG-INFO
+taxamatcher.egg-info/SOURCES.txt
+taxamatcher.egg-info/dependency_links.txt
+taxamatcher.egg-info/not-zip-safe
+taxamatcher.egg-info/requires.txt
+taxamatcher.egg-info/top_level.txt
+taxamatcher/_jadval/__init__.py
+taxamatcher/_jadval/_jadval_adj.py
