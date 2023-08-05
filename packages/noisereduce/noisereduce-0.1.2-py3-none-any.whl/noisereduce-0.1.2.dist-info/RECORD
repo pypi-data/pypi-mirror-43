@@ -1,0 +1,9 @@
+noisereduce/__init__.py,sha256=N-mwetGm3ajowW5-6IGnfLcaUseRcI_A-uHqyLNxXqI,48
+noisereduce/generate_noise.py,sha256=lak2aqwF9EBD9-N9PdWNN0XQRf295ytGmocCvy_uMuI,671
+noisereduce/noisereduce.py,sha256=AXnh8VLTaoJCFFuk_VA8Le454PMgDT3f1MsMJ1PKQTU,5892
+noisereduce/plotting.py,sha256=p19azqq1kFbTbTppmpvnMhACvlb3Q2g2VI63OtSf-fE,1880
+noisereduce-0.1.2.dist-info/LICENSE,sha256=m8S3IazqdJaHuiabRklDWKZwd4goomG6fWyytpbUARw,1081
+noisereduce-0.1.2.dist-info/METADATA,sha256=gJv01uFi9-N1ZaJNQdqIsqLOzYkfkrjEUGjQVCiJ5yc,3519
+noisereduce-0.1.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+noisereduce-0.1.2.dist-info/top_level.txt,sha256=6Hgzm-l6hQCFElARbMuHomQu5Q2r3-LDCWK515jE7ak,12
+noisereduce-0.1.2.dist-info/RECORD,,
