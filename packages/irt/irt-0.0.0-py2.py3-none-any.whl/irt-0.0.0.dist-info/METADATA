@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: irt
+Version: 0.0.0
+Summary: Item Response Theory in Python
+Home-page: https://github.com/aimir/irt
+Author: Amir Sarid
+Author-email: aisarid@gmail.com
+License: UNKNOWN
+Keywords: IRT item response theory psychometrics
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# IRT
+
+## Item Response Theory in Python
+
+Currently contains simple code, using a 4-parameter model, and allowing for partial credit.
+
+The parameter estimation is done using MMLE with parameter regulation, and the underlying optimization uses `scipy.optimize`
+
+estimate_thetas receives an input array, where each line represents the scores of a single person in each question, and returns the estimated theta parameters per person and the model parameters per question.
+
+
