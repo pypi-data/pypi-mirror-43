@@ -1,0 +1,17 @@
+README.md
+setup.py
+cpsr/__init__.py
+cpsr/cones.py
+cpsr/lsqr.py
+cpsr/problem.py
+cpsr/refine.py
+cpsr/solvers.py
+cpsr/sparse_matvec.py
+cpsr/utils.py
+cpsr.egg-info/PKG-INFO
+cpsr.egg-info/SOURCES.txt
+cpsr.egg-info/dependency_links.txt
+cpsr.egg-info/requires.txt
+cpsr.egg-info/top_level.txt
+test/test_cones.py
+test/test_problem.py
