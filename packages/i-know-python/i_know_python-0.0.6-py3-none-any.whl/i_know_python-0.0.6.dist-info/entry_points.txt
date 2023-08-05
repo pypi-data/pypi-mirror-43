@@ -1,0 +1,3 @@
+[console_scripts]
+i_know_python = i_know_python.main:run
+
