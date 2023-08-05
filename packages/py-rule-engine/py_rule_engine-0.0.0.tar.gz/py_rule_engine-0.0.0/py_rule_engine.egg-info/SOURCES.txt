@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+py_rule_engine.egg-info/PKG-INFO
+py_rule_engine.egg-info/SOURCES.txt
+py_rule_engine.egg-info/dependency_links.txt
+py_rule_engine.egg-info/requires.txt
+py_rule_engine.egg-info/top_level.txt
+rule_engine/__init__.py
+rule_engine/error.py
+rule_engine/operator.py
+rule_engine/rule.py
+tests/__init__.py
+tests/test_operator.py
+tests/test_rules.py
