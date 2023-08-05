@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas
+scikit-learn
+numba>=0.37
+umap-learn
+anndata
+
+[hdbscan]
+hdbscan
+
+[louvain]
+louvain
+
+[plot]
+matplotlib
