@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Introduction - Test/demo document for testing the mkdocs extension tagtomarkdown</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="css/extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Introduction";
+    var mkdocs_page_input_path = "Page1.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Test/demo document for testing the mkdocs extension tagtomarkdown</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Introduction</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="Page1.html">Introduction</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#test-tagtomarkdown-tags-in-markdown-file">Test tagtomarkdown tags in markdown file</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#try-tables">Try tables</a></li>
+        
+            <li><a class="toctree-l4" href="#try-ordered-lists">Try ordered lists</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#test-references-to-table-row-numbers-and-ordered-list-numbers">Test references to table row numbers and ordered list numbers</a></li>
+    
+
+    <li class="toctree-l3"><a href="#a-few-other-services">A few other services</a></li>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Test/demo document for testing the mkdocs extension tagtomarkdown</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Introduction &raquo;</li>
+        
+      
+    
+    <li>Introduction</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="test-tagtomarkdown-tags-in-markdown-file">Test tagtomarkdown tags in markdown file<a class="headerlink" href="#test-tagtomarkdown-tags-in-markdown-file" title="Permanent link">&para;</a></h2>
+<p>Just some text, until further.
+<br />and a home made line break
+and more text.</p>
+<h3 id="try-tables">Try tables<a class="headerlink" href="#try-tables" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th align="center">No</th>
+<th>Text</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>Here is the first row. You can write as many lines here as you want.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>And the second</td>
+<td>And a bit of a comment here.</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>and that's it.</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Table 1:  Some caption text for the table</strong></p>
+<h3 id="try-ordered-lists">Try ordered lists<a class="headerlink" href="#try-ordered-lists" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Number one and with quite some text, so that we can show
+that there can be more input lines here. But note that when there is a
+keyword after the &gt;li, there should be no more text in that line</li>
+<li>Next item.</li>
+<li>Note no keyword (*incr) here.</li>
+</ol>
+<h2 id="test-references-to-table-row-numbers-and-ordered-list-numbers">Test references to table row numbers and ordered list numbers<a class="headerlink" href="#test-references-to-table-row-numbers-and-ordered-list-numbers" title="Permanent link">&para;</a></h2>
+<p>Here, we can refer symbolically row
+2
+in the table above and the ordered list item
+2.</p>
+<h2 id="a-few-other-services">A few other services<a class="headerlink" href="#a-few-other-services" title="Permanent link">&para;</a></h2>
+<p>Last update:
+2019-03-06 16:37:31.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Christian Hauris Sorensen</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+
+</body>
+</html>
