@@ -1,0 +1,3 @@
+[console_scripts]
+kdLaunchPad = kdLaunchPad.kdLaunchPad:main
+
