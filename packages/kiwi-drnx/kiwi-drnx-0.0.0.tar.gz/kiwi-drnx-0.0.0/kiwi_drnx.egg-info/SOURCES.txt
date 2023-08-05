@@ -1,0 +1,5 @@
+setup.py
+kiwi_drnx.egg-info/PKG-INFO
+kiwi_drnx.egg-info/SOURCES.txt
+kiwi_drnx.egg-info/dependency_links.txt
+kiwi_drnx.egg-info/top_level.txt
