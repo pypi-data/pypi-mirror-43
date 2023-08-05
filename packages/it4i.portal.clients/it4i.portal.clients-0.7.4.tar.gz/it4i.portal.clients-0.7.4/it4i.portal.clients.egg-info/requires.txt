@@ -1,0 +1,10 @@
+ConfigParser
+argparse
+beautifulsoup4
+chameleon
+feedparser
+lxml
+pycent
+simplejson
+tabulate
+python-dateutil
