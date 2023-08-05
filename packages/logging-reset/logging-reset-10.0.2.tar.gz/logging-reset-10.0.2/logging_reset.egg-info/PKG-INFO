@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: logging-reset
+Version: 10.0.2
+Summary: Reset Python logging configuration to factory defaults
+Home-page: UNKNOWN
+Author: Maybe Null
+Author-email: maybenull@protonmail.ch
+License: UNKNOWN
+Description: ### Reset Python logging configuration to factory defaults
+        
+        
+        Reset logging configuration in your project to factory defaults - to deal with third-party libraries which configure their own formatters, etc. at import time.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
