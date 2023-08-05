@@ -1,0 +1,6 @@
+#!python
+
+from json_viewer import main
+
+if "__main__" == __name__:
+    main()
