@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: quantdom
+Version: 0.1.1
+Summary: Simple but powerful backtesting framework, that strives to let you focus on modeling financial strategies, portfolio management, and analyzing backtests.
+Home-page: https://github.com/constverum/Quantdom
+Author: Constverum
+Author-email: constverum@gmail.com
+Keywords: quant,quantitative,backtest,backtesting,quantitative-finance,trading,trading-strategies,trading-platform,algo,algotrading,algorithmic,algorithmic-trading,finance,fintech,financial-analysis,stocks,stock-market,strategy,market,investment,currency,forex,fund,futures
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Requires-Dist: PyQt5 (>=5.11,<6.0)
+Requires-Dist: PyQt5-sip (>=4.19,<5.0)
+Requires-Dist: numpy (>=1.16,<2.0)
+Requires-Dist: pandas (>=0.24.1,<0.25.0)
+Requires-Dist: pandas-datareader (>=0.7.0,<0.8.0)
+Requires-Dist: pyqtgraph (>=0.10.0,<0.11.0)
+Project-URL: Documentation, https://github.com/constverum/Quantdom
+Project-URL: Repository, https://github.com/constverum/Quantdom
