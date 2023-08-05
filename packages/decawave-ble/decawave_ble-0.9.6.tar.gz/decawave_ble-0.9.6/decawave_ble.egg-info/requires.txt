@@ -1,0 +1,7 @@
+bluepy
+tenacity
+bitstruct
+pandas
+
+[s3]
+boto3
