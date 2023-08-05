@@ -1,0 +1,5 @@
+PyNaCl
+
+[dev]
+pytest
+twine
