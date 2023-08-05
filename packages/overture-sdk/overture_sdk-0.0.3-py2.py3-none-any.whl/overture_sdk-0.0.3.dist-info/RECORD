@@ -1,0 +1,10 @@
+overture/__init__.py,sha256=Pf_4vPEe12cq5HmMPpGofrpkdsd035if5GXdlyO5R1U,168
+overture/rest/__init__.py,sha256=Pf_4vPEe12cq5HmMPpGofrpkdsd035if5GXdlyO5R1U,168
+overture/rest/client.py,sha256=DHSrpm7cjxL_ZfyQzIN8QRAEBFPWVRPRTRLSIkkvfPQ,249
+overture/rest/errors.py,sha256=pUpqzkpwwUkmUkLbnbIpeETAJoYyRxdmqrgnO-PabOo,450
+overture/rest/predictions.py,sha256=vjDGqLP-rA0-9onR3AETMHxjd-cpRGbpv3D90CVl_P0,5459
+overture_sdk-0.0.3.dist-info/LICENSE.txt,sha256=yQPpn70Z72JKJvYsumqEeMWh0MDPvoOMOaaEQl2FrY0,1101
+overture_sdk-0.0.3.dist-info/METADATA,sha256=xnMXbmncQCyL-cmqyktsbUErYyI_vtf2yNJu4mPfqLg,1281
+overture_sdk-0.0.3.dist-info/RECORD,,
+overture_sdk-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+overture_sdk-0.0.3.dist-info/top_level.txt,sha256=Xu-DJHp7cngI6_cW9My2_ffeiHCN9QAxloHWSD9ntJA,9
