@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+c3linear/__init__.py
+c3linear/mro.py
+c3linear.egg-info/PKG-INFO
+c3linear.egg-info/SOURCES.txt
+c3linear.egg-info/dependency_links.txt
+c3linear.egg-info/requires.txt
+c3linear.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_mro.py
