@@ -1,0 +1,14 @@
+red.so,sha256=By87n3xQ_D5N3L0mloiUtRuaFlAPWe9iCSAYpkL8HlE,4034737
+sum_pure_go.h,sha256=waHJX-JHrXH6d-Z2nkKW7QyDEa5CSlLsgWk5c74VVrw,1698
+sum_go.so,sha256=hYidX1N24Jmr519WGY_hrDNbj5cvOjMP5btdAs8OV98,2067523
+hello_lib.h,sha256=NNqgoE1Os5dZLljREeloy6-4JfbETEsBjza201Z9m-o,1713
+red.h,sha256=faZLmcbzSvRgC5HRJVHKTNIqzhXO1-uIzH8qxGm0Q2M,1700
+c_module.so,sha256=N63dbfRM3kP5SqLvl1t-J9vEbYSMpJgCU83EvVsr16s,15956
+hello_lib.so,sha256=d_usxuBRFn86tFJh3fPS4EYHGpc0f2xTxom6zMX6ei8,2079951
+sum_pure_go.so,sha256=RsJKcHoGWtO5SM3MBx7v9T39s8il7MiqHe4ZyARLwkg,2067607
+sum_go.h,sha256=5LdvY01cUzFGf7xtvVXKrvz-oyO92bdywIP3c7iKqqw,1688
+setuptools_golang_examples-1.0.0.dist-info/RECORD,,
+setuptools_golang_examples-1.0.0.dist-info/METADATA,sha256=IEbY4I6lJx9DBYx9FL_XINDhchiz6zMsrCiV-onueY8,2395
+setuptools_golang_examples-1.0.0.dist-info/top_level.txt,sha256=pPwA5T5xYXofNNAJbvE9novVsCMJduzrLTMiUBk2mWM,36
+setuptools_golang_examples-1.0.0.dist-info/WHEEL,sha256=M5Ujap42zjfAFnpJOoFU72TFHuBKh-JF0Rqu5vZhkVE,110
+setuptools_golang_examples-1.0.0.dist-info/LICENSE.txt,sha256=E_fEyBBI1K9TdyFPp6P7Av6PH-WqOkje0ldG9KtMjro,1059
