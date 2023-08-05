@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: git2net
+Version: 0.0.1
+Summary: An OpenSource Python package for the extraction of fine-grained and time-stamped co-editing networks from git repositories.
+Home-page: https://github.com/gotec/git2net
+Author: Christoph Gote
+Author-email: cgote@ethz.ch
+License: AGPL-3.0+
+Description: # git2net
+        
+        `git2net` is an Open Source Python package that facilitates the extraction of co-editing networks
+        from git repositories.
+        
+        ## What are Co-editing networks
+        
+        *TK*
+        
+        ## Download and installation
+        
+        *TK*
+        
+        ## How to cite git2net
+        
+        *TK*
+        
+        ## License
+        
+        This software is licensed under the GNU Affero General Public License v3 (AGPL-3.0).
+        
+Keywords: co-editing networks repository mining network analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
