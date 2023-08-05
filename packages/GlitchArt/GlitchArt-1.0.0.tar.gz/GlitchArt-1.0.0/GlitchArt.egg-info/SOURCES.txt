@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+GlitchArt.egg-info/PKG-INFO
+GlitchArt.egg-info/SOURCES.txt
+GlitchArt.egg-info/dependency_links.txt
+GlitchArt.egg-info/not-zip-safe
+GlitchArt.egg-info/requires.txt
+GlitchArt.egg-info/top_level.txt
+glitchart/__init__.py
+glitchart/glitchart.py
