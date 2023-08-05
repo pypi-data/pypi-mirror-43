@@ -1,0 +1,10 @@
+mortar_mixins/__init__.py,sha256=XOI4XMyrdeb_qShcIz3U6GI6Z9eQOQ-Fx4C3nn0NFXU,223
+mortar_mixins/common.py,sha256=S7Fxuy58G1W3u-NRnefv6-PUASS59M08RRorXpcXdho,2169
+mortar_mixins/compat.py,sha256=wPjVvPnqxIeViG3hkqyhPSmgV-bUzryyY3M_g4EVPnA,150
+mortar_mixins/migrations.py,sha256=dOjXWkCBSdDeOYDG3ziyXYDBYkFewOJQtKhHZnudUNc,587
+mortar_mixins/temporal.py,sha256=xDOu0VCKnLRqse3_-T5-m3SVlEnG3nSyDvcZeTckN1k,11025
+mortar_mixins-2.3.5.dist-info/LICENSE.txt,sha256=t_R85IUCDT8QHbnncoeTcnQxSR1_adHC2YVavffZa8A,1076
+mortar_mixins-2.3.5.dist-info/METADATA,sha256=soIu-1o6ZOt4FMy4mOX4dMl_4r34rDs_7dKt0GrfJH8,1964
+mortar_mixins-2.3.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+mortar_mixins-2.3.5.dist-info/top_level.txt,sha256=t3kXLv1wbF5TBdVWz_85Fjwc4l_5HV3XdBd7Z0huOCE,14
+mortar_mixins-2.3.5.dist-info/RECORD,,
