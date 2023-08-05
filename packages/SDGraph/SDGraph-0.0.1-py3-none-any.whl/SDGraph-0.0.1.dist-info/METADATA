@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: SDGraph
+Version: 0.0.1
+Summary: A simple jedi based python3 dependency analysis tool
+Home-page: https://github.com/jam-world/py3_dependency_graph
+Author: Cha Chen
+Author-email: chencha92111@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: GitPython
+Requires-Dist: jedi
+Requires-Dist: networkx
+
+
+# Table of Contents
+
+1.  [What is this tool for?](#org68708aa)
+
+
+
+<a id="org68708aa"></a>
+
+# What is this tool for?
+
+  This is just a simple python static dependency generate tool, It can help you generate the dependency graph
+find circular import.
+
+
+
