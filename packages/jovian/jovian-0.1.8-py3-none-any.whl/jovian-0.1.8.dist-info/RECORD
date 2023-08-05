@@ -1,0 +1,17 @@
+jovian/__init__.py,sha256=OtT3Ovm9n_GF6PhWvr10nFjEGBuPQHNFC1D8Ngt3ml0,1015
+jovian/_version.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+jovian/cli.py,sha256=GVh3x82RiPlel-IK7PSs3rPRqZo7-GrJaZDYk_eaAwY,1021
+jovian/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jovian/utils/anaconda.py,sha256=HUGQvpDetIwyU3W6G-36U8RJpdXXTHtyyGCn-7TmvZk,1666
+jovian/utils/api.py,sha256=WMIeyfGDQm7hJsDGSUDToEhgTjfp65rUWZ13rTVGWXA,4027
+jovian/utils/clone.py,sha256=W5ZIbvAjs2JKRpy-UyGfpOoFL1VfeMxTWN8FdqsvQK8,1711
+jovian/utils/constants.py,sha256=2cSlu9sCpwmEcs4Glwcbti8s4lJ1jrWvLpSRrvo9Ue8,64
+jovian/utils/credentials.py,sha256=MzwmncydCS_-SvfHnXZPm_AkmJueCoQiUsaIdd2oXVg,1753
+jovian/utils/jupyter.py,sha256=LJNO07yhMLGcGygS91E-Ue8wKxgyQVN1rsol-r-qS8A,4065
+jovian/utils/logger.py,sha256=8kmwCxBBBN60Xl4ADDsOEsI6TL9Ra_Fw4GaXbjkK-Rk,236
+jovian/utils/pip.py,sha256=Q1vyg2VKJjGkomkPVFk4iKLvsLlv58R8P_SLXkA3NCU,580
+jovian-0.1.8.dist-info/METADATA,sha256=KxSYTUCQHtIi1K8MJtvCuSiAyQutwLQrEUwu-f0g76w,1862
+jovian-0.1.8.dist-info/RECORD,,
+jovian-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jovian-0.1.8.dist-info/entry_points.txt,sha256=Gxsuvc_4QzMHgJ01MV3VAotfvz5m8T_fJebwCnp2UiM,44
+jovian-0.1.8.dist-info/top_level.txt,sha256=8EkC35On5-ZDhTAZbPFUA1TTnm0iHfI05cmTRdWDZko,7
