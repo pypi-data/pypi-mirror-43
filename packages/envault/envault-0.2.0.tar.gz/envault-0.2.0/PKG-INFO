@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: envault
+Version: 0.2.0
+Summary: A simple CLI tool to run processes with secrets from HashiCorp Vault.
+Home-page: UNKNOWN
+Author: Pratish Shrestha
+Author-email: pratishshr@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/pratishshr/envault
+Project-URL: Documentation, https://github.com/pratishshr/envault/blob/master/README.md
+Description: UNKNOWN
+Platform: UNKNOWN
