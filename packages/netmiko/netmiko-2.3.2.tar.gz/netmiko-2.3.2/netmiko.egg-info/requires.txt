@@ -1,0 +1,13 @@
+setuptools>=38.4.0
+paramiko>=2.4.2
+scp>=0.10.0
+pyyaml
+pyserial
+textfsm
+
+[:python_version == "2.7"]
+enum34
+ipaddress
+
+[test]
+pytest>=3.2.5
