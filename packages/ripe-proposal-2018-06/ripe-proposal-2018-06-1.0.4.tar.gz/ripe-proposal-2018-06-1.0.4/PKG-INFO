@@ -1,0 +1,36 @@
+Metadata-Version: 1.2
+Name: ripe-proposal-2018-06
+Version: 1.0.4
+Summary: RIPE Policy Proposal 2018-06 Analyser
+Home-page: https://github.com/job/ripe-proposal-2018-06
+Maintainer: Job Snijders
+Maintainer-email: job@ntt.net
+License: BSD 2-Clause
+Description: RIPE Policy Proposal 2018-06 Analyser
+        =====================================
+        
+        A simple tool to show what RIPE-NONAUTH objects are affected by
+        RIPE Policy Proposal 2018-06.
+        
+        Installation
+        ------------
+        
+        `pip3 install ripe-proposal-2018-06`
+        
+        Use
+        ---
+        
+        `$ ripe-proposal-2018-06`
+        
+        Copyright
+        ---------
+        
+        Copyright (c) 2018 Job Snijders <job@ntt.net>
+        
+Keywords: rpki prefix routing networking
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
