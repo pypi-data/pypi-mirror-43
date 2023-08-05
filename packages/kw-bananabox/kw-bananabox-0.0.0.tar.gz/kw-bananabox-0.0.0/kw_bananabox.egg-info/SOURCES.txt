@@ -1,0 +1,5 @@
+setup.py
+kw_bananabox.egg-info/PKG-INFO
+kw_bananabox.egg-info/SOURCES.txt
+kw_bananabox.egg-info/dependency_links.txt
+kw_bananabox.egg-info/top_level.txt
