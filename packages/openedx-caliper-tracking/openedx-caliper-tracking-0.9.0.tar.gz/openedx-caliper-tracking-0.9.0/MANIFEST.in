@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include openedx_caliper_tracking/tests/current/*
+recursive-include openedx_caliper_tracking/tests/expected/*
