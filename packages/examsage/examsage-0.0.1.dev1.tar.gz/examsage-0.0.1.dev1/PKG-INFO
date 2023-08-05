@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: examsage
+Version: 0.0.1.dev1
+Summary: A tool for write math exams using sagemath and LaTeX. This is my first package and is intended as a learning exercise. In other words, expect nothing to work.
+Home-page: UNKNOWN
+Author: Michael Barnard
+Author-email: mbarnard10@ivytech.edu
+License: MIT
+Description: # ExamSage Package
+        
+        This is a my first package. Don't expect anything to work. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

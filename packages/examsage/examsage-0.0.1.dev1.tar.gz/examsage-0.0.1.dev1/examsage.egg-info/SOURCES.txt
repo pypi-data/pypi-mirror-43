@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+examsage/__init__.py
+examsage/assessment.py
+examsage/body.py
+examsage/course.py
+examsage/mathlib.py
+examsage/problemset.py
+examsage/section.py
+examsage.egg-info/PKG-INFO
+examsage.egg-info/SOURCES.txt
+examsage.egg-info/dependency_links.txt
+examsage.egg-info/not-zip-safe
+examsage.egg-info/top_level.txt
