@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pythoncards
+Version: 1.0
+Summary: A very small and simple library that can be used to create and manipulate playing card deck objects.
+Home-page: https://github.com/georged88/pythoncards
+Author: George Doujaiji
+Author-email: GeorgeDouj88@gmail.com
+License: MIT
+Download-URL: https://github.com/GeorgeDouj88/pythoncards/archive/v1.0-beta.tar.gz
+Description: UNKNOWN
+Keywords: playing cards,simple,small,oop
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
