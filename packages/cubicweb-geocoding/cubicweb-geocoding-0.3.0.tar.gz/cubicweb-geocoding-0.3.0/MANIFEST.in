@@ -1,0 +1,4 @@
+include setup.py
+include README
+recursive-include cubicweb_geocoding/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_geocoding/i18n *.po

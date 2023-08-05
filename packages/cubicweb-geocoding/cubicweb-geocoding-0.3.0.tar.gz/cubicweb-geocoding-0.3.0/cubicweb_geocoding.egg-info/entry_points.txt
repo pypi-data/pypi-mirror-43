@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+geocoding = cubicweb_geocoding
+
