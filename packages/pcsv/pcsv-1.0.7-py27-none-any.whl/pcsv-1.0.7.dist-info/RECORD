@@ -1,0 +1,17 @@
+pcsv/__init__.py,sha256=3dW3t_Kq8tcHdVR_3lJwzYO7Chcv7tRBNQ-H2u6Fc58,314
+pcsv/compat2.py,sha256=82iB-VEb3cqHfm8Xk7EeeQcjj6vyPxjavjSnu741Jk8,1149
+pcsv/compat3.py,sha256=QJotD8nqJY_HFkigFrI9b3Fbp6_jNU1C4AVqviUwaao,848
+pcsv/concatenate.py,sha256=xs5N30FVq8U0IC4Ec6g4ECEyLlzPeFj3wrwpsrTGE2Q,6174
+pcsv/csv_file.py,sha256=9RfKebERfmb-QXWU8j1Mb42ITdN0GdFmp9nW6SyF6xw,32001
+pcsv/dsort.py,sha256=ngqKk-FGy8bApgSsM8llDkaJdez1k83yh7q67-YFOrQ,2676
+pcsv/merge.py,sha256=lKCKtxgAwKweli2l4s3U_-_RPffINbakhSkuc_uFYso,6889
+pcsv/pkgdata.py,sha256=wX8QKSP6g9tkFx4aEsA788D1AyQ1lGTGgROR-OrpFX8,1245
+pcsv/ptypes.py,sha256=PVeaZsoAYHYsRfUWkJrvXL_mq21ykeY_qNW3ovlvYro,7041
+pcsv/replace.py,sha256=D2o9bUUUWst8vBjciuafCqPJt_k3SA0jdXmFZmoFw48,6265
+pcsv/write.py,sha256=CcN8B1vEiTNr58NpdtpPoIT-g0LGP43jkjoXwdVDQSw,3064
+pcsv-1.0.7.dist-info/DESCRIPTION.rst,sha256=Q8kcKkMBeZid0w3YX7JKfrXpCJ1OzpB8X6SxHsXD9d4,21841
+pcsv-1.0.7.dist-info/METADATA,sha256=BCoohlHbwXItHfCROb7-RJjwBQkUPpT8Zw-5pTkrtw8,22867
+pcsv-1.0.7.dist-info/RECORD,,
+pcsv-1.0.7.dist-info/WHEEL,sha256=UV86nNjN6xxqgvvlJzbgsLQb68oPbFLruWxO3VWrKfg,93
+pcsv-1.0.7.dist-info/metadata.json,sha256=Re7N7c__X38C5lX5JQz4jbXSl07g0R0O3BcWsOuT3K0,1623
+pcsv-1.0.7.dist-info/top_level.txt,sha256=Nw60SAJRSWCIOKt7RryXi5dWL_yv3jV1MpO9jNow1PI,5
