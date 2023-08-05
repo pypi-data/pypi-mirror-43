@@ -1,0 +1,7 @@
+README.md
+lazy_write.py
+setup.py
+lazy_write.egg-info/PKG-INFO
+lazy_write.egg-info/SOURCES.txt
+lazy_write.egg-info/dependency_links.txt
+lazy_write.egg-info/top_level.txt
