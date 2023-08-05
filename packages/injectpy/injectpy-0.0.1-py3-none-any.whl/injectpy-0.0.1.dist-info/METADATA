@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: injectpy
+Version: 0.0.1
+Summary: Awesome injection container. Still in development, just reserving a name.
+Home-page: UNKNOWN
+Author: Rafal Stozek
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Requires-Dist: attrs
+
+UNKNOWN
+
+
