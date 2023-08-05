@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ndf
+Version: 0.1
+Summary: NumPy based deep learning framework
+Home-page: https://github.com/primozgodec/ndf
+Author: Primoz Godec
+Author-email: primoz492@gmail.com
+License: UNKNOWN
+Description: # Numpy deep-framework
+        
+        NumPy based deep learning framework. Implemented for production purposes where
+        it is critical to use Tensorflwo, PyTorch or any other no-Numpy framework.
+        
+        ### Installation
+        
+            cd <to-package-dir>
+            pip install .
+        
+            # when it will be deployed to pip
+        
+            # pip install ndf
+        
+        ### Usage
+        
+        The syntax is similar to Keras's.
+        Check the example [squeezenet model](https://github.com/PrimozGodec/ndf/blob/master/ndf/example_models/squeezenet.py).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
