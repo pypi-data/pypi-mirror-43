@@ -1,0 +1,5 @@
+setup.py
+kw_gds_viewer.egg-info/PKG-INFO
+kw_gds_viewer.egg-info/SOURCES.txt
+kw_gds_viewer.egg-info/dependency_links.txt
+kw_gds_viewer.egg-info/top_level.txt
