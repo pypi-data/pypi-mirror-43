@@ -1,0 +1,6 @@
+setup.py
+baibaoxiang.egg-info/PKG-INFO
+baibaoxiang.egg-info/SOURCES.txt
+baibaoxiang.egg-info/dependency_links.txt
+baibaoxiang.egg-info/requires.txt
+baibaoxiang.egg-info/top_level.txt
