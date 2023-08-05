@@ -1,0 +1,10 @@
+man/
+*.egg-info
+pip-selfcheck.json
+.coverage
+.coverage.*
+build/
+dist/
+pyvenv.cfg
+bin/
+lib/

@@ -1,0 +1,15 @@
+six
+
+[build]
+setuptools-git
+wheel
+twine
+
+[test]
+pytest
+pytest-cov
+testfixtures
+coveralls
+mortar_mixins
+mortar_rdb
+mock
