@@ -1,0 +1,5 @@
+setup.py
+kw_datapuppy.egg-info/PKG-INFO
+kw_datapuppy.egg-info/SOURCES.txt
+kw_datapuppy.egg-info/dependency_links.txt
+kw_datapuppy.egg-info/top_level.txt
