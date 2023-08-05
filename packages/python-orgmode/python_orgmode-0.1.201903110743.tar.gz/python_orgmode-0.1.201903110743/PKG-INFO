@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: python_orgmode
+Version: 0.1.201903110743
+Summary: Org file (orgmode.org) parser
+Home-page: https://github.com/pirackr/python_orgmode
+Author: Pirackr
+Author-email: pirackr.inbox@gmail.com
+License: UNKNOWN
+Description: A small lib which parse org file
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
