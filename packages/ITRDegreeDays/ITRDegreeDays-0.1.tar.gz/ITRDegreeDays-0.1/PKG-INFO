@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ITRDegreeDays
+Version: 0.1
+Summary: It is an open source library for calculating grade days using the simple sine method
+Home-page: https://github.com/devmaufh/ITRDegreeDays
+Author: Mauricio Flores Hernández
+Author-email: mau1361317@gmail.com
+License: MIT
+Download-URL: https://codeload.github.com/devmaufh/ITRDegreeDays/legacy.tar.gz/0.1
+Description: UNKNOWN
+Keywords: Degree,Days,Sin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
