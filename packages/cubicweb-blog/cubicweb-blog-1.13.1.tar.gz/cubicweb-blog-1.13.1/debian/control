@@ -1,0 +1,31 @@
+Source: cubicweb-blog
+Section: web
+Priority: optional
+Maintainer: Logilab Packaging Team <contact@logilab.fr>
+Uploaders: Sylvain Thenault <sylvain.thenault@logilab.fr>, Nicolas Chauvat <nicolas.chauvat@logilab.fr>
+Build-Depends:
+ debhelper (>= 9),
+ python (>= 2.6.5),
+ dh-python,
+X-Python-Version: >= 2.6
+Standards-Version: 3.9.6
+Homepage: https://www.cubicweb.org/project/cubicweb-blog
+
+Package: cubicweb-blog
+Architecture: all
+Depends:
+ cubicweb-common (>= 3.19.0),
+ python-six (>= 1.4.0),
+ ${python:Depends},
+ ${misc:Depends},
+Suggests:
+ cubicweb-comment (>= 1.6.3),
+ cubicweb-tag,
+ cubicweb-sioc,
+ python-feedparser,
+ python-rdflib
+Recommends: cubicweb-preview, cubicweb-seo
+Description: blog component for the CubicWeb framework
+ This CubicWeb component provides blogging functionnalities.
+ .
+ CubicWeb is a semantic web application framework, see http://www.cubicweb.org
