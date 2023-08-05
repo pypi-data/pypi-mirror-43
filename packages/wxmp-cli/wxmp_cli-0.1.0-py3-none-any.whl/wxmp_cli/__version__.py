@@ -1,0 +1,8 @@
+__title__ = 'wxmp-cli'
+__description__ = ''
+__url__ = 'https://github.com/hypc/wxmp-cli'
+__version__ = '0.1.0'
+__author__ = 'hypc'
+__author_email__ = 'h_yp00@163.com'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2018 Hypc'

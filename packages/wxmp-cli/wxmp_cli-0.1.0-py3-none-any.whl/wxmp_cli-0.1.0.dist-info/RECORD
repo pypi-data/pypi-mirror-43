@@ -1,0 +1,17 @@
+wxmp_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wxmp_cli/__version__.py,sha256=I4A9Gnje798nZMZtAVlFdEfTaxf-MK1ETRQYQCbfsD8,225
+wxmp_cli/core/__init__.py,sha256=cLvU5hym9qi6OjOVO5CKT48aIexEWHIP9x90Kbwy4eY,3147
+wxmp_cli/core/base.py,sha256=fpncEYKIvz1Gis0tZ0MeI8ZUvCufha137anlVD-eRmo,2119
+wxmp_cli/core/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wxmp_cli/core/commands/login.py,sha256=eM6_EKWVYCT3gwP04mJXJd9N-JzuR5LqcBJK_FoksEw,912
+wxmp_cli/core/commands/tag.py,sha256=CMSykXsUlH7xMDkArG_vRqHrRrSNABlrTwzirjy7V1g,1736
+wxmp_cli/core/commands/user.py,sha256=ZTtyF4X99EEcPz5ZeAEjUhb1fQFcxkxBEgvwMItTftQ,2606
+wxmp_cli/wx/__init__.py,sha256=paz1qBCnoTB1w3NrVl2E8sBhmMMiKFZNRuQZMLOKnH8,2015
+wxmp_cli/wx/mp1421140183.py,sha256=IBwfeV28133cIv1RhnN9OPO_JiHlxm422EXDjqlVjeA,513
+wxmp_cli/wx/mp1421140837.py,sha256=fY5o_3f1Cbr3FTdLcSZ4EBTWBHIY9RvEiZ9idEInaak,915
+wxmp_cli/wx/mp1421140839.py,sha256=4PvGYTamegR-v9vBMP3HOcpA7vHR2T9zb3qASM1uYzU,505
+wxmp_cli-0.1.0.dist-info/METADATA,sha256=PI9uoe_xWC7ZN5_i5svImc8q-vOgNg3PlEhDl1DLZtE,706
+wxmp_cli-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+wxmp_cli-0.1.0.dist-info/entry_points.txt,sha256=-ye5pTDAi1HIP3CCnil3RPnUG-rCKsJyLzJ1DnfUSlk,70
+wxmp_cli-0.1.0.dist-info/top_level.txt,sha256=FKZqpqgokgKPP80spN_jGG7hGui2lj32_09eNBAywiA,9
+wxmp_cli-0.1.0.dist-info/RECORD,,
