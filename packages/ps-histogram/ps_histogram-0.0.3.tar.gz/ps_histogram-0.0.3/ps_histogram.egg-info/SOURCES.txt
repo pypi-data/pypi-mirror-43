@@ -1,0 +1,8 @@
+README.md
+setup.py
+ps_histogram.egg-info/PKG-INFO
+ps_histogram.egg-info/SOURCES.txt
+ps_histogram.egg-info/dependency_links.txt
+ps_histogram.egg-info/requires.txt
+ps_histogram.egg-info/top_level.txt
+ps_histogram.egg-info/zip-safe
