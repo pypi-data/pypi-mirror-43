@@ -1,0 +1,9 @@
+temperature/__init__.py,sha256=giBpUJ4bYQLSLZjrKMBgte4xBmZ5JT4Pk5TwjmW8DmU,30
+temperature/temperature.py,sha256=CJ8Mx8NCn1otsU_KF8OoEHE3lCbGTMzE-raiiIKbc0U,1918
+temperature-1.4.data/data/Temperature.dll,sha256=8UnaMsPBDncpNP0VpQ72WdVWPklxSNJgWZMLQPXoGmk,371200
+temperature-1.4.data/data/temperature.exe,sha256=Yi-LMTr8wnaqVjsqNf5aSfASWEenP6kdZCiVIceW2rw,13312
+temperature-1.4.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+temperature-1.4.dist-info/METADATA,sha256=OUwjWbuyGmD5cORL36ldyllNyB0SislO38u9UcRIU5U,473
+temperature-1.4.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+temperature-1.4.dist-info/top_level.txt,sha256=w3WE36YgUwIXx4DnUBWtT412Xfj2Y4ZnFkZUCVc3G6Q,12
+temperature-1.4.dist-info/RECORD,,
