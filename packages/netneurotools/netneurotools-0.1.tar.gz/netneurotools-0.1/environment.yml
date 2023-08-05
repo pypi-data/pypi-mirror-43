@@ -1,0 +1,28 @@
+name: netneurotools
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - matplotlib
+    - mkl
+    - nibabel
+    - nilearn
+    - numba
+    - "numpy>1.14"
+    - pandas
+    - pip
+    - pyface
+    - pygments
+    - "pyqt>=5.9"
+    - requests
+    - scikit-learn
+    - scipy
+    - seaborn
+    - traits
+    - traitsui
+    - "vtk>8"
+    - pip:
+        - bctpy
+        - imageio
+        - mayavi
+        - pysurfer
