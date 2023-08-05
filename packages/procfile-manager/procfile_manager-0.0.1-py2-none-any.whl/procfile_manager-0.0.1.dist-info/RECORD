@@ -1,0 +1,9 @@
+procfile_manager/__init__.py,sha256=pa8_AKX_YsjjTKET_TrXHu3Or3gmEiX6epF3gNdOvEU,3070
+procfile_manager/__main__.py,sha256=Pd5c8_6yB9DBX-tIyGpbMw0w_Ni7j5hcKE321L0ZHd4,79
+procfile_manager/command.py,sha256=HRI_Itub3XdkJYb66frOcWQkNqEGj2-xINeqmK-Xp-c,341
+procfile_manager-0.0.1.dist-info/LICENSE.txt,sha256=i0RIrAnczsXN7IGNSSfXOqa8c2qtquPYbvSjqRYO3uA,1072
+procfile_manager-0.0.1.dist-info/METADATA,sha256=Gxrvw5mmT6ZbMT650o8vKKheCDJq3_nNkT-k7RS1zzE,3091
+procfile_manager-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+procfile_manager-0.0.1.dist-info/entry_points.txt,sha256=xCC5Ghctukl-g12QXl6mG6a7QLzdXJnls4nj6sVXhOk,68
+procfile_manager-0.0.1.dist-info/top_level.txt,sha256=Ua3zrjcljqkeG8azPtfG9_a4thOQCWZws0dhC2FOrt8,17
+procfile_manager-0.0.1.dist-info/RECORD,,
