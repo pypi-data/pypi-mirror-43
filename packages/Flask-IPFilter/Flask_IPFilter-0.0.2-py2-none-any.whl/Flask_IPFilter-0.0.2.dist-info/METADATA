@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Flask-IPFilter
+Version: 0.0.2
+Summary: Limit access to a Flask website by IP address
+Home-page: https://github.com/douganger/flask-ipfilter
+Author: Douglas Anger
+Author-email: douganger@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Dist: Flask
+
+Flask-IPFilter
+--------------
+
+Flask-IPFilter lets you set up an IP Whitelist to restrict access to your site
+to certain hosts and networks.
+
+
