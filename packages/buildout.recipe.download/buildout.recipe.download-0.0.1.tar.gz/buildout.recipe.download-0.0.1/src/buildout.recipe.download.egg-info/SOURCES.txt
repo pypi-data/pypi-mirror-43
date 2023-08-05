@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+VERSION.txt
+setup.cfg
+setup.py
+src/buildout/__init__.py
+src/buildout.recipe.download.egg-info/PKG-INFO
+src/buildout.recipe.download.egg-info/SOURCES.txt
+src/buildout.recipe.download.egg-info/dependency_links.txt
+src/buildout.recipe.download.egg-info/entry_points.txt
+src/buildout.recipe.download.egg-info/namespace_packages.txt
+src/buildout.recipe.download.egg-info/not-zip-safe
+src/buildout.recipe.download.egg-info/requires.txt
+src/buildout.recipe.download.egg-info/top_level.txt
+src/buildout/recipe/__init__.py
+src/buildout/recipe/download/__init__.py

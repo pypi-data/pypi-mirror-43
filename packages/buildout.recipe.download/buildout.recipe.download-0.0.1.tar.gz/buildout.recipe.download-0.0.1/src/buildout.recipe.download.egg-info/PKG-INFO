@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: buildout.recipe.download
+Version: 0.0.1
+Summary: Download with multiple threads
+Home-page: UNKNOWN
+Author: Jagadeesh N Malakannavar
+Author-email: mnjagadeesh@gmail.com
+License: BSD 3
+Description: UNKNOWN
+Keywords: development buildout recipe
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: Framework :: Buildout
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: License :: Other/Proprietary License
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
