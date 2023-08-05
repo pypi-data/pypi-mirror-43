@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: quickdone
+Version: 0.0.14
+Summary: A handy toolkit
+Home-page: https://github.com/donequick/quickdone
+Author: quickdone
+Author-email: donequick@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown
+Requires-Dist: xlrd
+Requires-Dist: pandas
+
+# Get Things Done Quickly!
+
+### Usage
+```bash
+$ pip install quickdone
+```
+```python
+>>> import quickdone as qd
+```
+
+fp() short for format_path(file_path)
+```python
+>>> qd.fp(r'C:\Users\user_name\Desktop\test.xlsx')
+'C:/Users/user_name/Desktop/test.xlsx'
+```
+
+etc() short for excel_to_csv(input_path,output_path,input_enc,output_enc)
+```python
+>>> qd.etc(r'C:\Users\user_name\Desktop\test.xlsx',r'C:\Users\user_name\Desktop\test.csv')
+```
+
+### Packaging
+```bash
+$ python setup.py sdist bdist_wheel
+$ twine upload dist/*
+```
+
+For more, see [python packaging-projects](https://packaging.python.org/tutorials/packaging-projects/) or [Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
+
