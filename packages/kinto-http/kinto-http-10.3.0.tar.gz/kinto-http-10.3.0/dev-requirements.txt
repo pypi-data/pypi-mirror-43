@@ -1,0 +1,6 @@
+pytest
+pytest-cache
+pytest-cov
+pytest-xdist
+kinto
+unidecode
