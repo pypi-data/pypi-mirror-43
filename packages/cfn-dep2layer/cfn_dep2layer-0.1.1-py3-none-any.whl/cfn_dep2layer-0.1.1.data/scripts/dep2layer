@@ -1,0 +1,74 @@
+#!python
+
+import os
+import sys
+import dep2layer
+import argparse
+import subprocess
+
+import shutil
+
+
+DEFAULT_TEMPLATE = 'template.yaml'
+DEFAULT_OUT_TEMPLATE = '.dep2layer-template.yaml'
+DEFAULT_CACHE = '.dep2layer'
+LAYER_PREFIX = 'Dep2layer'
+
+
+parser = argparse.ArgumentParser()
+subparsers = parser.add_subparsers(title='command', description=None, dest='command', help='')
+
+temp = subparsers.add_parser('download', help = 'Dowload dependencies and save to cache')
+temp.add_argument('--template-file', help = 'The path where your CloudFormation template is located. Default value is {}.'.format(DEFAULT_TEMPLATE))
+temp.add_argument('--output-template-file', help = 'The path to the file where the command writes the packaged template. Default value is {}.'.format(DEFAULT_OUT_TEMPLATE))
+temp.add_argument('--cache-dir', help = 'The path to the dir where the command save the dependencies zips. Default value is {}.'.format(DEFAULT_CACHE))
+
+temp = subparsers.add_parser('package', help = 'Download dependencies then run aws cloudformation package')
+temp.add_argument('--template-file', help = 'The path where your CloudFormation template is located. Default value is {}.'.format(DEFAULT_TEMPLATE))
+temp.add_argument('--output-template-file', help = 'The path to the file where the command writes the packaged template. Default value is {}.'.format(DEFAULT_OUT_TEMPLATE))
+temp.add_argument('--cache-dir', help = 'The path to the dir where the command save the dependencies zips. Default value is {}.'.format(DEFAULT_CACHE))
+
+temp = subparsers.add_parser('clear', help = 'Remove cache')
+temp.add_argument('--output-template-file', help = 'The path to the file where the command writes the packaged template. Default value is {}.'.format(DEFAULT_OUT_TEMPLATE))
+temp.add_argument('--cache-dir', help = 'The path to the dir where the command save the dependencies zips. Default value is {}.'.format(DEFAULT_CACHE))
+
+args, unknownargs = parser.parse_known_args()
+
+
+def getpath(templatepath, cachedir, outtemplatepath):
+  templatepath = os.path.abspath(DEFAULT_TEMPLATE if templatepath is None else templatepath)
+  basedir = os.path.abspath(os.path.join(templatepath, '..'))
+  cachedir = os.path.abspath(os.path.join(basedir, DEFAULT_CACHE) if cachedir is None else cachedir)
+  outtemplatepath = os.path.abspath(os.path.join(basedir, DEFAULT_OUT_TEMPLATE) if outtemplatepath is None else outtemplatepath)
+  return templatepath, cachedir, outtemplatepath
+
+if args.command == 'download':
+  dep2layer.work(*getpath(args.template_file, args.cache_dir, args.output_template_file))
+  
+elif args.command == 'package':
+  templatepath, cachedir, outtemplatepath = getpath(args.template_file, args.cache_dir, args.output_template_file)
+  dep2layer.work(templatepath, cachedir, outtemplatepath)
+  commands = [ 'aws', 'cloudformation', 'package',
+    '--template-file', args.output_template_file,
+    '--output-template-file', args.output_template_file] + unknownargs
+  
+  print('Run command:', commands)
+  proc = subprocess.Popen(commands)
+  proc.wait()
+  if proc.returncode != 0 and os.path.isfile(outtemplatepath):
+    os.remove(outtemplatepath)
+  exit(proc.returncode)
+
+elif args.command == 'clear':
+  templatepath, cachedir, outtemplatepath = getpath(None, args.cache_dir, args.output_template_file)
+  
+  if os.path.isdir(cachedir):
+    shutil.rmtree(cachedir)
+    print('Remove dir {}'.format(cachedir))
+  if os.path.isfile(outtemplatepath):
+    print('Remove file {}'.format(outtemplatepath))
+    os.remove(outtemplatepath)
+  
+else:
+  print('WHAT IS THIS COMMAND? \nTry dep2layer --help')
+  
