@@ -1,0 +1,3 @@
+[console_scripts]
+weather-station-pb200 = device.pb200:main
+
