@@ -1,0 +1,5 @@
+setup.py
+kw_faust_client.egg-info/PKG-INFO
+kw_faust_client.egg-info/SOURCES.txt
+kw_faust_client.egg-info/dependency_links.txt
+kw_faust_client.egg-info/top_level.txt
