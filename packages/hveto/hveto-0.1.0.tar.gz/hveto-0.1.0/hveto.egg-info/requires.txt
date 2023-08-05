@@ -1,0 +1,20 @@
+gwdetchar
+gwpy>=0.14.0
+gwtrigfind
+lxml
+matplotlib
+numpy
+scipy
+
+[:python_version < "3"]
+lscsoft-glue>=1.60.0
+
+[:python_version > "3"]
+lscsoft-glue>=2.0.0
+
+[doc]
+sphinx
+numpydoc
+sphinx_rtd_theme
+sphinxcontrib_programoutput
+sphinxcontrib_epydoc
