@@ -1,0 +1,14 @@
+{
+    "work_dir": "/path/to/scriptworker/tmp/work",
+
+    "ship_it_instances": {
+        "project:releng:ship-it:server:dev": {
+            "api_root": "http://ship-it.tld/",
+            "timeout_in_seconds": 60,
+            "username": "some@user.name",
+            "password": "50mep@ssword"
+        }
+    },
+    "taskcluster_scope_prefix": "project:releng:ship-it:",
+    "verbose": true
+}
