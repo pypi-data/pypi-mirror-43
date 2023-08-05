@@ -1,0 +1,45 @@
+Metadata-Version: 2.0
+Name: pyvent
+Version: 0.1.1
+Summary: IPC over ZMQ, made easy
+Home-page: https://github.com/aprowe/pyvent
+Author: Alexander Rowe
+Author-email: alexrowe707@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Requires-Dist: PyDispatcher
+Requires-Dist: pyzmq
+
+# Pyvent
+
+Pyvent is a dead-simple IPC to use that uses ZMQ and PyDispatcher under the hood.
+
+## Usage
+
+### Basic
+
+```python
+# script1.py
+import pyvent
+
+@pyvent.connect('order-food')
+def order(food, drink='water'):
+  print(f'You ordered {food} and {drink}!')
+```
+
+
+```python
+# script2.py
+import pyvent
+
+pyvent.send('order-food', food='sushi', drink='sake')
+```
+
+```shell
+$ python3 script1.py &
+$ python3 script2.py
+> You ordered sushi and sake!
+```
+
+
