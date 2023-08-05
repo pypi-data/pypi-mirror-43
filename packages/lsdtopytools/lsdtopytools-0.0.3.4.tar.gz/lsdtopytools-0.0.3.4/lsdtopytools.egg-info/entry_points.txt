@@ -1,0 +1,7 @@
+[console_scripts]
+lsdtt-chi-tools = scripts_for_lsdtopytools.lsdtt_chi_ksn_knickoint_tools:chi_mapping_tools
+lsdtt-concavity-tools = scripts_for_lsdtopytools.lsdtt_concavity_tools:main_concavity
+lsdtt-depressions = scripts_for_lsdtopytools.lsdtt_basic_operations:PreProcess
+lsdtt-hypsometry = scripts_for_lsdtopytools.lsdtt_hypsometry:hypsometry_tools_general
+lsdtt-polyfits = scripts_for_lsdtopytools.lsdtt_basic_operations:Polyfit_Metrics
+
