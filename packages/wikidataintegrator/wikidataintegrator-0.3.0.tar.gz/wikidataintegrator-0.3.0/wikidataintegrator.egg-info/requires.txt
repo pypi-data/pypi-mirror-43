@@ -1,0 +1,8 @@
+requests
+python-dateutil
+simplejson
+mwoauth
+oauthlib
+sparql_slurper
+ShExJSG
+jsonasobj
