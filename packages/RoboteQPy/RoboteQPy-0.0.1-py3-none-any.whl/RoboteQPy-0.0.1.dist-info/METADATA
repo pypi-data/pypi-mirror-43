@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RoboteQPy
+Version: 0.0.1
+Summary: Module for interfacing Python with RoboteQ Products
+Home-page: https://www.roboteq.com
+Author: Gabriel Isko
+Author-email: gabe.isko@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+
+A library that connects to RoboteQ products over USB, or RS232 serial. Once connected, you can send controller commands to the RoboteQ device.
+Further development will focus on helpful funcitons that aid application development as well components that aid in robotics integration.      
+
+
