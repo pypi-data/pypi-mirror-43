@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: other-semantic-release
+Version: 5.0.0
+Summary: Automatic semantic versioning for python projects
+Home-page: http://github.com/aborsu/other-semantic-release
+Author: Augustin Borsu, but really its Rolf Erik Lekang
+Author-email: a.borsu@acelpb.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (~=6.2)
+Requires-Dist: gitpython (~=2.1)
+Requires-Dist: semver (~=2.2)
+Requires-Dist: twine (~=1.12)
+Requires-Dist: requests (~=2.21)
+Requires-Dist: wheel
+Requires-Dist: ndebug (~=0.1)
+
+python-semantic-release
+=======================
+
+This is a fork of python-semantic-release.
+I created this fork because invoke has been blacklisted by my corporate overlords (actually their firewall).
+So in order to be able to use this package anyway I removed the dependency and published it under another name.
+Cheers,
+s
+
