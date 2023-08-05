@@ -1,0 +1,13 @@
+requests
+setuptools
+
+[doc]
+sphinx
+sphinx-click
+sphinx_rtd_theme
+
+[test]
+pytest-datafiles
+pytest-env
+pytest-xdist
+pytest>=3.1.0
