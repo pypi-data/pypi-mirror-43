@@ -1,0 +1,45 @@
+
+{%- if language == 'en' %}
+{%- set overview = 'Overview' %}
+{%- set doc = 'Documentation' %}
+{%- set blog = 'Blog' %}
+{%- set overview_url = '/overview' %}
+{%- set doc_url = '/documentation' %}
+{%- set blog_url = '/blog' %}
+{%- else %}
+{%- set overview = '首页' %}
+{%- set doc = '文档' %}
+{%- set blog = '博客' %}
+{%- set overview_url = '/zh/overview' %}
+{%- set doc_url = '/zh/documentation' %}
+{%- set blog_url = '/zh/blog' %}
+{%- endif %}
+<div id="header">
+  <div class="header">
+    <div class="logo"></div>
+    <div class="warp">
+      <div class="menu">
+        <div class="menu-items">
+          <div class="item">
+            <a href={{overview_url}}>{{overview}}</a>
+          </div>
+          <div class="item">
+            <a class="active" href={{doc_url}}>{{doc}}</a>
+          </div>
+          <div class="item">
+            <a href={{blog_url}}>{{blog}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tools">
+      <div class="links">
+        <div class="lan">
+          <span data-key="en" {% if language == "en" %} class="active-lan" {% endif %}>EN</span>
+          <span class="split"> | </span>
+          <span data-key="zh_CN" {% if language == "en" %} {% else %} class="active-lan" {% endif %}>中文</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
