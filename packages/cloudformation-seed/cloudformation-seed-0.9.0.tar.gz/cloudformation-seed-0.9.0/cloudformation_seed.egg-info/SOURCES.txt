@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+cloudformation_seed.egg-info/PKG-INFO
+cloudformation_seed.egg-info/SOURCES.txt
+cloudformation_seed.egg-info/dependency_links.txt
+cloudformation_seed.egg-info/entry_points.txt
+cloudformation_seed.egg-info/requires.txt
+cloudformation_seed.egg-info/top_level.txt
+deploy_stack/__init__.py
+deploy_stack/deploy_stack.py
