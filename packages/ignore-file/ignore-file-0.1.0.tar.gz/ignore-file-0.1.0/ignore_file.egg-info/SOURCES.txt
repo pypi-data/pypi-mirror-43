@@ -1,0 +1,9 @@
+README.md
+setup.py
+ignore/__init__.py
+ignore_file.egg-info/PKG-INFO
+ignore_file.egg-info/SOURCES.txt
+ignore_file.egg-info/dependency_links.txt
+ignore_file.egg-info/requires.txt
+ignore_file.egg-info/top_level.txt
+test/test_ignore.py
