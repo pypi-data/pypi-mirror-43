@@ -1,0 +1,9 @@
+poremks/__init__.py,sha256=yEU-r1h7tPttY2d_bd1KPOthAPborlw6ytu5L_Ifhfc,31
+poremks/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+poremks/grid_generator.py,sha256=_K16Mm14kz9Uqe7dcuL53OcT2_HrPYfnV2Bjjcyst7o,3213
+poremks/helpers.py,sha256=0a3oh9eRQED-YvzLyOn1oRmGlgwAE_H3a7nxNOUpDVU,4061
+poremks/porosity.py,sha256=IDbF1K7OdTuanSsGNEiXceZVZMOudrTpgg2uK05DjvQ,4250
+poremks-1.0.3.dist-info/METADATA,sha256=wCv7QKnhikyHfAgQKWcymk9vDujZFfiSgm6qTqfvNP4,1784
+poremks-1.0.3.dist-info/RECORD,,
+poremks-1.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+poremks-1.0.3.dist-info/top_level.txt,sha256=_2IZFA6y8pck4MxvUyF57MqOfqoJVREZEG9ecBh4yHk,8
