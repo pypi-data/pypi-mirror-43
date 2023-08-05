@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/conlleval/__init__.py
+src/conlleval/__main__.py
+src/conlleval/conlleval.py
+src/conlleval.egg-info/PKG-INFO
+src/conlleval.egg-info/SOURCES.txt
+src/conlleval.egg-info/dependency_links.txt
+src/conlleval.egg-info/top_level.txt
