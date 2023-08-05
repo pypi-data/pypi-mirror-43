@@ -1,0 +1,7 @@
+setup.py
+sycopath/__init__.py
+sycopath.egg-info/PKG-INFO
+sycopath.egg-info/SOURCES.txt
+sycopath.egg-info/dependency_links.txt
+sycopath.egg-info/not-zip-safe
+sycopath.egg-info/top_level.txt
