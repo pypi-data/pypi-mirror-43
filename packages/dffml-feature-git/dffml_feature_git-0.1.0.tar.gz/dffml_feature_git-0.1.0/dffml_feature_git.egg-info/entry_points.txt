@@ -1,0 +1,10 @@
+[dffml.feature]
+authors = dffml_feature_git.feature.authors:GitAuthorsFeature
+cloc = dffml_feature_git.feature.cloc:GitClocFeature
+commits = dffml_feature_git.feature.commits:GitCommitsFeature
+git = dffml_feature_git.feature.git:GitFeature
+lang = dffml_feature_git.feature.lang:GitLangFeature
+langs = dffml_feature_git.feature.lang:GitLangsFeature
+release = dffml_feature_git.feature.release:GitReleaseFeature
+work = dffml_feature_git.feature.work:GitWorkFeature
+
