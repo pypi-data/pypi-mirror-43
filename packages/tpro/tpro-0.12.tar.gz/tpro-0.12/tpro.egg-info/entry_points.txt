@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tpro=transcript_processing.tpro:cli
+    
