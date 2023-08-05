@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: diff_trigger
+Version: 1.0.0
+Summary: decorator for monitor function result, run callback when result has been changed
+Home-page: https://github.com/thuhak/diff_trigger
+Author: thuhak
+Author-email: thuhak.zhou@nio.com
+License: UNKNOWN
+Description: ## 变更触发器
+        
+        ### 应用场景
+        
+        周期性的执行某个任务， 将任务的结果存储于磁盘中。 当每次检测到结果和上次不同时， 更新外部存储的结果并触发回调任务
+        
+        ### 安装
+        
+        ```cmd
+        pip install diff_trigger
+        ```
+Keywords: decorator
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
