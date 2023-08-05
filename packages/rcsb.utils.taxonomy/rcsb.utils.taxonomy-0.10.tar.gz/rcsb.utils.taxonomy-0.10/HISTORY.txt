@@ -1,0 +1,6 @@
+# RCSB_UTILS_TAXONOMY HISTORY
+   9-Mar-2018  - V0.10 Created module supporting NCBI taxonomy name lookup
+#
+
+
+
