@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: j5
+Version: 0.0.3
+Summary: J5 Robotics API
+Home-page: UNKNOWN
+License: MIT
+Author: j5 contributors
+Author-email: sro@soton.ac.uk
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pyusb (>=1.0,<2.0)
