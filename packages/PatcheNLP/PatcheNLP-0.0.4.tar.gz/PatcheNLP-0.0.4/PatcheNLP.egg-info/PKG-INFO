@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: PatcheNLP
+Version: 0.0.4
+Summary: Some tools for NLP.
+Home-page: https://github.com/RankoHata/PatcheNLP
+Author: RankoHata
+Author-email: san332627946@gmail.com
+Maintainer: RankoHata
+Maintainer-email: san332627946@gmail.com
+License:  GNU General Public License v3
+Description: UNKNOWN
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Software Development :: Libraries
