@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+mordor/__init__.py
+mordor/mordor.py
+mordor2.egg-info/PKG-INFO
+mordor2.egg-info/SOURCES.txt
+mordor2.egg-info/dependency_links.txt
+mordor2.egg-info/entry_points.txt
+mordor2.egg-info/top_level.txt
