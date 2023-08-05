@@ -1,0 +1,3 @@
+[console_scripts]
+osvolbackup = osvolbackup.__main__:main
+
