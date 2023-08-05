@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: PriorityThreadPoolExecutor
+Version: 0.0.1
+Summary: Thread pool executor with priority queue
+Home-page: https://github.com/oleglpts/PriorityThreadPoolExecutor
+Author: Oleg Lupats
+Author-email: oleglupats@gmail.com
+License: MIT
+Description: Thread pool executor with priority queue: little hack of ThreadPoolExecutor from concurrent.futures.thread
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
