@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/simple_dependency_graph
+py3_dependency_graph/__init__.py
+py3_dependency_graph/dependency_analysis.py
+py3_dependency_graph/dependency_graph.py
+py3_dependency_graph.egg-info/PKG-INFO
+py3_dependency_graph.egg-info/SOURCES.txt
+py3_dependency_graph.egg-info/dependency_links.txt
+py3_dependency_graph.egg-info/requires.txt
+py3_dependency_graph.egg-info/top_level.txt
