@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: netset
+Version: 0.0.4
+Summary: A network configuration tool for the commandline, written in Python.
+Home-page: https://github.com/MrLeeh/netset.py
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: network
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Utilities
