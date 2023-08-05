@@ -1,0 +1,8 @@
+librecell-common
+numpy
+sympy
+matplotlib
+networkx
+pyspice
+scipy
+liberty-parser
