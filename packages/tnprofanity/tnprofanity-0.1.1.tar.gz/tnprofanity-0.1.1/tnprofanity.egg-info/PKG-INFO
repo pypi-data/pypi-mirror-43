@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: tnprofanity
+Version: 0.1.1
+Summary: desss
+Home-page: UNKNOWN
+Author: GarKoZ
+Author-email: gark36@gmail.com
+License: MIT
+Description: # tn-profanity-python
+        
+        filter profane word in Thai / English by censoring blacklist words
+Keywords: thai english profanity censor
+Platform: UNKNOWN
