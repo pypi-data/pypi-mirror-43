@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+tidypython/__init__.py
+tidypython/gather.py
+tidypython/separate.py
+tidypython/spread.py
+tidypython.egg-info/PKG-INFO
+tidypython.egg-info/SOURCES.txt
+tidypython.egg-info/dependency_links.txt
+tidypython.egg-info/requires.txt
+tidypython.egg-info/top_level.txt
