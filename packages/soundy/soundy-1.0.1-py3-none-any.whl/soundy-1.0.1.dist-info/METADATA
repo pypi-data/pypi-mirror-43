@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: soundy
+Version: 1.0.1
+Summary: Download SoundCloud tracks easily
+Home-page: https://github.com/MohamedHaroon/Soundy
+Author: Mohamed Haroon
+Author-email: Mohamedessa736@gmail.com
+License: GPL-3.0
+Keywords: SoundCloud scrape download downloader track soundy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (==4.7.1)
+Requires-Dist: tqdm (==4.31.1)
+Requires-Dist: requests (==2.21.0)
+
+# Soundy
+A light-weight SoundCloud Module to download and scrape tracks.
+
+
