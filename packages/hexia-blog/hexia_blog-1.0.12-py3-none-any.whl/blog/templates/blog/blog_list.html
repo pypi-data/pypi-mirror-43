@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load static  %}
+
+{% block content %}
+
+<br><br><br><br><br><br>
+<div class="search-banner">
+    <div class="container">
+        <div class="row">
+            <form id="searchForm" action="{% url 'blog:blog-list' %}" method="get">
+                <div class="col-xs-12 col-md-6 col-md-offset-2">
+                    <input type="text" name="search_string" placeholder="Search projects" class="search-input form-control" value="{{ search_string }}">
+                    <input type="hidden" id="tag_id" name="tag" value="{{ selected_tag.id }}">
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<section class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-5 col-lg-4">
+                <h2>Filter by tag</h2>
+                <ul class="search-tag">
+                    {% for tag in hexia_blog_tags %}
+                    <li class="search-tag {% if tag == selected_tag %} active{% endif %}" onclick="javascript: settag({{ tag.id }})">{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-7 col-lg-8">	
+                {% for object in object_list %}        
+                    <div class="row search-item">
+                        <div class="col-xs-12 col-md-6">
+                            <img src="{{ object.image.url }}" style="max-width:100%;">
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <p class="search-title">{{ object.name }}</p>
+                            <p class="search-description">{% if object.short_description != 'None' %}{{ object.short_description }}{% endif %}</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href="{% url 'blog:blog-detail' object.slug %}" class="btn btn-primary btn-block btn-inverse">View Blog</a>    
+                        </div>
+                    </div>
+                {% endfor %}
+                {% if is_paginated %}
+                    <div class="row center">
+                        <ul class="pagination center">
+                            {% if page_obj.has_previous %}
+                            <li><a href="?page={{ page_obj.previous_page_number }}">&laquo;</a></li>
+                            {% else %}
+                            <li class="disabled"><span>&laquo;</span></li>
+                            {% endif %}
+                            {% for i in paginator.page_range %}
+                            {% if page_obj.number == i %}
+                                <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                            {% else %}
+                                <li><a href="?page={{ i }}">{{ i }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                            {% if page_obj.has_next %}
+                            <li><a href="?page={{ page_obj.next_page_number }}">&raquo;</a></li>
+                            {% else %}
+                            <li class="disabled"><span>&raquo;</span></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                {% endif %}
+            </div>
+        </div>		
+    </div>
+</section>
+
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function settag(id) {
+        $("#tag_id").val(id);
+        document.getElementById("searchForm").submit();
+    }
+</script>
+{% endblock %}
