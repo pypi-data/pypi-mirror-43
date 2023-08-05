@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lazy-py2neo
+Version: 2019.3.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Bart Broere
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: py2neo (<4,>3)
+
+UNKNOWN
+
+
