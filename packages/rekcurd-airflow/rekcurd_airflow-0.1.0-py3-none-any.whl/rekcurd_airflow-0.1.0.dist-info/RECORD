@@ -1,0 +1,15 @@
+rekcurd_airflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rekcurd_airflow/_project.py,sha256=rXdQBUIePTeighD0LZOux5mRqZFzW9AytIT-Mjt7Mrk,32
+rekcurd_airflow/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+rekcurd_airflow/operators/__init__.py,sha256=W7uYdsOYRaa4XvkwxN7TkjHk0iD0QDUVa7qC9YRPqr4,572
+rekcurd_airflow/operators/evaluation_upload_operator.py,sha256=qxqUrw8nJL1enQCdrVkUjpkiN5MIF-o5AE0Apq-_J2k,1936
+rekcurd_airflow/operators/model_delete_operator.py,sha256=dcL_mha_jS1ApJxiq9XhLh93iDe5HveYU-Gcb15SBPg,1927
+rekcurd_airflow/operators/model_evaluate_operator.py,sha256=mZT5ZAp4CGIqHUgWXSioNVU560iR594V8mgxXrOCCCQ,3324
+rekcurd_airflow/operators/model_switch_operator.py,sha256=mvEZJRzX-aCOt49VdCXrVzRucCKKxije3DvftzJSVRE,2165
+rekcurd_airflow/operators/model_upload_operator.py,sha256=04aDTalBNSbi8MM5F40VJVh7GGdT25jSoPUtyW20XMI,4018
+rekcurd_airflow/operators/rekcurd_operator.py,sha256=H4mlAZqlGk0XXOxWZA53JkKSMEnx9CQdjYcxNe2bWHQ,1972
+rekcurd_airflow-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rekcurd_airflow-0.1.0.dist-info/METADATA,sha256=slzo1swcdsCP7NZQ2v3YfX03cltlmLrqzPbv9meyKXE,3059
+rekcurd_airflow-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+rekcurd_airflow-0.1.0.dist-info/top_level.txt,sha256=g4DWSZ9cnHlnmpiUQ45bClUFdxv-wWnvrznhU1Bww58,16
+rekcurd_airflow-0.1.0.dist-info/RECORD,,
