@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mini-mongo-odm
+Version: 1.1
+Summary: Easy MongoDB Object Document Mapper for Flask
+Home-page: https://github.com/solo-framework/mini-mongo-odm
+Author: Andrey Filippov
+Author-email: a.fiwork@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
