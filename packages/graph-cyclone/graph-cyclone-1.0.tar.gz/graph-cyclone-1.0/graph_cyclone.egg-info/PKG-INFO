@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: graph-cyclone
+Version: 1.0
+Summary: Utilities for powers of cycle graphs
+Home-page: https://github.com/nglaeser/graph-cyclone
+Author: Noemi Glaeser
+Author-email: UNKNOWN
+License: GPL
+Description: # graphcyclone
+        Utilities for powers of cycle graphs
+        
+Platform: UNKNOWN
