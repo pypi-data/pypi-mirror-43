@@ -1,0 +1,13 @@
+README.md
+setup.py
+operatedb/__init__.py
+operatedb/operatedb.py
+operatedb/updatetable.py
+operatedb.egg-info/PKG-INFO
+operatedb.egg-info/SOURCES.txt
+operatedb.egg-info/dependency_links.txt
+operatedb.egg-info/requires.txt
+operatedb.egg-info/top_level.txt
+test/test_marker_label.py
+test/test_update.py
+test/test_xw.py
