@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: facebook-apps-tool
+Version: 0.0.4
+Summary: Facebook Apps Tools
+Home-page: https://github.com/zetahernandez/facebook_apps_tool
+Author: Zeta Hernandez
+Author-email: zetahernandez@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: testing

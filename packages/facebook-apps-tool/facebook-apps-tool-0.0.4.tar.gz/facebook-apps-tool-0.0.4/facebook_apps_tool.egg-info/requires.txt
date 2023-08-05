@@ -1,0 +1,12 @@
+Click~=7.0
+PyYAML~=3.13
+facebook-py-sdk~=1.1
+six
+
+[:python_version < "3.5"]
+typing
+
+[testing]
+coveralls
+pytest
+pytest-cov

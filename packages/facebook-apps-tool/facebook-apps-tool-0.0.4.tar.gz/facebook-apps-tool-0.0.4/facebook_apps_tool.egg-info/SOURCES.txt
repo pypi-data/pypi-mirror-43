@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+facebook_apps_tool.egg-info/PKG-INFO
+facebook_apps_tool.egg-info/SOURCES.txt
+facebook_apps_tool.egg-info/dependency_links.txt
+facebook_apps_tool.egg-info/entry_points.txt
+facebook_apps_tool.egg-info/requires.txt
+facebook_apps_tool.egg-info/top_level.txt
+fbtool/__init__.py
+fbtool/cli.py
