@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+task = cubicweb_task
+
