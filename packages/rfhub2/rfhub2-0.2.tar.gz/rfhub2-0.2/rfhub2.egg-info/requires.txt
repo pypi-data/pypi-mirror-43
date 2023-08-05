@@ -1,0 +1,8 @@
+Flask
+watchdog
+robotframework
+SQLAlchemy
+tornado
+
+[postgresql]
+psycopg2-binary
