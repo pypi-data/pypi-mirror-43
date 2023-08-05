@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: sysutil
+Version: 0.5.0
+Summary: A lib for common methods used in project
+Home-page: https://github.com/vmartian/sysutil.git
+Author: Vivekanand Pandey
+Author-email: vivekanandpandey98@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/vmartian/sysutil/archive/master.zip
+Description: UNKNOWN
+Keywords: common,system,library
+Platform: UNKNOWN
