@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rbk
+Version: 0.0.1
+Summary: MySQL class wrapper for PyMySQL
+Home-page: https://github.com/rbk/pyrbk
+Author: Richard Keller
+Author-email: 
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: # RBK
+        
+        Great tools for great people. ;)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
