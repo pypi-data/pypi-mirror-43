@@ -1,0 +1,5 @@
+setup.py
+kiwi_flight_events_pathfinder.egg-info/PKG-INFO
+kiwi_flight_events_pathfinder.egg-info/SOURCES.txt
+kiwi_flight_events_pathfinder.egg-info/dependency_links.txt
+kiwi_flight_events_pathfinder.egg-info/top_level.txt
