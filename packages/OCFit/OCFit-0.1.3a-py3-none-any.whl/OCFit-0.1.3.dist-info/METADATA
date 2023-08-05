@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: OCFit
+Version: 0.1.3
+Summary: Fitting O-C diagrams
+Home-page: https://github.com/pavolgaj/OCFit
+Author: Pavol Gajdos
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Dist: numpy (>=1.10.2)
+Requires-Dist: matplotlib (>=1.5.0)
+Requires-Dist: PyAstronomy (>=0.9.0)
+Provides-Extra: montecarlo_fitting
+Requires-Dist: pymc (>=2.3.6) ; extra == 'montecarlo_fitting'
+
+UNKNOWN
+
+
