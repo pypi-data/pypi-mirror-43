@@ -1,0 +1,11 @@
+commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commands/lint.py,sha256=nbq2SrlrB0gh24a6134PVgp-fOb-_njoL4oRfazVkno,1070
+commands/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commands/utils/xcproj.py,sha256=0gtjhXrYDwnY04zd4kg8_l_qG80rtBeKDaoWW99oCV8,1437
+swiftlint_runner-0.0.1.dist-info/LICENSE,sha256=hD1V38zJUIpT5Ii1A_xeIiLehYhHDt3c92ZFGhO2vWY,1067
+swiftlint_runner-0.0.1.dist-info/LICENSE.md,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+swiftlint_runner-0.0.1.dist-info/METADATA,sha256=1_N8T7SE4AdSCdbRSl9y3ksDWfZXr3HB37KsSl82hek,2035
+swiftlint_runner-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+swiftlint_runner-0.0.1.dist-info/entry_points.txt,sha256=crQdTGzmeVm52erGWE5Wl6Bl4YsH64U8GuGmHuJ50rw,49
+swiftlint_runner-0.0.1.dist-info/top_level.txt,sha256=6dNUbRvZAy7fLWNbD4YeUosLYwGk-SVew-Swd5CfFkg,9
+swiftlint_runner-0.0.1.dist-info/RECORD,,
