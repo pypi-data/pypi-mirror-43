@@ -1,0 +1,3 @@
+[console_scripts]
+consul_search = consulsearch.application:main
+
