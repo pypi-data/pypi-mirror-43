@@ -1,0 +1,6 @@
+celery<5.0,>=3.0
+
+[test]
+oops>=0.0.11
+unittest2
+zope.testing
