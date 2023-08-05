@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: clastic
+Version: 19.0.0
+Summary: A functional Python web framework that streamlines explicit development practices while eliminating global state.
+Home-page: https://github.com/mahmoud/clastic
+Author: Mahmoud Hashemi
+Author-email: mahmoud@hatnote.com
+License: BSD
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Werkzeug (==0.14.1)
+Requires-Dist: boltons (>=18.0.0)
+Requires-Dist: ashes
+Requires-Dist: glom
+
+Clastic is a functional Python web framework that streamlines
+explicit development practices while eliminating global state.
+
+
