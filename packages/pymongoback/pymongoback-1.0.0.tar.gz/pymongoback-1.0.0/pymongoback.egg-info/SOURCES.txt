@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+pymongoback/__init__.py
+pymongoback/main.py
+pymongoback.egg-info/PKG-INFO
+pymongoback.egg-info/SOURCES.txt
+pymongoback.egg-info/dependency_links.txt
+pymongoback.egg-info/top_level.txt
