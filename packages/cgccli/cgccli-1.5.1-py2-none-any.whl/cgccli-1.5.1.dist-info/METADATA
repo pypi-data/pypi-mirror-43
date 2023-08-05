@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cgccli
+Version: 1.5.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Marko Jelenkovic
+Author-email: jelenko555@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=7.0)
+Requires-Dist: requests (>=2.21)
+
+UNKNOWN
+
+
