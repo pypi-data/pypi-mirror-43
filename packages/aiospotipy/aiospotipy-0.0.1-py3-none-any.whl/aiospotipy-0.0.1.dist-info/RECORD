@@ -1,0 +1,9 @@
+aiospotipy/__init__.py,sha256=_tMSoQ3GFRiOgYa9EC8feLyAlNnSgzdw4MVT18Ojjxk,201
+aiospotipy/_http.py,sha256=8gf3SlZc8Xo1bL8HaSY75V8qpqnsJmZqWobcALrsQnA,21587
+aiospotipy/client.py,sha256=4rCtG0_vso-OFllJW5PAbD5a4Isz1fhjT5pXYSRNM9U,22846
+aiospotipy/oauth2.py,sha256=Gw802cjzcsUst8T5dh9QhvleM_im7aWB079c3bY35xs,2216
+aiospotipy-0.0.1.dist-info/LICENSE,sha256=cb6NbRUJDeav-PSTx_xCX_lNSCD_CichXBmBi8tbTn4,1074
+aiospotipy-0.0.1.dist-info/METADATA,sha256=uTjnp_P07w4g0i04wparWTKyGfUOE0bN7CfwwgGk58s,1791
+aiospotipy-0.0.1.dist-info/WHEEL,sha256=-ZFxwj8mZJPIVcZGLrsQ8UGRcxVAOExzPLVBGR7u7bE,92
+aiospotipy-0.0.1.dist-info/top_level.txt,sha256=ODeXZkhGR5TrzakbWWWUcqNGp7YSnJxqyhnA2IBnGk4,11
+aiospotipy-0.0.1.dist-info/RECORD,,
