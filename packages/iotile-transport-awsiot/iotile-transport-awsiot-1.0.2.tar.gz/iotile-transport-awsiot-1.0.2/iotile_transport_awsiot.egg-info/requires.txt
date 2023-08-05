@@ -1,0 +1,2 @@
+iotile-core>=4.0.0
+AWSIoTPythonSDK>=1.4.3
