@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: diaspy-api
+Version: 0.6.0
+Summary: Unofficial Python API for Diaspora*
+Home-page: https://github.com/marekjm/diaspy
+Author: Marek Marecki
+Author-email: marekjm@ozro.pw
+License: GNU GPL v3
+Keywords: diaspy diaspora social network api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+Requires-Dist: python-dateutil
+Provides-Extra: beautifulsoup4
+Requires-Dist: beautifulsoup4 (>=3.2.1) ; extra == 'beautifulsoup4'
+
+UNKNOWN
+
+

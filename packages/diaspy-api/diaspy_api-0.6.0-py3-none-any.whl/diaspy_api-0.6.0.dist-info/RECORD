@@ -1,0 +1,15 @@
+diaspy/__init__.py,sha256=NtMLgEJHSLxBhaw9xEgyJj6rjeJOjkh3_jS4gT055RA,339
+diaspy/connection.py,sha256=aifnEFZzW7MsidePvcnD8USl906zIN3z5flBIoyZwpc,7805
+diaspy/conversations.py,sha256=Von7ZDp9iRJdXsBn-l2R0rnO6kCOAgMahTVEwH9bM-8,786
+diaspy/errors.py,sha256=eUIykW8QWbHEdXemgL-W4kAwR_qvXD9tIiiZ7quZiww,3564
+diaspy/models.py,sha256=pY4Z4ZLPToRZefovDQMXMKswPA7M5vqKFAqa-JO5PmY,23138
+diaspy/notifications.py,sha256=5D53UlYP6R9MH3coVt2-do18sYIDUtDSLeGIrhZ5ojE,3031
+diaspy/people.py,sha256=qZysFaKE_qvvgDcrPAv_M8zqXDHhw_OiHcbiNgDkUYc,12236
+diaspy/search.py,sha256=hvONtjzRGdt7kqq1zPwgsQCaOwi6cxEhDOloTerCXYw,1544
+diaspy/settings.py,sha256=FWqpOtVqF4rdm7kps5UulcsI8pXpCeZWVeNviX1FdOI,13094
+diaspy/streams.py,sha256=s9VI4hQ5O4KskYuWuS8rwhJRFsWczEN2k1Zaw5J_rgw,15746
+diaspy_api-0.6.0.dist-info/LICENSE,sha256=lME7__YHeLv5TkH79tLiJRtRa40X3yQUYas9UK0aBS8,1083
+diaspy_api-0.6.0.dist-info/METADATA,sha256=sT3Sz_Yl6pi0350r46AUZpG6TTghYdLjBVeXDtgXVik,951
+diaspy_api-0.6.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+diaspy_api-0.6.0.dist-info/top_level.txt,sha256=D14TZBlZ2_HRSwc2A5-DjHPUB1siZu5s_wzK6CiBtF8,7
+diaspy_api-0.6.0.dist-info/RECORD,,
