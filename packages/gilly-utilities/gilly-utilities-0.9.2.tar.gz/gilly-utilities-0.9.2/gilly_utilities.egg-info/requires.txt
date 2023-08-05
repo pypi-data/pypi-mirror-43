@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+statsmodels
+scikit-learn
+scikits.bootstrap
+patsy
