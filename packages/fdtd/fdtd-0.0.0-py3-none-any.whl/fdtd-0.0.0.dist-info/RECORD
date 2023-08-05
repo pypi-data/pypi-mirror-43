@@ -1,0 +1,13 @@
+fdtd/__init__.py,sha256=3nSx9HYlfFmdMDg0k22bMGPaoasV02BYsNqdNhf_hqQ,333
+fdtd/backend.py,sha256=ut70EtJun8ZXiZm0SQp4nQI2E2ltXFIfoqHsjOHsR2A,6849
+fdtd/boundaries.py,sha256=n9iuJb53XK14fMvLd_x2zYzZS_sFJfA29D7BSL6AP7U,22389
+fdtd/detectors.py,sha256=I7RY8X-aLK1NFQWR9B648LjPbe_UIDQUEww7AuqatGw,4527
+fdtd/grid.py,sha256=s6aysoXvTfqzBigZYS9AVwxgqwrAX01jWg1FO-SNJqU,12339
+fdtd/objects.py,sha256=paCHNVbASfreUeQNgyllFfVYTcjtDoPrKubFe4L2vfM,6306
+fdtd/sources.py,sha256=cmFEe_s4m37_UGv8L3LVp4zD2W-BM9UpAi6LxxXbU5g,5740
+fdtd/typing.py,sha256=vMVU00NwF-gJtpG3VegEB_U8Kgn9Ny428lk2YFjsT_g,498
+fdtd/visualization.py,sha256=ABK7M2VXofw1CXOy12i2tsBg_EsE2-IGqRWRtA1dwf0,7993
+fdtd-0.0.0.dist-info/METADATA,sha256=ZMnou0ssMcTKSZjjkTqPIIYmtzT_-rCG71lDh2TaZxc,26465
+fdtd-0.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+fdtd-0.0.0.dist-info/top_level.txt,sha256=wXtaT2JDAHcE48Bx6rBA1osln-AW3TMrVSHcSr1VFRc,5
+fdtd-0.0.0.dist-info/RECORD,,
