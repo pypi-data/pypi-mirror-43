@@ -1,0 +1,5 @@
+setup.py
+kiwi_result_quality_ranking.egg-info/PKG-INFO
+kiwi_result_quality_ranking.egg-info/SOURCES.txt
+kiwi_result_quality_ranking.egg-info/dependency_links.txt
+kiwi_result_quality_ranking.egg-info/top_level.txt
