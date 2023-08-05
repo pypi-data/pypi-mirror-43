@@ -1,0 +1,9 @@
+jupyter_require/__about__.py,sha256=7JXrenVi9bcEK2lXYC9dgBZg_m5MuBC9gCebubnjERI,496
+jupyter_require/__init__.py,sha256=-Oguma699BxVNhCkoLkZXncgg8KiP981NriSCY70p0M,1597
+jupyter_require/core.py,sha256=0tHaTZEA6LcvkxF3wuGRhiJRBGvTjbNwEGqdrAFecGw,12036
+jupyter_require/magic.py,sha256=QacQLP6QrxIZPG0fUXAQ8PsKm-xUjNYJVHoUotkT03c,3219
+jupyter_require-0.1.8.dist-info/LICENSE,sha256=HiGTk4vmR4tDrQOcnwRDYXdv1rjbg_26OezLBN6d2o0,1071
+jupyter_require-0.1.8.dist-info/METADATA,sha256=7q4lHMr_GFoV7apxtQauH9CuNaNpJBK1QCr6OMTDeQY,3645
+jupyter_require-0.1.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jupyter_require-0.1.8.dist-info/top_level.txt,sha256=_uWu4lzt_xfd9G2287uVwNhbQ9YL9qW5pTKpAbkhUWU,16
+jupyter_require-0.1.8.dist-info/RECORD,,
