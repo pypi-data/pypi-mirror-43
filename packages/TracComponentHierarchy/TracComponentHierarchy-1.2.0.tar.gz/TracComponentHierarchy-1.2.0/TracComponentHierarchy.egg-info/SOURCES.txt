@@ -1,0 +1,15 @@
+COPYING
+setup.cfg
+setup.py
+TracComponentHierarchy.egg-info/PKG-INFO
+TracComponentHierarchy.egg-info/SOURCES.txt
+TracComponentHierarchy.egg-info/dependency_links.txt
+TracComponentHierarchy.egg-info/entry_points.txt
+TracComponentHierarchy.egg-info/requires.txt
+TracComponentHierarchy.egg-info/top_level.txt
+componenthierarchy/__init__.py
+componenthierarchy/admin.py
+componenthierarchy/model.py
+componenthierarchy/ticket.py
+componenthierarchy/htdocs/create_component_hierarchy.js
+componenthierarchy/htdocs/css/component_hierarchy.css
