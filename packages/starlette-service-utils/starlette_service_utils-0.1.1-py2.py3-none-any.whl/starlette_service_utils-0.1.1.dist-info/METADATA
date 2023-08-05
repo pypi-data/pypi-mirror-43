@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: starlette-service-utils
+Version: 0.1.1
+Summary: Toolkit for starlette usage
+Home-page: https://gitlab.com/SirEdvin/starlette-service-utils
+Author: Bogdan Gladyshev
+Author-email: siredvin.dark@gmail.com
+License: MIT license
+Keywords: sanic rethinkdb
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: starlette (>=0.11.3)
+Requires-Dist: uvicorn (>=0.5.0)
+Provides-Extra: aiohttp
+Requires-Dist: aiohttp (>=2.3.6) ; extra == 'aiohttp'
+Provides-Extra: all
+Requires-Dist: aiohttp (>=2.3.6) ; extra == 'all'
+Requires-Dist: sentry-sdk (>=0.6.5) ; extra == 'all'
+Requires-Dist: sentry-asgi (>=0.1.5) ; extra == 'all'
+Requires-Dist: anji-orm (>=0.10.8) ; extra == 'all'
+Requires-Dist: click (~=7.0) ; extra == 'all'
+Requires-Dist: ipython (~=7.1.1) ; extra == 'all'
+Provides-Extra: anji_orm
+Requires-Dist: anji-orm (>=0.10.8) ; extra == 'anji_orm'
+Provides-Extra: commands
+Requires-Dist: click (~=7.0) ; extra == 'commands'
+Requires-Dist: ipython (~=7.1.1) ; extra == 'commands'
+Provides-Extra: sentry
+Requires-Dist: sentry-sdk (>=0.6.5) ; extra == 'sentry'
+Requires-Dist: sentry-asgi (>=0.1.5) ; extra == 'sentry'
+
+UNKNOWN
+
+
