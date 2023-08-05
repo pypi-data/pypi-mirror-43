@@ -1,0 +1,7 @@
+amazonreviewscrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amazonreviewscrap/scrap_data.py,sha256=3DHY4AOtRzcGfYK9hMyrs2YcG-ko3JiYcaTze8UdIN8,993
+amazonreviewscrap/selenium_data_download.py,sha256=UUP3e1c-hIGQ7sCU4mIe0osFSv6EeGTqhiHs7dvTCf4,690
+amazonreviewscrap-0.1.dist-info/METADATA,sha256=5sXhHWohPoxzp72Xkva5r3gb8-JgPacq8HQKpRhgS04,655
+amazonreviewscrap-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+amazonreviewscrap-0.1.dist-info/top_level.txt,sha256=MpJbYoHcWRiDHD0Zd5e4UsWxGXsKXUD7G4mtPnwXqtA,18
+amazonreviewscrap-0.1.dist-info/RECORD,,

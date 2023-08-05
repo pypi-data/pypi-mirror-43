@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: amazonreviewscrap
+Version: 0.1
+Summary: Amazon review scrapper
+Home-page: https://github.com/nayonacademy/amazon-review-scrapper
+Author: Shariful Islam Nayon
+Author-email: si.nayon@gmail.com
+License: MIT
+Keywords: amazon scrapper datascrap-amazon review-scrap-amazon
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+
+Amazon review scrapper. Without any IP block It will work with selenium and bs4
+
+
