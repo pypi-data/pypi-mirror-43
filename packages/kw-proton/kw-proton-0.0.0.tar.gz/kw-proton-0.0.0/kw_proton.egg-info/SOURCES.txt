@@ -1,0 +1,5 @@
+setup.py
+kw_proton.egg-info/PKG-INFO
+kw_proton.egg-info/SOURCES.txt
+kw_proton.egg-info/dependency_links.txt
+kw_proton.egg-info/top_level.txt
