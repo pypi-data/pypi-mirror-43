@@ -1,0 +1,5 @@
+djangoldp_profile~=0.0
+djangoldp_project~=0.0
+djangoldp_circle~=0.0
+djangoldp_joboffer~=0.0
+djangoldp_notification~=0.0
