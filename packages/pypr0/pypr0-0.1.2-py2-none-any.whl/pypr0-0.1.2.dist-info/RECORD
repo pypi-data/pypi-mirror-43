@@ -1,0 +1,10 @@
+pr0gramm/__init__.py,sha256=bEYPldvGhixs0QwVlIZtyebPK6TWW-gaiVRVhoLHxJE,91
+pr0gramm/api.py,sha256=wBlpjpF4fjlG9R6-q16n45qid7qO9QZb1pRH2CfYICM,23068
+pr0gramm/api_exceptions.py,sha256=40nI0yMUAJTUsSgajVkDhbpVXrvNr7ZyBjF3OuSDPOY,264
+pr0gramm/pr0gramm_sqlite.sql,sha256=-pzU0tKwADL6R_j69G9S3a6gv1nqbSFapK5GHdNFxnc,1392
+pr0gramm/sql_manager.py,sha256=Z153sfOPl2uMzue_oO4MqxFmPr1ssoiBwdgzt4ueFM4,7325
+pypr0-0.1.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pypr0-0.1.2.dist-info/METADATA,sha256=LidXMxyi0FeOyuHCLG3PU2gqOVTa13yIjZ6iwQ2loL4,1141
+pypr0-0.1.2.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+pypr0-0.1.2.dist-info/top_level.txt,sha256=alyIFLCluTbQbI3WqVbXaei2EVyMXFRz7KNHqJ1zt2s,9
+pypr0-0.1.2.dist-info/RECORD,,
