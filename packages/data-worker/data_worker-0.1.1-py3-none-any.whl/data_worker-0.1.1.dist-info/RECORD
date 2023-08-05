@@ -1,0 +1,9 @@
+data_worker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_worker/data_worker.py,sha256=oGlFmr4UdaXraAv2v3vmNABEdKChTJW3hziAfJHNyDw,959
+data_worker/defined_wrappers.py,sha256=975CfpL62Jb_ybl18S_dxlAH5Qk_1rX8oORfpxGkCdw,1407
+data_worker/mapper.py,sha256=wqV0gn_J4F1Hsu6HjqY3Ue4Fw07XJqm_o6oyKI-yLAU,1371
+data_worker-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_worker-0.1.1.dist-info/METADATA,sha256=aYbONe_JBHAky89nJjU2EfEzUVGGojmTSPz2eY70fnI,442
+data_worker-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+data_worker-0.1.1.dist-info/top_level.txt,sha256=LarU5ta7bAKda5893VcTT7go18DhrcFCYrDtg3-Lfdw,12
+data_worker-0.1.1.dist-info/RECORD,,
