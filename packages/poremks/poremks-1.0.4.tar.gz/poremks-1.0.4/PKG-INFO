@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: poremks
+Version: 1.0.4
+Summary: for analytics on nanoporous molecular structures
+Home-page: https://auag92.github.io
+Author: Apaar Shanker
+Author-email: apaar92@gmail.com
+License: MIT
+Description: 
+        # poremks
+        
+        PoreMKS is a tool for the analytics of nanoporous molecular structures.
+        
+        Nanoporous materials are defined as materials having pore less than 100 nm
+        in size which are often comparable to the size of individual molecules.
+        
+        Nanoporous materials have a series of unique properties, making nanoporous
+        materials useful for industrially important applications such as gas storage,
+        separations, catalysis, et cetera. A vast number of unique nanoporous materials
+        can be synthesized, varying in chemical composition and pore topology. In addition
+        hundreds of thousand hypothetical materials have been computationally predicted and
+        a considerable number of computational screening studies have appeared in the
+        literature that examine the potential of nanoporous materials for a series
+        of applications.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: fast euclidean distance transform
+Provides-Extra: fast FFT
