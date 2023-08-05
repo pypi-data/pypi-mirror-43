@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: setupextras
+Version: 0.1.1
+Summary: Additional common `setuptools` helpers - for Python.
+Home-page: https://github.com/grimen/python-setupextras
+Author: Jonas Grimfelt
+Author-email: grimen@gmail.com
+License: MIT
+Download-URL: https://github.com/grimen/python-setupextras
+Project-URL: repository, https://github.com/grimen/python-setupextras
+Project-URL: bugs, https://github.com/grimen/python-setupextras/issues
+Keywords: setup,setuptools,extras,helpers,tools,package,utils,config,packages,data-files,requirements,readme,pip,pypi
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: six (>=1.11.0)
+Requires-Dist: rootpath (>=0.1.1)
+Requires-Dist: setuptools (>=40.8.0)
+Requires-Dist: colour-runner (>=0.0.5)
+Requires-Dist: deepdiff (>=3.3.0)
+Requires-Dist: tox (>=3.0.0)
+Requires-Dist: coverage (>=4.5.2)
+Requires-Dist: codecov (>=2.0.15)
+
+
+# `setupextras` [![PyPI version](https://badge.fury.io/py/setupextras.svg)](https://badge.fury.io/py/setupextras) [![Build Status](https://travis-ci.com/grimen/python-setupextras.svg?branch=master)](https://travis-ci.com/grimen/python-setupextras) [![Coverage Status](https://codecov.io/gh/grimen/python-setupextras/branch/master/graph/badge.svg)](https://codecov.io/gh/grimen/python-setupextras)
+
+*Additional common `setuptools` helpers - for Python.*
+
+## Introduction
+
+TODO
+
+
+## Install
+
+Install using **pip**:
+
+```sh
+$ pip install setupextras
+```
+
+
+## Use
+
+Very basic **[example](https://github.com/grimen/python-setupextras/tree/master/examples/basic.py)**:
+
+```python
+# =========================================
+#       IMPORTS
+# --------------------------------------
+
+import os
+import json
+import setuptools
+
+import setupextras
+
+
+# =========================================
+#       PACKAGE
+# --------------------------------------
+
+name = 'foo'
+version = '1.0.0'
+description = 'A foo library.'
+keywords = [
+    'foo',
+    'bar',
+]
+
+packages = setupextras.get_packages()
+data_files = setupextras.get_data_files(['*.*'], os.path.join(name, 'tests', '__fixtures__'))
+requirements = setupextras.get_requirements()
+readme = setupextras.get_readme()
+
+config = {
+    'name': name,
+    'version': version,
+    'description': (description),
+    'keywords': keywords,
+    'author': 'Jonas Grimfelt',
+    'author_email': 'grimen@gmail.com',
+    'url': 'https://github.com/grimen/python-{name}'.format(name = name),
+    'download_url': 'https://github.com/grimen/python-{name}'.format(name = name),
+    'project_urls': {
+        'repository': 'https://github.com/grimen/python-{name}'.format(name = name),
+        'bugs': 'https://github.com/grimen/python-{name}/issues'.format(name = name),
+    },
+    'license': 'MIT',
+    'long_description': readme,
+    'packages': packages,
+    'data_files': data_files,
+    'install_requires': requirements,
+}
+
+print('CONFIG {0}'.format(json.dumps(config, indent = 4)))
+
+
+# =========================================
+#       MAIN
+# --------------------------------------
+
+setuptools.setup(**config)
+```
+
+
+## Test
+
+Clone down source code:
+
+```sh
+$ make install
+```
+
+Run **colorful tests**, with only native environment (dependency sandboxing up to you):
+
+```sh
+$ make test
+```
+
+Run **less colorful tests**, with **multi-environment** (using **tox**):
+
+```sh
+$ make test-tox
+```
+
+
+## About
+
+This project was mainly initiated - in lack of solid existing alternatives - to be used at our work at **[Markable.ai](https://markable.ai)** to have common code conventions between various programming environments where **Python** (research, CV, AI) is heavily used.
+
+
+## License
+
+Released under the MIT license.
+
+
