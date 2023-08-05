@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: poeditor-client
+Version: 0.0.10
+Summary: The POEditor Client
+Home-page: https://github.com/lukin0110/poeditor-client
+Author: Maarten Huijsmans
+Author-email: maarten@lukin.be
+License: LICENSE.txt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Shells
+Requires-Python: >3.6.0
+Requires-Dist: poeditor (==1.1.0)
+
+
+The POEditor Client is a command line tool that enables you to easily manage your translation files within a project.
+
+
