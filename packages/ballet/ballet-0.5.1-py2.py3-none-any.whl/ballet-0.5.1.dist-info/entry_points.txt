@@ -1,0 +1,4 @@
+[console_scripts]
+ballet-quickstart = ballet.quickstart:main
+ballet-update-template = ballet.update:main
+
