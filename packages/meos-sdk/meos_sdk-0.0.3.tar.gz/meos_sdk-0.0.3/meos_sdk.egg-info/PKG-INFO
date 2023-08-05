@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: meos-sdk
+Version: 0.0.3
+Summary: Interact with the meos personal cloud environment
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: ## Running the examples
+        
+        ```
+        pip install -e .
+        meos_sdk run -a examples.hello_world.app
+        ```
+        
+        ## Running a production grade server
+        Meos uses `uWsgi` under the hood to run a server in production environment. To run this server set the `--debug` flag to `0`.
+        ```
+        pip install -e .
+        meos_sdk run -a examples.hello_world.app --debug 0
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
