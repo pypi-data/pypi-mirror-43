@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nodechalk
+Version: 0.2.0
+Summary: Terminal string styling for python
+Home-page: https://github.com/magicsky/nodechalk
+Author: magicsky
+Author-email: garcia.relax@gmail.com
+License: MIT
+Keywords: chalk,terminal color
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Freely Distributable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
