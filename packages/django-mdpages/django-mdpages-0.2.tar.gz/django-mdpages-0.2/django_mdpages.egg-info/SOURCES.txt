@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_mdpages.egg-info/PKG-INFO
+django_mdpages.egg-info/SOURCES.txt
+django_mdpages.egg-info/dependency_links.txt
+django_mdpages.egg-info/requires.txt
+django_mdpages.egg-info/top_level.txt
+mdpages/__init__.py
+mdpages/apps.py
+mdpages/tests.py
+mdpages/views.py
