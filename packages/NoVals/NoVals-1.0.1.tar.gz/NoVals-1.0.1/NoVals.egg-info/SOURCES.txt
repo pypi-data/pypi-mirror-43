@@ -1,0 +1,7 @@
+README.md
+setup.py
+NoVals.egg-info/PKG-INFO
+NoVals.egg-info/SOURCES.txt
+NoVals.egg-info/dependency_links.txt
+NoVals.egg-info/top_level.txt
+novals/__init__.py
