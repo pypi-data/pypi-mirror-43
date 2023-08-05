@@ -1,0 +1,5 @@
+setup.py
+kiwi_bottle.egg-info/PKG-INFO
+kiwi_bottle.egg-info/SOURCES.txt
+kiwi_bottle.egg-info/dependency_links.txt
+kiwi_bottle.egg-info/top_level.txt
