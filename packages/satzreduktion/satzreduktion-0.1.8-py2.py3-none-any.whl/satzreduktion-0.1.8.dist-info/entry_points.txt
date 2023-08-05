@@ -1,0 +1,3 @@
+[console_scripts]
+satzreduktion = satzreduktion.satzreduktion.cli:main
+
