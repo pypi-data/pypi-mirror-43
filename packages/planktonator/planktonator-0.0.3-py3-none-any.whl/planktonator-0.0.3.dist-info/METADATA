@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: planktonator
+Version: 0.0.3
+Summary: Planktonator is a Python package built for detecting and measuring particles using computer vision
+Home-page: http://github.com/brett-hosking/planktonator
+Author: brett hosking
+Author-email: wilski@noc.ac.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: imageio (>=2.5.0)
+Requires-Dist: numpy (>=1.16.2)
+Requires-Dist: pandas (>=0.24.1)
+Requires-Dist: scikit-image (>=0.14.2)
+Requires-Dist: scipy (>=1.2.1)
+
+Planktonator is a Python package built for detecting and measuring particles using computer vision
+and machine learning.
+
+    - Outputs .tsv files ready to be imported directly into EcoTaxa
+
+
+

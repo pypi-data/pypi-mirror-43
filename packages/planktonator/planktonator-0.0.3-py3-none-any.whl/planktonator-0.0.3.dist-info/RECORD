@@ -1,0 +1,17 @@
+planktonator/__init__.py,sha256=DEs0mFpoMM1ZIBt4qj6dOefNEo_xAiZLOiybmk2j_0Q,168
+planktonator/metadata.py,sha256=rhUouerM-KUWgcaNYAXGygKDuGdtXvONr9AL3T51-wg,28130
+planktonator/metadata_wip.py,sha256=FXnpn3TiRX7-PiiLli5lxVdKlsIzoqrwxbf5IUhIGxs,11085
+planktonator/run.py,sha256=csYX8htjiqarCOaHqgaJXbXSn-4JjMwq9lOzVv02DIo,14915
+planktonator/tools.py,sha256=w_13P-5B9jIFdaaSfGmT5xW-EoOsRrwChI6dBKvK9mE,615
+planktonator/version.py,sha256=PrpBdiwioc1qL97U-koMzqtMN6Uc1bIZ_fggcpir7Vc,20
+planktonator/image/__init__.py,sha256=Sdz_BFeR42FVQcbjg0_7FhfdrSSGf-NOCrIs3vZPAk4,127
+planktonator/image/apply.py,sha256=dKXQo4EDao0lUo88l9bmgNgRwVeGyqmn7PqV0eh-cLY,3505
+planktonator/image/contours.py,sha256=9PvmN5W12dZHubLXCKRIaRRGiH1UEF0VvkaMB89Ypro,2247
+planktonator/image/filters.py,sha256=ehJe2ZCmAc9KeMmnTriiByN-p0jogKnCkQstZQLoJnU,782
+planktonator/image/io.py,sha256=mAiFxMu_iS5Es-CpoBbwn_-mf2zFz_rhqQvOOQyeUOU,884
+planktonator/image/stats.py,sha256=51vcfImXa2Jqd6rZm4ccw8rOO4qD54CBqAejCJTdQC0,4466
+planktonator-0.0.3.dist-info/LICENCE,sha256=Axvt-kwb5ysMpWmifMUZ5ogzkzKFOymj8c4aogMlMqg,1070
+planktonator-0.0.3.dist-info/METADATA,sha256=rut6LBae3xRalBUm5YkEm1ZJqyxQcm4NVR-w7r7bM_E,666
+planktonator-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+planktonator-0.0.3.dist-info/top_level.txt,sha256=SCP1phZU2my_uVzSqkeiqQCYFb4tgsoQBRN_wogWtXg,13
+planktonator-0.0.3.dist-info/RECORD,,
