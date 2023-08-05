@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+tagtomarkdown.py
+tagtomarkdown.egg-info/PKG-INFO
+tagtomarkdown.egg-info/SOURCES.txt
+tagtomarkdown.egg-info/dependency_links.txt
+tagtomarkdown.egg-info/entry_points.txt
+tagtomarkdown.egg-info/requires.txt
+tagtomarkdown.egg-info/top_level.txt
