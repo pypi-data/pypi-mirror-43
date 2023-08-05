@@ -1,0 +1,12 @@
+README
+setup.cfg
+setup.py
+happinesspacket_messages.egg-info/PKG-INFO
+happinesspacket_messages.egg-info/SOURCES.txt
+happinesspacket_messages.egg-info/dependency_links.txt
+happinesspacket_messages.egg-info/entry_points.txt
+happinesspacket_messages.egg-info/not-zip-safe
+happinesspacket_messages.egg-info/requires.txt
+happinesspacket_messages.egg-info/top_level.txt
+happinesspacket_schema/__init__.py
+happinesspacket_schema/schema.py
