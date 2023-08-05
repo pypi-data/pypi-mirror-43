@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mask-rcnn-12rics
+Version: 0.2.3
+Summary: mask-rcnn library by Matterport
+Home-page: https://github.com/matterport/Mask_RCNN
+Author: 12rics
+Author-email: jwp1994@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a library of Mask-RCNN implemented by (https://github.com/matterport/Mask_RCNN)
+
+
