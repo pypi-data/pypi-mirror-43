@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: hnqis-cli
+Version: 0.1.3
+Summary: Command-line tools for interacting with PSI DHIS2 instances
+Home-page: https://github.com/psi-mis/hnqis-cli
+Author: PSI MIS
+Author-email: dhuser@baosystems.com
+License: GPLv3
+Description: Check https://github.com/psi-mis/hnqis-cli for docs
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
