@@ -1,0 +1,1 @@
+This is a formatter for Python code that adheres to the PEP8 standards.  It will indent classes, functions, loops, and conditional statements with 4 spaces and will break a line longer than 72 characters.  This project is still in developement and is being updated constantly.
