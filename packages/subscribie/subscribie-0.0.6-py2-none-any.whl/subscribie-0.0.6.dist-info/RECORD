@@ -1,0 +1,17 @@
+subscribie/Template.py,sha256=DAQSQvL2vwCscThdjF56V2vYWfY85nqqTObTX-DSxoM,1427
+subscribie/__init__.py,sha256=Ma9d7gXQESr2RCT9MwwSOHsGoXGoNCXMUHT2bzFZl_A,7140
+subscribie/auth.py,sha256=cZrtBk6PsmzffLYOjughJVH2Disl4vf7Y21bykn11hA,5581
+subscribie/createdb.py,sha256=CRpKaLHrpLxheV9XgRjBCqj1Em962ciMiVjDXROLD7A,744
+subscribie/db.py,sha256=cZnAe3eP9knDWnf9GO433CeFIr-3WeoTRJM5_cnqyRQ,1040
+subscribie/forms.py,sha256=Fm0zcT6GXcaOMysekUyMwmjnpQ_54Itcjxu3o1Gc90Q,4155
+subscribie/jamla.py,sha256=blrZaaoRFCXfFG4hAqBvVSQ1AtFKTpY3Pxr1_9UG7NE,3877
+subscribie/signals.py,sha256=8KB5Ofp7kFeAQwFB8eReq7fBFGfFURrb5YsTPNI2TKU,322
+subscribie/views.py,sha256=iR7A8oSf4-6nmLEsHnbhZO5Z2HdK7PHIZx1Cr_Xfv0g,10470
+subscribie/blueprints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subscribie/blueprints/admin/__init__.py,sha256=abJktocJbPN4HeER4ju-R1pMQeqrng2lZK0iz5hGK8M,25923
+subscribie-0.0.6.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+subscribie-0.0.6.dist-info/METADATA,sha256=fsL_BOQ4sUsCMwZJjUeqIqwn57hhHMLMHA0RHGPesjY,728
+subscribie-0.0.6.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+subscribie-0.0.6.dist-info/entry_points.txt,sha256=uJW6vlMaa9-9d6xNM_Y_93BSumkOv1QVo2hqnHtBEsE,31
+subscribie-0.0.6.dist-info/top_level.txt,sha256=-tayWFKdKq-DhZYCnOgPD-i9VaZOmb2ZCz54BMb3mXQ,11
+subscribie-0.0.6.dist-info/RECORD,,
