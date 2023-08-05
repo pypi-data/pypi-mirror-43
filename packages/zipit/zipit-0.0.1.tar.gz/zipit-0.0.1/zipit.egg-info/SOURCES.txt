@@ -1,0 +1,11 @@
+README.md
+setup.py
+zipit/__init__.py
+zipit/__main__.py
+zipit/cli.py
+zipit/zipit.py
+zipit.egg-info/PKG-INFO
+zipit.egg-info/SOURCES.txt
+zipit.egg-info/dependency_links.txt
+zipit.egg-info/entry_points.txt
+zipit.egg-info/top_level.txt

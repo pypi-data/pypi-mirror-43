@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: zipit
+Version: 0.0.1
+Summary: Very thin wrapper around zipapp that let's you package a python module and dependencies.
+Home-page: https://github.com/OniOni/zipit
+Author: Mathieu Sabourin
+Author-email: mathieu.c.sabourin@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
