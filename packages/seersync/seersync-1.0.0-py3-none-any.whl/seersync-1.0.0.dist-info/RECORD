@@ -1,0 +1,13 @@
+seersync/__init__.py,sha256=1VWbXPrWJuHLHZVwGTwfnF_giMFKWHOwFYBf-CAYXX8,483
+seersync/__main__.py,sha256=Ntb78rEAe4NatuLOks-Kd51ezAB5gp2S1M5t5WlwtNE,271
+seersync/_version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+seersync/app.py,sha256=2feap6JobZmr_9i7ePbmv8LpnnWIrhf0FJzaTZsR6ow,4528
+seersync/models.py,sha256=LDPXDn825sKYO41tXrBJwMYU4T9_jeiuXxJstuTVue8,1109
+seersync/rsync.py,sha256=05G-fQ0SckKxcBArFPYr4nnPc2jYkUC59lgDlcY7Bl0,5374
+seersync/ui.py,sha256=bQAc17pFPaRJXEym9S-9NmqzKI4G2Uk0jjTtcXbAYSU,9360
+seersync-1.0.0.dist-info/LICENSE.txt,sha256=2xpK2dRwhSc7OsNXOHoZV4rI-OJPMYGZam0n0b-DKXI,1500
+seersync-1.0.0.dist-info/METADATA,sha256=DMtXqTTLpmSTEFE8A-_dk42LNEhYDSGls6VFQ9mtm4c,5338
+seersync-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+seersync-1.0.0.dist-info/entry_points.txt,sha256=ljhK2AzN0uxgJkMPVG3zH75_Riu9xZqbHAQykgVd4HI,48
+seersync-1.0.0.dist-info/top_level.txt,sha256=uUuhEiPmIV-8d_wCGF7yFx6ZPxavYh0RkZd4-v0C3og,9
+seersync-1.0.0.dist-info/RECORD,,
