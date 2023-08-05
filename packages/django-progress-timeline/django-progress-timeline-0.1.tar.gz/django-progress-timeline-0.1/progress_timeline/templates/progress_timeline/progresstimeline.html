@@ -1,0 +1,31 @@
+<div class="wrapper">
+
+    <div class="text rounded-progress">
+        <h3>{{ object.title }}</h3>
+        <div class="desc">{{ object.description|safe }}</div>
+        <div class="goal">{{ object.goal }}</div>
+    </div>
+
+    <div class="progress-line rounded-progress">
+        {% if object.get_current_date %}
+        <div class="date">
+            <div class="current-date">{{ object.get_current_date }}</div>
+        </div>
+        {% endif %}
+
+        <div class="full-rounded-progress myProgress" id="myProgress-{{ object.pk }}">
+            <div class="rounded-progress myBar" id="myBar-{{ object.pk }}" data-progress="{{ ratio }}"></div>
+            <div class="rounded-progress myBar2" id="myBar2-{{ object.pk }}" data-progress="{{ currently }}"></div>
+        </div>
+
+        <div class="date">
+            {% if object.get_start_date %}<div class="start-date">{{ object.get_start_date}}</div>{% endif %}
+            {% if object.get_end_date %}<div class="end-date">{{ object.get_end_date }}</div>{% endif%}
+        </div>
+
+        <div class="number">
+            {{ object.get_number_label }}  
+        </div>
+    </div>
+
+</div>
