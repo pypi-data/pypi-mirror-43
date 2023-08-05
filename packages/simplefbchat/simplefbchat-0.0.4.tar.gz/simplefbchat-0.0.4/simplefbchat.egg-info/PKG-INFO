@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: simplefbchat
+Version: 0.0.4
+Summary: Simple Facebook Chat library for students.
+Home-page: https://github.com/chyla/simplefbchat
+Author: Adam Chyła
+Author-email: adam@chyla.org
+License: UNKNOWN
+Description: # SimpleFbChat
+        
+        Simple Facebook Chat library for students. Do not use at production.
+        
+        Example:
+        
+        ```
+        from simplefbchat import SimpleFbChat
+        
+        login = "example@tfbnw.net"
+        password = "passw0rd"
+        
+        fb = SimpleFbChat(login, password)
+        
+        while True:
+            received_message = fb.receive()
+        
+            text = received_message.text
+        
+            received_message.reply("Hello: " + text)
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

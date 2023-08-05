@@ -1,0 +1,12 @@
+README.md
+setup.py
+simplefbchat/__init__.py
+simplefbchat/simplefbchat.py
+simplefbchat.egg-info/PKG-INFO
+simplefbchat.egg-info/SOURCES.txt
+simplefbchat.egg-info/dependency_links.txt
+simplefbchat.egg-info/requires.txt
+simplefbchat.egg-info/top_level.txt
+simplefbchat/detail/__init__.py
+simplefbchat/detail/chat.py
+simplefbchat/detail/fbbot.py
