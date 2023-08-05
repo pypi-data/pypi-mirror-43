@@ -1,0 +1,17 @@
+acomod/MainWindow.py,sha256=XfzTheG4Ml8TJ4yjyfuCmxDmG_sSiTAe_K1qJV5XpGg,16191
+acomod/MainWindow.ui,sha256=QTKkD8lHFaznVx0vf0cHb-EZ_7dcoBEFkueE6Y4mlAo,10306
+acomod/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+acomod/global_settings.py,sha256=7H8g-E43Xggvzjxr4d2ef3J-P43t75hJEonwIHlRRys,388
+acomod/matplotlibWidget.py,sha256=TQS65KWJJnBLS-xf104-e6ZGLaI2gb70a-sP3S4U818,8632
+acomod/preferences.py,sha256=9xEPKjXSF4Z74CmFhdb9sd_W_ntuNftuCzYDSoxQC88,2029
+acomod/preferences.ui,sha256=xVfphvonjbrXQKHaGlHYSFk84KpBF7x3-0lq_dXgGjE,8106
+acomod/recordSignal.py,sha256=4Ifgx3ZUezz_5hiGSrS9_hylU5tkkiUSnuW11nnbz7w,10555
+acomod/resources.py,sha256=-X13Ve76Mv0UCIozYEPaQQvmr91-mBPpurydxbOwZAI,86222
+acomod/sonidist.py,sha256=xN-ksy8AI65B79smFDGNAO8Z3Y6bGbt2i22D4sn16L8,659
+acomod-0.1.8.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+acomod-0.1.8.dist-info/METADATA,sha256=5CmiOyA-zNJBxb4L98jSU5rAoqM_ORSmj68D1tsL9ng,2523
+acomod-0.1.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+acomod-0.1.8.dist-info/eager_resources.txt,sha256=tSh2cW_ec84Jjl6mBEAI_2XQbEF8vxQ7VGrvlFQW1x8,7
+acomod-0.1.8.dist-info/entry_points.txt,sha256=MCJUf6XPaarIVzQbwH57paKgU5otwvyNuRY6sExBggQ,59
+acomod-0.1.8.dist-info/top_level.txt,sha256=tSh2cW_ec84Jjl6mBEAI_2XQbEF8vxQ7VGrvlFQW1x8,7
+acomod-0.1.8.dist-info/RECORD,,
