@@ -1,0 +1,11 @@
+README.md
+setup.py
+aiger_coins/__init__.py
+aiger_coins/distributions.py
+aiger_coins/test_distributions.py
+aiger_coins/utils.py
+py_aiger_coins.egg-info/PKG-INFO
+py_aiger_coins.egg-info/SOURCES.txt
+py_aiger_coins.egg-info/dependency_links.txt
+py_aiger_coins.egg-info/requires.txt
+py_aiger_coins.egg-info/top_level.txt
