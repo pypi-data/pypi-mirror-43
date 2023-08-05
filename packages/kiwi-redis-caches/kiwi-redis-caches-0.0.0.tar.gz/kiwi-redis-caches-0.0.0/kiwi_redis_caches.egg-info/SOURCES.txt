@@ -1,0 +1,5 @@
+setup.py
+kiwi_redis_caches.egg-info/PKG-INFO
+kiwi_redis_caches.egg-info/SOURCES.txt
+kiwi_redis_caches.egg-info/dependency_links.txt
+kiwi_redis_caches.egg-info/top_level.txt
