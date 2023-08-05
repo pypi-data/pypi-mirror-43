@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+corona/__init__.py
+corona/__main__.py
+corona/setup.py
+corona/snap.py
+corona.egg-info/PKG-INFO
+corona.egg-info/SOURCES.txt
+corona.egg-info/dependency_links.txt
+corona.egg-info/entry_points.txt
+corona.egg-info/requires.txt
+corona.egg-info/top_level.txt
