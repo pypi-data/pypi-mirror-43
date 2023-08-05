@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aiospotipy/__init__.py
+aiospotipy/_http.py
+aiospotipy/client.py
+aiospotipy/me.py
+aiospotipy/oauth2.py
+aiospotipy.egg-info/PKG-INFO
+aiospotipy.egg-info/SOURCES.txt
+aiospotipy.egg-info/dependency_links.txt
+aiospotipy.egg-info/requires.txt
+aiospotipy.egg-info/top_level.txt
