@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: buildout.recipe.download
+Version: 0.0.3
+Summary: Download with multiple threads
+Home-page: UNKNOWN
+Author: Jagadeesh N Malakannavar
+Author-email: mnjagadeesh@gmail.com
+License: BSD 3
+Description: zc.buildout recipe
+        ============================
+        
+        Introduction
+        ------------
+        The recipe extension helps to download pinned eggs quickly. It uses python
+        multiprocessing module.
+        
+        Installation
+        ------------
+        Build with
+        python setup.py build install
+        
+        add below configuration to buildout.cfg:
+        
+        ::
+        
+           [download-eggs-first]
+           recipe = buildout.recipe.download
+           pkgurl = ${pkgserver:fullurl}
+           cache-folder = ${buildout:directory}/download-cache
+           versions-files = ${buildout:directory}/versions/versions.cfg
+        
+        Optinally we can pass threads, it is defaulted to 50
+        
+        
+Keywords: development buildout recipe
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: Framework :: Buildout
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: License :: Other/Proprietary License
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
