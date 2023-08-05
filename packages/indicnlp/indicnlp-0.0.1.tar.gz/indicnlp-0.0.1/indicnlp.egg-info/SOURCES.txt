@@ -1,0 +1,8 @@
+README.md
+setup.py
+indicnlp/__init__.py
+indicnlp/bengali.py
+indicnlp.egg-info/PKG-INFO
+indicnlp.egg-info/SOURCES.txt
+indicnlp.egg-info/dependency_links.txt
+indicnlp.egg-info/top_level.txt
