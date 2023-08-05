@@ -1,0 +1,12 @@
+si/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+si/amp.py,sha256=miJ2P1vPQAEOUjufhooKK9y6IdSaYeAv1C3WtdGAzIE,4711
+si/example.py,sha256=2nLX42-BSLFshttqhzcY--iSwBZ_xc8q8g-5Ouev8rE,3365
+si/no_op_amp.py,sha256=5NZ-d5Z8TaqG0tluRAjQcrbxyntor24cb1gSC2wZzTc,1830
+si/session.py,sha256=9D6wWqn8EJYS0uPLfJZMHmCGvcy__JyBIihnyaLV4Mw,12362
+si/smart_conn.py,sha256=GEzVcl99au76t9xTwmV-_GcTofluhQ_wP87ODhu_1TY,3155
+si/utils.py,sha256=YXAKhQxJ1naLosz-y12-g_qQc29PpvDQu5Gs8NbO1uo,376
+amp_python_thin_scaledinference-1.0.5.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amp_python_thin_scaledinference-1.0.5.dist-info/METADATA,sha256=a_6smbGdPKJNcSJ9rGlz31j9pGP-GNrH_8k7SRCM-Zo,510
+amp_python_thin_scaledinference-1.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+amp_python_thin_scaledinference-1.0.5.dist-info/top_level.txt,sha256=Gefnx6gufmA_0rBNGHzBXTHNRIj_pTEQKMF9CbSP1mw,3
+amp_python_thin_scaledinference-1.0.5.dist-info/RECORD,,
