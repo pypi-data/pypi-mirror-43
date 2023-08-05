@@ -1,0 +1,2 @@
+pelops>=0.3.3
+tantamount>=0.2.11
