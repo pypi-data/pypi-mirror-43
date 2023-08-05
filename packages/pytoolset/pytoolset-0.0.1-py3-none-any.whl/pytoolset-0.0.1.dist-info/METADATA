@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pytoolset
+Version: 0.0.1
+Summary: this is a test package for packing python liberaries tutorial.
+Home-page: UNKNOWN
+Author: Zonas Wang
+Author-email: zonas.wang@gmail.com
+License: MIT
+Keywords: test python package
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+
+
+在本地目录执行以下命令应该能成功在dist目录下生成 tar.gz 结尾的文件
+python setup.py sdist 
+如果需要whl文件，则执行下面这个
+python setup.py sdist bdist_wheel
+
+
+需要到pypi注册并验证包以后才能真正上传，使用下面的方法注册:
+twine upload dist/*
+注意register命令已经不被支持了 
+
+
+发布轮子:
+python setup.py register sdist upload: 这个不安全，应该使用下面这个：
+twine upload dist/*
+
+
+
+
