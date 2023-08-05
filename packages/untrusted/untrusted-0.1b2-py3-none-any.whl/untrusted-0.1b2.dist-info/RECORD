@@ -1,0 +1,13 @@
+untrusted-0.1b2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+untrusted-0.1b2.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
+untrusted-0.1b2.dist-info/METADATA,sha256=d4sBGVMLIgrVAvp4P-a3d3UMMMAsLvsB7wZoQx443R0,634
+untrusted-0.1b2.dist-info/metadata.json,sha256=ZFdKTyMGgM3M_8IQroEE_UtyVr2YUhgc6D99rRHTzuk,738
+untrusted-0.1b2.dist-info/top_level.txt,sha256=9LCF1kPufsEiWwU1lZUp5Ny6zGZO0dI3AAAdI4atxu0,10
+untrusted-0.1b2.dist-info/DESCRIPTION.rst,sha256=LYHUY9qPE8PVSaLJeEcGDn6AP0BSvW7qVcIRKLgJjFU,36
+untrusted-0.1b2.dist-info/RECORD,,
+untrusted/__init__.py,sha256=myfh3c62EqbdsfCRQ9lq-KgO329uJv9DL7cf_7eqoFQ,194
+untrusted/sequence.py,sha256=2DchsHa4wqnJGHtSD--BLf_SA3OpL_wfpkeu1ThJOEk,2838
+untrusted/util.py,sha256=LnTrz6Wbnx9A09yxjPBy7eu_FkfjFPewbAXgUv9ugxI,4609
+untrusted/iterator.py,sha256=4igZU3loMdWh8bSwTBwdsvBpXPW2C-BJLs2K93OX3HE,1101
+untrusted/string.py,sha256=L06PBYCDBaZb37MbNgwqjP8Aq6TEQuMoITsRPItOdOU,5097
+untrusted/mapping.py,sha256=f5Zoa-AGCxVGvmD8IZEY3YDSliWecj0P3h2oYvsDJzM,3963
