@@ -1,0 +1,16 @@
+djangoldp_invoice/__init__.py,sha256=PD1nCMa9JQtzLQ4stssmFGtfu8J1x4mYsPfAL4HKi1k,49
+djangoldp_invoice/admin.py,sha256=Sa2DcN2B9kUZGg_PTIoyNDq44mIFAaJFl9703r1FoxI,331
+djangoldp_invoice/apps.py,sha256=CvzcJksfNztmYoFjwUUyLcgYv1YxLuiuohY6JShzkXg,109
+djangoldp_invoice/models.py,sha256=hvATcMLr_vGO5djvrFFX7Q8b0MjvFhpjORSEKo47nvo,4268
+djangoldp_invoice/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+djangoldp_invoice/urls.py,sha256=FTA1eeaH8WjT43GyCyJhussmO82MDQFEUBb1GC4De1Y,826
+djangoldp_invoice/migrations/0001_initial.py,sha256=0LlQ1KNU-_r3MmuFkKgbk61_t2MGmCDF6ksJGj2eoy4,4167
+djangoldp_invoice/migrations/0002_auto_20181206_1856.py,sha256=ahJ8efReAYGyHT7xVvLxfvCrPGYjjXDykKYQHcXRzS0,812
+djangoldp_invoice/migrations/0003_auto_20190114_1630.py,sha256=AE25t8WoDPBbpFEEy5Lnix8ySWP6HUEgPHjboarS1fg,780
+djangoldp_invoice/migrations/0004_auto_20190117_0215.py,sha256=iINiQGgT2-TDzcKIX3jRlhkDPHLpk-8O3mZBsMQi29A,871
+djangoldp_invoice/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangoldp_invoice-0.0.3.dist-info/LICENSE,sha256=_O6uFc76nEtSeM6r3C1ZPfJvdRbGr7NByeCaXKXmmWQ,1069
+djangoldp_invoice-0.0.3.dist-info/METADATA,sha256=SE_zGfNPwpztNfkM_-d4L_3JW1PmvanN9glTJ7d1Q4c,405
+djangoldp_invoice-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+djangoldp_invoice-0.0.3.dist-info/top_level.txt,sha256=eKuwR8K4De0czEYJb1FOp0tfPSGKP2IXhUA223YjEFQ,18
+djangoldp_invoice-0.0.3.dist-info/RECORD,,
