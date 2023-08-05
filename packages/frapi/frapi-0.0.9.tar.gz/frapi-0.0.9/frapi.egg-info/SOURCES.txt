@@ -1,0 +1,10 @@
+README.md
+setup.py
+frapi/__init__.py
+frapi/frapi_client.py
+frapi/frapi_image.py
+frapi.egg-info/PKG-INFO
+frapi.egg-info/SOURCES.txt
+frapi.egg-info/dependency_links.txt
+frapi.egg-info/requires.txt
+frapi.egg-info/top_level.txt
