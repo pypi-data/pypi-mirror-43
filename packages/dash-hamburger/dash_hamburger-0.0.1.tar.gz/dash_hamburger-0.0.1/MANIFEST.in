@@ -1,0 +1,5 @@
+include dash_hamburger/dash_hamburger.min.js
+include dash_hamburger/dash_hamburger.dev.js
+include dash_hamburger/metadata.json
+include dash_hamburger/package.json
+include README.md
