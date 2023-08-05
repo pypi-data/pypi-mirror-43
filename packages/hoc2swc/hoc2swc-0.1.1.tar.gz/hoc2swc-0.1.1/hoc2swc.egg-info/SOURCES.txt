@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+hoc2swc/__init__.py
+hoc2swc.egg-info/PKG-INFO
+hoc2swc.egg-info/SOURCES.txt
+hoc2swc.egg-info/dependency_links.txt
+hoc2swc.egg-info/top_level.txt
+tests/__init__.py
+tests/test_all.py
