@@ -1,0 +1,11 @@
+shellypython/__init__.py,sha256=cj7D0ImWRZaT57BDUaRw8Iapwp6JDfdoaHO9zCnvZK0,24
+shellypython/const.py,sha256=g76PAHkokgozIenNZQDVW_CYH1gKES_WhTFSN2S1ksU,355
+shellypython/exception.py,sha256=m5uPi9baNspKUV5NDEoK2VW4S2tsvNT9euC4KCHBamk,1343
+shellypython/helpers.py,sha256=-UGe3l4F5NnFlZXoyrDaLMVLNi_lVS6Hl6iOI-TgY0A,1054
+shellypython/shelly.py,sha256=K0_GQ-py9_f2mnZGymvcT-hGklJVgm98RQFE0rWpu00,10786
+shellypython/test2.py,sha256=esiPASyMriSuEaP4DeXR6wCcndKakOKbQy4tuN52yJE,539
+shellypython-0.0.4b1.dist-info/LICENSE,sha256=8B1CYClXHDdlIvYpDQu3QbgitdMexP7exaUyeRXwJy8,1070
+shellypython-0.0.4b1.dist-info/METADATA,sha256=XM8IuxOLeFqUM4TTCfshQwZen2j77uwhJ7mujbjSa3o,2969
+shellypython-0.0.4b1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+shellypython-0.0.4b1.dist-info/top_level.txt,sha256=gmneW6V8m4ii8z8alb8-HGrfIG6w_82zd_pNlWLElDE,13
+shellypython-0.0.4b1.dist-info/RECORD,,
