@@ -1,0 +1,6 @@
+pesq
+stoi
+tqdm
+lxml
+librosa
+tablib
