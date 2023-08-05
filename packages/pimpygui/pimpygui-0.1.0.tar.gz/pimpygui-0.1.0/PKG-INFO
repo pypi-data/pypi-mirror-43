@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: pimpygui
+Version: 0.1.0
+Summary: Graphical user interface for pimpy
+Home-page: https://gitlab.com/pschill/pimpy
+Author: Philip Schill
+Author-email: philip.schill@gmx.de
+License: UNKNOWN
+Description: pimpygui
+        ========
+        
+        *pimpygui* is a tool that demonstrates some functions of the *pimpy* package.
+        
+        Note 2019-03-08: The rest of the readme will follow soon.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Artistic Software
+Requires-Python: >=3.6
