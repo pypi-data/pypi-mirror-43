@@ -1,0 +1,3 @@
+[brainslug.ribosomes]
+powershell = brainslug.ribosomes.powershell:powershell
+
