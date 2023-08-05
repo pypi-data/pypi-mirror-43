@@ -1,0 +1,24 @@
+
+Installation guide for CPAT (version 2.0.0).
+
+Prerequisite:
+   * python3.5 or later
+   * numpy
+   * R
+   * pip3
+
+Install CPAT hosted on PyPI, run:
+
+$ pip3 install CPAT
+
+Alternatively, you could download CPAT-VERSION.tar.gz (https://sourceforge.net/projects/rna-cpat/files/?source=navbar) first and then run:
+
+$ pip3 install CPAT-VERSION.tar.gz
+
+Online Manual:
+
+http://rna-cpat.sourceforge.net/
+
+Contact:
+Liguo Wang: wangliguo78@gmail.com
+Jung Hyun Park: hj_park@pitt.edu
