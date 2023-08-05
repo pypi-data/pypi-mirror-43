@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gillespy2
+Version: 1.0.1
+Summary: Python interface for Gillespie style biochemical simulations
+Home-page: http://www.github.com/briandrawert/GillesPy2
+Author: Brian Drawert, Kevin Sanft, Sean Matthew, George Hall, Dalton Nickerson
+Author-email: bdrawert@unca.edu
+License: GPL
+Download-URL: https://github.com/briandrawert/GillesPy2/tarball/master/
+Keywords: gillespy2,gillespie algorithm,biochemical simulation
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+UNKNOWN
+
+
