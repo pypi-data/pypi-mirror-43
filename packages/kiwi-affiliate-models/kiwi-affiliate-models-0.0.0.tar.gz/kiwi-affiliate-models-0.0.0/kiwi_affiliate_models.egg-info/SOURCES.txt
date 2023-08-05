@@ -1,0 +1,5 @@
+setup.py
+kiwi_affiliate_models.egg-info/PKG-INFO
+kiwi_affiliate_models.egg-info/SOURCES.txt
+kiwi_affiliate_models.egg-info/dependency_links.txt
+kiwi_affiliate_models.egg-info/top_level.txt
