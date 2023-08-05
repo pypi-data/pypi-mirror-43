@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: datetime-extractor
+Version: 0.5
+Summary: Extracts timestamp from a given text/string
+Home-page: https://github.com/ydineshy225/datetime_extractor
+Author: Yeddu Dinesh Babu
+Author-email: ydineshy225@gmail.com
+License: UNKNOWN
+Description: # datetime_extractor
+        The main intent of this project is to extract mostly all possible timestamps from a given string where date and time written together. It extracts timestaamps in a string format. Later one can convert extracted timestamp to python timestamp using pandas datetime package.
+        
+        # How to install the package
+        		pip install datetime-extractor
+        
+        # Example1
+        ``` python
+          from datetime_extractor import DateTimeExtractor
+        
+          import pandas as pd
+          import re
+        
+          samplestring = 'scala> val xorder= new order(1,"2016-02-22 00:00:00.00",100,"COMPLETED")'
+        
+          DateTimeExtractor(samplestring)
+        
+          Out: ['2016-02-22 00:00:00.00']
+        ```
+        
+        # Example2
+        Suppose if one has a dataframe with text column where timestamps written, the above function can be used to create a new column with extracted timestamp strings. One can use below command in this case
+        ``` python
+          data = pd.read_csv('sampledata.csv')
+          data['textcolumn'] = data['textcolumn'].fillna('')
+        
+          data['ExtractedTimestamp'] = data['textcolumn'].apply(lambda x: DateTimeExtractor(str(x)))
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
