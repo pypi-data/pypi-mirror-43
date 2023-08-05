@@ -1,0 +1,14 @@
+pyqcore/__init__.py,sha256=bP-5oYLopesYKg0MfN7ddJ2Rjs0HCy66H1Ov_X4Ss08,44
+pyqcore/__version__.py,sha256=zpHIM4v-sIMttitw4o_oPc-eiqXwmlmmcSwU6b3-XYw,63
+pyqcore/client.py,sha256=LGI2ntmqje7uLp1yu-PYlCWOZSGCbeZr8Gyu3_XYdVk,4361
+pyqcore/examples/__init__.py,sha256=O-ZpXGkFSEhNGjrgkyUr9F6V8t7aUlCyQIJc6NzApv0,20
+pyqcore/examples/jpvow.py,sha256=k-qnhvYnZWdWg3z7lJVLC4XSmVdtRMBy07-q6YbM-a0,2349
+pyqcore/examples/data/jpvow_test_x.json,sha256=NegTDbDudctJyfjZKkCG9FBqbpwthcUenheVUfgXjYY,2613125
+pyqcore/examples/data/jpvow_test_y.json,sha256=lFfqJRrV7qVm5nmuMBnhDytuRA6DN8fkIsY35A9NN0Q,5552
+pyqcore/examples/data/jpvow_train_x.json,sha256=fo5iul2B0Hla9R_F5NRWl5XBOpq6C2MisE7pv-mfaAI,1930451
+pyqcore/examples/data/jpvow_train_y.json,sha256=-BrDoc9EJv1S6tItPzNfW-i1MDYx28UxQABscu-d8qM,4052
+pyqcore-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyqcore-0.2.0.dist-info/METADATA,sha256=rSPfMw9L-r_8L6l4yRCtG9FFpYFwz2hAdAJ8D1qEPPo,3683
+pyqcore-0.2.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+pyqcore-0.2.0.dist-info/top_level.txt,sha256=APP0An5cRGWVMXszCOROGGOJmUhBIz3l4W6tQN4eOCI,8
+pyqcore-0.2.0.dist-info/RECORD,,
