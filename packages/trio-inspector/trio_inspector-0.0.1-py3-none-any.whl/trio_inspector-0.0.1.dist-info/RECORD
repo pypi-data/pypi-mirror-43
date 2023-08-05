@@ -1,0 +1,13 @@
+trio_inspector/__init__.py,sha256=CEhD6htvvC3xPJq5LUFKp6EaPoghesCQapK0rUXKVds,37
+trio_inspector/_version.py,sha256=JVF7NmCdCh6u5K6UpZqJlDkPporXs6gPT5nGZqqHw60,89
+trio_inspector/inspector.py,sha256=xq5wowFr2X818gltaRXQl_Ep8GID1-7XRxavwdh7gK4,4176
+trio_inspector/static/index.html,sha256=SbjC36MK0z9ytgtN9lepaqwjhAjTG4oxbRz6aVGhXs8,659
+trio_inspector/static/main.js,sha256=ZdgjQ4v0IYVqZ7vwvr1hCzhWcu_HisjMNfMKECK4n0o,153304
+trio_inspector/static/style.css,sha256=62fhcFAhXJF8mZG3oN8xNpG6zXvjkQ33zU5Kb7lBNeI,158
+trio_inspector-0.0.1.dist-info/LICENSE,sha256=ZSyHhIjRRWNh4Iw_hgf9e6WYkqFBA9Fczk_5PIW1zIs,185
+trio_inspector-0.0.1.dist-info/LICENSE.APACHE2,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+trio_inspector-0.0.1.dist-info/LICENSE.MIT,sha256=Pm2uVV65J4f8gtHUg1Vnf0VMf2Wus40_nnK_mj2vA0s,1046
+trio_inspector-0.0.1.dist-info/METADATA,sha256=wLbCRL8Ns5xmb5oLhWnHYKzzK9aVGYzmJKKliYIzl68,1517
+trio_inspector-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+trio_inspector-0.0.1.dist-info/top_level.txt,sha256=GVjZtaJoEIj-nKOaNFGqOOF9fJCEGqMQH44ZAlcZuQE,15
+trio_inspector-0.0.1.dist-info/RECORD,,

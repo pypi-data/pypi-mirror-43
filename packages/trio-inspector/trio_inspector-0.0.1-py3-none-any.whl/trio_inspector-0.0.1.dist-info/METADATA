@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: trio-inspector
+Version: 0.0.1
+Summary: A browser-based monitor for Trio
+Home-page: https://github.com/syncrypt/trio-inspector.git
+Author: Hannes Gräuler
+Author-email: hannes@syncrypt.space
+License: MIT -or- Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Trio
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Debuggers
+Requires-Python: >=3.5
+Requires-Dist: trio
+Requires-Dist: hypercorn
+Requires-Dist: quart-trio
+Requires-Dist: quart
+Requires-Dist: quart-cors
+
+# Trio Inspector
+
+Note: This is a very early prototype.
+
+## Installation
+
+```
+pip install trio-inspector
+```
+
+## Usage
+
+```
+from trio_inspector import TrioInspector
+
+...
+
+async with trio.open_nursery() as nursery:
+    nursery.start_soon(TrioInspector().run)
+```
+
+Then, point your browser to: http://127.0.0.1:5000/
+
+If you want to try it out, you can download and run [this example](tests/example.py).
+
+
