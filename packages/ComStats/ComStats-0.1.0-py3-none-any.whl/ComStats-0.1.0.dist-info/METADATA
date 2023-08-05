@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: ComStats
+Version: 0.1.0
+Summary: Do combinatorial statistics on numpy ndarrays
+Home-page: https://pypi.org/project/ComStats/
+Author: Data Science Team @ Zappistore
+Author-email: datascience@zappistore.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
