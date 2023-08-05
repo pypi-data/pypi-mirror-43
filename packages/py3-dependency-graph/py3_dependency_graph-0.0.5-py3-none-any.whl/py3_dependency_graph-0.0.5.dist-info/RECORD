@@ -1,0 +1,9 @@
+py3_dependency_graph/__init__.py,sha256=a2slKvAVVNz_OaiS386pGkBTunNtzybiUCM3KvzMRTE,173
+py3_dependency_graph/dependency_analysis.py,sha256=8pBS-4LDtMk2srg2ArAC81hjbjIfBrxlWbVcTpqbzok,2824
+py3_dependency_graph/dependency_graph.py,sha256=YR8h3snO5JD07U0coYW-ayyQ2D9t4P0UY_kFUl4KdFo,3863
+py3_dependency_graph-0.0.5.data/scripts/simple_dependency_graph,sha256=4m_wIsRjcQizJIz5zkiJ2cDP7TDO-YyAROCD4HACPAg,139
+py3_dependency_graph-0.0.5.dist-info/LICENSE,sha256=RbFaKCwg8jkOAO1QH4LTbrh9wD0WqwyAAf_pqR16-wY,1060
+py3_dependency_graph-0.0.5.dist-info/METADATA,sha256=E9iWb68WSdSIFLV75gGvIHl6sTwbNejtATSVKjZz6kw,785
+py3_dependency_graph-0.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+py3_dependency_graph-0.0.5.dist-info/top_level.txt,sha256=uhPV-70KJ_tJpYuzN_cqm74iX42yZhkCxJ1fJAhJCLw,21
+py3_dependency_graph-0.0.5.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+#!python
+# -*- coding: utf-8 -*-
+
+from py3_dependency_graph import dependency_graph
+
+
+if __name__ == '__main__':
+  dependency_graph.main()
