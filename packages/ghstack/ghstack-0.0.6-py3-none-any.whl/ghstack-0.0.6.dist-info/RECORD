@@ -1,0 +1,14 @@
+ghstack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghstack/__main__.py,sha256=0x8kWURNmQawa2u09zBHkjIjQhucQwviqZ-TdFak_fo,1218
+ghstack/config.py,sha256=c1jCz2Y4cau6e7NZAFF6vE3SBg7z7LNX2YNzD-DDPvI,3095
+ghstack/endpoint.py,sha256=Rk2DaF-Cb1kRw1r1qkY1ha0Rn1dmv9WUh1a1_91DpkY,4781
+ghstack/git.py,sha256=WUhxSVzmZwVPI5r8s7bPCdlNwgM6ikiI4dCrgOodyoM,2403
+ghstack/github_fake.py,sha256=9yBPu3a-W3CkHBj4e0OdefVEG764D1P-bZGX9MpHlOc,11142
+ghstack/main.py,sha256=crnvGjqLnZzZImyk1-Mjp_9kLATmvG1Scv5CZgG-WqY,23349
+ghstack/shell.py,sha256=9tOAZ6pzpNGq5ggvExeeen1t9CbEU62Bdgo9WQVFWbU,8460
+ghstack-0.0.6.data/scripts/ghstack,sha256=yFt2fjiu_Kneo_GtxJspN17n0QG-GdTz0GtegvqqfL8,58
+ghstack-0.0.6.dist-info/LICENSE,sha256=uudSQogOizIG_y7iOWV10HboObGkH2xTB6inHaxg4FQ,1070
+ghstack-0.0.6.dist-info/METADATA,sha256=0bnM1LNh5uavZKDm5-01hyX2D3L1DPPH7lN5wkmH6Ik,2753
+ghstack-0.0.6.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+ghstack-0.0.6.dist-info/top_level.txt,sha256=x03cUKxJavJwTNW3RZhyAR5Pfa-nnk-g-wZDy-Ywe4A,8
+ghstack-0.0.6.dist-info/RECORD,,
