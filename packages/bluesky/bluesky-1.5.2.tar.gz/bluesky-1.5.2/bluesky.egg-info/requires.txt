@@ -1,0 +1,8 @@
+cycler
+event-model!=1.8.0,>=1.5.0
+historydict
+jsonschema<3
+numpy
+super_state_machine
+toolz
+tqdm
