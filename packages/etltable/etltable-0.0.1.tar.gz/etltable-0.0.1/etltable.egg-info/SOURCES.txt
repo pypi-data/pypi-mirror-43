@@ -1,0 +1,13 @@
+README.md
+setup.py
+etltable/__init__.py
+etltable/etltable.py
+etltable/updatetable.py
+etltable.egg-info/PKG-INFO
+etltable.egg-info/SOURCES.txt
+etltable.egg-info/dependency_links.txt
+etltable.egg-info/requires.txt
+etltable.egg-info/top_level.txt
+test/test_marker_label.py
+test/test_update.py
+test/test_xw.py
