@@ -1,0 +1,7 @@
+jupyter_server>=0.0.3
+nbconvert<6,>=5.4
+
+[test]
+mock
+pytest<4
+pytest-tornado5
