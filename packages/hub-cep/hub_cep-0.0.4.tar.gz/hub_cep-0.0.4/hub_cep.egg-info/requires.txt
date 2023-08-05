@@ -1,0 +1,7 @@
+requests==2.21.0
+requests-toolbelt==0.9.1
+typing
+
+[testing]
+pytest
+pytest-cov
