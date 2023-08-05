@@ -1,0 +1,3 @@
+[console_scripts]
+wxmp-cli = wxmp_cli.core:execute_from_command_line
+
