@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: alita
+Version: 0.1.1
+Summary: A simple Python async framework for building web applications. 
+Home-page: https://github.com/dwpy/alita
+Author: Dongwei
+License: BSD
+Project-URL: Documentation, https://dwpy.github.io/alita
+Project-URL: Code, https://github.com/dwpy/alita
+Description: ## Alita
+        
+        Alita is a lightweight python async web application framework,\
+        It need Python3.5+ version at least。
+        
+        
+        ## Installing
+        ```
+        pip install -r requirements.txt
+        ```
+        
+        ## Quick Start
+        
+        ```
+        from alita import Alita
+        
+        app = Alita()
+        
+        @app.route('/')
+        async def hello(request):
+            return 'Hello, World!'
+        ```
+        
+        ## Links
+        
+        - Code: https://github.com/dwpy/alita
+        - Docs: https://dwpy.github.io/alita
+        
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Provides-Extra: dotenv
+Provides-Extra: docs
