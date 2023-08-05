@@ -1,0 +1,3 @@
+[console_scripts]
+paketle = paketle.cli:main
+
