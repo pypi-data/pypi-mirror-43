@@ -1,0 +1,3 @@
+[console_scripts]
+notebook-splitter = nbsplit.nbsplit:main
+
