@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+slack_on/__init__.py
+slack_on/dispatcher.py
+slack_on.egg-info/PKG-INFO
+slack_on.egg-info/SOURCES.txt
+slack_on.egg-info/dependency_links.txt
+slack_on.egg-info/not-zip-safe
+slack_on.egg-info/requires.txt
+slack_on.egg-info/top_level.txt
