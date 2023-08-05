@@ -1,0 +1,5 @@
+numpy>=1.14.1
+
+[test]
+pytest>=3.6
+pytest-cov
