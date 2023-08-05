@@ -1,0 +1,9 @@
+README.md
+setup.py
+metrosaopaulo/__init__.py
+metrosaopaulo/metrosaopaulo.py
+metrosaopaulo.egg-info/PKG-INFO
+metrosaopaulo.egg-info/SOURCES.txt
+metrosaopaulo.egg-info/dependency_links.txt
+metrosaopaulo.egg-info/requires.txt
+metrosaopaulo.egg-info/top_level.txt
