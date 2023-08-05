@@ -1,0 +1,13 @@
+Django
+wagtail
+
+django-timezone-field
+num2words
+holidays
+icalendar
+python-dateutil
+
+django-beautifulsoup-test
+coverage
+coveralls
+freezegun
