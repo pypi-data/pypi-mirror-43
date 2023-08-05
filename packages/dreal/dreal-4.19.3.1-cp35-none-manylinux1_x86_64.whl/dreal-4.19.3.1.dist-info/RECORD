@@ -1,0 +1,8 @@
+dreal/__init__.py,sha256=NwgKTc_7nCS3ika8dmPxEP_VGQ-xD2zdE5ww5t1KOvM,584
+dreal/_dreal_py.so,sha256=GSsAMdy96rzD9NYP8ilYjiJfFRgvXOKsUTgqrbJ5zZ4,979104
+dreal/libdreal.so,sha256=ONewin69-TmQCU2QodaCtJfL93HRub8L2keyXviO5Mg,1708048
+dreal-4.19.3.1.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dreal-4.19.3.1.dist-info/METADATA,sha256=gcd6uFiye68rTHpKrjH9xUDGm3Ya4iXiZgrZrLBf3yY,1475
+dreal-4.19.3.1.dist-info/WHEEL,sha256=fctLTEaau8euapX99QEm_cTB8uDcVJDgu_SlQrKODyQ,107
+dreal-4.19.3.1.dist-info/top_level.txt,sha256=aG25BQcM2Dft-W7dx8mTWNMwJePrq9QT18z4APmRulo,6
+dreal-4.19.3.1.dist-info/RECORD,,
