@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: findjava
+Version: 0.1
+Summary: Find java to add it to the environment.
+Home-page: https://github.com/AbdealiJK/findjava
+Author: AbdealiJK
+Author-email: abdealikothari@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+
+Provides findjava.init() to add JAVA_HOME environment variable
+
+

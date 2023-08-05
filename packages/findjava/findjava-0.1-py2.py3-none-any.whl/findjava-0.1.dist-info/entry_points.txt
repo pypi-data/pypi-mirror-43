@@ -1,0 +1,3 @@
+[console_scripts]
+findjava = findjava:main
+
