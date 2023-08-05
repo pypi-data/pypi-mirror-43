@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gripql
+Version: 0.2.0
+Summary: GRaph Integration Platform Client
+Home-page: https://github.com/bmeg/grip/gripql/python
+Author: OHSU Computational Biology
+Author-email: CompBio@ohsu.edu
+Maintainer: Adam Struck
+Maintainer-email: strucka@ohsu.edu
+License: MIT
+Description: # GRIP Client
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.6, >=3.5, <4
+Description-Content-Type: text/markdown
