@@ -1,0 +1,11 @@
+main.py,sha256=6k26xluKlscu_oZT2JEjN4SgJ6r-Zu-eBO0s_dfgndI,1517
+xml_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xml_parser/main.py,sha256=0lamw0rGANSaU4_frd_DbBO82fws_K4pwlbRmOxuvLc,1497
+xml_parser/parser_xml.py,sha256=L7wnijqWQbruWKN4hRcyT_MJUmBuVjc3TH_kVFq6n_s,2170
+xml_parser/utils.py,sha256=MAhiA-n35h3BurrvZvhTrboRQNCcvgIsNdCTXFRY6Ng,2347
+pyxmlparser-0.1.6.1.dist-info/LICENSE.rst,sha256=_pXGnl62F1YRoyykZw_XlfAqv0_zQ8zD6bIfQ_3bzSQ,1893
+pyxmlparser-0.1.6.1.dist-info/METADATA,sha256=t1_j99yQw0_xMmZdHa7CklL5aCsUcqfKozHzMLoKeMM,2112
+pyxmlparser-0.1.6.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pyxmlparser-0.1.6.1.dist-info/entry_points.txt,sha256=LPhG7ZHyi6kH1nuz_Y1GG8jcGBao-3qEZVGo-QQSWsM,83
+pyxmlparser-0.1.6.1.dist-info/top_level.txt,sha256=pOVjTmVcJ8ZLdxw5YON-aGoFM8X-FA5Jgk_eXtYFFzk,11
+pyxmlparser-0.1.6.1.dist-info/RECORD,,
