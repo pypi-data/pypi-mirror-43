@@ -1,0 +1,6 @@
+futures
+cadbiom
+futures
+
+[matplotlib]
+matplotlib<2
