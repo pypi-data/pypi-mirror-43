@@ -1,0 +1,7 @@
+README.md
+setup.py
+FractalTools/__init__.py
+FractalTools.egg-info/PKG-INFO
+FractalTools.egg-info/SOURCES.txt
+FractalTools.egg-info/dependency_links.txt
+FractalTools.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: FractalTools
+Version: 0.0.7
+Summary: A small package for quickly generating Julia and Mandelbrot sets
+Home-page: https://github.com/Custards1/FractalTools
+Author: Blake Brown
+Author-email: author@example.com
+License: UNKNOWN
+Description: # FractalTools
+        a small bundle of tools to quickly generate julia and mandelbrot sets
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
