@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fs-cli
+Version: 0.4
+Summary: Fogstream CLI
+Home-page: https://github.com/fogstream/fs-cli
+Author: Dmitry Kotov
+Author-email: dmitrii.kotov@fogstream.com
+License: UNKNOWN
+Description: FOGSTREAM CLI
+        ======================
+        
+        INSTALLATION
+        --------
+        
+        Command line interface for easy work on projects of the company FOGSTREAM
+        
+        In force of using a python3 there is strongly recommended install cli in global environment 
+        only via pip3.
+        Or use pip if your environment based on python3.
+        
+        COMMANDS
+        --------
+        ### Initiate project
+        ```commandline
+        Usage: fogstream-cli initproject PROJECT_CODE PROJECT_NAME [OPTIONS]
+        
+        Options:
+          --ssd, -s         Connect to git via SSH
+          --directory, -d   Project directory path
+          --repo, -r        Template repository
+          --help            Show this message and exit.
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
