@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django_flatpickr.egg-info/PKG-INFO
+django_flatpickr.egg-info/SOURCES.txt
+django_flatpickr.egg-info/dependency_links.txt
+django_flatpickr.egg-info/requires.txt
+django_flatpickr.egg-info/top_level.txt
+flatpickr/__init__.py
+flatpickr/_base.py
+flatpickr/_config.py
+flatpickr/_helpers.py
+flatpickr/_media.py
+flatpickr/_settings.py
+flatpickr/utils.py
