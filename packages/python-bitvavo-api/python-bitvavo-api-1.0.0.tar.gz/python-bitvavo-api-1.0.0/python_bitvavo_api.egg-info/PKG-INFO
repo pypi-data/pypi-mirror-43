@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: python-bitvavo-api
+Version: 1.0.0
+Summary: This is the python wrapper for the Bitvavo API
+Home-page: https://github.com/bitvavo/python-bitvavo-api
+Author: Bitvavo
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
