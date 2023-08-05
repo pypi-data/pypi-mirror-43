@@ -1,0 +1,14 @@
+setup.py
+fdtd/__init__.py
+fdtd/backend.py
+fdtd/boundaries.py
+fdtd/detectors.py
+fdtd/grid.py
+fdtd/objects.py
+fdtd/sources.py
+fdtd/typing.py
+fdtd/visualization.py
+fdtd.egg-info/PKG-INFO
+fdtd.egg-info/SOURCES.txt
+fdtd.egg-info/dependency_links.txt
+fdtd.egg-info/top_level.txt
