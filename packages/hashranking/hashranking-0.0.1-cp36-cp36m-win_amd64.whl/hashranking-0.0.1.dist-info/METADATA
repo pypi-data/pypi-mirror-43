@@ -1,0 +1,12 @@
+Metadata-Version: 2.0
+Name: hashranking
+Version: 0.0.1
+Summary: fast procedures for forking with hashes
+Home-page: https://github.com/podgorskiy/hashranking
+Author: Stanislav Pidhorskyi
+Author-email: stanislav@podgorskiy.com
+License: MIT
+
+hashranking - fast procedures for working with hashes for deeplearning research
+
+
