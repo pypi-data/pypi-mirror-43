@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+pipfile
+pipfile.lock
+.python-version
+.DS_Store
+venv
+dist/
+*.egg-info/
+MANIFEST
