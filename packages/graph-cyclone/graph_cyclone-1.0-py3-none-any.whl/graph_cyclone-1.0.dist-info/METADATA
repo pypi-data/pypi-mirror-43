@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: graph-cyclone
+Version: 1.0
+Summary: Utilities for powers of cycle graphs
+Home-page: https://github.com/nglaeser/graph-cyclone
+Author: Noemi Glaeser
+Author-email: UNKNOWN
+License: GPL
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: random
+
+# graphcyclone
+Utilities for powers of cycle graphs
+
+
