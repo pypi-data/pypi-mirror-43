@@ -1,0 +1,9 @@
+README.md
+setup.py
+liwc_analysis.egg-info/PKG-INFO
+liwc_analysis.egg-info/SOURCES.txt
+liwc_analysis.egg-info/dependency_links.txt
+liwc_analysis.egg-info/requires.txt
+liwc_analysis.egg-info/top_level.txt
+liwcanalysis/__init__.py
+liwcanalysis/liwcanalysis.py
