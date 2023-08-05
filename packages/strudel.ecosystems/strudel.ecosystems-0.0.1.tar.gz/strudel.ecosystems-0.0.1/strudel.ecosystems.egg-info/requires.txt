@@ -1,0 +1,5 @@
+ijson
+pandas
+requests
+strudel.utils
+strudel.scraper
