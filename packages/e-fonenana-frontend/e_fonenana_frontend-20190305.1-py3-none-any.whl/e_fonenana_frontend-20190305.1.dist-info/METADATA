@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: e-fonenana-frontend
+Version: 20190305.1
+Summary: The E-Fonenana frontend
+Home-page: https://gitlab.com/teamdown/smart-home/frontend
+Author: The E-Fonenana Authors
+Author-email: nyandrianinamamy@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/teamdown/e-fonenana-frontend/archive/20190305.1.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: user-agents (==1.1.0)
+
+UNKNOWN
+
+
