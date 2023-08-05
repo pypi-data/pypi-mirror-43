@@ -1,0 +1,5 @@
+setup.py
+kw_dearlog.egg-info/PKG-INFO
+kw_dearlog.egg-info/SOURCES.txt
+kw_dearlog.egg-info/dependency_links.txt
+kw_dearlog.egg-info/top_level.txt
