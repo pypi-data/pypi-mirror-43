@@ -1,0 +1,5 @@
+setup.py
+kw_automation_auth.egg-info/PKG-INFO
+kw_automation_auth.egg-info/SOURCES.txt
+kw_automation_auth.egg-info/dependency_links.txt
+kw_automation_auth.egg-info/top_level.txt
