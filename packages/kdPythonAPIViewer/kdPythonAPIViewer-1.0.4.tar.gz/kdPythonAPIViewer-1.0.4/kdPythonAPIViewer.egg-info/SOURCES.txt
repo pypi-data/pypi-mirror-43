@@ -1,0 +1,16 @@
+MANIFEST.in
+README
+setup.py
+kdPythonAPIViewer/LICENSE
+kdPythonAPIViewer/README
+kdPythonAPIViewer/__init__.py
+kdPythonAPIViewer/fileutil.py
+kdPythonAPIViewer/kdPythonAPIViewer.py
+kdPythonAPIViewer/kdPythonAPIViewer.ui
+kdPythonAPIViewer/pydocc.py
+kdPythonAPIViewer/setup.py
+kdPythonAPIViewer.egg-info/PKG-INFO
+kdPythonAPIViewer.egg-info/SOURCES.txt
+kdPythonAPIViewer.egg-info/dependency_links.txt
+kdPythonAPIViewer.egg-info/requires.txt
+kdPythonAPIViewer.egg-info/top_level.txt

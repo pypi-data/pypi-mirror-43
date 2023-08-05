@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kdPythonAPIViewer
+Version: 1.0.4
+Summary: view API doc
+Home-page: https://github.com/bkdwei/kdPythonAPIViewer
+Author: bkdwei
+Author-email: bkdwei@163.com
+License: GPLv3+
+Description: query API doc ,query the module method and attribute
+Keywords: kdPythonAPIViewer,API viewer
+Platform: any

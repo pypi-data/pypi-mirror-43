@@ -1,0 +1,3 @@
+include kdPythonAPIViewer/README
+include kdPythonAPIViewer/*.ui
+include kdPythonAPIViewer/LICENSE
