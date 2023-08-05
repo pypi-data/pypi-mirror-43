@@ -1,0 +1,18 @@
+include MANIFEST.in LICENSE versioneer.py *.md
+include src/nanolib-work-module/work.c
+
+graft src/nanolib
+graft src/nanolib-work-module/ref
+graft src/nanolib-work-module/sse
+
+exclude tox.ini requirements_dev.txt *.yml
+exclude src/nanolib-work-module/README.md
+
+prune docs
+prune tests
+prune examples
+prune src/nanolib-work-module/neon
+
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude *.so
