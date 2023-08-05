@@ -1,0 +1,11 @@
+pure/__init__.py,sha256=XPZbszicya2oOKthQIPZiII9rPl15iEEReHvH4VQ6pA,74
+pure/colors.py,sha256=KDmdEE3D1ZpY97qFzM9y230kGmBLg6YOQ9ZjRukWTMw,265
+pure/prompt.py,sha256=AUxRKTA0kminsZ5Amaso_i-7jmlEL0OUKtrYDrDt48A,1573
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/colors_test.py,sha256=sLAy_jyazNhJeI-kZ6cxNLtVCYazyNaYSkmCAbrbsJk,673
+tests/prompt_test.py,sha256=m2U8Cx4t0lgHz43XyQU0j_N3IgDM00h0vTYXF6wPdLQ,2827
+pure-1.4.1.dist-info/LICENSE,sha256=LhcAKqucjmHUjWjtOl2ts70_7PFfM8U4B5tGx5dB3M0,1071
+pure-1.4.1.dist-info/METADATA,sha256=H2TrcJDe0fagiQMBMxicizMCii4ZNSb-_FvMJsKgHsQ,4609
+pure-1.4.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pure-1.4.1.dist-info/top_level.txt,sha256=Np_VooBxw6XYbcLIF1YfqgbLqXbJJdAyL1FzOCrZVQw,11
+pure-1.4.1.dist-info/RECORD,,
