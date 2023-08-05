@@ -1,0 +1,3 @@
+[console_scripts]
+invalid-scraper = invalid_scraper.cli:main
+

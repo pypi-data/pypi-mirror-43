@@ -1,0 +1,10 @@
+invalid_scraper/__init__.py,sha256=YU6YdjQ2N6C8M1syZMcT791n0d66S6lmezhjSfWRrRI,768
+invalid_scraper/__meta__.py,sha256=cJrR4DpvfYtTEetFSeqXIQs-Qsjo3egbn2O1TuIXFvw,1285
+invalid_scraper/cli.py,sha256=WMtsMGIVK-9jT2jpV2orPJRmh_e0xkBMwXzl75T68JU,2557
+invalid_scraper/data/hosts.yml,sha256=5HjF6EleFNWBKS23mHhxehJk4KTDWQuYzA98vsZVdX0,1023
+invalid_scraper-0.1.0rc1.dist-info/LICENSE,sha256=TjeGwMSoxF7QZrP-J4ZU0F3Kiw0p7tjf5MpBa6BAns0,1069
+invalid_scraper-0.1.0rc1.dist-info/METADATA,sha256=08WpNF0R7VxHA6vp3C7oN9c-iiNbHly49mCnNM7oUs8,1439
+invalid_scraper-0.1.0rc1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+invalid_scraper-0.1.0rc1.dist-info/entry_points.txt,sha256=Ovoz9mH2pYtaNvx07yLX-1gqEE-PErrP8yjMKFHiM5g,62
+invalid_scraper-0.1.0rc1.dist-info/top_level.txt,sha256=_qxAHYHH5v78LJWlik7JHT6nb10FMwR0EKmeA-W20qg,16
+invalid_scraper-0.1.0rc1.dist-info/RECORD,,
