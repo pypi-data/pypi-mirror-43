@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pitayaserver
+Version: 0.2.1
+Summary: A library for creating pitaya backend servers using python
+Home-page: https://github.com/topfreegames/libpitaya-cluster
+Author: TFG Co
+Author-email: backend@tfgco.com
+License: UNKNOWN
+Description: python pitayaserver
+        ====================
+        
+        This lib helps creating pitaya backend servers using python.
+        
+        ### Installing
+        
+        pip install pitayaserver
+        
+        ### Usage
+        For using the lib, you should assure that libpitaya-server compiled library is in the same path you are trying to run python, or specify it manually setting the env var PITAYA_LIB_DIR.
+        
+        See python-example folder in root directory.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
