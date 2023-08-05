@@ -1,0 +1,7 @@
+numpy>=1.13
+matplotlib
+astropy
+asdf
+glue-core>=0.14
+specviz>=0.6.4
+spectral-cube<0.4.4
