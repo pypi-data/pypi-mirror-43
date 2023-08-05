@@ -1,0 +1,15 @@
+README.rst
+setup.py
+src/conftest.py
+src/snipskit/__init__.py
+src/snipskit/app_decorators.py
+src/snipskit/apps.py
+src/snipskit/config.py
+src/snipskit/exceptions.py
+src/snipskit/tools.py
+src/snipskit.egg-info/PKG-INFO
+src/snipskit.egg-info/SOURCES.txt
+src/snipskit.egg-info/dependency_links.txt
+src/snipskit.egg-info/not-zip-safe
+src/snipskit.egg-info/requires.txt
+src/snipskit.egg-info/top_level.txt
