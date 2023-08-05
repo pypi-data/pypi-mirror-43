@@ -1,0 +1,13 @@
+mybase/__init__.py,sha256=54LxYyJ4o2VU5Vu8tHFDIDEnZ3BufHI6RUchaVVeUBc,268
+mybase/__init__.pyc,sha256=umxiC5YPs01XEDHlElrdEAND8TfU2la1yw-Ris6zrcU,237
+mybase/base.py,sha256=RGqzPq-NdV3U-yFJdkVFggAh2-dePBO3AGF_-IwrhJI,2745
+mybase/base.pyc,sha256=UYvmEf3HnFUcZAb0ZFVFs82o32lpStOYpAH_r5n_1rs,3360
+mybase/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mybase/tests/__main__.py,sha256=C3O1RwTuikU2UgpYKDmptspDEF2DYPzBepWm0NmqV3E,292
+mybase/tests/helper.py,sha256=v--IlSFASZhaMNK23pYnDdboXRO9WI1sH_fITVkkcKM,7743
+mybase/tests/test_base.py,sha256=sy6XBobM_-aZTbxLTZqXY2dydY361zhvybea2dMkYL4,3791
+mybase-0.1.1.dist-info/METADATA,sha256=y7TWM80Huy2jwDsrlFNqavhZSvTul9WHh5b_5Scyth4,3653
+mybase-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mybase-0.1.1.dist-info/top_level.txt,sha256=KcLJjgcR1P3jVnXFEcmOindVM1lal_7N_nOxa8i6xEo,7
+mybase-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mybase-0.1.1.dist-info/RECORD,,
