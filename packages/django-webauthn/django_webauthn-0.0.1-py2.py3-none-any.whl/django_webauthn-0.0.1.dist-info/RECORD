@@ -1,0 +1,13 @@
+webauthn/__init__.py,sha256=3gTsXeVv9BznHDteLhZxYSKVCkMLnMPYrhR8Rib8LZA,18
+webauthn/backends.py,sha256=uDPPgHBaN5zaycagg17QGucSQEJzswCohOkOjTHNIfs,1704
+webauthn/test_settings.py,sha256=uHGzPLCVfReGsImXXtQ53a4S2zUhuAwcoqikKJuS0Wo,675
+webauthn/urls.py,sha256=trig_qJ49eYO3JgsW1hmeohEwrr2IimnXX3X0B2JjgM,380
+webauthn/utils.py,sha256=qEY446GwUcW_K1AGKY1NiSfWEC6zpnmBN2FrTXJYqx8,1852
+webauthn/views.py,sha256=dvTneafxKRULFmqJeLJVSB6wP3icVDgcyXjxJv4SwX0,1519
+webauthn/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webauthn/tests/test_sample.py,sha256=4y1JIaB53LlK_GibZuS_Gsl8bB_o_uLREEALn6QH_98,167
+django_webauthn-0.0.1.dist-info/LICENSE,sha256=0t3xGY_NKlHJgE4QYel1O9YkVXK69gOJ8_FrpLVnsDo,1082
+django_webauthn-0.0.1.dist-info/METADATA,sha256=qvrsJ7_dEQlRYh-ijkJZYdbQYnjdEX5sk7mulzYUxz0,1264
+django_webauthn-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_webauthn-0.0.1.dist-info/top_level.txt,sha256=vEc-YxsQMTVhlCk827U6jiDNdQ9IRl7BnQ-QCNKlK1w,9
+django_webauthn-0.0.1.dist-info/RECORD,,
