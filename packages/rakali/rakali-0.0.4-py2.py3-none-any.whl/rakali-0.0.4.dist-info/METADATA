@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: rakali
+Version: 0.0.4
+Summary: OpenCV Helper Tools
+Home-page: https://github.com/sthysel/rakali
+Author: sthysel
+Author-email: sthysel@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: opencv-python
+Requires-Dist: imutils
+
+# Rakali (Version 0.0.4)
+
+Rakali is a imaging library and tool-set. It makes use of many other imaging libraries and frameworks and is
+also intended to be used as a pedagogical resource for those.
+
+![Rakali by Ravenari](https://github.com/sthysel/rakali/blob/master/docs/pics/rakali.jpg)
+[1]
+
+[1](By Ravenari)
+
+# Usage
+
+## Load and show image from file
+
+```zsh
+from rakali import Image
+Image.from_file('rakali.jpg').show()
+```
+
+# Install
+
+Rakali is basically a OpenCV shim. Because many people use their own builds of OpenCV to enable CUDA or the
+like, installing Rakali may interfere with exiting custom OpenCV builds so be sure to verify OpenCV versions
+after installing Rakali. 
+
+
+## pypi
+
+Rakali is in pypi:
+
+```
+$ pip install rakali
+```
+
+## Manual install
+
+Clone or download this repo and in your virtualenv do:
+```
+$ pip install .
+```
+
+
+

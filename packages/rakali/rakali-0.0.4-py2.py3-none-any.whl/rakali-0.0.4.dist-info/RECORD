@@ -1,0 +1,12 @@
+rakali/__init__.py,sha256=GcBycfP4j9yky66T1YgRSY-RmfyB_BxBofTxJaidjh8,129
+rakali/img.py,sha256=FFV8vdZ_mDH0xsfbv9rgZ815Ee6jMdlBU50zwDGJIZ0,3867
+rakali/video_reader.py,sha256=Sp5Vu_82z9R3cwK7fiMwWNwI7F4k-atR3BySDRj8GCM,1287
+rakali/video_writer.py,sha256=WgvdhR_I4Tr6HLmsFP3TiK5YMs5nGbzZPNcZU7j8cIo,755
+rakali/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rakali/cli/show.py,sha256=ZCSHOc9iMQAefAUNTTwsv3GwAFdtUY5dip7MkOdy8Ro,2727
+rakali-0.0.4.dist-info/LICENCE,sha256=BVvGr2XBRsc0GxqKtqIChYZ3LwzlcG2BKz4memb6MS8,1099
+rakali-0.0.4.dist-info/METADATA,sha256=_fggWaOBthZv-nYyaz6rMCdf1FnKBdSzUIPovBCsuj0,1498
+rakali-0.0.4.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+rakali-0.0.4.dist-info/entry_points.txt,sha256=L0H758bKwBGSoo4E0KrSKsF_5Y_d0njYdXqYOrcQCug,48
+rakali-0.0.4.dist-info/top_level.txt,sha256=XVI_sa9mph9itEZfXehsLMNzgC9Mmd5narsdzcDKgtc,7
+rakali-0.0.4.dist-info/RECORD,,
