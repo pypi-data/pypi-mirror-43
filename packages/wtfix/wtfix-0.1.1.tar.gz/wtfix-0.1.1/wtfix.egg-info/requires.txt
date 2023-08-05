@@ -1,0 +1,3 @@
+python-dotenv~=0.10
+unsync~=1.1
+aiofiles~=0.4
