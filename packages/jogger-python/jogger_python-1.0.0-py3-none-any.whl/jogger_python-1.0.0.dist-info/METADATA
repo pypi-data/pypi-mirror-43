@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jogger-python
+Version: 1.0.0
+Summary: Johnny Logger (Jogger) in Python3
+Home-page: http://github.com/theonlyjohnny/jogger-python
+Author: Johnny Dallas
+Author-email: theonlyjohnny@theonlyjohnny.sh
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: colorlog
+
+UNKNOWN
+
+
