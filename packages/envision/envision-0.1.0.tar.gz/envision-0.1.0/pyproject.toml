@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "envision"
+version = "0.1.0"
+description = "A encrypted environment variables manager for python projects"
+authors = ["AndreGuerra123 <guerraandre@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+cryptography = "^2.6"
+click = "^7.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.3"
+
+[tool.poetry.scripts]
+envision = 'envision:cli'
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
