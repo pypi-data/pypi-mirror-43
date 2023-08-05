@@ -1,0 +1,12 @@
+stefuna/__init__.py,sha256=3IqWuExmJFmoS2Nd4esBY6DTdzDjMvzpZbJHppL6i8A,116
+stefuna/server.py,sha256=ypA13YVXh0x5ASB-7EdQ-Q33wzEPcYkwfmnAKmsMcos,6454
+stefuna/stefuna.py,sha256=jELDLVr__K-JQmcNXY7qwGfMTSRX67roPLBz2hOXykQ,4205
+stefuna/util.py,sha256=8MaLtSncXA1rvotsUTP2IDBfwIg2t0gVHyMSLWHk2Ww,560
+stefuna/worker.py,sha256=GTQFRZfPeP66o62rFC4edZwR88qwsIlockgQGQTYOYs,8131
+stefuna-0.9.8.dist-info/AUTHORS.rst,sha256=TYeoSG36gArdQOVrCsF0IybqF0K_Z--uCbMIYW8MVbk,153
+stefuna-0.9.8.dist-info/LICENSE,sha256=2Eoc9UtPoc55_sXjWJDKZ2ZrIWv1Eeflcta6kkpX2NQ,1071
+stefuna-0.9.8.dist-info/METADATA,sha256=OOVViovTr0Yyn0oA_b6Vop7wNUCrNNEZJITH7TEoIcU,8003
+stefuna-0.9.8.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+stefuna-0.9.8.dist-info/entry_points.txt,sha256=PkUBu98tmJiMr1fBMimJVos8VHFIn1RjMfd8GHICNMo,50
+stefuna-0.9.8.dist-info/top_level.txt,sha256=Jn2PSv-kcI_ygRJX6rRjLdqH4c0ZqY-6rnY5zN0h0UU,8
+stefuna-0.9.8.dist-info/RECORD,,
