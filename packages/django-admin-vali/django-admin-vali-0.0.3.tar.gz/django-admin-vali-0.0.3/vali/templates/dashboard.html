@@ -1,0 +1,99 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+{% block coltype %}container row{% endblock %}
+{% block breadcrumbs %}{% endblock %}
+
+{% block content %}
+<div id="content-main" class="col-md-12">
+    <div class="row">
+        {% for icon in icons %}
+            {% if icon.value > 0 %}
+                <div class="col-md-4">
+                    <div class="widget-small {{ icon.style }} coloured-icon">
+                        <i class="icon fa {{ icon.icon }} fa-3x"></i>
+                        <div class="info">
+                            <h4>{{ icon.title }}</h4>
+                            <p><b>{{ icon.value }}</b></p>
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+
+        {% if charts %}
+            {% for chart in charts %}
+                <div class="col-md-6">
+                    <div class="tile">
+                        <div class="tile-title-w-btn">
+                            <h3 class="tile-title">{{ chart.title }}</h3>
+                            <div class="btn-group">
+                                <a class="btn btn-primary" id="_{{ chart.name }}" href="#"><i class="fa fa-lg fa-eye"></i></a>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <canvas class="embed-responsive-item" id="{{ chart.name }}"></canvas>
+                        </div>
+                    </div>
+                </div>
+                {% block loadcharts %}
+                    {% if chart %}
+                        <!-- Load jquery -->
+                        <script src="{% static 'vali/assets/js/jquery-3.2.1.min.js' %}"></script>
+                        <!-- Load alert -->
+                        <script src="{% static 'vali/assets/js/plugins/sweetalert.min.js' %}"></script>
+                        <!-- Load chart -->
+                        <script type="text/javascript">
+                            {% if chart.type in chart.chart_type1 %}
+                                $(document).ready(function () {
+                                    var data = {
+                                        labels: {{ chart.labels|safe }},
+                                        datasets: {{ chart.datasets|safe }}
+                                    };
+                                    var ctx{{ chart.name }} = $("#{{ chart.name }}").get(0).getContext("2d");
+                                    var chart_{{ chart.name }} = new Chart(ctx{{ chart.name }}).{{ chart.type }}(data);
+                                });
+                            {% elif chart.type in chart.chart_type2 %}
+                                $(document).ready(function () {
+                                    var pdata = {{ chart.pdatasets|safe }};
+                                    var ctx{{ chart.name }} = $("#{{ chart.name }}").get(0).getContext("2d");
+                                    var chart_{{ chart.name }} = new Chart(ctx{{ chart.name }}).{{ chart.type }}(pdata);
+                                });
+                            {% endif %}
+                        </script>
+                        <!-- View chart informations -->
+                        <script type="text/javascript">
+                            $('#demoNotify').click(function () {
+                                $.notify({
+                                    title: "Update Complete : ",
+                                    message: "Something cool is just updated!",
+                                    icon: 'fa fa-check'
+                                }, {
+                                    type: "info"
+                                });
+                            });
+                            $('#_{{ chart.name }}').click(function () {
+                                swal({
+                                    title: "{{ chart.title }}",
+                                    text: "You will not be able to recover this imaginary file!",
+                                    type: "warning",
+                                    showCancelButton: true,
+                                    confirmButtonText: "Yes, delete it!",
+                                    cancelButtonText: "No, cancel please!",
+                                    closeOnConfirm: false,
+                                    closeOnCancel: false
+                                }, function (isConfirm) {
+                                    if (isConfirm) {
+                                        swal("Deleted!", "Your imaginary file has been deleted.", "success");
+                                    } else {
+                                        swal("Cancelled", "Your imaginary file is safe :)", "error");
+                                    }
+                                });
+                            });
+                        </script>
+                    {% endif %}
+                {% endblock %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
