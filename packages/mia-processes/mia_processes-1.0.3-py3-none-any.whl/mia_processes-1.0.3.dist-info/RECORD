@@ -1,0 +1,11 @@
+mia_processes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mia_processes/info.py,sha256=VlPpoodA2o78dQEzihCWMFmDvpGLbNExu4RpDE_P6-E,1648
+mia_processes/process_matlab.py,sha256=zfEIPbjHkDzNvLl_Rzag-klQdHaVjxGL4CdtZFA0ddk,2538
+mia_processes/process_mia.py,sha256=eVJ_VrU_8Dmb4hRPKEcbIidnAqd_Z6S9oj2ya6np9HE,2706
+mia_processes/tools/__init__.py,sha256=DXwODGiSsTHi3xe_2tVmPjbvN6vzWJoRhx-f4DFo9og,433
+mia_processes/tools/tools.py,sha256=AbysFipvksrzDgT986lCE4PVHRZ6r9KVwOETcZLck5c,2865
+mia_processes-1.0.3.dist-info/LICENSE,sha256=rWJoZt3vach8ZNdLq-Ee5djzCMFnJ1gIfBeJU5RIop4,21782
+mia_processes-1.0.3.dist-info/METADATA,sha256=J6V2XNYAGYJIR2DAK8BerHi8Hi6LK5qQ4OriiFH-6-A,908
+mia_processes-1.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mia_processes-1.0.3.dist-info/top_level.txt,sha256=hY3m3UvCbvfai76LiFz8v4H4cAUKZdvXwW-il4Ilmq0,14
+mia_processes-1.0.3.dist-info/RECORD,,
