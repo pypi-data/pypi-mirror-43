@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: python-bitcoin
+Version: 0.0.13
+Summary: A collection of serialization and utility methods needed to implement the bitcoin protocol.
+Home-page: http://www.github.com/monetizeio/python-bitcoin/
+Author: Monetize.io Inc.
+Author-email: python-bitcoin@monetize.io
+License: UNKNOWN
+Download-URL: http://pypi.python.org/packages/source/p/python-bitcoin/python-bitcoin-0.0.13.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: bitstring (>=3.1.5)
+Requires-Dist: blist (>=1.3.6)
+Requires-Dist: certifi (>=2018.11.29)
+Requires-Dist: chardet (>=3.0.4)
+Requires-Dist: ecdsa (>=0.13)
+Requires-Dist: gmpy2 (>=2.1.0a4)
+Requires-Dist: idna (>=2.8)
+Requires-Dist: isodate (>=0.6.0)
+Requires-Dist: lookahead (>=1.0)
+Requires-Dist: recordtype (>=1.3)
+Requires-Dist: requests (>=2.21.0)
+Requires-Dist: simplejson (>=3.16.0)
+Requires-Dist: six (>=1.12.0)
+Requires-Dist: urllib3 (>=1.24.1)
+
+python-bitcoin
+==============
+
+A modular, extensible implementation of the Bitcoin data structures and internal protocol in Python. Additionally includes an RPC proxy for communicating with a running bitcoind instance. When possible, Pythonic idioms are preferred over legacy bitcoin structures. Forked from the pynode project managed by Jeff Garzik.
+
+
+
+
