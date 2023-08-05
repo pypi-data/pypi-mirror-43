@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: calendar_scheduler
+Version: 0.0.1
+Summary: Scheduler program
+Home-page: https://github.com/parthakonda/calendar_scheduler
+Author: Partha Saradhi Konda
+Author-email: parthasaradhi1992@gmail.com
+License: UNKNOWN
+Description: # calendar_scheduler
+        Google like calendar scheduler
+        
+        # 
+        
+        # Thanks
+        https://github.com/kiorky/croniter
+        <br>
+        https://www.npmjs.com/package/cron-builder
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
