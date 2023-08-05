@@ -1,0 +1,5 @@
+setup.py
+kiwi_daisy.egg-info/PKG-INFO
+kiwi_daisy.egg-info/SOURCES.txt
+kiwi_daisy.egg-info/dependency_links.txt
+kiwi_daisy.egg-info/top_level.txt
