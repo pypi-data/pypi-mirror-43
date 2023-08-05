@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: FPGAflow-esdg
+Version: 0.3.3
+Summary: FPGAFlow scripted tool-flow for FPGA firmware development
+Home-page: https://bitbucket.org/mjroberts/fpgaflow
+Author: Electronic System Design Group
+Author-email: fpgaflow@stfc.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/x-rst
+
+######
+Readme
+######
+
+``FPGAFlow`` is a python script to handle a complete FPGA design flow where the design files, libraries and
+supplementary tools are stored in a source code repository.
+
+`Source Code Repository <https://bitbucket.org/mjroberts/fpgaflow/src/master/docs/>`_
+`Documentation <https://fpgaflow.readthedocs.io/en/latest/index.html>`_
+
+License
+-------
+
+`BSD`_ © 2018-2019 Science and Technology Facilities Council & contributors
+
+.. _BSD: LICENSE
+
+

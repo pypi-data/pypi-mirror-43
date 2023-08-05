@@ -1,0 +1,17 @@
+FPGAflow_esdg-0.3.3.dist-info/METADATA,sha256=w-zRDtza14_xO1hvP4by5JyiD3r7bNWkyYLOp52uHQk,934
+FPGAflow_esdg-0.3.3.dist-info/RECORD,,
+FPGAflow_esdg-0.3.3.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+FPGAflow_esdg-0.3.3.dist-info/top_level.txt,sha256=c8joBX_BVZ6X5kHMov5T_Sak3R0ZTQucxyQoRtAoL7g,9
+fpgaflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpgaflow/docflow.py,sha256=PMS4-lTA-SPtNmNL50X4MOAf4CNvHvZRZhWWfxSlwwQ,94930
+fpgaflow/environmentsetup.py,sha256=c2RFk6DZSmQ9hfzHRHtjuRrYZ-2bW9e6XNVGJCHc5V8,35860
+fpgaflow/fpgavendor_iface.py,sha256=pAZL-VoOnd9g5rcj5MeeLewWQMltUTg2hd94CN-7tJ0,35200
+fpgaflow/projectflow.py,sha256=2f9qhXpyCh719NcfXqPluZ13pzNQ_42JfO1DO5HUnrA,60891
+fpgaflow/projectmanager.py,sha256=eY8e3h3DyO_OGInaPmU86l8teUXXtPhvK8WZ6UdF3Q4,65803
+fpgaflow/vunit_iface.py,sha256=es2bLEBOqvjCiVOuItsh6B4d8cwByCWIKu2dGh5Z_20,36272
+fpgaflow/xml2vhdl_iface.py,sha256=S5nMnxsISyvNCP8gstk-TH1s0gnGLcRDEM36H5LYP5k,19863
+fpgaflow/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fpgaflow/helpers/arguments.py,sha256=rWXKdhzP5kwATmWXpNTKEZHsi8-sF2rhaDnX-dfiB2U,11359
+fpgaflow/helpers/customlogging.py,sha256=-iUKIv26chKdBgjtqUxbs4sL0KpGNN9LOzThdTywl6U,5936
+fpgaflow/helpers/funcs.py,sha256=0m9aUgz5Ba_o4mDIV2iMbR1grFafMCQM4jleSBiT99o,7456
+fpgaflow/helpers/version.py,sha256=qSz1kvvlVBl3OUXpWVLRHyDm8tRIUdKD6QwNGBhHXyQ,6005
