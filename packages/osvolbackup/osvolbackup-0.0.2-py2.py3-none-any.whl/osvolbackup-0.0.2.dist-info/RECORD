@@ -1,0 +1,14 @@
+osvolbackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+osvolbackup/__main__.py,sha256=4ZOmcMiZgW4lWPt2WJ6_oyErmPRy080EEqfICJbpdfw,292
+osvolbackup/backup.py,sha256=70Mv56KzySswehB-7k-3UNrgVgaldIVXFq7cdj-H8Ew,6951
+osvolbackup/osauth.py,sha256=kRer_HTQ9GQAU362i41y2r1O2X94g9RwAbLyrdEuUl0,736
+osvolbackup/server.py,sha256=GY3U5eNbitIud7-CPBKG0NTz9nTaub2gzLopyLPP-QE,7602
+osvolbackup/verbose.py,sha256=l1RkipDHcvRMaDWbXZq06j1dFG0wsRkEPQ3Wje8M9pI,216
+osvolbackup/cli/__init__.py,sha256=zWVHf3DqIS6sYe780DU38lmTH_EXQUcBK32nOsBO7ao,18
+osvolbackup/cli/server.py,sha256=5xEfOzbGIpfTCGquFt40HH6RhJsXri2P98MG9tGrSHo,1693
+osvolbackup-0.0.2.dist-info/LICENSE,sha256=Bt8ha_V3jUe1p_QFEqfLuidShCJKkcAOaoPaTMUbcGE,563
+osvolbackup-0.0.2.dist-info/METADATA,sha256=rGE0tNRHoousoeCpCekxPBJLj8R_A--kAVpLuPSCbWg,3793
+osvolbackup-0.0.2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+osvolbackup-0.0.2.dist-info/entry_points.txt,sha256=p2_xYg1NIoXHNBMRNVwHOGOhkZ6dMy4EeayaZwV35rU,59
+osvolbackup-0.0.2.dist-info/top_level.txt,sha256=jM2oVVchwxnqmk_D__bchMq9pBL4U6mVDDs2KpFRkJw,12
+osvolbackup-0.0.2.dist-info/RECORD,,
