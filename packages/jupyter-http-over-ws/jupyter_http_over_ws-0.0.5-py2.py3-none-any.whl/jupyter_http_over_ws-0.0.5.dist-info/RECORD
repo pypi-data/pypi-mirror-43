@@ -1,0 +1,8 @@
+jupyter_http_over_ws/__init__.py,sha256=OT2hlMRd808yycDAMPnyCGZXxnnkntt-Ijf5N6zImAk,1536
+jupyter_http_over_ws/handlers.py,sha256=QDmSZS1mjyspNENw-fjlpqfsrIik5ltp0E67nVvuTiU,11167
+jupyter_http_over_ws/handlers_test.py,sha256=BX4RXBpvW7KZYPox1xCfHomh66b3STNxZT-BGIgfsdM,20627
+jupyter_http_over_ws-0.0.5.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+jupyter_http_over_ws-0.0.5.dist-info/METADATA,sha256=5CEv4bFhK-wmvlI8FQwz1wEwIfU_F3CCvh2I_xDtVUU,1025
+jupyter_http_over_ws-0.0.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+jupyter_http_over_ws-0.0.5.dist-info/top_level.txt,sha256=unKBuUHiznayjXjATx0xL9CFn6oSZ3rzitk_5QlLmd0,21
+jupyter_http_over_ws-0.0.5.dist-info/RECORD,,
