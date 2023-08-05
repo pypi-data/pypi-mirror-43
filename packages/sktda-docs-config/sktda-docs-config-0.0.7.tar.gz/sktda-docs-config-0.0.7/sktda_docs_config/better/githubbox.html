@@ -1,0 +1,18 @@
+{#
+    basic/githubbox.html
+    ~~~~~~~~~~~~~~~~~~~~
+
+    Sidebar widget to display github data
+
+    :copyright: Copyright 2007-2019 by the Scikit-TDA team.
+    :license: MIT, see LICENSE for details.
+#}
+
+<a href=https://github.com/{{ theme_gh_url }}>
+    <p class="caption"><span class="caption-text">
+        <img src="{{ pathto('_static/', 1) }}gh_logo.png" 
+        height="18px" 
+        width="18px" alt="Github icon">  
+        {{ theme_gh_url }}
+    </span></p>
+</a> 
