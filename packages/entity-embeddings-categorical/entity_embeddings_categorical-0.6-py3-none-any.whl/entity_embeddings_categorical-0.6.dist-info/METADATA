@@ -1,0 +1,187 @@
+Metadata-Version: 2.1
+Name: entity-embeddings-categorical
+Version: 0.6
+Summary: UNKNOWN
+Home-page: https://github.com/bresan/entity_embeddings_categorical
+Author: Rodrigo Bresan
+Author-email: 
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (==0.7.0)
+Requires-Dist: alabaster (==0.7.12)
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: astor (==0.7.1)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: Babel (==2.6.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: bleach (==3.1.0)
+Requires-Dist: certifi (==2018.11.29)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: coverage (==4.5.2)
+Requires-Dist: coveralls (==1.6.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: decorator (==4.3.2)
+Requires-Dist: defusedxml (==0.5.0)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: docutils (==0.14)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: Flask (==1.0.2)
+Requires-Dist: gast (==0.2.2)
+Requires-Dist: grpcio (==1.19.0)
+Requires-Dist: h5py (==2.9.0)
+Requires-Dist: html5lib (==1.0.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: imagesize (==1.1.0)
+Requires-Dist: ipykernel (==5.1.0)
+Requires-Dist: ipython (==7.3.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jedi (==0.13.3)
+Requires-Dist: Jinja2 (==2.10)
+Requires-Dist: jsonschema (==3.0.1)
+Requires-Dist: jupyter-client (==5.2.4)
+Requires-Dist: jupyter-core (==4.4.0)
+Requires-Dist: Keras (==2.2.4)
+Requires-Dist: Keras-Applications (==1.0.7)
+Requires-Dist: Keras-Preprocessing (==1.0.9)
+Requires-Dist: kiwisolver (==1.0.1)
+Requires-Dist: Markdown (==3.0.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: matplotlib (==3.0.3)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: mock (==2.0.0)
+Requires-Dist: more-itertools (==6.0.0)
+Requires-Dist: mypy (==0.670)
+Requires-Dist: mypy-extensions (==0.4.1)
+Requires-Dist: mysql-connector (==2.1.6)
+Requires-Dist: nbconvert (==5.4.1)
+Requires-Dist: nbformat (==4.4.0)
+Requires-Dist: notebook (==5.7.5)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: packaging (==19.0)
+Requires-Dist: pandas (==0.24.1)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parso (==0.3.4)
+Requires-Dist: pbr (==5.1.3)
+Requires-Dist: pexpect (==4.6.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pip-review (==1.0)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: pluggy (==0.9.0)
+Requires-Dist: prometheus-client (==0.6.0)
+Requires-Dist: prompt-toolkit (==2.0.9)
+Requires-Dist: protobuf (==3.7.0)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: Pygments (==2.3.1)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pyparsing (==2.3.1)
+Requires-Dist: pyrsistent (==0.14.11)
+Requires-Dist: pytest (==4.3.0)
+Requires-Dist: pytest-cov (==2.6.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2018.9)
+Requires-Dist: PyYAML (==4.2b1)
+Requires-Dist: pyzmq (==18.0.1)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: scikit-learn (==0.20.3)
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: Send2Trash (==1.5.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: snowballstemmer (==1.2.1)
+Requires-Dist: Sphinx (==1.8.4)
+Requires-Dist: sphinx-rtd-theme (==0.4.3)
+Requires-Dist: sphinxcontrib-websupport (==1.1.0)
+Requires-Dist: tensorboard (==1.13.1)
+Requires-Dist: tensorflow (==1.13.1)
+Requires-Dist: tensorflow-estimator (==1.13.0)
+Requires-Dist: tensorflow-tensorboard (==1.5.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: terminado (==0.8.1)
+Requires-Dist: testpath (==0.4.2)
+Requires-Dist: tornado (==6.0.1)
+Requires-Dist: tqdm (==4.31.1)
+Requires-Dist: traitlets (==4.3.2)
+Requires-Dist: twine (==1.13.0)
+Requires-Dist: typed-ast (==1.3.1)
+Requires-Dist: urllib3 (==1.24.1)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==0.14.1)
+
+[![PyPI version](https://badge.fury.io/py/entity-embeddings-categorical.svg)](https://badge.fury.io/py/entity-embeddings-categorical)
+[![Build Status](https://travis-ci.org/bresan/entity_embeddings_categorical.svg?branch=master)](https://travis-ci.org/bresan/entity_embeddings_categorical)
+[![Coverage Status](https://coveralls.io/repos/github/bresan/entity_embeddings_categorical/badge.svg?branch=master)](https://coveralls.io/github/bresan/entity_embeddings_categorical?branch=master)
+![GitHub](https://img.shields.io/github/license/bresan/entity_embeddings_categorical.svg)
+
+# Overview
+
+This project is aimed to serve as an utility tool for the preprocessing, training and extraction of entity embeddings through Neural Networks using the Keras framework. It's still under construction, so please use it carefully.
+
+# Installation
+
+The installation is pretty simple if you have a virtualenv already installed on your machine. If you don't please rely to [VirtualEnv official documentation](https://virtualenv.pypa.io/en/latest/).
+
+```bash
+pip install entity-embeddings-categorical
+```
+
+# Usage
+
+The usage of this utility library is provided in two modes: default and custom. In the default configuration, you can perform the following operations: Regression, Binary Classification and Multiclass Classification.
+
+If your data type differs from any of these, you can feel free to use the custom mode, where you can define most of the configurations related to the target processing and output from the neural network.
+
+## Default mode
+
+
+The usage of the default mode is pretty straightforward, you just need to provide a few parameters to the Config object:
+
+So for creating a simple embedding network that reads from file **sales_last_semester.csv**, where the target name is **total_sales**, with the desired output being a **binary classification** and with a training ratio of **0.9**, our Python script would look like this:
+
+```python
+    config = Config.make_default_config(csv_path='sales_last_semester.csv',
+                                        target_name='total_sales',
+                                        target_type=TargetType.BINARY_CLASSIFICATION,
+                                        train_ratio=0.9)
+
+
+    embedder = Embedder(config)
+    embedder.perform_embedding()
+```
+
+Pretty simple, huh?
+
+A working example of default mode can be found [here as a Python script](https://github.com/bresan/entity_embeddings_categorical/blob/master/example/default/default_config_example.py).
+
+## Custom mode
+
+If you intend to customize the output of the Neural Network or even the way that the target variables are processed, you need to specify these when creating the configuration object.
+This can be done by creating a class that extend from [TargetProcessor](https://github.com/bresan/entity_embeddings_categorical/blob/master/entity_embeddings/processor/processor.py) and [ModelAssembler](https://github.com/bresan/entity_embeddings_categorical/blob/master/entity_embeddings/network/assembler.py).
+
+A working example of custom configuration mode can be found [here](https://github.com/bresan/entity_embeddings_categorical/blob/master/example/custom/custom_config_example.py).
+
+## Visualization
+
+To-DO;
+
+# Documentation
+
+
+
+# Testing
+
+This project is inteded to suit most of the existent needs, so for this reason, testability is a major concern. Most of the code is heavily tested, along with [Travis](https://travis-ci.org/bresan/entity_embeddings_categorical) as Continuous Integration tool to run all the unit tests once there is a new commit.
+
+To-Do:
+
+- Notebok sample;
+- Visualization;
+- Draw CNN;
+
