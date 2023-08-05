@@ -1,0 +1,8 @@
+netset.py
+setup.py
+netset.egg-info/PKG-INFO
+netset.egg-info/SOURCES.txt
+netset.egg-info/dependency_links.txt
+netset.egg-info/entry_points.txt
+netset.egg-info/requires.txt
+netset.egg-info/top_level.txt
