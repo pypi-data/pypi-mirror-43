@@ -1,0 +1,3 @@
+iso8601
+pandas>=0.20
+requests<3,>=1
