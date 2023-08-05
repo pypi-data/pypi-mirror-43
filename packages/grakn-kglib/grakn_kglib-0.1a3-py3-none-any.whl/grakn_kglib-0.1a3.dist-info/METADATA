@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: grakn-kglib
+Version: 0.1a3
+Summary: A Machine Learning Library for the Grakn knowledge graph.
+Home-page: https://github.com/graknlabs/kglib
+Author: Grakn Labs
+Author-email: community@grakn.ai
+License: Apache-2.0
+Keywords: machine learning logical reasoning knowledege graph grakn database graph knowledgebase knowledge-engineering
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: astor (==0.7.1)
+Requires-Dist: decorator (==4.3.0)
+Requires-Dist: gast (==0.2.0)
+Requires-Dist: grakn (==1.4.2)
+Requires-Dist: grpcio (==1.15.0)
+Requires-Dist: h5py (==2.8.0)
+Requires-Dist: Keras-Applications (==1.0.6)
+Requires-Dist: Keras-Preprocessing (==1.0.5)
+Requires-Dist: Markdown (==3.0.1)
+Requires-Dist: networkx (==2.2)
+Requires-Dist: numpy (==1.15.2)
+Requires-Dist: protobuf (==3.6.1)
+Requires-Dist: scikit-learn (==0.20.1)
+Requires-Dist: scipy (==1.1.0)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: tensorboard (==1.11.0)
+Requires-Dist: tensorflow (==1.11.0)
+Requires-Dist: tensorflow-hub (==0.1.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: Werkzeug (==0.14.1)
+Requires-Dist: grpcio (==1.16.0)
+Requires-Dist: enum34 (==1.1.6)
+Requires-Dist: twine (==1.12.1)
+Requires-Dist: requests (==2.21.0)
+
+# Grakn KGLIB (Knowledge Graph Library)
+
+[![CircleCI](https://circleci.com/gh/graknlabs/kglib/tree/master.svg?style=shield)](https://circleci.com/gh/graknlabs/kglib/tree/master)
+[![Slack Status](http://grakn-slackin.herokuapp.com/badge.svg)](https://grakn.ai/slack)
+[![Discussion Forum](https://img.shields.io/discourse/https/discuss.grakn.ai/topics.svg)](https://discuss.grakn.ai)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-grakn-796de3.svg)](https://stackoverflow.com/questions/tagged/grakn)
+[![Stack Overflow](https://img.shields.io/badge/stackoverflow-graql-3dce8c.svg)](https://stackoverflow.com/questions/tagged/graql)
+
+This repository is the centre of all research projects conducted at Grakn Labs. In particular, it's focus is on the integration of machine learning with the Grakn knowledge graph.
+
+At present this repo contains one project: [*Knowledge Graph Convolutional Networks* (KGCNs)](https://github.com/graknlabs/kglib/tree/master/kglib/kgcn).
+
+
