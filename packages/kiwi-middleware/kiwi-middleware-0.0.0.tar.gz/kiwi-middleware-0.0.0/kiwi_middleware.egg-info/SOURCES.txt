@@ -1,0 +1,5 @@
+setup.py
+kiwi_middleware.egg-info/PKG-INFO
+kiwi_middleware.egg-info/SOURCES.txt
+kiwi_middleware.egg-info/dependency_links.txt
+kiwi_middleware.egg-info/top_level.txt
