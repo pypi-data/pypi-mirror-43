@@ -1,0 +1,9 @@
+ws4py>=0.5.1
+msgpack>=0.6.1
+python-dateutil>=2.8.0
+typedargs>=1.0.0
+sortedcontainers~=2.1
+entrypoints>=0.3.0
+
+[ui]
+asciimatics>=1.10.0
