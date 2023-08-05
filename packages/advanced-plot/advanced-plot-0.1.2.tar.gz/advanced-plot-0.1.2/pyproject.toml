@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "advanced-plot"
+homepage = "https://github.com/ikedaosushi/advanced-plot"
+version = "0.1.2"
+description = ""
+authors = ["Ikeda Yutao <yutaro.ikeda@kaizenplatform.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+seaborn = "^0.9.0"
+matplotlib = "^3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+jupyter = "^1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
