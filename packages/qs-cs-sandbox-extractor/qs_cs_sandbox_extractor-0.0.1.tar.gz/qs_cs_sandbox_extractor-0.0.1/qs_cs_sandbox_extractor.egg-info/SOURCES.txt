@@ -1,0 +1,11 @@
+MANIFEST.in
+requirements.txt
+setup.py
+qs_cs_sandbox_extractor/__init__.py
+qs_cs_sandbox_extractor/debug.py
+qs_cs_sandbox_extractor/sandbox_extractor.py
+qs_cs_sandbox_extractor.egg-info/PKG-INFO
+qs_cs_sandbox_extractor.egg-info/SOURCES.txt
+qs_cs_sandbox_extractor.egg-info/dependency_links.txt
+qs_cs_sandbox_extractor.egg-info/requires.txt
+qs_cs_sandbox_extractor.egg-info/top_level.txt
