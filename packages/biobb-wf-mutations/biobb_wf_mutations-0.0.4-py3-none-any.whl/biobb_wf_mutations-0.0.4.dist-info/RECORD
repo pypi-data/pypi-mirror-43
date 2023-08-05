@@ -1,0 +1,10 @@
+biobb_wf_mutations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_wf_mutations/notebooks/mutations.ipynb,sha256=u06O2asXKtooyPZCOqJtkxZcnS6Ir21ra9-czTLtIo0,104394
+biobb_wf_mutations/pycompss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_wf_mutations/pycompss/mutations.py,sha256=pkfaQlOT5iBsF2x3xSvNBQnEO-MVkzEwJA21jQ3laPU,7825
+biobb_wf_mutations/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_wf_mutations/python/mutations.py,sha256=bWTJ_J7ar4nZw4SUIDCmJpu2_SC7zU-iqVXAIe58NLE,4984
+biobb_wf_mutations-0.0.4.dist-info/METADATA,sha256=n980Vk4faFFSfL3NHmtozo2LME8hHQcImAxNHFxmeGU,2418
+biobb_wf_mutations-0.0.4.dist-info/RECORD,,
+biobb_wf_mutations-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+biobb_wf_mutations-0.0.4.dist-info/top_level.txt,sha256=maQzqi8Jgnh8Q26HOPeET0hF3nPhWrrcee9jVDBAo4c,19
