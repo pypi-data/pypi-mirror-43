@@ -1,0 +1,5 @@
+setup.py
+kiwi_errorlib.egg-info/PKG-INFO
+kiwi_errorlib.egg-info/SOURCES.txt
+kiwi_errorlib.egg-info/dependency_links.txt
+kiwi_errorlib.egg-info/top_level.txt
