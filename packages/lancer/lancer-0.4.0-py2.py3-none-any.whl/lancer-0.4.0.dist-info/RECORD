@@ -1,0 +1,10 @@
+lancer/__init__.py,sha256=mhfNjA68XpQncfDtheqcIIt712KSMb9GSFuHrkwKYfQ,106
+lancer/_cloudflare.py,sha256=ByKQ3N_c9eWDkCSeZEC-8lzudGcYq57wHdUC6WuHWQQ,2731
+lancer/_common.py,sha256=ulKIycFy2MNxfsIMqfowlOK-ZuZMeRCmS6GkEu7DxGs,2523
+lancer/_gandi.py,sha256=HqDWc1f1Ad_ox0vy9x5fGUZ7nTr-fcsrpSAiToqkAIQ,2409
+lancer/_impl.py,sha256=_NY2ao1zuqTfM2o1sy0l0dwgtGCTxGh4dgckckp6Ckw,3744
+lancer-0.4.0.dist-info/entry_points.txt,sha256=22b5Fv32ChunCy1LOK_UBn44KZTQpZpnyAAzc6Qc8sE,46
+lancer-0.4.0.dist-info/LICENSE,sha256=LgPyBVpjfDAPIk_FFX6EdCEdwYoWkGhKV2lcyg9Svj4,1072
+lancer-0.4.0.dist-info/WHEEL,sha256=usNa9Fq6mCRPjU0ni2GkKTRNslEQMRmf71yu-hUF958,99
+lancer-0.4.0.dist-info/METADATA,sha256=yHRmapbx_TP6BwLznCM4aDquwYqDce8K_AqVjgcGtEk,5365
+lancer-0.4.0.dist-info/RECORD,,
