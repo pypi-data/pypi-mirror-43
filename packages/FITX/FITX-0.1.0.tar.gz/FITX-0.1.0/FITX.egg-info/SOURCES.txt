@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+FITX/__init__.py
+FITX/_version.py
+FITX/fitting.py
+FITX.egg-info/PKG-INFO
+FITX.egg-info/SOURCES.txt
+FITX.egg-info/dependency_links.txt
+FITX.egg-info/not-zip-safe
+FITX.egg-info/requires.txt
+FITX.egg-info/top_level.txt
