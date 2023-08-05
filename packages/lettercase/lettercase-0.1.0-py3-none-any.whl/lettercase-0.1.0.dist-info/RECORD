@@ -1,0 +1,11 @@
+lettercase/__init__.py,sha256=9nC3gOmalxcKq-dZAD8iksfviMSnVB9KS8tn1S9bVsc,139
+lettercase/detect.py,sha256=j31bm3bOSmOAmjfFAI_URb9XUI9m7xF-Ni5ko0wXeEU,2209
+lettercase/letter_case.py,sha256=zutDKoiTX9zXXnuABWUCEiB27j9ddlnRQLJpwyf-d-4,1272
+lettercase/converters/__init__.py,sha256=gZW6BlsKEoAohCNKsyXkekM5_yBdDNJtD-0gczsAPSo,1059
+lettercase/converters/dromedary_case.py,sha256=lIWPrsCZlfQ9mhblIRbI4U4nNlDwLo_h5zx_YzWusFY,2114
+lettercase/converters/snake_case.py,sha256=1gxfe5S4LVKOBvzfM6w3Uhh1kdwugYAiDeBQZnxUnv8,2062
+lettercase-0.1.0.dist-info/LICENSE,sha256=zp3jdSORj4PVypQeO36RriFFfWi2rAohgBpvET2yBBE,1068
+lettercase-0.1.0.dist-info/METADATA,sha256=FRncl339lM5C22k2VPkpHU5YZEKytGxq_InTrMwFKpE,1413
+lettercase-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+lettercase-0.1.0.dist-info/top_level.txt,sha256=er3WMI5L5QFSGtXmlbBhKfyWDP5HAobZ8q0QzZ1csdE,11
+lettercase-0.1.0.dist-info/RECORD,,
