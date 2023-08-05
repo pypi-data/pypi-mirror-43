@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+pandas
+statsmodels
+matplotlib-venn
+scikit-learn
+requests
+requests_toolbelt
+adjustText
