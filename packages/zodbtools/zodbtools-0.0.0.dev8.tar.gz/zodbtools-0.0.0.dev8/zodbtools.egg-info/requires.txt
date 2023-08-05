@@ -1,0 +1,11 @@
+ZODB
+zodburi
+zope.interface
+pygolang>=0.0.0.dev6
+six
+dateparser
+
+[test]
+pytest
+freezegun
+pytz
