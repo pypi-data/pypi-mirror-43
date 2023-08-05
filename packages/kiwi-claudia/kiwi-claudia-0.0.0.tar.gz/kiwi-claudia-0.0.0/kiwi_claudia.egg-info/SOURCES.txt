@@ -1,0 +1,5 @@
+setup.py
+kiwi_claudia.egg-info/PKG-INFO
+kiwi_claudia.egg-info/SOURCES.txt
+kiwi_claudia.egg-info/dependency_links.txt
+kiwi_claudia.egg-info/top_level.txt
