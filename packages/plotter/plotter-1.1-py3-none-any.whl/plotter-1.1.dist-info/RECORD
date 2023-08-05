@@ -1,0 +1,9 @@
+plotter/__init__.py,sha256=SsbWO-EGMVAkTRhJvNImsvNWF-B3dfUx8APCmo6Mbxk,57
+plotter/plotter.py,sha256=pTKVrcDxe75uKIz6SWF_5ey4uNoCnauiVhw1k4HBJ44,7916
+plotter/gtk3_plotter/__init__.py,sha256=LoKXWI4JyUHY47Z9zq94K35S2OgqKMgtRyBRO0KbhU8,40
+plotter/gtk3_plotter/plot_selector.py,sha256=oH2us5Abm4wbgsuLWICOrToBvO1ydMDLNcvFdm_lseI,3507
+plotter-1.1.dist-info/LICENSE,sha256=hCxpirC7SN2Y43pq-Sz7oSH5dYoFAprpTEIPYAUPKEc,1073
+plotter-1.1.dist-info/METADATA,sha256=GyHwGcHHcIf2z7OB9jAr4JDwOVOXO3C9uLkJKYxAgZA,1475
+plotter-1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+plotter-1.1.dist-info/top_level.txt,sha256=m5uKioRHdGMwH-0xjGK45aog8kQMIETJ4Q6ZmEI6JHE,8
+plotter-1.1.dist-info/RECORD,,
