@@ -1,0 +1,10 @@
+README.md
+setup.py
+django_durationwidget.egg-info/PKG-INFO
+django_durationwidget.egg-info/SOURCES.txt
+django_durationwidget.egg-info/dependency_links.txt
+django_durationwidget.egg-info/top_level.txt
+durationwidget/__init__.py
+durationwidget/apps.py
+durationwidget/widgets.py
+durationwidget/migrations/__init__.py
