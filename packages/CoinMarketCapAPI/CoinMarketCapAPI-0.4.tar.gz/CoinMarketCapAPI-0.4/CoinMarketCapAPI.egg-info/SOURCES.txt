@@ -1,0 +1,16 @@
+README.md
+setup.py
+CoinMarketCapAPI.egg-info/PKG-INFO
+CoinMarketCapAPI.egg-info/SOURCES.txt
+CoinMarketCapAPI.egg-info/dependency_links.txt
+CoinMarketCapAPI.egg-info/requires.txt
+CoinMarketCapAPI.egg-info/top_level.txt
+coinmarketcap/__init__.py
+coinmarketcap/client.py
+coinmarketcap/environment.py
+coinmarketcap/endpoints/__init__.py
+coinmarketcap/endpoints/cryptocurrency.py
+coinmarketcap/endpoints/exchange.py
+coinmarketcap/endpoints/global_metrics.py
+coinmarketcap/endpoints/parser.py
+coinmarketcap/endpoints/tools.py
