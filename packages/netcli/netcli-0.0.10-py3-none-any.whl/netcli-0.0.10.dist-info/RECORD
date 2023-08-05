@@ -1,0 +1,12 @@
+netcli/__init__.py,sha256=dg5rdMX_S4gjc-xIXv58Y9zBwKq1v7TfTjTl_N88lY0,266
+netcli/cli.py,sha256=wU_Thqc0mXZZHuhjBnHaR5ye5xjtDG5wbzkKzPwvoCA,4778
+netcli/config.py,sha256=4a3r1KwtUDhQLWyt3qCCB8UgNw6X03sM1wxoOd-WEUs,8207
+netcli/connect.py,sha256=r7SAKHnDQTCcPkc9Whvpc84KjhvvqRqeo6RoMYCiPNI,8544
+netcli/errors.py,sha256=ulI4vDkEo0AF3zjv7PjmpdwJI2yWhxdt_MeWAQloz0s,39
+netcli/formatters.py,sha256=mtySeVq8vwLPMVgJIT7AlZeQNa74zvAQE0eN0de-gyk,1816
+netcli-0.0.10.dist-info/LICENSE,sha256=k8se9QPfmS9E_dHC3bgKuWZFCslYp78gJK5BJ11TCow,1072
+netcli-0.0.10.dist-info/METADATA,sha256=Ps2_AVwsjuIzVv95_-ZXcKsUs7NmfGY47RidcaTAAeA,4595
+netcli-0.0.10.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+netcli-0.0.10.dist-info/entry_points.txt,sha256=j_TslsDCuRj8YE8-RDB4DE9W_XYpo8XMvQHt0073jJs,43
+netcli-0.0.10.dist-info/top_level.txt,sha256=Tn4rivdOXHAyUlzkGZaAKFFAwOOb1_hb_vRO7cFugDk,7
+netcli-0.0.10.dist-info/RECORD,,
