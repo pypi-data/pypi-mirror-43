@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kola-bottle
+Version: 0.2.2
+Summary: A WSGI framework for Python 3 based upon Bottle.
+Home-page: https://github.com/jaredlunde/kola
+Author: Jared Lunde
+Author-email: jared.lunde@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: redis-cache
+Requires-Dist: argon2-cffi
+Requires-Dist: ujson
+Requires-Dist: babel
+
+UNKNOWN
+
+
