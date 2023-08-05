@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: corenlp-webclient
+Version: 0.1a1
+Summary: A client library for CoreNLP server's simple web API.
+Home-page: https://github.com/tanbro/corenlp-webclient
+Author: liu xue yan
+Author-email: liu_xue_yan@foxmail.com
+License: AGPLv3+
+Keywords: CoreNLP NLP
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: dataclasses-jsonschema
+Requires-Dist: emoji-data
+Requires-Dist: requests
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+# corenlp-webclient
+
+A client library for [CoreNLP][] server's simple web API.
+
+[CoreNLP]: https://stanfordnlp.github.io/CoreNLP/index.html
+
+
