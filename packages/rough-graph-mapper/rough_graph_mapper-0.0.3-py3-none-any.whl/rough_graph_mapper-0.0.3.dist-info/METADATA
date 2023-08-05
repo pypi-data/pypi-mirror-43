@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rough-graph-mapper
+Version: 0.0.3
+Summary: Rough Graph Mapper
+Home-page: http://github.com/uio-bmi/rough_graph_mapper
+Author: Ivar Grytten and Knut Rand
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: mappy
+Requires-Dist: pygssw (==0.0.6)
+Requires-Dist: python-coveralls
+Requires-Dist: pysam
+Requires-Dist: pyfaidx
+Requires-Dist: offsetbasedgraph
+Requires-Dist: pyvg
+Requires-Dist: graph-peak-caller
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
