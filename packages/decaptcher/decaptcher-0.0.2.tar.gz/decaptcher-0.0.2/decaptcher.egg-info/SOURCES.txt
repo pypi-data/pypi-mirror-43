@@ -1,0 +1,17 @@
+README.md
+setup.py
+decaptcher/__init__.py
+decaptcher/base_backend.py
+decaptcher/error.py
+decaptcher/service.py
+decaptcher.egg-info/PKG-INFO
+decaptcher.egg-info/SOURCES.txt
+decaptcher.egg-info/dependency_links.txt
+decaptcher.egg-info/requires.txt
+decaptcher.egg-info/top_level.txt
+decaptcher/backend/__init__.py
+decaptcher/backend/antigate.py
+decaptcher/backend/browser.py
+decaptcher/backend/common.py
+decaptcher/backend/rucaptcha.py
+decaptcher/backend/twocaptcha.py
