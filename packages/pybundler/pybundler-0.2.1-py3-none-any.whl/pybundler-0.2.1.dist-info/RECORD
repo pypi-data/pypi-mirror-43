@@ -1,0 +1,10 @@
+pybundler/__init__.py,sha256=cxb7SnWbdQBwvLl5zR33A4b4RUMDMRCqAiga6QzRBG4,58
+pybundler/__main__.py,sha256=Bm1Zmk-YOKoT39w6nE6m_YBhz2PR5KoVpKrrH8NZUlQ,4525
+pybundler/cli.py,sha256=NfLEl7ep7lY3fybrfbe0jxTGPWEsLnsdCWzkNxg0zxg,3441
+pybundler-0.2.1.dist-info/DESCRIPTION.rst,sha256=69gn_T9AkF9wOIxQii03HANaWK-12KMWP45jjvELbjM,4144
+pybundler-0.2.1.dist-info/METADATA,sha256=dRMukIBx4Ou3IMnSRiMZY0jvNRyezW8nTusWn_hUCCg,4964
+pybundler-0.2.1.dist-info/RECORD,,
+pybundler-0.2.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pybundler-0.2.1.dist-info/entry_points.txt,sha256=7SFXUunfKyBtiPa-1US4zRwJwEsuFsBWUAsPF8i0JIA,55
+pybundler-0.2.1.dist-info/metadata.json,sha256=9feAVXBkIA3uo6Q5g66QNP0ScuYXY_Gal0FU87LyPao,1126
+pybundler-0.2.1.dist-info/top_level.txt,sha256=nkXGvsl4kqr-jIF7sdiSICg-Wn0lvxq3j1I5MbZiw7c,10
