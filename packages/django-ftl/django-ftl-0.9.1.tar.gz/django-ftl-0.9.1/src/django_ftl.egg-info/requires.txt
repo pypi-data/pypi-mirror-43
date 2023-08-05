@@ -1,0 +1,2 @@
+fluent
+Django>=1.11
