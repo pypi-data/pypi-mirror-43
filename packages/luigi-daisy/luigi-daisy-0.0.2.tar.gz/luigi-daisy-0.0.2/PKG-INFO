@@ -1,0 +1,31 @@
+Metadata-Version: 1.2
+Name: luigi-daisy
+Version: 0.0.2
+Summary: Utility wrapper of luigi
+Home-page: https://github.com/nunukim/daisy
+Author: Ryota Suzuki
+Author-email: ryouta_suzuki@yahoo.co.jp
+Maintainer: Ryota Suzuki
+Maintainer-email: ryouta_suzuki@yahoo.co.jp
+License: BSD
+Description: # daisy
+        
+        Thin wrapper of [luigi](https://github.com/spotify/luigi) for utility.
+        
+        ## Features
+        
+        - Default `output` for tasks
+        - FormattedTarget having `dump` and `load` methods
+        
+        
+        ## Usage
+        
+        ...
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
