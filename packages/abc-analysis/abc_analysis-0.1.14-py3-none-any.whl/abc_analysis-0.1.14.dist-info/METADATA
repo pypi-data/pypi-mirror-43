@@ -1,0 +1,46 @@
+Metadata-Version: 2.0
+Name: abc-analysis
+Version: 0.1.14
+Summary: ABC analysis with automated limit detection
+Home-page: UNKNOWN
+Author: Tino Gehlert
+Author-email: ghlt@viessmann.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/viessmann/abc_analysis/archive/v0.1.14.tar.gz
+Project-URL: Viessmann, https://www.linkedin.com/company/viessmann/
+Project-URL: Source, https://github.com/viessmann/abc_analysis
+Keywords: abc-analysis abc_analysis Viessmann
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: matplotlib (>=2.2.2)
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: pandas (>=0.22)
+Requires-Dist: scipy (>=1.1.0)
+
+ABC analysis
+============
+
+Performs and visualizes an ABC analysis with automated limit detection. 
+
+This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`_
+
+Basic Usage
+^^^^^^^^^^^
+
+.. code-block:: python
+
+    from abc_analysis import abc_analysis, abc_plot
+
+    # Perform an ABC analysis on a numeric vector (without plotting)
+    dctAnalysis = abc_analysis([1, 15, 25, 17, 2, 3, 5, 6, 2, 3, 22])
+
+    # Perform an ABC analysis with plotting
+    dctAnalysis = abc_analysis([1, 15, 25, 17, 2, 3, 5, 6, 2, 3, 22], True)
+
+    # Plot saved results of an ABC analysis
+    abc_plot(dctAnalysis)
+
+
