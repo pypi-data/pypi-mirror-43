@@ -1,0 +1,12 @@
+asn1crypto
+dateutil
+pytz
+
+[cacerts]
+requests
+
+[formatted_python]
+yapf
+
+[html]
+lxml
