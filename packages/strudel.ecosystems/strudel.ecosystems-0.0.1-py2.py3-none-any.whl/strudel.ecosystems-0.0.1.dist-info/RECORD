@@ -1,0 +1,10 @@
+stecosystems/__init__.py,sha256=3i5xgJj3bgKolLgaQZQc7m-pV9iOXBQyrzVIcCjpahM,78
+stecosystems/base.py,sha256=lgyPSSv4WIomtsPwNiLL5U2gZq3OidBKBZlkkfvFtaM,4920
+stecosystems/deprecated.py,sha256=vQBU8yK9JCZzNKdN45Um1jvayUwHcZonrGmixIzJUEU,8588
+stecosystems/npm.py,sha256=8F1qdfppv_dLwk2-7pRqkimQJZN5TdnT4ymHneiun9I,5085
+stecosystems/pypi.py,sha256=pIEFoAB1PVE650WSUzNQHkexlCTXfzVMDTvM0kOdUaY,19802
+strudel.ecosystems-0.0.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+strudel.ecosystems-0.0.1.dist-info/METADATA,sha256=R0Q73IQAKOpjwkYjXdiHqF5jmu8l1DynN-yD2Az_HJY,1083
+strudel.ecosystems-0.0.1.dist-info/RECORD,,
+strudel.ecosystems-0.0.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+strudel.ecosystems-0.0.1.dist-info/top_level.txt,sha256=SEnBkYVQFAcgZfqoQNJ5AW56-MrPplHXYtw0NCNBWEc,13
