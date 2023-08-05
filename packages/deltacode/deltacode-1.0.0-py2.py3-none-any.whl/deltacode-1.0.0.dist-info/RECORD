@@ -1,0 +1,13 @@
+deltacode/NOTICE,sha256=3qw_TCFV_LEP8FMZERqBYsWMU5W1ULMK1FcvWHzkHiQ,2260
+deltacode/__init__.py,sha256=QP7if3R-M-vdAa4vaYxJl64a6GRx8rgtWbpaI9NgljU,12375
+deltacode/cli.py,sha256=zS4XqysK2jidUMMKd3ih2UQGYE8M1gzbyUutbxATcFA,4190
+deltacode/models.py,sha256=wLGCoLiBD3IvqJQn7ZSnaQtoUrHsB1-IAYkB-QxVA7A,9297
+deltacode/utils.py,sha256=BLNW2mqOppAb4aw5KvgcRrP7L3PwilzJCWSudIu39wQ,9601
+deltacode-1.0.0.dist-info/DESCRIPTION.rst,sha256=GH3_h41UrGXgEe3rjN4Hph9w3w13Iq6BZbtBID9gKIk,4050
+deltacode-1.0.0.dist-info/LICENSE.txt,sha256=3qw_TCFV_LEP8FMZERqBYsWMU5W1ULMK1FcvWHzkHiQ,2260
+deltacode-1.0.0.dist-info/METADATA,sha256=4vZbd9V1bptnAdv2atvuX83GDSFgHrGGAmgPoAq8RMg,4650
+deltacode-1.0.0.dist-info/RECORD,,
+deltacode-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+deltacode-1.0.0.dist-info/entry_points.txt,sha256=G-TBdp0tiunoA9ZMbG-TLxdt-nw1nI0tTnlPkGpJNiQ,49
+deltacode-1.0.0.dist-info/metadata.json,sha256=3ckzv-pWCrxglCwSw-4BHu1OawHnrxEs9z4osKw1kFY,935
+deltacode-1.0.0.dist-info/top_level.txt,sha256=f91hcNln-a-N51OmV25buUYrvA2bBpqNeLIBeZJRJSk,10
