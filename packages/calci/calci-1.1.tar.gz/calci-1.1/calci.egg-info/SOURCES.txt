@@ -1,0 +1,7 @@
+README.txt
+setup.py
+calci/__init__.py
+calci.egg-info/PKG-INFO
+calci.egg-info/SOURCES.txt
+calci.egg-info/dependency_links.txt
+calci.egg-info/top_level.txt
