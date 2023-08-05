@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+sidefx_web.py
+sidefx_web.egg-info/PKG-INFO
+sidefx_web.egg-info/SOURCES.txt
+sidefx_web.egg-info/dependency_links.txt
+sidefx_web.egg-info/entry_points.txt
+sidefx_web.egg-info/not-zip-safe
+sidefx_web.egg-info/pbr.json
+sidefx_web.egg-info/requires.txt
+sidefx_web.egg-info/top_level.txt

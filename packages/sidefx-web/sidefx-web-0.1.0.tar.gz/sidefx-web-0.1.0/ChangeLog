@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+v0.1.0
+------
+
+* Update web links
+* Add Example usage for sidefx-web
+* Add command to download houdini
+* Add command to list available builds
+* Add token caching
+* Initialize project and add token API
+* Initial commit
