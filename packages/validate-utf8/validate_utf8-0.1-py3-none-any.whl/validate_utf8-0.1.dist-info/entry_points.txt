@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        validate-utf8=validate_utf8.cli:cli
+    

@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validate_utf8.py,sha256=qMw-wLfC0_VBqVE0QiXsKqaLiYrHzvcHOGmpWN4NgHg,461
+validate_utf8/__init__.py,sha256=3c-ezR-dXwy7GLb7ew5XfyoGOhkcTBA8Le8IV3dmcfs,103
+validate_utf8/cli.py,sha256=3oFgiQ5XskXIszh-zgHlfmWsp0BlFRcSjNXQxtEsJ24,358
+validate_utf8/find_utf8_errors.py,sha256=It5pSXSa84UUDOdbm9vbIEOF8GuDXVSy9eZ6PXD70oA,905
+validate_utf8-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+validate_utf8-0.1.dist-info/METADATA,sha256=60a4Cr2R5t7F8Dn5zK99R1WeDGbaEVT87zy1CANdlXw,1649
+validate_utf8-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+validate_utf8-0.1.dist-info/entry_points.txt,sha256=zBGgeUfmf_Ysnc8GsDcRZTCZoP_IJXRQpG4k0jHUaVY,75
+validate_utf8-0.1.dist-info/top_level.txt,sha256=hlY-XY8vpa1oPFruVSLCXMyRjAwZEqTmxBf3X7hxfVc,20
+validate_utf8-0.1.dist-info/RECORD,,
