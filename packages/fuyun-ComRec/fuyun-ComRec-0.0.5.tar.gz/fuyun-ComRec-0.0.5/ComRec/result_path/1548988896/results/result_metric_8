@@ -1,0 +1,7 @@
+processed 12148 tokens with 3609 phrases; found: 3648 phrases; correct: 3242.
+accuracy:  95.38%; precision:  88.87%; recall:  89.83%; FB1:  89.35
+         COM_TYPE: precision:  94.00%; recall:  93.58%; FB1:  93.79  900
+           DOMAIN: precision:  84.61%; recall:  86.47%; FB1:  85.53  929
+             NAME: precision:  83.19%; recall:  85.76%; FB1:  84.46  934
+           REGION: precision:  95.02%; recall:  94.15%; FB1:  94.59  864
+       SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21

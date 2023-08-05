@@ -1,0 +1,416 @@
+2019-02-01 10:41:36,357:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548314548', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='train', output_path='result_path', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-01 10:41:39,276:INFO: 2019-02-01 10:41:37 epoch 1, step 1, loss: 2.459, global_step: 1
+2019-02-01 10:41:39,276:INFO: 2019-02-01 10:41:37 epoch 1, step 1, loss: 2.459, global_step: 1
+2019-02-01 10:41:58,228:INFO: 2019-02-01 10:41:37 epoch 1, step 142, loss: 0.8327, global_step: 142
+2019-02-01 10:41:58,228:INFO: 2019-02-01 10:41:37 epoch 1, step 142, loss: 0.8327, global_step: 142
+2019-02-01 10:41:58,305:INFO: ===========validation / test===========
+2019-02-01 10:41:58,305:INFO: ===========validation / test===========
+2019-02-01 10:41:59,591:INFO: processed 12148 tokens with 3609 phrases; found: 3668 phrases; correct: 1808.
+2019-02-01 10:41:59,591:INFO: processed 12148 tokens with 3609 phrases; found: 3668 phrases; correct: 1808.
+2019-02-01 10:41:59,591:INFO: accuracy:  79.16%; precision:  49.29%; recall:  50.10%; FB1:  49.69
+2019-02-01 10:41:59,591:INFO: accuracy:  79.16%; precision:  49.29%; recall:  50.10%; FB1:  49.69
+2019-02-01 10:41:59,591:INFO: COM_TYPE: precision:  83.35%; recall:  78.10%; FB1:  80.64  847
+2019-02-01 10:41:59,591:INFO: COM_TYPE: precision:  83.35%; recall:  78.10%; FB1:  80.64  847
+2019-02-01 10:41:59,591:INFO: DOMAIN: precision:  32.30%; recall:  33.33%; FB1:  32.81  938
+2019-02-01 10:41:59,591:INFO: DOMAIN: precision:  32.30%; recall:  33.33%; FB1:  32.81  938
+2019-02-01 10:41:59,591:INFO: NAME: precision:  28.13%; recall:  29.47%; FB1:  28.79  949
+2019-02-01 10:41:59,591:INFO: NAME: precision:  28.13%; recall:  29.47%; FB1:  28.79  949
+2019-02-01 10:41:59,591:INFO: REGION: precision:  56.96%; recall:  61.01%; FB1:  58.91  934
+2019-02-01 10:41:59,591:INFO: REGION: precision:  56.96%; recall:  61.01%; FB1:  58.91  934
+2019-02-01 10:41:59,591:INFO: SUB_REGION: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2019-02-01 10:41:59,591:INFO: SUB_REGION: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+2019-02-01 10:41:59,735:INFO: 2019-02-01 10:41:59 epoch 2, step 1, loss: 0.7949, global_step: 143
+2019-02-01 10:41:59,735:INFO: 2019-02-01 10:41:59 epoch 2, step 1, loss: 0.7949, global_step: 143
+2019-02-01 10:42:19,218:INFO: 2019-02-01 10:41:59 epoch 2, step 142, loss: 0.6483, global_step: 284
+2019-02-01 10:42:19,218:INFO: 2019-02-01 10:41:59 epoch 2, step 142, loss: 0.6483, global_step: 284
+2019-02-01 10:42:19,288:INFO: ===========validation / test===========
+2019-02-01 10:42:19,288:INFO: ===========validation / test===========
+2019-02-01 10:42:20,196:INFO: processed 12148 tokens with 3609 phrases; found: 3716 phrases; correct: 2430.
+2019-02-01 10:42:20,196:INFO: processed 12148 tokens with 3609 phrases; found: 3716 phrases; correct: 2430.
+2019-02-01 10:42:20,196:INFO: accuracy:  87.16%; precision:  65.39%; recall:  67.33%; FB1:  66.35
+2019-02-01 10:42:20,196:INFO: accuracy:  87.16%; precision:  65.39%; recall:  67.33%; FB1:  66.35
+2019-02-01 10:42:20,196:INFO: COM_TYPE: precision:  91.27%; recall:  87.94%; FB1:  89.58  871
+2019-02-01 10:42:20,196:INFO: COM_TYPE: precision:  91.27%; recall:  87.94%; FB1:  89.58  871
+2019-02-01 10:42:20,196:INFO: DOMAIN: precision:  49.21%; recall:  51.27%; FB1:  50.22  947
+2019-02-01 10:42:20,196:INFO: DOMAIN: precision:  49.21%; recall:  51.27%; FB1:  50.22  947
+2019-02-01 10:42:20,196:INFO: NAME: precision:  44.77%; recall:  49.56%; FB1:  47.04  1003
+2019-02-01 10:42:20,196:INFO: NAME: precision:  44.77%; recall:  49.56%; FB1:  47.04  1003
+2019-02-01 10:42:20,196:INFO: REGION: precision:  80.67%; recall:  82.34%; FB1:  81.50  890
+2019-02-01 10:42:20,196:INFO: REGION: precision:  80.67%; recall:  82.34%; FB1:  81.50  890
+2019-02-01 10:42:20,196:INFO: SUB_REGION: precision:  40.00%; recall:  11.11%; FB1:  17.39  5
+2019-02-01 10:42:20,196:INFO: SUB_REGION: precision:  40.00%; recall:  11.11%; FB1:  17.39  5
+2019-02-01 10:42:20,350:INFO: 2019-02-01 10:42:20 epoch 3, step 1, loss: 0.6907, global_step: 285
+2019-02-01 10:42:20,350:INFO: 2019-02-01 10:42:20 epoch 3, step 1, loss: 0.6907, global_step: 285
+2019-02-01 10:42:39,777:INFO: 2019-02-01 10:42:20 epoch 3, step 142, loss: 0.6519, global_step: 426
+2019-02-01 10:42:39,777:INFO: 2019-02-01 10:42:20 epoch 3, step 142, loss: 0.6519, global_step: 426
+2019-02-01 10:42:39,846:INFO: ===========validation / test===========
+2019-02-01 10:42:39,846:INFO: ===========validation / test===========
+2019-02-01 10:42:40,632:INFO: processed 12148 tokens with 3609 phrases; found: 3700 phrases; correct: 2830.
+2019-02-01 10:42:40,632:INFO: processed 12148 tokens with 3609 phrases; found: 3700 phrases; correct: 2830.
+2019-02-01 10:42:40,632:INFO: accuracy:  90.41%; precision:  76.49%; recall:  78.42%; FB1:  77.44
+2019-02-01 10:42:40,632:INFO: accuracy:  90.41%; precision:  76.49%; recall:  78.42%; FB1:  77.44
+2019-02-01 10:42:40,632:INFO: COM_TYPE: precision:  91.87%; recall:  90.04%; FB1:  90.95  886
+2019-02-01 10:42:40,632:INFO: COM_TYPE: precision:  91.87%; recall:  90.04%; FB1:  90.95  886
+2019-02-01 10:42:40,632:INFO: DOMAIN: precision:  68.57%; recall:  71.29%; FB1:  69.90  945
+2019-02-01 10:42:40,632:INFO: DOMAIN: precision:  68.57%; recall:  71.29%; FB1:  69.90  945
+2019-02-01 10:42:40,632:INFO: NAME: precision:  64.39%; recall:  68.65%; FB1:  66.45  966
+2019-02-01 10:42:40,632:INFO: NAME: precision:  64.39%; recall:  68.65%; FB1:  66.45  966
+2019-02-01 10:42:40,632:INFO: REGION: precision:  83.33%; recall:  84.86%; FB1:  84.09  888
+2019-02-01 10:42:40,632:INFO: REGION: precision:  83.33%; recall:  84.86%; FB1:  84.09  888
+2019-02-01 10:42:40,632:INFO: SUB_REGION: precision:  40.00%; recall:  33.33%; FB1:  36.36  15
+2019-02-01 10:42:40,632:INFO: SUB_REGION: precision:  40.00%; recall:  33.33%; FB1:  36.36  15
+2019-02-01 10:42:40,777:INFO: 2019-02-01 10:42:40 epoch 4, step 1, loss: 0.4628, global_step: 427
+2019-02-01 10:42:40,777:INFO: 2019-02-01 10:42:40 epoch 4, step 1, loss: 0.4628, global_step: 427
+2019-02-01 10:42:59,470:INFO: 2019-02-01 10:42:40 epoch 4, step 142, loss: 0.5459, global_step: 568
+2019-02-01 10:42:59,470:INFO: 2019-02-01 10:42:40 epoch 4, step 142, loss: 0.5459, global_step: 568
+2019-02-01 10:42:59,538:INFO: ===========validation / test===========
+2019-02-01 10:42:59,538:INFO: ===========validation / test===========
+2019-02-01 10:43:00,320:INFO: processed 12148 tokens with 3609 phrases; found: 3713 phrases; correct: 3003.
+2019-02-01 10:43:00,320:INFO: processed 12148 tokens with 3609 phrases; found: 3713 phrases; correct: 3003.
+2019-02-01 10:43:00,320:INFO: accuracy:  92.03%; precision:  80.88%; recall:  83.21%; FB1:  82.03
+2019-02-01 10:43:00,320:INFO: accuracy:  92.03%; precision:  80.88%; recall:  83.21%; FB1:  82.03
+2019-02-01 10:43:00,320:INFO: COM_TYPE: precision:  93.27%; recall:  91.92%; FB1:  92.59  891
+2019-02-01 10:43:00,320:INFO: COM_TYPE: precision:  93.27%; recall:  91.92%; FB1:  92.59  891
+2019-02-01 10:43:00,320:INFO: DOMAIN: precision:  76.18%; recall:  79.87%; FB1:  77.98  953
+2019-02-01 10:43:00,320:INFO: DOMAIN: precision:  76.18%; recall:  79.87%; FB1:  77.98  953
+2019-02-01 10:43:00,320:INFO: NAME: precision:  71.05%; recall:  77.48%; FB1:  74.13  988
+2019-02-01 10:43:00,320:INFO: NAME: precision:  71.05%; recall:  77.48%; FB1:  74.13  988
+2019-02-01 10:43:00,320:INFO: REGION: precision:  85.42%; recall:  84.63%; FB1:  85.02  864
+2019-02-01 10:43:00,320:INFO: REGION: precision:  85.42%; recall:  84.63%; FB1:  85.02  864
+2019-02-01 10:43:00,320:INFO: SUB_REGION: precision:  35.29%; recall:  33.33%; FB1:  34.29  17
+2019-02-01 10:43:00,320:INFO: SUB_REGION: precision:  35.29%; recall:  33.33%; FB1:  34.29  17
+2019-02-01 10:43:00,460:INFO: 2019-02-01 10:43:00 epoch 5, step 1, loss: 0.5509, global_step: 569
+2019-02-01 10:43:00,460:INFO: 2019-02-01 10:43:00 epoch 5, step 1, loss: 0.5509, global_step: 569
+2019-02-01 10:43:19,057:INFO: 2019-02-01 10:43:00 epoch 5, step 142, loss: 0.392, global_step: 710
+2019-02-01 10:43:19,057:INFO: 2019-02-01 10:43:00 epoch 5, step 142, loss: 0.392, global_step: 710
+2019-02-01 10:43:19,126:INFO: ===========validation / test===========
+2019-02-01 10:43:19,126:INFO: ===========validation / test===========
+2019-02-01 10:43:19,871:INFO: processed 12148 tokens with 3609 phrases; found: 3704 phrases; correct: 3087.
+2019-02-01 10:43:19,871:INFO: processed 12148 tokens with 3609 phrases; found: 3704 phrases; correct: 3087.
+2019-02-01 10:43:19,872:INFO: accuracy:  93.32%; precision:  83.34%; recall:  85.54%; FB1:  84.42
+2019-02-01 10:43:19,872:INFO: accuracy:  93.32%; precision:  83.34%; recall:  85.54%; FB1:  84.42
+2019-02-01 10:43:19,872:INFO: COM_TYPE: precision:  93.41%; recall:  92.48%; FB1:  92.94  895
+2019-02-01 10:43:19,872:INFO: COM_TYPE: precision:  93.41%; recall:  92.48%; FB1:  92.94  895
+2019-02-01 10:43:19,872:INFO: DOMAIN: precision:  79.51%; recall:  82.84%; FB1:  81.14  947
+2019-02-01 10:43:19,872:INFO: DOMAIN: precision:  79.51%; recall:  82.84%; FB1:  81.14  947
+2019-02-01 10:43:19,872:INFO: NAME: precision:  74.72%; recall:  80.91%; FB1:  77.69  981
+2019-02-01 10:43:19,872:INFO: NAME: precision:  74.72%; recall:  80.91%; FB1:  77.69  981
+2019-02-01 10:43:19,872:INFO: REGION: precision:  87.70%; recall:  86.70%; FB1:  87.20  862
+2019-02-01 10:43:19,872:INFO: REGION: precision:  87.70%; recall:  86.70%; FB1:  87.20  862
+2019-02-01 10:43:19,872:INFO: SUB_REGION: precision:  47.37%; recall:  50.00%; FB1:  48.65  19
+2019-02-01 10:43:19,872:INFO: SUB_REGION: precision:  47.37%; recall:  50.00%; FB1:  48.65  19
+2019-02-01 10:43:20,013:INFO: 2019-02-01 10:43:19 epoch 6, step 1, loss: 0.4565, global_step: 711
+2019-02-01 10:43:20,013:INFO: 2019-02-01 10:43:19 epoch 6, step 1, loss: 0.4565, global_step: 711
+2019-02-01 10:43:39,173:INFO: 2019-02-01 10:43:19 epoch 6, step 142, loss: 0.4256, global_step: 852
+2019-02-01 10:43:39,173:INFO: 2019-02-01 10:43:19 epoch 6, step 142, loss: 0.4256, global_step: 852
+2019-02-01 10:43:39,246:INFO: ===========validation / test===========
+2019-02-01 10:43:39,246:INFO: ===========validation / test===========
+2019-02-01 10:43:40,049:INFO: processed 12148 tokens with 3609 phrases; found: 3686 phrases; correct: 3141.
+2019-02-01 10:43:40,049:INFO: processed 12148 tokens with 3609 phrases; found: 3686 phrases; correct: 3141.
+2019-02-01 10:43:40,049:INFO: accuracy:  94.10%; precision:  85.21%; recall:  87.03%; FB1:  86.11
+2019-02-01 10:43:40,049:INFO: accuracy:  94.10%; precision:  85.21%; recall:  87.03%; FB1:  86.11
+2019-02-01 10:43:40,049:INFO: COM_TYPE: precision:  92.56%; recall:  92.26%; FB1:  92.41  901
+2019-02-01 10:43:40,049:INFO: COM_TYPE: precision:  92.56%; recall:  92.26%; FB1:  92.41  901
+2019-02-01 10:43:40,050:INFO: DOMAIN: precision:  82.21%; recall:  84.38%; FB1:  83.28  933
+2019-02-01 10:43:40,050:INFO: DOMAIN: precision:  82.21%; recall:  84.38%; FB1:  83.28  933
+2019-02-01 10:43:40,050:INFO: NAME: precision:  77.90%; recall:  82.89%; FB1:  80.32  964
+2019-02-01 10:43:40,050:INFO: NAME: precision:  77.90%; recall:  82.89%; FB1:  80.32  964
+2019-02-01 10:43:40,050:INFO: REGION: precision:  90.52%; recall:  89.79%; FB1:  90.16  865
+2019-02-01 10:43:40,050:INFO: REGION: precision:  90.52%; recall:  89.79%; FB1:  90.16  865
+2019-02-01 10:43:40,050:INFO: SUB_REGION: precision:  26.09%; recall:  33.33%; FB1:  29.27  23
+2019-02-01 10:43:40,050:INFO: SUB_REGION: precision:  26.09%; recall:  33.33%; FB1:  29.27  23
+2019-02-01 10:43:40,218:INFO: 2019-02-01 10:43:40 epoch 7, step 1, loss: 0.3851, global_step: 853
+2019-02-01 10:43:40,218:INFO: 2019-02-01 10:43:40 epoch 7, step 1, loss: 0.3851, global_step: 853
+2019-02-01 10:44:00,145:INFO: 2019-02-01 10:43:40 epoch 7, step 142, loss: 0.3243, global_step: 994
+2019-02-01 10:44:00,145:INFO: 2019-02-01 10:43:40 epoch 7, step 142, loss: 0.3243, global_step: 994
+2019-02-01 10:44:00,219:INFO: ===========validation / test===========
+2019-02-01 10:44:00,219:INFO: ===========validation / test===========
+2019-02-01 10:44:00,947:INFO: processed 12148 tokens with 3609 phrases; found: 3688 phrases; correct: 3222.
+2019-02-01 10:44:00,947:INFO: processed 12148 tokens with 3609 phrases; found: 3688 phrases; correct: 3222.
+2019-02-01 10:44:00,947:INFO: accuracy:  94.83%; precision:  87.36%; recall:  89.28%; FB1:  88.31
+2019-02-01 10:44:00,947:INFO: accuracy:  94.83%; precision:  87.36%; recall:  89.28%; FB1:  88.31
+2019-02-01 10:44:00,947:INFO: COM_TYPE: precision:  93.88%; recall:  93.36%; FB1:  93.62  899
+2019-02-01 10:44:00,947:INFO: COM_TYPE: precision:  93.88%; recall:  93.36%; FB1:  93.62  899
+2019-02-01 10:44:00,947:INFO: DOMAIN: precision:  84.12%; recall:  86.80%; FB1:  85.44  938
+2019-02-01 10:44:00,947:INFO: DOMAIN: precision:  84.12%; recall:  86.80%; FB1:  85.44  938
+2019-02-01 10:44:00,947:INFO: NAME: precision:  80.65%; recall:  85.54%; FB1:  83.02  961
+2019-02-01 10:44:00,947:INFO: NAME: precision:  80.65%; recall:  85.54%; FB1:  83.02  961
+2019-02-01 10:44:00,947:INFO: REGION: precision:  92.29%; recall:  91.97%; FB1:  92.13  869
+2019-02-01 10:44:00,947:INFO: REGION: precision:  92.29%; recall:  91.97%; FB1:  92.13  869
+2019-02-01 10:44:00,947:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:44:00,947:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:44:01,111:INFO: 2019-02-01 10:44:00 epoch 8, step 1, loss: 0.389, global_step: 995
+2019-02-01 10:44:01,111:INFO: 2019-02-01 10:44:00 epoch 8, step 1, loss: 0.389, global_step: 995
+2019-02-01 10:44:20,222:INFO: 2019-02-01 10:44:00 epoch 8, step 142, loss: 0.1937, global_step: 1136
+2019-02-01 10:44:20,222:INFO: 2019-02-01 10:44:00 epoch 8, step 142, loss: 0.1937, global_step: 1136
+2019-02-01 10:44:20,294:INFO: ===========validation / test===========
+2019-02-01 10:44:20,294:INFO: ===========validation / test===========
+2019-02-01 10:44:21,055:INFO: processed 12148 tokens with 3609 phrases; found: 3648 phrases; correct: 3242.
+2019-02-01 10:44:21,055:INFO: processed 12148 tokens with 3609 phrases; found: 3648 phrases; correct: 3242.
+2019-02-01 10:44:21,055:INFO: accuracy:  95.38%; precision:  88.87%; recall:  89.83%; FB1:  89.35
+2019-02-01 10:44:21,055:INFO: accuracy:  95.38%; precision:  88.87%; recall:  89.83%; FB1:  89.35
+2019-02-01 10:44:21,055:INFO: COM_TYPE: precision:  94.00%; recall:  93.58%; FB1:  93.79  900
+2019-02-01 10:44:21,055:INFO: COM_TYPE: precision:  94.00%; recall:  93.58%; FB1:  93.79  900
+2019-02-01 10:44:21,055:INFO: DOMAIN: precision:  84.61%; recall:  86.47%; FB1:  85.53  929
+2019-02-01 10:44:21,055:INFO: DOMAIN: precision:  84.61%; recall:  86.47%; FB1:  85.53  929
+2019-02-01 10:44:21,055:INFO: NAME: precision:  83.19%; recall:  85.76%; FB1:  84.46  934
+2019-02-01 10:44:21,055:INFO: NAME: precision:  83.19%; recall:  85.76%; FB1:  84.46  934
+2019-02-01 10:44:21,055:INFO: REGION: precision:  95.02%; recall:  94.15%; FB1:  94.59  864
+2019-02-01 10:44:21,055:INFO: REGION: precision:  95.02%; recall:  94.15%; FB1:  94.59  864
+2019-02-01 10:44:21,055:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:44:21,055:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:44:21,208:INFO: 2019-02-01 10:44:21 epoch 9, step 1, loss: 0.3267, global_step: 1137
+2019-02-01 10:44:21,208:INFO: 2019-02-01 10:44:21 epoch 9, step 1, loss: 0.3267, global_step: 1137
+2019-02-01 10:44:40,084:INFO: 2019-02-01 10:44:21 epoch 9, step 142, loss: 0.2293, global_step: 1278
+2019-02-01 10:44:40,084:INFO: 2019-02-01 10:44:21 epoch 9, step 142, loss: 0.2293, global_step: 1278
+2019-02-01 10:44:40,158:INFO: ===========validation / test===========
+2019-02-01 10:44:40,158:INFO: ===========validation / test===========
+2019-02-01 10:44:41,054:INFO: processed 12148 tokens with 3609 phrases; found: 3645 phrases; correct: 3266.
+2019-02-01 10:44:41,054:INFO: processed 12148 tokens with 3609 phrases; found: 3645 phrases; correct: 3266.
+2019-02-01 10:44:41,055:INFO: accuracy:  95.52%; precision:  89.60%; recall:  90.50%; FB1:  90.05
+2019-02-01 10:44:41,055:INFO: accuracy:  95.52%; precision:  89.60%; recall:  90.50%; FB1:  90.05
+2019-02-01 10:44:41,055:INFO: COM_TYPE: precision:  94.55%; recall:  94.03%; FB1:  94.29  899
+2019-02-01 10:44:41,055:INFO: COM_TYPE: precision:  94.55%; recall:  94.03%; FB1:  94.29  899
+2019-02-01 10:44:41,055:INFO: DOMAIN: precision:  85.76%; recall:  87.46%; FB1:  86.60  927
+2019-02-01 10:44:41,055:INFO: DOMAIN: precision:  85.76%; recall:  87.46%; FB1:  86.60  927
+2019-02-01 10:44:41,055:INFO: NAME: precision:  84.21%; recall:  86.53%; FB1:  85.36  931
+2019-02-01 10:44:41,055:INFO: NAME: precision:  84.21%; recall:  86.53%; FB1:  85.36  931
+2019-02-01 10:44:41,055:INFO: REGION: precision:  95.05%; recall:  94.61%; FB1:  94.83  868
+2019-02-01 10:44:41,055:INFO: REGION: precision:  95.05%; recall:  94.61%; FB1:  94.83  868
+2019-02-01 10:44:41,055:INFO: SUB_REGION: precision:  60.00%; recall:  66.67%; FB1:  63.16  20
+2019-02-01 10:44:41,055:INFO: SUB_REGION: precision:  60.00%; recall:  66.67%; FB1:  63.16  20
+2019-02-01 10:44:41,188:INFO: 2019-02-01 10:44:41 epoch 10, step 1, loss: 0.3534, global_step: 1279
+2019-02-01 10:44:41,188:INFO: 2019-02-01 10:44:41 epoch 10, step 1, loss: 0.3534, global_step: 1279
+2019-02-01 10:45:00,763:INFO: 2019-02-01 10:44:41 epoch 10, step 142, loss: 0.2605, global_step: 1420
+2019-02-01 10:45:00,763:INFO: 2019-02-01 10:44:41 epoch 10, step 142, loss: 0.2605, global_step: 1420
+2019-02-01 10:45:00,834:INFO: ===========validation / test===========
+2019-02-01 10:45:00,834:INFO: ===========validation / test===========
+2019-02-01 10:45:01,649:INFO: processed 12148 tokens with 3609 phrases; found: 3655 phrases; correct: 3291.
+2019-02-01 10:45:01,649:INFO: processed 12148 tokens with 3609 phrases; found: 3655 phrases; correct: 3291.
+2019-02-01 10:45:01,649:INFO: accuracy:  95.65%; precision:  90.04%; recall:  91.19%; FB1:  90.61
+2019-02-01 10:45:01,649:INFO: accuracy:  95.65%; precision:  90.04%; recall:  91.19%; FB1:  90.61
+2019-02-01 10:45:01,649:INFO: COM_TYPE: precision:  94.12%; recall:  93.92%; FB1:  94.02  902
+2019-02-01 10:45:01,649:INFO: COM_TYPE: precision:  94.12%; recall:  93.92%; FB1:  94.02  902
+2019-02-01 10:45:01,650:INFO: DOMAIN: precision:  86.79%; recall:  88.89%; FB1:  87.83  931
+2019-02-01 10:45:01,650:INFO: DOMAIN: precision:  86.79%; recall:  88.89%; FB1:  87.83  931
+2019-02-01 10:45:01,650:INFO: NAME: precision:  85.67%; recall:  88.41%; FB1:  87.02  935
+2019-02-01 10:45:01,650:INFO: NAME: precision:  85.67%; recall:  88.41%; FB1:  87.02  935
+2019-02-01 10:45:01,650:INFO: REGION: precision:  94.91%; recall:  94.15%; FB1:  94.53  865
+2019-02-01 10:45:01,650:INFO: REGION: precision:  94.91%; recall:  94.15%; FB1:  94.53  865
+2019-02-01 10:45:01,650:INFO: SUB_REGION: precision:  54.55%; recall:  66.67%; FB1:  60.00  22
+2019-02-01 10:45:01,650:INFO: SUB_REGION: precision:  54.55%; recall:  66.67%; FB1:  60.00  22
+2019-02-01 10:45:01,784:INFO: 2019-02-01 10:45:01 epoch 11, step 1, loss: 0.2343, global_step: 1421
+2019-02-01 10:45:01,784:INFO: 2019-02-01 10:45:01 epoch 11, step 1, loss: 0.2343, global_step: 1421
+2019-02-01 10:45:22,913:INFO: 2019-02-01 10:45:01 epoch 11, step 142, loss: 0.3614, global_step: 1562
+2019-02-01 10:45:22,913:INFO: 2019-02-01 10:45:01 epoch 11, step 142, loss: 0.3614, global_step: 1562
+2019-02-01 10:45:22,987:INFO: ===========validation / test===========
+2019-02-01 10:45:22,987:INFO: ===========validation / test===========
+2019-02-01 10:45:23,879:INFO: processed 12148 tokens with 3609 phrases; found: 3653 phrases; correct: 3296.
+2019-02-01 10:45:23,879:INFO: processed 12148 tokens with 3609 phrases; found: 3653 phrases; correct: 3296.
+2019-02-01 10:45:23,879:INFO: accuracy:  95.80%; precision:  90.23%; recall:  91.33%; FB1:  90.77
+2019-02-01 10:45:23,879:INFO: accuracy:  95.80%; precision:  90.23%; recall:  91.33%; FB1:  90.77
+2019-02-01 10:45:23,879:INFO: COM_TYPE: precision:  94.46%; recall:  94.25%; FB1:  94.35  902
+2019-02-01 10:45:23,879:INFO: COM_TYPE: precision:  94.46%; recall:  94.25%; FB1:  94.35  902
+2019-02-01 10:45:23,879:INFO: DOMAIN: precision:  86.67%; recall:  88.67%; FB1:  87.66  930
+2019-02-01 10:45:23,879:INFO: DOMAIN: precision:  86.67%; recall:  88.67%; FB1:  87.66  930
+2019-02-01 10:45:23,879:INFO: NAME: precision:  85.64%; recall:  88.19%; FB1:  86.90  933
+2019-02-01 10:45:23,879:INFO: NAME: precision:  85.64%; recall:  88.19%; FB1:  86.90  933
+2019-02-01 10:45:23,879:INFO: REGION: precision:  95.61%; recall:  94.84%; FB1:  95.22  865
+2019-02-01 10:45:23,879:INFO: REGION: precision:  95.61%; recall:  94.84%; FB1:  95.22  865
+2019-02-01 10:45:23,879:INFO: SUB_REGION: precision:  52.17%; recall:  66.67%; FB1:  58.54  23
+2019-02-01 10:45:23,879:INFO: SUB_REGION: precision:  52.17%; recall:  66.67%; FB1:  58.54  23
+2019-02-01 10:45:24,061:INFO: 2019-02-01 10:45:23 epoch 12, step 1, loss: 0.3033, global_step: 1563
+2019-02-01 10:45:24,061:INFO: 2019-02-01 10:45:23 epoch 12, step 1, loss: 0.3033, global_step: 1563
+2019-02-01 10:45:43,022:INFO: 2019-02-01 10:45:23 epoch 12, step 142, loss: 0.2938, global_step: 1704
+2019-02-01 10:45:43,022:INFO: 2019-02-01 10:45:23 epoch 12, step 142, loss: 0.2938, global_step: 1704
+2019-02-01 10:45:43,099:INFO: ===========validation / test===========
+2019-02-01 10:45:43,099:INFO: ===========validation / test===========
+2019-02-01 10:45:43,783:INFO: processed 12148 tokens with 3609 phrases; found: 3654 phrases; correct: 3314.
+2019-02-01 10:45:43,783:INFO: processed 12148 tokens with 3609 phrases; found: 3654 phrases; correct: 3314.
+2019-02-01 10:45:43,783:INFO: accuracy:  95.93%; precision:  90.70%; recall:  91.83%; FB1:  91.26
+2019-02-01 10:45:43,783:INFO: accuracy:  95.93%; precision:  90.70%; recall:  91.83%; FB1:  91.26
+2019-02-01 10:45:43,784:INFO: COM_TYPE: precision:  94.24%; recall:  94.14%; FB1:  94.19  903
+2019-02-01 10:45:43,784:INFO: COM_TYPE: precision:  94.24%; recall:  94.14%; FB1:  94.19  903
+2019-02-01 10:45:43,784:INFO: DOMAIN: precision:  86.98%; recall:  89.66%; FB1:  88.30  937
+2019-02-01 10:45:43,784:INFO: DOMAIN: precision:  86.98%; recall:  89.66%; FB1:  88.30  937
+2019-02-01 10:45:43,784:INFO: NAME: precision:  87.38%; recall:  89.40%; FB1:  88.38  927
+2019-02-01 10:45:43,784:INFO: NAME: precision:  87.38%; recall:  89.40%; FB1:  88.38  927
+2019-02-01 10:45:43,784:INFO: REGION: precision:  95.49%; recall:  94.72%; FB1:  95.11  865
+2019-02-01 10:45:43,784:INFO: REGION: precision:  95.49%; recall:  94.72%; FB1:  95.11  865
+2019-02-01 10:45:43,784:INFO: SUB_REGION: precision:  54.55%; recall:  66.67%; FB1:  60.00  22
+2019-02-01 10:45:43,784:INFO: SUB_REGION: precision:  54.55%; recall:  66.67%; FB1:  60.00  22
+2019-02-01 10:45:43,930:INFO: 2019-02-01 10:45:43 epoch 13, step 1, loss: 0.3004, global_step: 1705
+2019-02-01 10:45:43,930:INFO: 2019-02-01 10:45:43 epoch 13, step 1, loss: 0.3004, global_step: 1705
+2019-02-01 10:46:02,723:INFO: 2019-02-01 10:45:43 epoch 13, step 142, loss: 0.184, global_step: 1846
+2019-02-01 10:46:02,723:INFO: 2019-02-01 10:45:43 epoch 13, step 142, loss: 0.184, global_step: 1846
+2019-02-01 10:46:02,800:INFO: ===========validation / test===========
+2019-02-01 10:46:02,800:INFO: ===========validation / test===========
+2019-02-01 10:46:03,539:INFO: processed 12148 tokens with 3609 phrases; found: 3659 phrases; correct: 3319.
+2019-02-01 10:46:03,539:INFO: processed 12148 tokens with 3609 phrases; found: 3659 phrases; correct: 3319.
+2019-02-01 10:46:03,539:INFO: accuracy:  96.03%; precision:  90.71%; recall:  91.96%; FB1:  91.33
+2019-02-01 10:46:03,539:INFO: accuracy:  96.03%; precision:  90.71%; recall:  91.96%; FB1:  91.33
+2019-02-01 10:46:03,539:INFO: COM_TYPE: precision:  94.26%; recall:  94.47%; FB1:  94.36  906
+2019-02-01 10:46:03,539:INFO: COM_TYPE: precision:  94.26%; recall:  94.47%; FB1:  94.36  906
+2019-02-01 10:46:03,539:INFO: DOMAIN: precision:  87.42%; recall:  89.44%; FB1:  88.42  930
+2019-02-01 10:46:03,539:INFO: DOMAIN: precision:  87.42%; recall:  89.44%; FB1:  88.42  930
+2019-02-01 10:46:03,539:INFO: NAME: precision:  86.72%; recall:  89.40%; FB1:  88.04  934
+2019-02-01 10:46:03,539:INFO: NAME: precision:  86.72%; recall:  89.40%; FB1:  88.04  934
+2019-02-01 10:46:03,539:INFO: REGION: precision:  95.84%; recall:  95.18%; FB1:  95.51  866
+2019-02-01 10:46:03,539:INFO: REGION: precision:  95.84%; recall:  95.18%; FB1:  95.51  866
+2019-02-01 10:46:03,539:INFO: SUB_REGION: precision:  52.17%; recall:  66.67%; FB1:  58.54  23
+2019-02-01 10:46:03,539:INFO: SUB_REGION: precision:  52.17%; recall:  66.67%; FB1:  58.54  23
+2019-02-01 10:46:03,689:INFO: 2019-02-01 10:46:03 epoch 14, step 1, loss: 0.2409, global_step: 1847
+2019-02-01 10:46:03,689:INFO: 2019-02-01 10:46:03 epoch 14, step 1, loss: 0.2409, global_step: 1847
+2019-02-01 10:46:22,532:INFO: 2019-02-01 10:46:03 epoch 14, step 142, loss: 0.2691, global_step: 1988
+2019-02-01 10:46:22,532:INFO: 2019-02-01 10:46:03 epoch 14, step 142, loss: 0.2691, global_step: 1988
+2019-02-01 10:46:22,606:INFO: ===========validation / test===========
+2019-02-01 10:46:22,606:INFO: ===========validation / test===========
+2019-02-01 10:46:23,332:INFO: processed 12148 tokens with 3609 phrases; found: 3649 phrases; correct: 3329.
+2019-02-01 10:46:23,332:INFO: processed 12148 tokens with 3609 phrases; found: 3649 phrases; correct: 3329.
+2019-02-01 10:46:23,332:INFO: accuracy:  96.18%; precision:  91.23%; recall:  92.24%; FB1:  91.73
+2019-02-01 10:46:23,332:INFO: accuracy:  96.18%; precision:  91.23%; recall:  92.24%; FB1:  91.73
+2019-02-01 10:46:23,332:INFO: COM_TYPE: precision:  94.26%; recall:  94.47%; FB1:  94.36  906
+2019-02-01 10:46:23,332:INFO: COM_TYPE: precision:  94.26%; recall:  94.47%; FB1:  94.36  906
+2019-02-01 10:46:23,332:INFO: DOMAIN: precision:  87.57%; recall:  89.88%; FB1:  88.71  933
+2019-02-01 10:46:23,332:INFO: DOMAIN: precision:  87.57%; recall:  89.88%; FB1:  88.71  933
+2019-02-01 10:46:23,332:INFO: NAME: precision:  87.80%; recall:  89.74%; FB1:  88.76  926
+2019-02-01 10:46:23,332:INFO: NAME: precision:  87.80%; recall:  89.74%; FB1:  88.76  926
+2019-02-01 10:46:23,332:INFO: REGION: precision:  96.52%; recall:  95.53%; FB1:  96.02  863
+2019-02-01 10:46:23,332:INFO: REGION: precision:  96.52%; recall:  95.53%; FB1:  96.02  863
+2019-02-01 10:46:23,332:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:46:23,332:INFO: SUB_REGION: precision:  57.14%; recall:  66.67%; FB1:  61.54  21
+2019-02-01 10:46:23,468:INFO: 2019-02-01 10:46:23 epoch 15, step 1, loss: 0.3491, global_step: 1989
+2019-02-01 10:46:23,468:INFO: 2019-02-01 10:46:23 epoch 15, step 1, loss: 0.3491, global_step: 1989
+2019-02-01 10:46:42,278:INFO: 2019-02-01 10:46:23 epoch 15, step 142, loss: 0.2425, global_step: 2130
+2019-02-01 10:46:42,278:INFO: 2019-02-01 10:46:23 epoch 15, step 142, loss: 0.2425, global_step: 2130
+2019-02-01 10:46:42,354:INFO: ===========validation / test===========
+2019-02-01 10:46:42,354:INFO: ===========validation / test===========
+2019-02-01 10:46:43,093:INFO: processed 12148 tokens with 3609 phrases; found: 3651 phrases; correct: 3348.
+2019-02-01 10:46:43,093:INFO: processed 12148 tokens with 3609 phrases; found: 3651 phrases; correct: 3348.
+2019-02-01 10:46:43,093:INFO: accuracy:  96.41%; precision:  91.70%; recall:  92.77%; FB1:  92.23
+2019-02-01 10:46:43,093:INFO: accuracy:  96.41%; precision:  91.70%; recall:  92.77%; FB1:  92.23
+2019-02-01 10:46:43,093:INFO: COM_TYPE: precision:  94.85%; recall:  95.69%; FB1:  95.26  912
+2019-02-01 10:46:43,093:INFO: COM_TYPE: precision:  94.85%; recall:  95.69%; FB1:  95.26  912
+2019-02-01 10:46:43,093:INFO: DOMAIN: precision:  88.27%; recall:  90.21%; FB1:  89.23  929
+2019-02-01 10:46:43,093:INFO: DOMAIN: precision:  88.27%; recall:  90.21%; FB1:  89.23  929
+2019-02-01 10:46:43,093:INFO: NAME: precision:  87.99%; recall:  89.74%; FB1:  88.85  924
+2019-02-01 10:46:43,093:INFO: NAME: precision:  87.99%; recall:  89.74%; FB1:  88.85  924
+2019-02-01 10:46:43,093:INFO: REGION: precision:  96.76%; recall:  95.99%; FB1:  96.37  865
+2019-02-01 10:46:43,093:INFO: REGION: precision:  96.76%; recall:  95.99%; FB1:  96.37  865
+2019-02-01 10:46:43,093:INFO: SUB_REGION: precision:  61.90%; recall:  72.22%; FB1:  66.67  21
+2019-02-01 10:46:43,093:INFO: SUB_REGION: precision:  61.90%; recall:  72.22%; FB1:  66.67  21
+2019-02-01 10:46:43,244:INFO: 2019-02-01 10:46:43 epoch 16, step 1, loss: 0.3669, global_step: 2131
+2019-02-01 10:46:43,244:INFO: 2019-02-01 10:46:43 epoch 16, step 1, loss: 0.3669, global_step: 2131
+2019-02-01 10:47:02,036:INFO: 2019-02-01 10:46:43 epoch 16, step 142, loss: 0.2898, global_step: 2272
+2019-02-01 10:47:02,036:INFO: 2019-02-01 10:46:43 epoch 16, step 142, loss: 0.2898, global_step: 2272
+2019-02-01 10:47:02,108:INFO: ===========validation / test===========
+2019-02-01 10:47:02,108:INFO: ===========validation / test===========
+2019-02-01 10:47:02,937:INFO: processed 12148 tokens with 3609 phrases; found: 3642 phrases; correct: 3362.
+2019-02-01 10:47:02,937:INFO: processed 12148 tokens with 3609 phrases; found: 3642 phrases; correct: 3362.
+2019-02-01 10:47:02,937:INFO: accuracy:  96.47%; precision:  92.31%; recall:  93.16%; FB1:  92.73
+2019-02-01 10:47:02,937:INFO: accuracy:  96.47%; precision:  92.31%; recall:  93.16%; FB1:  92.73
+2019-02-01 10:47:02,937:INFO: COM_TYPE: precision:  95.48%; recall:  95.91%; FB1:  95.70  908
+2019-02-01 10:47:02,937:INFO: COM_TYPE: precision:  95.48%; recall:  95.91%; FB1:  95.70  908
+2019-02-01 10:47:02,937:INFO: DOMAIN: precision:  88.83%; recall:  90.98%; FB1:  89.89  931
+2019-02-01 10:47:02,937:INFO: DOMAIN: precision:  88.83%; recall:  90.98%; FB1:  89.89  931
+2019-02-01 10:47:02,937:INFO: NAME: precision:  88.50%; recall:  90.07%; FB1:  89.28  922
+2019-02-01 10:47:02,937:INFO: NAME: precision:  88.50%; recall:  90.07%; FB1:  89.28  922
+2019-02-01 10:47:02,937:INFO: REGION: precision:  97.11%; recall:  96.33%; FB1:  96.72  865
+2019-02-01 10:47:02,937:INFO: REGION: precision:  97.11%; recall:  96.33%; FB1:  96.72  865
+2019-02-01 10:47:02,937:INFO: SUB_REGION: precision:  75.00%; recall:  66.67%; FB1:  70.59  16
+2019-02-01 10:47:02,937:INFO: SUB_REGION: precision:  75.00%; recall:  66.67%; FB1:  70.59  16
+2019-02-01 10:47:03,077:INFO: 2019-02-01 10:47:02 epoch 17, step 1, loss: 0.1006, global_step: 2273
+2019-02-01 10:47:03,077:INFO: 2019-02-01 10:47:02 epoch 17, step 1, loss: 0.1006, global_step: 2273
+2019-02-01 10:47:21,973:INFO: 2019-02-01 10:47:02 epoch 17, step 142, loss: 0.3438, global_step: 2414
+2019-02-01 10:47:21,973:INFO: 2019-02-01 10:47:02 epoch 17, step 142, loss: 0.3438, global_step: 2414
+2019-02-01 10:47:22,046:INFO: ===========validation / test===========
+2019-02-01 10:47:22,046:INFO: ===========validation / test===========
+2019-02-01 10:47:22,820:INFO: processed 12148 tokens with 3609 phrases; found: 3655 phrases; correct: 3361.
+2019-02-01 10:47:22,820:INFO: processed 12148 tokens with 3609 phrases; found: 3655 phrases; correct: 3361.
+2019-02-01 10:47:22,820:INFO: accuracy:  96.46%; precision:  91.96%; recall:  93.13%; FB1:  92.54
+2019-02-01 10:47:22,820:INFO: accuracy:  96.46%; precision:  91.96%; recall:  93.13%; FB1:  92.54
+2019-02-01 10:47:22,820:INFO: COM_TYPE: precision:  94.93%; recall:  95.35%; FB1:  95.14  908
+2019-02-01 10:47:22,820:INFO: COM_TYPE: precision:  94.93%; recall:  95.35%; FB1:  95.14  908
+2019-02-01 10:47:22,820:INFO: DOMAIN: precision:  87.93%; recall:  90.54%; FB1:  89.21  936
+2019-02-01 10:47:22,820:INFO: DOMAIN: precision:  87.93%; recall:  90.54%; FB1:  89.21  936
+2019-02-01 10:47:22,820:INFO: NAME: precision:  88.58%; recall:  90.73%; FB1:  89.64  928
+2019-02-01 10:47:22,820:INFO: NAME: precision:  88.58%; recall:  90.73%; FB1:  89.64  928
+2019-02-01 10:47:22,820:INFO: REGION: precision:  97.11%; recall:  96.44%; FB1:  96.78  866
+2019-02-01 10:47:22,820:INFO: REGION: precision:  97.11%; recall:  96.44%; FB1:  96.78  866
+2019-02-01 10:47:22,820:INFO: SUB_REGION: precision:  76.47%; recall:  72.22%; FB1:  74.29  17
+2019-02-01 10:47:22,820:INFO: SUB_REGION: precision:  76.47%; recall:  72.22%; FB1:  74.29  17
+2019-02-01 10:47:22,971:INFO: 2019-02-01 10:47:22 epoch 18, step 1, loss: 0.2247, global_step: 2415
+2019-02-01 10:47:22,971:INFO: 2019-02-01 10:47:22 epoch 18, step 1, loss: 0.2247, global_step: 2415
+2019-02-01 10:47:41,742:INFO: 2019-02-01 10:47:22 epoch 18, step 142, loss: 0.2437, global_step: 2556
+2019-02-01 10:47:41,742:INFO: 2019-02-01 10:47:22 epoch 18, step 142, loss: 0.2437, global_step: 2556
+2019-02-01 10:47:41,814:INFO: ===========validation / test===========
+2019-02-01 10:47:41,814:INFO: ===========validation / test===========
+2019-02-01 10:47:42,526:INFO: processed 12148 tokens with 3609 phrases; found: 3658 phrases; correct: 3371.
+2019-02-01 10:47:42,526:INFO: processed 12148 tokens with 3609 phrases; found: 3658 phrases; correct: 3371.
+2019-02-01 10:47:42,526:INFO: accuracy:  96.61%; precision:  92.15%; recall:  93.41%; FB1:  92.78
+2019-02-01 10:47:42,526:INFO: accuracy:  96.61%; precision:  92.15%; recall:  93.41%; FB1:  92.78
+2019-02-01 10:47:42,526:INFO: COM_TYPE: precision:  95.18%; recall:  96.02%; FB1:  95.59  912
+2019-02-01 10:47:42,526:INFO: COM_TYPE: precision:  95.18%; recall:  96.02%; FB1:  95.59  912
+2019-02-01 10:47:42,527:INFO: DOMAIN: precision:  88.65%; recall:  91.09%; FB1:  89.85  934
+2019-02-01 10:47:42,527:INFO: DOMAIN: precision:  88.65%; recall:  91.09%; FB1:  89.85  934
+2019-02-01 10:47:42,527:INFO: NAME: precision:  88.76%; recall:  90.62%; FB1:  89.68  925
+2019-02-01 10:47:42,527:INFO: NAME: precision:  88.76%; recall:  90.62%; FB1:  89.68  925
+2019-02-01 10:47:42,527:INFO: REGION: precision:  97.34%; recall:  96.44%; FB1:  96.89  864
+2019-02-01 10:47:42,527:INFO: REGION: precision:  97.34%; recall:  96.44%; FB1:  96.89  864
+2019-02-01 10:47:42,527:INFO: SUB_REGION: precision:  56.52%; recall:  72.22%; FB1:  63.41  23
+2019-02-01 10:47:42,527:INFO: SUB_REGION: precision:  56.52%; recall:  72.22%; FB1:  63.41  23
+2019-02-01 10:47:42,674:INFO: 2019-02-01 10:47:42 epoch 19, step 1, loss: 0.1591, global_step: 2557
+2019-02-01 10:47:42,674:INFO: 2019-02-01 10:47:42 epoch 19, step 1, loss: 0.1591, global_step: 2557
+2019-02-01 10:48:01,335:INFO: 2019-02-01 10:47:42 epoch 19, step 142, loss: 0.1896, global_step: 2698
+2019-02-01 10:48:01,335:INFO: 2019-02-01 10:47:42 epoch 19, step 142, loss: 0.1896, global_step: 2698
+2019-02-01 10:48:01,407:INFO: ===========validation / test===========
+2019-02-01 10:48:01,407:INFO: ===========validation / test===========
+2019-02-01 10:48:02,162:INFO: processed 12148 tokens with 3609 phrases; found: 3650 phrases; correct: 3358.
+2019-02-01 10:48:02,162:INFO: processed 12148 tokens with 3609 phrases; found: 3650 phrases; correct: 3358.
+2019-02-01 10:48:02,162:INFO: accuracy:  96.49%; precision:  92.00%; recall:  93.05%; FB1:  92.52
+2019-02-01 10:48:02,162:INFO: accuracy:  96.49%; precision:  92.00%; recall:  93.05%; FB1:  92.52
+2019-02-01 10:48:02,162:INFO: COM_TYPE: precision:  94.64%; recall:  95.69%; FB1:  95.16  914
+2019-02-01 10:48:02,162:INFO: COM_TYPE: precision:  94.64%; recall:  95.69%; FB1:  95.16  914
+2019-02-01 10:48:02,162:INFO: DOMAIN: precision:  88.53%; recall:  90.87%; FB1:  89.69  933
+2019-02-01 10:48:02,162:INFO: DOMAIN: precision:  88.53%; recall:  90.87%; FB1:  89.69  933
+2019-02-01 10:48:02,162:INFO: NAME: precision:  88.41%; recall:  90.07%; FB1:  89.23  923
+2019-02-01 10:48:02,162:INFO: NAME: precision:  88.41%; recall:  90.07%; FB1:  89.23  923
+2019-02-01 10:48:02,162:INFO: REGION: precision:  97.33%; recall:  96.10%; FB1:  96.71  861
+2019-02-01 10:48:02,162:INFO: REGION: precision:  97.33%; recall:  96.10%; FB1:  96.71  861
+2019-02-01 10:48:02,162:INFO: SUB_REGION: precision:  68.42%; recall:  72.22%; FB1:  70.27  19
+2019-02-01 10:48:02,162:INFO: SUB_REGION: precision:  68.42%; recall:  72.22%; FB1:  70.27  19
+2019-02-01 10:48:02,284:INFO: 2019-02-01 10:48:02 epoch 20, step 1, loss: 0.1893, global_step: 2699
+2019-02-01 10:48:02,284:INFO: 2019-02-01 10:48:02 epoch 20, step 1, loss: 0.1893, global_step: 2699
+2019-02-01 10:48:21,080:INFO: 2019-02-01 10:48:02 epoch 20, step 142, loss: 0.2017, global_step: 2840
+2019-02-01 10:48:21,080:INFO: 2019-02-01 10:48:02 epoch 20, step 142, loss: 0.2017, global_step: 2840
+2019-02-01 10:48:21,153:INFO: ===========validation / test===========
+2019-02-01 10:48:21,153:INFO: ===========validation / test===========
+2019-02-01 10:48:21,880:INFO: processed 12148 tokens with 3609 phrases; found: 3658 phrases; correct: 3367.
+2019-02-01 10:48:21,880:INFO: processed 12148 tokens with 3609 phrases; found: 3658 phrases; correct: 3367.
+2019-02-01 10:48:21,880:INFO: accuracy:  96.57%; precision:  92.04%; recall:  93.29%; FB1:  92.67
+2019-02-01 10:48:21,880:INFO: accuracy:  96.57%; precision:  92.04%; recall:  93.29%; FB1:  92.67
+2019-02-01 10:48:21,880:INFO: COM_TYPE: precision:  95.19%; recall:  96.24%; FB1:  95.71  914
+2019-02-01 10:48:21,880:INFO: COM_TYPE: precision:  95.19%; recall:  96.24%; FB1:  95.71  914
+2019-02-01 10:48:21,880:INFO: DOMAIN: precision:  88.77%; recall:  91.31%; FB1:  90.02  935
+2019-02-01 10:48:21,880:INFO: DOMAIN: precision:  88.77%; recall:  91.31%; FB1:  90.02  935
+2019-02-01 10:48:21,880:INFO: NAME: precision:  88.31%; recall:  90.07%; FB1:  89.18  924
+2019-02-01 10:48:21,880:INFO: NAME: precision:  88.31%; recall:  90.07%; FB1:  89.18  924
+2019-02-01 10:48:21,880:INFO: REGION: precision:  96.88%; recall:  96.10%; FB1:  96.49  865
+2019-02-01 10:48:21,880:INFO: REGION: precision:  96.88%; recall:  96.10%; FB1:  96.49  865
+2019-02-01 10:48:21,880:INFO: SUB_REGION: precision:  65.00%; recall:  72.22%; FB1:  68.42  20
+2019-02-01 10:48:21,880:INFO: SUB_REGION: precision:  65.00%; recall:  72.22%; FB1:  68.42  20
+2019-02-01 10:50:24,908:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='demo', output_path='result_path', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-01 10:50:25,857:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-01 10:50:25,857:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-01 10:51:03,662:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='apply', output_path='result_path', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-01 10:51:04,627:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-01 10:51:04,627:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-01 10:51:44,610:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='apply', output_path='result_path', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-01 10:51:45,553:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-01 10:51:45,553:INFO: Restoring parameters from ./result_path/1548988896/checkpoints/model-2840
+2019-02-11 17:03:27,313:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='apply', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-02-11 17:03:27,432:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='apply', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-02-11 17:03:27,432:INFO: Namespace(batch_size=64, clip=2.0, demo_model='1548988896', dropout=0.1, embedding_dim=200, epoch=20, hidden_dim=200, lr=0.001, mode='apply', pretrain_embedding='random', shuffle=True, update_embedding=True)
+2019-02-11 17:03:34,163:INFO: Restoring parameters from /home/wyl/PycharmProjects/comrec/ComRec/result_path/1548988896/checkpoints/model-2840
+2019-02-11 17:03:34,163:INFO: Restoring parameters from /home/wyl/PycharmProjects/comrec/ComRec/result_path/1548988896/checkpoints/model-2840
+2019-02-11 17:03:34,163:INFO: Restoring parameters from /home/wyl/PycharmProjects/comrec/ComRec/result_path/1548988896/checkpoints/model-2840

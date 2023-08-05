@@ -1,0 +1,2 @@
+recursive-include ComRec/data_path *
+recursive-include ComRec/result_path *

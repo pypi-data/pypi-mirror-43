@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: fuyun-ComRec
+Version: 0.0.5
+Summary: 福韵公司字号提取项目
+Home-page: https://github.com/wyl-nlp/ComRec
+Author: wangyilang
+Author-email: wylkowe@qq.com
+License: UNKNOWN
+Description: 公司字号提取
+Keywords: pip,company,ner,fuyun
+Platform: any
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3.6
