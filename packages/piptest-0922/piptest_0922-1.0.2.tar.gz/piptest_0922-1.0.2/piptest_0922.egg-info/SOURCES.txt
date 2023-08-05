@@ -1,0 +1,7 @@
+setup.py
+piptest/__init__.py
+piptest_0922.egg-info/PKG-INFO
+piptest_0922.egg-info/SOURCES.txt
+piptest_0922.egg-info/dependency_links.txt
+piptest_0922.egg-info/entry_points.txt
+piptest_0922.egg-info/top_level.txt
