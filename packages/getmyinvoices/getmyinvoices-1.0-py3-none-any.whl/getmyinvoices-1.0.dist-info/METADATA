@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: getmyinvoices
+Version: 1.0
+Summary: A python client for the GetMyInvoices API
+Home-page: https://github.com/getmyinvoices/accounts-api-python
+Author: Ben Barten
+Author-email: bba@fino.digital
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 (==1.24.1)
+
+# accounts-api-python
+
+This repository serves as a python API client for the GetMyInvoices API
+
+
+##### Maintainer
+[Ben Barten](mailto:bba@fino.digital)
+
+
