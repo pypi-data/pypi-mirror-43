@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+rasa.egg-info/PKG-INFO
+rasa.egg-info/SOURCES.txt
+rasa.egg-info/dependency_links.txt
+rasa.egg-info/entry_points.txt
+rasa.egg-info/requires.txt
+rasa.egg-info/top_level.txt
