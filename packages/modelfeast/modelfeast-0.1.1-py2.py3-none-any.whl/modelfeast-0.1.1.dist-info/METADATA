@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: modelfeast
+Version: 0.1.1
+Summary: Pytorch model zoo
+Home-page: https://github.com/daili0015/ModelFeast
+Author: Chengyao Zheng
+Author-email: daili0015@gmail.com
+License: MIT License
+Platform: all
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: torch (>=1.0.0)
+
+Pytorch model zoo for human, include all kinds of 2D CNN, 3D CNN, and CRNN
+
+
