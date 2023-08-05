@@ -1,0 +1,7 @@
+README.md
+setup.py
+scapy_real.egg-info/PKG-INFO
+scapy_real.egg-info/SOURCES.txt
+scapy_real.egg-info/dependency_links.txt
+scapy_real.egg-info/not-zip-safe
+scapy_real.egg-info/top_level.txt
