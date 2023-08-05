@@ -1,0 +1,8 @@
+cli_pipeline/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli_pipeline/cli_pipeline.py,sha256=isukgZwB-DXuYrUPAz_x2FuWFEDa0YizTS5lcX6IcM0,222613
+cli_pipeline/image_to_pixels.py,sha256=hIvFGQgAylvw-3XBgwFexaD34zqostBNSoBVh3i-MLo,6368
+cli_pipeline-1.5.302.dist-info/METADATA,sha256=-rqBv9MtvmgyKrwYd5SK8Qw1DhYxkVGVoibv0-deLXI,1009
+cli_pipeline-1.5.302.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+cli_pipeline-1.5.302.dist-info/entry_points.txt,sha256=xfNXOZo1Z4Sw0ZhmGW6jrcEBKkbSF3S6U3U_tK4j3ME,62
+cli_pipeline-1.5.302.dist-info/top_level.txt,sha256=TXH6pnrpoHf32HHiFmu2AqPsP7op_GJR8eoI3jcKUBA,13
+cli_pipeline-1.5.302.dist-info/RECORD,,
