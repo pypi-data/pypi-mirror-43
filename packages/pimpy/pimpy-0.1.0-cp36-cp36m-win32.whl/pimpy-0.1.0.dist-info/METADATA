@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pimpy
+Version: 0.1.0
+Summary: Contains selected image processing functions
+Home-page: https://gitlab.com/pschill/pimpy
+Author: Philip Schill
+Author-email: philip.schill@gmx.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy (>=1.1)
+
+pimpy
+=====
+
+*pimpy* is a python package that contains some selected image processing functions.
+
+Installing
+----------
+
+Install from pip::
+
+    python -m pip install pimpy
+
+Overview:
+---------
+
+Currently, *pimpy* consists of the modules ``color_cluster``, ``smoothing``, and ``transformations``. The
+``color_cluster`` and ``smoothing`` modules are just convenience wrappers around some ``numpy`` and ``scipy`` functions.
+
+Function list:
+~~~~~~~~~~~~~~
+
+``color_cluster.reduce_image``: Performs a k-means clustering to find the most prominent colors of an n-dimensional
+image.
+
+``color_cluster.find_nearest_colors``: Maps each color of an n-dimensional image to the closest color of a given list.
+
+``color_cluster.extract_colors``: Finds all unique color values of an n-dimensional image and returns the unique color
+values and an image that contains color indices instead of color values.
+
+``smoothing.gaussian_smoothing``: Performs a gaussian smoothing on an n-dimensional color image.
+
+``transformations.create_edge_image``: Computes an edge image from a given gray or rgb image.
+
+``transformations.find_poles_of_inaccessibility_of_edge_image``: Returns the a list with points that are the farthest
+away from the edges.
+
+

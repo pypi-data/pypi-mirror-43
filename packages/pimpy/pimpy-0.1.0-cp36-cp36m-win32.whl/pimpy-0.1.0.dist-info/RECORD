@@ -1,0 +1,10 @@
+pimpy_c.cp36-win32.pyd,sha256=Bj3oeiVKKp0xah1Hz5vaJ4GOg0AF5h6hV5BQXuGX6AM,59392
+pimpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pimpy/color_cluster.py,sha256=sbqzbYg6anOjYpP9gfjWfIFp1VTKOQORlU5r64aBv50,2080
+pimpy/smoothing.py,sha256=Ddo-rJ1qRvzrOAc4nf3pYOY2GXl1Om1_yt23ak85_WU,279
+pimpy/transformations.py,sha256=LHn3JhQN_fFFfUK9bSIjugJ_AE6aR6S52Sxe_HblhZo,1498
+pimpy-0.1.0.dist-info/LICENSE.txt,sha256=q-M3fzfvxVqOIiUudw1_VXqT91lZBbe8JONrWVQwecQ,1093
+pimpy-0.1.0.dist-info/METADATA,sha256=PVaByEWLqGju1_Z_iV7kIsPadrcx4dHv1C5g1F-LORg,1745
+pimpy-0.1.0.dist-info/WHEEL,sha256=JzwLJJKKKvfM5aa8ugjHzCZbTNPVJ6p0eHfrxsgrcE8,102
+pimpy-0.1.0.dist-info/top_level.txt,sha256=DWUvqprzFHFRMRMqgkPyMfSmzw3S-zCwsxpdj1tICRo,14
+pimpy-0.1.0.dist-info/RECORD,,
