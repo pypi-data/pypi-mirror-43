@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: ydoc-theme
+Version: 1.0
+Summary: Customized Read the Docs theme for Sphinx
+Home-page: UNKNOWN
+Author: Alex Solntsev, Mail.ru Group, youla
+Author-email: prplfish@yandex.ru
+License: MIT
+Description: 
+        =============================
+        Theme for youla documentation
+        =============================
+        
+        
+        Installing
+        ==========
+        
+        The theme is distributed on PyPI_ and can be installed with pip::
+        
+        :code:`pip install ydoc_theme`
+        
+        
+        Configuration
+        =============
+        
+        
+        Contributing
+        ============
+        
+Platform: UNKNOWN
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
