@@ -1,0 +1,3 @@
+[console_scripts]
+pep508_parser = pep508_parser.pep508_parser:main
+
