@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyinfinitive/__init__.py
+pyinfinitive/pyinfinitive.py
+pyinfinitive.egg-info/PKG-INFO
+pyinfinitive.egg-info/SOURCES.txt
+pyinfinitive.egg-info/dependency_links.txt
+pyinfinitive.egg-info/top_level.txt
