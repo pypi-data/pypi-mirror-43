@@ -1,0 +1,47 @@
+Metadata-Version: 1.1
+Name: sidefx-web
+Version: 0.3.0
+Summary: Simple tool for using the SideFX Web API
+Home-page: https://github.com/zxiiro/sidefx-web-cli
+Author: Thanh Ha
+Author-email: zxiiro@linux.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/zxiiro/sidefx-web-cli/issues
+Project-URL: Source Code, https://github.com/zxiiro/sidefx-web-cli
+Description: # sidefx-web
+        Simple CLI tool for using the SideFX Web API.
+        
+        ## Install
+        
+        ```bash
+        pip install sidefx-web
+        ```
+        
+        ## Example Usages
+        
+        ### List houdini versions
+        
+        ```bash
+        sidefx-web list-builds -h                             # Print help message
+        sidefx-web list-builds houdini
+        sidefx-web list-builds houdini-qt4 --only-production  # Filter only production builds
+        sidefx-web list-builds houdini --version 16.5         # Filter version e.g. 16.5, 17.0
+        sidefx-web list-builds houdini --platform linux       # Filter platform: linux, macos, win64
+        ```
+        
+        ### Download houdini
+        ```bash
+        sidefx-web download -h                      # Print help message
+        sidefx-web download houdini 16.5 496 linux  # Download houdini 16.5 build 496 for linux
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

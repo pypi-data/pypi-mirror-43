@@ -1,0 +1,24 @@
+CHANGES
+=======
+
+v0.3.0
+------
+
+* Set description content type to markdown
+
+v0.2.0
+------
+
+* Add install instructions
+* Turn sidefx\_web.py into a package
+
+v0.1.0
+------
+
+* Update web links
+* Add Example usage for sidefx-web
+* Add command to download houdini
+* Add command to list available builds
+* Add token caching
+* Initialize project and add token API
+* Initial commit
