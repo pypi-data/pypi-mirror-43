@@ -1,0 +1,11 @@
+alooma_pysdk/__init__.py,sha256=WAuLIJJ6ukE0OwfWVeWYiqoydNfoEO24yIACI2MfFMo,86
+alooma_pysdk/alooma_ca,sha256=9mC4swR1HAdbbHpoAddg1rI2gkl-wSArq-gCschz-vg,2660
+alooma_pysdk/alooma_pysdk.py,sha256=p2zqv__2e8xv_8KVq2b6xSvmp-bpfQMM8B6r8OaRbYA,28226
+alooma_pysdk/consts.py,sha256=5zficjvMBfFMyISi1fhy8oBNIXyuk3m5uKS6Eh7yuNw,3317
+alooma_pysdk/py2to3.py,sha256=Y2eQnKzI6ElU1V3aKH6L5dICadKe5NOcKXZBTEYsxmA,294
+alooma_pysdk/pysdk_exceptions.py,sha256=H23QnsEN3Q_MHMrb2ESUsprhioyi4y2cOLDH2j1xWhw,522
+alooma_pysdk-2.1.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+alooma_pysdk-2.1.dist-info/METADATA,sha256=yfbN8iYebXAz1HaIZ-AdcFl-uHqQ2AqeiEFv-c0622Y,373
+alooma_pysdk-2.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+alooma_pysdk-2.1.dist-info/top_level.txt,sha256=XS4XrtMBgLm-mx-oSit37sgsUhbovqM-qPM1GtN3TEc,13
+alooma_pysdk-2.1.dist-info/RECORD,,
