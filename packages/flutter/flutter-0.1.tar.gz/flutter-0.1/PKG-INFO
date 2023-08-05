@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: flutter
+Version: 0.1
+Summary: Convert unstructured data into type-safe dataclasses.
+Home-page: https://github.com/i80and/flutter
+Author: Andrew Aldridge
+Author-email: i80and@foxquill.com
