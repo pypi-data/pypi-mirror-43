@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pypi-helloworld
+Version: 0.1
+Summary: oissu!
+Home-page: UNKNOWN
+Author: ababa
+Author-email: UNKNOWN
+License: MIT
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests (>=2.14.2)
+
+UNKNOWN
+
+
