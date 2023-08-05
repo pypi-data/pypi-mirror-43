@@ -1,0 +1,3 @@
+[console_scripts]
+meos_sdk = meos_sdk.cli:meos_sdk
+
