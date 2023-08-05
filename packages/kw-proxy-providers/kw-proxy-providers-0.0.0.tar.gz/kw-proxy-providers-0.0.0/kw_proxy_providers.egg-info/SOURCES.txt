@@ -1,0 +1,5 @@
+setup.py
+kw_proxy_providers.egg-info/PKG-INFO
+kw_proxy_providers.egg-info/SOURCES.txt
+kw_proxy_providers.egg-info/dependency_links.txt
+kw_proxy_providers.egg-info/top_level.txt
