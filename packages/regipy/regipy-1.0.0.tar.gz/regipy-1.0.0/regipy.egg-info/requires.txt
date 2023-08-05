@@ -1,0 +1,14 @@
+attrs
+click
+construct
+inflection
+jsonlines
+logbook
+pytz
+tabulate
+tqdm
+
+[test]
+pytest
+pytest-pep8
+pytest-flakes
