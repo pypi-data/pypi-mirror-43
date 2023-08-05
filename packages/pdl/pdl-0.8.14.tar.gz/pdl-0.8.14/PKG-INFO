@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pdl
+Version: 0.8.14
+Summary: Python Download Lib
+Home-page: https://github.com/zerotosingularity/pdl
+Author: Zero to singularity
+Author-email: jan@zerotosingularity.com
+License: MIT
+Description: Easily download and explore public datasets.
+Platform: UNKNOWN
