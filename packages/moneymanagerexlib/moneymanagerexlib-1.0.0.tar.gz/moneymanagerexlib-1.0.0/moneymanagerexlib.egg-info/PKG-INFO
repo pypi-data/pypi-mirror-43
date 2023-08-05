@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: moneymanagerexlib
+Version: 1.0.0
+Summary: Money Manager Ex data access layer
+Home-page: https://gitlab.com/alensiljak/moneymanagerexlib
+Author: Alen Siljak
+Author-email: alen.siljak@gmx.com
+License: GPL version 3
+Description: # MoneyManagerExLib
+        
+        Python library (Data Access Layer) for reading Money Manager Ex database.
+        
+        It uses SQLAlchemy to define the data schema for the MMEX database.
+        
+        Useful for scripts that read/write the data in .mmb files.
+        
+        Available on PyPi at https://pypi.org/project/moneymanagerexlib/
+        
+        ## GnuCash Import
+        
+        GnuCash CSV import offers a "Multi-split" mode. This will import multiple splits for one transaction based on the transaction id.
+        
+Keywords: personal finance
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
