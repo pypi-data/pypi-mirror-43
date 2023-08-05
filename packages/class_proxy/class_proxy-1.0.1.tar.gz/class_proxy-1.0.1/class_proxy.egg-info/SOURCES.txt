@@ -1,0 +1,12 @@
+AUTHORS.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+class_proxy.py
+setup.py
+class_proxy.egg-info/PKG-INFO
+class_proxy.egg-info/SOURCES.txt
+class_proxy.egg-info/dependency_links.txt
+class_proxy.egg-info/top_level.txt
+class_proxy.egg-info/zip-safe
