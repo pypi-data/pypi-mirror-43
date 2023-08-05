@@ -1,0 +1,7 @@
+[console_scripts]
+libertymerge = librecell.liberty.merge:main
+libertyviz = librecell.liberty.visualize:main_plot_timing
+librecell = librecell.standalone:main
+librecell_characterize = librecell.characterization.standalone:main
+librecell_size = librecell.transistor_sizing.width_opt:main
+
