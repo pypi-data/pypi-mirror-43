@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: whattime
+Version: 0.1.0
+Summary: Checking what kind of time a date is.
+Home-page: https://github.com/grammofy/whattime
+Author: Paul Götze
+Author-email: paul.christoph.goetze@gmail.com
+Maintainer: Paul Götze
+Maintainer-email: paul.christoph.goetze@gmail.com
+License: MIT
+Description: ========
+        whattime
+        ========
+        
+        Checking of what kind a datetime object is.
+        
+        Description
+        ===========
+        
+        whattime let’s you explore of what kind a certain datetime object is, if it e.g. is on a weekend, or in the evening.
+        
+        Getting started
+        ---------------
+        
+        For quickly getting started, just import the ``whattime`` function and explore a date’s properties (see the `Get started example <examples/get_started.py>`_).
+        
+        .. include:: examples/get_started.py
+           :code: python
+        
+        Besides checking all the time types you can also only check a certain category of types, e.g. info about the current day, or the time within a day seperately (see the `Single info type example <examples/using_certain_descriptors_only.py>`_).
+        
+        .. include:: examples/using_certain_descriptors_only.py
+           :code: python
+        
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Provides-Extra: testing
