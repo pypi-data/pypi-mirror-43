@@ -1,0 +1,707 @@
+.TH VT 1
+.SH NAME
+.PP
+vt \- command line interface to the vt data store
+.SH SYNOPSIS
+.PP
+\fB\fCvt\fR [\fIoption\fP\&...] [\fB\fCprofile\fR] \fIsubcommand\fP [\fIarg\fP\&...]
+.SH DESCRIPTION
+.PP
+The vt storage system consists of two parts:
+a Store, which is a collection of data blocks indexed by their hashcodes;
+a file tree, which is a representation of a directory tree and its files.
+.PP
+Because blocks are indexed by the hashcode of their contents
+repeated appearance of the same contents
+do not consume additional copies of the blocks in the Store.
+Repeated content may be as simple as multiple copies of the same file
+but also repeated occurences of data within a file.
+.PP
+The 
+.BR vt (1) 
+command provides convenient access to the system,
+notably via the following subcommands:
+.RS
+.IP \(bu 2
+\fB\fCpack\fR \fIpath\fP:
+copy the contents of the directory \fIpath\fP
+into the Store,
+record its reference in the file \fIpath\fP\fB\fC\&.vt\fR
+then remove \fIpath\fP\&.
+.IP \(bu 2
+\fB\fCunpack\fR \fIpath\fP\fB\fC\&.vt\fR:
+copy the contents referenced by the file \fIpath\fP\fB\fC\&.vt\fR
+from the Store
+to the directory \fIpath\fP\&.
+.IP \(bu 2
+\fB\fCmount\fR \fIpath\fP\fB\fC\&.vt\fR:
+use FUSE to mount the contents referenced by the file \fIpath\fP\fB\fC\&.vt\fR as \fIpath\fP,
+fetching contents from the Store as needed.
+The mounted tree can be accessed or modified like any other filesystem
+and the file \fIpath\fP\fB\fC\&.vt\fR is updated to refer to the new contents on unmount.
+.RE
+.PP
+These and other subcommands are detailed below.
+.PP
+The remaining object encountered is the "archive",
+which is simply a text file
+containing a record of file tree top directories.
+Conventionally these files have a \fB\fC\&.vt\fR suffix.
+The \fB\fCpack\fR subcommand creates or updates these,
+\fB\fCunpack\fR command\fB\fCextracts these,
+the\fRmount` subcommand mounts these
+and updates the archive which changes on unmount.
+.PP
+Archives are referenced in two ways:
+.RS
+.IP \(bu 2
+\fIpath\fP\fB\fC\&.vt\fR: as a plain pathname to a file ending in \fB\fC\&.vt\fR
+.IP \(bu 2
+\fB\fC[\fR\fIclause\fP\fB\fC]\fR\fIname\fP: indicating an archive associated
+with a Store.
+The \fIname\fP is optional, as Stores have a default archive file,
+but otherwise should be an identifier.
+.RE
+.PP
+The latter form accesses an archive file associated with a Store
+and provide convenient access to file trees from that Store.
+The \fIname\fP is optional as each Store has a default archive.
+.SH GETTING STARTED
+.PP
+Run the command \fB\fCvt init\fR;
+this will create an initial \fB\fC~/.vtrc\fR file
+and empty default Stores.
+.SH OPTIONS
+.PP
+\fB\fC\-C\fR \fIcache_store\fP
+.IP
+Specify the Store to use as a cache.
+Specify \fB\fCNONE\fR for no \fIcache_store\fP\&.
+The default cache
+comes from the environment variable \fB\fC$VT_CACHE_STORE\fR,
+otherwise the configuration clause \fB\fC[cache]\fR
+defines the \fIcache_store\fP\&.
+.PP
+\fB\fC\-S\fR \fImain_store\fP
+.IP
+Specify the main Store to use.
+The default \fImain_store\fP
+comes from the environment variable \fB\fC$VT_STORE\fR,
+otherwise the configuration clause \fB\fC[default]\fR
+defines the \fImain_store\fP
+except for the \fB\fCserve\fR subcommand
+which uses \fB\fC[server]\fR and ignores the \fB\fC$VT_STORE\fR environment variable.
+.PP
+\fB\fC\-f\fR \fIconfig\fP
+.IP
+Configuration file.
+The default configuration file
+is specified by the \fB\fC$VT_CONFIG\fR environment variable,
+otherwise the path \fB\fC~/.vtrc\fR is used.
+.PP
+\fB\fC\-q\fR
+.IP
+Quiet; not verbose.
+This is the default if the standard error output is not a tty.
+.PP
+\fB\fC\-v\fR
+.IP
+Verbose; not quiet.
+This is the default if the standard error output is a tty.
+.PP
+If a \fIcache_store\fP and a \fImain_store\fP are both specified
+then access is via a proxy Store set up as:
+.PP
+.RS
+.nf
+proxy(
+    read=cache_store,
+    read2=main_store,
+    copy2=cache_store,
+    save=cache_store:main_store)
+.fi
+.RE
+.PP
+Proxy Stores are described in the STORE TYPES section below.
+.SH SUBCOMMANDS
+.PP
+\fB\fCconfig\fR
+.IP
+Recite the configuration in .ini format.
+.PP
+\fB\fCinit\fR
+.IP
+Initialise.
+Create the .vtrc if missing, with the default configuration.
+Create the directories for any missing local datadir Stores
+from the configuration.
+.PP
+\fB\fCmount\fR [\fIoption\fP\&...] \fIspecial\fP [\fImountpoint\fP [\fIsubpath\fP]]
+.IP
+\fINote\fP: the mount facility requires the \fB\fCllfuse\fR Python module
+which is not an automatic requirement of the \fB\fCcs.vt\fR package.
+.IP
+Mount the storage specified by \fIspecial\fP on \fImountpoint\fP
+presenting the directory tree from \fIsubpath\fP downwards
+at the mount point.
+For some \fIspecials\fP there is a default \fImountpoint\fP,
+allowing the \fImountpoint\fP to be omitted.
+.IP
+\fB\fC\-a\fR:
+if \fIspecial\fP is an archive
+then all of the content references
+are presented as subdirectories
+whose names are the ISO8601 formatted timestamp
+of each reference.
+This view sets the \fB\fCreadonly\fR mount option.
+.IP
+\fB\fC\-o\fR {\fB\fCappend_only\fR,\fB\fCreadonly\fR}:
+set various mount options.
+\fB\fCappend_only\fR:
+a lossless "append only mode":
+files and directories may not be removed
+and file contents may not be truncated or overwritten;
+files, for example log files, may be appended to.
+\fB\fCreadonly\fR:
+files and directories may not be modified.
+.IP
+\fB\fC\-r\fR:
+This is a shorthand for \fB\fC\-o readonly\fR\&.
+.IP
+The \fIspecial\fP specifies the directory contents.
+It may be \fIpath\fP\fB\fC\&.vt\fR:
+a 
+.BR vt (5) 
+archive file \- the latest entry is mounted;
+a \fB\fC[\fR\fIclause\fP\fB\fC]\fR\fIarchive\fP archive reference;
+a content directory specification
+recognised by a leading \fB\fCD{\fR and a trailing \fB\fC}\fR
+(see CONTENT REFERENCES below).
+.IP
+The \fImountpoint\fP is a path to a directory
+on which to mount the content specified by \fIspecial\fP\&.
+If the directory does not exist it will be created
+and it will be removed after unmount.
+If omitted the \fImountpoint\fP will inferred from the \fIspecial\fP:
+for a 
+.BR vt (5) 
+archive file path, the basename of \fIpath\fP;
+for a \fB\fC[\fR\fIclause\fP\fB\fC]\fR\fIarchive\fP
+it will be \fIarchive\fP unless that is empty
+in which case it will be \fIclause\fP;
+for a content directory specification
+the name of the directory.
+.IP
+If the \fIsubpath\fP is specified,
+that subtree of \fIspecial\fP will be presented on the mount point.
+.PP
+\fB\fCpack\fR \fIpath\fP
+.IP
+Copy the contents of \fIpath\fP into the Store,
+record the reference to the copy in the file \fIpath\fP\fB\fC\&.vt\fR,
+remove \fIpath\fP\&.
+.PP
+\fB\fCpullfrom\fR \fIother_store\fP \fIobjects\fP\&...
+.IP
+Pull blocks from the Store \fIother_store\fP
+into the default Store
+to cover the supplied \fIobjects\fP\&.
+This ensures that the default Store
+contains all the Blocks related to each \fIobject\fP\&.
+Each \fIobject\fP may be a content reference
+such as a content directory specification,
+but may also be the pathname of a "datadir" Store
+or a \fB\fC\&.vtd\fR data file;
+in this latter case the Blocks come directly
+from the Store or data file respectively
+instead of from \fIother_store\fP\&.
+.PP
+\fB\fCpushto\fR \fIother_store\fP \fIobjects\fP\&...
+.IP
+Push blocks from the default Store
+to the Store \fIother_store\fP
+to cover the supplied \fIobjects\fP\&.
+This ensures that \fIother_store\fP
+contains all the Blocks related to each \fIobject\fP\&.
+Each \fIobject\fP may be a content reference
+such as a content directory specification,
+but may also be the pathname of a "datadir" Store
+or a \fB\fC\&.vtd\fR data file;
+in this latter case the Blocks come directly
+from the Store or data file respectively
+instead of from the default Store.
+.PP
+\fB\fCserve\fR [\fIaddress\fP]
+.IP
+Present the contents of the main Store at \fIaddress\fP
+for use by other vt clients.
+The default \fIaddress\fP is specified by the \fB\fCaddress\fR field
+of the \fB\fC[server]\fR clause from the 
+.BR vtrc (5) 
+configuration file.
+.IP
+The address \fB\fCDEFAULT\fR is a syntactic placeholder
+and indicates the default address specified by the \fB\fC[server]\fR clause.
+.IP
+The address \fB\fC\-\fR presents the main Store
+via a serial protocol on the standard input and standard output.
+.IP
+If the \fIaddress\fP contains a slash (\fB\fC/\fR)
+it is taken to the path to a UNIX domain socket
+on which to accept connections;
+the socket will be created if necessary.
+Each connection serves the main Store via the serial protocol.
+.IP
+If the \fIaddress\fP contains a colon (\fB\fC:\fR)
+it is taken to be a \fIhost\fP\fB\fC:\fR\fIport\fP
+on which to accept TCP connections.
+Each connection serves the main Store via the serial protocol.
+.PP
+\fB\fCunpack\fR \fIpath\fP\fB\fC\&.vt\fR
+.IP
+Fetch the last reference from the archive file \fIpath\fP\fB\fC\&.vt\fR
+and copy the contents out as the directory \fIpath\fP\&.
+.SH STORE SPECIFICATIONS
+.PP
+There are several types of block Stores
+including a proxy Store for combining several separate Stores.
+See the STORE TYPES section for a description of each Store type.
+Stores may be specified in the \fB\fC~/.vtrc\fR configuration file
+as described by the 
+.BR vtrc (5) 
+manual entry
+or directly as text strings as described here.
+.PP
+A textual Store specification
+is a comma separated list of single Store specifictions,
+for example:
+.PP
+.RS
+.nf
+[trove],tcp:server:port
+.fi
+.RE
+.PP
+which indicates the Store specified by the \fB\fC[trove]\fR configuration clause
+and the Store accessed via the serial protocol over TCP
+at the host \fB\fCserver\fR on port \fB\fCport\fR\&.
+.PP
+When the list has more than one member
+it it used to construct a proxy Store
+where new data blocks are saved to the first Store in the list
+and requested data blocks are fetched first from the first Store in the list
+and secondarily from the following Stores
+if the first Store does not contain the block.
+.TP
+\fB\fC"\fR\fItext\fP\fB\fC"\fR
+This syntax is for embedding \fItext\fP as a standalone string
+in a longer Store specification
+where it might otherwise be parsed directly.
+At the top level, \fItext\fP should itself be a Store specification.
+.TP
+\fB\fC[\fR\fIclausename\fP\fB\fC]\fR
+This syntax specifies a Store
+which is defined by the clause named \fIclausename\fP
+in the \fB\fC~/.vtrc\fR configuration file.
+.TP
+\fB\fC/\fR\fIpath\fP or \fB\fC\&./\fR\fIpath\fP
+This specifies the path to local filesystem resource
+presenting a Store.
+If \fIpath\fP ends in \fB\fC\&.sock\fR it is taken to be a UNIX domain socket
+which serves a Store.
+Otherwise, if \fIpath\fP is a directory it is taken to be a "datadir" store.
+TO DO:
+if \fIpath\fP ends in \fB\fC\&.vtd\fR it is taken to be a flat data block storage file
+as defined in 
+.BR vtd (5).
+.TP
+\fB\fC!\fR\fIshcmd\fP
+This specifies a Store whose contents are served
+by the serial protocol
+as the standard input and standard output of the 
+.BR sh (1) 
+command \fIshcmd\fP\&.
+.TP
+\fIstoretype\fP\fB\fC(\fR\fIparam1\fP\fB\fC=\fR\fIvalue1\fP[\fB\fC,\fR\fIparam2\fP\fB\fC=\fR\fIvalue2\fP\&...]\fB\fC)\fR
+This specifies a Store of type \fIstoretype\fP
+further specified by the supplied \fIparam\fP\fB\fC=\fR\fIvalue\fP pairs.
+This is equivalent to a configuration clause of the form:
+.PP
+.RS
+.nf
+[clausename]
+type = *storetype*
+*param1* = *value1*
+*param2* = *value2*
+\&...
+.fi
+.RE
+.PP
+\fIstoretype\fP\fB\fC:\fR\fIparameters\fP
+.IP
+This is a legacy syntax superceded by the \fIstoretype\fP\fB\fC(\fR\&...\fB\fC)\fR syntax above.
+Currently it only supports the specification
+\fB\fCtcp:\fR\fIhost\fP\fB\fC:\fR\fIport\fP
+which is equivalent to the configuration clause:
+.PP
+.RS
+.nf
+[clausename]
+type = tcp
+address = *host*:*port*
+.fi
+.RE
+.SH CONTENT REFERENCES
+.PP
+Content references
+are used to designate the location of various types of object within a Store
+and have textual transcriptions designed to be compact,
+to be friendly to the human eye
+and to fit on a single line.
+They have a JSON\-like syntax,
+but are more compact (no whitespace),
+have bare field names
+and are not quite as regular.
+.PP
+The following references are understood:
+.SS Basic Types
+.TP
+\fIunsigned_int\fP
+Unsigned integers are represented as decimal values.
+.TP
+\fIfloat\fP
+Floating point values are transcribed using Python's \fB\fC%f\fR format specifier.
+.TP
+"\fItext\fP"
+Strings are represented using double quotes in JSON syntax.
+.TP
+\fB\fC{\fR\fImapping\fP\fB\fC}\fR
+A Python dict is represented in compact JSON syntax
+with no whitespace around the delimiters \fB\fC:\fR and \fB\fC,\fR\&.
+.TP
+\fB\fCH{\fR\fIhashtype\fP\fB\fC:\fR\fIhashcode\fP\fB\fC}\fR
+A block's hashcode.
+\fIhashtype\fP is the flavour of hashcode;
+presently always \fB\fCsha1\fR\&.
+\fIhashcode\fP is the hexadecimal transcription of the hashcode's bytes.
+Example:
+.PP
+.RS
+.nf
+H{sha1:2bb08bf55222fe43d154db50fb6bc7386457b12a}
+.fi
+.RE
+.SS Block References
+.TP
+\fB\fCB{hash:\fR\fIhashcode\fP\fB\fC,span:\fR\fIlength\fP\fB\fC}\fR
+A direct block reference.
+This refers to a block whose data has the hashocde \fIhashcode\fP
+and whose data is of length \fIlength\fP\&.
+Example:
+.PP
+.RS
+.nf
+B{hash:H{sha1:471b77709dac3f7253acfba3e37050409b0c3649},span:5850}
+.fi
+.RE
+.TP
+\fB\fCI{hash:\fR\fIhashcode\fP\fB\fC,span:\fR\fIlength\fP\fB\fC}\fR
+An indirect block reference.
+This references to a block with hashcode \fIhashcode\fP
+whose contents is a sequence of binary serialised block references
+to subblocks referring to block data;
+each subblock may itself be an indirect block
+or another kind of direct block.
+The overall block data
+is the concatenation of the data from each leaf block (a nonindirect block)
+in order.
+The \fB\fCspan\fR field is the overall length of the leaf data.
+Example:
+.PP
+.RS
+.nf
+I{hash:H{sha1:471b77709dac3f7253acfba3e37050409b0c3649},span:5887650}
+.fi
+.RE
+.TP
+\fB\fCRLE{span:\fR\fIlength\fP\fB\fC,octet:\fR\fIvalue\fP}`
+A run length encoding block.
+The data for this block
+consists of \fIlength\fP repetitions of the octet with ordinal \fIvalue\fP\&.
+Example:
+.PP
+.RS
+.nf
+RLE{span:1234,octet:32}
+.fi
+.RE
+.TP
+\fB\fCLB{*texthexified_data*}\fR
+A literal block.
+The data for this block
+are the decoded octets from \fItexthexified_data\fP,
+a largely hexadecimal byte transcription
+where runs of certain human readable octets
+(were they ASCII)
+are presented directly between \fB\fC[\fR and \fB\fC]\fR brackets;
+this is slightly more compact and also aids human inspection of the data
+where there are meaningful text fields embedded,
+such as filenames in a directory.
+Example:
+.PP
+.RS
+.nf
+LB{471b77709d[name1]ac3f7253[name2]acfba3e37050409b0c3649}
+.fi
+.RE
+.TP
+\fB\fCSubB{block:\fR\fIblockref\fP\fB\fC,offset:\fR\fIoffset\fP\fB\fC,span:\fR\fIlength\fP\fB\fC}\fR
+A subblock, whose data is obtained from a subrange of another block.
+(Note: this is not a "subblock" in the sense of the subsidiary blocks
+referenced by an indirect block.)
+\fIblockref\fP is the block reference of the superblock.
+\fIoffset\fP is the octet offset within the superblock.
+\fIspan\fP is the length of the subblock's data within the data of the superblock.
+Example:
+.PP
+.RS
+.nf
+SubB{block:I{hash:H{sha1:471b77709dac3f7253acfba3e37050409b0c3649},span:5887650},offset:128,span:512}
+.fi
+.RE
+.SS Filesystem References
+.PP
+Filesystem entries follow a similar pattern to the transcriptions above.
+They may have an optional leading \fIname\fP followed by a colon (\fB\fC:\fR),
+then a comma separated sequence of parameters and values.
+.PP
+The common parameters are as follows:
+.TP
+\fB\fCblock\fR
+A block reference specifying the objects contents.
+For a file this holds the file data.
+For a directory this holds a binary transcription
+of the directory entries,
+themselves filesystem object references.
+.TP
+\fB\fCmeta\fR
+The object's metadata,
+used to represent file permissions and ACLs, modification times
+and whatever other non file data attributes an object may have.
+.TP
+\fB\fCprevblock\fR
+The object's previous state, if recorded.
+This supports per object history.
+To avoid an indefinite regress
+this is a block reference to a block
+whose content is the binary transcription
+of the previous filesystem reference.
+.TP
+\fB\fCuuid\fR
+A type 4 UUID as specified by RFC4122, as a string.
+Persistent filesystem objects are identified by a GUUID.
+This is used to recognise the same entity
+when reconciling different versions of a file tree
+and in the equivalent of UNIX hard links.
+.PP
+The concrete transcriptions are as follows:
+.TP
+\fB\fCD{\fR[\fIname\fP\fB\fC:\fR]\fIparam\fP\fB\fC=\fR\fIvalue\fP\fB\fC,\fR\&...\fB\fC}\fR
+A directory whose block contents is a sequence
+of named filesystem entries comprising the directory entries.
+Example:
+.PP
+.RS
+.nf
+D{'vt2':meta:M{a:'o:rwx\-',m:1544937484.506546},block:B{hash:H{sha1:0f4ababec84c6744ffda4f20c2c2a9706a28ab2e},span:3912}}
+.fi
+.RE
+.TP
+\fB\fCF{\fR[\fIname\fP\fB\fC:\fR]\fIparam\fP\fB\fC=\fR\fIvalue\fP\fB\fC,\fR\&...\fB\fC}\fR
+A regular file whose contents are designated with a block reference.
+.TP
+\fB\fCIndirect{\fR[\fIname\fP\fB\fC:\fR]\fIparam\fP\fB\fC=\fR\fIvalue\fP\fB\fC,\fR\&...\fB\fC}\fR
+A reference to another filesystem object by its \fB\fCuuid\fR value.
+Unlike all other filesystem references,
+the \fB\fCuuid\fR parameter of an indirect filesystem reference
+identifies the target object,
+not the indirect object itself.
+This is used to implement the equivalent of UNIX hard links.
+.TP
+\fB\fCSymlink{\fR[\fIname\fP\fB\fC:\fR]\fIparam\fP\fB\fC=\fR\fIvalue\fP\fB\fC,\fR\&...\fB\fC}\fR
+A reference to another filesystem object using a file path.
+This is the equivalent of a UNIX symbolic link.
+The reference path is part of the metadata in the \fB\fCpathref\fR attribute.
+.SH STORE TYPES
+.SS Datadir Store
+.PP
+A datadir store is the primary form of local Store.
+It consists of a directory containing a collection of \fB\fC\&.vtd\fR files
+(see 
+.BR vtd (5))
+
+containing data blocks inside the subdirectory \fB\fCdata\fR
+and an index used to locate these blocks from their hashcodes.
+.PP
+The index consists of 2 parts.
+.PP
+There is an index of hashcodes to block locations
+within the various \fB\fC\&.vtd\fR data files.
+Presently that is an LMDB index.
+For compactness, each entry is of the form (\fIfilenum\fP,\fIoffset\fP).
+The \fIfilenum\fP refers to one of the \fB\fC\&.vtd\fR files.
+In order that a datadir may be shared by different clients,
+each adding data to the Store,
+there is one one one writing client per data file;
+if multiple clients are adding data,
+each has its own data file.
+In order for there to be easy collision free
+aadition of new data files when a client needs one
+the \fB\fC\&.vtd\fR files are named with UUIDs.
+As each new data file is created it is allocated its own \fIfilenum\fP
+for use in the hashcode index.
+.PP
+The mapping of \fIfilenum\fPs to \fB\fC\&.vtd\fR filenames
+is kept in an SQLite database
+because that is both portable and shareable.
+.SS Memory Cache Store
+.PP
+A memory cache store is a lossy in\-memory mapping of hashcodes
+to bytes objects, each being a data block.
+It has an upper bound in size and discards older blocks as that threshold is reached
+by addition of new blocks.
+.SS File Cache Store
+.PP
+A file cache Store is a lossy on disc Store
+very similar to a datadir Store.
+It has an upper limit n the number of \fB\fC\&.vtd\fR files it keeps.
+When a growing \fB\fC\&.vtd\fR file reaches its high water mark
+and a new one is required,
+enough old \fB\fC\&.vtd\fR files are removed to allow the new file.
+.SS Stream Stores
+.PP
+Stream Stores are accessed over an asynchronous binary protocol.
+They are typically remote.
+TCP stores and socket Stores are examples of this type.
+The server side is normally presented by a \fB\fCvt serve\fR command.
+.SS Platonic Store
+.PP
+A Platonic Store is a local Store
+whose data are contained in a regular file tree
+such as a collection of manual PDFs
+or a media collection on a RAID.
+The name comes from
+Plato's [\[la]https://en.wikipedia.org/wiki/Theory_of_forms][Theory\[ra] of forms],
+where the regular file trees are the ideal versions of their data,
+used as backing storage for vt file trees offering that data.
+.PP
+Like a datadir Store
+it has a \fB\fCdata\fR subdirectory pointing at the regular files
+containing the data to be served.
+Typically this just contains symbolic links
+to whatever reference trees are to be offered.
+.PP
+The Store scans new files as they appear in the reference trees
+and maintains an index of block hashcodes referring
+to the locations in the reference files.
+It also maintains an archive \fB\fC\&.vt\fR file
+containing a reference to the logical file tree
+obtained by following the symbolic links.
+Like any other archive file
+it may be unpacked or mounted.
+.SS Proxy Store
+.PP
+A proxy Store is used to manage access to multiple other Stores.
+Its parameters are as follows:
+.TP
+\fB\fCsave\fR
+A sequence of Stores to which to save data blocks.
+The proxy Store is read only if this sequence is empty.
+.TP
+\fB\fCsave2\fR
+A sequence of Stores to which to save data blocks
+if any saves to the \fB\fCsave\fR list fail.
+This would typically be some kind of local spool Store
+which can be pushed to the normal save Stores
+at a later time as a maintenance operation.
+.TP
+\fB\fCread\fR
+A sequence of Stores from which to obtain data blocks.
+These would normally be local low latency Stores.
+.TP
+\fB\fCread2\fR
+A secondary sequence of Stores from which to obtain data blocks
+if they were not available from the Stores in \fB\fCread\fR\&.
+.TP
+\fB\fCcopy2\fR
+A sequence of Stores to which to copy any data blocks
+obtained via the \fB\fCread2\fR sequence.
+.TP
+\fB\fCarchives\fR
+A comma separated list of \fB\fC[\fR\fIclause\fP\fB\fC]\fR\fIptn\fP items
+associating Stores with filename glob patterns \fIptn\fP\&.
+Looking up a \fB\fC[\fR\fIclause\fP\fB\fC]\fR\fIname\fP archive reference
+via a ProxyStore
+matches \fIname\fP against the \fIptn\fP glob
+and passes the lookup to the first Store
+whose \fIptn\fP patches the \fIname\fP\&.
+.PP
+Example configuration file clause:
+.PP
+.RS
+.nf
+[laptop]
+type = proxy
+save = [trove],[home_server]
+save2 = [spool]
+read = [trove],[ideal],[spool]
+read2 = [home_server]
+copy2 = [trove]
+archives = [ideal]ideal,[trove]*
+.fi
+.RE
+.PP
+This clause is for a laptop with limited storage.
+Saves are stored to its \fB\fC[trove]\fR,
+an essentially permanent local Store,
+and to \fB\fC[home_server]\fR,
+the network accessable vt service
+with the home store of almost everything on its RAID.
+You might typically arrange such access over a persistent ssh port forward.
+Should a save fail,
+as when there is a lack of access to the home server,
+the unsaved blocks are saved to \fB\fC[spool]\fR,
+a local store of blocks needing to be spooled to the home server.
+Reads are first performed against
+the local \fB\fC[trove]\fR,
+the local \fB\fC[ideal]\fR Store
+and whatever is presently in the \fB\fC[spool]\fR\&.
+If a block is not present in any of these
+it is sought from the \fB\fC[home_server]\fR Store.
+Any blocks retrieved from the home server
+via the \fB\fCread2\fR sequence are copied into the local \fB\fC[trove]\fR
+so that they are available locally in the future.
+.PP
+An archive loopup for the name \fB\fCideal\fR is obtained via the \fB\fC[ideal]\fR Store
+and all other names are obtained via the \fB\fC[trove]\fR Store.
+Note that this only controls where archive files are found;
+any block lookup follows the normal flow of the ProxyStore.
+.SH ENVIRONMENT
+.PP
+\fB\fC$VT_CONFIG\fR: the path to the configuration file. Default: \fB\fC$HOME/.vtrc\fR
+.PP
+\fB\fC$VT_STORE\fR: the default Store specification.
+Default from the \fB\fC[default]\fR clause of the configuration.
+.PP
+\fB\fC$VT_CACHE_STORE\fR: the default cache Store specification.
+Default from the \fB\fC[cache]\fR clause of the configuration.
+.SH SEE ALSO
+.PP
+.BR vt (5), 
+the binary data formats in use
+.PP
+.BR vtrc (5), 
+the configuration file format used in \fB\fC~/.vtrc\fR
+.SH AUTHOR
+.PP
+Cameron Simpson \[la]cs@cskk.id.au\[ra]

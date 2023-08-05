@@ -1,0 +1,7 @@
+include lib/python/cs/vt/_scan.c
+include lib/python/cs/vt/vt.1.md
+include lib/python/cs/vt/vt.1
+include lib/python/cs/vt/vt.5.md
+include lib/python/cs/vt/vt.5
+include lib/python/cs/vt/vtrc.5.md
+include lib/python/cs/vt/vtrc.5

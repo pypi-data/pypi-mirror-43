@@ -1,0 +1,167 @@
+.TH VTRC 5
+.SH NAME
+.PP
+vtrc \- vt configuration file format
+.SH DESCRIPTION
+.PP
+The default configuration for the 
+.BR vt (1) 
+command
+is contained in the file \fB\fC~/.vtrc\fR
+and takes the form of a Windows style \fB\fC\&.ini\fR file
+with multiline clauses commencing with a clause name in square brackets
+and continuing with a series of \fIparam\fP = \fIvalue\fP lines.
+.SH CLAUSES
+.SS The GLOBAL section
+.PP
+Some overarching values for the 
+.BR vt (1) 
+command
+are specified in the \fB\fCGLOBAL\fR clause:
+.TP
+\fB\fCbasedir\fR
+The working area where the vt system keeps its state
+such as \fB\fC~/var/vt\fR\&.
+The default location of an individual Store's data
+is its clause name appended to the \fB\fCbasedir\fR\&.
+.TP
+\fB\fCblockmapdir\fR
+The area where 
+.BR vt-blockmap (5) 
+files are kept,
+an efficiency data structure to bypass the need to descend
+an indirect block's subblock tree to locate leaf blocks.
+This specifies a directory path,
+either directly such as \fB\fC~/var/vt/blockmaps\fR
+or with reference to a store configuration clause
+either bare (\fB\fC[\fR\fIclausename\fP\fB\fC]\fR)
+implying \fB\fC[\fR\fIclausename\fP\fB\fC]/blockmaps\fR
+or explicitly naming the store subdirectory
+such as \fB\fC[metadata]/blockmaps\fR\&.
+The path after the clause name specifies a subdirectory
+of that Store's top directory.
+.PP
+Example:
+.PP
+.RS
+.nf
+[GLOBAL]
+# base area for Store state, one subdirectory per Store as required
+basedir = ~/var/vt
+# default location for persistent blockmaps
+# we use a common one since it is totally sharable
+blockmapdir = [metadata]/blockmaps
+.fi
+.RE
+.SS Store specification sections
+.PP
+The other clauses specify various Stores.
+See 
+.BR vt (1) 
+for descriptions of the various Store types.
+Each clause requires a \fB\fCtype\fR parameter specifying the Store type
+and has various parameters as detailed below.
+.SS \fB\fCtype = datadir\fR
+.PP
+A datadir Store, with blocks stored in local \fB\fC\&.vtd\fR files
+in a \fB\fCdata\fR subdirectory.
+Parameters:
+.TP
+\fB\fCpath\fR:
+the location of the Store,
+by default \fIbasedir\fP\fB\fC/\fR\fIclausename\fP\&.
+.SS \fB\fCtype = filecache\fR
+.PP
+A file cache Store,
+with blocks stored in local \fB\fC\&.vtd\fR files in a \fB\fCdata\fR subdirectory.
+Parameters:
+.TP
+\fB\fCbackend\fR:
+a backend Store.
+Any blocks saved to the file cache are also copied to the backend.
+.TP
+\fB\fCmax_files\fR:
+the maximum number of \fB\fC\&.vtd\fR files to keep in the cache.
+.TP
+\fB\fCmax_file_size\fR:
+the high water mark for cache files.
+When a file exceeds this size
+a new file is commenced
+and older files discarded if there are more than \fImax_files\fP files.
+The size can have a scale factor,
+for example \fB\fC8 MiB\fR\&.
+.TP
+\fB\fCpath\fR:
+the location of the Store,
+by default \fIbasedir\fP\fB\fC/\fR\fIclausename\fP\&.
+.SS \fB\fCtype = memory\fR
+.PP
+A memory cache Store,
+with blocks stored in memory in a mapping keyed on their hashcode.
+Parameters:
+.TP
+\fB\fCmax_data\fR:
+the maximum amount of block data to keep in the cache.
+Older blocks will be forgotten to keep below this threshold.
+.SS \fB\fCtype = platonic\fR
+.PP
+A Platonic Store,
+where an ordinary file tree
+such as a document archive or a media server
+is used as the backing store for data blocks.
+Parameters:
+.TP
+\fB\fCpath\fR:
+the location of the Store,
+by default \fIbasedir\fP\fB\fC/\fR\fIclausename\fP\&.
+.TP
+\fB\fCmeta\fR:
+optional Store to hold the directory tree metadata.
+.SS \fB\fCtype = proxy\fR
+.PP
+A Proxy Store,
+combining various other Stores.
+Parameters:
+.TP
+\fB\fCsave\fR:
+comma separated list of Stores
+to which to save new blocks.
+.TP
+\fB\fCread\fR:
+primary comma separated list of Stores from which to read blocks
+.TP
+\fB\fCsave2\fR:
+comma separated list of Stores to which to save blocks
+which failed to be saved to a Store from \fB\fCsave\fR
+.TP
+\fB\fCread2\fR:
+secondary comma separated list of Stores from which to read blocks
+for blocks not found in \fB\fCread\fR
+.TP
+\fB\fCcopy2\fR:
+comma separated list of Stores to which to save blocks
+which are obtained via \fB\fCread2\fR
+.SS \fB\fCtype = socket\fR
+.PP
+A stream store presented via a UNIX domain socket.
+Parameters:
+.TP
+\fB\fCsocket_path\fR:
+the path to the socket, default from the clause name;
+relative paths are resolved with respect to \fB\fCbasedir\fR
+.SS \fB\fCtype = tcp\fR
+.PP
+A stream store presented via a TCP \fIhost\fP\fB\fC:\fR\fIport\fP address.
+Parameters:
+.PP
+\fB\fChost\fR
+  the hostname for the server, default from the clause name
+\fB\fCport\fR
+  the port number
+.SH SEE ALSO
+.PP
+.BR vt (1), 
+the vt command line tool
+.SH AUTHOR
+.PP
+Cameron Simpson \[la]cs@cskk.id.au\[ra]
