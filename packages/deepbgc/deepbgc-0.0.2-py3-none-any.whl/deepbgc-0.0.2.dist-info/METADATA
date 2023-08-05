@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: deepbgc
+Version: 0.0.2
+Summary: DeepBGC - Biosynthetic Gene Cluster detection and classification
+Home-page: http://www.merck.com
+Author: David Příhoda, Geoffrey Hannigan
+Author-email: david.prihoda1@merck.com
+License: MIT
+Keywords: biosynthetic gene clusters,bgc detection,deep learning,pfam2vec
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: argparse
+Requires-Dist: biopython
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: keras
+Requires-Dist: tensorflow
+Requires-Dist: hmmlearn
+Requires-Dist: matplotlib
+
+# DeepBGC: Biosynthetic Gene Cluster detection and classification.
+
+## Install DeepBGC
+
+- Run `pip install deepbgc` to install the `deepbgc` python module.
+- **Note**: Tensorflow is not available for Python 3.7 ([link](https://github.com/tensorflow/tensorflow/issues/17022)) so please use Python 3.6 if you experience this issue.
+
+## Prerequisities
+
+- Install Python 3.6 (version 3.7 is not supported by TensorFlow yet)
+- Install Prodigal and put the `prodigal` binary it on your PATH: https://github.com/hyattpd/Prodigal/releases
+- Install HMMER and put the `hmmscan` and `hmmpress` binaries on your PATH: http://hmmer.org/download.html
+- Download and **extract** Pfam database from: ftp://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam31.0/Pfam-A.hmm.gz
+
+## Use DeepBGC
+
+### Detection
+
+Detect BGCs in a genomic sequence.
+
+```bash
+# Show detection help
+deepbgc detect --help
+
+# Detect BGCs in a nucleotide sequence
+deepbgc detect --model DeepBGCDetector_v0.0.1.pkl --pfam Pfam-A.hmm --output myCandidates/ myInputSequence.fa
+
+# Detect BGCs with >0.9 score in existing Pfam CSV sequence
+deepbgc detect --model myModel.pkl --output myStrictCandidates/ -s 0.9 myCandidates/myCandidates.pfam.csv
+
+```
+
+### Classification
+
+Classify BGCs into one or more classes.
+
+```bash
+# Show classification help
+deepbgc classify --help
+
+# Predict biosynthetic class of detected BGCs
+deepbgc classify --model RandomForestMIBiGClasses_v0.0.1.pkl --output myCandidates/myCandidates.classes.csv myCandidates/myCandidates.candidates.csv
+
+```
+
+### Trained Models
+
+The trained model files can be found in the GitHub code release [here](https://github.com/Merck/deepbgc/releases).
+
+
