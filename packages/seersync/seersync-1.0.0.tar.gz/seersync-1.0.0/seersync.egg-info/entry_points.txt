@@ -1,0 +1,3 @@
+[console_scripts]
+seersync = seersync.app:main
+
