@@ -1,0 +1,9 @@
+pysimplesoap/__init__.py,sha256=VZb9saAquEsYaERb70Km54jwe_yGi3ZkWZGtYIyAcs8,150
+pysimplesoap/client.py,sha256=lWJL03S5zl5eZLmnILtQpKQOipiRfeqbhP_wWzuQGp4,38300
+pysimplesoap/server.py,sha256=-o1f8HXC-wqqML_nc30jWlmDEgwTH3WNjhBVI3IImsI,22991
+pysimplesoap/simplexml.py,sha256=OwFeB0tdpeUdMJz49lHDchYiW3useh7TvYCKdk5_gwA,24705
+pysimplesoap/transport.py,sha256=1wawB0-UJ-1ch19K1twVKjJZE9KzFQ4mvqNLVcCtHN8,12122
+PySimpleSOAP-1.8.14.dist-info/METADATA,sha256=iHdncPMU80sKKAPtHFoyWcPNM0nb5ecK7qfmoKCeNvI,313
+PySimpleSOAP-1.8.14.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+PySimpleSOAP-1.8.14.dist-info/top_level.txt,sha256=VPJGov1e9E8Tk-rvsqGIbpvva0YFRCIloqQUqazOu30,13
+PySimpleSOAP-1.8.14.dist-info/RECORD,,
