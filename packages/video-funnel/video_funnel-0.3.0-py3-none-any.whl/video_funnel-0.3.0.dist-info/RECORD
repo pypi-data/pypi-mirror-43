@@ -1,0 +1,12 @@
+video_funnel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+video_funnel/__main__.py,sha256=dh8u9W9Ha_PhTADjXYqFszdu7VA1k9qv8rNeFyVgyCA,1403
+video_funnel/funnel.py,sha256=-X9iPr0gBhXxGTXhHTw5GUeLWIIrrM6gc5_CDmOl4tM,2558
+video_funnel/index.html,sha256=eudUy6AD_zV1sA62NkpgFaCgRjzuTBYhRvTE9ecjV-I,4218
+video_funnel/server.py,sha256=6rSnIbZL9zU-KStTjrPDn8ju2u173hmk32opli3qm3o,4013
+video_funnel/utils.py,sha256=8yJ6ufQ_Bs5YtWlREJmfmXHfdiP0pu5qEdkRumh7AR0,5016
+video_funnel-0.3.0.dist-info/LICENSE,sha256=yjvX_lUhfZFMKWK-gOWMR-RzWqTzeVzTdujiA08Y_gk,1070
+video_funnel-0.3.0.dist-info/METADATA,sha256=LfvyjVnqV8SJ1x55L5nqerYRm2eCFQoef_kwoXqOgig,658
+video_funnel-0.3.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+video_funnel-0.3.0.dist-info/entry_points.txt,sha256=89B3RdjE1v5Wd2HyzmTyDw0RZB366ZYLVFFbSIKSvQk,51
+video_funnel-0.3.0.dist-info/top_level.txt,sha256=GIlZ1LEtOs88SlF8GWgL_Gfao3WObzQI1YW8S-otbQU,13
+video_funnel-0.3.0.dist-info/RECORD,,
