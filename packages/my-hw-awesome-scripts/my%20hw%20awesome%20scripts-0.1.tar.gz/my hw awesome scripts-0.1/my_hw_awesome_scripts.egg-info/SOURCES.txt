@@ -1,0 +1,5 @@
+setup.py
+my_hw_awesome_scripts.egg-info/PKG-INFO
+my_hw_awesome_scripts.egg-info/SOURCES.txt
+my_hw_awesome_scripts.egg-info/dependency_links.txt
+my_hw_awesome_scripts.egg-info/top_level.txt
