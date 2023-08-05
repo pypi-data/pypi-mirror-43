@@ -1,0 +1,5 @@
+setup.py
+skylette.egg-info/PKG-INFO
+skylette.egg-info/SOURCES.txt
+skylette.egg-info/dependency_links.txt
+skylette.egg-info/top_level.txt
