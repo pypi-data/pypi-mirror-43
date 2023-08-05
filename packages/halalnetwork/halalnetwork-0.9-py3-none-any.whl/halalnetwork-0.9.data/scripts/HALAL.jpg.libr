@@ -1,0 +1,21 @@
+# the address of the tracker
+hub : 192.168.43.121:1234
+# the name of the stuff
+name : Halal Image
+# the size of the stuff
+size : 81Ko
+# the size used for books
+size : 8Ko
+# SHA1 of each books 
+books : 
+a9034dea1348a323351e233023d35ad3
+6fb12d7742d5494ed575fe8a18b45579
+90b98d7f5fbaf032a4b9d30cdfd69198
+bb2ac55f1383156c22abc421144f2a82
+2def8200db63d71bb1a133c9993a3441
+8b6458f24b6980b92d35d08a2fae2dcf
+40be7a0b8b802d4a996d93adcbf7b667
+0476c02be52d6ce7b169004d2defb2a7
+a29d3a43cbac925a08f932991bbd2be8
+86e0d063b7579ef771abbf21892991ba
+bc1542c88bb56b04633d67dd2210ebbc
