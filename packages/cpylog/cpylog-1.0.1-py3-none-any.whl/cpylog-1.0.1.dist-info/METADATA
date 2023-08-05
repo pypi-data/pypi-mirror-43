@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cpylog
+Version: 1.0.1
+Summary: cpylog
+Home-page: https://github.com/cpylog/cpylog
+Author: 
+Author-email: 
+License: BSD-3
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6*
+Requires-Dist: six
+
+UNKNOWN
+
+
