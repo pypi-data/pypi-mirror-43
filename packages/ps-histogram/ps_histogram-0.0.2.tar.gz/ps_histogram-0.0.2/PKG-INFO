@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ps_histogram
+Version: 0.0.2
+Summary: Histogram Equalization
+Home-page: https://github.com/ForeverPs
+Author: Ps
+Author-email: 1596117875@qq.com
+License: MIT
+Description: Digital Image Processing, Histogram Equalization, Histogram Matching, Local Histogram Equalization,						   Image Segementation
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
