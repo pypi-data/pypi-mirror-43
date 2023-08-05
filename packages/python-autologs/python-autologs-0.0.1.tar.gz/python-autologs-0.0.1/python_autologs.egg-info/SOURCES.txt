@@ -1,0 +1,8 @@
+README.md
+setup.py
+autologs/__init__.py
+autologs/autologs.py
+python_autologs.egg-info/PKG-INFO
+python_autologs.egg-info/SOURCES.txt
+python_autologs.egg-info/dependency_links.txt
+python_autologs.egg-info/top_level.txt
