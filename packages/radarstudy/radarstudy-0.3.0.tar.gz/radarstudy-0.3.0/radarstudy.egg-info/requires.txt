@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+dask[complete]
+requests
+matplotlib
+yml
