@@ -1,0 +1,17 @@
+README.md
+README.rst
+setup.cfg
+setup.py
+osvolbackup/__init__.py
+osvolbackup/__main__.py
+osvolbackup/backup.py
+osvolbackup/osauth.py
+osvolbackup/server.py
+osvolbackup/verbose.py
+osvolbackup.egg-info/PKG-INFO
+osvolbackup.egg-info/SOURCES.txt
+osvolbackup.egg-info/dependency_links.txt
+osvolbackup.egg-info/entry_points.txt
+osvolbackup.egg-info/top_level.txt
+osvolbackup/cli/__init__.py
+osvolbackup/cli/server.py
