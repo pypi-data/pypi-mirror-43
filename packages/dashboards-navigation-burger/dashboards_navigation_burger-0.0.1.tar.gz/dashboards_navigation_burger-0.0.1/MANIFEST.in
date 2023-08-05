@@ -1,0 +1,5 @@
+include dashboards_navigation_burger/dashboards_navigation_burger.min.js
+include dashboards_navigation_burger/dashboards_navigation_burger.dev.js
+include dashboards_navigation_burger/metadata.json
+include dashboards_navigation_burger/package.json
+include README.md

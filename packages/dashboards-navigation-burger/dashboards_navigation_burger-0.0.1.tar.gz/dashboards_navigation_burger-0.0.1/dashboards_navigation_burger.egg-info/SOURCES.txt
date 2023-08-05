@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+dashboards_navigation_burger/Burger.py
+dashboards_navigation_burger/__init__.py
+dashboards_navigation_burger/_imports_.py
+dashboards_navigation_burger/dashboards_navigation_burger.dev.js
+dashboards_navigation_burger/dashboards_navigation_burger.min.js
+dashboards_navigation_burger/metadata.json
+dashboards_navigation_burger/package.json
+dashboards_navigation_burger.egg-info/PKG-INFO
+dashboards_navigation_burger.egg-info/SOURCES.txt
+dashboards_navigation_burger.egg-info/dependency_links.txt
+dashboards_navigation_burger.egg-info/top_level.txt
