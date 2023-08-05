@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: relaycommander
+Version: 0.0.11
+Summary: CLI to Update LD Relay in Disaster Scenarios
+Home-page: https://github.com/launchdarkly/relayCommander
+Author: LaunchDarkly
+Author-email: sales@launchdarkly.com
+License: Apache 2.0
+Description: Relay Commander
+        ===============
+        
+        A CLI for managing `LaunchDarkly Relay <https://github.com/launchdarkly/ld-relay>`__ Instances.
+        
+        .. image:: https://codecov.io/gh/launchdarkly/relayCommander/branch/master/graph/badge.svg
+          :target: https://codecov.io/gh/launchdarkly/relayCommander
+        
+        .. image:: https://circleci.com/gh/launchdarkly/relayCommander.svg?style=shield
+            :target: https://circleci.com/gh/launchdarkly/relayCommander
+        
+        .. image:: https://readthedocs.org/projects/relay-commander/badge/?version=latest
+            :target: http://relaycommander.readthedocs.io/en/latest/?badge=latest
+            :alt: Documentation Status
+        
+        .. image:: https://badge.fury.io/py/relaycommander.svg
+            :target: https://badge.fury.io/py/relaycommander
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install relaycommander
+        
+        Contributing
+        ============
+        
+        Please create an issue with a description of your problem, or open a pull request with a fix.
+        
+        License
+        =======
+        
+        Apache 2.0
+        
+Keywords: launchdarkly api redis relay
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Recovery Tools
+Classifier: Topic :: System :: Systems Administration
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: ~=3.5
