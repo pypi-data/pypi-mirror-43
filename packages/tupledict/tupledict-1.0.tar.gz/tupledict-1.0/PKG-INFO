@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: tupledict
+Version: 1.0
+Summary: A multi-key dictionary with wildcard lookup.
+Home-page: UNKNOWN
+Author: Anton Dries
+Author-email: anton.dries@gmail.com
+License: UNKNOWN
+Description: `tupledict`: a multi-key dictionary
+        ===================================
+        
+        Usage
+        -----
+        
+        The ``tupledict.TupleDict`` class provides all the functionality of a regular dictionary.
+        
+        In addition you can use tuple-based keys:
+        
+        ``` python
+        d = TupleDict()
+        
+        d[1,2,3] = 123
+        d[1,2,4] = 124
+        d[2,3,4] = 234
+        d[3,3,4] = 334
+        ```
+        All keys should have the same length otherwise a `KeyError` will be raised.  When setting values, keys should not contain `None` values.
+        
+        To retrieve values you can use `None` as a wildcard character.
+        ``` python
+        d[1,2,3]  -> 123
+        d[1,None,None] -> [123, 124]
+        d[1,None,3] -> [123]
+        ```
+        When a wildcard is used the dictionary returns a list of values.  When no wildcard is used the result is a single item.
+        
+        
+        License
+        -------
+        
+        MIT License
+        
+        Copyright (c) 2019 Anton Dries
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

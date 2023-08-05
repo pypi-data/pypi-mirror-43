@@ -1,0 +1,7 @@
+README.md
+setup.py
+tupledict/__init__.py
+tupledict.egg-info/PKG-INFO
+tupledict.egg-info/SOURCES.txt
+tupledict.egg-info/dependency_links.txt
+tupledict.egg-info/top_level.txt
