@@ -1,0 +1,5 @@
+setup.py
+isclassmethod.egg-info/PKG-INFO
+isclassmethod.egg-info/SOURCES.txt
+isclassmethod.egg-info/dependency_links.txt
+isclassmethod.egg-info/top_level.txt
