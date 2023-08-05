@@ -1,0 +1,8 @@
+moshpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moshpdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moshpdf/pdf2txt.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+ellaspdf-1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ellaspdf-1.0.dist-info/METADATA,sha256=CdBM8DjZXstA_3sMoky_O31nFL5Bn3FlZmBJ5uy6184,170
+ellaspdf-1.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+ellaspdf-1.0.dist-info/top_level.txt,sha256=Zn53kuGww4IP9XNMpSqvOMgx7dxQAz1K_X_5A3YkvGc,8
+ellaspdf-1.0.dist-info/RECORD,,
