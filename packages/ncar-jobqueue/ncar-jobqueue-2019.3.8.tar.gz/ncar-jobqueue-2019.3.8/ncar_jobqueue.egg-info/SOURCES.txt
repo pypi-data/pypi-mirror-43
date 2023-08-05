@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+ncar_jobqueue/__init__.py
+ncar_jobqueue/_version.py
+ncar_jobqueue/cluster.py
+ncar_jobqueue.egg-info/PKG-INFO
+ncar_jobqueue.egg-info/SOURCES.txt
+ncar_jobqueue.egg-info/dependency_links.txt
+ncar_jobqueue.egg-info/not-zip-safe
+ncar_jobqueue.egg-info/requires.txt
+ncar_jobqueue.egg-info/top_level.txt
