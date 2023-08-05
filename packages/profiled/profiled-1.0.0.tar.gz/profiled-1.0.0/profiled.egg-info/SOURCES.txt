@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+profiled/__init__.py
+profiled.egg-info/PKG-INFO
+profiled.egg-info/SOURCES.txt
+profiled.egg-info/dependency_links.txt
+profiled.egg-info/requires.txt
+profiled.egg-info/top_level.txt
