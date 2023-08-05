@@ -1,0 +1,3 @@
+[console_scripts]
+embci-webui = embci.webui:main
+
