@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "saltlab"
+version = "0.1.0"
+description = "SaltStack experimental setup manager"
+authors = ["Jamie Bliss <jamie@ivyleav.es>"]
+license = "GPL-3.0+"
+homepage = "https://gitlab.com/spirostack/saltlab"
+# documentation = https://spirostack.com/saltlab/
+keywords = ["salt", "saltstack", "docker"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: System :: Systems Administration",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+docker = "^3.7"
+click = "^7.0"
+setuptools = "^40.8"
+camel = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+saltlab = 'saltlab.cli:saltlab'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
