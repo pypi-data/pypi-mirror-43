@@ -1,0 +1,10 @@
+README.rst
+setup.py
+cmdcmd/__init__.py
+cmdcmd/cmd.py
+cmdcmd/test.py
+cmdcmd.egg-info/PKG-INFO
+cmdcmd.egg-info/SOURCES.txt
+cmdcmd.egg-info/dependency_links.txt
+cmdcmd.egg-info/requires.txt
+cmdcmd.egg-info/top_level.txt
