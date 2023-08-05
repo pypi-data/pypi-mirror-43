@@ -1,0 +1,8 @@
+#!python
+# -*- coding: utf-8 -*-
+
+from SDGraph import dependency_graph
+
+
+if __name__ == '__main__':
+  dependency_graph.main()
