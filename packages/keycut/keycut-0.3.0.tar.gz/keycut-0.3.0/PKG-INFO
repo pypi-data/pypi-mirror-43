@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keycut
+Version: 0.3.0
+Summary: A command line tool that helps you remembering ALL the numerous keyboard shortcuts of ALL your favorite programs.
+Home-page: https://github.com/pawamoy/keycut
+Author: Timothée Mazzucotelli
+Author-email: pawamoy@pm.me
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PyYAML (>=3.13,<4.0)
+Requires-Dist: termcolor (>=1.1,<2.0)
+Project-URL: Repository, https://github.com/pawamoy/keycut
