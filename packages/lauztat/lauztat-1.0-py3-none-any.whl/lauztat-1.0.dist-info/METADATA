@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: lauztat
+Version: 1.0
+Summary: Pure python statistic tools for high energy physics, based on iminuit.
+Home-page: https://github.com/marinang/statrise
+Author: Matthieu Marinangeli
+Author-email: matthieu.marinangeli@epfl.ch
+Maintainer: Matthieu Marinangeli
+Maintainer-email: matthieu.marinangeli@epfl.ch
+License: UNKNOWN
+Platform: Any
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: iminuit
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: attrs (>=18.2.0)
+Requires-Dist: numba
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
