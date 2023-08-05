@@ -1,0 +1,15 @@
+
+[basic]
+ipython
+
+[complete]
+cryptography
+matplotlib
+
+[complete:python_version < "3"]
+ipython<6
+pyx==0.12.1
+
+[complete:python_version >= "3"]
+ipython>=7
+pyx>=0.14
