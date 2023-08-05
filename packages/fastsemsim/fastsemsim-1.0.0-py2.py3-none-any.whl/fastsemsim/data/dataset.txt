@@ -1,0 +1,22 @@
+# This file describes the ontologies and the annotation corpora included in fastSemSim.
+name	type	file	ontology	filetype	date	species	description
+AC_GO_uniprot_arabidopsis	AC	ACs/GO.goa_arabidopsis_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	arabidopsis	Annotation of arabidopsis genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_fly	AC	ACs/GO.goa_fly_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	fly	Annotation of fly genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_human	AC	ACs/GO.goa_human_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	human	Annotation of human genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_mouse	AC	ACs/GO.goa_mouse_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	mouse	Annotation of mouse genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_rat	AC	ACs/GO.goa_rat_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	rat	Annotation of rat genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_worm	AC	ACs/GO.goa_worm_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	worm	Annotation of worm genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+AC_GO_uniprot_zebrafish	AC	ACs/GO.goa_zebrafish_2019.01.29.gz	GeneOntology	gaf-2.0	2019.01.29	zebrafish	Annotation of zebrafish genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+GO	O	Os/GeneOntology_2019.01.29.obo	GeneOntology	obo	2019.01.29		Retrieved from http://purl.obolibrary.org/obo/go.obo
+GO_oboxml	O	Os/GeneOntology_2019.01.29.obo-xml.gz	GeneOntology	obo-xml	2019.01.29		Retrieved from http://archive.geneontology.org/latest-termdb/go_daily-termdb.obo-xml.gz
+CO	O	Os/CellOntology_2019.01.29.obo	CellOntology	obo	2019.01.29		Retrieved from http://www.obofoundry.org/cgi-bin/detail.cgi?id=cell. This is the filtered version.
+DO	O	Os/DiseaseOntology_2019.03.07.obo	DiseaseOntology	obo	2019.03.07		Retrieved from http://www.obofoundry.org/cgi-bin/detail.cgi?id=disease_ontology
+DO_2019.1	O	Os/DiseaseOntology_2019.01.29.obo	DiseaseOntology	obo	2019.01.29		Retrieved from http://www.obofoundry.org/cgi-bin/detail.cgi?id=disease_ontology
+HPO	O	Os/HumanPhenotypeOntology_2019.01.29.obo	HumanPhenotypeOntology	obo	2019.01.29	Retrieved from http://www.human-phenotype-ontology.org/contao/index.php/downloads.html
+AC_DO_peng	AC	ACs/DO_human_Peng_NAR_2014.10.12.txt	DiseaseOntology	plain	2014.10.12	human	Annotation of human genes with Disease Ontology terms. Retrieved from Peng, NAR, 2013
+AC_DO_osborne	AC	ACs/DO_human_Osborne_BMC_2010.08.24.txt	DiseaseOntology	plain	2010.08.24	human	Annotation of human genes with Disease Ontology terms. Retrieved from Osborne, BMC, 2009
+AC_GO_uniprot_arabidopsis	AC	ACs/GO_gene_association.goa_arabidopsis_2014.10.12.gz	GeneOntology	gaf-2.0	2014.10.12	arabidopsis	Annotation of arabidopsis genes with the Gene Ontology terms. Retrieved from Uniprot http://www.ebi.ac.uk/GOA/downloads
+CO_2014	O	Os/CellOntology_2014.10.13.obo	CellOntology	obo	2014.10.13		Retrieved from http://www.obofoundry.org/cgi-bin/detail.cgi?id=cell, or https://cell-ontology.googlecode.com/svn/trunk/src/ontology/cl-basic.obo. This is the filtered version.
+DO_2014	O	Os/DiseaseOntology_2014.10.13.obo	DiseaseOntology	obo	2014.10.13		Retrieved from http://www.obofoundry.org/cgi-bin/detail.cgi?id=disease_ontology
+HPO_2014	O	Os/HumanPhenotypeOntology_2015.01.08.obo	HumanPhenotypeOntology	obo	2015.01.08	Retrieved from http://www.human-phenotype-ontology.org/contao/index.php/downloads.html
+#pato	O	Os/pato_2014.09.09.obo	Ontology	obo	2014.09.09		Retrieved from 
