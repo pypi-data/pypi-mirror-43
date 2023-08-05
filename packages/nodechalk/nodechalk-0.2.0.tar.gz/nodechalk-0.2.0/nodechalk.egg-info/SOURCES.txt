@@ -1,0 +1,9 @@
+README.md
+setup.py
+chalk/Chalk.py
+chalk/SupportedColor.py
+chalk/__init__.py
+nodechalk.egg-info/PKG-INFO
+nodechalk.egg-info/SOURCES.txt
+nodechalk.egg-info/dependency_links.txt
+nodechalk.egg-info/top_level.txt
