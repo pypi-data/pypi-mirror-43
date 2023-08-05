@@ -1,0 +1,11 @@
+README.md
+setup.py
+disk/Path.py
+disk/__init__.py
+disk/dir.py
+disk/get_basename.py
+disk.egg-info/PKG-INFO
+disk.egg-info/SOURCES.txt
+disk.egg-info/dependency_links.txt
+disk.egg-info/not-zip-safe
+disk.egg-info/top_level.txt
