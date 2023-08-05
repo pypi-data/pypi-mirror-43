@@ -1,0 +1,16 @@
+scipy>=0.15
+numpy>=1.13
+openturns
+pandas>=0.22.0
+paramiko>=2
+jsonschema
+pathos>=0.2
+matplotlib>=2.1
+scikit-learn>=0.18
+
+[doc]
+sphinx_rtd_theme
+sphinx>=1.4
+
+[movie]
+ffmpeg
