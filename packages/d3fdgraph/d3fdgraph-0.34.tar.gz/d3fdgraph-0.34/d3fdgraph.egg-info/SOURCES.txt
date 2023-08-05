@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+d3fdgraph/__init__.py
+d3fdgraph/d3fdgraph.html
+d3fdgraph/d3fdgraph.js
+d3fdgraph/d3fdgraph.py
+d3fdgraph.egg-info/PKG-INFO
+d3fdgraph.egg-info/SOURCES.txt
+d3fdgraph.egg-info/dependency_links.txt
+d3fdgraph.egg-info/not-zip-safe
+d3fdgraph.egg-info/requires.txt
+d3fdgraph.egg-info/top_level.txt
