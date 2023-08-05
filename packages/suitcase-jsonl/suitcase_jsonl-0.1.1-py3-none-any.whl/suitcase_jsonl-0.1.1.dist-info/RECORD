@@ -1,0 +1,11 @@
+suitcase/jsonl/__init__.py,sha256=5vwIQCIMy82paDEHIIjVLaqW-p-lV6jj5yQOqv-Oa3k,6981
+suitcase/jsonl/_version.py,sha256=D1yWNIZZsKvBCyYjySeU9pxmsIEEjRO9fT1OowXigr8,497
+suitcase/jsonl/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suitcase/jsonl/tests/conftest.py,sha256=zUIKZsfJBZDpM40_HHp0IhYh12MJO_Eoe72CZV03HPE,213
+suitcase/jsonl/tests/tests.py,sha256=sD8e9tvVf5tJqaHyizxeaUnx4hgGObpWDQtDG3uzF_4,450
+suitcase_jsonl-0.1.1.dist-info/LICENSE,sha256=vXlt6K2XRomrHX4nURgl8-3DFqYa6zSskfNMpu-eIwA,1584
+suitcase_jsonl-0.1.1.dist-info/METADATA,sha256=V_e6mEHyW2PylaCrdF89ul1a_asiclpjwlEmwSniqhU,524
+suitcase_jsonl-0.1.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+suitcase_jsonl-0.1.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+suitcase_jsonl-0.1.1.dist-info/top_level.txt,sha256=sXSuqavclz0Rr3FReaX4wdgvAx61STPGF4A1lpA8_m8,9
+suitcase_jsonl-0.1.1.dist-info/RECORD,,
