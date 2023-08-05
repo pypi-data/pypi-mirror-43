@@ -1,0 +1,8 @@
+asgi_testclient/__init__.py,sha256=-tZJuRhRBrORebtVr_10kLxv-ZA522UL3iAI4sT6smw,79
+asgi_testclient/client.py,sha256=J51-bAc7pOpqYBzwA407pZZv2KDzWV1mJ9aWfMGZxi8,12866
+asgi_testclient/sync.py,sha256=Bbge64J4MMxcL2OaO0MO-SQUDFUi7-1Ab3E0Mt8M_gQ,3483
+asgi_testclient/types.py,sha256=RBIUrrr-PUW12X9SdLsSSKj93Ceye037s0ez0lZ2FMg,490
+asgi_testclient-0.3.0.dist-info/LICENSE,sha256=J1QbcULLPSK9KIMAk8dpjaJzIVPheTBhFWqwtTZ-ExA,1072
+asgi_testclient-0.3.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+asgi_testclient-0.3.0.dist-info/METADATA,sha256=9hbL9A9O8S7-oztoClRFrN0vB40V80CyzKqxDvfWBf4,5245
+asgi_testclient-0.3.0.dist-info/RECORD,,
