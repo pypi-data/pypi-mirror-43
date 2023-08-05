@@ -1,0 +1,26 @@
+Source: cubicweb-trustedauth
+Section: web
+Priority: optional
+Maintainer: LOGILAB S.A. (Paris, FRANCE) <contact@logilab.fr>
+Build-Depends:
+  debhelper (>= 9),
+  python (>= 2.6.5)
+Standards-Version: 3.9.6
+Homepage: http://www.cubicweb.org/project/cubicweb-trustedauth
+X-Python-Version: >= 2.6
+
+Package: cubicweb-trustedauth
+Architecture: all
+Depends:
+ cubicweb-common (>= 3.17.0),
+ python-crypto,
+ ${misc:Depends},
+ ${python:Depends},
+Description: authentication plugin for CubicWeb instances behind a reverse proxy
+ CubicWeb is a semantic web application framework.
+ .
+ This cube is an authentication plugin for CubicWeb instances behind a trusted
+ reverse proxy managing authentication  (eg. apache + kerberos).
+ .
+ This package will install all the components you need to run the
+ cubicweb-trustedauth application (cube :)..
