@@ -1,0 +1,7 @@
+numpy>=1.9
+keras>=2.2
+h5py
+pandas
+pybigwig
+deeplift
+abstention
