@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lucidoc
+Version: 0.1
+Summary: API documentation in Markdown
+Home-page: https://github.com/databio/lucidoc/
+Author: Vince Reuter
+License: BSD2
+Description: # lucidoc
+        
+        From docstrings generate package API documentation in Markdown
+        
+        
+Keywords: documentation,API,docs,mkdocs,autodoc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
