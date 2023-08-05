@@ -1,0 +1,12 @@
+githack/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+githack/__main__.py,sha256=xrn_gaMWJdrVmmcKn8E0C6m8gKlJ2MTZusUpHWQGROI,542
+githack/scanner.py,sha256=ZDwlN_YB_ZGNTxRvSZGrRzVits_-s8ozQhtCW5MEiOs,6070
+githack/parse/__init__.py,sha256=LCF_6-ThhIhzxKih8ootoaHj23-ZZhdxV5Sb7WoZD8U,69
+githack/parse/parse.py,sha256=l7_9MsZ8aLVudIqur9g_iedj40j7MLc0FhW1qj44Tvk,3357
+githack/parse/structure.py,sha256=UpNDTZ-G3KCSrAuMuA95eKfKM1WPeV3B_OHG7FZWBbQ,1455
+githack-0.0.2.post1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+githack-0.0.2.post1.dist-info/METADATA,sha256=nI_QO5XC6qCxl_YaY7y9Q9s-3-aNpgAIv1gKGg4lbd4,1238
+githack-0.0.2.post1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+githack-0.0.2.post1.dist-info/entry_points.txt,sha256=LCaK5Cb5TVhUHmUDdPDQ-mPOu7qVj-Q2IwSI55NgIQY,51
+githack-0.0.2.post1.dist-info/top_level.txt,sha256=q6e1oVPxuoiUCFNi_iJ9cBfGaxdkvr2qcMS5dy3l8e4,22
+githack-0.0.2.post1.dist-info/RECORD,,
