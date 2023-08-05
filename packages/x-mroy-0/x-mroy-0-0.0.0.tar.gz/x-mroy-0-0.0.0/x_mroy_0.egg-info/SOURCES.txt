@@ -1,0 +1,14 @@
+README.md
+setup.py
+x_mroy_0.egg-info/PKG-INFO
+x_mroy_0.egg-info/SOURCES.txt
+x_mroy_0.egg-info/dependency_links.txt
+x_mroy_0.egg-info/entry_points.txt
+x_mroy_0.egg-info/not-zip-safe
+x_mroy_0.egg-info/requires.txt
+x_mroy_0.egg-info/top_level.txt
+xproj_src/__init__.py
+xproj_src/cmd.py
+xproj_src/core.py
+xproj_src/data.py
+xproj_src/tmp.py

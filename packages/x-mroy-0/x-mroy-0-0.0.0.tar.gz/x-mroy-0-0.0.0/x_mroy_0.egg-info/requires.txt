@@ -1,0 +1,4 @@
+gitpython
+termcolor
+tqdm
+mroylib-min

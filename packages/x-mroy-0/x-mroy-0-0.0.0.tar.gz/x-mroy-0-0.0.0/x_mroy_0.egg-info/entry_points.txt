@@ -1,0 +1,3 @@
+[console_scripts]
+x-proj = xproj_src.cmd:main
+
