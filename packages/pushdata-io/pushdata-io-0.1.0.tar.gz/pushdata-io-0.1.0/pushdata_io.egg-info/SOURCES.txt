@@ -1,0 +1,9 @@
+README.md
+setup.py
+pushdata/__init__.py
+pushdata/pushdata.py
+pushdata_io.egg-info/PKG-INFO
+pushdata_io.egg-info/SOURCES.txt
+pushdata_io.egg-info/dependency_links.txt
+pushdata_io.egg-info/requires.txt
+pushdata_io.egg-info/top_level.txt
