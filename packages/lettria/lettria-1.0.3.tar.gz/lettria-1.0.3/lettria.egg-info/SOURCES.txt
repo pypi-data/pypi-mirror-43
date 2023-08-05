@@ -1,0 +1,10 @@
+README.rst
+setup.py
+lettria/__init__.py
+lettria/client.py
+lettria/extract.py
+lettria.egg-info/PKG-INFO
+lettria.egg-info/SOURCES.txt
+lettria.egg-info/dependency_links.txt
+lettria.egg-info/requires.txt
+lettria.egg-info/top_level.txt
