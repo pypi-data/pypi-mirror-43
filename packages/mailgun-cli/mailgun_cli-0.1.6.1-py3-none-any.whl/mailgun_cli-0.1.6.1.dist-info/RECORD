@@ -1,0 +1,9 @@
+mailgun_cli/__init__.py,sha256=_UlLAcqxiQo13KgzMM77G9kPeTVyAd8dljFyx95JLC0,90
+mailgun_cli/cli.py,sha256=j8-qpmboLevfDUOJ1BudDHwi86IBjzAF37YgBoiYJRs,533
+mailgun_cli/forward.py,sha256=eSCmNV32QlwAuSzUA2K01qK3LwFomg8BsSarbpIxkzQ,1269
+mailgun_cli/mailgun.py,sha256=aN5gUov_lzmvDNNwvkgikRL4sB5prtPm9Ne29V81GxM,1364
+mailgun_cli-0.1.6.1.dist-info/entry_points.txt,sha256=6doVZhYqI6KHiapPa4SA7C2u3IV2fb6ycSD9s1QpsJw,48
+mailgun_cli-0.1.6.1.dist-info/LICENSE,sha256=v9IKSxDM5-V_iRABxO_akdf6LzFsDWwXD4hbUKDIcXA,1074
+mailgun_cli-0.1.6.1.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+mailgun_cli-0.1.6.1.dist-info/METADATA,sha256=rttSudkFjXrbFLhDQ6JirvtFlqm5NorZQKGj5naYSbw,1896
+mailgun_cli-0.1.6.1.dist-info/RECORD,,
