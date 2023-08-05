@@ -1,0 +1,3 @@
+[airflow.plugins]
+metrics = extensions.monitoring_operators:AirflowMetricPlugin
+
