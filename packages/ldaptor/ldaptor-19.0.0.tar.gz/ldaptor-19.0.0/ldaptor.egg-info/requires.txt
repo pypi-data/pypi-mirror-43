@@ -1,0 +1,6 @@
+passlib
+Twisted
+pyOpenSSL
+pyparsing
+six>=1.7
+zope.interface

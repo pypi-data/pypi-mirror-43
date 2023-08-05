@@ -1,0 +1,8 @@
+-e .
+
+pyOpenSSL
+passlib
+service_identity
+pyparsing
+twisted
+zope.interface
