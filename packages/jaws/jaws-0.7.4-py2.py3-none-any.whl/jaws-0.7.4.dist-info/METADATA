@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jaws
+Version: 0.7.4
+Summary: Software to convert idiosyncratic ASCII formats to netCDF formats
+Home-page: https://github.com/jaws/jaws
+Author: Ajay Saini
+Author-email: ajcse1@gmail.com
+License: Apache License, Version 2.0
+Requires-Dist: pandas
+Requires-Dist: numpy (>=1.15.2)
+Requires-Dist: xarray
+Requires-Dist: pytz
+Requires-Dist: matplotlib
+Requires-Dist: netcdf4
+Requires-Dist: scipy
+Requires-Dist: requests
+
+![Shark](http://jaws.ess.uci.edu/jaws/img/shark.png)
+
+
