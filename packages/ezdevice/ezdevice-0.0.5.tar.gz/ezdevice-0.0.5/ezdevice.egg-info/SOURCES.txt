@@ -1,0 +1,9 @@
+README.md
+setup.py
+ezdevice/__main__.py
+ezdevice.egg-info/PKG-INFO
+ezdevice.egg-info/SOURCES.txt
+ezdevice.egg-info/dependency_links.txt
+ezdevice.egg-info/entry_points.txt
+ezdevice.egg-info/requires.txt
+ezdevice.egg-info/top_level.txt
