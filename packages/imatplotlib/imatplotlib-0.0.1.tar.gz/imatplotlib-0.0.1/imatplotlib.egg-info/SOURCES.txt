@@ -1,0 +1,6 @@
+README.md
+setup.py
+imatplotlib.egg-info/PKG-INFO
+imatplotlib.egg-info/SOURCES.txt
+imatplotlib.egg-info/dependency_links.txt
+imatplotlib.egg-info/top_level.txt
