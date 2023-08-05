@@ -1,0 +1,5 @@
+fabric
+httmock
+mock
+nose
+pep8
