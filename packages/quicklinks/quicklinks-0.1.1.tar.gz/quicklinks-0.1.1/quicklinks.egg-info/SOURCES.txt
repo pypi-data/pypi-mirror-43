@@ -1,0 +1,8 @@
+quicklinks.py
+setup.py
+quicklinks.egg-info/PKG-INFO
+quicklinks.egg-info/SOURCES.txt
+quicklinks.egg-info/dependency_links.txt
+quicklinks.egg-info/entry_points.txt
+quicklinks.egg-info/not-zip-safe
+quicklinks.egg-info/top_level.txt
