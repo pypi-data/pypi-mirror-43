@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cliep
+Version: 1.0.0
+Summary: Simple CLI entrypoint and argument parsing.
+Home-page: https://github.com/hsorenson/cliep
+Author: Harald Sorenson
+Author-email: haraldesorenson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# CLIEP Python Console Entrypoint Library
+
+This is a small, no sub-dependency system to streamline interfacing with TTYs, using a primary entrypoint function via decorators with
+optional automatic argument parsing.
+
+Documentation forthcoming.
+
