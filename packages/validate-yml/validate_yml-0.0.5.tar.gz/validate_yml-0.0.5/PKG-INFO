@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: validate_yml
+Version: 0.0.5
+Summary: validate yml syntax
+Home-page: UNKNOWN
+Author: jimmy
+Author-email: zjm901026@163.com
+License: GPL
+Description: validate yml syntax, return OK only if syntax correct
+Keywords: validate,yml
+Platform: Independant

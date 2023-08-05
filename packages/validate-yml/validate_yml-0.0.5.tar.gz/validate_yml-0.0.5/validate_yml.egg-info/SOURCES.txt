@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+validate_yml/__init__.py
+validate_yml/main.py
+validate_yml.egg-info/PKG-INFO
+validate_yml.egg-info/SOURCES.txt
+validate_yml.egg-info/dependency_links.txt
+validate_yml.egg-info/entry_points.txt
+validate_yml.egg-info/requires.txt
+validate_yml.egg-info/top_level.txt
