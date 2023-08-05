@@ -1,0 +1,4 @@
+hippodamiaagent
+jsonschema
+paho-mqtt
+pyyaml
