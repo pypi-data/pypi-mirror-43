@@ -1,0 +1,8 @@
+opencv-python
+structlog
+numpy
+jieba
+scikit-image
+pyecharts
+pyecharts_snapshot
+findit
