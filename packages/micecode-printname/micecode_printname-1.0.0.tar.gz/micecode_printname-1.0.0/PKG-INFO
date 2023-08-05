@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: micecode_printname
+Version: 1.0.0
+Summary: A simple test module to print "Hello {name}".
+Home-page: UNKNOWN
+Author: MiceCode
+Author-email: wvmuis@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
