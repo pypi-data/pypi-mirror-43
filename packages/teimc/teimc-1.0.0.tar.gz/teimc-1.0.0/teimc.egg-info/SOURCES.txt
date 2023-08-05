@@ -1,0 +1,7 @@
+README.md
+setup.py
+teimc/__init__.py
+teimc.egg-info/PKG-INFO
+teimc.egg-info/SOURCES.txt
+teimc.egg-info/dependency_links.txt
+teimc.egg-info/top_level.txt
