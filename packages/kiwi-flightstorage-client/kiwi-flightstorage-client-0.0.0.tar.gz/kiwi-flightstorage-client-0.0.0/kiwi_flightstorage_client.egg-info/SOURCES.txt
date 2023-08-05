@@ -1,0 +1,5 @@
+setup.py
+kiwi_flightstorage_client.egg-info/PKG-INFO
+kiwi_flightstorage_client.egg-info/SOURCES.txt
+kiwi_flightstorage_client.egg-info/dependency_links.txt
+kiwi_flightstorage_client.egg-info/top_level.txt
