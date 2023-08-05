@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: osvolbackup
+Version: 0.0.1
+Summary: OpenStack volume based backups tool
+Home-page: https://github.com/CCSGroupInternational/osvolbackup
+Author: jpinto@ccsint.eu
+Author-email: jpinto@ccsint.eu
+License: Apache-2
+Description: README.rst already exists. overwrite it? [y/n]: skip README.md
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Freely Distributable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
