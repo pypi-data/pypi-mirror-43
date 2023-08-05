@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: passerts
+Version: 0.0.1
+Summary: A collection of assertion and check utilities
+Home-page: https://github.com/pointertoeric/passerts
+Author: Eric Yang
+Author-email: eric.uvw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A collection of assertion and check utilities
+
+
