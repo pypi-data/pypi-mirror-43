@@ -1,0 +1,5 @@
+package LbPlatformUtils
+
+use LbScriptsPolicy v*
+
+apply_pattern install_custom_python_modules source=LbPlatformUtils
