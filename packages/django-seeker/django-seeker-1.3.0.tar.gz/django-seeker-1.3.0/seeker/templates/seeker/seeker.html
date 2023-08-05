@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Seeker</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+        <style>
+            body { padding-top: 20px; }
+            .table-responsive { overflow: auto; }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3" style="padding-bottom:10px;">
+                    {% include "seeker/form.html" %}
+                </div>
+                <div class="col-md-9">
+                    <div class="table-responsive">
+                        {% include "seeker/table.html" %}
+                    </div>
+                    {% include "seeker/footer.html" %}
+                </div>
+            </div>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

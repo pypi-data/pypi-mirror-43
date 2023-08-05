@@ -1,0 +1,2 @@
+recursive-include seeker/static *
+recursive-include seeker/templates *
