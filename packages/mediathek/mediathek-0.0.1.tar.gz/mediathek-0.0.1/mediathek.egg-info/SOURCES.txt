@@ -1,0 +1,12 @@
+README.md
+setup.py
+mediathek/__init__.py
+mediathek/models.py
+mediathek.egg-info/PKG-INFO
+mediathek.egg-info/SOURCES.txt
+mediathek.egg-info/dependency_links.txt
+mediathek.egg-info/requires.txt
+mediathek.egg-info/top_level.txt
+mediathek/channels/__init__.py
+mediathek/channels/base.py
+mediathek/channels/kika.py
