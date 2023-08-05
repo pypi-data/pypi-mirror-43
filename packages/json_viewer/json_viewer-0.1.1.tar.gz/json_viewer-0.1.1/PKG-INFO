@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: json_viewer
+Version: 0.1.1
+Summary: A Python GUI json viewer
+Home-page: https://github.com/arfan/json-viewer
+Author: arfan
+Author-email: abdul.arfan@gmail.com
+License: UNKNOWN
+Description: # JSON Viewer
+        
+        ![JSON Viewer](./json_viewer.png)
+        
+        Python3 script to view a JSON file as a tree in GUI.
+        
+        Invoke as:
+        
+        ```
+        $ ./json_viewer.py sample.json
+        ```
+        
+        or
+        
+        ```
+        $ python json_viewer.py sample.json
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
