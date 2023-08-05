@@ -1,0 +1,16 @@
+cgccli.py,sha256=zfcnuvikX4sDIx4Y2NKfcl_aYG5jXjivrKv7-aEIf_g,1400
+subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+subcommands/config.py,sha256=BnnlosZK6MUCv8AvAb8-2oOgh8mhTspP7HYTIsdlcZc,90
+subcommands/files.py,sha256=TK9wEER5rDLS4qLXsvAmaZt2VwUAJKa-Yt9iH_KR9qY,7810
+subcommands/projects.py,sha256=KAhpZPMay9X8cboLl9K7S3c7U5_E4Yqr7XD44vJHTb0,2650
+subcommands/whoami.py,sha256=W8uAL0Oe_FEgZKN57JrUtJMCw30NZXaZzML9IqTyTjU,475
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/const.py,sha256=LzDI88xAIF8M3RIMVSfSzxyN56AIP97vUACaU3zMIu4,1761
+utils/helpers.py,sha256=lQRob91Ku1p7toRo8c97csLGn9Ywx9V9j-Dzwdk9jhg,6807
+utils/logger.py,sha256=Q9Hqi1ostsvzUWu9qZlK0ROivGbSB7TCG--WIEv4rRk,363
+cgccli-1.3.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cgccli-1.3.dist-info/METADATA,sha256=uEi8o7u-kKeIR15G3EG_2Urwb6roT8_Stm5INeZGWbA,612
+cgccli-1.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+cgccli-1.3.dist-info/entry_points.txt,sha256=ZBHsKu9IT486zfouuDgR1UVQ6XstMA4BaiYKQHxZq-0,65
+cgccli-1.3.dist-info/top_level.txt,sha256=rYeCgwr3HZe8oolUY-IQfArMCXHulwgXd3GIh5IjMIM,25
+cgccli-1.3.dist-info/RECORD,,
