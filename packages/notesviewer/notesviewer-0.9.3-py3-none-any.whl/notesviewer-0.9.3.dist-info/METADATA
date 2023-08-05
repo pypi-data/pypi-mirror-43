@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: notesviewer
+Version: 0.9.3
+Summary: notesviewer
+Home-page: https://gitlab.com/Alekgr/notesviewer.git
+Author: alekgr
+Author-email: alek.grigorian@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: termcolor
+Requires-Dist: configparser
+
+# notesviewer
+
+A notes viewer written in python
+
+## installation
+
+pip install notesviewer
+
+## usage
+
+```
+notesviewer --help
+notesviewer version 
+notesviewer list
+notesviewer display <note> 
+notesviewer insert <note> <title>
+nosteviewer edit   <index> <note>
+notesviewer delete <note>
+notesviewer remove <index> <note>
+notesviewer move <index> <fromnote> <tonote>
+notesviewer addtags <note> <tag>
+notesviewer tags <note>
+notesviewer removetags <note> <tag(s)>
+notesviewer showconfig
+notesviewer setdefaultconfig
+notesviewer search <regex> note(s)
+notesviewer check
+notesviewer interactive    #Not implemented yet
+
+```
+
+## changlog
+```
+0.9.3
+- Changed parser argument for add,insert,delete,remove from name to note to be consistant
+- Added help contenxt to commands when using notesviewer --help
+```
+
+## Contributing 
+Pull requests are welcome. 
+
+## Licsense 
+GPL2
+
+
