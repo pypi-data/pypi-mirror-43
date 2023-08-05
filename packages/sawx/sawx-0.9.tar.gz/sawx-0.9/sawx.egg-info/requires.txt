@@ -1,0 +1,8 @@
+bson<1.0.0
+configobj
+fleep
+jsonpickle>=0.9.4
+numpy
+pyparsing
+pytz
+wxpython>=4.0.3

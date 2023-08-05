@@ -1,0 +1,8 @@
+[sawx.editors]
+html = sawx.editors.html_viewer
+text = sawx.editors.text_editor
+
+[sawx.loaders]
+fleep = sawx.loaders.fleep
+text = sawx.loaders.text
+
