@@ -1,0 +1,14 @@
+- project:
+    templates:
+      - openstack-python-jobs
+      - openstack-python35-jobs
+      - openstack-python36-jobs
+      - publish-openstack-docs-pti
+      - openstackclient-plugin-jobs
+    check:
+      jobs:
+        - telemetry-tox-py37
+    gate:
+      jobs:
+        - telemetry-tox-py37
+
