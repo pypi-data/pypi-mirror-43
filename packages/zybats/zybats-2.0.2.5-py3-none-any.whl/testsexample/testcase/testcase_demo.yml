@@ -1,0 +1,70 @@
+- config:
+    name: "Shows how to use zybats ext api."
+    variables:
+        user_agent: 'testcase_user_agent'
+        device_sn: "testcase_sign"
+        os_platform: 'testcase_os'
+        app_version: 'testcase_version'
+        replace_app_id: 'test'
+        sql_str: "select id from user where username = 'wangchen'"
+        redis_key: "wangchen"
+    base_url: ${get_base_url()}
+    #base_url: $URL  //defined in atsfunc.py
+    #base_url:${ENV(URL)}  //Recommended usage
+
+- test:
+    name: call api def example
+    api: api/api_demo.yml
+    variables:
+        user_agent: 'iOS/10.3'
+        device_sn: $device_sn
+        os_platform: 'ios'
+        app_version: '2.8.6'
+    extract:
+        - id: content.id
+    validate:
+        - eq: ["status_code", 200]
+
+-   test:
+        name:  use redis ext api example
+        request:
+            json:
+                ZYBUSS: R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u
+                _t_: '1544443254'
+                appId: homework
+                id: $id
+            headers:
+                Content-Type:  application/json; charset=UTF-8
+            method: POST
+            url: set/redis
+        setup_hooks:
+            - ${show_request_function($request, $replace_app_id)}
+        teardown_hooks:
+            - ${show_response_function($response, 2)}
+        validate:
+        -   eq:
+            - status_code
+            - 200
+        - eq:
+            - ${get_redis_str_value($redis_key)}
+            - "67"
+
+-   test:
+        name: use mysql ext api example
+        request:
+            json:
+                ZYBUSS: R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u
+                _t_: '1544443254'
+                appId: homework
+                id: $id
+            headers:
+                Content-Type:  application/json; charset=UTF-8
+            method: POST
+            url: set/mysql
+        validate:
+        -   eq:
+            - status_code
+            - 200
+        -   eq:
+            - ${query_mysql_one_result($sql_str)}
+            - 67

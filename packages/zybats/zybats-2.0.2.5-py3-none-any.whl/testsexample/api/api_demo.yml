@@ -1,0 +1,19 @@
+def: get token id
+variables:
+    user_agent: "api_user_agent"
+    device_sn: "api_sign"
+    os_platform: "api_os"
+    app_version: "api_version"
+request:
+    url: /api/getTokenId
+    method: POST
+    headers:
+        Content-Type: "application/json"
+    json:
+        user_agent: $user_agent
+        device_sn: $device_sn
+        os_platform: $os_platform
+        app_version: $app_version
+validate:
+    - eq: ["status_code", 200]
+
