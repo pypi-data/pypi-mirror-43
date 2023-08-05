@@ -1,0 +1,8 @@
+README.md
+setup.py
+discordrouter/__init__.py
+discordrouter/router.py
+discordrouter.egg-info/PKG-INFO
+discordrouter.egg-info/SOURCES.txt
+discordrouter.egg-info/dependency_links.txt
+discordrouter.egg-info/top_level.txt
