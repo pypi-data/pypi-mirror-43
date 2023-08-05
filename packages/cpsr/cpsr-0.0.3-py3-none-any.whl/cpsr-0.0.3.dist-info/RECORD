@@ -1,0 +1,15 @@
+cpsr/__init__.py,sha256=nVAdfwuoX-Ny9VGLVaMrPbfSXcXZ-dzxDGs9lIL5Vc4,825
+cpsr/cones.py,sha256=Vk6zw1-cuDi7RKS9dU1euSlVmkqS3TxAlN45dGG_KQ0,32253
+cpsr/cvxpy_interface.py,sha256=yThQfnGpHs9--OTURBSx9H-7JoDf9Pe1kGTBuWPBsF4,4193
+cpsr/lsqr.py,sha256=g5TdxF8iXTzJjXheyoLmTrUxJ6V9l4xX_0IgZRAqZls,22048
+cpsr/problem.py,sha256=L7fY1dCoNEZCPsA59EMeyzARDgoxXXnSiJ9DbLayRZs,14399
+cpsr/refine.py,sha256=gt1z09OG1mnRGpRQWPYvpKl9TVL9HToT57Vn9P8YBsU,9945
+cpsr/solvers.py,sha256=AkfMJGQ9o529KW5loKLnF79JsDBYRwHr_og3qYKwlg4,7066
+cpsr/sparse_matvec.py,sha256=u4OPQBwMZKTiqd0TRDW_xvNkoFkzIMh3PW64jYo6F_k,1917
+cpsr/utils.py,sha256=CYgbyNVnxFgl9Wjmr7oU9KgqHYiLZWG-YTbH7-1Nrf4,5961
+cpsr-0.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cpsr-0.0.3.dist-info/METADATA,sha256=1LNEZocdNLCqMPm9B73g7jrEVwzMbVTaCIyPXwxDFA4,328
+cpsr-0.0.3.dist-info/RECORD,,
+cpsr-0.0.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+cpsr-0.0.3.dist-info/metadata.json,sha256=Sg-mB3BLQ84fPMBILJ_eGB6dgR9iZy1gjuW78-cnAaE,442
+cpsr-0.0.3.dist-info/top_level.txt,sha256=N3Gx2LtWRrva-Ys_peOZNb8thGAfGerDnp-8bb9VdtQ,5
