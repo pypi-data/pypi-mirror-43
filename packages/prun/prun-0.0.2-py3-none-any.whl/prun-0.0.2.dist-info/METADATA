@@ -1,0 +1,53 @@
+Metadata-Version: 2.0
+Name: prun
+Version: 0.0.2
+Summary: A convenience app for working with virtual environments like a breeze.
+Home-page: https://github.com/PeterPyPan/prun
+Author: PeterPyPan
+Author-email: PeterPyPanGitHub@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Keywords: virtual environment venv virtualenv pipenv
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+
+# Readme prun
+
+`prun` is a convenience app for working with virtual environments.
+Use `prun` within a folder structure that has a virtual environment folder 
+to automatically work with the python of the virtual environment.
+
+
+The code below shows how to use `prun`.
+First a local virtual environment is created in the `.venv` folder.
+```
+python -m virtualenv .venv
+```
+
+
+Running the following command from the command shell will show that the 
+`<venv>/Scripts (win)` or `<venv>/bin` (osx, linux) is added to the path.
+The path to the python executable of the local virtual environment should be shown.
+```
+prun which python
+```
+
+
+`prun` can be used to install python packages in the local virtual environment.
+```
+prun pip install numpy
+```
+
+
+When executing `prun` without any extra command line arguments, 
+the python of the virtual environment will be executed.
+```
+prun
+```
+
+
