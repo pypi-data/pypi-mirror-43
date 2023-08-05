@@ -1,0 +1,8 @@
+
+[sample]
+numpy>=1.7
+
+[test]
+pandas
+pytest
+pytest-cov
