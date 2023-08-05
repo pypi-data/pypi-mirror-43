@@ -1,0 +1,12 @@
+setuptools
+AccessControl
+Acquisition
+BTrees
+ExtensionClass>=4.1a1
+future
+Persistence
+six
+Zope2>=4.0a5
+zope.container
+zope.event
+zope.lifecycleevent
