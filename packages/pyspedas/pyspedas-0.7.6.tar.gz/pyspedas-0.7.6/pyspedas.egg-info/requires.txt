@@ -1,0 +1,12 @@
+pyqt5
+pyqtwebengine
+requests
+scipy
+pytplot
+cdflib
+msgpack
+bokeh
+nodejs
+pyqtgraph
+numpy
+pydivide
