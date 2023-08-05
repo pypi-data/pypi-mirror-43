@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: chatopera
+Version: 0.0.2
+Summary: Deliver Chatbots with Chatopera Platform
+Home-page: https://github.com/chatopera/chatopera-py-sdk
+Author: Hai Liang Wang
+Author-email: hain@chatopera.com
+License: MIT
+Description: 
+        Chatopera Python SDK
+        =====================
+        
+        https://bot.chatopera.com/
+        
+        Deliver Chatbots with Chatopera Platform for your business.
+        
+        为企业聊天机器人而生。
+        
+        Welcome
+        -------
+        
+        
+Keywords: chatbot,machine-learning,IR
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
