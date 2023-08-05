@@ -1,0 +1,14 @@
+__main__.py,sha256=K9f_jP5RsHMyt8EqSNrQ4sCWZUKc2-T4uQ3inkrLwOQ,838
+quicklinks.py,sha256=qEyD89k2IBIX9V6Jw4V-BALdspimDvYPEjce705PAvA,5329
+quicklinks_service.py,sha256=wR2kOy8HxOdT8py0rW_G40ReobGHSIn2xAeZmIe-jq8,177
+quicklinks-0.1.1.dist-info/METADATA,sha256=76V5w8SL8_55aSgKqESGFSRuM_ATKfC4HbXGt4TobNU,1504
+quicklinks-0.1.1.dist-info/RECORD,,
+quicklinks-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+quicklinks-0.1.1.dist-info/entry_points.txt,sha256=IqF_nQxoVBVIyDnqCCJ3uy-bs96wprEYY4BHkVJCPg4,40
+quicklinks-0.1.1.dist-info/top_level.txt,sha256=kvHAfe5T5vkStsQ9DE_Psi575upv9uLofu7GFhRPKBI,11
+quicklinks_cli.egg-info/PKG-INFO,sha256=2vqx0TuPxkqhyNnRtS5_1QIsbl6Bug-WHxzNffQXUkw,278
+quicklinks_cli.egg-info/SOURCES.txt,sha256=X6GywIQunvG6jpdABrp6fxBVtK_N72Xk2msnoUy5jyQ,288
+quicklinks_cli.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+quicklinks_cli.egg-info/entry_points.txt,sha256=G8JShBdnyJqV3zo9-qHIPBfYLwaATM7xhrKFGk_qjJI,40
+quicklinks_cli.egg-info/not-zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+quicklinks_cli.egg-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1

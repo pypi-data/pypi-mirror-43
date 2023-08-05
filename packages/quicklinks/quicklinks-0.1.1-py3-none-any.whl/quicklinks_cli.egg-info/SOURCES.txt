@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/__main__.py
+src/quicklinks_cli.egg-info/PKG-INFO
+src/quicklinks_cli.egg-info/SOURCES.txt
+src/quicklinks_cli.egg-info/dependency_links.txt
+src/quicklinks_cli.egg-info/entry_points.txt
+src/quicklinks_cli.egg-info/not-zip-safe
+src/quicklinks_cli.egg-info/top_level.txt
