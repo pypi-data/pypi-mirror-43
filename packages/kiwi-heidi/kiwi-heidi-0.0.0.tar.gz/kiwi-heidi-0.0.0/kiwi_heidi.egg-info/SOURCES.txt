@@ -1,0 +1,5 @@
+setup.py
+kiwi_heidi.egg-info/PKG-INFO
+kiwi_heidi.egg-info/SOURCES.txt
+kiwi_heidi.egg-info/dependency_links.txt
+kiwi_heidi.egg-info/top_level.txt
