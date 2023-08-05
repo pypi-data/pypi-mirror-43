@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+vergit/VERSION
+vergit/__init__.py
+vergit.egg-info/PKG-INFO
+vergit.egg-info/SOURCES.txt
+vergit.egg-info/dependency_links.txt
+vergit.egg-info/entry_points.txt
+vergit.egg-info/requires.txt
+vergit.egg-info/top_level.txt
