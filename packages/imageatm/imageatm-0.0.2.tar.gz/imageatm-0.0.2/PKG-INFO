@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: imageatm
+Version: 0.0.2
+Summary: Image classification for everyone
+Home-page: UNKNOWN
+Author: Christopher Lennan, Malgorzata Adamczyk, Gunar Maiwald, Dat Tran
+Author-email: christopher.lennan@idealo.de, malgorzata.adamczyk@idealo.de, gunar.maiwald@idealo.de, dat.tran@idealo.de
+License: Apache 2.0
+Description: # Image ATM (Automated Tagging Machine)
+        
+        Image ATM is a one-click tool that automates the workflow of a typical image classification pipeline in an opinionated way, this includes:
+        
+        - Preprocessing and validating input images and labels
+        - Starting/terminating cloud instance with GPU support
+        - Training
+        - Model evaluation
+        
+        ## Getting Started
+        Run this from your terminal
+        ```
+        imageatm pipeline config/config_file.yml
+        ```
+        
+        ## Installation
+        There are two ways to install Image ATM:
+        
+        * Install Image ATM from PyPI (recommended):
+        ```
+        pip install imageatm
+        ```
+        
+        * Install Image ATM from the GitHub source:
+        ```
+        git clone https://github.com/idealo/imageatm.git
+        cd imageatm
+        python setup.py install
+        ```
+        
+        ## Testing
+        Run `pytest -vs tests`
+        
+        
+        ## TODOs:
+        
+        - We are currently using Keras 2.2. The plan is to use tf.keras once TF 2.0 is out. Currently tf.keras is buggy,
+          especially with model saving/loading (https://github.com/tensorflow/tensorflow/issues/22697)
+        
+        ## Copyright
+        
+        See [LICENSE](LICENSE) for details.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: tests
