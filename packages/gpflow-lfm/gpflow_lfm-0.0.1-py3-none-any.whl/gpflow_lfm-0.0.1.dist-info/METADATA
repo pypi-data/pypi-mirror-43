@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gpflow-lfm
+Version: 0.0.1
+Summary: LFM in GPFlow
+Home-page: https://github.com/danieljtait/gpflow_lfm
+Author: Daniel Tait
+Author-email: daniel.tait@warwick.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# gpflow_lfm
+
+
