@@ -1,0 +1,59 @@
+jetfactory: async web api framework
+=== 
+
+[![image](https://img.shields.io/github/license/rbw/jetfactory.svg?style=flat-square)](https://raw.githubusercontent.com/rbw/jetfactory/master/LICENSE)
+[![image](https://img.shields.io/pypi/v/jetfactory.svg?style=flat-square)](https://pypi.org/project/jetfactory/)
+[![image](https://img.shields.io/travis/rbw/jetfactory.svg?style=flat-square)](https://travis-ci.org/rbw/jetfactory)
+[![image](https://img.shields.io/codecov/c/github/rbw/jetfactory.svg?style=flat-square)](https://codecov.io/gh/rbw/jetfactory)
+[![image](https://img.shields.io/pypi/pyversions/jetfactory.svg?style=flat-square)](https://pypi.org/project/jetfactory/)
+
+
+Jetfactory is a Python framework for creating structured, portable and high-performance 
+Web APIs. It's built on top of [Sanic](https://github.com/huge-success/sanic) and uses the 
+blazing fast [uvloop](https://github.com/MagicStack/uvloop)
+implementation of the asyncio event loop.
+
+Features and limitations:
+- Lightweight, delivers high performance and high concurrency
+- Scales horizontally
+- Comes with a REST API browser
+- Asynchronous; code must be non-blocking
+- Built-in support for Mysql and Postgres databases
+- Provides intuitive tools for object serialization
+- Works only with modern versions of Python (3.6+)
+- Created with Docker/Kubernetes in mind
+
+
+Getting started
+---
+
+You can read more about Jetfactory in the [Documentation](https://jetfactory.readthedocs.io),
+or check out an [Example](https://github.com/rbw/jet-guestbook).
+
+
+Development
+---
+While Jetfactory does work, it's currently under heavy development; Expect some breakage, as well as lacking documentation and tests.
+That being said - I would very much appreciate people testing out the software, and perhaps even contribute with code.
+
+#### Tasks
+If you're interested in helping out in any way, let me know by creating an Issue or contact me by email.
+Below are various tasks that needs completion in a first stable release. 
+
+##### Currently in progress
+- [ ] [Admin UI/OpenAPI](https://github.com/rbw/jetfactory/projects/2#card-17017968)
+- [ ] [API documentation](https://github.com/rbw/jetfactory/projects/2#card-17018073)
+- [ ] [Unit Tests](https://github.com/rbw/jetfactory/projects/2#card-17018080)
+
+##### Todo
+- [ ] [CORS support](https://github.com/rbw/jetfactory/projects/2#card-17018027)
+- [ ] [GraphQL support](https://github.com/rbw/jetfactory/projects/2#card-17018036)
+- [ ] [Users package](https://github.com/rbw/jetfactory/projects/2#card-17018007)
+- [ ] [Authentication package](https://github.com/rbw/jetfactory/projects/2#card-17018013)
+- [ ] [Project Wiki](https://github.com/rbw/jetfactory/projects/2#card-17017985)
+- [ ] [Command-line interface](https://github.com/rbw/jetfactory/projects/2#card-17017975)
+- [ ] [Modular core](https://github.com/rbw/jetfactory/projects/2#card-18585354)
+
+Author
+---
+Robert Wikman \<rbw@vault13.org\>
