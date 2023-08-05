@@ -1,0 +1,11 @@
+funcy
+modeller
+instagram_private_api==1.6.0
+colorlog
+colorama
+imagesize
+fleep
+ffmpeg-python
+pyyaml
+ruamel.yaml
+click
