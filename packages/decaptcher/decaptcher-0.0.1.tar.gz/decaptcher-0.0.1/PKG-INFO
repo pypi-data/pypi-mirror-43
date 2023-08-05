@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: decaptcher
+Version: 0.0.1
+Summary: Universal interface to multiple anti-captcha services
+Home-page: https://github.com/lorien/decaptcher
+Author: Gregory Petukhov
+Author-email: lorien@lorien.name
+Maintainer: Gregory Petukhov
+Maintainer-email: lorien@lorien.name
+License: MIT
+Download-URL: https://github.com/lorien/decaptcher/releases
+Description: UNKNOWN
+Keywords: captcha anti-captcha antigate rucaptcha 2captcha
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
