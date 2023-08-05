@@ -1,0 +1,5 @@
+setup.py
+kiwi_logger.egg-info/PKG-INFO
+kiwi_logger.egg-info/SOURCES.txt
+kiwi_logger.egg-info/dependency_links.txt
+kiwi_logger.egg-info/top_level.txt
