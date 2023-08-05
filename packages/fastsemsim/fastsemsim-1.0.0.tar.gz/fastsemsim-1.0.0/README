@@ -1,0 +1,8 @@
+FastSemSim is a Python package to calculate semantic similarity over ontologies (including the Gene Ontology).
+See the full documentation at https://fastsemsim.readthedocs.io/en/latest/
+The source repository is available at https://sourceforge.net/p/fastsemsim/
+
+Copyright 2011-2019 Marco Mina. All rights reserved.
+
+Corresponding author: Marco Mina
+Email: marco.mina.85@gmail.com
