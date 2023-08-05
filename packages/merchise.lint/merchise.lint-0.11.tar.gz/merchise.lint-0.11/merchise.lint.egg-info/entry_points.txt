@@ -1,0 +1,11 @@
+[console_scripts]
+merchise_lint = merchise.lint.main:main
+merchise_lint2 = merchise.lint.main:main
+merchise_lint_pre_commit = merchise.lint.main:pre_commit
+merchise_lint_pre_commit2 = merchise.lint.main:pre_commit
+
+[flake8.extension]
+C901 = merchise.lint.checkers:AbsoluteImportCheck
+C980 = merchise.lint.checkers:AvoidPdb
+C990 = merchise.lint.checkers:BreakContinueCheck
+
