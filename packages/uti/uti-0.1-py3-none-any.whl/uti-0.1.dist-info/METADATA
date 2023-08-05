@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: uti
+Version: 0.1
+Summary: A UTI  utility package
+Home-page: https://github.com/avinash321/uti
+Author: Avinash Kandagatla
+Author-email: avinash.kandagatla@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a UTI api useful for UTI Operations
+
+
