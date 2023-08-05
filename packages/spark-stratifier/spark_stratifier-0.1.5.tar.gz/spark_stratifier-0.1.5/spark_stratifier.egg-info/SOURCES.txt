@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+spark_stratifier/__init__.py
+spark_stratifier/stratifier.py
+spark_stratifier.egg-info/PKG-INFO
+spark_stratifier.egg-info/SOURCES.txt
+spark_stratifier.egg-info/dependency_links.txt
+spark_stratifier.egg-info/requires.txt
+spark_stratifier.egg-info/top_level.txt
