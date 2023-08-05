@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+shellmarks.py
+shellmarks.egg-info/PKG-INFO
+shellmarks.egg-info/SOURCES.txt
+shellmarks.egg-info/dependency_links.txt
+shellmarks.egg-info/requires.txt
+shellmarks.egg-info/top_level.txt

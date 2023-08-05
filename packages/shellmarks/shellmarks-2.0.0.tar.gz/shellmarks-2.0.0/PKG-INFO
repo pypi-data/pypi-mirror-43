@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: shellmarks
+Version: 2.0.0
+Summary: shellmarks is a ansible module to set bookmarks to commonly used directories like the tools shellmarks and bashmarks do.
+Home-page: https://github.com/Josef-Friedrich/ansible-module-shellmarks
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
