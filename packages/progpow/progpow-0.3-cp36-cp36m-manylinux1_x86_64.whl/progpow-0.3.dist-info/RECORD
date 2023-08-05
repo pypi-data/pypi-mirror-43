@@ -1,0 +1,8 @@
+progpow-0.3.data/data/lib/libprogpow.so,sha256=324BPFWwtO1JPEpUZ-Si4r1qAeRv1GFBAgf1liNqGA8,158628
+progpow/__init__.py,sha256=jn4WGcsnUSdPX3iwTiGd2a-RpwblfwbiTGZsTMICZv0,2480
+progpow/_libprogpow.abi3.so,sha256=kOO40k_bOHTIMZPMaREbeseDMpByiqWu5m8xx5Fd3sE,49976
+progpow/.libs/libprogpow-df6e013c.so,sha256=EVNWFE_ZeRJTq3bGL2bkk1sx7nOuGgYMCngI9CGtebI,191048
+progpow-0.3.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+progpow-0.3.dist-info/top_level.txt,sha256=mqnEkDacCVYJVtAaUtBVGmIlCU9zKVMauXEYcFr4qoI,20
+progpow-0.3.dist-info/METADATA,sha256=qSOlMDFtlUhHM_6zdtrzXbuSdTGgwUueJoVCKoIW1fg,718
+progpow-0.3.dist-info/RECORD,,
