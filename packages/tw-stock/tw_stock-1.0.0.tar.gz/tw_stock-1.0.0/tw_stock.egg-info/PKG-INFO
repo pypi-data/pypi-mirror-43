@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: tw-stock
+Version: 1.0.0
+Summary: Get Taiwan's stock info in real-time
+Home-page: https://github.com/jiunway/tw_stock
+Author: Jasper
+Author-email: jiunway@gmail.com
+Maintainer: Jasper
+Maintainer-email: jiunway@gmail.com
+License: MIT
+Description: Get Taiwan's stock info in real-time
+        
+        Example:
+           python3 get_real_stock_info.py 2330
+        
+           return
+           {
+             "high_price": "231.50",
+             "low_price": "229.00",
+             "now_price": "230.00",
+             "stock_no": "2330"
+           }
+        
+Platform: all
