@@ -1,0 +1,15 @@
+pdfhandoutcrop/__init__.py,sha256=E0nwztoePbvcnz2ehsqQxQz9__EU4L0-JivWJE41FuA,725
+pdfhandoutcrop/mainwindow.py,sha256=soqPBRav8a5s-S6dX1-5hDGqKvPKaTOWu2nas63Fhh8,17219
+pdfhandoutcrop/pdfhandoutcrop.png,sha256=501-W4gfHQiNGGU5BMyeobGNYosifJ2-8q483kLtBLw,1657
+pdfhandoutcrop/setlayoutdialog.py,sha256=SLpE1QjtT1v6yaibojf6crn98BaSDYps73OLmmPl-ss,589
+pdfhandoutcrop/ui_mainwindow.py,sha256=FMqY49X2BtUS2mliWI9ZlAcTkhO5L98FyHUHgrabH3E,12722
+pdfhandoutcrop/ui_setlayoutdialog.py,sha256=hLOoQruKAZY8-_eCR4sJBIJFcBEfHUVqyT8ZMbJF14k,4190
+pdfhandoutcrop/language/pdfhandoutcrop.ts,sha256=nOThUJVyDEdnwbsar9TnbkH1O4x9X2v5f_z0whKAGsc,10096
+pdfhandoutcrop/language/pdfhandoutcrop_zh_TW.qm,sha256=GW1hZyNfhx1Bp_SRi48Ad-nfQXEd2t9Up2Eo8vaOog0,3923
+pdfhandoutcrop/language/pdfhandoutcrop_zh_TW.ts,sha256=cYbyYChvrTvWEBOrfjvLpuaBoE-gKjTIVHgAcxRfCco,10252
+pdfhandoutcrop-0.6.0.data/scripts/pdfhandoutcrop,sha256=-CtGu8jkYdW_S_8GCyjtw3dZq454iryCnBZtCoQSR4U,53
+pdfhandoutcrop-0.6.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pdfhandoutcrop-0.6.0.dist-info/METADATA,sha256=9rxyQHK4ida7Uk0OZnfqJRYFbMW4KHlYyDC54VM9SkI,2007
+pdfhandoutcrop-0.6.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pdfhandoutcrop-0.6.0.dist-info/top_level.txt,sha256=ajGEzFe1wCt_NdnRoha6BcbIW6oZ7fwXCAou3AC9Yb4,15
+pdfhandoutcrop-0.6.0.dist-info/RECORD,,
