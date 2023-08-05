@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# Sample debian/rules that uses debhelper.
+# GNU copyright 1997 to 1999 by Joey Hess.
+
+export NO_SETUPTOOLS=1
+
+%:
+	dh $@ --with python2 --buildsystem python_distutils
+
+override_dh_python2:
+	dh_python2 -i /usr/share/cubicweb

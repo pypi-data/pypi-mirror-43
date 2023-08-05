@@ -1,0 +1,50 @@
+Source: cubicweb-vcsfile
+Section: web
+Priority: optional
+Maintainer: Logilab Packaging Team <contact@logilab.fr>
+Uploaders: Sylvain Thenault <sylvain.thenault@logilab.fr>, David Douard <david.douard@logilab.fr>
+Build-Depends: debhelper (>= 9), python (>= 2.6.5)
+Standards-Version: 3.9.6
+Homepage: http://www.cubicweb.org/project/cubicweb-vcsfile
+X-Python-Version: >= 2.6
+
+Package: cubicweb-vcsfile
+Architecture: all
+Depends:
+ cubicweb-common (>= 3.26.0),
+ python-logilab-mtconverter (>= 0.7.0),
+ cubicweb-localperms (>= 0.1.0),
+ python-six,
+ python-docutils,
+ python-hglib (>= 1.3.0),
+ python-tzlocal,
+ mercurial (< 4.0.0),
+ mercurial-evolve,
+ ${python:Depends},
+ ${misc:Depends},
+Breaks:
+ cubicweb-vcreview (<< 1.4),
+ cubicweb-trackervcs (<< 1.2),
+ cubicweb-mercurial-server (<< 0.6),
+ cubicweb-apycot (<< 3.2),
+ cubicweb-jpl (<< 1.1),
+ cubicweb-vcwiki (<< 0.3),
+Conflicts: cubicweb-jpl-extranet (<= 0.13.1)
+Description: component to use version control systems from the CubicWeb framework
+ CubicWeb VCSFile component to integrate with version control systems and
+ make their data available from within a CubicWeb application (currently
+ works for mercurial and subversion).
+ .
+ CubicWeb is a semantic web application framework, see http://www.cubicweb.org
+
+Package: cubicweb-vcsfile-broker
+Architecture: all
+Depends:
+ python,
+ python-zmq,
+ ${python:Depends},
+ ${misc:Depends},
+Description: a simple broker daemon that manages push notifications to be sent to
+ a CubicWeb instance running the VCSFile component.
+ .
+ CubicWeb is a semantic web application framework, see http://www.cubicweb.org

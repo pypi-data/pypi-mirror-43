@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+vcsfile = cubicweb_vcsfile
+

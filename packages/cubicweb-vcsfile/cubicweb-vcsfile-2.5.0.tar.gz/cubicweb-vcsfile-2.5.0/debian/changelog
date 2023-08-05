@@ -1,0 +1,550 @@
+cubicweb-vcsfile (2.5.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Philippe Pepiot <philippe.pepiot@logilab.fr>  Tue, 05 Mar 2019 15:12:34 +0100
+
+cubicweb-vcsfile (2.4.2-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Sylvain Thenault <sylvain.thenault@logilab.fr>  Mon, 11 Sep 2017 10:04:31 +0200
+
+cubicweb-vcsfile (2.4.1-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Sylvain Thenault <sylvain.thenault@logilab.fr>  Tue, 23 Aug 2016 15:20:57 +0200
+
+cubicweb-vcsfile (2.4.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Fri, 18 Dec 2015 14:24:02 +0100
+
+cubicweb-vcsfile (2.3.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Sylvain Thenault <sylvain.thenault@logilab.fr>  Tue, 08 Dec 2015 16:48:13 +0100
+
+cubicweb-vcsfile (2.2.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Thu, 15 Oct 2015 12:27:24 +0200
+
+cubicweb-vcsfile (2.1.2-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Fri, 24 Jul 2015 11:15:32 +0200
+
+cubicweb-vcsfile (2.1.1-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Mon, 20 Jul 2015 17:40:21 +0200
+
+cubicweb-vcsfile (2.1.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Mon, 20 Jul 2015 11:11:46 +0200
+
+cubicweb-vcsfile (2.0.3-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Tue, 27 Jan 2015 14:39:54 +0100
+
+cubicweb-vcsfile (2.0.2-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Tue, 13 Jan 2015 15:26:52 +0100
+
+cubicweb-vcsfile (2.0.1-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Tue, 06 Jan 2015 10:36:17 +0100
+
+cubicweb-vcsfile (2.0.0-2) unstable; urgency=medium
+
+  * Fix versioned Breaks on cubicweb-apycot.
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Mon, 05 Jan 2015 14:47:33 +0100
+
+cubicweb-vcsfile (2.0.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Mon, 17 Nov 2014 16:16:52 +0100
+
+cubicweb-vcsfile (1.17.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Thu, 13 Nov 2014 16:32:57 +0100
+
+cubicweb-vcsfile (1.16.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Tue, 08 Jul 2014 12:16:12 +0200
+
+cubicweb-vcsfile (1.15.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Wed, 23 Apr 2014 11:57:10 +0200
+
+cubicweb-vcsfile (1.14.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Thu, 28 Nov 2013 16:57:54 +0100
+
+cubicweb-vcsfile (1.13.3-2) unstable; urgency=low
+
+  * fix debian/control
+
+ -- David Douard <david.douard@logilab.fr>  Thu, 03 Oct 2013 12:14:17 +0200
+
+cubicweb-vcsfile (1.13.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Thu, 26 Sep 2013 15:58:53 +0200
+
+cubicweb-vcsfile (1.13.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Thu, 13 Jun 2013 15:01:32 +0200
+
+cubicweb-vcsfile (1.13.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Mon, 27 May 2013 03:17:09 +0200
+
+cubicweb-vcsfile (1.13.0-1) unstable; urgency=low
+
+  * new upstream release
+
+  * new package cubicweb-vcsfile-broker for the vcsfile-notifbroker daemon
+
+ -- David Douard <david.douard@logilab.fr>  Fri, 24 May 2013 09:29:22 +0200
+
+cubicweb-vcsfile (1.12.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Fri, 03 May 2013 10:49:10 +0200
+
+cubicweb-vcsfile (1.12.2-1) unstable; urgency=low
+
+  * new upstream release 
+
+ -- Florent Cayré <florent.cayre@logilab.fr>  Mon, 08 Apr 2013 22:21:23 +0100
+
+cubicweb-vcsfile (1.12.1-1) unstable; urgency=low
+
+  * new upstream release 
+
+ -- Pierre-Yves David <pierre-yves.david@logilab.fr>  Thu, 07 Mar 2013 19:11:36 +0100
+
+cubicweb-vcsfile (1.12.0-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Pierre-Yves David <pierre-yves.david@logilab.fr>  Mon, 04 Mar 2013 18:07:34 +0100
+
+cubicweb-vcsfile (1.11.0-1) unstable; urgency=low
+
+  * new upstream release 
+
+ -- David Douard <david.douard@logilab.fr>  Sat, 23 Feb 2013 11:50:35 +0100
+
+cubicweb-vcsfile (1.10.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Wed, 30 Jan 2013 17:53:57 +0100
+
+cubicweb-vcsfile (1.9.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Fri, 16 Nov 2012 10:58:31 +0100
+
+cubicweb-vcsfile (1.9.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 28 Jun 2012 12:57:44 +0200
+
+cubicweb-vcsfile (1.9.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 22 Dec 2011 12:23:29 +0100
+
+cubicweb-vcsfile (1.9.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 08 Dec 2011 15:29:21 +0100
+
+cubicweb-vcsfile (1.9.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 03 Nov 2011 17:35:56 +0100
+
+cubicweb-vcsfile (1.8.7-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 26 Sep 2011 17:59:18 +0200
+
+cubicweb-vcsfile (1.8.6-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 08 Sep 2011 17:39:08 +0200
+
+cubicweb-vcsfile (1.8.5-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 11 Jul 2011 18:54:07 +0200
+
+cubicweb-vcsfile (1.8.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 27 Jun 2011 10:59:59 +0200
+
+cubicweb-vcsfile (1.8.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 20 Jun 2011 10:55:15 +0200
+
+cubicweb-vcsfile (1.8.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Jehannet <julien.jehannet@logilab.fr>  Mon, 16 May 2011 16:48:00 +0200
+
+cubicweb-vcsfile (1.8.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Julien Jehannet <julien.jehannet@logilab.fr>  Wed, 11 May 2011 14:40:10 +0200
+
+cubicweb-vcsfile (1.8.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 11 May 2011 10:33:32 +0200
+
+cubicweb-vcsfile (1.7.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 06 Apr 2011 23:16:59 +0200
+
+cubicweb-vcsfile (1.7.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 07 Mar 2011 13:50:13 +0100
+
+cubicweb-vcsfile (1.7.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 10 Feb 2011 17:43:56 +0100
+
+cubicweb-vcsfile (1.6.6-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 25 Jan 2011 10:13:54 +0100
+
+cubicweb-vcsfile (1.6.5-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 22 Oct 2010 08:57:18 +0200
+
+cubicweb-vcsfile (1.6.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 11 Oct 2010 17:45:18 +0200
+
+cubicweb-vcsfile (1.6.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 28 Sep 2010 14:07:52 +0200
+
+cubicweb-vcsfile (1.6.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 23 Sep 2010 14:28:09 +0200
+
+cubicweb-vcsfile (1.6.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 16 Sep 2010 15:36:03 +0200
+
+cubicweb-vcsfile (1.6.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 09 Sep 2010 11:38:34 +0200
+
+cubicweb-vcsfile (1.5.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 16 Jul 2010 10:12:21 +0200
+
+cubicweb-vcsfile (1.4.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 04 Jun 2010 16:36:12 +0200
+
+cubicweb-vcsfile (1.4.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 18 May 2010 10:35:08 +0200
+
+cubicweb-vcsfile (1.3.1-1) unstable; urgency=low
+
+  * new upstrem release
+
+ -- Pierre-Yves David <pierre-yves.david@logilab.fr>  Thu, 08 Apr 2010 16:05:40 +0100
+cubicweb-vcsfile (1.3.0-1) unstable; urgency=low
+
+  * new upstrem release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 26 Mar 2010 16:41:40 +0100
+
+cubicweb-vcsfile (1.2.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 25 Feb 2010 15:07:20 +0100
+
+cubicweb-vcsfile (1.1.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Pierre-Yves David <pierre-yves.david@logilab.fr>  Tue, 17 Feb 2010 16:23:11 +0100
+
+cubicweb-vcsfile (1.1.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 09 Feb 2010 08:18:11 +0100
+
+cubicweb-vcsfile (1.0.13-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 02 Feb 2010 11:10:48 +0100
+
+cubicweb-vcsfile (1.0.12-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 23 Dec 2009 08:26:07 +0100
+
+cubicweb-vcsfile (1.0.11-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 07 Oct 2009 12:46:35 +0200
+
+cubicweb-vcsfile (1.0.10-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Wed, 23 Sep 2009 12:06:00 +0200
+
+cubicweb-vcsfile (1.0.9-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 11 Sep 2009 18:29:01 +0200
+
+cubicweb-vcsfile (1.0.8-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 10 Sep 2009 15:12:34 +0200
+
+cubicweb-vcsfile (1.0.7-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 02 Sep 2009 11:37:52 +0200
+
+cubicweb-vcsfile (1.0.6-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 31 Aug 2009 18:00:53 +0200
+
+cubicweb-vcsfile (1.0.5-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 18 Aug 2009 17:45:56 +0200
+
+cubicweb-vcsfile (1.0.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 06 Aug 2009 18:52:24 +0200
+
+cubicweb-vcsfile (1.0.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 06 Aug 2009 08:48:37 +0200
+
+cubicweb-vcsfile (1.0.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 28 Jul 2009 09:29:51 +0200
+
+cubicweb-vcsfile (1.0.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 22 Jul 2009 00:03:01 +0200
+
+cubicweb-vcsfile (1.0.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 21 Jul 2009 13:54:20 +0200
+
+cubicweb-vcsfile (0.9.1-0) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 29 Jun 2009 09:03:32 +0200
+
+cubicweb-vcsfile (0.9.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Mon, 22 June 2009 12:15:00 +0200
+
+cubicweb-vcsfile (0.8.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 14 May 2009 09:33:57 +0200
+
+cubicweb-vcsfile (0.7.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Wed, 31 Mar 2009 14:49:00 +0100
+
+cubicweb-vcsfile (0.7.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Wed, 16 Feb 2009 12:10:27 +0100
+
+cubicweb-vcsfile (0.7.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Wed, 14 Jan 2009 08:10:27 +0100
+
+cubicweb-vcsfile (0.7.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien Di Mascio <Adrien.DiMascio@logilab.fr>  Tue, 09 Dec 2008 08:10:27 +0100
+
+cubicweb-vcsfile (0.7.0-2) unstable; urgency=low
+
+  * fix packaging by replacing template with cube
+
+ -- Nicolas Chauvat <nicolas.chauvat@logilab.fr>  Wed, 19 Nov 2008 11:12:11 +0100
+
+cubicweb-vcsfile (0.7.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Nicolas Chauvat <nicolas.chauvat@logilab.fr>  Mon, 17 Nov 2008 15:05:11 +0100
+
+cubicweb-vcsfile (0.6.0-1) unstable; urgency=low
+
+  * new upstream release
+  * new dependency to cubicweb-multisources
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 07 Aug 2008 11:08:59 +0200
+
+cubicweb-vcsfile (0.5.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien.DiMascio <Adrien.DiMascio@logilab.fr>  Thu, 12 Jun 2008 18:36:51 +0200
+
+cubicweb-vcsfile (0.5.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Nicolas Chauvat <Nicolas.Chauvat@logilab.fr>  Mon, 12 May 2008 23:16:09 +0200
+
+cubicweb-vcsfile (0.4.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Fri, 29 Feb 2008 12:03:49 +0100
+
+cubicweb-vcsfile (0.4.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Thu, 28 Feb 2008 09:35:22 +0100
+
+cubicweb-vcsfile (0.3.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 15 Feb 2008 16:28:37 +0100
+
+cubicweb-vcsfile (0.2.0-1) unstable; urgency=low
+
+  * add debian/compat and debian/pycompat files, remove DH_COMPAT from rules
+  * fixed uploaders/maintainer in debian/control
+  * new upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Fri, 25 Jan 2008 11:14:35 +0100
+
+cubicweb-vcsfile (0.1.0-1) unstable; urgency=low
+
+  * initial release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Mon, 14 Jan 2008 12:57:46 +0100
+

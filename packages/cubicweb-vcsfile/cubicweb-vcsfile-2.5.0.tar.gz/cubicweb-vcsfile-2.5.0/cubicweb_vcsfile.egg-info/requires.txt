@@ -1,0 +1,8 @@
+logilab-common>=0.59.0
+cubicweb-localperms>=0.1.0
+six
+cubicweb>=3.26.0
+docutils
+tzlocal
+logilab-mtconverter>=0.7.0
+python-hglib
