@@ -1,0 +1,12 @@
+dacite/__init__.py,sha256=o2Rg1jEK5A8HJ7jwsdHe0lkyveSHfcIq8_4omP6Xv5Q,99
+dacite/config.py,sha256=SoqaEOVgOeFmQDQTm9uUhsJfDs6jK7dX-KUxYH868Ko,4613
+dacite/core.py,sha256=0afNHvwwrJV5Lb6m7wy7mGEsypNA-crdT8_Sxz099IU,4363
+dacite/data.py,sha256=YSkQNaokRQcsBU5scc-g9Uw3EGAm-xabGOEwTgmYUe4,52
+dacite/dataclasses.py,sha256=Q08BBsAaNDxBshcvd-ohsNhM5Xiveb65BXw54Rb24Jk,900
+dacite/exceptions.py,sha256=hza2tBNcU6h43RqVNjsL4v1ANHcYHIaQEZzmv8V8sgI,2082
+dacite/types.py,sha256=Eb2pm5-sBxgH4Tgc1Kb3ln8lD3kFNWJmWEh_YP3CEVg,2062
+dacite-0.0.24.dist-info/LICENSE,sha256=4XQc7hH8grgVIQ9TaNMByUDn4974mvcY2oFVAVC6Mnc,1069
+dacite-0.0.24.dist-info/METADATA,sha256=-A_97gdAlyXm1P7B31Cx2PBLgbMcSth3FYN48GJetqs,9448
+dacite-0.0.24.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dacite-0.0.24.dist-info/top_level.txt,sha256=FBtiau9le0LN4KVuREUl4faJJ5ZRe70wytUXbYqX8UE,7
+dacite-0.0.24.dist-info/RECORD,,
