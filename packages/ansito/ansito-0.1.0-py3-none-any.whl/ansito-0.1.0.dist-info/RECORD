@@ -1,0 +1,10 @@
+README.md,sha256=lXlIknskv8WW2KPkVaKfKUNbaGA3pHnBHKZWvdyn-u0,2099
+ansito/__init__.py,sha256=CJJ9htdXaMx7eeU0jPrYuJN31LC2nK3_6wsJO7yzFyg,286
+ansito/__main__.py,sha256=icNiVo9ZyWE2Ndp3X85wMaIt18KliipgiiTpZ19NGcw,395
+ansito/cli.py,sha256=pesEJlwuLT8I2VK_9tTGtY6lJU-MmGUpTt6Q3yPchgs,17769
+pyproject.toml,sha256=UKvtshP06AvRID8F50MC_zpZZXHNkgp8u832kTK_Ptg,1320
+ansito-0.1.0.dist-info/entry_points.txt,sha256=Rf88lLd_R7XwERZ41Vu6oe3_WxViCtaHiwT5FtGiTbw,42
+ansito-0.1.0.dist-info/LICENSE,sha256=Vf1CLt-aY6rh7_snDLm2AVQOZbTUb8T9ZahjBA_miSo,754
+ansito-0.1.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+ansito-0.1.0.dist-info/METADATA,sha256=VG0KVUCaIwIdLd7kbdIUlYUEa0W9KPvd94IgJ-iMRUU,2598
+ansito-0.1.0.dist-info/RECORD,,
