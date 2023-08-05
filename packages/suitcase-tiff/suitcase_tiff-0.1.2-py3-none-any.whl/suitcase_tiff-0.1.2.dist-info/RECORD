@@ -1,0 +1,15 @@
+suitcase/tiff_series/__init__.py,sha256=KhXLybZqjShgc78t2sllo1gkMBzCJEOHFOlQY1PSPWA,8440
+suitcase/tiff_series/_version.py,sha256=5cM-uYPtBmHVcpgL9OoT_ID_Kn21vrzK_S2nOO9nynE,497
+suitcase/tiff_series/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suitcase/tiff_series/tests/conftest.py,sha256=zUIKZsfJBZDpM40_HHp0IhYh12MJO_Eoe72CZV03HPE,213
+suitcase/tiff_series/tests/tests.py,sha256=9OeTUngzvjXvwoqZgmQLdgzK_R5Zf0nuo7Rzkjmz95I,4655
+suitcase/tiff_stack/__init__.py,sha256=2Xhqd5UBxCnopWtR4QONevYX02N_cTfHtkTHJNyNwg0,10366
+suitcase/tiff_stack/_version.py,sha256=EzNK-SIZ7p23D3eNBMYUeavJ2Qhynf_S7WG5CuOyE8I,18460
+suitcase/tiff_stack/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suitcase/tiff_stack/tests/conftest.py,sha256=zUIKZsfJBZDpM40_HHp0IhYh12MJO_Eoe72CZV03HPE,213
+suitcase/tiff_stack/tests/tests.py,sha256=tceYzMj-anqdAUEBH-PE7CxRyUjPu9K28vS0AYMimvM,858
+suitcase_tiff-0.1.2.dist-info/METADATA,sha256=u-7lORsSFmE0RgYCIMCo4g3rR8pxvW37wAC4dRY73Co,542
+suitcase_tiff-0.1.2.dist-info/RECORD,,
+suitcase_tiff-0.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+suitcase_tiff-0.1.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+suitcase_tiff-0.1.2.dist-info/top_level.txt,sha256=sXSuqavclz0Rr3FReaX4wdgvAx61STPGF4A1lpA8_m8,9
