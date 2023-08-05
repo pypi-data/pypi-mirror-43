@@ -1,0 +1,12 @@
+django_admin_reset/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+django_admin_reset/admin.py,sha256=YTkxf_9ImFJVJeLYb_3YmaxSi4Dkl1HdP9RBImabXX0,4677
+django_admin_reset/locale/hu/LC_MESSAGES/django.mo,sha256=Gr5IWGyfRq31pFUo9MqNhwo14_K3HVqbhMQnQ0XyTs0,1801
+django_admin_reset/locale/hu/LC_MESSAGES/django.po,sha256=JItR1wH5wZQqqKRmmJt_VFnsbBzgKbMzUXknHqYxMHI,2040
+django_admin_reset/templates/admin/add_user_form.html,sha256=tgdIIpA2zvlxs38lMvEZBCm4hsMiHPPpwMWQ73KMcjo,317
+django_admin_reset/templates/admin/change_user.html,sha256=9HqSy-1Elm2j2P6VWCJzuiPokrKNIyTmNdOVjSKXQHU,264
+django_admin_reset/templates/admin/password_reset_url.html,sha256=74CkgdwDuZHxNJpXPJyzBErlRqgkNIrKkBvdSU6i81Q,539
+django_admin_reset-0.3.1.dist-info/LICENSE,sha256=HUeCDOHFhxmzf_23dAKJJ5KOcMMLnnod30PvvTG9R_A,1476
+django_admin_reset-0.3.1.dist-info/METADATA,sha256=pA-WXQ_fMNHznpbIqUCfJ_VugDt1BJkXvcvdxFMyZCg,2494
+django_admin_reset-0.3.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_admin_reset-0.3.1.dist-info/top_level.txt,sha256=Ccyn6m1bbjFU-uqeAgvw8FwXpKY1q0pj1MB-LTXAPKU,19
+django_admin_reset-0.3.1.dist-info/RECORD,,
