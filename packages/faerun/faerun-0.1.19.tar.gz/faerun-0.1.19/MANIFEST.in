@@ -1,0 +1,2 @@
+include faerun/template_default.j2
+include faerun/template_smiles.j2
