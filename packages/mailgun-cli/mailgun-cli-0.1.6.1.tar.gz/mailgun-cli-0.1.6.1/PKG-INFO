@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mailgun-cli
+Version: 0.1.6.1
+Summary: control mailgun account using cli and python api
+Home-page: https://github.com/CircleOnCircles/mailgun-cli
+Author: Nutchanon Ninyawee 
+Author-email: dev@nutchanon.org
+Keywords: forward,mail,mailgun,cli
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: loguru (>=0.2.5,<0.3.0)
+Requires-Dist: pandas (>=0.24.1,<0.25.0)
+Requires-Dist: tqdm (>=4.31,<5.0)
+Requires-Dist: uplink (>=0.8.0,<0.9.0)
+Project-URL: Repository, https://github.com/CircleOnCircles/mailgun-cli
