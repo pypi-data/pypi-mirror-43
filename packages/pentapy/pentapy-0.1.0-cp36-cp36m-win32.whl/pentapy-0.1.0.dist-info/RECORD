@@ -1,0 +1,11 @@
+pentapy/__init__.py,sha256=voYghJw9Wr-J4JsPQj-QeBW1vGBy1_vdLgPOeIW8jZQ,425
+pentapy/_version.py,sha256=DjkgZQfFtcs-4U3fLYdCXI_-qC1-v0Op1m8EVcXMkqI,54
+pentapy/core.py,sha256=DsfiZ0I7Ahh3q0jX_6l1OT93vrAokRbP1O1jcQNbvRw,3144
+pentapy/py_solver.py,sha256=LOa_8f6anDy8YQ31p7OdufmY2AUJBdIhWdyP9KaY4VA,3577
+pentapy/solver.c,sha256=W1BxFkZ5Dmn2n-lGR6WAy0mdUYVmzm-12NjROXVBEaY,917292
+pentapy/solver.cp36-win32.pyd,sha256=E9Ky9ckubshVon0IY2MfzjEcFp-PnhXH5XQLrGjewr0,114688
+pentapy-0.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pentapy-0.1.0.dist-info/METADATA,sha256=uCtmAQFpQDUHcAtO176wykMUxyvvMxBXgVJcUeb7wcI,3063
+pentapy-0.1.0.dist-info/WHEEL,sha256=JzwLJJKKKvfM5aa8ugjHzCZbTNPVJ6p0eHfrxsgrcE8,102
+pentapy-0.1.0.dist-info/top_level.txt,sha256=goRKLgOhKlpDiqNg4mHFXb3VhVOqmC4jnJFNPOzI-Qo,8
+pentapy-0.1.0.dist-info/RECORD,,
