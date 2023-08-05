@@ -1,0 +1,3 @@
+[console_scripts]
+djbeat = djbeat.djbeat:main
+
