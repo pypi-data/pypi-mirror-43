@@ -1,0 +1,9 @@
+setup.py
+bin/pymischief.py
+mischief/__init__.py
+mischief/pwned.py
+mischief.egg-info/PKG-INFO
+mischief.egg-info/SOURCES.txt
+mischief.egg-info/dependency_links.txt
+mischief.egg-info/requires.txt
+mischief.egg-info/top_level.txt
