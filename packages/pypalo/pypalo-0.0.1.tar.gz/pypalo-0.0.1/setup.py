@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+#   Copyright (c) 2008 by David P. D. Moss. All rights reserved.
+#
+#   Released under the BSD license. See the LICENSE file for details.
+"""
+A distutils Python setup file. For setuptools support see setup_egg.py.
+"""
+import setuptools
+
+keywords = ['palo alto', 'paloalto', 'panorama']
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="pypalo",
+    version="0.0.1",
+    author="Donald Stogsdill",
+    author_email="donald.stogsdill@coxautoinc.com",
+    description="A Package to interact with the Palo Alto Networks API",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://ghe.coxautoinc.com/ETS-NetworkServices/pypalo",
+    packages=['pypalo'],
+    install_requires=['pan-python', 'sys', 'xmltodict', ],
+    classifiers=[
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.7",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)
