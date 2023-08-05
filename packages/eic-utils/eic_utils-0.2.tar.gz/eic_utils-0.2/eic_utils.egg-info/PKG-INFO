@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: eic-utils
+Version: 0.2
+Summary: Some Basic Utils
+Home-page: http://github.com/indestinee/eic_utils
+Author: indestinee
+Author-email: indestinee@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
