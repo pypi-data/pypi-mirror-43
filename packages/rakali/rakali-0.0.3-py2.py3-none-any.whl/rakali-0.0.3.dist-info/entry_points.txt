@@ -1,0 +1,3 @@
+[console_scripts]
+rakali = rakali.cli.show:cli
+
