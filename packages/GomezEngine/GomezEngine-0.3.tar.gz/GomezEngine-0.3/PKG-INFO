@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: GomezEngine
+Version: 0.3
+Summary: The GomezErzEngine
+Home-page: http://github.com/jgomezdans/GomezEngine
+Author: J Gomez-Dans/NCEO & University College London
+Author-email: j.gomez-dans@ucl.ac.uk
+License: UNKNOWN
+Description: # GomezErzEngine ;-/
+        [![Build Status](https://travis-ci.org/jgomezdans/GomezEngine.svg?branch=master)](https://travis-ci.org/jgomezdans/GomezEngine)
+        [![Coverage Status](https://coveralls.io/repos/github/jgomezdans/GomezEngine/badge.svg?branch=master)](https://coveralls.io/github/jgomezdans/GomezEngine?branch=master)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown

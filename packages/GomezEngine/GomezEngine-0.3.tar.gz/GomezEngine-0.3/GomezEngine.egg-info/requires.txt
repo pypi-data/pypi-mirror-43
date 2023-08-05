@@ -1,0 +1,5 @@
+numpy
+gdal>=2.3
+scipy
+pytest
+tqdm
