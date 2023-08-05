@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: snet-sdk
+Version: 0.0.1
+Summary: SingularityNET Python SDK
+Home-page: https://github.com/singnet/snet-sdk-python
+Author: SingularityNET Foundation
+Author-email: info@singularitynet.io
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: grpcio-tools (==1.17.1)
+Requires-Dist: ecdsa (==0.13)
+Requires-Dist: web3 (==4.2.1)
+Requires-Dist: ipfsapi (==0.4.2.post1)
+Requires-Dist: rfc3986 (==1.1.0)
+
+UNKNOWN
+
+
