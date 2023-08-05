@@ -1,0 +1,9 @@
+drf_multiple_settings/__init__.py,sha256=sOiWomh_UQ3QhpQeQ1W-ZZF0HXKn_6lr6eQPcaCu7h0,31
+drf_multiple_settings/viewsets.py,sha256=wWswKmSQuKj1GuB9Y1E0INGnyAybAc2xns4M2yZYXvk,7884
+drf_multiple_settings/filter_backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_multiple_settings/filter_backends/django_filters.py,sha256=SZdz5qfd_X8JJaC2X0UdnfKgx18_yTunxx1YcgsRDxg,857
+drf_multiple_settings-1.0.0.dist-info/LICENSE,sha256=7naS2sD7DJyQ8SR-cE1nRhjf7kylxQXxzLpAK66XsG4,1067
+drf_multiple_settings-1.0.0.dist-info/METADATA,sha256=vVfTvSg98SgFpVP6O6zr7OQJT0igSnQfUiVTBfcREbk,7071
+drf_multiple_settings-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+drf_multiple_settings-1.0.0.dist-info/top_level.txt,sha256=BWcTTHgC1Oa5C_Zs-vxLINZVKEqp15Cpu2INlB2HHGM,22
+drf_multiple_settings-1.0.0.dist-info/RECORD,,
