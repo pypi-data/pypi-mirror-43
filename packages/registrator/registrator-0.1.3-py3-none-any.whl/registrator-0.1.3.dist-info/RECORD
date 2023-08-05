@@ -1,0 +1,13 @@
+registrator/__init__.py,sha256=4I9ZuL7crt8tqktk0Ikl7DQEoZyRKbyQwoKxM0xWDVU,679
+registrator/channel.py,sha256=qAR7QVZKSjrLxHGPpTYZofyaMyd1yMnOLNEhRqxf6CI,8794
+registrator/image.py,sha256=mH6XwM6Zsm_qeUMFNUouZD9O0qLlVmiwbK0c21OB3Zk,34630
+registrator/tests/test_data/IMG.jpg,sha256=t1njxP4XIFG3T0hEy_orYsk180XpJEIayvr1vCL6UBM,1395552
+registrator/tests/test_data/imUV.tif,sha256=jfg3c7B8QmE_bSGUJCWRU1-qZINbCVQ-IPK75VYH5l8,2012184
+registrator/tests/test_data/imch0.tif,sha256=gZdq2tRtI9fiWVwNY5VMishqUpnwTHTAjsLRiF0qNSY,632853
+registrator/tests/test_data/imch1.tif,sha256=2YkDO0ZszaOHfjMXLut19GoRC8qLAdS5ZdqeNM4Iqyw,632854
+registrator/tests/test_data/imch2.tif,sha256=g8i-S_uvyTmOWGSycVsfZ6ouxbxC-_x1W1ub0AZQIYI,632854
+registrator/tests/test_data/imch3.tif,sha256=TghLLI79owysEwPGkh0WCxibJErKHiaUEYKu7iInfXY,632854
+registrator-0.1.3.dist-info/METADATA,sha256=RtWnBWdZRMAuZZ_ZJTDdm3PDOh4qaS5jURClAwaIErg,1473
+registrator-0.1.3.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+registrator-0.1.3.dist-info/top_level.txt,sha256=rmchDzFEsWyOXGuFb8OdlZai90CWjnkzHcdA8mY9TUM,12
+registrator-0.1.3.dist-info/RECORD,,
