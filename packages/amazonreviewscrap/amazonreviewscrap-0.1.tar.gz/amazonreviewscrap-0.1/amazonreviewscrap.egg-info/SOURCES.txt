@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+README.rst
+setup.py
+amazonreviewscrap/__init__.py
+amazonreviewscrap/scrap_data.py
+amazonreviewscrap/selenium_data_download.py
+amazonreviewscrap.egg-info/PKG-INFO
+amazonreviewscrap.egg-info/SOURCES.txt
+amazonreviewscrap.egg-info/dependency_links.txt
+amazonreviewscrap.egg-info/not-zip-safe
+amazonreviewscrap.egg-info/requires.txt
+amazonreviewscrap.egg-info/top_level.txt
