@@ -1,0 +1,16 @@
+femethods/__init__.py,sha256=OnqZYeIcj9szR7f1OASq1XGT7JV5JegPNrRt1oNk6lE,16
+femethods/_base_elements.py,sha256=btysQFX5V1EPOYm-w3xUcFhN8QjlKXnnj3iCGF1ROiA,13145
+femethods/_common.py,sha256=j-CSnMA11lRMtrVVb_K2hJFu-yyl_WbXESbgoOPk6mU,2932
+femethods/elements.py,sha256=Dmh75CCQfoi5f6WnCq7wO3_ZsneKNJOacb5lUT2zUAY,5113
+femethods/exact.py,sha256=RhbgKfE_DvuYLQGoIAeoMv7bbtelyV5VuxXrZ8iARG8,1690
+femethods/loads.py,sha256=4B3b-VQEk9KYd9xhJvIBjDNfFyUsBmWtS6ZossdP3B4,474
+femethods/mesh.py,sha256=9Ndhyi691sQ647EaXCX6hb6wVqYRLV73avtXH70nczY,1624
+femethods/reactions.py,sha256=atexa1dEcwAiUFPsKMGr4hpLbvOEDHLQ1BUmKwv6ENE,1694
+tests/__init__.py,sha256=ely2PttjgSv7vKdzskuD1rtK_l_UOpmxJSz8isrveD0,16
+tests/test_elements.py,sha256=Dec_R51LyaycD1AY2FHMQ_0AMNUFoENgD8nx6yvLZQY,4923
+tests/test_results.py,sha256=4HvCH-6gt9pahtQ6v5sjFkwtjQDxbKnnu20NBfNouMY,15749
+femethods-0.1.4.dev0.dist-info/License.txt,sha256=1UYEPSlECd63wcIh0U6hnkfLAyVsmhz_uqmjldOqABs,1065
+femethods-0.1.4.dev0.dist-info/METADATA,sha256=CeNnrv8TcYA8oto0En7GfBw8XToDx6D-NJQV2d-m81c,7037
+femethods-0.1.4.dev0.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+femethods-0.1.4.dev0.dist-info/top_level.txt,sha256=kHq0RoeYIm-d8AhLU7k4YhFsefCyRPywG-3nZWg0Du0,16
+femethods-0.1.4.dev0.dist-info/RECORD,,
