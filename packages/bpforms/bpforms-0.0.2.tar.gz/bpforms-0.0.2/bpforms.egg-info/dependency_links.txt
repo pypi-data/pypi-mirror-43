@@ -1,0 +1,2 @@
+git+https://github.com/KarrLab/sphinxcontrib-googleanalytics.git#egg=sphinxcontrib_googleanalytics-0.1.1
+git+https://github.com/KarrLab/wc_utils.git#egg=wc_utils-0.0.4
