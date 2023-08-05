@@ -1,0 +1,4 @@
+click
+colorlog
+google-cloud-storage
+protobuf
