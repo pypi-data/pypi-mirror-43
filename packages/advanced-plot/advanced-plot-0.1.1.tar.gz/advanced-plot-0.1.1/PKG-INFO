@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: advanced-plot
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/ikedaosushi/advanced-plot
+Author: Ikeda Yutao
+Author-email: yutaro.ikeda@kaizenplatform.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: matplotlib (>=3.0,<4.0)
+Requires-Dist: seaborn (>=0.9.0,<0.10.0)
