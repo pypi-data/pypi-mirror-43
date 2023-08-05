@@ -1,0 +1,9 @@
+dgp
+gunicorn
+aiohttp
+aiohttp_sse
+dataflows
+
+[develop]
+pylama
+tox
