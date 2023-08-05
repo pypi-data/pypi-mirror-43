@@ -1,0 +1,11 @@
+corenlp_webclient/__init__.py,sha256=pSQuXuHGcMgGINiFsyx2vUIfz110wObF1LeuaiXr7A8,326
+corenlp_webclient/annotators.py,sha256=rXyPq3FCWMCAXbmkYhyq9W1w07sssYsDxaEp3VsNCXQ,1021
+corenlp_webclient/client.py,sha256=6Ko9H3y_xbjxq70vTKY_ryEX4zAjJXWiLS72T0Z8WXg,1562
+corenlp_webclient/helpers.py,sha256=SGNHEkZcuMApxv6T-QWOLp7yKK_CLBJ9gIZsLhTmgxs,3450
+corenlp_webclient/options.py,sha256=V4VRtAkl2e3S02-TZ_B2DToB8rRSvLQN_J1vJk4bFyc,1066
+corenlp_webclient/version.py,sha256=6lA9U2FzH6YaO8c6G_kn1UxUmGng-sIGpRC_acv4B9I,116
+corenlp_webclient-0.1a2.dist-info/LICENSE.txt,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+corenlp_webclient-0.1a2.dist-info/METADATA,sha256=h3sCdpXy603xm_SAJOgz6FvytnsH5W5735Lc7xaaue8,1338
+corenlp_webclient-0.1a2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+corenlp_webclient-0.1a2.dist-info/top_level.txt,sha256=L2qkpbpv4hiESBwKdGPX16JalrTh0xH-myoFyS_efz0,18
+corenlp_webclient-0.1a2.dist-info/RECORD,,
