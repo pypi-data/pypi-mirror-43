@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyColored/__init__.py
+PyColored/colours.py
+PyColored.egg-info/PKG-INFO
+PyColored.egg-info/SOURCES.txt
+PyColored.egg-info/dependency_links.txt
+PyColored.egg-info/top_level.txt
