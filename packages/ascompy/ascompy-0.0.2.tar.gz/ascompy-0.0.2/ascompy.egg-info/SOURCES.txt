@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ascompy.egg-info/PKG-INFO
+ascompy.egg-info/SOURCES.txt
+ascompy.egg-info/dependency_links.txt
+ascompy.egg-info/top_level.txt
