@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+tag = cubicweb_tag
+

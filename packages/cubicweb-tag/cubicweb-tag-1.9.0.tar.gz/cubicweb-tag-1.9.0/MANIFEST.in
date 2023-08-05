@@ -1,0 +1,8 @@
+include setup.py
+include README
+
+recursive-include cubicweb_tag *
+recursive-include cubicweb_tag/data external_resources *.gif *.js *.css
+recursive-include cubicweb_tag/wdoc *.rst *.png *.xml ChangeLog_*
+recursive-include cubicweb_tag/i18n *.pot *.po
+recursive-include cubicweb_tag/migration *.py
