@@ -1,0 +1,3 @@
+Wand
+requests
+beautifulsoup4
