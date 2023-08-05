@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+intranet = cubicweb_intranet
+

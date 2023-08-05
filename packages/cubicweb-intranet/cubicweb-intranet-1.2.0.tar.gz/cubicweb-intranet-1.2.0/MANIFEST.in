@@ -1,0 +1,7 @@
+include REAME
+include setup.py
+
+recursive-include cubicweb_intranet *
+recursive-include cubicweb_intranet/data *
+recursive-include cubicweb_intranet/i18n *.pot *.po
+recursive-include cubicweb_intranet/migration *.sql *.py depends.map

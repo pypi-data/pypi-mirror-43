@@ -1,0 +1,11 @@
+cubicweb-tag
+cubicweb-link
+cubicweb>=3.26.0
+cubicweb-event
+cubicweb-book
+cubicweb-folder
+cubicweb-comment
+cubicweb-card
+cubicweb-task
+cubicweb-blog
+cubicweb-file>=2.0.1
