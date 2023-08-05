@@ -1,0 +1,22 @@
+from distutils.core import setup
+import pathlib
+
+HERE = pathlib.Path(__file__).parent
+
+README = (HERE / "README.md").read_text()
+
+setup(
+  name='smock',
+  packages=['smock'],  # this must be the same as the name above
+  version='0.2.1',
+  description='Serverboards Mock library',
+  author='David Moreno',
+  author_email='dmoreno@serverboards.io',
+  url='https://github.com/serverboards/smock',
+  download_url='https://github.com/serverboards/smock/archive/0.1.tar.gz',
+  keywords=['testing', 'mock', 'mocking'],
+  install_requires=["PyYAML"],
+  classifiers=[],
+  license="Apache2",
+  long_description=README
+)
