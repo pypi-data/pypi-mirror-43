@@ -1,0 +1,12 @@
+CHANGELOG,sha256=pl1YCvxYFsgIecZK72Jc_nkjvCfyL8TV7H6imCY0ZFo,259
+README.html,sha256=jUSXuF5I8Y3jC1ijgW5qZ6imvs0MISrViQ8cjGDJhdI,20394
+README.org,sha256=-4lVyfxDQE0edJTcQiJEqBlnzj6KdTt2ltP1Zynwf-Y,5048
+nalude/__init__.py,sha256=ss5QOrk5otNkBJftXHNPEFuDuMHpUCWxdHbSZOHZvos,2534
+nalude/extra.py,sha256=T5ZLNHfVeqN6z5kMvXVI3L3OmkY_cUXh-YfjkIyfqLQ,1628
+nalude/nalude.py,sha256=HSd8iwoW8AqMURVBsd4GU7tffVHuxBQe8ehR517XREo,10664
+nalude/types.py,sha256=U-IRzF51a_TQWSPN5zSftqTPMpHwf9vCiecFIvJjpiI,1439
+poetry.lock,sha256=XAm7MJ17wHE939zTc7jpBCbyGSbqUwlsnP-idCLL6FE,3381
+nalude-0.3.0.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+nalude-0.3.0.dist-info/WHEEL,sha256=qtAdCj-IU6QldWlMjaadKoVfLWgvJaW3ljh8ILtCNHs,85
+nalude-0.3.0.dist-info/METADATA,sha256=Mc84uXbdqb3a2-ZY8iqGJTjdd3JPWdsdOAMK2aGnBqs,6975
+nalude-0.3.0.dist-info/RECORD,,
