@@ -1,0 +1,13 @@
+bs_synth/__init__.py,sha256=U1tuEGjVedoulVeju-BpAISU0Nj6GoXgva6eV6cSgpQ,140
+bs_synth/__version__.py,sha256=hADnZNgUsrba4tNuQmCnyh4Hifbh2bINMYUNy8aYnj8,352
+bs_synth/blazar_sampler.py,sha256=PjrT0LB5FDFdBMSR3TIbJ6opDFpnsY6hy2d2lFqvnik,2963
+bs_synth/electron_sampler.py,sha256=aNMIUY1eEyNyrOdEW9fS4jGSR1KogT_SQlvt-iffRZ4,666
+bs_synth/synch_peak_sampler.py,sha256=kniNPfOSEuyPUF7r8Vo88o4CyCZEhTs_aTJ_VD5OY_0,996
+bs_synth/synth.py,sha256=PjrT0LB5FDFdBMSR3TIbJ6opDFpnsY6hy2d2lFqvnik,2963
+bs_synth/synthesizer.py,sha256=G7-SxeWIhM5zVCBcitfQwJmCHmZ1GAgG8QdOBXhgI0o,761
+bs_synth/data/log_gamma.txt,sha256=zQHULMHjXgYOm2s7HPl4UpaGVr5nfjQyc2bTDNuzHBw,2498
+bs_synth-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bs_synth-0.1.0.dist-info/METADATA,sha256=9mucNUUlS9tg1X--6TGJpjAMdAcm0wQt4FvUzAW0ov8,721
+bs_synth-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+bs_synth-0.1.0.dist-info/top_level.txt,sha256=30FUolysiTiEF8ooA1plLcIp-MAmrg-l-euZQI9mdZY,9
+bs_synth-0.1.0.dist-info/RECORD,,
