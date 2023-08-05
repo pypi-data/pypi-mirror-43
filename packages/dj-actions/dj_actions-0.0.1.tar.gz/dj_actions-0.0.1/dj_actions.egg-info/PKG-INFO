@@ -1,0 +1,213 @@
+Metadata-Version: 2.1
+Name: dj-actions
+Version: 0.0.1
+Summary: A framework for performating complex actions on objects
+Home-page: https://gitlab.com/SchoolOrchestration/libs/dj-actions
+Author: AppointmentGuru
+Author-email: tech@appointmentguru.co
+License: UNKNOWN
+Description: # DJ Actions
+        
+        A framework for doing things slightly more complicated than CRUD.
+        
+        1. [ ] Define complex workflows with datastructures
+        1. [ ] Self documenting
+        1. [ ] High level modular construction of compound actions
+        1. [ ] Monitor actions and progress
+        1. [ ] Replay
+        1. [ ] Reverse
+        1. [ ] Time travel
+        
+        ## Getting started
+        
+        ### Installation:
+        
+        `pip install dj-actions`
+        
+        Add the app to 'INSTALLED_APPS`:
+        
+        ```
+        INSTALLED_APPS = [
+            ..
+            'actions',
+        ]
+        ```
+        
+        ### Your first action
+        
+        `dj-actions` uses an `ACTION_MAP` setting to define how tasks are mapped to code.
+        
+        There are a few strategies for generating your action map, but yaml isn't a bad option. In `settings.py`
+        
+        ```python
+        import yaml
+        action_yml = """
+        hello_world:
+          name: "HelloWorld"
+          example_payload:
+            msg: "hello!",
+          tasks:
+            sync:
+              - name: say_hi
+                execute: actions.tasks.debug.hello
+        """
+        ACTIONS_MAP = yaml.load(action_yml)
+        ```
+        
+        .. or use the `get_action_map` helper:
+        
+        ```
+        from actions.helpers import get_action_map
+        ACTION_MAP = get_action_map([
+            'example_project/actions.yml',
+            'path/to/some/other/actions.yml'
+        ])
+        ```
+        
+        Now you can cause this to execute with:
+        
+        ```python
+        from action.models import ActionInstance
+        actor = get_user_model().objects.first()
+        payload = {"msg": "hi!"}
+        action = ActionInstance.from_config(actor, 'hello_world', payload = payload)
+        action.run()
+        ```
+        
+        ### API
+        
+        You can add an API:
+        
+        **urls.py**
+        ```python
+        from actions.api import router as actions_router
+        
+        urlpatterns = [
+            ...
+            path('actions/', include(actions_router.urls)),
+        ]
+        ```
+        
+        ### Documentation
+        
+        Your `ACTION_MAP` can generate docs for you:
+        
+        
+        
+        **Dependencies:**
+        
+        We build on the work of much smarter people.
+        
+        * Django
+        * Django Rest Framework
+        
+        ### Add-ons/plugins:
+        
+        * sentry
+        * dj-nosql -> push into firestore etc
+        * streamio -> push into stream
+        * ...
+        
+        ## Concepts
+        
+        ### Triggers
+        
+        ..
+        
+        ### Actions
+        
+        ..
+        
+        ### ActionInstance
+        
+        ..
+        
+        ## Creating an action
+        
+        ```
+        POST /actions/:resourceName/:verb/:id/
+        
+        {
+          payload: { .. }
+        }
+        ```
+        
+        e.g.: `/actions/invoice/send/123/`
+        
+        ## Models:
+        
+        ```python
+        
+        class Action:
+            '''
+            Stores an incoming request so that it can be tracked and replayed if necessary
+            '''
+            slug # used to look up action in Catalog
+            payload(json)
+            files
+            actor(user)
+            # models are stored as: `myapp.models.MyModel:id`
+            # tasks can add models as they go
+            models
+            context(json) # tasks can add to context as they go
+            status
+        
+        class TaskExecutionStatus:
+            '''
+            Tasks must record their execution status for the action
+            '''
+            incomingaction(fk)
+            task
+            status
+            input
+            ouput
+            notes
+        
+        
+        class RegisteredAction:
+            """
+            A calalog of available actions and their definitions
+            """
+            title
+            description
+            documentation # markdown docs for this action
+            slug
+            payload_map # optional, map a payload to arguments for the task
+            permission_tasks: [],
+            validation_tasks: [],
+            sync_tasks: [],
+            async_tasks: [],
+            scheduled_tasks: []
+        
+        class RegisteredTask:
+            """
+            Library of available tasks
+            """
+            title
+            description
+            documentation
+            invokation # e.g.: path.to.my_task
+        
+        
+        class ActionEvent:
+            actor(user)
+            context
+            template
+            parsed
+            object_ids # object ids which control who can see this event
+        ```
+        
+        
+        ## Tasks provided by the library:
+        
+        * `add_to_feed` -> Adds `ActionEvents` when actions happen
+        * `trigger_action` -> Creates a new `Action`
+        
+        ### Adding a custom task pack:
+        
+        * provide a python app
+        * app should have a management script named `register_tasks` .. you can guess what that does
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
