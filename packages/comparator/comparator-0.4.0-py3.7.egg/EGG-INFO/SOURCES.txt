@@ -1,0 +1,17 @@
+CHANGES.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+comparator/__init__.py
+comparator/compare.py
+comparator/exceptions.py
+comparator.egg-info/PKG-INFO
+comparator.egg-info/SOURCES.txt
+comparator.egg-info/dependency_links.txt
+comparator.egg-info/requires.txt
+comparator.egg-info/top_level.txt
+comparator/comps/__init__.py
+comparator/comps/basic.py
+tests/__init__.py
+tests/test_compare.py
