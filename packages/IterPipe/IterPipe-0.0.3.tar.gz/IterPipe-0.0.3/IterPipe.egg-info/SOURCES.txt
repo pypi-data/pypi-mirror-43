@@ -1,0 +1,8 @@
+README.md
+setup.py
+IterPipe/IterPipe.py
+IterPipe/__init__.py
+IterPipe.egg-info/PKG-INFO
+IterPipe.egg-info/SOURCES.txt
+IterPipe.egg-info/dependency_links.txt
+IterPipe.egg-info/top_level.txt
