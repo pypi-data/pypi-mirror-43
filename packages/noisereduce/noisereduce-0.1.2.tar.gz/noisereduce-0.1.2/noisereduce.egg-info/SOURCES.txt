@@ -1,0 +1,11 @@
+README.md
+setup.py
+noisereduce/__init__.py
+noisereduce/generate_noise.py
+noisereduce/noisereduce.py
+noisereduce/plotting.py
+noisereduce.egg-info/PKG-INFO
+noisereduce.egg-info/SOURCES.txt
+noisereduce.egg-info/dependency_links.txt
+noisereduce.egg-info/requires.txt
+noisereduce.egg-info/top_level.txt
