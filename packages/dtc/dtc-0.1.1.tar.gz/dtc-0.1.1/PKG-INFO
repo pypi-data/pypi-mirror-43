@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dtc
+Version: 0.1.1
+Summary: Generate Dataclass without writting them !
+Home-page: https://github.com/jgirardet/dtc
+Author: jgirardet
+Author-email: ijkl@netc.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Project-URL: Repository, https://github.com/jgirardet/dtc
