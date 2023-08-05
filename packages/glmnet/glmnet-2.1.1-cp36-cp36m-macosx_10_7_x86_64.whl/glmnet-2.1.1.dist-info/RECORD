@@ -1,0 +1,17 @@
+_glmnet.cpython-36m-darwin.so,sha256=n_suL54BdROweuquzzzJQ7eD3xWFZq5Wn5K6CCNmBJg,951496
+_glmnet.cpython-36m-darwin.so.dSYM/Contents/Info.plist,sha256=0wQcvVKsN9aj6dT8ZXa9E8GgsXCAbNXnxpeuFuxai_4,658
+_glmnet.cpython-36m-darwin.so.dSYM/Contents/Resources/DWARF/_glmnet.cpython-36m-darwin.so,sha256=Ksto-Ol5UwhDx5JHK2lLHTH7qL7Jq8myq_rjVfve3V4,725050
+glmnet/__init__.py,sha256=RSdHHb5gCdXEL-NgaWixG13KmcIUbEQNHqmwAIIgdVQ,194
+glmnet/_version.py,sha256=BmVA7sVF9sIa3xf7RwCKQ6Ha4U7RT29a_10HN3c2-FA,471
+glmnet/doc.py,sha256=pcGuWqNOrmgz0DNbdahBnpg6Zir-70UVZfhIXaK7TPI,11502
+glmnet/errors.py,sha256=HfK5wTqvFiPK4TqRyhzybgd8nVNIjoBtHiYwJsbj4FM,2232
+glmnet/linear.py,sha256=E8buWNOWLFTn-SrxYUizqCU59Yzya5foOYO6wKA8Xrg,17115
+glmnet/logistic.py,sha256=hxZq66Ovrf7hKnLTt9uLfU39uEWXawqnbZVcwjEVn6I,22924
+glmnet/scorer.py,sha256=Of0QIaepNYiemVTv5eM1qy5XrqJSC3YejYH63r_Ki8M,12698
+glmnet/util.py,sha256=ruWCIDUW4ILnEri5bUZ6P8PfYYFTxz_y2l3XZ5i8uOk,6827
+glmnet-2.1.1.dist-info/DESCRIPTION.rst,sha256=S5OiqZffV_I3A68AYDNfa_XpeXAWFrOxXaZICG1JfUw,2519
+glmnet-2.1.1.dist-info/METADATA,sha256=G2WKO_pU0Tc9c_0fznlubWn86NYe9caaF_qr6lOR1TU,3551
+glmnet-2.1.1.dist-info/RECORD,,
+glmnet-2.1.1.dist-info/WHEEL,sha256=74RyQNQ88rBYFsd2n9fSga6HOET28X3dMSV592JcRcw,110
+glmnet-2.1.1.dist-info/metadata.json,sha256=S1umVHCtXYHtNcO5CaaconzTE4YwwiqAyXlcx8qluAI,1113
+glmnet-2.1.1.dist-info/top_level.txt,sha256=g2wHSyK5jVtLNKpfk-7fNv7JxxDaD9fUtB5djc3ozDI,15
