@@ -1,0 +1,28 @@
+Source: cubicweb-file
+Section: web
+Priority: optional
+Maintainer: Logilab Packaging Team <contact@logilab.fr>
+Uploaders: 
+  Nicolas Chauvat <nicolas.chauvat@logilab.fr>,
+  David Douard <david.douard@logilab.fr>,
+Build-Depends:
+ debhelper (>= 9),
+ python (>= 2.7),
+ dh-python,
+ python-setuptools,
+Standards-Version: 3.9.8
+Homepage: http://www.cubicweb.org/project/cubicweb-file
+X-Python-Version: >= 2.7
+
+Package: cubicweb-file
+Architecture: all
+Depends:
+ python-cubicweb (>= 3.24),
+ python-imaging,
+ ${python:Depends},
+ ${misc:Depends},
+Description: file component for the CubicWeb framework
+ This CubicWeb component models files and images (pdf document,
+ word processor file, screenshots, etc).
+ .
+ CubicWeb is a semantic web framework, see http://www.cubicweb.org
