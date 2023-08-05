@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rsrtools
+Version: 0.0.1
+Summary: Tools for creating Rocksmith 2014 songlists and managing Rocksmith save files
+Home-page: https://github.com/BuongiornoTexas/rsrtools
+Author: BuongiornoTexas
+License: MIT
+Keywords: Rocksmith,Songlists
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >= 3.6
+Description-Content-Type: text/x-rst
+
+# rsrtools
+
+Tools for creating Rocksmith 2014 songlists and managing Rocksmith save files
+
+20190319 package files to be added over the next few weeks as I complete my QA.
+
+
