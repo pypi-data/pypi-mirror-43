@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+rosie/__init__.py
+rosie/adapt23.py
+rosie/decode.py
+rosie/internal.py
+rosie/rosie.py
+rosie.egg-info/PKG-INFO
+rosie.egg-info/SOURCES.txt
+rosie.egg-info/dependency_links.txt
+rosie.egg-info/not-zip-safe
+rosie.egg-info/requires.txt
+rosie.egg-info/top_level.txt
+test/test.py
+test/testInternals.py
