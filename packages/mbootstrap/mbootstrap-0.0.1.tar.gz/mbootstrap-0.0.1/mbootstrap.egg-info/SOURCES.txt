@@ -1,0 +1,8 @@
+setup.py
+mbootstrap.egg-info/PKG-INFO
+mbootstrap.egg-info/SOURCES.txt
+mbootstrap.egg-info/dependency_links.txt
+mbootstrap.egg-info/entry_points.txt
+mbootstrap.egg-info/requires.txt
+mbootstrap.egg-info/top_level.txt
+scripts/mbootstrap.py
