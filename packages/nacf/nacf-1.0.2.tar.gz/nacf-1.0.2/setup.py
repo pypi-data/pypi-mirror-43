@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+from distutils.core import setup
+
+packages = \
+['nacf']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['nalude>=0.3', 'requests_html>=0.10.0,<0.11.0']
+
+setup_kwargs = {
+    'name': 'nacf',
+    'version': '1.0.2',
+    'description': 'Nasy Crawler Framework -- Never had such a pure crawler.',
+    'long_description': '# Table of Contents\n\n-   [Prologue](#orga5fa671)\n-   [Packages](#org99f6108)\n-   [Development Process](#orga625a17)\n    -   [Http Functions](#org9f91f69)\n        -   [Get](#org8ac6e65)\n        -   [Post](#org76b915f)\n        -   [Bugs](#org79fb5be)\n            -   [Fix an error from inspect.Parameter which caused the function parallel down.](#org98f1363):err:1:\n    -   [Docs](#org3ec466e)\n        -   [Usage](#orga834857)\n-   [Epoligue](#org3eb4602)\n    -   [History](#org2c9000c)\n        -   [Version 1.0.2](#org0016de0)\n        -   [Version 1.0.1](#orgfb04da4)\n        -   [Version 1.0.0](#orgf141119)\n        -   [Version 0.1.2](#orgac86302)\n        -   [Version 0.1.1](#org4ad6a9a)\n        -   [Version 0.1.0](#org5979091)\n\n\n\n<a id="orga5fa671"></a>\n\n# Prologue\n\nNever had such a pure crawler like this `nacf`.\n\nAlthough I often write crawlers, I don&rsquo;t like to use huge frameworks, such as scrapy, but prefer\nsimple `requests+bs4` or more general `requests_html`.  However, these two are inconvenient for a\ncrawler.  E.g. Places, such as error retrying or parallel crawling, need to be handwritten by\nmyself.  It is not very difficult to write it while writing too much can be tedious.  Hence I\nstarted writing this nacf (Nasy Crawler Framework), hoping to simplify some error retrying or\nparallel writing of crawlers.\n\n\n<a id="org99f6108"></a>\n\n# Packages\n\n<table>\n<caption class="t-above"><span class="table-number">Table 1:</span> Packages</caption>\n\n<colgroup>\n<col  class="org-left">\n\n<col  class="org-right">\n\n<col  class="org-left">\n</colgroup>\n<thead>\n<tr>\n<th scope="col" class="org-left">Package</th>\n<th scope="col" class="org-right">Version</th>\n<th scope="col" class="org-left">Description</th>\n</tr>\n</thead>\n\n<tbody>\n<tr>\n<td class="org-left">requests-html</td>\n<td class="org-right">0.9.0</td>\n<td class="org-left">HTML Parsing for Humans.</td>\n</tr>\n\n\n<tr>\n<td class="org-left">nalude</td>\n<td class="org-right">0.2.0</td>\n<td class="org-left">A standard module.  Inspired by Haskell&rsquo;s Prelude.</td>\n</tr>\n</tbody>\n</table>\n\n\n<a id="orga625a17"></a>\n\n# Development Process\n\n\n<a id="org9f91f69"></a>\n\n## DONE Http Functions\n\n<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">&lt;Thu Feb 28 20:51:00 2019&gt;</span></span></p>\n\n\n<a id="org8ac6e65"></a>\n\n### DONE Get\n\n<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">&lt;Tue Dec 25 17:36:00 2018&gt;</span></span></p>\n\n\n<a id="org76b915f"></a>\n\n### DONE Post\n\n<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">&lt;Thu Feb 28 20:44:00 2019&gt;</span></span></p>\n\n\n<a id="org79fb5be"></a>\n\n### DONE Bugs\n\n<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">&lt;Thu Feb 28 20:51:00 2019&gt;</span></span></p>\n\n\n<a id="org98f1363"></a>\n\n#### DONE Fix an error from inspect.Parameter which caused the function parallel down.     :err:1:\n\n<p><span class="timestamp-wrapper"><span class="timestamp-kwd">CLOSED:</span> <span class="timestamp">&lt;Wed Dec 26 20:26:00 2018&gt;</span></span></p>\n\n\n<a id="org3ec466e"></a>\n\n## NEXT Docs\n\n\n<a id="orga834857"></a>\n\n### NEXT Usage\n\n\n<a id="org3eb4602"></a>\n\n# Epoligue\n\n\n<a id="org2c9000c"></a>\n\n## History\n\n\n<a id="org0016de0"></a>\n\n### Version 1.0.2\n\n-   **Data:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Sun Mar 10, 2019&gt;</span></span>\n-   **Changes:** Update nalude.\n\n\n<a id="orgfb04da4"></a>\n\n### Version 1.0.1\n\n-   **Data:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Sun Mar 10, 2019&gt;</span></span>\n-   **Changes:** Update requests-html.\n\n\n<a id="orgf141119"></a>\n\n### Version 1.0.0\n\n-   **Data:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Thu Feb 28, 2019&gt;</span></span>\n-   **Changes:** Now, old HTTP methods (`get` and `post`) cannot accept multiple URLs. Instead, we can use `gets` and `posts`.\n-   **Adds:** -   `nacf.html`\n    -   `nacf.json`\n    -   `nacf.gets`\n    -   `nacf.posts`\n-   **Includes:** -   `nalude`\n\n\n<a id="orgac86302"></a>\n\n### Version 0.1.2\n\n-   **Data:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Wed Dec 26, 2018&gt;</span></span>\n-   **Fixed:** `inspect.Parameter` error in last version.\n\n\n<a id="org4ad6a9a"></a>\n\n### Version 0.1.1\n\n-   **Data:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Wed Dec 26, 2018&gt;</span></span>\n-   **Ignored:** An error caused by `inspect.Parameter`\n-   **Help Wanted:** Can someone help me about the Parameter?\n\n\n<a id="org5979091"></a>\n\n### Version 0.1.0\n\n-   **Date:** <span class="timestamp-wrapper"><span class="timestamp">&lt;Sun Dec 23, 2018&gt;</span></span>\n-   **Commemorate Version:** First Version\n    -   Basic Functions.\n',
+    'author': 'Nasy',
+    'author_email': 'nasyxx+nacf@gmail.com',
+    'url': 'https://github.com/nasyxx/nacf',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.6,<4.0',
+}
+
+
+setup(**setup_kwargs)
