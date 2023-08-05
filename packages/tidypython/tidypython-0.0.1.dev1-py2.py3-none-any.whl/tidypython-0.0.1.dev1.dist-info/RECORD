@@ -1,0 +1,8 @@
+tidypython/__init__.py,sha256=vb6BCIkl4iMUK6qcybqH78rnl67Xadti7rXaaSE84sA,135
+tidypython/gather.py,sha256=2yjimQiSLpM7WUVUoSOQI6ikFIS8o0eYUZRnv5Gx2bs,1849
+tidypython/separate.py,sha256=HXuT0pX36kjAFwKFL37LcbJqWx0l0_eABSGtLGQeiE8,1152
+tidypython/spread.py,sha256=2XxcTuyOGUWqSBPo96VkVNZ-oDhBrEDiI0pc0xqQibo,980
+tidypython-0.0.1.dev1.dist-info/METADATA,sha256=QkfV19QncCLz4ujuKZhfgC_GQD7lENGlp_1FVCbwgYw,1162
+tidypython-0.0.1.dev1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+tidypython-0.0.1.dev1.dist-info/top_level.txt,sha256=EYoxNWvstKlw_ySHvFAmLyggkq2nRmU8vTfisuKa5BE,11
+tidypython-0.0.1.dev1.dist-info/RECORD,,
