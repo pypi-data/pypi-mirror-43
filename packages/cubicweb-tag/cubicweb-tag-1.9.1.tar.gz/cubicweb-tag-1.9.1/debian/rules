@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+export NO_SETUPTOOLS=1
+
+%:
+	dh $@ --with python2 --buildsystem=pybuild
+
+override_dh_python2:
+	dh_python2 /usr/share/cubicweb

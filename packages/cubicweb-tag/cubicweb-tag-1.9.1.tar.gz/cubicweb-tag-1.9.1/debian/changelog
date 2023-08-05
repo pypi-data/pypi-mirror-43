@@ -1,0 +1,178 @@
+cubicweb-tag (1.9.1-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Philippe Pepiot <philippe.pepiot@logilab.fr>  Tue, 05 Mar 2019 16:41:30 +0100
+
+cubicweb-tag (1.9.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Philippe Pepiot <philippe.pepiot@logilab.fr>  Tue, 05 Mar 2019 14:43:01 +0100
+
+cubicweb-tag (1.8.3-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 14 Mar 2016 16:13:51 +0100
+
+cubicweb-tag (1.8.2-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Wed, 08 Jul 2015 10:53:38 +0200
+
+cubicweb-tag (1.8.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Florent Cayre <florent.cayre@logilab.fr>  Mon, 03 Mar 2014 18:21:41 +0100
+
+cubicweb-tag (1.8.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Aurélien Campéas <aurelien.campeas@logilab.fr>  Wed, 16 Jan 2013 14:29:00 +0100
+
+cubicweb-tag (1.7.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 24 Jan 2011 13:09:01 +0100
+
+cubicweb-tag (1.7.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Nicolas Chauvat <nicolas.chauvat@logilab.fr>  Fri, 16 Jul 2010 18:33:21 +0200
+
+cubicweb-tag (1.6.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Wed, 27 Jan 2010 13:11:52 +0100
+
+cubicweb-tag (1.5.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 07 Aug 2009 10:25:08 +0200
+
+cubicweb-tag (1.5.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 21 Jul 2009 13:57:53 +0200
+
+cubicweb-tag (1.5.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 23 Jun 2009 17:19:04 +0200
+
+cubicweb-tag (1.5.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 14 May 2009 10:14:32 +0200
+
+cubicweb-tag (1.4.5-1) unstable; urgency=low
+
+  * limit the tags number's in the tagcloudbox
+  * the tag font size and color depend the frequency
+
+ -- Graziella Toutoungis <graziella.toutoungis@logilab.fr>  Mon, 30 Mar 2009 14:30:03 +0100
+
+cubicweb-tag (1.4.4-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 10 Mar 2009 16:30:03 +0100
+
+cubicweb-tag (1.4.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Thu, 08 Jan 2009 15:36:36 +0100
+
+cubicweb-tag (1.4.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien Di Mascio <Adrien.DiMascio@logilab.fr>  Tue, 23 Dec 2008 08:57:33 +0100
+
+cubicweb-tag (1.4.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 22 Dec 2008 15:24:15 +0100
+
+cubicweb-tag (1.4.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien Di Mascio <Adrien.DiMascio@logilab.fr>  Wed, 24 Sep 2008 18:10:04 +0200
+
+cubicweb-tag (1.3.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien.DiMascio <Adrien.DiMascio@logilab.fr>  Thu, 12 Jun 2008 17:53:27 +0200
+
+cubicweb-tag (1.2.2-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Nicolas Chauvat <Nicolas.Chauvat@logilab.fr>  Mon, 12 May 2008 22:02:21 +0200
+
+cubicweb-tag (1.2.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Wed, 26 Mar 2008 10:51:36 +0100
+
+cubicweb-tag (1.2.0-1) unstable; urgency=low
+
+  * update standards version, fixed section in debian/control
+  * new upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Wed, 12 Mar 2008 10:53:27 +0100
+
+cubicweb-tag (1.1.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Fri, 15 Feb 2008 12:15:07 +0100
+
+cubicweb-tag (1.1.2-1) unstable; urgency=low
+
+  * add missing js file
+
+ -- Adrien.DiMascio <Adrien.DiMascio@logilab.fr>  Wed, 06 Feb 2008 18:58:19 +0100
+
+cubicweb-tag (1.1.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien.DiMascio <Adrien.DiMascio@logilab.fr>  Wed, 06 Feb 2008 08:35:58 +0100
+
+cubicweb-tag (1.1.0-1) unstable; urgency=low
+
+  * add debian/compat and debian/pycompat files, remove DH_COMPAT from rules
+  * fixed uploaders/maintainer in debian/control
+  * fixed .dirs file
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Fri, 25 Jan 2008 10:03:44 +0100
+
+cubicweb-tag (1.0.1-1) unstable; urgency=low
+
+  * packaging fixes
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Tue, 30 Oct 2007 17:06:01 +0100
+
+cubicweb-tag (1.0.0-1) unstable; urgency=low
+
+  * initial upstream release
+
+ -- Sylvain Thénault <Sylvain.Thenault@logilab.fr>  Tue, 18 Sep 2007 16:31:38 +0200
+

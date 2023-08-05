@@ -1,0 +1,24 @@
+Source: cubicweb-tag
+Section: web
+Priority: optional
+Maintainer: Logilab Packaging Team <contact@logilab.fr>
+Uploaders: Sylvain Thenault <sylvain.thenault@logilab.fr>, Nicolas Chauvat <nicolas.chauvat@logilab.fr>
+Build-Depends:
+ debhelper (>= 9),
+ python (>= 2.6.5),
+ dh-python,
+Standards-Version: 3.9.6
+Homepage: https://www.cubicweb.org/project/cubicweb-tag
+X-Python-Version: >= 2.6
+
+Package: cubicweb-tag
+Architecture: all
+Depends:
+ cubicweb-common (>= 3.19.0),
+ ${python:Depends},
+ ${misc:Depends},
+Description: tag component for the CubicWeb framework
+ This CubicWeb component provides tags (usable to classify
+ other items).
+ .
+ CubicWeb is a semantic web framework, see http://www.cubicweb.org
