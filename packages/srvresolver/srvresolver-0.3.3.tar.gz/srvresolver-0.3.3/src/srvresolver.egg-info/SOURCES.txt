@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/srvresolver/__init__.py
+src/srvresolver/postgres_resolver.py
+src/srvresolver/srv_record.py
+src/srvresolver/srv_resolver.py
+src/srvresolver/srv_resolver_cached.py
+src/srvresolver/version.py
+src/srvresolver.egg-info/PKG-INFO
+src/srvresolver.egg-info/SOURCES.txt
+src/srvresolver.egg-info/dependency_links.txt
+src/srvresolver.egg-info/not-zip-safe
+src/srvresolver.egg-info/requires.txt
+src/srvresolver.egg-info/top_level.txt
+test/test_srv_resolver.py
