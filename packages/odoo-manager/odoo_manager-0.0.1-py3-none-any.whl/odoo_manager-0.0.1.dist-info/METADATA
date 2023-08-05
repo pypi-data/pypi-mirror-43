@@ -1,0 +1,35 @@
+Metadata-Version: 2.0
+Name: odoo-manager
+Version: 0.0.1
+Summary: Odoo manager utility
+Home-page: UNKNOWN
+Author: Blue Stingray
+Author-email: odoo@bluestingray.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# odoo-manager
+
+## Setup
+
+```
+python3 -m pip install --user --upgrade setuptools wheel
+python3 -m pip install --user --upgrade twine
+```
+
+## Distribution
+
+### Generating Distribution
+
+`python3 setup.py sdist bdist_wheel`
+
+### Uploading Distribution
+
+`python3 -m twine upload dist/*`
+
+
+
