@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: lilgit_parser
+Version: 0.2
+Summary: Server-side extension for lilgit parser
+Home-page: https://github.com/mkery/Verdant
+Author: Mary Beth Kery
+Author-email: mkery@cs.cmu.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

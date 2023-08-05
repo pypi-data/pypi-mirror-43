@@ -1,0 +1,8 @@
+README.md
+setup.py
+lilgit_parser/__init__.py
+lilgit_parser/parser.py
+lilgit_parser.egg-info/PKG-INFO
+lilgit_parser.egg-info/SOURCES.txt
+lilgit_parser.egg-info/dependency_links.txt
+lilgit_parser.egg-info/top_level.txt
