@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: TracComponentHierarchy
+Version: 1.2.0
+Summary: Add a hierarchy to the component field
+Home-page: https://trac-hacks.org/wiki/ComponentHierarchyPlugin
+Author: falkb
+Author-email: tdoering@baumer.com
+Maintainer: falkb
+License: 3-Clause BSD
+Keywords: ticket component hierarchy
+Platform: UNKNOWN
+Requires-Dist: Trac
+
+ComponentHierarchy
+
+
