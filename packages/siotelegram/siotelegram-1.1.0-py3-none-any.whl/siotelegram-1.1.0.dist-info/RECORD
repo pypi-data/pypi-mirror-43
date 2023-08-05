@@ -1,0 +1,10 @@
+siotelegram/__init__.py,sha256=lsywfLkURfjQC2lzcriJ8XSTaFuCUwpzH8SvBnuEo7k,203
+siotelegram/protocol.py,sha256=SZ71dXdHEVft2wc6dXr4BDEbGcisc3DGhq_I4aabH94,1043
+siotelegram/io/__init__.py,sha256=Ygt3al-84Ow46WJOpvgWwWeH79zwZiJSeti8j4cjpHQ,277
+siotelegram/io/io_aiohttp.py,sha256=ZSWONgCEvJz4DZ3p4OtmMmuXzstLMo58d5VkG7iLZwc,2069
+siotelegram/io/io_aiorequests.py,sha256=p_JCxtJ1PxaJbOKgq2EcM7lHj1rDVedX1o4gzeEI7wM,1501
+siotelegram/io/io_requests.py,sha256=5PLNDOoHoGuONSvFBOVgE6msreHG40ppHx7VEJs-3CM,1534
+siotelegram-1.1.0.dist-info/METADATA,sha256=Ker1-z7XDMIWChtnyqJ29CtfVT-DLvapR-Vrnrf5dOU,2532
+siotelegram-1.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+siotelegram-1.1.0.dist-info/top_level.txt,sha256=_FW1j1qxwSIpXrFVPbjtrC0McBRsNJofQSECO04lRKY,12
+siotelegram-1.1.0.dist-info/RECORD,,
