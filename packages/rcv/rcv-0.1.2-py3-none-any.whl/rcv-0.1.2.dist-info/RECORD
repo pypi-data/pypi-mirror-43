@@ -1,0 +1,14 @@
+rcv/__init__.py,sha256=bgvKRMDO2LCkO9JyjSdbwMCY_bvm0Rj0tQBXFPdMPSk,350
+rcv/ballot.py,sha256=AxbNCCcVZCb0bi7w3lQGaftPrnPkbbV6PRpgKPN9jhU,1198
+rcv/candidate.py,sha256=SIEmjJlDi7jlg2iCkLxCBxi5j39iSfe2AfSp-ppt_64,452
+rcv/processing.py,sha256=adoiHcSFiOA6y6hrvMdzTsdyvvyVge9F8Jzcn-ozhdk,653
+rcv/sampling.py,sha256=Pp3kz--KcdxxXekqONYiIRKyFlw20NJkzA5SQrF2XHA,1616
+rcv/schedule.py,sha256=3axk2q-zjs6Gk6phFx17y7B0_qzeAFiqxjm6eRyQbYA,4105
+rcv/stv.py,sha256=1Lnq77F-zzc3x1UVo-CidWSk4KKxd2HXz7t3mSV0qHc,3701
+rcv/values_dict.py,sha256=gp6tB-m9LT0m7wxwnCGNZiqQRNApv1W7zNJScrrW9Ms,83
+rcv/weighted_set.py,sha256=dBgb18gZq3ZaSFvQDBvCwolav4MoKPagiwWq5ULoHmE,1839
+rcv-0.1.2.dist-info/LICENSE,sha256=ukMquW82vMnwHANTa5QKloVjjlkyFgXQsjjsGOlrFsU,1510
+rcv-0.1.2.dist-info/METADATA,sha256=kA1eUODnd5SirbL2xfqAvoY2KUMY36joPcIgrnyCfL0,1804
+rcv-0.1.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+rcv-0.1.2.dist-info/top_level.txt,sha256=UT1iDAtVDXcDS1_d8PObB6MzIiv4XwHjZZdGJ71shDs,4
+rcv-0.1.2.dist-info/RECORD,,
