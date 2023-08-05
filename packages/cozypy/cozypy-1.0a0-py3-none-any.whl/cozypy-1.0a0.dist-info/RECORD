@@ -1,0 +1,14 @@
+cozypy/__init__.py,sha256=fVqRw_9vs57e23vSlVVV0BdGr1vptU-pxwDNFvEuK-w,15
+cozypy/client.py,sha256=-FVafL0veK9Y8ZJmEjGwYBBlNylVFx8qv2VY4cfbeMA,2404
+cozypy/constant.py,sha256=yselmMvt-XtBRzDSzWkGmFQtzHGppEM3hqtWkXpvF9g,776
+cozypy/exception.py,sha256=Uj4QAcM5OzCd0myrMFdCiS9JUv2rAJm-ksl-nfypaig,45
+cozypy/handlers.py,sha256=_sw20xeqzXhDSRF801RrnSL5k2pcFuSY8xGXW9gEbTo,995
+cozypy/models.py,sha256=L3SevY25sX7js89I_s167IznkxB3TXQOFQDcuby336g,2074
+cozypy/objects.py,sha256=l3m0qqfBdTwl0Mx8j-UdFrh9bLERlBts9Lw5zHAnTIQ,3584
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=BklYi49d0Yh6ZH1PLeAPj6BB1M741g86BoujKt1UHlo,7831
+cozypy-1.0a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cozypy-1.0a0.dist-info/METADATA,sha256=fk1YVKfxbnIJzjtyb2Nr0W-YjMrCJTSJ9K5ebPcizhI,380
+cozypy-1.0a0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+cozypy-1.0a0.dist-info/top_level.txt,sha256=-p8uPY1RygLMJAkS5JCbWA8Mg3Cyx3RaYzZ6plaTG7A,13
+cozypy-1.0a0.dist-info/RECORD,,
