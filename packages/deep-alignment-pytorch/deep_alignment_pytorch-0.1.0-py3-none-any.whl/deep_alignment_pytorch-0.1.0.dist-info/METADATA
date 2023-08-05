@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: deep-alignment-pytorch
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/justussschock/deep_alignment_network_pytorch
+Author: Justus Schock
+Author-email: justus.schock@rwth-aachen.de
+License: BSD 2-Clause License
+Requires-Dist: delira[torch]
+Requires-Dist: shapedata
+Requires-Dist: torch-layers
+
+Copyright (c) 2019, Justus Schock
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Description: # Deep Alignment Network PyTorch
+        [![Build Status](https://travis-ci.com/justusschock/deep_alignment_network_pytorch.svg?branch=master)](https://travis-ci.com/justusschock/deep_alignment_network_pytorch) [![codecov](https://codecov.io/gh/justusschock/deep_alignment_network_pytorch/branch/master/graph/badge.svg)](https://codecov.io/gh/justusschock/deep_alignment_network_pytorch)
+        
+        This repository contains a [`delira`](https://github.com/justusschock/delira)-compatible implementation of the Deep Alignment Network.
+        
+        The original implementation can be found [here](https://github.com/MarekKowalski/DeepAlignmentNetwork) and the paper is available on [arXiv](https://arxiv.org/abs/1706.01789)
+        
+        An example using the HELEN dataset can be found in the [notebooks](notebooks/felen_example.ipynb) folder.
+        
+        ## Installation
+        
+        This repository can be installed from pip via:
+        ```
+        pip install deep-alignment-pytorch
+        ```
+        
+        or from source via
+        ```
+        pip install git+https://github.com/justusschock/deep_alignment_network_pytorch
+        ```
+        
+        An installation from pip will be possible soon, once the complete repository setup is completed.
+        
+        ## Poster (taken from original implementation)
+        <img src="http://home.elka.pw.edu.pl/~mkowals6/lib/exe/fetch.php?media=wiki:dan-poster.jpg" width="60%">
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
