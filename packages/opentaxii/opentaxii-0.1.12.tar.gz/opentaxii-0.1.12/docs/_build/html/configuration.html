@@ -1,0 +1,289 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Configuration &#8212; OpenTAXII 0.1.11 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Running OpenTAXII" href="running.html" />
+    <link rel="prev" title="Installation" href="installation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="configuration">
+<h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<p>OpenTAXII can be configured using YAML configuration files.</p>
+<div class="section" id="default-configuration">
+<h2>Default configuration<a class="headerlink" href="#default-configuration" title="Permalink to this headline">¶</a></h2>
+<p>OpenTAXII has default <a class="reference external" href="https://github.com/eclecticiq/OpenTAXII/blob/0.1.11/opentaxii/defaults.yml">configuration file</a> built in.</p>
+<dl class="docutils">
+<dt>By default:</dt>
+<dd><ul class="first last simple">
+<li>Provided Persistence API and Authentication API implementations are for SQL DB backends and use sqlite3 backend.</li>
+<li>The sqlite3 database files will be automatically created in <code class="docutils literal notranslate"><span class="pre">/tmp/data.db</span></code> and <code class="docutils literal notranslate"><span class="pre">/tmp/auth.db</span></code>.</li>
+<li>Services, collections and accounts are not configured automatically. This requires a manual operation (see below).</li>
+<li>No signal hooks are attached.</li>
+</ul>
+</dd>
+</dl>
+<p>Default configuration file looks like this:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">---</span>
+<span class="nt">domain</span><span class="p">:</span> <span class="s">&quot;localhost:9000&quot;</span>
+
+<span class="nt">support_basic_auth</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">save_raw_inbox_messages</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">xml_parser_supports_huge_tree</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+<span class="nt">count_blocks_in_poll_responses</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">no</span>
+<span class="nt">return_server_error_details</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">no</span>
+
+<span class="nt">persistence_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">opentaxii.persistence.sqldb.SQLDatabaseAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">db_connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">sqlite:////tmp/data.db</span>
+    <span class="nt">create_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+
+<span class="nt">auth_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">opentaxii.auth.sqldb.SQLDatabaseAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">db_connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">sqlite:////tmp/auth.db</span>
+    <span class="nt">create_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+    <span class="nt">secret</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">SECRET-STRING-NEEDS-TO-BE-CHANGED</span>
+
+<span class="nt">logging</span><span class="p">:</span>
+  <span class="nt">opentaxii</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">info</span>
+  <span class="nt">root</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">info</span>
+
+<span class="nt">hooks</span><span class="p">:</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">OpenTAXII uses a SQLite Database by default wich is intended only when running OpenTAXII in a development environment. Please use different SQL DB backend for running in a production environment.</p>
+</div>
+<p>An example of custom configuration that allows OpenTAXII to connect to production-ready PostgreSQL database:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nn">---</span>
+<span class="nt">persistence_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">opentaxii.persistence.sqldb.SQLDatabaseAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">db_connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">postgresql://username:P@ssword@db.example.com:5432/databasename</span>
+    <span class="nt">create_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+
+<span class="nt">auth_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">opentaxii.auth.sqldb.SQLDatabaseAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">db_connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">postgresql://username:P@ssword@db.example.com:5432/databasename</span>
+    <span class="nt">create_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+    <span class="nt">secret</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">SECRET-STRING-NEEDS-TO-BE-CHANGED</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="properties">
+<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">domain</span></code> — domain that will be used in service URLs in TAXII responses.</li>
+<li><code class="docutils literal notranslate"><span class="pre">support_basic_auth</span></code> — enable/disable Basic Authentication support. If disabled, only JWT authentication is allowed.</li>
+<li><code class="docutils literal notranslate"><span class="pre">save_raw_inbox_message</span></code> — enable/disable storing of raw TAXII Inbox messages via Persistence API’s <code class="docutils literal notranslate"><span class="pre">create_inbox_message</span></code> method. This is useful for bookkeeping but significantly increases storage requirements.</li>
+<li><code class="docutils literal notranslate"><span class="pre">xml_parser_supports_huge_tree</span></code> — enable/disable security restrictions in <a class="reference external" href="http://lxml.de/">lxml</a> library to allow support for very deep trees and very long text content. If this is disabled, OpenTAXII will not be able to parse TAXII messages with content blocks larger than roughly 10MB.</li>
+<li><code class="docutils literal notranslate"><span class="pre">count_blocks_in_poll_responses</span></code> — enable/disable total count in TAXII Poll responses. It is disabled by default since <code class="docutils literal notranslate"><span class="pre">count</span></code> operation might be <a class="reference external" href="https://wiki.postgresql.org/wiki/Slow_Counting">very slow</a> in some SQL DBs.</li>
+<li><code class="docutils literal notranslate"><span class="pre">return_server_error_details</span></code> — allow OpenTAXII to return error details in error-status TAXII response.</li>
+<li><code class="docutils literal notranslate"><span class="pre">persistence_api</span></code> — configuration properties for Persistence API implementation.</li>
+<li><code class="docutils literal notranslate"><span class="pre">auth_api</span></code> — configuration properties for Authentication API implementation.</li>
+<li><code class="docutils literal notranslate"><span class="pre">logging</span></code> — logging configuration.</li>
+<li><code class="docutils literal notranslate"><span class="pre">hooks</span></code> - custom python module with signal subscriptions to import. See <a class="reference internal" href="public-apis.html#custom-signals"><span class="std std-ref">documentation on custom signals</span></a> and <a class="reference external" href="https://github.com/eclecticiq/OpenTAXII/blob/0.1.11/examples/hooks.py">an example</a>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="custom-configuration">
+<span id="id1"></span><h2>Custom configuration<a class="headerlink" href="#custom-configuration" title="Permalink to this headline">¶</a></h2>
+<p>To pass custom configuration to OpenTAXII server, specify an absolute path to your
+configuration file in environment variable <code class="docutils literal notranslate"><span class="pre">OPENTAXII_CONFIG</span></code>.:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">export</span> <span class="nv">OPENTAXII_CONFIG</span><span class="o">=</span>/path/to/configuration/file.yml
+</pre></div>
+</div>
+<p>This configuration file may fully or partially override default settings.</p>
+<p>Example custom configuration:</p>
+<div class="highlight-yaml notranslate" id="configuration-example"><div class="highlight"><pre><span></span><span class="nn">---</span>
+<span class="nt">domain</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">taxii.mydomain.com</span>
+<span class="nt">support_basic_auth</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">no</span>
+
+<span class="nt">persistence_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mypackage.opentaxii.CustomPersistenceAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">rest_api</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">http://rest.mydomain.com/api</span>
+
+<span class="nt">auth_api</span><span class="p">:</span>
+  <span class="nt">class</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">opentaxii.auth.sqldb.SQLDatabaseAPI</span>
+  <span class="nt">parameters</span><span class="p">:</span>
+    <span class="nt">db_connection</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">postgresql://scott:tiger@localhost:5432/mydatabase</span>
+    <span class="nt">create_tables</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+    <span class="nt">secret</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">aueHenjitweridUcviapEbsJocdiDrelHonsyorl</span>
+
+<span class="nt">xml_parser_supports_huge_tree</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">no</span>
+<span class="nt">hooks</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">mypackage.opentaxii.custom_hooks</span>
+</pre></div>
+</div>
+<p>The built-in implementation of the Persistence and Authentication APIs support SQLite, PostgreSQL, MySQL, and other SQL databases. Check <a class="reference external" href="http://www.sqlalchemy.org/">SQLAlchemy website</a> to get the full list.</p>
+<p>OpenTAXII CLI tools are implemented to call corresponding API methods and support any API implementation.</p>
+</div>
+<div class="section" id="services-collections-and-accounts">
+<h2>Services, collections and accounts<a class="headerlink" href="#services-collections-and-accounts" title="Permalink to this headline">¶</a></h2>
+<p>Services, collections and accounts can be created with CLI command <code class="docutils literal notranslate"><span class="pre">opentaxii-sync-data</span></code> or with custom code talking to a specific Persistent API implementation/backend.</p>
+<div class="section" id="step-1">
+<h3>Step 1<a class="headerlink" href="#step-1" title="Permalink to this headline">¶</a></h3>
+<p>Create YAML file with collections/services/accounts configuration. See provided example from <a class="reference external" href="https://github.com/eclecticiq/OpenTAXII">OpenTAXII git repo</a> — file <a class="reference external" href="https://github.com/eclecticiq/OpenTAXII/blob/0.1.11/examples/data-configuration.yml">examples/data-configuration.yml</a> that contains:</p>
+<dl class="docutils">
+<dt>Services:</dt>
+<dd><ul class="first last simple">
+<li>2 Inbox Services (with ids <code class="docutils literal notranslate"><span class="pre">inbox_a</span></code> and <code class="docutils literal notranslate"><span class="pre">inbox_b</span></code>),</li>
+<li>1 Discovery Service (with id <code class="docutils literal notranslate"><span class="pre">discovery_a</span></code>),</li>
+<li>1 Collection Management Service (with id <code class="docutils literal notranslate"><span class="pre">collection_management_a</span></code>),</li>
+<li>1 Poll Service (with id <code class="docutils literal notranslate"><span class="pre">poll_a</span></code>).</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Services have relative path in the address field, which means OpenTAXII will prepend it with domain configured in server configuration file (<code class="docutils literal notranslate"><span class="pre">localhost:9000</span></code> in <a class="reference internal" href="#default-configuration">Default configuration</a>).</p>
+</div>
+<dl class="docutils">
+<dt>Collections:</dt>
+<dd><ul class="first last simple">
+<li><code class="docutils literal notranslate"><span class="pre">collection-a</span></code> that has type <code class="docutils literal notranslate"><span class="pre">DATA_SET</span></code>, accepts all content types and is attached to services
+<code class="docutils literal notranslate"><span class="pre">inbox_a</span></code>, <code class="docutils literal notranslate"><span class="pre">collection_management_a</span></code>, and <code class="docutils literal notranslate"><span class="pre">poll_a</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">collection-b</span></code> that accepts only content types specified in field <code class="docutils literal notranslate"><span class="pre">content_bindings</span></code> and is attached to services <code class="docutils literal notranslate"><span class="pre">inbox_a</span></code>, <code class="docutils literal notranslate"><span class="pre">inbox_b</span></code>, <code class="docutils literal notranslate"><span class="pre">collection_management_a</span></code> and <code class="docutils literal notranslate"><span class="pre">poll_a</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">collection-c</span></code> that accepts not only STIX v1.1.1 content type but also custom content type <code class="docutils literal notranslate"><span class="pre">urn:custom.bindings.com:json:0.0.1</span></code>. It is attached to services <code class="docutils literal notranslate"><span class="pre">inbox_a</span></code>, <code class="docutils literal notranslate"><span class="pre">collection_management_a</span></code> and <code class="docutils literal notranslate"><span class="pre">poll_a</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">col-not-available</span></code> that is marked as not available, even though it is attached to <code class="docutils literal notranslate"><span class="pre">inbox_b</span></code> and <code class="docutils literal notranslate"><span class="pre">collection_management_a</span></code>.</li>
+</ul>
+</dd>
+<dt>Accounts:</dt>
+<dd><ul class="first last simple">
+<li>account with username <code class="docutils literal notranslate"><span class="pre">test</span></code> and password <code class="docutils literal notranslate"><span class="pre">test</span></code>, with ability to modify collection <code class="docutils literal notranslate"><span class="pre">collection-a</span></code>, read <code class="docutils literal notranslate"><span class="pre">collection-b</span></code> and <code class="docutils literal notranslate"><span class="pre">coll-stix-and-custom</span></code>, and unknown permission <code class="docutils literal notranslate"><span class="pre">some</span></code> for non-existing collection <code class="docutils literal notranslate"><span class="pre">collection-xyz</span></code>. Incorrect settings will be ignored during sync.</li>
+<li>account with username <code class="docutils literal notranslate"><span class="pre">admin</span></code> and password <code class="docutils literal notranslate"><span class="pre">admin</span></code> that has admin permissions because <code class="docutils literal notranslate"><span class="pre">is_admin</span></code> is set to <code class="docutils literal notranslate"><span class="pre">yes</span></code>.</li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Without an account you can’t access services with <code class="docutils literal notranslate"><span class="pre">authentication_required</span></code> enabled.</p>
+</div>
+</div>
+<div class="section" id="step-2">
+<h3>Step 2<a class="headerlink" href="#step-2" title="Permalink to this headline">¶</a></h3>
+<p>Use <code class="docutils literal notranslate"><span class="pre">opentaxii-sync-data</span></code> command to synchorize data configuration in provided file and in DB.</p>
+<p>Usage help:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="o">(</span>venv<span class="o">)</span> $ opentaxii-sync-data --help
+usage: opentaxii-sync-data <span class="o">[</span>-h<span class="o">]</span> <span class="o">[</span>-f<span class="o">]</span> config
+
+Create services/collections/accounts
+
+positional arguments:
+  config              YAML file with data configuration
+
+optional arguments:
+  -h, --help          show this <span class="nb">help</span> message and <span class="nb">exit</span>
+  -f, --force-delete  force deletion of collections and their content blocks
+                      <span class="k">if</span> collection is not defined in configuration file
+                      <span class="o">(</span>default: False<span class="o">)</span>
+</pre></div>
+</div>
+<p>To sync data run:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="o">(</span>venv<span class="o">)</span> $ opentaxii-sync-data examples/data-configuration.yml
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">To drop the databases, just delete sqlite3 files <code class="docutils literal notranslate"><span class="pre">/tmp/data.db</span></code>, <code class="docutils literal notranslate"><span class="pre">/tmp/auth.db</span></code> and restart OpenTAXII server.</p>
+</div>
+<p>Now OpenTAXII has services, collections and accounts configured and can function as a TAXII server.
+Check <a class="reference internal" href="running.html"><span class="doc">Running OpenTAXII</span></a> to see how to run it.</p>
+<p class="rubric">Next steps</p>
+<p>Continue to the <a class="reference internal" href="running.html"><span class="doc">Running OpenTAXII</span></a> page to see how to run OpenTAXII.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Configuration</a><ul>
+<li><a class="reference internal" href="#default-configuration">Default configuration</a></li>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#custom-configuration">Custom configuration</a></li>
+<li><a class="reference internal" href="#services-collections-and-accounts">Services, collections and accounts</a><ul>
+<li><a class="reference internal" href="#step-1">Step 1</a></li>
+<li><a class="reference internal" href="#step-2">Step 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="installation.html" title="previous chapter">Installation</a></li>
+      <li>Next: <a href="running.html" title="next chapter">Running OpenTAXII</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016-2019, EclecticIQ.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>
