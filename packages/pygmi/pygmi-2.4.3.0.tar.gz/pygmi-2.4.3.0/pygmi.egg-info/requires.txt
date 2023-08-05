@@ -1,0 +1,12 @@
+gdal
+matplotlib
+numba
+numexpr
+numpy
+pandas
+pillow
+pyopengl
+pyqt5
+scikit-learn
+scipy
+setuptools
