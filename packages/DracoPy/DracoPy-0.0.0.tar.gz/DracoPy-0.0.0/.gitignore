@@ -1,0 +1,4 @@
+DracoPy.egg-info/
+_skbuild/
+*.so
+.vscode/
