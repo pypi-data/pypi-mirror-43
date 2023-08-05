@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/printer.py
+example_pkg_ahmad_taj.egg-info/PKG-INFO
+example_pkg_ahmad_taj.egg-info/SOURCES.txt
+example_pkg_ahmad_taj.egg-info/dependency_links.txt
+example_pkg_ahmad_taj.egg-info/top_level.txt
