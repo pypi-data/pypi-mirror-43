@@ -1,0 +1,5 @@
+setup.py
+kw_sgrab.egg-info/PKG-INFO
+kw_sgrab.egg-info/SOURCES.txt
+kw_sgrab.egg-info/dependency_links.txt
+kw_sgrab.egg-info/top_level.txt
