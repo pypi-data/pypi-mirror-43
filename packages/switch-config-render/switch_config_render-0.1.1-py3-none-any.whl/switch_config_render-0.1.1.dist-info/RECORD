@@ -1,0 +1,13 @@
+switch_config_render/__init__.py,sha256=1eQdB_g6KvajlTahUK0q7fm2QIwBOGQDqZiAgL36NOs,30
+switch_config_render/__main__.py,sha256=e8xIUXVADQed0WWPXqmCqy_XxSbWOmXoAvCJBnAL6y0,266
+switch_config_render/canvas.py,sha256=t0ESAaHUD6XI_H5RuKGTBqzkku6JZW-BUEXk01mJTgs,8581
+switch_config_render/generate_svg.py,sha256=KMpUDoyYhOx0pgbadFUoJV5QARjoZrqaCYnHsIDwVPA,16299
+switch_config_render/utils.py,sha256=IzvBVJQTQxWwsOS26Dl9t1rOUk16PV5ZKU35_xdbaZA,2812
+switch_config_render/_examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+switch_config_render/_examples/high_level_example.py,sha256=IXMYN-Q_AXiWaCJwSSg05yqqCcRUDYfQ3LZij4JQd90,6907
+switch_config_render/_examples/low_level_example.py,sha256=ypquYpoNHHF5HskYlIJwZp08EanOkwVpKzgItW0CQsE,4059
+switch_config_render-0.1.1.dist-info/LICENSE,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+switch_config_render-0.1.1.dist-info/METADATA,sha256=2ySpSp5ORA32Jg-73nOvZmJwpqb92T33HQvccwz-Mis,3554
+switch_config_render-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+switch_config_render-0.1.1.dist-info/top_level.txt,sha256=9OuRUy4-Dfnz-7tpdCNIG5udfcuxzXgWKe9Mh2sNYuI,21
+switch_config_render-0.1.1.dist-info/RECORD,,
