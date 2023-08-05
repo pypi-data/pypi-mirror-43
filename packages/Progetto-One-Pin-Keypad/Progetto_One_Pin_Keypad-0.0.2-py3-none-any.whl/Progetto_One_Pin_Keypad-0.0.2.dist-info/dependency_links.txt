@@ -1,0 +1,1 @@
+https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15/archive/1.0.2.tar.gz
