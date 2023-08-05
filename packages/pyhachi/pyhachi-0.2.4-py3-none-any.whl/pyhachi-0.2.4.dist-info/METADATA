@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: pyhachi
+Version: 0.2.4
+Summary: spam filter
+Home-page: UNKNOWN
+Author: Guokr Inc.
+Author-email: jinyang.zhou@guokr.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: cnprep
+Requires-Dist: thulac
+
+# PyHachi
+
+Doc host on GitHub: http://guokr.online/PyHachi/index.html
+
+
