@@ -1,0 +1,13 @@
+mysql_tracer/__init__.py,sha256=-kEMRSuOF7t73FL8Vvzq4x8-B3B3Z2qnyD9xZ-hClII,153
+mysql_tracer/__main__.py,sha256=H7JE1FW5MP1_iRvW-t7Fx7DHXp7wSLjhICYG4ZF8Vkk,728
+mysql_tracer/_cursor_provider.py,sha256=Z4OhOe8ScWn6LF4dciFk4e6vytxlNNxglQDVAn9_-jY,1336
+mysql_tracer/_query.py,sha256=lgUi8fPvSQDPgQIyVZGu5hn4FvjhO2WIBLqdP-I58Vw,5770
+mysql_tracer/_writer.py,sha256=40YOA2jfboy_EgiueJbeUHpzT7NjoCSHzLIJ9eyVjXc,1292
+mysql_tracer/chest.py,sha256=8yBRpNY93Mu05dXg08YTNBEqC-7vy6sh8r6vwfCdJPA,363
+mysql_tracer/configuration.py,sha256=ih4RDM4ibpQ5Jb3IPhkpKhztjb4GvVP3uVDX9ufUJ7o,4244
+mysql_tracer-1.2.4.dist-info/LICENSE,sha256=_aIipzohMZlhzcTUCFkBkNt0CE3pTOvmBi3iwIK4XGw,1072
+mysql_tracer-1.2.4.dist-info/METADATA,sha256=afGKIXHs_fbB7iCMts0VpQsZzdn7nhzm9IjI42S7VFY,2765
+mysql_tracer-1.2.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mysql_tracer-1.2.4.dist-info/entry_points.txt,sha256=tVT0zA3ZKykHvErA_fbhz2AgvMSffZ2fhpD6XEGQlfI,61
+mysql_tracer-1.2.4.dist-info/top_level.txt,sha256=8XmcIgLUU_hDDGl4eLbwamGBnDOES8sauxKT-wUDpps,13
+mysql_tracer-1.2.4.dist-info/RECORD,,
