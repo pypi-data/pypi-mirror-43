@@ -1,0 +1,9 @@
+README.md
+setup.py
+amnparse/__init__.py
+amnparse/args.py
+amnparse/ini.py
+amnparse.egg-info/PKG-INFO
+amnparse.egg-info/SOURCES.txt
+amnparse.egg-info/dependency_links.txt
+amnparse.egg-info/top_level.txt

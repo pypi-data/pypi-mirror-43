@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: amnparse
+Version: 0.1
+Summary: Parser libraries used by the AmmuNation framework
+Home-page: https://github.com/munshigroup/amnparse
+Author: The Munshi Group
+Author-email: support@munshigroup.com
+License: UNKNOWN
+Description: # amnparse
+        Parser libraries used by the AmmuNation framework
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
