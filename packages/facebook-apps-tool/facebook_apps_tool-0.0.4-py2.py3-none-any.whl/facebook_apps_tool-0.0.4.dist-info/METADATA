@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: facebook-apps-tool
+Version: 0.0.4
+Summary: Facebook Apps Tools
+Home-page: https://github.com/zetahernandez/facebook_apps_tool
+Author: Zeta Hernandez
+Author-email: zetahernandez@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Click (~=7.0)
+Requires-Dist: PyYAML (~=3.13)
+Requires-Dist: facebook-py-sdk (~=1.1)
+Requires-Dist: six
+Requires-Dist: typing ; python_version < "3.5"
+Provides-Extra: testing
+Requires-Dist: coveralls ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+UNKNOWN
+
+
