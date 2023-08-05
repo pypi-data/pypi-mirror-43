@@ -1,0 +1,5 @@
+setup.py
+logtopia.egg-info/PKG-INFO
+logtopia.egg-info/SOURCES.txt
+logtopia.egg-info/dependency_links.txt
+logtopia.egg-info/top_level.txt
