@@ -1,0 +1,8 @@
+README.md
+setup.py
+chatbottokenizer/__init__.py
+chatbottokenizer/tokenizer.py
+chatbottokenizer.egg-info/PKG-INFO
+chatbottokenizer.egg-info/SOURCES.txt
+chatbottokenizer.egg-info/dependency_links.txt
+chatbottokenizer.egg-info/top_level.txt
