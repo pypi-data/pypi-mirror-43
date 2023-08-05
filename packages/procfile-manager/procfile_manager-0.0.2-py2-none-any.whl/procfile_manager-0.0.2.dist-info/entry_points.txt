@@ -1,0 +1,3 @@
+[console_scripts]
+procfile-manager = procfile_manager.command:main
+
