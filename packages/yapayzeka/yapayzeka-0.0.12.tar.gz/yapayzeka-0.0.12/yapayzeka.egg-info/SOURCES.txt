@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+yapayzeka.egg-info/PKG-INFO
+yapayzeka.egg-info/SOURCES.txt
+yapayzeka.egg-info/dependency_links.txt
+yapayzeka.egg-info/requires.txt
+yapayzeka.egg-info/top_level.txt
+yapayzekainterface/__init__.py
+yapayzekainterface/otomasyondb.py
+yapayzekainterface/yapayzekacore.py
