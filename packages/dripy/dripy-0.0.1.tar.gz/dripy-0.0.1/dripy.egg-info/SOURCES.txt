@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dripy.egg-info/PKG-INFO
+dripy.egg-info/SOURCES.txt
+dripy.egg-info/dependency_links.txt
+dripy.egg-info/top_level.txt
