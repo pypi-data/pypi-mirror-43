@@ -1,0 +1,11 @@
+pyvoc/__init__.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+pyvoc/check_config.py,sha256=TgVF9yUmgWQt4nrZRGwGTOZpb_ranav5O7EVUKb-sVo,5316
+pyvoc/dmanager.py,sha256=xsL0oyJK0zahelXmXu86KEz7bBRMGTYzgE-3oSyWBpU,6268
+pyvoc/pyvoc.py,sha256=KvfdTUC-MUiqfjVTc--Yn0e4zIu5Cdsf9ev8FzCcApk,6203
+pyvoc/termoutput.py,sha256=6GVe0V3sjzgjxCeCWCAFNRK67dSClNcc5uwr6Moqb-Q,7143
+pyvoc-1.2.0.dist-info/LICENSE,sha256=AUy1eFwZuwSdKyJDKQls1zMI6eQc6M_Vp3f07U_4rKI,1069
+pyvoc-1.2.0.dist-info/METADATA,sha256=fiksw8chGgYn_Gz2U8nyX4-J4he_s0nr48pC0FfNhg8,4035
+pyvoc-1.2.0.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+pyvoc-1.2.0.dist-info/entry_points.txt,sha256=scAtXzx8hiTuW0JLeKBiZCQzcZPUnrikNh7dCx8CD98,44
+pyvoc-1.2.0.dist-info/top_level.txt,sha256=CxckdXCWQA2gwmOwutoW2aNVhgsYllryb5MOcmZBREA,6
+pyvoc-1.2.0.dist-info/RECORD,,
