@@ -1,0 +1,5 @@
+{% if detections|length > 0 %}
+SUBJECT: LIGO/Virgo GRB {{gracedb_id}}: Identification of a possible gravitational-wave counterpart
+{% else %}
+SUBJECT: LIGO/Virgo GRB {{gracedb_id}}: Non-detection in gravitational waves
+{% endif %}
