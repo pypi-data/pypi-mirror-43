@@ -1,0 +1,5 @@
+requests
+python-dateutil
+
+[beautifulsoup4]
+beautifulsoup4>=3.2.1
