@@ -1,0 +1,16 @@
+anaflow/__init__.py,sha256=M5z5kegd5SwiN3XL42zTvRAwX0L_nSWl3J4LVTFMvy8,1365
+anaflow/_version.py,sha256=bxuhfYLbu0ApyzpHBjvm9JKWRp6OhZy7X6_Og12fZ5U,78
+anaflow/flow/__init__.py,sha256=FCRp1HyM85UfW8uZypehH7FJMZXWV13IUlM0YA6km7w,1145
+anaflow/flow/heterogeneous.py,sha256=llUQ6NkaIlu3-a1yUPgQ2Mq_hdXMC2urkvfYp7LgBRE,21823
+anaflow/flow/homogeneous.py,sha256=SzqauZQhqmCiE0QEFMpFKpC8oK9OYSvOdB4oICgPLug,9868
+anaflow/flow/laplace.py,sha256=EGMK8a-vJWLw7kuGCSRkhm4eWWf7msfD5dV_oJzpaeA,9869
+anaflow/flow/special.py,sha256=SdEqQQbxkBjhYrA1lXAE-WWqZtSJtFKo6Y9-aTphKys,3808
+anaflow/tools/__init__.py,sha256=IZ3-BR3F3VUJvpoAcw6bkAUie8TyjXI2dTe6Tq6abzI,251
+anaflow/tools/coarse_graining.py,sha256=0gOeOB-T81Nccw9eWnB46x99WyigPmqpoSVAtzZyHqQ,11175
+anaflow/tools/laplace.py,sha256=WhAWjP7xrPCledBFxGAaXU--nxnfduXLyj7zai0H_gg,14531
+anaflow/tools/mean.py,sha256=w6D6veICTiNuNLvN83agmtL1-fAUZmF7IW84fzHiPe4,13214
+anaflow/tools/special.py,sha256=RsUoDa3UHJpQiJB1Z5yeIFLNZ4tXFQ4Rh96VIVCIjmE,15279
+anaflow-0.4.0.dist-info/METADATA,sha256=GH_iP2tSDycZ4h3hpVy7UpoGUfpJMz8hMUcxLJkEQxg,4388
+anaflow-0.4.0.dist-info/RECORD,,
+anaflow-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+anaflow-0.4.0.dist-info/top_level.txt,sha256=dWWBaE-eFQMRLQw8wms8t6FFrg-Zav2MCsFWZ-2lMOQ,8
