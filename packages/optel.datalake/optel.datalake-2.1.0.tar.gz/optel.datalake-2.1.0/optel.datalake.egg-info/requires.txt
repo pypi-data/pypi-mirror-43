@@ -1,0 +1,10 @@
+click
+deprecation
+google-api-python-client
+google-auth-httplib2
+google-cloud-bigquery
+google-cloud-storage
+pyspark==2.3.1
+python-terraform
+pyYAML
+tzlocal

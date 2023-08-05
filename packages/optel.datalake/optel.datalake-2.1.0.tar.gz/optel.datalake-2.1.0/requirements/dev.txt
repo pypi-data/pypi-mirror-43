@@ -1,0 +1,15 @@
+-r prod.txt
+-r doc.txt
+deprecation
+pypandoc
+pytest
+pytest-runner
+testfixtures
+xenon
+pylint
+pytest-cov
+python-terraform
+google-auth-httplib2
+pytest-mock
+mock
+--editable ./
