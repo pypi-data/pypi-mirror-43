@@ -1,0 +1,5 @@
+dataslots
+defusedxml
+lxml
+requests
+unstdlib
