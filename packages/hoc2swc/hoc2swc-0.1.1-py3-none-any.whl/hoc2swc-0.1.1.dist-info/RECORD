@@ -1,0 +1,7 @@
+hoc2swc/__init__.py,sha256=FaVUvRfYlG_iDJuG1sl-8T7sp7-ed6nyoFXAqH3Zpb8,10324
+hoc2swc-0.1.1.dist-info/METADATA,sha256=Uchiap1SQ8TGnDVbiE2Rs_kpzcRMBBu5K4EzTP_cVwc,4404
+hoc2swc-0.1.1.dist-info/RECORD,,
+hoc2swc-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+hoc2swc-0.1.1.dist-info/top_level.txt,sha256=i5JSeOeOgscjx0lzMJFLuR9So6NTe8kM4UMIBvIdqWg,14
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_all.py,sha256=QL8WeCbi2EyEdrTnfkwQDj_jahM7JEC39_ReYuXYWkE,1029
