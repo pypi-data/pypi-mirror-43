@@ -1,0 +1,6 @@
+README.md
+setup.py
+dataclass_structor.egg-info/PKG-INFO
+dataclass_structor.egg-info/SOURCES.txt
+dataclass_structor.egg-info/dependency_links.txt
+dataclass_structor.egg-info/top_level.txt
