@@ -1,0 +1,17 @@
+gwdetchar
+gwpy>=0.14.0
+gwtrigfind
+jinja2
+lscsoft-glue>=2.0.0
+lxml
+matplotlib>=1.5
+numpy>=1.10
+pykerberos
+scipy
+
+[doc]
+sphinx
+numpydoc
+sphinx_rtd_theme
+sphinxcontrib_programoutput
+sphinxcontrib_epydoc
