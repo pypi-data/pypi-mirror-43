@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: eip712-structs
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: eth-utils (==1.4.1)
+Requires-Dist: pysha3 (==1.0.2)
+Requires-Dist: pytest (==4.3.0)
+
+UNKNOWN
+
+
