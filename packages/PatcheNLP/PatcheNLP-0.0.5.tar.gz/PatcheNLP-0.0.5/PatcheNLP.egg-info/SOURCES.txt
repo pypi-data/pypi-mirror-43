@@ -1,0 +1,18 @@
+README.md
+setup.py
+PatcheNLP/TF.py
+PatcheNLP/__init__.py
+PatcheNLP/config.py
+PatcheNLP/convert.py
+PatcheNLP/cut_hmm.py
+PatcheNLP/hmm.py
+PatcheNLP.egg-info/PKG-INFO
+PatcheNLP.egg-info/SOURCES.txt
+PatcheNLP.egg-info/dependency_links.txt
+PatcheNLP.egg-info/top_level.txt
+PatcheNLP/data/cut/CUT@People's Daily199801
+PatcheNLP/data/pos_tagging/POS tagging@People's Daily199801
+PatcheNLP/data/stop_words/Chinese stop words
+PatcheNLP/model/hmm/hmm_model.pkl
+PatcheNLP/model/hmm/pos_hmm_model.pkl
+test/test.py
