@@ -1,0 +1,5 @@
+setup.py
+kw_receptionist_common.egg-info/PKG-INFO
+kw_receptionist_common.egg-info/SOURCES.txt
+kw_receptionist_common.egg-info/dependency_links.txt
+kw_receptionist_common.egg-info/top_level.txt
