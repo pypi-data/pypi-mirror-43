@@ -1,0 +1,7 @@
+include setup.py
+include README
+
+recursive-include cubicweb_blog *
+recursive-include cubicweb_blog/data *.gif *.jpg *.png *.css external_resources
+recursive-include cubicweb_blog/i18n *.po
+recursive-include cubicweb_blog/migration *.py
