@@ -1,0 +1,77 @@
+Metadata-Version: 1.1
+Name: pyveu
+Version: 0.1.0a1
+Summary: Package to work with experimental data with uncertainties and units
+Home-page: https://gitlab.sauerburger.com/frank/pyveu
+Author: Frank Sauerburger
+Author-email: frank@sauerburger.com
+License: MIT
+Description: pyveu -- Value Error Unit
+        =================================
+        
+        The python package pyveu (Value Error Unit) handles real-life experimental
+        data which includes uncertainties and physical units. The package implements
+        arithmetic operations and many mathematical functions for physical quantities.
+        Gaussian error propagation is used to calculate the uncertainty of derived
+        quantities.
+        
+        The package is built with the day-to-day requirements of people working a
+        laboratory kept in mind. The package offers an imperative programming style,
+        which means that the operations are evaluated when they are typed
+        interactively in python, giving researchers the freedom and flexibility they
+        need.
+        
+        
+        Quickstart
+        ==========
+        
+        Install the package using pip
+        
+        .. code-block:: console
+        
+           $ pip install pyveu
+        
+        
+        The working horse of the package is the `pyveu.Quantity
+        <https://pyveu.readthedocs.io/en/latest/api_reference.html#quantity>`_ class. It can be
+        used to convert units, for example, it can convert meter per second into kilometer
+        per hour.
+        
+        >>> from pyveu import Quantity
+        >>> speed = Quantity("32 +- 3 m / s")
+        >>> speed.str("km / hr")
+        '(115 +- 11) km / hr'
+        
+        Quantities from a measurement usually come with a measurement uncertainty. The
+        class `pyveu.Quantity
+        <https://pyveu.readthedocs.io/en/latest/api_reference.html#quantity>`_ propagates the uncertainty automatically.
+        
+        >>> time = Quantity("3.23 +- 0.1 min")
+        >>> distance = speed * time
+        >>> distance.str("km")
+        '(6.2 +- 0.6) km'
+        
+        Links
+        =====
+        
+         * `GitLab Repository <https://gitlab.sauerburger.com/frank/pyveu>`_
+         * `Documentation <https://pyveu.readthedocs.io/>`_
+         * `pyveu on PyPi <https://pypi.org/project/pyveu>`_
+        
+Keywords: physics value error uncertainty unit quantity
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7 
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
