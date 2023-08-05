@@ -1,0 +1,12 @@
+setup.py
+untrusted/__init__.py
+untrusted/iterator.py
+untrusted/mapping.py
+untrusted/sequence.py
+untrusted/string.py
+untrusted/util.py
+untrusted.egg-info/PKG-INFO
+untrusted.egg-info/SOURCES.txt
+untrusted.egg-info/dependency_links.txt
+untrusted.egg-info/top_level.txt
+untrusted.egg-info/zip-safe
