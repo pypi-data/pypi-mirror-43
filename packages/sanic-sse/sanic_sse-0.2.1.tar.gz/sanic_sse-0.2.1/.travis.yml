@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.6"
+
+if: tag IS present
+
+install:
+  - pip install flit
+  - flit install -s --deps all
+
+script:
+  - pytest
+  - flit publish
