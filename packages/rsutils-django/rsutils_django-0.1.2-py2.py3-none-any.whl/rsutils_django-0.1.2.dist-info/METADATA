@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rsutils-django
+Version: 0.1.2
+Summary: A bunch of utilities for Django. Built with :heart: by Reckonsys 
+Home-page: https://github.com/reckonsys/rsutils_django
+Author: dhilipsiva
+Author-email: dhilipsiva@pm.me
+License: MIT
+Keywords: rsutils reckonsys django
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Django (>=2.1.5)
+Requires-Dist: django-safedelete (==0.5.1)
+Requires-Dist: django (>2)
+
+BaseModels, Auth and others
+
+
