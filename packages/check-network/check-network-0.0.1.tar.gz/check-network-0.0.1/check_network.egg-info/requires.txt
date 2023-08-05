@@ -1,0 +1,10 @@
+Buoy-Base
+PyYAML
+requests
+zte-mf823
+
+[dev]
+check-manifest
+
+[test]
+coverage
