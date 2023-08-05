@@ -1,0 +1,10 @@
+pyls_cwrap/__about__.py,sha256=JACa9VM06wLD4nykI4ragzhWZMK9qlN5mSGFl4sZ9wk,285
+pyls_cwrap/__init__.py,sha256=hpytbkuej5ydBmWvhjJwGaKk7QZ2_o0H67AoE0VZNbk,72
+pyls_cwrap/plugin.py,sha256=dsFbdQ6U18aDsVZCARNj44gf1kSz0Yi8w4UychfB8ts,1648
+pyls_cwrap/wrap.py,sha256=mhhDyiucWaxoHNIXZ01yHUkbAxfpDF9p1oii0Qm5u8M,2812
+pyls_cwrap-0.2.0.dist-info/LICENSE,sha256=LFnGpM9n2nQ07JHkbL_zEsaJG-1U3ItupQjBEna9KTA,1066
+pyls_cwrap-0.2.0.dist-info/METADATA,sha256=2LJsr5nPKk24kX3ldpmi8VX_7Snxp3dCCa6HqGZY1MU,454
+pyls_cwrap-0.2.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+pyls_cwrap-0.2.0.dist-info/entry_points.txt,sha256=J7XFOAQgbmUJh3xs086d-JjQJW2lmQXN3v5VKLTO6Mw,39
+pyls_cwrap-0.2.0.dist-info/top_level.txt,sha256=NHzMoASEQduxqDJv2Jcukk9BzptG-GRkbL7mDdDiUmQ,11
+pyls_cwrap-0.2.0.dist-info/RECORD,,
