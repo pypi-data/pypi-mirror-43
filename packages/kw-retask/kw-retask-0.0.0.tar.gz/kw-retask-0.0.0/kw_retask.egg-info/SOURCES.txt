@@ -1,0 +1,5 @@
+setup.py
+kw_retask.egg-info/PKG-INFO
+kw_retask.egg-info/SOURCES.txt
+kw_retask.egg-info/dependency_links.txt
+kw_retask.egg-info/top_level.txt
