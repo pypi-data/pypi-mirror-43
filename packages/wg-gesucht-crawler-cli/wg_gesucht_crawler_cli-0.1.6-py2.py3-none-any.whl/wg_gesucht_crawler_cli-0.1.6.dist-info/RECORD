@@ -1,0 +1,14 @@
+wg_gesucht/__init__.py,sha256=u6UUBolqmg7hNb8_Zkm6gEhWPFXe5ozHcmVnnLbYgyo,228
+wg_gesucht/_version.py,sha256=VCBtoXQ1XkrFyQ5UnJtI1Q4fhJMLRrL8rvGBzHhasjk,471
+wg_gesucht/cli.py,sha256=SHy95fNrbTNo0raPHxxFcyPTDka45AhKoluxGYHRSn8,3471
+wg_gesucht/crawler.py,sha256=tJ6DxjBGz76_PnH7lRXF4HVB9Fw4NQ_B9XnVU6E0Sk4,15247
+wg_gesucht/create_results_folders.py,sha256=5XhRxYLYByLQnyjdQOvuCI8upHS8NaCATi2J3KQltog,1461
+wg_gesucht/logger.py,sha256=utncOR88EJAfyUPO6Pe33D06tgRMaKm_JE6KagpGO0k,834
+wg_gesucht/user_details.py,sha256=hH7rP5jlPdpt9FZAaAdu_Qa9t_HreqDGuH9KSR-s0j0,635
+wg_gesucht_crawler_cli-0.1.6.dist-info/AUTHORS.rst,sha256=v5drs2vO-WeF2rN51-5Erf-oze6QyZZ0ZjLu4Ph88bQ,178
+wg_gesucht_crawler_cli-0.1.6.dist-info/LICENSE,sha256=QBNrd9wc-hgPaU5VmPUZsF9PdIz_6ow5SVKUY9iMP_8,1081
+wg_gesucht_crawler_cli-0.1.6.dist-info/METADATA,sha256=IlWqtp-Yg8S1T1tgEUfDK5WcXQKXGEuur4cpSifRF6I,3398
+wg_gesucht_crawler_cli-0.1.6.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+wg_gesucht_crawler_cli-0.1.6.dist-info/entry_points.txt,sha256=1iau2zAzSyRXzWrJclc2fCoqQoASW279dFLk-qVGkMU,63
+wg_gesucht_crawler_cli-0.1.6.dist-info/top_level.txt,sha256=s7IaaBCwxRGBecnGY69eKTjEIkIZqcexg3txDcJ-P2g,11
+wg_gesucht_crawler_cli-0.1.6.dist-info/RECORD,,
