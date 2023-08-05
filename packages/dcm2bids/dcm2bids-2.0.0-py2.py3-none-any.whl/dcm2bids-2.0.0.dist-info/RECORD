@@ -1,0 +1,16 @@
+dcm2bids/__init__.py,sha256=gJJ0rGZ-d_g0AJZkdqo722LpqY6s2l2N2tGcP1vTN1c,89
+dcm2bids/dcm2bids.py,sha256=aikbP4emeDWrhWi88NiQ0BbRk0ELFvRCweDc7sbRIP0,5344
+dcm2bids/dcm2niix.py,sha256=a5bETx0ez1Afe39_VRCNvU2md8YFq1aLdLrd2p85gZA,4124
+dcm2bids/logger.py,sha256=zWvblFGh_B3BbSPIAjmnAiDiiY6irTZ_XT0r69k0hqE,602
+dcm2bids/sidecar.py,sha256=TkxGHUMGHWY-m9ACqwY0tsflH-lZxhLRTrOdxWBDZs8,7361
+dcm2bids/structure.py,sha256=fg0-ZZJeX8YbG7aQfLmhy9BOSpzv8qDoajcqBPDdmdU,6306
+dcm2bids/utils.py,sha256=SYs4VbomUjZBsmE8ItsRzZoSXkM8x6II0gqGHtdImgY,2867
+dcm2bids/version.py,sha256=zDBhPUu5uHcoFnyI6vjImXiI_wRqHE47mwoLjxOQi0o,47
+dcm2bids-2.0.0.data/scripts/dcm2bids,sha256=NBZDPJsAwAOIiVqI_DAmP7OSDiXbdqZaG2rAKp8cA10,3048
+dcm2bids-2.0.0.data/scripts/dcm2bids_helper,sha256=gbMIus-qEl1sE3lBKKeOaiaaTBtNyXoXdIRCtljciXQ,1181
+dcm2bids-2.0.0.data/scripts/dcm2bids_scaffold,sha256=CNyz6vLesOWVN3doRPYXlLQf_KHrrD2slNY1UFojoOY,2823
+dcm2bids-2.0.0.dist-info/LICENSE.txt,sha256=bxJPe_KGhq5XA7ymEaXyDJ9JQVBYtsC5updFtLVRlYU,35235
+dcm2bids-2.0.0.dist-info/METADATA,sha256=_Y1yCq48yMfVMNYHOzMo5gwg2jdIWdftOVfUm5vkw4o,9930
+dcm2bids-2.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+dcm2bids-2.0.0.dist-info/top_level.txt,sha256=y9F6D8gHqPAgS54cqbg4XDXzbLPRlb3Mq07-Xa0uTGM,9
+dcm2bids-2.0.0.dist-info/RECORD,,
