@@ -1,0 +1,8 @@
+argparse
+biopython
+scikit-learn
+pandas
+keras
+tensorflow
+hmmlearn
+matplotlib
