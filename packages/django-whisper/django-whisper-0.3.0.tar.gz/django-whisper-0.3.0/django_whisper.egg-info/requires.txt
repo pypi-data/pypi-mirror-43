@@ -1,0 +1,3 @@
+django
+channels
+django-pragmatic>=2.13.0
