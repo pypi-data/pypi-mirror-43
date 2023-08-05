@@ -1,0 +1,3 @@
+[console_scripts]
+bc3 = basecampy3R.bc3_cli:main
+

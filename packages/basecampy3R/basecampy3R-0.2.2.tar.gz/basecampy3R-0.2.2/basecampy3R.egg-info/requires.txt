@@ -1,0 +1,8 @@
+beautifulsoup4
+certifi
+chardet
+idna
+python-dateutil
+requests
+six
+urllib3
