@@ -1,0 +1,8 @@
+README.md
+setup.py
+logging3/__init__.py
+logging3/handlers.py
+logging3.egg-info/PKG-INFO
+logging3.egg-info/SOURCES.txt
+logging3.egg-info/dependency_links.txt
+logging3.egg-info/top_level.txt
