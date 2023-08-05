@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ShExJSG
+Version: 0.6.7
+Summary: ShExJSG - Astract Syntax Tree for the ShEx 2.0 language
+Home-page: https://github.com/hsolbrig/ShExJSG
+Author: Harold Solbrig
+Author-email: solbrig@jhu.edu
+License: CC0 1.0 Universal
+Keywords: shex
+Requires-Dist: pyjsg (>=0.9.0)
+Requires-Dist: pyshexc (>=0.5.1)
+
+UNKNOWN
+
+
