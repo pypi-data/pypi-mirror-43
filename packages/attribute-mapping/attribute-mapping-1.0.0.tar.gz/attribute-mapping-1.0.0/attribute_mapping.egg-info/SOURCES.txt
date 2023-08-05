@@ -1,0 +1,9 @@
+LICENSE.rst
+README.rst
+attribute_mapping.py
+setup.cfg
+setup.py
+attribute_mapping.egg-info/PKG-INFO
+attribute_mapping.egg-info/SOURCES.txt
+attribute_mapping.egg-info/dependency_links.txt
+attribute_mapping.egg-info/top_level.txt
