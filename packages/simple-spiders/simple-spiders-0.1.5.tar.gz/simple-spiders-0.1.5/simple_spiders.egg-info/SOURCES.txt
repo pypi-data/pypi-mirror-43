@@ -1,0 +1,16 @@
+README.rst
+setup.py
+crawler/__init__.py
+crawler/__version__.py
+crawler/htmlDownloader.py
+crawler/htmlParser.py
+crawler/logger.py
+crawler/requestManager.py
+crawler/spider.py
+crawler/warn.py
+crawler/writter.py
+simple_spiders.egg-info/PKG-INFO
+simple_spiders.egg-info/SOURCES.txt
+simple_spiders.egg-info/dependency_links.txt
+simple_spiders.egg-info/requires.txt
+simple_spiders.egg-info/top_level.txt
