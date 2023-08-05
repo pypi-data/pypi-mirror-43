@@ -1,0 +1,8 @@
+README.md
+setup.py
+requests_filecache/__init__.py
+requests_filecache.egg-info/PKG-INFO
+requests_filecache.egg-info/SOURCES.txt
+requests_filecache.egg-info/dependency_links.txt
+requests_filecache.egg-info/requires.txt
+requests_filecache.egg-info/top_level.txt
