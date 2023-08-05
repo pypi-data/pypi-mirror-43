@@ -1,0 +1,17 @@
+setuptools
+collective.themesitesetup
+plone.api
+plone.app.registry
+plone.formwidget.namedfile
+plone.supermodel
+tzlocal
+
+[test]
+plone.app.contenttypes
+plone.app.layout[test]
+plone.app.robotframework[debug]
+plone.app.testing
+plone.app.textfield
+plone.namedfile
+plone.testing>=5.0.0
+robotframework-selenium2screenshots
