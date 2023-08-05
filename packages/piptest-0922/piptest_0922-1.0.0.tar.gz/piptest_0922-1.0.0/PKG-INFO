@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: piptest_0922
+Version: 1.0.0
+Summary: Dummy
+Home-page: https://github.com/Nobu19800/piptest
+Author: nobu
+Author-email: nobu@nobu777.net
+License: MIT
+Description: description
+Keywords: dummy
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
