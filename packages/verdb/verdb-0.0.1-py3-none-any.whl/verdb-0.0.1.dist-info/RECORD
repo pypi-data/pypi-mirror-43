@@ -1,0 +1,10 @@
+verdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verdb/model.py,sha256=c_Uuoiq1qDlpDazdNU8NgTYYTWCLs5WkNnDWWRAJ9GI,3210
+verdb/modelmeta.py,sha256=lQASf0o8wuhV7wlbDxFA87LR4D7awvGrzEmHATkgjx4,1876
+verdb/modelset.py,sha256=rT7LvjgMOlvAmD2ZB0oCg_A-laRT5A1mGsYgYrUU4n8,527
+verdb/section.py,sha256=BL9r8NEQET5m60A69LVqGeRUT9j-kpsQzQSVsmjift4,4258
+verdb-0.0.1.dist-info/LICENSE,sha256=3LBNxleXxuiODVNc9osW7QQBWFUAUazzu-2BxYg31cA,1073
+verdb-0.0.1.dist-info/METADATA,sha256=E7FVtyRFC1D8whWv_65ZS4DQyqzmVI87D0DaLJPwJNQ,461
+verdb-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+verdb-0.0.1.dist-info/top_level.txt,sha256=FFrxKIoSsObJLcK_dqwxLQrvU7hW7GDRRh8xhLpyxRU,6
+verdb-0.0.1.dist-info/RECORD,,
