@@ -1,0 +1,10 @@
+numpy
+mappy
+pygssw
+python-coveralls
+pysam
+pyfaidx
+offsetbasedgraph
+pyvg
+graph_peak_caller
+tqdm
