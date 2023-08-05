@@ -1,0 +1,12 @@
+jetzt/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+jetzt/cli.py,sha256=wJeAnpTmSl6kCmfpZ5eIXkiCFF3Jo5r06TmUJ2ylhaQ,5022
+jetzt/bin/install_pypi_pkg.sh,sha256=gZC0quIAJnIuvUGSCSs7rAUauvA7T4gdGD8IyJZO11s,877
+jetzt/bin/jetzt_scaffold.sh,sha256=2Qhkvq_GOr1MNY7mcRW5jbf-tn1b3J6QywuTVByq6gM,2925
+jetzt/bin/list_pkgs.sh,sha256=XIekaAeydZxqmBZL9tfGpJXmg3Lfe7zNu5tWHCBtCfY,291
+jetzt/seeds/python_jupyter/starting-point.ipynb,sha256=R_7X0DLic78vg9UEXDIxOJSb7hrVwDNuVbFzfX_BJ2U,1606
+jetzt-0.1.1.dist-info/LICENSE,sha256=tXwRg0xxhvs4M9gLBFUHolfH4-DAvgHtcFVpC7orA4E,1071
+jetzt-0.1.1.dist-info/METADATA,sha256=O7KJgZ160vfOPdldKcJYbc_iKdMFQepOlEprHub5AFE,4349
+jetzt-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jetzt-0.1.1.dist-info/entry_points.txt,sha256=xm-MUuGFoFMCsiQX50s1P2pF518aTIQZwYuBdyD253s,41
+jetzt-0.1.1.dist-info/top_level.txt,sha256=o4blk6YhfMlU25YB-ejoorXTwhRHNhKh6lyIkcxAnHc,6
+jetzt-0.1.1.dist-info/RECORD,,
