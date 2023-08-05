@@ -1,0 +1,5 @@
+setup.py
+kw_money.egg-info/PKG-INFO
+kw_money.egg-info/SOURCES.txt
+kw_money.egg-info/dependency_links.txt
+kw_money.egg-info/top_level.txt
