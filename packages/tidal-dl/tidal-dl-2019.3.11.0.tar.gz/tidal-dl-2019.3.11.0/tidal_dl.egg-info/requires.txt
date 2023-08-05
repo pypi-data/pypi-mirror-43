@@ -1,0 +1,6 @@
+aigpy>=1.0.35
+requests
+ffmpeg
+futures
+pycryptodome
+pydub
