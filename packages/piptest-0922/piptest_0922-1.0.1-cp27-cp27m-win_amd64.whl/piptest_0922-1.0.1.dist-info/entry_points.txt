@@ -1,0 +1,3 @@
+[console_scripts]
+piptest = piptest.__init__:main
+
