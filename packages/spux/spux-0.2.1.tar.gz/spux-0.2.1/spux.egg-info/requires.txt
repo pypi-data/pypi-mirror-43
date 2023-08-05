@@ -1,0 +1,13 @@
+Cython
+acor
+cloudpickle
+gprof2dot
+matplotlib
+mpi4py
+numba
+numpy
+pandas
+pycallgraph
+scipy
+setuptools
+suftware
