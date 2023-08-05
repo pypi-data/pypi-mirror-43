@@ -1,0 +1,5 @@
+setup.py
+kiwi_postman.egg-info/PKG-INFO
+kiwi_postman.egg-info/SOURCES.txt
+kiwi_postman.egg-info/dependency_links.txt
+kiwi_postman.egg-info/top_level.txt
