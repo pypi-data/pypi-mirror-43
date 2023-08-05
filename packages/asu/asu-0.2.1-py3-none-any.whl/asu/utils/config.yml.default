@@ -1,0 +1,27 @@
+# server
+dev: False
+sign_images: True
+server_user: root
+server_dir: /vagrant
+updater_dir: ./updater
+updater_threads: 4
+worker:
+    - ./worker
+
+active_distros:
+    - lime
+    - openwrt
+
+# database
+database_type: PostgreSQL Unicode
+database_address: localhost
+database_user: postgres
+database_pass: changeme
+database_port: 5432
+
+# folder
+distro_folder: distributions
+download_folder: download
+tempdir: /tmp
+keys_private: keys
+keys_public: server/static/keys
