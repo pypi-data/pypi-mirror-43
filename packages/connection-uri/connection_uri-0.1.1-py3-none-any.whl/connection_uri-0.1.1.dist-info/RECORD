@@ -1,0 +1,13 @@
+connection_uri/__init__.py,sha256=fcE9z3AsNARL_I7TVoEYINCmNnblr43FgE6-vNb4Wj0,275
+connection_uri/__init__.pyc,sha256=Gd8bBrRb8m97BEWEcRHadZIyJ_7AmtgWV75c6ITZX1o,260
+connection_uri/uri.py,sha256=Cl6E3Cwg9FhVbVuPnQeiacsvIMurTlFDJzJUBsRZx4I,11648
+connection_uri/uri.pyc,sha256=s09XXP4HDLD5CTOBCFVml5uyiT4KKtG6ex3RTrTvYWs,8648
+connection_uri/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+connection_uri/tests/__main__.py,sha256=248mxMhzs99sWvEPE9Y5ybBR6BCYCj2mO28jOTCiAgU,300
+connection_uri/tests/helper.py,sha256=gmq-P_pQtyMTN89YB0qwFRlvkjpJsOnXAKE3pNFEczM,8420
+connection_uri/tests/test_uri.py,sha256=dj1Vh_VmxndwvN-66lSEI0bhWgbYvCmFtbFSO3DF9R4,98356
+connection_uri-0.1.1.dist-info/METADATA,sha256=hfgP2o-MxHH-B_uTjtBAW3tJfS29HzDP0EbCKX5dGgQ,5718
+connection_uri-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+connection_uri-0.1.1.dist-info/top_level.txt,sha256=f8uhdTiLr0kkEvaqIiXoaZCVK89_DeaSv14aJQ5n-Dc,15
+connection_uri-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+connection_uri-0.1.1.dist-info/RECORD,,
