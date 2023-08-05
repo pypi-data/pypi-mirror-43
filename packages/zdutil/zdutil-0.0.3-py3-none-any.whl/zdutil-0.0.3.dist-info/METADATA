@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: zdutil
+Version: 0.0.3
+Summary: ZigData's data science library
+Home-page: http://github.com/ziggyzacks/zdutil
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.9.111)
+Requires-Dist: botocore (==1.12.111)
+Requires-Dist: docutils (==0.14)
+Requires-Dist: jmespath (==0.9.4)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: pandas (==0.24.1)
+Requires-Dist: pyarrow (==0.12.1)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: pytz (==2018.9)
+Requires-Dist: s3fs (==0.2.0)
+Requires-Dist: s3transfer (==0.2.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: urllib3 (==1.24.1)
+
+UNKNOWN
+
+
