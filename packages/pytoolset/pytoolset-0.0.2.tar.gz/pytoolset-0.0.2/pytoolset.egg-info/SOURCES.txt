@@ -1,0 +1,11 @@
+COPYING.txt
+MANIFEST.in
+README.rst
+setup.py
+pytoolset/__init__.py
+pytoolset/t2t.py
+pytoolset.egg-info/PKG-INFO
+pytoolset.egg-info/SOURCES.txt
+pytoolset.egg-info/dependency_links.txt
+pytoolset.egg-info/top_level.txt
+pytoolset.egg-info/zip-safe
