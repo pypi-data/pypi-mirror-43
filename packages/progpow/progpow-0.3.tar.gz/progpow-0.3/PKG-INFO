@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: progpow
+Version: 0.3
+Summary: FFI bindings to progpow clib
+Home-page: https://github.com/WTRMQDev/progpow
+Author: Crez Khansick
+Author-email: TetsuwanAtomu@tuta.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Security :: Cryptography
