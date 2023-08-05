@@ -1,0 +1,7 @@
+<input type="text" name="{{ name }}" {% if value %}value="{{ value }}"{% endif %} id="{{ attrs.id }}" {% if is_required %}required{% endif %}/>
+
+<div id="colorpicker_{{ attrs.id}}"></div>
+
+<script type="text/javascript">
+    $('#colorpicker_{{ attrs.id }}').farbtastic('#{{ attrs.id }}');
+</script>
