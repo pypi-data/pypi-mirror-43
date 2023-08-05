@@ -1,0 +1,9 @@
+README.md
+qtasktimer.py
+setup.py
+qtasktimer.egg-info/PKG-INFO
+qtasktimer.egg-info/SOURCES.txt
+qtasktimer.egg-info/dependency_links.txt
+qtasktimer.egg-info/entry_points.txt
+qtasktimer.egg-info/requires.txt
+qtasktimer.egg-info/top_level.txt
