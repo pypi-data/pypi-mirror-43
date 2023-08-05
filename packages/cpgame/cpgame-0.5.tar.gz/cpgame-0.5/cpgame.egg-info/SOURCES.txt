@@ -1,0 +1,8 @@
+README.md
+cpgame.py
+setup.cfg
+setup.py
+cpgame.egg-info/PKG-INFO
+cpgame.egg-info/SOURCES.txt
+cpgame.egg-info/dependency_links.txt
+cpgame.egg-info/top_level.txt
