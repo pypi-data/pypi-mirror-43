@@ -1,0 +1,16 @@
+awsme/__init__.py,sha256=XhWd-YuuiOmNzv_n4vAK_YN7vvJoy3P0bJIBYOPQ7K0,111
+awsme/async_recorder.py,sha256=i6mH5M2H1-aGBCMtGRnd4EB4_69N3w0jPWWiPL-FT_4,1602
+awsme/awsme.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+awsme/buffered_recorder.py,sha256=t2638RtQZRCrtQUStaBKXyaUToohhVHiCQHGNCjXARE,2302
+awsme/cli.py,sha256=F2M04Nwl6LD89JcfB3vHpe03qWDS5zQNqG3uRiyJTqU,649
+awsme/cloud_watch.py,sha256=-N7LQNyZlZ6P9Eu77Ji2cp_dMMQr5uqDVKXr9YfKLTc,1794
+awsme/dummy.py,sha256=5IHTcpjlH34BBNZnV4__3ylxUhX01jogGgaH7IQcT34,147
+awsme/factory.py,sha256=-dvHQ4F82_3uEi2ZQrGMLtdyiuLzx0Pj6SqNnp0rLfs,1410
+awsme/immediate_recorder.py,sha256=zlT7XZo4FOMD7GuB0NdLwKmVMnCXMkbIcuXx4_0aIvc,930
+awsme/metric.py,sha256=HhV1Okc6EfZgqSc7Tj5OgkFX-LQKwUwL4R2uuFwG3gs,1227
+awsme-1.0.0.dist-info/LICENSE,sha256=R6eHMbh6Joa0tGh8GhG3Eal3XmGu7sqiYtr0xeQybCY,1070
+awsme-1.0.0.dist-info/METADATA,sha256=TKPQqzE5Jtn9y5ja6Mz404YoDH5Ib4OjyUtIW-41w7A,4850
+awsme-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+awsme-1.0.0.dist-info/entry_points.txt,sha256=QbBn8sjIMBZeS13RpIr8MgNhAj6Yn4VIGs85FAnVbzQ,47
+awsme-1.0.0.dist-info/top_level.txt,sha256=jLh43uT9MnIN4kOkrkDSOkW4TAjOJVxGl_umROdNLgw,6
+awsme-1.0.0.dist-info/RECORD,,
