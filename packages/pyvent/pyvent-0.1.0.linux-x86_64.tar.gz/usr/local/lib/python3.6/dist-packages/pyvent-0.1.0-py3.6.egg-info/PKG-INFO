@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pyvent
+Version: 0.1.0
+Summary: IPC over ZMQ, made easy
+Home-page: https://github.com/aprowe/pyvent
+Author: Alexander Rowe
+Author-email: alexrowe707@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
