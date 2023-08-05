@@ -1,0 +1,10 @@
+kick/__init__.py,sha256=HhWB-MYP6_jO5CEQVeKe_BB3FHXxxgMBsr6AF9a8MK0,883
+kick/config.py,sha256=CxmP9Ft2OHhpWtFdGBFi9TD43aN2LQ6oPnyDUcp1UKA,4972
+kick/logging.py,sha256=10bTaN_s5AnQodueziv13Gd73Zn4U0Q9IxKShQ6EgX4,706
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kick-1.0.0.dist-info/LICENSE-APACHE,sha256=6UV4U2g3w2qL84jNlxrNM0MDseEsUAL8lAg-V6OU5iY,9753
+kick-1.0.0.dist-info/LICENSE-MIT,sha256=tqxP-5QwBS7aZj2NWE9IAgNfe2_f_06HTTVqfPlV0AI,1070
+kick-1.0.0.dist-info/METADATA,sha256=cEs8ku4eebEBIVzCIbD72BVpKal5O5XDf8GvsdnYTV8,1412
+kick-1.0.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+kick-1.0.0.dist-info/top_level.txt,sha256=0Q834M6LIzsjf6ne9HoYEU2bXDWakGV4wxM9NrA1UJY,11
+kick-1.0.0.dist-info/RECORD,,
