@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pypalo
+Version: 0.0.1
+Summary: A Package to interact with the Palo Alto Networks API
+Home-page: https://ghe.coxautoinc.com/ETS-NetworkServices/pypalo
+Author: Donald Stogsdill
+Author-email: donald.stogsdill@coxautoinc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pan-python
+Requires-Dist: sys
+Requires-Dist: xmltodict
+
+# PyPan
+
+
