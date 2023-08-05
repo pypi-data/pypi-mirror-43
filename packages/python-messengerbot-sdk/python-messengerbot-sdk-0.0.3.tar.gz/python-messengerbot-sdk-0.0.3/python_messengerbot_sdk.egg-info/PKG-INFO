@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: python-messengerbot-sdk
+Version: 0.0.3
+Summary: Facebook Messaging API SDK for Python
+Home-page: https://github.com/boompieman/python-messengerbot-sdk
+Author: Sam Chang
+Author-email: t0915290092@gmail.com
+Maintainer: Sam Chang
+Maintainer-email: t0915290092@gmail.com
+License: Apache License 2.0
+Description: # python-messengerbot-sdk
+        Python Messenger Bot SDK
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
