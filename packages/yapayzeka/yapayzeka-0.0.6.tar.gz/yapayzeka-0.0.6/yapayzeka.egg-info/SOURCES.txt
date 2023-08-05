@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+coreyz/__init__.py
+coreyz/otom.py
+coreyz/otomasyondb.py
+coreyz/yapayzekacore.py
+yapayzeka.egg-info/PKG-INFO
+yapayzeka.egg-info/SOURCES.txt
+yapayzeka.egg-info/dependency_links.txt
+yapayzeka.egg-info/requires.txt
+yapayzeka.egg-info/top_level.txt
