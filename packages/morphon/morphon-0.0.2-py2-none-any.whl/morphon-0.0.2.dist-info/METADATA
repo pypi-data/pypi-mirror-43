@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: morphon
+Version: 0.0.2
+Summary: Neuron morphology processing tools
+Home-page: https://github.com/a1eko/morphon
+Author: Alexander Kozlov
+Author-email: akozlov@kth.se
+License: UNKNOWN
+Keywords: neuron,morphology,reconstruction,morphometry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+Neuron morphology processing tools
+
+
