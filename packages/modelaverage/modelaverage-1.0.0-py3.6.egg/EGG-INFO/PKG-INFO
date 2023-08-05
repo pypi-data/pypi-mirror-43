@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: modelaverage
+Version: 1.0.0
+Summary: tf-keras, make the average of model weight in same models
+Home-page: https://github.com/graykode/modelaverage
+Author: Tae Hwan Jung(@graykode)
+Author-email: nlkey2022@gmail.com
+License: MIT
+Description: ## modelaverage
+        
+        <p align="center">
+            <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TensorFlowLogo.svg/225px-TensorFlowLogo.svg.png" />
+            <img width="100" src="https://keras.io/img/keras-logo-small-wb.png" />
+        </p>
+        `modelaverage` is a pip package which make the average weight of model weight in `same models`, inspired by [Average weights in keras models](https://stackoverflow.com/questions/48212110/average-weights-in-keras-models). I created this pip package to use distributed computing environment like `kubernetes`.
+        
+        ![](average.jpg)
+        
+        ## Usage
+        
+        1. `pip install modelaverage`
+        2. `average(model, modellist)`
+           - model : Tensorflow-Keras model
+           - modellist : list of model file names.
+           - return : averaged weight model
+        
+        
+        
+        ## Example
+        
+        ```python
+        import tensorflow as tf
+        
+        from modelaverage import average
+        
+        (x_train,y_train), (x_test,y_test) = tf.keras.datasets.mnist.load_data()
+        
+        x_train = tf.keras.utils.normalize(x_train,axis=1)
+        x_test  = tf.keras.utils.normalize(x_test,axis=1)
+        
+        model = tf.keras.models.Sequential()
+        model.add(tf.keras.layers.Flatten())
+        model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
+        model.add(tf.keras.layers.Dense(128, activation=tf.nn.relu))
+        model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
+        
+        modellist = ['models/mnist1.h5', 'models/mnist2.h5', 'models/mnist3.h5', 'models/mnist4.h5', 'models/mnist5.h5',
+                     'models/mnist6.h5', 'models/mnist7.h5', 'models/mnist8.h5', 'models/mnist9.h5']
+        
+        averaged_model = average(model, modellist)
+        
+        for w in averaged_model.get_weights():
+            print(w.shape)
+        ```
+        
+        
+        
+        ## Author
+        
+        - Name : Tae Hwan Jung(@graykode)
+        - Email : nlkey2022@gmail.com
+Keywords: pytorch model summary model.summary()
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
