@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aioconnpass/__init__.py
+aioconnpass/client.py
+aioconnpass.egg-info/PKG-INFO
+aioconnpass.egg-info/SOURCES.txt
+aioconnpass.egg-info/dependency_links.txt
+aioconnpass.egg-info/requires.txt
+aioconnpass.egg-info/top_level.txt
