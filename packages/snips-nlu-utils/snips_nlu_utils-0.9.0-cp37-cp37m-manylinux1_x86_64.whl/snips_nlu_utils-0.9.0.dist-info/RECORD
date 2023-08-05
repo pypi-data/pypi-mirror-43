@@ -1,0 +1,12 @@
+snips_nlu_utils-0.9.0.dist-info/RECORD,,
+snips_nlu_utils-0.9.0.dist-info/metadata.json,sha256=dwWG1xLrwLXybsmxJDkBari7zwSQ0w0ow-sshMa4aO8,828
+snips_nlu_utils-0.9.0.dist-info/top_level.txt,sha256=tPbx_jL7nfE63cu6yqMWyyMmPN0CX-bvmLrkByLOKQU,16
+snips_nlu_utils-0.9.0.dist-info/WHEEL,sha256=vDkL4lkWAO0DRkYs2d1_9zwHrwPT4s0KRTaR67Euh9Y,109
+snips_nlu_utils-0.9.0.dist-info/DESCRIPTION.rst,sha256=8da9tCT1xeDAP5cKrnnw0jLyQcYEXM9PN1SEnVOLZ7g,1363
+snips_nlu_utils-0.9.0.dist-info/METADATA,sha256=a4iyq26w3-v-aM6AoTApidUbFOTMAVmmF6qptAw-XDo,2029
+snips_nlu_utils/utils.py,sha256=r447VdMzo1dbkcucobKNwlevLygrOEo0PM31v3AiQtU,3002
+snips_nlu_utils/__version__,sha256=nYyU8a0-qWseKsSRT9pMuTx2tKPg2Mxt2JdtbAsifRU,6
+snips_nlu_utils/token.py,sha256=meFCXIIXfqC0rSD4qr4l469BfX2kdcwZ2bA61dxIhR0,1635
+snips_nlu_utils/__init__.py,sha256=wRV24xcZFu_LzeuUMI5w3SPG9qksbE_8te_7iizZ2ek,170
+snips_nlu_utils/string.py,sha256=7kwz7ncgKV2pzf2Xc8xhXiJfRzctuZa5VnJCHNzXAzU,1519
+snips_nlu_utils/dylib/libsnips_nlu_utils_rs.cpython-37m-x86_64-linux-gnu.so,sha256=01Ldqnki-PRlHhb1HTqYpCWK4NSLBrrJOSqyt-6zwCk,4032404
