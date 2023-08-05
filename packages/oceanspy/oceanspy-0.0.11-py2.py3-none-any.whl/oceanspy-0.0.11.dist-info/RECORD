@@ -1,0 +1,13 @@
+oceanspy/__init__.py,sha256=_7NDJQbPXXk6eBY-iuagqzWHZvdFaoi4yE5jldWGQ6s,1662
+oceanspy/_oceandataset.py,sha256=WKZXqwRF35qF-RkJOJ4cWbSfkn1kg-i9IQEoODMrKvU,45159
+oceanspy/animate.py,sha256=00EsJ4devTgLqaj98gKCi1TBibE3kBVVom6ZZzzcAA4,12932
+oceanspy/compute.py,sha256=EOhw41IFXzkrxs2ixm7oQyHQwcgUIIr6nNgvdjU7fps,95693
+oceanspy/open_oceandataset.py,sha256=3COK3VejmXapxgqa3PJEoTGbrKbu8hzGXJyJmeQ5Kq4,29428
+oceanspy/plot.py,sha256=wXht0KN8lxhUeV7hpgNjOcLFaw92JwYEf1m5srPLNpU,34519
+oceanspy/subsample.py,sha256=zCn4sg_F0E071Qoa_thgF8lBP7gRjhod6zrZ66n6RHg,44503
+oceanspy/utils.py,sha256=GC-pvqS4iCorNuIebLogryqeBHW0T38ZJnS6QAk9-lI,18786
+oceanspy-0.0.11.dist-info/LICENSE,sha256=aSxoDQLoYG3JOWIIRoPIkm_hYNCZxDICDl-9RArD0PM,1073
+oceanspy-0.0.11.dist-info/METADATA,sha256=8XhBcFktyPLpgqnZ_YVBPiXnBXaeTMczG1AT5KN25tw,3467
+oceanspy-0.0.11.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+oceanspy-0.0.11.dist-info/top_level.txt,sha256=44QHab-ZCSUEKlmOdkM98etCPLDBZUXZNkzpc909ioE,9
+oceanspy-0.0.11.dist-info/RECORD,,
