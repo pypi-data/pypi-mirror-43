@@ -1,0 +1,7 @@
+udp_filetransfer/__init__.py,sha256=v991gB1so-_LalEfZL-znK3jZ2bV-bmkXBdmQrO_yug,118
+udp_filetransfer/receiver.py,sha256=5pdECKSIjlugEGdYDboXgfQ7M64KGE0he58jyVm7UQ8,3776
+udp_filetransfer/sender.py,sha256=F_RW8nuyPQImKmmikQPGPhfyxWQXTN5n5TlKSy6QqmA,3182
+udp_filetransfer-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+udp_filetransfer-0.1.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+udp_filetransfer-0.1.0.dist-info/METADATA,sha256=81_R1dXjWlPpzO4WK7TuVDY7oV5rx2UFadYfLnboI48,384
+udp_filetransfer-0.1.0.dist-info/RECORD,,

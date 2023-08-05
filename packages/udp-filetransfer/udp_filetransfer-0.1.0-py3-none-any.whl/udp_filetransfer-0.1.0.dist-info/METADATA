@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: udp-filetransfer
+Version: 0.1.0
+Summary: Reliable filetransfer over UDP
+Home-page: UNKNOWN
+License: MPL-2.0
+Author: golyalpha
+Author-email: golyalpha@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: tqdm (>=4.31,<5.0)
