@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: smx
+Version: 0.8.2
+Summary: Simple python macro expansion
+Home-page: https://github.com/earonesty/python-smx
+License: UNKNOWN
+Author: Erik Aronesty
+Author-email: erik@q32.com
+Classifier: License :: OSI Approved :: MIT License
