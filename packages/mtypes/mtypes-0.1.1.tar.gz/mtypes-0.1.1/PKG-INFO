@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: mtypes
+Version: 0.1.1
+Summary: Meta-class of type that extends Python type system to create dtype-like memory-types
+Home-page: https://github.com/Quansight-Labs/mtypes
+Author: Quansight Labs
+Author-email: labs@quansight.com
+License: BSD License
+Description: 
+        Overview
+        --------
+        
+        The "mtypes" package provides a memory-type system suitable for use by any container, object, or 
+        library where the memory-layout matters or access to fast native-code implementations is needed.
+        
+        Specifically it creates a new sub-class of type at the CPython layer so that every mtype is a type
+        but with special function pointers needed for manipulating the raw memory that the type implies.
+        
+        Links
+        -----
+        
+        * https://github.com/Quansight-Labs/
+        * http://mtypes.readthedocs.io/en/latest/
+        
+        
+Keywords: xnd,array computing,types,memory blocks
+Platform: Many
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
