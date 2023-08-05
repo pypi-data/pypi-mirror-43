@@ -1,0 +1,16 @@
+psyco_full.py,sha256=X1sP6GzXaGVEfNs7dT6bycK_dGKx9UnWIKe5qb9cbDI,194
+CPAT-2.0.0.data/scripts/cpat.py,sha256=24a8QlHMhfeTK6V6UDuWHLo1XiJsN295NiPl59SlUz0,10050
+CPAT-2.0.0.data/scripts/make_hexamer_tab.py,sha256=198hdYDayt4yI2sKIna7I_w3bwIRNI_6sd4x8zzk6Fs,1782
+CPAT-2.0.0.data/scripts/make_logitModel.py,sha256=Rg_Xhj-IvFqYk8iAVJPAGSYTfGMdSpRMDc_cl_GybZQ,12873
+cpmodule/FrameKmer.py,sha256=-dm87KP_IlWVbrqMVCKAepNqZtEXIx5acwDl_JERxPc,4302
+cpmodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpmodule/dotProduct.py,sha256=jGYPv_zASL_zRbgBctGivt4b45-d-Npmp8lT_yDBNvo,2007
+cpmodule/fasta.py,sha256=xAjGdUjVHYuMXhgbQtmwGTMW1-c27umW5_Prz0dhqOk,7485
+cpmodule/fickett.py,sha256=0tCNfWy_2-GQrvFW85uSJElwS0xPhCadPMz2GKvo-qk,3306
+cpmodule/ireader.py,sha256=6Q-EEGztYTO7byAjX98YUVsIlFGOtNmfehV2Si5wfkU,706
+cpmodule/orf.py,sha256=O98FOWteWaXjWMUAavecdzFRKoUMEcDWBM7Ibkhe7d0,3126
+CPAT-2.0.0.dist-info/LICENSE.txt,sha256=CKkzlkzgutx_HLTRf1LX4jhN8kwH79_-Wzkp6iXMZ4o,730
+CPAT-2.0.0.dist-info/METADATA,sha256=qU1QdSXrF6_POpuZvqGfOk4mXYeks2N71Yd33gAMpQ0,975
+CPAT-2.0.0.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+CPAT-2.0.0.dist-info/top_level.txt,sha256=ZEnMh9RDwG3JAR_nv0uX96E4aXBK5IMvDFbt4pWdrTE,20
+CPAT-2.0.0.dist-info/RECORD,,
