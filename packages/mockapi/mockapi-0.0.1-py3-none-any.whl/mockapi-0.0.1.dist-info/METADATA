@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: mockapi
+Version: 0.0.1
+Summary: Package to mock a REST API.
+Home-page: https://github.com/pypa/sampleproject
+Author: Sylvan LE DEUNFF
+Author-email: sledeunf@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Mock a REST API by replacing replacing json!
+
+
