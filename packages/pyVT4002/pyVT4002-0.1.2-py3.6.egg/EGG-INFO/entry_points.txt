@@ -1,0 +1,3 @@
+[console_scripts]
+read-VT4002 = VT4002.main
+
