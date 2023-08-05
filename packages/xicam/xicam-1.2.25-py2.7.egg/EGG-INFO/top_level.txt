@@ -1,0 +1,6 @@
+client
+daemon
+modpkgs
+pipeline
+xicam
+xicamlauncher
