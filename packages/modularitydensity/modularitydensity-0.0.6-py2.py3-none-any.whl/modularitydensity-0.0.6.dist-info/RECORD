@@ -1,0 +1,12 @@
+modularitydensity/.DS_Store,sha256=h0DCkCXuL80Ugru_wiufTFNHiH-5EQQgaW1WmqAljbk,8196
+modularitydensity/__init__.py,sha256=4pRTS7MeNEkjtfF3hfvaD6phC4xdJYaPqZTKF4bqF8Q,375
+modularitydensity/constrained_fine_tuned_modularity.py,sha256=N76se_eGUvrvBzA8E3GsAtW57S-y1lnDX3vWLoZ7MBo,19629
+modularitydensity/constrained_fine_tuned_modularity_density.py,sha256=7F-cu4JEqjvRqDETmG5n6HbKliQ9HLDoapj9a3qt5lw,21742
+modularitydensity/fine_tuned_modularity.py,sha256=X0n4Gvj317jxrJ2lDyizsHm69uK-gNGKLTQ4yE11_Ds,21558
+modularitydensity/fine_tuned_modularity_density.py,sha256=fBs50Y16OH6nmKbdMKQqHsZysYzbJetZPmvmehdV_Sc,19723
+modularitydensity/metrics.py,sha256=njBcicZy8Nba2-4VsPBLkON_ZjB4KDC2YDkbq21eecU,18210
+modularitydensity-0.0.6.dist-info/LICENSE.txt,sha256=dzWE2jbK5K6AOwhml7KzBYZ_uWPVocOd6ZaCCtMtO4w,1079
+modularitydensity-0.0.6.dist-info/METADATA,sha256=mR9TeYZotU7E4Xez2MiOu1m4yjf-FJUqjiIwOZaYyOg,2701
+modularitydensity-0.0.6.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+modularitydensity-0.0.6.dist-info/top_level.txt,sha256=A3NQygRow6jNi3_8P_hMI5Y-fXoXribljPEBswNXoV0,18
+modularitydensity-0.0.6.dist-info/RECORD,,
