@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+py_wind/__init__.py
+py_wind/stock_ids.py
+py_wind/stock_tick.py
+py_wind/wind.py
+py_wind.egg-info/PKG-INFO
+py_wind.egg-info/SOURCES.txt
+py_wind.egg-info/dependency_links.txt
+py_wind.egg-info/requires.txt
+py_wind.egg-info/top_level.txt
