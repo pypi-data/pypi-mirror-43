@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pyxmlparser=main:parser_main
+        
