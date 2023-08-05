@@ -1,0 +1,3 @@
+[console_scripts]
+sidefx-web = sidefx_web:cli
+
