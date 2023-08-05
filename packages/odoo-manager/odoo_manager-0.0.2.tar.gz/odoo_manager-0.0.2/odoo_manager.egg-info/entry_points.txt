@@ -1,0 +1,3 @@
+[console_scripts]
+odoo-manager = odoo_manager.cli.cli:main
+
