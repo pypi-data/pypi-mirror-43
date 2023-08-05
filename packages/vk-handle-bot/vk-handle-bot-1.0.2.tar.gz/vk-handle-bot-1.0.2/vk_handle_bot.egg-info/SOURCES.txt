@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+vk_handle_bot/__init__.py
+vk_handle_bot/bot.py
+vk_handle_bot.egg-info/PKG-INFO
+vk_handle_bot.egg-info/SOURCES.txt
+vk_handle_bot.egg-info/dependency_links.txt
+vk_handle_bot.egg-info/top_level.txt
