@@ -1,0 +1,9 @@
+README.md
+setup.py
+boredStats/__init__.py
+boredStats/corr_tools.py
+boredStats.egg-info/PKG-INFO
+boredStats.egg-info/SOURCES.txt
+boredStats.egg-info/dependency_links.txt
+boredStats.egg-info/not-zip-safe
+boredStats.egg-info/top_level.txt
