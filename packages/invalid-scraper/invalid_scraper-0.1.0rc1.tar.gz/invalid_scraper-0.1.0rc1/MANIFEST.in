@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+include packaging/requirements.txt
+include invalid_scraper/data/*.yml
