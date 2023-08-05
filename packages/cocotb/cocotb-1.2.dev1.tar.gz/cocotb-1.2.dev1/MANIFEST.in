@@ -1,0 +1,3 @@
+recursive-include cocotb/share *.c* *.h Makefile.* Makefile
+recursive-include examples *.v *.py Makefile *.tcl *.cfg
+include version
