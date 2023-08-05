@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kdLaunchPad
+Version: 1.0.1
+Summary: auto run some programs after system start
+Home-page: https://github.com/bkdwei/kdLaunchPad
+Author: bkdwei
+Author-email: bkdwei@163.com
+License: GPL Licence
+Description: configure some programs as a session,and start them after the system startup.
+Keywords: pip,kdLaunchPad,autoStarter
+Platform: any
