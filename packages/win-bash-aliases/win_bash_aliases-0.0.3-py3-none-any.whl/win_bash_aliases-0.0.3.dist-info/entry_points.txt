@@ -1,0 +1,27 @@
+[console_scripts]
+awk = win_aliases.__init__:awk
+cat = win_aliases.__init__:cat
+cp = win_aliases.__init__:cp
+curl = win_aliases.__init__:curl
+dig = win_aliases.__init__:dig
+grep = win_aliases.__init__:grep
+gzip = win_aliases.__init__:gzip
+host = win_aliases.__init__:host
+less = win_aliases.__init__:less
+ls = win_aliases.__init__:ls
+man = win_aliases.__init__:man
+more = win_aliases.__init__:more
+mv = win_aliases.__init__:mv
+nano = win_aliases.__init__:nano
+rm = win_aliases.__init__:rm
+sed = win_aliases.__init__:sed
+ss = win_aliases.__init__:ss
+ssh = win_aliases.__init__:ssh
+tail = win_aliases.__init__:tail
+tar = win_aliases.__init__:tar
+unzip = win_aliases.__init__:unzip
+vi = win_aliases.__init__:vi
+vim = win_aliases.__init__:vim
+wc = win_aliases.__init__:wc
+zip = win_aliases.__init__:zip
+
