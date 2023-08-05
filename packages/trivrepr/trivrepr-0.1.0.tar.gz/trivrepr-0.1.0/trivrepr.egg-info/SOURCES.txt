@@ -1,0 +1,9 @@
+README.md
+setup.py
+trivrepr/__init__.py
+trivrepr/py.typed
+trivrepr.egg-info/PKG-INFO
+trivrepr.egg-info/SOURCES.txt
+trivrepr.egg-info/dependency_links.txt
+trivrepr.egg-info/top_level.txt
+trivrepr.egg-info/zip-safe
