@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+angles
+astropy
+scipy
+dash
+plotly
+flask_caching
