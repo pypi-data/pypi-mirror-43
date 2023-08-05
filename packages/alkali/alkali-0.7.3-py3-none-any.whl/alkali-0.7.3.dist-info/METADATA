@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: alkali
+Version: 0.7.3
+Summary: alkali is a simple database engine
+Home-page: https://github.com/kneufeld/alkali
+Author: Kurt Neufeld
+Author-email: kneufeld@burgundywall.com
+License: MIT License
+Keywords: database
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Database
+Requires-Dist: pytz (>=2016.6.1)
+Requires-Dist: python-dateutil (>=2.8.0)
+Requires-Dist: zope.interface
+Requires-Dist: blinker
+Provides-Extra: dev
+Requires-Dist: py (>=1.4.31) ; extra == 'dev'
+Requires-Dist: pytest (>=3.0.2) ; extra == 'dev'
+Requires-Dist: pytest-coverage ; extra == 'dev'
+Requires-Dist: funcsigs (>=1.0.2) ; extra == 'dev'
+Requires-Dist: mock (>=2.0.0) ; extra == 'dev'
+Requires-Dist: pbr (>=1.10.0) ; extra == 'dev'
+Requires-Dist: coveralls ; extra == 'dev'
+Requires-Dist: codecov ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: alabaster (>=0.7.9) ; extra == 'docs'
+Requires-Dist: Babel (>=2.3.4) ; extra == 'docs'
+Requires-Dist: docutils (>=0.12) ; extra == 'docs'
+Requires-Dist: imagesize (>=0.7.1) ; extra == 'docs'
+Requires-Dist: Jinja2 (>=2.8) ; extra == 'docs'
+Requires-Dist: MarkupSafe (>=0.23) ; extra == 'docs'
+Requires-Dist: Pygments (>=2.1.3) ; extra == 'docs'
+Requires-Dist: repoze.sphinx.autointerface (>=0.8) ; extra == 'docs'
+Requires-Dist: snowballstemmer (>=1.2.1) ; extra == 'docs'
+Requires-Dist: Sphinx (>=1.4.6) ; extra == 'docs'
+Requires-Dist: zope.interface (==4.2.0) ; extra == 'docs'
+
+
+alkali is a simple database engine. If you're currently using a list of
+dicts then you should come take a look. alkali's main goal is to allow
+the developer to easily control the on disk format.
+
+
