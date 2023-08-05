@@ -1,0 +1,3 @@
+[gui_scripts]
+pimpy_gallery = pimpygui.gallery:main
+
