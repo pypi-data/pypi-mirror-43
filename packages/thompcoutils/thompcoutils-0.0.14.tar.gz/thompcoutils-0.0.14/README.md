@@ -1,0 +1,53 @@
+# logging 
+logging consists of the following classes and functions to help with the burden of logging
+
+
+### RelativePathRotatingFileHandler
+Not sure if this is working properly
+
+#### get_logger()
+This function retrieves a logger for your file and function/method.  This should be called first.  For example:
+```python
+logger = get_logger()
+logger.debug("Hello world")
+```
+#### start_function(logger, **kwargs)
+This function tags the log file with the entry of a function/method.  You may turn it on or off in your logging configuration
+```python
+def my_function()
+    logger = get_logger()
+    start_function("You may optionally add information in the kwarks here")
+```
+
+#### end_function(logger, **kwargs)
+This function tags the log file with the exit of a function/method.  You may turn it on or off in your logging configuration
+```python
+def my_function()
+    logger = get_logger()
+    a = 1 + 2    
+    end_function("the value of a is {}".format(a))
+```
+
+# os
+os consists of the following classes and functions
+
+#### UnhandledOs
+This is raised when the library does not recognize the operating system
+
+#### list_timezones()
+This function returns all known timezones
+
+#### get_timezone()
+This function returns the timezone selected by the operating system
+
+#### kill_process(name)
+This function kills the specified process name
+
+#### is_running(name)
+This function returns whether the specified process name is currently running
+
+#### os_type()
+This function returns the operating system type
+
+#### get_ip_addresses()
+This function returns all IP addresses on this hardware
