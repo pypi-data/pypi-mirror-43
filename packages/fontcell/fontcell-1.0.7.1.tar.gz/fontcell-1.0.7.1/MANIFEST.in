@@ -1,0 +1,7 @@
+include FOntCell/fontcell_files/logo.png
+include FOntCell/fontcell_files/CELDA_import.owl
+include FOntCell/fontcell_files/Lifemap_parsed.ods
+include FOntCell/fontcell_files/file_clean_CELDA.txt
+include FOntCell/fontcell_files/demo_configurations.txt
+include FOntCell/fontcell_files/results/
+
