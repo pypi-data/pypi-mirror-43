@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+etc/multilib.conf
+multilib/__init__.py
+multilib/fakepo.py
+multilib/multilib.py
+python_multilib.egg-info/PKG-INFO
+python_multilib.egg-info/SOURCES.txt
+python_multilib.egg-info/dependency_links.txt
+python_multilib.egg-info/requires.txt
+python_multilib.egg-info/top_level.txt
