@@ -1,0 +1,35 @@
+{
+  "country": {
+    "filters": {
+      "filters": {
+        "download":{ "query": { "query_string": { "query": "dial.action:download" } } },
+        "view":{ "query": { "query_string": { "query": "dial.action:view" } } }
+      }
+    },
+    "aggs":{
+      "dispatch":{
+        "terms": {
+          "field":"geoip.country_name.raw"
+        }
+      }
+    }
+  },
+  "monthly": {
+    "filters": {
+      "filters": {
+        "download":{ "query": { "query_string": { "query": "dial.action:download" } } },
+        "view":{ "query": { "query_string": { "query": "dial.action:view" } } }
+      }
+    },
+    "aggs":{
+      "dispatch": {
+        "date_histogram": {
+          "field": "@timestamp",
+          "interval": "1M",
+          "format": "yyyy-MM-dd",
+          "order" : { "_key" : "desc" }
+        }
+      }
+    }
+  }
+}
