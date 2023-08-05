@@ -1,0 +1,16 @@
+HISTORY
+LICENSE
+MANIFEST.in
+README
+setup.cfg
+setup.py
+calchylus3/__init__.hy
+calchylus3/__init__.py
+calchylus3/lambdas.hy
+calchylus3/macros.hy
+calchylus3/minified.hy
+calchylus3.egg-info/PKG-INFO
+calchylus3.egg-info/SOURCES.txt
+calchylus3.egg-info/dependency_links.txt
+calchylus3.egg-info/requires.txt
+calchylus3.egg-info/top_level.txt
