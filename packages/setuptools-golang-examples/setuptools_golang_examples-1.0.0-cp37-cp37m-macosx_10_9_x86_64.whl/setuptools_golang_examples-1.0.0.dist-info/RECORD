@@ -1,0 +1,14 @@
+c_module.cpython-37m-darwin.so,sha256=VWvFCorEG92eUOFOuuhAEC7X1924pbJWd0cKStM35fk,9072
+hello_lib.cpython-37m-darwin.h,sha256=NNqgoE1Os5dZLljREeloy6-4JfbETEsBjza201Z9m-o,1713
+hello_lib.cpython-37m-darwin.so,sha256=uNV3QR0kma8-5bQNddBdXp_iUIhYU5CUwNpxpLOYqGM,1353648
+red.cpython-37m-darwin.h,sha256=faZLmcbzSvRgC5HRJVHKTNIqzhXO1-uIzH8qxGm0Q2M,1700
+red.cpython-37m-darwin.so,sha256=SLyelF44KTl4rIvEBLE54UwCvt06jV6t28TcBFXSY8E,2515360
+sum_go.cpython-37m-darwin.h,sha256=5LdvY01cUzFGf7xtvVXKrvz-oyO92bdywIP3c7iKqqw,1688
+sum_go.cpython-37m-darwin.so,sha256=Q895zn-fDPonHHIyHDWyVk1UjyBVCUPEFLRkPpn2hYk,1342872
+sum_pure_go.cpython-37m-darwin.h,sha256=waHJX-JHrXH6d-Z2nkKW7QyDEa5CSlLsgWk5c74VVrw,1698
+sum_pure_go.cpython-37m-darwin.so,sha256=VgCq5N5mrxTcf7IHJ84TlY5gdjATVrYbk29MJus-stw,1342880
+setuptools_golang_examples-1.0.0.dist-info/LICENSE,sha256=E_fEyBBI1K9TdyFPp6P7Av6PH-WqOkje0ldG9KtMjro,1059
+setuptools_golang_examples-1.0.0.dist-info/METADATA,sha256=IEbY4I6lJx9DBYx9FL_XINDhchiz6zMsrCiV-onueY8,2395
+setuptools_golang_examples-1.0.0.dist-info/WHEEL,sha256=7N6M1ykYIrx0t3uJ-hlnVYi8OLGWgsRo4OtIoqs8ENE,110
+setuptools_golang_examples-1.0.0.dist-info/top_level.txt,sha256=pPwA5T5xYXofNNAJbvE9novVsCMJduzrLTMiUBk2mWM,36
+setuptools_golang_examples-1.0.0.dist-info/RECORD,,
