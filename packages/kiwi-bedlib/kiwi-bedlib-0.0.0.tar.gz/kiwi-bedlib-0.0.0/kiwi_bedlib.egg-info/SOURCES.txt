@@ -1,0 +1,5 @@
+setup.py
+kiwi_bedlib.egg-info/PKG-INFO
+kiwi_bedlib.egg-info/SOURCES.txt
+kiwi_bedlib.egg-info/dependency_links.txt
+kiwi_bedlib.egg-info/top_level.txt
