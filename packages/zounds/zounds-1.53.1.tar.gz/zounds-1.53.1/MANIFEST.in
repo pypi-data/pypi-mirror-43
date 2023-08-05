@@ -1,0 +1,7 @@
+include zounds/ui/*.html
+include zounds/ui/*.js
+include zounds/nputil/countbits.pyx
+include zounds/nputil/countbits.pyxbld
+include README.md
+include MANIFEST.in
+include LICENSE.txt
