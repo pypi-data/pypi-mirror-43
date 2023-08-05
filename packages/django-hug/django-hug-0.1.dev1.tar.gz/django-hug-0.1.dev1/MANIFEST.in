@@ -1,0 +1,2 @@
+include CHANGES.md README.md requirements.txt
+exclude example

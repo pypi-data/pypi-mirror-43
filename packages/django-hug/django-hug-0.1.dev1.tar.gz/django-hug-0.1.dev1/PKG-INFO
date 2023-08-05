@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: django-hug
+Version: 0.1.dev1
+Summary: Package for working with Django views and request/response validation in more convenient way.
+Home-page: https://github.com/jounderwood/django-hug
+Author: UNKNOWN
+Author-email: andrey.sdr@gmail.com
+License: BSD 3-Clause License
+Description: django-hug
+        ==========================
+        Package for working with Django urls/views and request/response validation in more convenient way. 
+        Inspired by beautiful [hug](https://github.com/timothycrosley/hug).
+        
+        #### To start example app
+        ```bash
+        make venv
+        source activate
+        cd example
+        ./manage.py runserver
+        ```
+        
+        Attention! Work In Progress
+        ==
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
