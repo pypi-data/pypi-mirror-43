@@ -1,0 +1,12 @@
+README.rst
+aqtinst
+setup.cfg
+setup.py
+aqt/__init__.py
+aqt/__main__.py
+aqt/archives.py
+aqt/installer.py
+aqtinstall.egg-info/PKG-INFO
+aqtinstall.egg-info/SOURCES.txt
+aqtinstall.egg-info/dependency_links.txt
+aqtinstall.egg-info/top_level.txt
