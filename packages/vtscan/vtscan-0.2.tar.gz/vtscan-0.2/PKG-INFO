@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: vtscan
+Version: 0.2
+Summary: Utility to scan for malicious files using the VirusTotal API.
+Home-page: https://github.com/prahladyeri/vtscan
+Author: Prahlad Yeri
+Author-email: prahladyeri@yahoo.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
