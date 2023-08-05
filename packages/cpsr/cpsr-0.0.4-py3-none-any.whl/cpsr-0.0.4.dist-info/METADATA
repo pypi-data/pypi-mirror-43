@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: cpsr
+Version: 0.0.4
+Summary: Cone Problem Solution Refinement.
+Home-page: UNKNOWN
+Author: Enzo Busseti
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15.1)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: numba (>=0.36.2)
+
+UNKNOWN
+
+
