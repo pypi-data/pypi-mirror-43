@@ -1,0 +1,8 @@
+README.md
+ipd.py
+setup.py
+invalid_pic_detector.egg-info/PKG-INFO
+invalid_pic_detector.egg-info/SOURCES.txt
+invalid_pic_detector.egg-info/dependency_links.txt
+invalid_pic_detector.egg-info/requires.txt
+invalid_pic_detector.egg-info/top_level.txt

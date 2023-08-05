@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: invalid-pic-detector
+Version: 0.1.0
+Summary: 图片有效性检测（是否为黑/白屏）
+Home-page: https://github.com/williamfzc/IPD
+Author: williamfzc
+Author-email: fengzc@vip.qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
