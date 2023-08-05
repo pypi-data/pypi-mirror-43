@@ -1,0 +1,10 @@
+mongobase/__init__.py,sha256=B1kZBpd_4-9-KytZu6DoHbTswn1DCev_TKpGCBUt1rE,712
+mongobase/config.py,sha256=s0bJJXot2E-oKgYl1W-61WmNvxZlKFkcThbOjH_9yNk,420
+mongobase/exceptions.py,sha256=k6hZzEbVOM2age5NC8A2-OMdZ3QfqPJNiniig4ZkT-o,53
+mongobase/modelbase.py,sha256=TEXSaRce-cgnySvX6XQ9s9fiW0UlMH2N1PVgy_4rBdM,5018
+mongobase/mongobase.py,sha256=ZWQ4fce_MEC3AuQefxrtQykaB09CyFIrBF7qB5S2Vio,29354
+mongobase-0.3.0a0.dist-info/LICENSE,sha256=-vdvsxxDLyHCjljOFexOedF_W-RHMGbddThif1WfXi4,1081
+mongobase-0.3.0a0.dist-info/METADATA,sha256=FDbSqOw7idvz_-2qCiijdd-sQnxyignZvYor0pQB-3U,7902
+mongobase-0.3.0a0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mongobase-0.3.0a0.dist-info/top_level.txt,sha256=ofrixHrLMnUkX7J7eNrm14EgC2AnDdUVV-QvCZlEuko,10
+mongobase-0.3.0a0.dist-info/RECORD,,
