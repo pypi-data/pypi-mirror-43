@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+sz_calculator/__init__.py
+sz_calculator/__main__.py
+sz_calculator/calc.py
+sz_calculator.egg-info/PKG-INFO
+sz_calculator.egg-info/SOURCES.txt
+sz_calculator.egg-info/dependency_links.txt
+sz_calculator.egg-info/entry_points.txt
+sz_calculator.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sz-calculator
+Version: 0.0.2
+Summary: Cool Calculator
+Home-page: https://github.com/stonezhong/pythondemos/tree/master/sz_calculator
+Author: Stone Zhong
+Author-email: stonezhong@hotmail.com
+License: MIT
+Description: # Demo Calculator
+        
+        The purpose of this module is to demo how to build and publish python package
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
