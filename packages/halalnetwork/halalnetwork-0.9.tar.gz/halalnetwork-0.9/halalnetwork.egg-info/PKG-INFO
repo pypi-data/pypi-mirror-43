@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: halalnetwork
+Version: 0.9
+Summary: download the halal staff for free with no registration
+Home-page: https://github.com/UJM-INFO/2019-net-b
+Author: FOMK
+Author-email: kriskuliv@gmail.com
+License: UNKNOWN
+Description: # 2019-net-b
+        
+        ## What is our peer-to-peer file downloading system
+        
+        The main idea of the system - secure and reliable file exchange between people in a network. 
+        Peer-to-peer means that files are transfering between guys that are connected to a system following several specific rules: 
+        * to get into the system the guys first must download the specific .libr files
+        * afterwards those guys must connect to a tracker (using the ip from .libr file) to get the list of other peer guys 
+        * the fun begins! Peer goes inside the network, starts taking the "books" (chunks) of needed files from other guys and giving the chunks he has to other guys.
+        * In the end everybody is happy having the fully downloaded files.
+        
+        
+        ## How to build, run, test
+        
+        **Build step:**
+        0) run **pip install haramnetworks** 
+        1) Use **chunky_boy.py** to create .libr file (library file as described in protocol) and .bi file (connects names of the stuff with the theirs file-names). The best practise is to run chunky_boy on a tracker computer (because doing so the IP adress of tracker will be writen to .lib file)
+        2) Users must download this .libr file as a first step (same as if downloading a torrent file)
+        
+        **Run steps:**
+        2) Run **tracker.py**. It will activate the tracker of the whole system. Tracker will start to listen, waiting for peers to get connected to it.
+        3) Run **main_func.py**. It will activate peer-to-peer system. 
+        
+        **Testing step:**
+        4) Run pytest -v to run all existing test
+        
+        **Resourses:**
+        5) Check the resourses used via [link](https://docs.google.com/spreadsheets/d/15dO61qel5iGa-W1Udee3QN0Z6it9-twFl_7Tn3PuyP8/edit?usp=sharing)
+        
+        ## Architectures
+        
+        1) One player (let's call Player A) execute the 'tracker.py'. Player A will be our hub. Player A has the text file that consist of staffs (The lord of the rings, Gone with the wind etc.).
+        
+        2) Another one player (Let's call Player B), he will download the libr file (like a bittorrent file) on github. This file contains the information of: Hub, name of the staff (e.g The Lord of the rings), size of the staff, size used for books, SHA1 of each books. 
+        
+        3) After Player B has the .libr file, Player B execute the 'main_func.py'. Player B will be one of the peers.
+        
+        4) When Player B executed the 'main_func.py', Player A's text file will be updated according to Player B's IPP and Port. 
+        For example; 
+        
+        Before Player B's execute, text file looks like:
+        
+        The Lord of the Rings II IPP
+        
+        After Player B's execute, text file looks like:
+        
+        The Lord of the Rings II IPP 192.168.43.29:1234 (Player B's IPP and Port)
+        
+        5) End of the execution of 'main_func.py', 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
