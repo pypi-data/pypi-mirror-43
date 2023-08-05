@@ -1,0 +1,8 @@
+include *.in
+include *.lock
+include *.md
+include LICENSE
+include Pipfile
+include tox.ini
+recursive-include docs *.png
+recursive-include tests *.py

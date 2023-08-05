@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-xdist = "*"
+pytest-flake8 = "*"
+pytest-cov = "*"
+hypothesis = "*"
+tox = "*"
+check-manifest = "*"
+twine = "*"
+
+[packages]
+
+[requires]
+python_version = "3.7"
