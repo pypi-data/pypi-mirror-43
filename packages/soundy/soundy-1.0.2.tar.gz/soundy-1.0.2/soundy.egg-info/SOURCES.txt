@@ -1,0 +1,13 @@
+README.md
+setup.py
+soundy/Notes.py
+soundy/__init__.py
+soundy/__main__.py
+soundy/setup.py
+soundy/soundy.py
+soundy/test.py
+soundy.egg-info/PKG-INFO
+soundy.egg-info/SOURCES.txt
+soundy.egg-info/dependency_links.txt
+soundy.egg-info/requires.txt
+soundy.egg-info/top_level.txt
