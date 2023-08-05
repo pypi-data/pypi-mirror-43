@@ -1,0 +1,14 @@
+scrapytest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapytest/cli.py,sha256=msOEVhk9ueTA0I4B0wmOJ0F-qVr11RNkV5H-oDe3ZHU,3322
+scrapytest/default_settings.py,sha256=oQ_CI72OBAVqQ95mX03rC5jNPufp48UqqsTfgKIQJDI,459
+scrapytest/runner.py,sha256=r4Ez_76WAxWXzZznJIEHjAJPne6wBR7JaqyynNJuDkU,1848
+scrapytest/spec.py,sha256=H0WyPpHmsqn0N_nkwmOHpK9Iff8k26VenBe-oiqk8LU,2307
+scrapytest/tests.py,sha256=2vcl89PmL-0nT72tKmMm7wQvRdtsQ2fqLaaRxl8Vaj8,4363
+scrapytest/utils.py,sha256=2NN29KdeXL8Zw6W1vd6Q3cRr1EFXwqjgejleV1BENhI,2948
+scrapytest/validate.py,sha256=kLVr96fR2I-JQvmgNGJ54Jwu20AvID5IW2jN8EXjrAY,6113
+scrapy_test-0.2.dist-info/LICENSE,sha256=lHvpEBamVWHS1Snq9NrjdyVTAdzRZH_vSJW_Rwv9Nhw,35095
+scrapy_test-0.2.dist-info/METADATA,sha256=lq-Xo8WsAuQdMovr_Lfk_RxWHgE4l5u8AxLWXLsHQ9Q,4550
+scrapy_test-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+scrapy_test-0.2.dist-info/entry_points.txt,sha256=y8a7iJBNqtgBwFqjS7_UJ7KsQL0I20Y31LUrlBf3xZI,53
+scrapy_test-0.2.dist-info/top_level.txt,sha256=Me2bG8nON6NylBKdeKBc2JZg2FkhkEC_Z0fQOPW8YVM,11
+scrapy_test-0.2.dist-info/RECORD,,
