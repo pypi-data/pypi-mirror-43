@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lettercase
+Version: 0.0.1
+Summary: Detection and conversion between letter cases
+Home-page: UNKNOWN
+Author: Giesela Inc.
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Lettercase
+[![CircleCI](https://circleci.com/gh/gieseladev/lettercase.svg?style=svg)](https://circleci.com/gh/gieseladev/lettercase)
+
+A Python library for detecting and converting between various letter
+cases.
+
