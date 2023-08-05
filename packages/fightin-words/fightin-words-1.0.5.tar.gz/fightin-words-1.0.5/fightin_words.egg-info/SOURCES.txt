@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+fightin-words/__init__.py
+fightin-words/fightin-words.py
+fightin_words.egg-info/PKG-INFO
+fightin_words.egg-info/SOURCES.txt
+fightin_words.egg-info/dependency_links.txt
+fightin_words.egg-info/requires.txt
+fightin_words.egg-info/top_level.txt
