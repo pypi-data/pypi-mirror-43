@@ -1,0 +1,10 @@
+cmd_talk/__init__.py,sha256=1JsyKt5U0jnNGOLjUX4gCLt_u6nSNqbv1E6jXEdVqr4,50
+cmd_talk/msg.py,sha256=znB6oZyCCvlkZMzzeE7_iNBF8-HfEacSqPWa8fZRCsY,1304
+cmd_talk/settings.py,sha256=GGyrnbsQ0bgJzvymFuCaPZy0YV8OXGhNJ5IcQ9zf5ig,23
+cmd_talk/user.py,sha256=ZRBFmYvogHD-YSWAP2blQHtM1i7nUBBfmkXpJgcajek,530
+cmd_talk/utils.py,sha256=89r2RMub0wHhG4XLKcvgn3hTTqg_5jTeO75eV4vrUV0,341
+cmd_talk-0.1.dist-info/METADATA,sha256=82lrfHtFAJSNwf7JpE0vgAsjVgEcWXL1Gz5arT3m3O0,257
+cmd_talk-0.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+cmd_talk-0.1.dist-info/entry_points.txt,sha256=LHeF70caBGOM7fKWp7DM6lnvMFKXgs7U8-QZxUvHdfI,74
+cmd_talk-0.1.dist-info/top_level.txt,sha256=SwpS7VHLWdkLnDB7rxrQIoOx39T9cXkv3Odw6DV4F6c,9
+cmd_talk-0.1.dist-info/RECORD,,
