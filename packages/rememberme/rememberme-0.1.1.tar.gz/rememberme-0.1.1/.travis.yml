@@ -1,0 +1,18 @@
+language: python
+
+python:
+    - "3.5"
+    - "3.6"
+    - "3.7-dev"
+
+install:
+    - pip install print-tree2
+    - pip install cython
+
+
+before_script:
+    - pip install numpy
+    - python setup.py build_ext -i
+
+script:
+    - pytest
