@@ -1,0 +1,45 @@
+Metadata-Version: 2.0
+Name: django-progress-timeline
+Version: 0.1
+Summary: todo
+Home-page: https://www.example.com/
+Author: ddeby
+Author-email: dawid.deby@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+
+=====
+Progress Timeline
+=====
+
+TODO
+
+
+Quick start
+-----------
+
+1. Add "progress_timeline" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'progress_timeline',
+    ]
+
+2. Include the polls URLconf in your project urls.py like this::
+
+    path('progress-timeline/', include('progress_timeline.urls')),
+
+3. Run `python manage.py migrate` to create the models.
+
+
