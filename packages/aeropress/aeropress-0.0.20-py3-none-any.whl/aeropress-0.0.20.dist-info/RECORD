@@ -1,0 +1,16 @@
+aeropress/__init__.py,sha256=Pjp0RJi2qo0Vz7uONDuaU_9LWj4X78wqxe9Z59e6H08,101
+aeropress/_version.py,sha256=OWJaWY0JFPzGIxOCNzOeu5pU5449ij8d2xsJ2vFyXeA,23
+aeropress/cli.py,sha256=gtjqPaC5ohRByK1aG2GknFFRKVXTFpuTUyFE4HTpPVo,9200
+aeropress/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aeropress/aws/alarm.py,sha256=bLgAP-23lVKCe1YX5TcGjJDkyXBu0VmBEOjEcabemec,4991
+aeropress/aws/cluster.py,sha256=55_ajb2vKkm582BxNbwpgwc-tCnQz5kTZZ_vwFrzz_U,394
+aeropress/aws/log.py,sha256=4c5AaFUrxx_e1YEKG3fPXlLf99f-fzt7eiFCRftdE0U,9408
+aeropress/aws/metric.py,sha256=zujm5Tl3wKssYzH_fbV4TrDd2S4vbSGc-oImzgXR3SU,1860
+aeropress/aws/scale.py,sha256=PND-ikXWte4tWII8vEdTry9Rn4Sl5yX19Z2TZVAutSM,5124
+aeropress/aws/service.py,sha256=or6eGU8URsb1f3e8HQt6ylMJlsdHKHN4roqzfYhuHGU,3571
+aeropress/aws/task.py,sha256=cF6cwMRqOQAxcPnfDrfbEeCkviMfMcJgY1Tul19z0_U,5155
+aeropress-0.0.20.dist-info/METADATA,sha256=gkIyoXBIV21d2y5JIA4_lEFrOdubjSNudNHdKOUAq6s,1822
+aeropress-0.0.20.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+aeropress-0.0.20.dist-info/entry_points.txt,sha256=MLmOFpWCe4BTy-y1obZvTEhi0Ac9mC-dfzRN2lhf2vA,50
+aeropress-0.0.20.dist-info/top_level.txt,sha256=nirPhjyPPZLksXFsndBHzdfny_ScpKmfY3_Es-ckYqw,10
+aeropress-0.0.20.dist-info/RECORD,,
