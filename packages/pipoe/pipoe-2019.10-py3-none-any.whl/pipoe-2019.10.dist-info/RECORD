@@ -1,0 +1,9 @@
+pipoe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipoe/licenses.py,sha256=4yHhvpkmpW0OKK1U97uuw01AZzfPOVeTt_GsmFuR4gQ,7005
+pipoe/pipoe.py,sha256=AvsujWHsuitwfJmUAl71A9PPsSR5MVUTRj1dr78cjqw,14265
+pipoe-2019.10.dist-info/COPYING,sha256=KFcrRz5pYqFbEZEtTfJXxqpZvC0Fhe_fsTqaH4_VMaE,1051
+pipoe-2019.10.dist-info/METADATA,sha256=C9NoUK6A7cmWYbd2KvXULcqL93AD48h5FS68cS-QfRk,3522
+pipoe-2019.10.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pipoe-2019.10.dist-info/entry_points.txt,sha256=uAu7L3635mV2woED-JFwnZWS6JQbn6gok6_6fZr2czU,44
+pipoe-2019.10.dist-info/top_level.txt,sha256=NFDCpRfYTak7a5-uf47iJwGK7VCrg5CNcFF0hdHEoSs,6
+pipoe-2019.10.dist-info/RECORD,,
