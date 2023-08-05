@@ -1,0 +1,5 @@
+setup.py
+kiwi_skylib.egg-info/PKG-INFO
+kiwi_skylib.egg-info/SOURCES.txt
+kiwi_skylib.egg-info/dependency_links.txt
+kiwi_skylib.egg-info/top_level.txt
