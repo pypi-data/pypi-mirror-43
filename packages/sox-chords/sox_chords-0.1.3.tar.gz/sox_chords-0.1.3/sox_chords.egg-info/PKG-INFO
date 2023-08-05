@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: sox-chords
+Version: 0.1.3
+Summary: Generating Guitar Chords using sox
+Home-page: https://github.com/baudcode/sox-chords
+Author: Malte Koch
+Author-email: malte-koch@gmx.net
+Maintainer: Malte Koch
+Maintainer-email: malte-koch@gmx.net
+License: MIT
+Download-URL: https://github.com/baudcode/sox-chords/archive/v0.1.3.tar.gz
+Description: ### Sox-Chords  
+        [![Build Status](https://travis-ci.org/baudcode/sox-chords.svg?branch=master)](https://travis-ci.org/baudcode/sox-chords)
+        
+        With the sox-chords module you can generate guitar chords using sox.
+        Currently supported chords are:
+        
+        - Sus4
+        - Sus2
+        - MajorTriad
+        - MinorTriad
+        - AugmentedTriad
+        - DiminishedTriad
+        - MajorSeventh
+        - MinorSeventh
+        - DominantSeventh
+        - MinorMajorSeventh
+        - AugmentedSeventh
+        - AugmentedMajorSeventh
+        - DiminishedSeventh
+        - HalfDiminishedSeventh
+        
+        
+        You can create Scales as well.
+        
+        For examples please see **examples/How To.ipynb**
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
