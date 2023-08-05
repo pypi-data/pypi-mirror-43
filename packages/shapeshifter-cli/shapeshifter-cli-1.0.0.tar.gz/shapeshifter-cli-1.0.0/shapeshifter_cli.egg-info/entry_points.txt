@@ -1,0 +1,6 @@
+[console_scripts]
+shapeshift = shapeshiftercli.shapeshiftercli:main
+shapeshiftmerge = mergecli.mergecli:main
+ss = shapeshiftercli.shapeshiftercli:main
+ssm = mergecli.mergecli:main
+
