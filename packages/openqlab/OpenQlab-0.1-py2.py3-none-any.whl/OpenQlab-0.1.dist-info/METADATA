@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: OpenQlab
+Version: 0.1
+Summary: Collection of tools which might be helpful during a normal lab day
+Home-page: https://gitlab.rrz.uni-hamburg.de/las-nq/openqlab
+Author: LAS-NQ @ Uni Hamburg
+Author-email: sebastian.steinlechner@physnet.uni-hamburg.de
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires: numpy
+Requires: pandas
+Requires: matplotlib
+Requires: scipy
+Requires-Dist: Sphinx
+Requires-Dist: numpy
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: pandas (>=0.23.3)
+Requires-Dist: matplotlib
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: tabulate
+Requires-Dist: recommonmark
+Requires-Dist: sphinx-markdown-tables
+Requires-Dist: wheel
+Requires-Dist: pytest (<4.0)
+Requires-Dist: pytest-cov (>=2.5.1)
+Requires-Dist: pytimeparse
+Requires-Dist: pytz
+Requires-Dist: pathlib
+Requires-Dist: datetime
+Requires-Dist: psutil
+Requires-Dist: statsmodels
+Requires-Dist: jsonpickle
+
+UNKNOWN
+
+
