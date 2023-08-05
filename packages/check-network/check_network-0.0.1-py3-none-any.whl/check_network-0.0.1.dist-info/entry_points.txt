@@ -1,0 +1,8 @@
+[console_scripts]
+is-connected-to-internet = control.internet_connection:main
+public-ip = control.network.ip:get_public_ip
+reboot-computer = control.reboot_computer:main
+zte-connect = control.zte:zte_connect
+zte-disconnect = control.zte:zte_disconnect
+zte-reboot = control.zte:zte_reboot
+

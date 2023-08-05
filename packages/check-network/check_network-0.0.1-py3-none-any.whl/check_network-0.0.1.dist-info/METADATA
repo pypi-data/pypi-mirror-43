@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: check-network
+Version: 0.0.1
+Summary: Check internet connection
+Home-page: http://git.redmic.net/oag/buoy
+Author: REDMIC
+Author-email: info@redmic.es
+License: MIT
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Buoy-Base
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: zte-mf823
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+UNKNOWN
+
+
