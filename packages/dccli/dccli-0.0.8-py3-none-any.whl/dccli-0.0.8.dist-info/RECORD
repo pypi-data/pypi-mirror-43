@@ -1,0 +1,14 @@
+dccli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dccli/cli.py,sha256=HWtiD06nV-OyCjZ6JHZPgAkTY1UPyDI9VYtIuDjgTVk,1458
+dccli/constants.py,sha256=uqelY7WIDlKzuc2TdVE5cs4QYuogtZ7zDyA3tA7TP1A,1112
+dccli/error_codes.py,sha256=C0Xwhvmk4fT11riKN3upBTSHS1SdWgvXX0aXNXGk7Y4,119
+dccli/git_helper.py,sha256=s84CK6lHD2qoNOfbPWvOuPvcJYel8M7RKSIcl3nITgU,2638
+dccli/job.py,sha256=tNowibeXhJf8nUdr816CaRbK7Ob4g3-onXJiBGxJVSQ,25236
+dccli/user.py,sha256=AZA94wGteG6Gl3_jsf3ZZIl9CQDTV5ClsnsTgu_n8DY,3461
+dccli/utils.py,sha256=0s6LIpNUSz2CVPxznMsPv2A6bxceZ_L0Ag6fH3qiXVE,12743
+dccli-0.0.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+dccli-0.0.8.dist-info/METADATA,sha256=o5gJK2C8ZMNWskyct269s5dOMvmhne3yMDQq2IFTez8,506
+dccli-0.0.8.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+dccli-0.0.8.dist-info/entry_points.txt,sha256=1O9XNKvBeawJZYXoyrDUNRRncm-yvzDnTe4QhEmRUTg,42
+dccli-0.0.8.dist-info/top_level.txt,sha256=Cm3G7zNAsVUObPTJHrpRn0G-vhhnVeyQlk48wymOIDM,6
+dccli-0.0.8.dist-info/RECORD,,
