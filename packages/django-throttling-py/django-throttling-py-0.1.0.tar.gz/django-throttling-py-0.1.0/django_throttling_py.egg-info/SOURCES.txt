@@ -1,0 +1,12 @@
+README.md
+setup.py
+django_throttling/__init__.py
+django_throttling/middleware.py
+django_throttling/settings.py
+django_throttling/throttling.py
+django_throttling_py.egg-info/PKG-INFO
+django_throttling_py.egg-info/SOURCES.txt
+django_throttling_py.egg-info/dependency_links.txt
+django_throttling_py.egg-info/requires.txt
+django_throttling_py.egg-info/top_level.txt
+tests/__init__.py
