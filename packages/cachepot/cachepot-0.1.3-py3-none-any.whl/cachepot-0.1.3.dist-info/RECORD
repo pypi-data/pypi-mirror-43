@@ -1,0 +1,17 @@
+cachepot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cachepot/expire.py,sha256=-3iyhAOck1miaY0Fvp8B2j2d82Gn5gKLWtQkHj9UraA,290
+cachepot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cachepot/backend/__init__.py,sha256=L7iIZ4AzkXKUkVc-XwO7rIHetmZ2za2RjdQzvk_qfuc,423
+cachepot/backend/filesystem.py,sha256=B847eh6m-VlTfbd2unDkDqgTgRJC3GkjVi8DYVwqE6A,1581
+cachepot/backend/redis.py,sha256=2zjVl5-C2gbUfud35HfNjRC_UOKf70NflAIjouDPmhY,810
+cachepot/backend/sqlite.py,sha256=8DQfIN1hEt8IKecsX8ACLISZLv8A-3tdOglfzpNKts8,1878
+cachepot/serializer/__init__.py,sha256=IEGAmFsCJQ1axJw2Ruy7U3rK769wxCLtTYb1ipehTx4,250
+cachepot/serializer/json.py,sha256=60wzbetwIlHYyP34reBrsYOqXV29UyaJG961jl9oIzk,676
+cachepot/serializer/pickle.py,sha256=z_ysETSreUmGF2VOUNX19C86iy89IVmLZIkTErhF2AU,324
+cachepot/serializer/str.py,sha256=LSSzXx49TFMeVSnh0IEzdsYIu0uTyhbKTFQSEs99Wts,276
+cachepot/store/__init__.py,sha256=OloCTpgEwoT2hgabbJcNCbbVVaXHId_3C3CD56wzh9Q,2939
+cachepot-0.1.3.dist-info/LICENSE,sha256=0pK1Vgr12ZA1-Luool34j-WmuchE88Aw-ugOM2yRCho,1454
+cachepot-0.1.3.dist-info/METADATA,sha256=yo2sAjk3Gn94YCltNFKGMM2Ej0WtYxl1aXhRwG1emWI,2562
+cachepot-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cachepot-0.1.3.dist-info/top_level.txt,sha256=FKe6rMQ6W41mLtCTRJFYldq4GGtVlbFfE-wvADLl_Jc,9
+cachepot-0.1.3.dist-info/RECORD,,
