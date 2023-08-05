@@ -1,0 +1,13 @@
+regex/__init__.py,sha256=dRHbnggsRYhBpwhHkZhLvxX5Tct21I8bJksynwRBWAU,21
+regex/_regex.pyd,sha256=TWwSwq7syrz5nAnJG78s0BYX9yUKo3g9wH7X4frM98k,508416
+regex/_regex_core.py,sha256=bBtbrLwXb_tI0GLuYvAW7f7RpCWSHnsw0bZMvHZutns,141107
+regex/regex.py,sha256=zMqh-Wqqxl0WcxhQrh4dRMcgU-n7PPAAka1odGZZztA,31018
+regex-2019.03.08.dist-info/DESCRIPTION.rst,sha256=LrnJvaOna_BFnCMpA_yjF47Z7AFhqFZZMl2_d7WMem0,34429
+regex-2019.03.08.dist-info/METADATA,sha256=d16O5o46dadBZqzf9aftSTmZsk0aMXoAZkz-s9vMEd0,35471
+regex-2019.03.08.dist-info/RECORD,,
+regex-2019.03.08.dist-info/WHEEL,sha256=WsSs8UfBrHf9v-EOpZzeTC7_VhYVXp5bAI1FBmse5HQ,105
+regex-2019.03.08.dist-info/metadata.json,sha256=dPuQ440nLtPawF86on3Kf1lW30hiKL6dNn7cW2dfmFI,867
+regex-2019.03.08.dist-info/top_level.txt,sha256=aQmiDMhNTF26cCK4_7D-qaVvhbxClG0wyCTnEhkzYBs,6
+regex-2019.03.08.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+regex/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regex/test/test_regex.py,sha256=igwgONnZF41B1Wj4FTBlohwwQ4B5MwKLkeLxVCly8D0,196563
