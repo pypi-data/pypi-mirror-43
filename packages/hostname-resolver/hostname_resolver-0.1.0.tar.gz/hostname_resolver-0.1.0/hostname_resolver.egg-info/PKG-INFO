@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: hostname-resolver
+Version: 0.1.0
+Summary: A bulk hostname resolver, against known TLDs
+Home-page: https://github.com/dpazavalos/bulk-hostname-scanner
+Author: Daniel Paz Avalos
+Author-email: me@dpazavalos.dev
+License: UNKNOWN
+Description: # hostname_resolver
+        A bulk hostname resolver, designed to get info on a large number of internal hostnames against 
+        internal TLDs.
+        
+        Given a list of hostnames, finds their FQDN using an inbuilt list of top level domains. 
+        Designed for environments where user needs full names of internal servers, but has only 
+        hostnames.
+        
+        In addition, provides limited formatting and reporting functionality (simple text or csv)
+        
+        ## Installation
+        ```
+        pip install  
+        ```
+        
+        ## Usage
+        ```python
+        import hostname_resolver
+        resolver = hostname_resolver.HostnameResolver()
+        resolver.run()
+        ```
+        
+        or:
+        ```
+        python ./hostname_resolver/__init__.py
+        ```
+        
+        On default runs, hostname_resolver will prompt you for hostnames (recommend copy/pasting a column)
+        h_r strips any duplicates and attempts to resolve hostnames as is or iterates each against its known
+        TLDs. As it resolves it displays what was given, how it resolved the hostname, and the found IP.
+        Once a full list is run, h_r then prompts you to run a new list, add to the previous list, build a
+        report (text file or csv), or quit 
+        
+        ## Features
+        * Adhoc functionality, most functionality modules are loaded only as needed to reduce startup time
+        
+        * versatility, hostnames to check can be passed through run, stdin, or the file can be called 
+        directly with hostnames in as command line arguments (single items, passable arrays, or path names
+        to files containing hostnames)
+        
+        * Modularity. It's all horizontal as heck
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
