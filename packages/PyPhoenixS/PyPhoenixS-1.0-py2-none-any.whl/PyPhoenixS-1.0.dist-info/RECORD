@@ -1,0 +1,11 @@
+PyPhoenixS-1.0.dist-info/DESCRIPTION.rst,sha256=6cv2YvTESOtZdCxg3HO-Q1n51TRRoOXP-y_BJaUh9ms,19
+PyPhoenixS-1.0.dist-info/METADATA,sha256=NcRikjdIy0Ej-oadlFmcwkO9y3QeOh5Op_wL3AYlCDU,533
+PyPhoenixS-1.0.dist-info/RECORD,,
+PyPhoenixS-1.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+PyPhoenixS-1.0.dist-info/entry_points.txt,sha256=Lh_xrxdbZMWFJjSSp7L7vFTfGxO4417XZo3V8eyQPh0,77
+PyPhoenixS-1.0.dist-info/metadata.json,sha256=wlmWNE81ukNwg1BQuhBtq6wNxLFio0cAz4pGUMpgcsg,764
+PyPhoenixS-1.0.dist-info/top_level.txt,sha256=PuxxuHEmFToraDF2VZ044VjHUBjS0_bLr_uPIv0XJB4,10
+pyphoenix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyphoenix/exc.py,sha256=5eQkWFBclqy2CH5IQLqoD882QZIRGsldnSRBYxLtIwI,2264
+pyphoenix/phoenix.py,sha256=0F1G9pGch_1i5E11QbBgX7VuntguTH2NOAWadyzDBos,960
+pyphoenix/sqlalchemy_phoenix.py,sha256=X09dgH1LA_fLwkyX6n5fbezfqAgEQDkWfER_DHsamao,2865
