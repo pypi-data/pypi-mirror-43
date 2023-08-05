@@ -1,0 +1,10 @@
+csemver/__init__.py,sha256=KduY7o0_O6GkofHCvwvMdi_onIxd2yQZ2kIZ2x8s1OM,22
+csemver/csemver.py,sha256=s27FE1sattrlkhAorkN7fLaLJogPF81jV9o2dm0JOks,9246
+csemver/utils.py,sha256=WPGBJC1Od0Msz1TUij6fsBiIK1AGn6iY3cp8MUaPLQ4,1648
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=MaIduZHy9Bq83kw7A-_pZtzaVgik9_mUfC8C54u7Zdk,7882
+csemver-1.0.0rc0.dist-info/LICENSE.md,sha256=KeHw7hMCeTObjApem1BcLpLoLpH8XvPNz8R0PiLAbXs,35589
+csemver-1.0.0rc0.dist-info/METADATA,sha256=6EvqYusdKcQLwFa6OcBWlay206q2aapZjcRwgb4UTbg,5641
+csemver-1.0.0rc0.dist-info/WHEEL,sha256=aEiWNTQcG6AiGGAYQ9qHTifyKRnmFJvDeTI0hP5aohY,116
+csemver-1.0.0rc0.dist-info/top_level.txt,sha256=0fNDRLiq131M33Nk-pRJAcBhlrebxd-NHvkfLnA61ew,14
+csemver-1.0.0rc0.dist-info/RECORD,,
