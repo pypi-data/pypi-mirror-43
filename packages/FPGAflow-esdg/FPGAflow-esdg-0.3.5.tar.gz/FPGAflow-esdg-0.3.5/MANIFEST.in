@@ -1,0 +1,9 @@
+include README.rst
+include LICENSE
+include fpgaflow/shell/doxypypy/py_filter
+include fpgaflow/tcl/*.tcl
+include fpgaflow/templates/doxygen/**/stylesheets/*.css
+include fpgaflow/templates/doxygen/**/templates/*.Doxyfile
+include fpgaflow/templates/sphinx/**/templates/conf.py
+include fpgaflow/templates/sphinx/**/templates/Makefile
+include fpgaflow/logging.yml
