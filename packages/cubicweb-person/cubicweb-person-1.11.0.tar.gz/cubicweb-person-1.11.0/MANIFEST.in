@@ -1,0 +1,7 @@
+include setup.py
+include README
+
+recursive-include cubicweb_person *
+recursive-include cubicweb_person/data external_resources *.gif
+recursive-include cubicweb_person/i18n *.pot *.po
+recursive-include cubicweb_person/migration *.py
