@@ -1,0 +1,4 @@
+[console_scripts]
+juju = utils:jujube
+pill = utils:pill
+

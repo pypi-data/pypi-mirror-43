@@ -1,0 +1,8 @@
+SPEEM-1.0.5.dist-info/METADATA,sha256=bwvr4QLabg8xiTdcULwNFEHH2XpdDxUWC2b03U52UNA,1058
+SPEEM-1.0.5.dist-info/RECORD,,
+SPEEM-1.0.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+SPEEM-1.0.5.dist-info/entry_points.txt,sha256=ZnvjxQppl7wTSJBZNwTCyop6n6kngR1mPDrfQ-9NsB4,57
+SPEEM-1.0.5.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+SPEEM-1.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+utils/__init__.py,sha256=OXN9MfeovLwCfUL12DI7WPVC1WXRsoMdllDgIUpTalA,109
+utils/utils.py,sha256=aYZQcOlOv1U6PKU_tz11nbMUENLoYsJzbaUIXkOWWXY,1742
