@@ -1,0 +1,4 @@
+requests
+six
+Django>=1.11
+unidecode
