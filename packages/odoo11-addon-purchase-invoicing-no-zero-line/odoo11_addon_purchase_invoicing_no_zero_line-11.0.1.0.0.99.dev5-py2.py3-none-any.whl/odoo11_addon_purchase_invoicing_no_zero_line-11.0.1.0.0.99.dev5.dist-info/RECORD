@@ -1,0 +1,14 @@
+odoo/addons/purchase_invoicing_no_zero_line/__init__.py,sha256=eShEGRadAlxopoLqIQ4-N42FM7MWPSuBe0h_l1cXTPM,87
+odoo/addons/purchase_invoicing_no_zero_line/__manifest__.py,sha256=Xatg8--XAkFjFawTRZ2nzzt_Y7luJiNUovMnqdgzYdo,507
+odoo/addons/purchase_invoicing_no_zero_line/i18n/es.po,sha256=yFJDrGO10VhLT3CtyfFa-1tsoXd6bTetxIHmXv_yMME,1427
+odoo/addons/purchase_invoicing_no_zero_line/i18n/purchase_invoicing_no_zero_line.pot,sha256=prii0Eaxk9heBQw1fsIMNdzz19f1kRB3-jmoTdwOtMc,1134
+odoo/addons/purchase_invoicing_no_zero_line/models/__init__.py,sha256=zXmKRYG7zavwa9y00BmyCfcWbFaV_tJkQxemJl6Vacw,126
+odoo/addons/purchase_invoicing_no_zero_line/models/account_invoice.py,sha256=pmqs64ouW3Q6msSX51cgYIg0boE93ShlOJsp23KNV44,878
+odoo/addons/purchase_invoicing_no_zero_line/models/account_journal.py,sha256=CCnlmN_YjXSNfLfJEWtm6sQZqOsIidzZemvxHzqkbck,416
+odoo/addons/purchase_invoicing_no_zero_line/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/purchase_invoicing_no_zero_line/static/description/icon.svg,sha256=diKhOMF5l92KAWYh0Ei8TCDq2cJnMT7UPvFPIqVPFVU,45999
+odoo/addons/purchase_invoicing_no_zero_line/views/account_view.xml,sha256=_ix_zGdK2RIgOPHA_I_jwLyWVFq44EvLlNnWT167ETA,727
+odoo11_addon_purchase_invoicing_no_zero_line-11.0.1.0.0.99.dev5.dist-info/METADATA,sha256=3xicz_VZpLrZ8e1kQFDGoAW2xqD1ukKuAg9vztcK6CY,587
+odoo11_addon_purchase_invoicing_no_zero_line-11.0.1.0.0.99.dev5.dist-info/RECORD,,
+odoo11_addon_purchase_invoicing_no_zero_line-11.0.1.0.0.99.dev5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+odoo11_addon_purchase_invoicing_no_zero_line-11.0.1.0.0.99.dev5.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
