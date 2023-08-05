@@ -1,0 +1,11 @@
+pyqt5==5.8
+requests
+scipy
+pytplot
+cdflib
+msgpack
+bokeh
+nodejs
+pyqtgraph
+numpy
+pydivide
