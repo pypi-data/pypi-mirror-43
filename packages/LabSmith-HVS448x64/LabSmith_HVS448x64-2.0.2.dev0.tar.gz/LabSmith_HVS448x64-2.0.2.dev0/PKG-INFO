@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: LabSmith_HVS448x64
+Version: 2.0.2.dev0
+Summary: Python x64 support for controlling the LabSmith HVS448
+Home-page: http://www.labsmith.com
+Author: LabSmith
+Author-email: ecummings@labsmith.com
+License: UNKNOWN
+Description: #hvs448_x64
+        3/5/2019 HVS448 Python support V 2.0 dev
+        The python extension hvs448_x64.pyd contains Python (Windows, 3.6, 64-bit) support for controlling LabSmith HVS448 Devices.
+        usage: from hvs448_x64 import *
+        It contains the following objects:
+        	
+        
+        use help(<object>) for a list of supported methods and variables.
+        print(hvs448.help()) displays this list of objects
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown

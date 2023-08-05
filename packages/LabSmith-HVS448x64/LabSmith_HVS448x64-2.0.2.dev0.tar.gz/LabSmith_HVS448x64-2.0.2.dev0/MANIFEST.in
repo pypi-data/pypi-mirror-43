@@ -1,0 +1,1 @@
+recursive-include hvs448_x64 *.pyd
