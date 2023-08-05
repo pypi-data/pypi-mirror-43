@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyxmlparser.egg-info/PKG-INFO
+pyxmlparser.egg-info/SOURCES.txt
+pyxmlparser.egg-info/dependency_links.txt
+pyxmlparser.egg-info/entry_points.txt
+pyxmlparser.egg-info/requires.txt
+pyxmlparser.egg-info/top_level.txt
+xml_parser/__init__.py
+xml_parser/main.py
+xml_parser/parser_xml.py
+xml_parser/utils.py
