@@ -1,0 +1,13 @@
+lesana/__init__.py,sha256=ozD1wZGD8S5PY8shzH6V84nNSxuO-pZIbxZQ6MktHus,116
+lesana/collection.py,sha256=A7Jmu3Lp7CTpUpn6MyzfpVFIiX2cWOin5MRpuHtSHdc,15631
+lesana/command.py,sha256=M1iL8k9MyFbxlbK1XxfEdpIM2uSuEKBOfsu8orTd_cc,8194
+lesana/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lesana/data/settings.yaml,sha256=HR3l0nBpStsoc--wLlU6FQMxiWrYIAG8oMAODhq4whc,162
+lesana-0.2.data/scripts/lesana,sha256=3UN86790QCjJjLEOI_oThqRqta4QVeOsXFzY5wH7DdE,394
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_collection.py,sha256=9QM5EAl3DJocmHwvgRwF4OyggYnKK45gYcKG5rAn4U4,17206
+lesana-0.2.dist-info/COPYING.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+lesana-0.2.dist-info/METADATA,sha256=afySeUeqJbMNjOecH5NqIaQxCCMIjNFzdvCCn8UffFY,938
+lesana-0.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+lesana-0.2.dist-info/top_level.txt,sha256=gHz6s1QD8KfIqMNb1I2hq7Noo3x52xOHJN2V8y3Rvko,13
+lesana-0.2.dist-info/RECORD,,
