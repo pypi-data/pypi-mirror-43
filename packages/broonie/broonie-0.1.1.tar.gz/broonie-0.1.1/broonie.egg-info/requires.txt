@@ -1,0 +1,6 @@
+markdown
+pandas
+numpy
+matplotlib
+scikit-learn
+scipy
