@@ -1,0 +1,4 @@
+commonconf>=1.0
+urllib3
+python-dateutil
+mock
