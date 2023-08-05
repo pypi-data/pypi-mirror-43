@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        rc=relay_commander.rc:cli
+    
