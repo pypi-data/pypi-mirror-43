@@ -1,0 +1,14 @@
+pdfautonup/__init__.py,sha256=WIgLWdjgWFvXAUecfzphcuKWWUtYqd0Lo_S2Scq-4hs,996
+pdfautonup/__main__.py,sha256=GLdIn8U7a7O22pBx6djo2VpopsdALqjuOCLblWGox2Q,5945
+pdfautonup/errors.py,sha256=x0fiZYXG0NoTHO118GiHb_e7MNiQqUXbRoMoBLGTrcQ,1111
+pdfautonup/geometry.py,sha256=gWMQVBdoG1a7ntFg0w7SgNTP9OMRLLeVvxekEebB0Uw,10634
+pdfautonup/options.py,sha256=WPzTD_TC7GGD0yvqB_1c77HvajD6sEjOcZwNiB2HENc,9107
+pdfautonup/paper.py,sha256=nfGIbhCYvfPuT7HnjAFk6CYDtMZf2HHS3CJbE_-sfhM,3035
+pdfautonup-1.1.0.dist-info/AUTHORS,sha256=X7TYIj4k0AjeEe6iTOp7-KDz32OoVuzW8P8msPZQ9mI,17
+pdfautonup-1.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pdfautonup-1.1.0.dist-info/METADATA,sha256=YzbShIrHyJEPC1f4esWU9JKjoaTHU3urYouWWRdRet4,2828
+pdfautonup-1.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pdfautonup-1.1.0.dist-info/entry_points.txt,sha256=55OVLccRJJ0AQ1EvnjSanPWJkXpB7ZJYEYX6wfV3riQ,57
+pdfautonup-1.1.0.dist-info/top_level.txt,sha256=2nk2X6jajyEaimlooLHBcjzwYCzriJhx4KwfjNwouAM,11
+pdfautonup-1.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pdfautonup-1.1.0.dist-info/RECORD,,
