@@ -1,0 +1,11 @@
+klayout
+numpy
+sympy
+networkx
+pyparsing
+lark-parser
+pyspice
+scipy
+liberty-parser
+pysmt
+pulp
