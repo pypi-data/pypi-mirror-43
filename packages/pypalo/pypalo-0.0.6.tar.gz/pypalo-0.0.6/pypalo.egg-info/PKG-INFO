@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pypalo
+Version: 0.0.6
+Summary: A Package to interact with the Palo Alto Networks API
+Home-page: https://ghe.coxautoinc.com/ETS-NetworkServices/pypalo
+Author: Donald Stogsdill
+Author-email: donald.stogsdill@coxautoinc.com
+License: UNKNOWN
+Description: # pypalo #
+        
+        A Python module for interacting with Palo Alto Firewalls & Panorama
+        
+        **Warning:** This module is in its infancy with very few functions 
+        
+        ## Requirements
+        Uses [pan-python](https://pypi.org/project/pan-python/) to make api
+        
+        ## Install 
+        pip install pypalo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
