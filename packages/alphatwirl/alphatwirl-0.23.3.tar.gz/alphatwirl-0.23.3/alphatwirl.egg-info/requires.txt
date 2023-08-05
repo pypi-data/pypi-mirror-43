@@ -1,0 +1,2 @@
+numpy
+atpbar>=1.0.2
