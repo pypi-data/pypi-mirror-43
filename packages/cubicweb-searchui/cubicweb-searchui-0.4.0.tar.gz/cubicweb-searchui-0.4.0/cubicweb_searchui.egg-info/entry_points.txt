@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+searchui = cubicweb_searchui
+
