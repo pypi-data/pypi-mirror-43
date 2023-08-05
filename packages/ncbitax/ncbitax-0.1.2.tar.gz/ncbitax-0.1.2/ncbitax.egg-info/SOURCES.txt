@@ -1,0 +1,10 @@
+README.rst
+setup.py
+ncbitax/__init__.py
+ncbitax/main.py
+ncbitax/subset.py
+ncbitax.egg-info/PKG-INFO
+ncbitax.egg-info/SOURCES.txt
+ncbitax.egg-info/dependency_links.txt
+ncbitax.egg-info/entry_points.txt
+ncbitax.egg-info/top_level.txt

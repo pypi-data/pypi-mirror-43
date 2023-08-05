@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ncbitax
+Version: 0.1.2
+Summary: Python API for working with NCBI taxonomy db
+Home-page: https://github.com/yesimon/ncbitax
+Author: Simon Ye
+Author-email: mail@yesimon.com
+License: UNKNOWN
+Description: ncbitax
+        -------
+        
+        
+        A package for working with the NCBI taxonomy database
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

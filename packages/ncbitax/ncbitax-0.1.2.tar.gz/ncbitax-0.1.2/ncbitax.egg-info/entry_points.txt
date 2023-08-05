@@ -1,0 +1,3 @@
+[console_scripts]
+ncbitax = ncbitax.main:main
+
