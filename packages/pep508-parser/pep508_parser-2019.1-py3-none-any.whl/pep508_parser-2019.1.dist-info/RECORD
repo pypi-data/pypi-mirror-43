@@ -1,0 +1,10 @@
+pep508_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pep508_parser/grammar.py,sha256=r8P2uhClkylW1mR1MV3-H1VV9VHoKmCki9Xa5o6-bW4,5841
+pep508_parser/parser.py,sha256=l1neVjbxmIoYSZ90Nl2N0SpJgeK_64fdiV9aQJkvcuY,1460
+pep508_parser/pep508_parser.py,sha256=sFnveKNt4_ntWFToG-2Y8cpp2Pv5h2akPI8QCIHe8ng,1330
+pep508_parser-2019.1.dist-info/COPYING,sha256=KFcrRz5pYqFbEZEtTfJXxqpZvC0Fhe_fsTqaH4_VMaE,1051
+pep508_parser-2019.1.dist-info/METADATA,sha256=rCFkRk5LDhwQmMSzHBKE4OccL1YEpuvjTp8gP0RvWmk,1687
+pep508_parser-2019.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pep508_parser-2019.1.dist-info/entry_points.txt,sha256=TsQ1ORa46r1W2TC-5UH9QshZe8e9vwo2koKwPeGm6t8,68
+pep508_parser-2019.1.dist-info/top_level.txt,sha256=9ExDdhsLYTqtqLGt2F1dZXtpfQn6qUcIyw19uz_FEjg,14
+pep508_parser-2019.1.dist-info/RECORD,,
