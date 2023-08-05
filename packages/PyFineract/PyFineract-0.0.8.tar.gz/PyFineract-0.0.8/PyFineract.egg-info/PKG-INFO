@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: PyFineract
+Version: 0.0.8
+Summary: A fineract API wrapper
+Home-page: https://github.com/mobidevke/PyFineract
+Author: Mobidev Kenya
+Author-email: projects@devs.mobi
+License: UNKNOWN
+Description: # PyFineract
+        
+        [![PyPI](https://img.shields.io/pypi/v/PyFineract.svg)](https://pypi.python.org/pypi/PyFineract)
+        [![Build Status](https://travis-ci.org/mobidevke/PyFineract.svg?branch=master)](https://travis-ci.org/mobidevke/PyFineract)
+        [![Coverage Status](https://coveralls.io/repos/github/mobidevke/PyFineract/badge.svg?branch=master)](https://coveralls.io/github/mobidevke/PyFineract?branch=master)
+        ### WIP
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
