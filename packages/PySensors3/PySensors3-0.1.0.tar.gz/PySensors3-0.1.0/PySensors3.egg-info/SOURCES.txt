@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.py
+PySensors3.egg-info/PKG-INFO
+PySensors3.egg-info/SOURCES.txt
+PySensors3.egg-info/dependency_links.txt
+PySensors3.egg-info/top_level.txt
+doc/OLD_README.rst
+doc/index.rst
+sensors/__init__.py
+sensors/cli.py
+sensors/stdc.py
