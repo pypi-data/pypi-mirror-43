@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: haramnetwork
+Version: 2.1
+Summary: download the halal staff for free with no registration
+Home-page: https://github.com/UJM-INFO/2019-net-b
+Author: FOMK
+Author-email: kriskuliv@gmail.com
+License: UNKNOWN
+Description: # 2019-net-b
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
