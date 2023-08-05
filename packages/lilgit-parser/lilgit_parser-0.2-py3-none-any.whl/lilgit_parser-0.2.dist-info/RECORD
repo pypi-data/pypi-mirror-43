@@ -1,0 +1,10 @@
+lilgit_parser/__init__.py,sha256=WDrbJ1eEuMA_4_vx7-kMUxlOPUBGKfBiChrLrDIx_6Y,1348
+lilgit_parser/_init_.py,sha256=bVl28cRX9OepoVBBDbwsxNJmQ8DBSHOY7SSufvHWt2Y,37
+lilgit_parser/lilgit_parser.py,sha256=f2x9syy1V2d_foHt7fuoqaGEUXBQMUjnJCrKv9PuOB4,1062
+lilgit_parser/parseHandler.py,sha256=ZQouhl1n4LXFoK85iPF7cMDpfvg6M8tntXEhYMC7uuQ,392
+lilgit_parser/parser.py,sha256=7UtI_Mi7EEd9ZwbPAgubJ6o6zHr_miBgiaYcViIxHGw,47124
+lilgit_parser-0.2.dist-info/LICENSE.md,sha256=8aSsoe5R3apEx_SIlAq177ce41CgrdxiE4eHZ9-MUjI,1058
+lilgit_parser-0.2.dist-info/METADATA,sha256=XxvWZuW-7W8WHzmjhgp72ZEZeiPkOEAcDpoVDYmIGD4,394
+lilgit_parser-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+lilgit_parser-0.2.dist-info/top_level.txt,sha256=pueR5bgiL_qpX49vALpmfUeL9zzUJx3re9LjFPLi0Og,14
+lilgit_parser-0.2.dist-info/RECORD,,
