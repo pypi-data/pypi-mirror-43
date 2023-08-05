@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fbtool=fbtool.cli:cli
+    
