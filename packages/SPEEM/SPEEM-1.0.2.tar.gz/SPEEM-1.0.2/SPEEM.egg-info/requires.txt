@@ -1,0 +1,4 @@
+pystoi
+tqdm
+librosa
+tablib
