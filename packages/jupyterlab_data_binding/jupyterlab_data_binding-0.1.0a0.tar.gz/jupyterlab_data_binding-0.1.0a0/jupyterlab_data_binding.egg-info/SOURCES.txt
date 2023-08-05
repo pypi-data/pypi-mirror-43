@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+jupyterlab-data-binding.json
+setup.cfg
+setup.py
+jupyterlab_data_binding/__init__.py
+jupyterlab_data_binding/_version.py
+jupyterlab_data_binding/input.py
+jupyterlab_data_binding.egg-info/PKG-INFO
+jupyterlab_data_binding.egg-info/SOURCES.txt
+jupyterlab_data_binding.egg-info/dependency_links.txt
+jupyterlab_data_binding.egg-info/not-zip-safe
+jupyterlab_data_binding.egg-info/requires.txt
+jupyterlab_data_binding.egg-info/top_level.txt
+jupyterlab_data_binding/static/extension.js
+jupyterlab_data_binding/static/index.js
+jupyterlab_data_binding/static/index.js.map
