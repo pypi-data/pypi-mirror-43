@@ -1,0 +1,231 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Runge Kutta module &#8212; EinsteinPy</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Metric module" href="../metric/metric_index.html" />
+    <link rel="prev" title="Integrators module" href="integrators_index.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="integrators_index.html" title="Previous document">Integrators module</a>
+        </li>
+        <li>
+          <a href="../metric/metric_index.html" title="Next document">Metric module</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-einsteinpy.integrators.runge_kutta">
+<span id="runge-kutta-module"></span><h1>Runge Kutta module<a class="headerlink" href="#module-einsteinpy.integrators.runge_kutta" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="einsteinpy.integrators.runge_kutta.RK4naive">
+<em class="property">class </em><code class="descclassname">einsteinpy.integrators.runge_kutta.</code><code class="descname">RK4naive</code><span class="sig-paren">(</span><em>fun</em>, <em>t0</em>, <em>y0</em>, <em>t_bound</em>, <em>stepsize</em><span class="sig-paren">)</span><a class="headerlink" href="#einsteinpy.integrators.runge_kutta.RK4naive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for Defining Runge-Kutta 4th Order ODE solving method</p>
+<dl class="method">
+<dt id="einsteinpy.integrators.runge_kutta.RK4naive.step">
+<code class="descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#einsteinpy.integrators.runge_kutta.RK4naive.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates the value of self.t and self.y</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="einsteinpy.integrators.runge_kutta.RK45">
+<em class="property">class </em><code class="descclassname">einsteinpy.integrators.runge_kutta.</code><code class="descname">RK45</code><span class="sig-paren">(</span><em>fun</em>, <em>t0</em>, <em>y0</em>, <em>t_bound</em>, <em>stepsize</em>, <em>rtol=None</em>, <em>atol=None</em><span class="sig-paren">)</span><a class="headerlink" href="#einsteinpy.integrators.runge_kutta.RK45" title="Permalink to this definition">¶</a></dt>
+<dd><p>This Class inherits ~scipy.integrate.RK45 Class</p>
+<dl class="method">
+<dt id="einsteinpy.integrators.runge_kutta.RK45.step">
+<code class="descname">step</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#einsteinpy.integrators.runge_kutta.RK45.step" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates the value of self.t and self.y</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="integrators_index.html" title="Previous document">Integrators module</a>
+        </li>
+        <li>
+          <a href="../metric/metric_index.html" title="Next document">Metric module</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo_HD.png" alt="Logo"/>
+    
+    <h1 class="logo logo-name">EinsteinPy</h1>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">General Relativity in Python</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=einsteinpy&repo=einsteinpy&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://travis-ci.org/einsteinpy/einsteinpy">
+    <img
+        alt="https://secure.travis-ci.org/einsteinpy/einsteinpy.svg?branch=master"
+        src="https://secure.travis-ci.org/einsteinpy/einsteinpy.svg?branch=master"
+    />
+</a>
+</p>
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://codecov.io/github/einsteinpy/einsteinpy">
+    <img
+    alt="https://codecov.io/github/einsteinpy/einsteinpy/coverage.svg?branch=master"
+    src="https://codecov.io/github/einsteinpy/einsteinpy/coverage.svg?branch=master"
+    />
+</a>
+</p>
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../getting_started.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../jupyter.html">Jupyter notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../changelog.html">What’s new</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">EinsteinPy API</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="integrators_index.html">Integrators module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../metric/metric_index.html">Metric module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../utils/utils_index.html">Utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../plotting/plotting_index.html">Plotting module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../constant.html">Constant module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../units.html">Units module</a></li>
+</ul>
+</li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://einsteinpy.github.io/">Blog</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">EinsteinPy API</a><ul>
+  <li><a href="integrators_index.html">Integrators module</a><ul>
+      <li>Previous: <a href="integrators_index.html" title="previous chapter">Integrators module</a></li>
+      <li>Next: <a href="../metric/metric_index.html" title="next chapter">Metric module</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019 EinsteinPy Development Team.
+      
+      |
+      <a href="../../_sources/api/integrators/runge_kutta.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/einsteinpy/einsteinpy" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>

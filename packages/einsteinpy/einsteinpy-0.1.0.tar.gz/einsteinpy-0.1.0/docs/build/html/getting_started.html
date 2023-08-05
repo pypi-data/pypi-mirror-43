@@ -1,0 +1,295 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Getting started &#8212; EinsteinPy</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["$", "$"], ["\\(", "\\)"]], "processEscapes": true, "ignoreClass": "document", "processClass": "math|output_area"}})</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Jupyter notebooks" href="jupyter.html" />
+    <link rel="prev" title="EinsteinPy - Making Einstein possible in Python" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+              <div class="related top">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="index.html" title="Previous document">EinsteinPy - Making Einstein possible in Python</a>
+        </li>
+        <li>
+          <a href="jupyter.html" title="Next document">Jupyter notebooks</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="getting-started">
+<h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>EinsteinPy is a easy-to-use python library which provides a
+user-friendly interface for supporting numerical relativity and
+relativistic astrophysics research. The library is an attempt to provide
+programming and numerical environment for a lot of numerical relativity
+problems like geodesics plotter, gravitational lensing and ray tracing,
+solving and simulating relativistic hydrodynamical equations, plotting
+of black hole event horizons, solving Einstein’s field equations and
+simulating various dynamical systems like binary merger etc.</p>
+</div>
+<div class="section" id="who-can-use">
+<h2>Who can use?<a class="headerlink" href="#who-can-use" title="Permalink to this headline">¶</a></h2>
+<p>Most of the numerical relativity platforms currently available in the
+gravitational physics research community demands a heavy programming
+experience in languages like C, C++ or their wrappers on some other non
+popular platforms. Many of the people working in the field of
+gravitational physics have theoretical background and does not have any
+or have little programming experience and they find using these
+libraries mind-boggling. EinsteinPy is motivated by this problem and
+provide a high level of abstraction that shed away from user all the
+programming and algorithmic view of the implemented numerical methods
+and enables anyone to simulate complicated system like binary merger
+with just 20-25 lines of python code.</p>
+<p>Even people who does not know any python programming can also follow up
+with the help of tutorials and documentation given for the library. We
+aim to provide all steps, from setting up your library environment to
+running your first geodesic plotter with example jupyter notebooks.</p>
+<p>So now you are motivated enough so let’s first start with installing the
+library.</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="its-as-easy-as-running-one-command">
+<h3>It’s as easy as running one command!<a class="headerlink" href="#its-as-easy-as-running-one-command" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="stable-versions">
+<h3>Stable Versions:<a class="headerlink" href="#stable-versions" title="Permalink to this headline">¶</a></h3>
+<p>For installation of the latest <code class="docutils literal notranslate"><span class="pre">stable</span></code> version of EinsteinPy:</p>
+<ul>
+<li><p class="first">Using pip:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ pip install einsteinpy
+</pre></div>
+</div>
+</li>
+<li><p class="first">Using conda:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ conda install -c conda-forge einsteinpy
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="latest-versions">
+<h3>Latest Versions<a class="headerlink" href="#latest-versions" title="Permalink to this headline">¶</a></h3>
+<p>For installing the development version, you can do two things:</p>
+<ul>
+<li><p class="first">Installation from clone:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/einsteinpy/einsteinpy.git
+$ <span class="nb">cd</span> einsteinpy/
+$ python setup.py install
+</pre></div>
+</div>
+</li>
+<li><p class="first">Install using pip:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ pip install git+https://github.com/einsteinpy/einsteinpy.git
+</pre></div>
+</div>
+</li>
+</ul>
+</div>
+<div class="section" id="development-version">
+<h3>Development Version<a class="headerlink" href="#development-version" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ pip install --editable /path/to/einsteinpy<span class="o">[</span>dev<span class="o">]</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Please open an issue <a class="reference external" href="https://github.com/einsteinpy/einsteinpy/issues">here</a> if you feel any
+difficulty in installation!</p>
+</div>
+</div>
+<div class="section" id="running-your-first-code-using-the-library">
+<h2>Running your first code using the library<a class="headerlink" href="#running-your-first-code-using-the-library" title="Permalink to this headline">¶</a></h2>
+<p>Various examples can be found in the <a class="reference external" href="https://github.com/einsteinpy/einsteinpy/tree/master/docs/source/examples">examples</a> folder.</p>
+</div>
+<div class="section" id="contribute">
+<h2>Contribute<a class="headerlink" href="#contribute" title="Permalink to this headline">¶</a></h2>
+<p>EinsteinPy is an open source library which is under heavy development.
+To contribute kindly do visit :</p>
+<p><a class="reference external" href="https://github.com/einsteinpy/einsteinpy/">https://github.com/einsteinpy/einsteinpy/</a></p>
+<p>and also check out current posted issues and help us expand this
+awesome library.</p>
+</div>
+</div>
+
+
+          </div>
+              <div class="related bottom">
+                &nbsp;
+  <nav id="rellinks">
+    <ul>
+        <li>
+          &larr;
+          <a href="index.html" title="Previous document">EinsteinPy - Making Einstein possible in Python</a>
+        </li>
+        <li>
+          <a href="jupyter.html" title="Next document">Jupyter notebooks</a>
+          &rarr;
+        </li>
+    </ul>
+  </nav>
+              </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="index.html">
+    <img class="logo" src="_static/logo_HD.png" alt="Logo"/>
+    
+    <h1 class="logo logo-name">EinsteinPy</h1>
+    
+  </a>
+</p>
+
+
+
+<p class="blurb">General Relativity in Python</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=einsteinpy&repo=einsteinpy&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://travis-ci.org/einsteinpy/einsteinpy">
+    <img
+        alt="https://secure.travis-ci.org/einsteinpy/einsteinpy.svg?branch=master"
+        src="https://secure.travis-ci.org/einsteinpy/einsteinpy.svg?branch=master"
+    />
+</a>
+</p>
+
+
+
+
+    
+
+<p>
+<a class="badge" href="https://codecov.io/github/einsteinpy/einsteinpy">
+    <img
+    alt="https://codecov.io/github/einsteinpy/einsteinpy/coverage.svg?branch=master"
+    src="https://codecov.io/github/einsteinpy/einsteinpy/coverage.svg?branch=master"
+    />
+</a>
+</p>
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#who-can-use">Who can use?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#running-your-first-code-using-the-library">Running your first code using the library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contribute">Contribute</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">What’s new</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api/index.html">EinsteinPy API</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://einsteinpy.github.io/">Blog</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">EinsteinPy - Making Einstein possible in Python</a></li>
+      <li>Next: <a href="jupyter.html" title="next chapter">Jupyter notebooks</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019 EinsteinPy Development Team.
+      
+      |
+      <a href="_sources/getting_started.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/einsteinpy/einsteinpy" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>

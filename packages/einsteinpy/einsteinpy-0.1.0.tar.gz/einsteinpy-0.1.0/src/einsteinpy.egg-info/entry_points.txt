@@ -1,0 +1,3 @@
+[console_scripts]
+einsteinpy = einsteinpy.cli:main
+
