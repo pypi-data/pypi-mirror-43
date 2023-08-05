@@ -1,0 +1,33 @@
+{% load staticfiles %}
+
+<link href="{% static 'css/progress_timeline/style.css' %}" rel="stylesheet">
+
+<style>
+    #myProgress-{{ object.pk }} {
+        background-color: {{ basic_color|default:object.basic_color }};
+    }
+
+    #myBar-{{ object.pk }} {
+        background-color: {{ progress_color|default:object.progress_color }};
+    }
+
+    #myBar2-{{ object.pk }} {
+        background-color: {{ diff_color|default:object.diff_color }};
+    }
+    .current-date{
+        left: {{ currently|floatformat:"0" }}%;
+    }
+
+    .progress-line, .text{
+        background-color: {{ background_color|default:object.background_color }};
+    }
+</style>
+
+{% include 'progress_timeline/progresstimeline.html'%}
+
+<script type="text/javascript" src="{% static 'js/progress_timeline/js.js' %}"></script>
+
+<script>
+    move("myBar-{{ object.pk }}");
+    move("myBar2-{{ object.pk }}");
+</script>
