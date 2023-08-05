@@ -1,0 +1,5 @@
+setup.py
+mmr_client.egg-info/PKG-INFO
+mmr_client.egg-info/SOURCES.txt
+mmr_client.egg-info/dependency_links.txt
+mmr_client.egg-info/top_level.txt
