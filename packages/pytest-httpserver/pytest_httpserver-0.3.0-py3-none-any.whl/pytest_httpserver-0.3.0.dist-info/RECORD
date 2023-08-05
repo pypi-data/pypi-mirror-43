@@ -1,0 +1,10 @@
+pytest_httpserver/__init__.py,sha256=0p6YL-_JBjLQyD3gdVpEJx4I-pUsxfL60CeJk6cPoJs,305
+pytest_httpserver/httpserver.py,sha256=VcCYbwBNCtp4hq0widBrtQjENznidj3IVTLK8knZ_8k,32656
+pytest_httpserver/pytest_plugin.py,sha256=r3Z_1PGaYQ-LcWMmPNWRTz-4sw9qs0Z31j0t5G0PGwc,1152
+pytest_httpserver-0.3.0.dist-info/DESCRIPTION.rst,sha256=T_nUd6X7QLJs_jx2ulGbysVjA1B0Wy_U8p8rykMGSVQ,2750
+pytest_httpserver-0.3.0.dist-info/METADATA,sha256=E-GS3TFj4JPu3InoQtwvZXCshg7qLPl-PG6HEHoAzAc,4405
+pytest_httpserver-0.3.0.dist-info/RECORD,,
+pytest_httpserver-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pytest_httpserver-0.3.0.dist-info/entry_points.txt,sha256=-CcweFw9xOdDsMC2PCwl9bYoeFW_DKBPxKdZryni3dk,64
+pytest_httpserver-0.3.0.dist-info/metadata.json,sha256=XKJrJarKnTZoptrdNs0jTbq21HZjlYu5mTv9uiwAntU,1528
+pytest_httpserver-0.3.0.dist-info/top_level.txt,sha256=IpUSIOAVbfXz1BOwvxOPyg5_2-V97HzP-RmOSQ9XSig,18
