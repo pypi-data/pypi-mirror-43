@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+emanate/__init__.py
+emanate/cli.py
+emanate/config.py
+emanate.egg-info/PKG-INFO
+emanate.egg-info/SOURCES.txt
+emanate.egg-info/dependency_links.txt
+emanate.egg-info/entry_points.txt
+emanate.egg-info/top_level.txt
