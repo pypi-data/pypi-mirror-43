@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: abc-analysis
+Version: 0.1.11
+Summary: ABC analysis with automated limit detection
+Home-page: UNKNOWN
+Author: Tino Gehlert
+Author-email: ghlt@viessmann.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/viessmann/abc_analysis/archive/v0.1.11.tar.gz
+Project-URL: Viessmann, https://www.linkedin.com/company/viessmann/
+Project-URL: Source, https://github.com/viessmann/abc_analysis
+Description: 
+        Performs and visualizes an ABC analysis with automated limit detection.
+        
+        This package is a Python implementation of the R package `ABCanalysis <https://CRAN.R-project.org/package=ABCanalysis>`__
+        
+Keywords: abc-analysis abc_analysis Viessmann
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
