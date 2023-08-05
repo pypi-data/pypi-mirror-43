@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: indicnlp
+Version: 0.0.1
+Summary: Resources for working on Indian Language NLP
+Home-page: https://github.com/soham96/indicnlp
+Author: Soham Chatterjee
+Author-email: 96soham96@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# indicnlp
+Resources to work on Indian Language NLP
+
+
