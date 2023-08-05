@@ -1,0 +1,17 @@
+pidiff/__init__.py,sha256=-suHTYvrQncTrHxv6t3fcK2vDhxduC5AMHqphIpLv-E,393
+pidiff/_command.py,sha256=3E_HR1Wwr9Mjr1z_I9USGcDoeN3gTAzZxI2iuYCr_ec,5661
+pidiff/_schema.py,sha256=Dmy6vvRywJI9d7OLqAQMRRmchGXLA4MZRA0JJ551rFg,3416
+pidiff/_util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pidiff/diff/__init__.py,sha256=YRRhQC5aEc-BUgO1z3LR8ZNlIkH9V71klNbDDXhGuvk,44
+pidiff/diff/_api.py,sha256=LzpYQCha2vLgGiqot27zHnHQxeZbI8CGkuVkbVP8nwc,3366
+pidiff/diff/_codes.py,sha256=fjrU_xlE6gzHl6nWgyHbtA6LufLo7rnbtuXvygZ3A5I,1913
+pidiff/diff/_diff.py,sha256=CaY1D-wdBbzDtOhwJfpX6UnWV5bqXpcnC9jqiRq0X9U,8584
+pidiff/dump/__init__.py,sha256=3DSzaF0ZYghfPUrD1gA6MqhGwbE0zXmyf1kTtVo0ip0,58
+pidiff/dump/_command.py,sha256=udwRxKWWX3pLKf8Slqi5RvcYyKicW9FmAG-78_By8eo,377
+pidiff/dump/_dump.py,sha256=-CMEhrLPNjx_zTZKsXp8s0qchQerVtGyn1yX-5WM6gU,6646
+pidiff-0.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pidiff-0.1.0.dist-info/METADATA,sha256=dPWRegxGfpoUdDvtrTSyJuobnYSqK5kiRG2xRrxJMjk,2892
+pidiff-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pidiff-0.1.0.dist-info/entry_points.txt,sha256=LWCB6SF5IO7_B9NG3Y1ulBd0IqdZwxIR8zvlXrdm1D4,49
+pidiff-0.1.0.dist-info/top_level.txt,sha256=4A-31ZvTK1hPY4kIrV9gYB83Uf2tA5A_OEMCmtIjukA,7
+pidiff-0.1.0.dist-info/RECORD,,
