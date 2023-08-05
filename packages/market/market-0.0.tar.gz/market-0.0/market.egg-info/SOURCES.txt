@@ -1,0 +1,8 @@
+README.md
+setup.py
+market/__init__.py
+market.egg-info/PKG-INFO
+market.egg-info/SOURCES.txt
+market.egg-info/dependency_links.txt
+market.egg-info/not-zip-safe
+market.egg-info/top_level.txt
