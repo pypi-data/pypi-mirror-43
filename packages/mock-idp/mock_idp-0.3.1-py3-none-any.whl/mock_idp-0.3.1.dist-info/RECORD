@@ -1,0 +1,9 @@
+mock_idp-0.3.1.data/scripts/mock-idp,sha256=ttRoJtdGS1ophEbEMpYgtmWBwceOe0WLibxJ-YYGbc4,200
+mockidp/__init__.py,sha256=qYfgSNxFs3mUj5UGl1L7RzFrTJFzO-L8ZMHgsTWZiMM,135
+mockidp/main.py,sha256=NK1pKmx1q2FaPwaRMjy00ruY0OHMjB0dPtuoNkcc-Gg,894
+mockidp/routes.py,sha256=Wwy9mhwlTeYno1aVzHzhTtmSBxXq6VPZ_sZGSNxTkxw,594
+mock_idp-0.3.1.dist-info/LICENSE,sha256=-JXkrOuzBZfqI8YvXSLSQyENtE1oIjOuFJO7yiV1QQc,1024
+mock_idp-0.3.1.dist-info/METADATA,sha256=QuNmSys0IAUOQEAubOc-Kflt-dt7-Kxlv5SZsIp6GoI,705
+mock_idp-0.3.1.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+mock_idp-0.3.1.dist-info/top_level.txt,sha256=lvuMyEyAztYTAboMilRm2HnQHO-wOa_sUF5LBe7w6Jc,8
+mock_idp-0.3.1.dist-info/RECORD,,
