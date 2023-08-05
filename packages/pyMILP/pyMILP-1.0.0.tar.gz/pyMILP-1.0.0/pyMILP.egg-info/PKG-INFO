@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyMILP
+Version: 1.0.0
+Summary: A linear problem modeler and optimizer using PuLP
+Home-page: https://gitlab.com/energyincities/python-ehub/tree/master/pyMILP
+Author: UNKNOWN
+Author-email: revins@uvic.ca
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
