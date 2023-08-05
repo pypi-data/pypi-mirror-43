@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="SBML report">
+    <meta name="author" content="Matthias Koenig">
+    <!-- <meta http-equiv="refresh" content="5" /> -->
+
+    <link rel="icon" href="_report/images/sbml.ico">
+    <title>{{ model.id }}</title>
+
+    {% if offline %}
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="_report/css/bootstrap-3.3.7.min.css">
+        <link rel="stylesheet" type="text/css" href="_report/css/bootstrap-theme-3.3.7.min.css">
+        <link rel="stylesheet" type="text/css" href="_report/css/jquery.dataTables-1.10.15.min.css"/>
+        <link rel="stylesheet" type="text/css" href="_report/css/font-awesome-4.7.0.min.css">
+        <link rel="stylesheet" type="text/css" href="_report/css/report.css"/>
+
+        <!-- JS -->
+        <script type="text/javascript" src="_report/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="_report/js/bootstrap-3.3.7.min.js"></script>
+        <script type="text/javascript" src="_report/js/jquery.dataTables-1.10.15.min.js"></script>
+
+    {% else %}
+        <!-- css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="_report/css/font-awesome-4.7.0.min.css">
+        <link rel="stylesheet" type="text/css" href="_report/css/dashboard.css"/>
+        <link rel="stylesheet" type="text/css" href="_report/css/report.css"/>
+
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="_report/js/bootstrap-3.3.7.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/t/bs/jq-2.2.0,dt-1.10.11/datatables.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+
+    {% endif %}
+
+    <!-- MathJax not working offline -->
+    <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      MathML: {
+        extensions: ["content-mathml.js"]
+      }
+    });
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+            $.extend( $.fn.dataTable.defaults, {
+                "searching": true,
+                "ordering": true
+            } );
+
+            var t_modeldefs = $('#table_modeldefs').dataTable({
+                "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_modeldefs.fnFilter($(this).val());
+            });
+
+            var t_submodels = $('#table_submodels').dataTable({
+                "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_submodels.fnFilter($(this).val());
+            });
+
+            var t_ports = $('#table_ports').dataTable({
+                "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_ports.fnFilter($(this).val());
+            });
+
+            var t_functions = $('#table_functions').dataTable({
+                "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_functions.fnFilter($(this).val());
+            });
+
+            var t_units = $('#table_units').dataTable({
+                "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_units.fnFilter($(this).val());
+            });
+
+            var t_compartments = $('#table_compartments').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_compartments.fnFilter($(this).val());
+            });
+
+            var t_species = $('#table_species').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_species.fnFilter($(this).val());
+            });
+
+            var t_geneproducts = $('#table_geneproducts').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_geneproducts.fnFilter($(this).val());
+            });
+
+            var t_parameters = $('#table_parameters').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_parameters.fnFilter($(this).val());
+            });
+
+            var t_assignments = $('#table_assignments').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_assignments.fnFilter($(this).val());
+            });
+
+            var t_rules = $('#table_rules').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_rules.fnFilter($(this).val());
+            });
+
+            var t_reactions = $('#table_reactions').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_reactions.fnFilter($(this).val());
+            });
+
+            var t_objectives = $('#table_objectives').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_objectives.fnFilter($(this).val());
+            });
+
+
+            var t_constraints = $('#table_constraints').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_constraints.fnFilter($(this).val());
+            });
+
+
+            var t_events = $('#table_events').dataTable({
+               "bPaginate": false,
+                "bInfo": false,
+                "dom": '<"top">rt<"bottom"><"clear">'
+            });
+            $('#searchField').keyup(function(){
+                t_events.fnFilter($(this).val());
+            });
+
+            $('#searchField').val('');
+            $('#searchField').focus();
+
+        });
+    </script>
+</head>
+
+<body>
+
+<!-- CONTAINER -->
+<div class="container-fluid">
+
+    <!-- ROW -->
+    <div class="row">
+        <!-- LEFT -->
+        <div class="col-sm-3 col-md-2 sidebar">
+
+            <ul class="nav nav-sidebar">
+                <li><a href="#doc"><b>SBMLDocument</b></a></li>
+                <li><a href="#model">Model</a></li>
+                {% if modeldefs %}
+                    <li><a href="#table_modeldefs">comp:ModelDefinitions</a></li>
+                {% endif %}
+                {% if submodels %}
+                    <li><a href="#table_submodels">comp:Submodels</a></li>
+                {% endif %}
+                {% if ports %}
+                    <li><a href="#table_ports">comp:Ports</a></li>
+                {% endif %}
+                {% if functions %}
+                    <li><a href="#table_functions">FunctionDefinitions</a></li>
+                {% endif %}
+                {% if units %}
+                    <li><a href="#table_units">UnitDefinitions</a></li>
+                {% endif %}
+                {% if compartments %}
+                    <li><a href="#table_compartments">Compartments</a></li>
+                {% endif %}
+                {% if species %}
+                    <li><a href="#table_species">Species</a></li>
+                {% endif %}
+                {% if geneproducts %}
+                    <li><a href="#table_geneproducts">GeneProducts</a></li>
+                {% endif %}
+                {% if parameters %}
+                    <li><a href="#table_parameters">Parameters</a></li>
+                {% endif %}
+                {% if assignments %}
+                    <li><a href="#table_assignments">InitialAssignments</a></li>
+                {% endif %}
+                {% if rules %}
+                    <li><a href="#table_rules">Rules</a></li>
+                {% endif %}
+                {% if reactions %}
+                    <li><a href="#table_reactions">Reactions</a></li>
+                {% endif %}
+                {% if objectives %}
+                    <li><a href="#table_objectives">fbc:Objectives</a></li>
+                {% endif %}
+                {% if constraints %}
+                    <li><a href="#table_constraints">Constraints</a></li>
+                {% endif %}
+                {% if events %}
+                    <li><a href="#table_events">Events</a></li>
+                {% endif %}
+                <li>
+                <form class="navbar-form navbar-left">
+                    <input id="searchField" accesskey="S" type="text" class="form-control" placeholder="Search...">
+                </form>
+                </li>
+
+            </ul>
+        </div>
+        <!-- END LEFT -->
+
+        <!-- RIGHT -->
+        <div class="col-lg-8 col-lg-offset-2 main">
+
+            <!-- CONTENT -->
+            <div class="content">
+                {% block content %}
+                {% endblock %}
+            </div>
+            <!-- END CONTENT -->
+
+            <!-- FOOTER -->
+            <div class="footer">
+                <hr/>
+                <p>&copy; 2017 Matthias Koenig.
+                    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="_report/images/by_sa.png"/>
+                    </a><br/>This
+                    work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.livermetabolism.com"
+                               property="cc:attributionName" rel="cc:attributionURL">Matthias Koenig</a> is licensed
+                    under a <a
+                            rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+                        Attribution-ShareAlike 4.0 International License</a>.
+                    <br/>
+                    Powered by jinja2 <a href="http://jinja.pocoo.org/docs/dev/" target="_blank"><img
+                            src="_report/images/jinja2.png" height="15" alt="jinja2"/></a> and
+                    bootstrap <a href="http://getbootstrap.com/" target="_blank"><img
+                            src="_report/images/bootstrap.png" height="15" alt="bootstrap"/></a>.
+                    Source available on <a href="https://github.com/matthiaskoenig/sbmlutils/"
+                                           target="_blank"><img
+                            src="_report/images/github.png" height="20" alt="GitHub"/></a>.
+                </p>
+            </div>
+            <!-- END FOOTER -->
+
+        </div>
+        <!-- END RIGHT -->
+    </div>
+    <!-- END ROW -->
+</div>
+<!-- END CONTAINER -->
+
+</body>
+</html>
+
