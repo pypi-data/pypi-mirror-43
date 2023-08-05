@@ -1,0 +1,3 @@
+pycontracts>=1.8.2
+pmisc>=1.5.5
+pexdoc>=1.1.1
