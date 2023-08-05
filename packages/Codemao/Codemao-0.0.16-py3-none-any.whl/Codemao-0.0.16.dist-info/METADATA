@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Codemao
+Version: 0.0.16
+Summary: Codemao是由深圳点猫科技有限公司创建的一个面向Python初学者的、帮助初学者学习Python的库。 欢迎大家提出各种建议意见，共同讨论学习！
+Home-page: https://python.codemao.cn/
+Author: haiguibianjiqi
+Author-email: wood@codemao.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: easygui
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: dlib
+Requires-Dist: mxnet
+Requires-Dist: keras-mxnet
+Requires-Dist: scikit-image
+Requires-Dist: pillow
+
+UNKNOWN
+
+
