@@ -1,0 +1,5 @@
+setup.py
+isstaticmethod.egg-info/PKG-INFO
+isstaticmethod.egg-info/SOURCES.txt
+isstaticmethod.egg-info/dependency_links.txt
+isstaticmethod.egg-info/top_level.txt
