@@ -1,0 +1,8 @@
+README.md
+setup.py
+lambda_logging/__init__.py
+lambda_logging/lambda_log.py
+lambida.egg-info/PKG-INFO
+lambida.egg-info/SOURCES.txt
+lambida.egg-info/dependency_links.txt
+lambida.egg-info/top_level.txt
