@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pgcornac
+Version: 0.0.1
+Summary: RDS-compatible Managed-Postgres Webservice
+Home-page: UNKNOWN
+License: PostgreSQL
+Author: Étienne BERSAC
+Author-email: etienne.bersac@dalibo.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: libvirt
+Provides-Extra: psycopg2
+Provides-Extra: psycopg2-binary
+Provides-Extra: vmware
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: flask (>=1.0,<2.0)
+Requires-Dist: flask-sqlalchemy (>=2.3,<3.0)
+Requires-Dist: tenacity (>=5.0,<6.0)
