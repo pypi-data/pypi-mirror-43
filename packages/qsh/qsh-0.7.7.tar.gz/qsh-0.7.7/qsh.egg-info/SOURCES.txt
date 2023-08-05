@@ -1,0 +1,8 @@
+README.md
+setup.py
+qsh/__init__.py
+qsh.egg-info/PKG-INFO
+qsh.egg-info/SOURCES.txt
+qsh.egg-info/dependency_links.txt
+qsh.egg-info/requires.txt
+qsh.egg-info/top_level.txt
