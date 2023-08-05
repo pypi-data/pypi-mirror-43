@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: airflow-extended-metrics
+Version: 0.1.1
+Summary: Package to expand Airflow for custom metrics.
+Home-page: https://github.com/nytm/airflow-extended-metrics
+Author: Sarah Duncan
+Author-email: sarah.duncan@nytimes.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: tzlocal (<2.0.0.0,>=1.5.0.0)
+Requires-Dist: apache-airflow (==1.10.1)
+Requires-Dist: google-cloud-monitoring (==0.31.1)
+
+## Airflow Extensions
+### Extended Metrics
+
+This package is to help integrate any project with extended metrics. 
+It currently supports Google's Stackdriver API as a way to monitor metrics.
+There is also easy integration between the API and an Airflow project.
+
