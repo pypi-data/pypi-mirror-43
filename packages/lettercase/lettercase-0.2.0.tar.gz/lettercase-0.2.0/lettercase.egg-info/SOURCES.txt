@@ -1,0 +1,13 @@
+README.md
+setup.py
+lettercase/__init__.py
+lettercase/detect.py
+lettercase/letter_case.py
+lettercase/tools.py
+lettercase.egg-info/PKG-INFO
+lettercase.egg-info/SOURCES.txt
+lettercase.egg-info/dependency_links.txt
+lettercase.egg-info/top_level.txt
+lettercase/converters/__init__.py
+lettercase/converters/dromedary_case.py
+lettercase/converters/snake_case.py
