@@ -1,0 +1,108 @@
+cubicweb-card (1.1.2-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Philippe Pepiot <philippe.pepiot@logilab.fr>  Wed, 06 Mar 2019 09:55:25 +0100
+
+cubicweb-card (1.1.1-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Philippe Pepiot <philippe.pepiot@logilab.fr>  Tue, 05 Mar 2019 12:06:30 +0100
+
+cubicweb-card (1.0.1-1) unstable; urgency=medium
+
+  * new upstream release 
+
+ -- David Douard <david.douard@logilab.fr>  Wed, 18 Apr 2018 17:12:29 +0200
+
+cubicweb-card (1.0.0-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Samuel TRÉGOUËT <samuel.tregouet@logilab.fr>  Fri, 22 Sep 2017 12:35:46 +0200
+
+cubicweb-card (0.5.8-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Thu, 25 Feb 2016 17:43:55 +0100
+
+cubicweb-card (0.5.7-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Rémi Cardona <remi.cardona@logilab.fr>  Thu, 03 Dec 2015 18:07:10 +0100
+
+cubicweb-card (0.5.6-1) unstable; urgency=medium
+
+  * new upstream release
+
+ -- Julien Cristau <julien.cristau@logilab.fr>  Wed, 08 Jul 2015 14:04:05 +0200
+
+cubicweb-card (0.5.5-1) unstable; urgency=medium
+
+  * new upstream release 
+
+ -- David Douard <david.douard@logilab.fr>  Thu, 11 Dec 2014 14:47:03 +0100
+
+cubicweb-card (0.5.4-1) unstable; urgency=medium
+
+  * new upstream release 
+
+ -- David Douard <david.douard@logilab.fr>  Wed, 10 Dec 2014 14:59:02 +0100
+
+cubicweb-card (0.5.3-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- David Douard <david.douard@logilab.fr>  Mon, 05 Aug 2013 16:45:43 +0200
+
+cubicweb-card (0.5.2-1) unstable; urgency=low
+
+  * new upstream version
+
+ -- David Douard <david.douard@logilab.fr>  Thu, 01 Aug 2013 10:58:50 +0200
+
+cubicweb-card (0.5.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Florent Cayre <florent.cayre@logilab.fr>  Mon, 15 Jul 2013 17:42:31 +0200
+
+cubicweb-card (0.5.0-1.1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Florent Cayre <florent.cayre@logilab.fr>  Fri, 28 Jun 2013 17:17:21 +0200
+
+cubicweb-card (0.4.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Nicolas Chauvat <nicolas.chauvat@logilab.fr>  Thu, 24 Jan 2013 17:04:04 +0100
+
+cubicweb-card (0.3.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 11 Oct 2010 15:05:42 +0200
+
+cubicweb-card (0.2.0-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Sylvain Thénault <sylvain.thenault@logilab.fr>  Mon, 08 Feb 2010 22:12:43 +0100
+
+cubicweb-card (0.1.0-2) unstable; urgency=low
+
+  * add missing python-docutils dependency
+
+ -- Pierre-Yves David <pierre-yves.david@logilab.fr>  Tue, 12 Jan 2010 11:32:42 -0700
+
+cubicweb-card (0.1.0-1) unstable; urgency=low
+
+  * initial release
+
+ -- Sandrine Ribeau <sandrine.ribeau@logilab.fr>  Mon, 20 Apr 2009 11:33:11 -0700
+
