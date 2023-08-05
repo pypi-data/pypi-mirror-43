@@ -1,0 +1,7 @@
+selenium
+jsbeautifier
+python-mpv
+PyInquirer
+prompt_toolkit
+tqdm
+autochromedriver
