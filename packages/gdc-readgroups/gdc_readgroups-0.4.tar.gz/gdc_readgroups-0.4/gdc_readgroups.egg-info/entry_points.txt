@@ -1,0 +1,3 @@
+[console_scripts]
+gdc-readgroups = gdc_readgroups.__main__:main
+
