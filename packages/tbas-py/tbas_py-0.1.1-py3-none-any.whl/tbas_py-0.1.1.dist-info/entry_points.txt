@@ -1,0 +1,4 @@
+[console_scripts]
+tbas = tbas.interpreter:main
+tbas-gui = tbas.ui:main
+
