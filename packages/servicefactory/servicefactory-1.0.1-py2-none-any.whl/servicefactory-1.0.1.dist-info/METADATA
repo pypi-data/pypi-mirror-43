@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: servicefactory
+Version: 1.0.1
+Summary: A highly opinionated and very convention-driven framework for creating Python "services"
+Home-page: https://github.com/christophevg/py-servicefactory
+Author: Christophe VG
+License: MIT
+Keywords: 'services framework rest api ipc
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: werkzeug
+Requires-Dist: requests
+
+# ServiceFactory
+
+> A highly opinionated and very convention-driven framework for creating Python "services"
+
+[![Latest Version on PyPI](https://img.shields.io/pypi/v/servicefactory.svg)](https://pypi.python.org/pypi/servicefactory/)
+[![Supported Implementations](https://img.shields.io/pypi/pyversions/servicefactory.svg)](https://pypi.python.org/pypi/servicefactory/)
+[![Build Status](https://secure.travis-ci.org/christophevg/py-servicefactory.svg?branch=master)](http://travis-ci.org/christophevg/py-servicefactory)
+[![Documentation Status](https://readthedocs.org/projects/servicefactory/badge/?version=latest)](https://servicefactory.readthedocs.io/en/latest/?badge=latest)
+[![Coverage Status](https://coveralls.io/repos/github/christophevg/py-servicefactory/badge.svg?branch=master)](https://coveralls.io/github/christophevg/py-servicefactory?branch=master)
+[![Built with PyPi Template](https://img.shields.io/badge/PyPi_Template-v0.0.6-blue.svg)](https://github.com/christophevg/pypi-template)
+
+## Documentation
+
+Visit [Read the Docs](https://servicefactory.readthedocs.org) for the full documentation, including overviews and walkthroughs.
+
+
