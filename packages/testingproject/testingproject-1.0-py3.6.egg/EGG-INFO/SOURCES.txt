@@ -1,0 +1,8 @@
+setup.py
+testingproject/__init__.py
+testingproject.egg-info/PKG-INFO
+testingproject.egg-info/SOURCES.txt
+testingproject.egg-info/dependency_links.txt
+testingproject.egg-info/not-zip-safe
+testingproject.egg-info/requires.txt
+testingproject.egg-info/top_level.txt
