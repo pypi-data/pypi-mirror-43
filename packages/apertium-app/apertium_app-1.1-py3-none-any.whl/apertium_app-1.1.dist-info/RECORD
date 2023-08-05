@@ -1,0 +1,12 @@
+apertium/__init__.py,sha256=5vX77V3yAb5odUjdCocXXD-QxAlUieC6yoNW8TtNewQ,1355
+apertium/iso639.py,sha256=Dxn6aKKxUeKlFTDaD19VC5d4wzODpwikI_plm3EMrCA,3199
+apertium/mode_search.py,sha256=JM4gTdt4nM_1ghMqsvGBsLePSEgxbLX1OBb0X-3CZ54,3051
+apertium/utils.py,sha256=oiCGIdPPU1OF5tCeLhnu4hvxGNHVkXfedOGZ6EzBMXE,1804
+apertium/analysis/__init__.py,sha256=uZnW_6b-bhdQzoi6JdbSQ4NjSifDMBHyOB9nIIzqEOI,2204
+apertium/generation/__init__.py,sha256=LzQHhmNnCz2VAVKAcpiC9INYz7lzZEvuyirL8DPm_rM,1835
+apertium/translation/__init__.py,sha256=nZrvU9T6DEpfRxI0LqbZWHd-9KFAPWMl-plFsC4ksMc,6115
+apertium_app-1.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+apertium_app-1.1.dist-info/METADATA,sha256=sx91Zt04hRS9YYtxtFnrpaaiPHvHJ5DNLaxlpudTG7c,406
+apertium_app-1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+apertium_app-1.1.dist-info/top_level.txt,sha256=9WO68YNsnDcou-opG7VayMmBVd3Ahd_bhXUgNxmg6NY,9
+apertium_app-1.1.dist-info/RECORD,,
