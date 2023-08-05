@@ -1,0 +1,11 @@
+models/__init__.py,sha256=4UhKFq_nVuZMhE52J8EFUrRC2RJ9dMgVb_yOV3miaC8,518
+models/base.py,sha256=Cq7qYhwPr7BqDaPpSyUr7m0mSnX0fc_QkQjTE5uz1e8,3956
+models/errors.py,sha256=Wkoc_ipFdeP7x3JbO2a0GYmQouOLu5Y8c6XNIlQLbg0,470
+models/orm.py,sha256=2L166raMByIcuwUYZGr2CTklxnNDHkFKJPeRI5cGArU,2471
+models/queryset.py,sha256=SjVriBVdCQS8v0QJpHK-Scqr-xEBZCfuARs6fYTFhyI,1970
+pysqlcon-0.4.dist-info/DESCRIPTION.rst,sha256=RHH1a1SqB_ban0J8H6tK1avKHIBc4xb5hjVufBVzD-o,3394
+pysqlcon-0.4.dist-info/METADATA,sha256=2G_jMsA7n9M_JBEF6FAvrKBz3OJAw_RLpVmBSDsTTSA,3735
+pysqlcon-0.4.dist-info/RECORD,,
+pysqlcon-0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pysqlcon-0.4.dist-info/metadata.json,sha256=KA0aGZnHaIDcekMOu-rb_KjTSygyDRpiVi3mY-Nae7A,568
+pysqlcon-0.4.dist-info/top_level.txt,sha256=vH5ByFtkqB2bXlXOuK5zaaM_1GFEE9six0KgGIdPaU0,7
