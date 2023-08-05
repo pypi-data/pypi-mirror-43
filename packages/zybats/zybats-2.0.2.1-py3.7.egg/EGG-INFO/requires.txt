@@ -1,0 +1,14 @@
+requests
+PyYAML
+Jinja2
+har2case
+colorama
+colorlog
+requests_toolbelt
+pika
+redis
+redis-py-cluster
+xlrd
+protobuf
+simplejson
+pymysql
