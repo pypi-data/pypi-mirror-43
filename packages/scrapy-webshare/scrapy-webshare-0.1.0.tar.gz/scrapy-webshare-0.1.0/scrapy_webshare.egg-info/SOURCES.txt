@@ -1,0 +1,9 @@
+README.rst
+setup.py
+scrapy_webshare/__init__.py
+scrapy_webshare/middleware.py
+scrapy_webshare.egg-info/PKG-INFO
+scrapy_webshare.egg-info/SOURCES.txt
+scrapy_webshare.egg-info/dependency_links.txt
+scrapy_webshare.egg-info/requires.txt
+scrapy_webshare.egg-info/top_level.txt
