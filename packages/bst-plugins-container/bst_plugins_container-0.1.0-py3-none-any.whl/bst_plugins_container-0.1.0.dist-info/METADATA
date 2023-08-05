@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bst-plugins-container
+Version: 0.1.0
+Summary: A collection of BuildStream plugins that are to do with containers.
+Home-page: UNKNOWN
+Author: BuildStream Developers
+Author-email: buildstream-list@gnome.org
+License: LGPL
+Project-URL: Source, https://gitlab.com/BuildStream/bst-plugins-container
+Project-URL: Documentation, https://buildstream.gitlab.io/bst-plugins-container/
+Project-URL: Tracker, https://gitlab.com/BuildStream/bst-plugins-container/issues
+Project-URL: Mailing List, https://mail.gnome.org/mailman/listinfo/buildstream-list
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: requests
+Requires-Dist: setuptools
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-click ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest-datafiles ; extra == 'test'
+Requires-Dist: pytest-env ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: pytest (>=3.1.0) ; extra == 'test'
+
+UNKNOWN
+
+
