@@ -1,0 +1,3 @@
+JSONBender==0.9.3
+pymongo
+python-slugify
