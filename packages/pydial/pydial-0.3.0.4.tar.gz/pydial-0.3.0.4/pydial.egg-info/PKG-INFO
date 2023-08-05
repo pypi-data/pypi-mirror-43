@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: pydial
+Version: 0.3.0.4
+Summary: Use DIAL Object with Python
+Home-page: https://gitlab.sisg.ucl.ac.be/bibsys/pydial
+Author: michotter
+Author-email: renaud.michotte@uclouvain.be
+License: https://opensource.org/licenses/MIT
+Description: PyDial
+        ^^^^^^
+        
+        Still under construction ....
+        
+        Publish on pypi
+        ---------------
+        
+            python setup.py sdist
+            twine upload dist/xxxxxx.tar.gz
+            sudo pip install --upgrade pydial
+Platform: UNKNOWN

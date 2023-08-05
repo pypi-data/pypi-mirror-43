@@ -1,0 +1,8 @@
+{
+  "localization": {
+    "geohash_grid": {
+      "field": "geoip.location",
+      "precision": 5
+    }
+  }
+}

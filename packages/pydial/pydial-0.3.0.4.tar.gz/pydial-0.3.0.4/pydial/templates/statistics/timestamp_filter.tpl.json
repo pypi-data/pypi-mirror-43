@@ -1,0 +1,7 @@
+{ "range":{
+    "@timestamp": {
+        "gte": 0,
+        "lte": 7289654399000,
+        "format": "epoch_millis"
+    }
+}}

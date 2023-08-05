@@ -1,0 +1,58 @@
+{
+  "size": 0,
+  "sort":[
+    {"@timestamp": "desc"}
+  ],
+  "query": {
+    "filtered": {
+      "query": {
+        "bool": {
+          "must": [
+            {"terms" : { "dial.pid.raw": [] } }
+          ]
+        }
+      },
+      "filter": {
+        "bool": {
+          "must": [
+            {"or": [
+              { "regexp": { "useragent.name.raw": "IE.*" } },
+              { "regexp": { "useragent.name.raw": "Firefox.*" } },
+              { "regexp": { "useragent.name.raw": "Chrome" } },
+              { "regexp": { "useragent.name.raw": "Opera.*" } },
+              { "regexp": { "useragent.name.raw": ".*Safari" } },
+              { "regexp": { "useragent.name.raw": "Android" } },
+              { "regexp": { "useragent.name.raw": "Yandex.*" } },
+              { "regexp": { "useragent.name.raw": "Apple.*" } }
+            ]}
+          ],
+          "must_not": [
+            { "regexp": { "useragent.name": ".*bot.*"} }
+          ]
+        }
+      }
+    }
+  },
+  "aggs": {
+    "view": {
+      "filters": {
+        "filters": {
+          "other":{ "query": { "query_string": { "query": "-referrer:*google* AND -referrer:*uclouvain* AND -referrer:*unamur* AND dial.action:view" } } },
+          "uclouvain":{ "query": { "query_string": { "query": "referrer:*uclouvain* AND dial.action:view" } } },
+          "unamur":{ "query": { "query_string": { "query": "referrer:*unamur* AND dial.action:view" } } },
+          "google":{ "query": { "query_string": { "query": "referrer:*google* AND dial.action:view" } } }
+        }
+      }
+    },
+    "download": {
+      "filters": {
+        "filters": {
+          "other":{ "query": { "query_string": { "query": "-referrer:*google* AND -referrer:*uclouvain* AND -referrer:*unamur* AND dial.action:download" } } },
+          "uclouvain":{ "query": { "query_string": { "query": "referrer:*uclouvain* AND dial.action:download" } } },
+          "unamur":{ "query": { "query_string": { "query": "referrer:*unamur* AND dial.action:download" } } },
+          "google":{ "query": { "query_string": { "query": "referrer:*google* AND dial.action:download" } } }
+        }
+      }
+    }
+  }
+}
