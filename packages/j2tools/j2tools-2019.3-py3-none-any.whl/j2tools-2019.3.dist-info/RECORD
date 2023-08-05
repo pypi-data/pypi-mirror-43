@@ -1,0 +1,11 @@
+j2tools/__init__.py,sha256=XN3EhaZqL9oRFunhgS4iOMchgeDwLDGhYPHQ-ckGaUo,335
+j2tools/elapsed.py,sha256=wwM0ObsFG5vbczaz_lV1QvMI3RIfefAf30zQ8B9bCZw,2106
+j2tools/plural.py,sha256=aXS9rV6Dy66QCpNFjVcqTdTBiwS71w9C6k3oyikpd6E,3013
+j2tools/t.py,sha256=fnOGbc9s9R9tV_dZdM60WPdUwvSbhJCiL9p0QWTmehg,1371
+j2tools/uchar.py,sha256=gqqwG5KHBfi7cSd1lbh6YnmJsfCwYnAVQbQ6egvOwRc,545
+j2tools/yamlloader.py,sha256=XoviDUV3oDectuMG06So31gZvTQ7L_KrYt1T2bkvqtM,1873
+j2tools-2019.3.dist-info/LICENSE,sha256=kdKgHYQziJ0daTfVt4-mbADnRpCrxhBpub4dVZuFhhc,1064
+j2tools-2019.3.dist-info/METADATA,sha256=RnB3niBlKqwGcbA3vSZt-OB-jKi29rdoh6jJo9LA1NQ,5483
+j2tools-2019.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+j2tools-2019.3.dist-info/top_level.txt,sha256=qDjUM9wqdnGaAaxupZdhNG00x_k99BIuoxyIi3gn4DM,8
+j2tools-2019.3.dist-info/RECORD,,
