@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pymlbenchmark
+Version: 0.1.30
+Summary: Benchmarks about Machine Learning in Python.
+Home-page: http://www.xavierdupre.fr/app/pymlbenchmark/helpsphinx/index.html
+Author: Xavier Dupré
+Author-email: xavier.dupre@gmail.com
+License: MIT
+Download-URL: https://github.com/sdpython/pymlbenchmark/
+Keywords: pymlbenchmark,Xavier Dupré
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Dist: pyquickhelper
+Requires-Dist: mlinsights (>=0.1.199)
+
+
+.. image:: https://travis-ci.org/sdpython/pymlbenchmark.svg?branch=master
+    :target: https://travis-ci.org/sdpython/pymlbenchmark
+    :alt: Build status
+
+.. image:: https://ci.appveyor.com/api/projects/status/l2lk7a0r2pccpg3r?svg=true
+    :target: https://ci.appveyor.com/project/sdpython/pymlbenchmark
+    :alt: Build Status Windows
+
+.. image:: https://circleci.com/gh/sdpython/pymlbenchmark/tree/master.svg?style=svg
+    :target: https://circleci.com/gh/sdpython/pymlbenchmark/tree/master
+
+.. image:: https://badge.fury.io/py/pymlbenchmark.svg
+    :target: https://pypi.org/project/pymlbenchmark/
+
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :alt: MIT License
+    :target: http://opensource.org/licenses/MIT
+
+.. image:: https://requires.io/github/sdpython/pymlbenchmark/requirements.svg?branch=master
+     :target: https://requires.io/github/sdpython/pymlbenchmark/requirements/?branch=master
+     :alt: Requirements Status
+
+.. image:: https://codecov.io/github/sdpython/pymlbenchmark/coverage.svg?branch=master
+    :target: https://codecov.io/github/sdpython/pymlbenchmark?branch=master
+
+.. image:: http://img.shields.io/github/issues/sdpython/pymlbenchmark.png
+    :alt: GitHub Issues
+    :target: https://github.com/sdpython/pymlbenchmark/issues
+
+.. image:: https://badge.waffle.io/sdpython/pymlbenchmark.png?label=to%20do&title=to%20do
+    :alt: Waffle
+    :target: https://waffle.io/sdpython/pymlbenchmark
+
+.. image:: http://www.xavierdupre.fr/app/pymlbenchmark/helpsphinx/_images/nbcov.png
+    :target: http://www.xavierdupre.fr/app/pymlbenchmark/helpsphinx/all_notebooks_coverage.html
+    :alt: Notebook Coverage
+
+.. _l-README:
+
+pymlbenchmark
+=============
+
+This project started with my first attempt
+to bring a modification to *scikit-learn*.
+The template was reused to measure various
+implementations or models and to make them
+shorter but with probably less understanding
+of the whole script.
+
+* `GitHub/pymlbenchmark <https://github.com/sdpython/pymlbenchmark/>`_
+* `documentation <http://www.xavierdupre.fr/app/pymlbenchmark/helpsphinx/index.html>`_
+* `Blog <http://www.xavierdupre.fr/app/pymlbenchmark/helpsphinx/blog/main_0000.html#ap-main-0>`_
+
+.. _l-HISTORY:
+
+=======
+History
+=======
+
+current - 2019-03-05 - 0.00Mb
+=============================
+
+0.0.0 - 2019-03-05 - 0.00Mb
+===========================
+
+* `2`: first commit (2019-03-05)
+
+
