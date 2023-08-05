@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+auth.py
+credentials.json
+date_utils.py
+setup.py
+pontaria.egg-info/PKG-INFO
+pontaria.egg-info/SOURCES.txt
+pontaria.egg-info/dependency_links.txt
+pontaria.egg-info/entry_points.txt
+pontaria.egg-info/requires.txt
+pontaria.egg-info/top_level.txt
