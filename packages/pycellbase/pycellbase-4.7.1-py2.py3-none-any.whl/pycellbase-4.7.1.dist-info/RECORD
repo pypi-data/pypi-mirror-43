@@ -1,0 +1,13 @@
+pycellbase/__init__.py,sha256=6DFOZuafPTrDERIQgrgSkT2t4tzamH1Bxiq0u959Zbc,22
+pycellbase/cbclient.py,sha256=sTqcW-UvRhDjDFxQzzeZJZd4gVwMvG-G6duDFIV7dII,6256
+pycellbase/cbconfig.py,sha256=q3nm9uFJHyHIbrqzsZwpO-biUBDYScDCz9YcJjbHPUw,4432
+pycellbase/cbrestclients.py,sha256=LCrD1kv9oaQQAGrK9Di7pJPTwotCo97ysiPr6b48lIM,23842
+pycellbase/commons.py,sha256=0EWw_xy15WX98Wcs4zHc-5oq8dQXcTLm_jBfCNcdSxA,10307
+pycellbase-4.7.1.data/scripts/cbtools.py,sha256=YyfxFXyYhbLCfBFOtzAVNKfWYpwpvltIhLJMIijT7FA,23887
+pycellbase-4.7.1.dist-info/DESCRIPTION.rst,sha256=c9q3c1ixnTe-Y4MgB8re3hfXkX47TGpWw3OcuBNx9Zw,8497
+pycellbase-4.7.1.dist-info/LICENSE.txt,sha256=8XQqW8_NVIhLwihUQpjV7aBcgHW2W_BavG6h4aIl7fU,11303
+pycellbase-4.7.1.dist-info/METADATA,sha256=eAaavWsxsapU-IXy8SqkJkhcvZU5V614DQF-dK1U1Eg,9305
+pycellbase-4.7.1.dist-info/RECORD,,
+pycellbase-4.7.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pycellbase-4.7.1.dist-info/metadata.json,sha256=x-jb_v7vV73BQrco_I9DVrYFaeuoGW6KOSuGIqkAzJE,1007
+pycellbase-4.7.1.dist-info/top_level.txt,sha256=SXgHIHvi_Q6-H2eJ9TUpBLv78o2yJq5NnrPG_ROLPLQ,11
