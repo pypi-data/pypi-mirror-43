@@ -1,0 +1,16 @@
+README.md
+setup.py
+polyfempy/Problems.py
+polyfempy/Settings.py
+polyfempy/__init__.py
+polyfempy.egg-info/PKG-INFO
+polyfempy.egg-info/SOURCES.txt
+polyfempy.egg-info/dependency_links.txt
+polyfempy.egg-info/top_level.txt
+tests/__init__.py
+tests/bending.py
+tests/gravity.py
+tests/inflation.py
+tests/plane_hole.py
+tests/torsion.py
+tests/utils.py
