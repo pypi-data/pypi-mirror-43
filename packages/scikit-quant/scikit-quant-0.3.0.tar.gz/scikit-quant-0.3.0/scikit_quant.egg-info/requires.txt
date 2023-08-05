@@ -1,0 +1,3 @@
+SQImFil>=0.3
+SQSnobFit>=0.2
+Py-BOBYQA>=1.1
