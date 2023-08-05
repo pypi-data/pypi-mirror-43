@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+compimg/__init__.py
+compimg/exceptions.py
+compimg/similarity.py
+compimg/windows.py
+compimg.egg-info/PKG-INFO
+compimg.egg-info/SOURCES.txt
+compimg.egg-info/dependency_links.txt
+compimg.egg-info/requires.txt
+compimg.egg-info/top_level.txt
