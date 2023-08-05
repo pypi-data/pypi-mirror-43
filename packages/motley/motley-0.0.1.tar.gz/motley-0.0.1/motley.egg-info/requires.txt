@@ -1,0 +1,4 @@
+numpy>=1.15
+flib>=0.9
+pandb>=0.1.8
+nemoa>=0.5.581

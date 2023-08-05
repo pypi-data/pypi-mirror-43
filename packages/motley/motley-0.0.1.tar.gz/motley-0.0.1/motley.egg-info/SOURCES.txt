@@ -1,0 +1,8 @@
+README.rst
+setup.py
+motley/__init__.py
+motley.egg-info/PKG-INFO
+motley.egg-info/SOURCES.txt
+motley.egg-info/dependency_links.txt
+motley.egg-info/requires.txt
+motley.egg-info/top_level.txt
