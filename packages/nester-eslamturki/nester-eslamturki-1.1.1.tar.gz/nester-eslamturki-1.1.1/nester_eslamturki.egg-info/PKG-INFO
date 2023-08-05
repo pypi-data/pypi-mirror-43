@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: nester-eslamturki
+Version: 1.1.1
+Summary: A simple printer of nested lists With tab Level
+Home-page: https://github.com/pypa/sampleproject
+Author: eslamturki
+Author-email: eslam.turki@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
