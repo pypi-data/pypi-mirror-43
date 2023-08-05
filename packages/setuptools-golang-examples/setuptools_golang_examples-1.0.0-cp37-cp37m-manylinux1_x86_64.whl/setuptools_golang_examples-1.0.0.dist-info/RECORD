@@ -1,0 +1,14 @@
+hello_lib.cpython-37m-x86_64-linux-gnu.h,sha256=NNqgoE1Os5dZLljREeloy6-4JfbETEsBjza201Z9m-o,1713
+sum_pure_go.cpython-37m-x86_64-linux-gnu.so,sha256=StVkRJGcGAPxp7VdXC4sX8YUMardCkMSnHRkd-Wz4HA,2067144
+sum_go.cpython-37m-x86_64-linux-gnu.so,sha256=j06t0zTxIP7rmKkYE9iLPSwb--9i_V1ayCBwq0lKfEc,2067068
+sum_pure_go.cpython-37m-x86_64-linux-gnu.h,sha256=waHJX-JHrXH6d-Z2nkKW7QyDEa5CSlLsgWk5c74VVrw,1698
+hello_lib.cpython-37m-x86_64-linux-gnu.so,sha256=JXqOFp3fidHUpCm5KAUigxhv4wjaou6Ti8H0h43Uui8,2079479
+red.cpython-37m-x86_64-linux-gnu.h,sha256=faZLmcbzSvRgC5HRJVHKTNIqzhXO1-uIzH8qxGm0Q2M,1700
+c_module.cpython-37m-x86_64-linux-gnu.so,sha256=L1VZ6HrPqj3hcfboNN9UxiXDms6UWv_xOXCNKFl03CA,16201
+red.cpython-37m-x86_64-linux-gnu.so,sha256=RwSHq7-iqg9oUBDvxJmc34fLPaoXOXSTNbPdwqPX_iw,4034281
+sum_go.cpython-37m-x86_64-linux-gnu.h,sha256=5LdvY01cUzFGf7xtvVXKrvz-oyO92bdywIP3c7iKqqw,1688
+setuptools_golang_examples-1.0.0.dist-info/RECORD,,
+setuptools_golang_examples-1.0.0.dist-info/METADATA,sha256=IEbY4I6lJx9DBYx9FL_XINDhchiz6zMsrCiV-onueY8,2395
+setuptools_golang_examples-1.0.0.dist-info/top_level.txt,sha256=pPwA5T5xYXofNNAJbvE9novVsCMJduzrLTMiUBk2mWM,36
+setuptools_golang_examples-1.0.0.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+setuptools_golang_examples-1.0.0.dist-info/LICENSE.txt,sha256=E_fEyBBI1K9TdyFPp6P7Av6PH-WqOkje0ldG9KtMjro,1059
