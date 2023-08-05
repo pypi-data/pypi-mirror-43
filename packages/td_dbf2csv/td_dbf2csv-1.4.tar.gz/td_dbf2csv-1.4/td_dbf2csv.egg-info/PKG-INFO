@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: td-dbf2csv
+Version: 1.4
+Summary: Small utility to convert simple *.DBF files to *.CSV
+Home-page: https://github.com/calebdinsmore/dbf2csv
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
