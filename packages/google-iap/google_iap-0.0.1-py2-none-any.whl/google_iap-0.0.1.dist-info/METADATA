@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: google-iap
+Version: 0.0.1
+Summary: A tool for to manage Identity-Aware Proxy policy google cloud platform
+Home-page: https://github.com/smehboub/google_iap
+Author: Sophian Mehboub
+Author-email: sophienmehboub@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: docopt
+Requires-Dist: google-auth
+Requires-Dist: google-api-python-client
+
+A tool for to manage Identity-Aware Proxy policy google cloud platform
+
+Tested with python verions:
+  Python 2.7.14
+  Python 3.6.2
+
+Installation:
+  pip install google-iap
+
+Example of use:
+  google-iap projects list --credentials=service-account.json
+  google-iap zones list --credentials=service-account.json --project=projectId
+  google-iap instances list --credentials=service-account.json --project=projectId
+  google-iap instances list --credentials=service-account.json --project=projectId --zone=europe-west1-b
+  google-iap iap get --credentials=service-account.json --project=projectId
+  google-iap iap get --credentials=service-account.json --project=projectId --zone=europe-west1-b
+  google-iap iap get --credentials=service-account.json --project=projectId --zone=europe-west1-b --instance=instance-1
+  google-iap iap set --credentials=service-account.json --project=projectId --policy=POLICY_FILE.JSON 
+  google-iap iap set --credentials=service-account.json --project=projectId --zone=europe-west1-b --policy=POLICY_FILE.JSON 
+  google-iap iap set --credentials=service-account.json --project=projectId --zone=europe-west1-b --instance=instance-1 --policy=POLICY_FILE.JSON 
+
+
