@@ -1,0 +1,5 @@
+setup.py
+kw_common.egg-info/PKG-INFO
+kw_common.egg-info/SOURCES.txt
+kw_common.egg-info/dependency_links.txt
+kw_common.egg-info/top_level.txt
