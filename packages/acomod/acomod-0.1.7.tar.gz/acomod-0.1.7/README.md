@@ -1,0 +1,44 @@
+# Acoustic Modes Viewer (v0.1 alpha)
+
+This program is a simple viewer of power spectral density of sound. 
+The package provides a module and a program to trace Fourier acoustic modes and resonance frequencies of excited bodies.
+
+## Use cases
+* estimate length of an excited metal bar, guitar string, or 
+* measure frequency of flute tones, 
+* identify resonance frequencies and through provided sound speed the corresponding length scales of mechanical components that generate unwanted resonances (e.g. in a car as a function of speed cs)
+* test 1/f noise and microphonic effects in electrical devices the program runs on.
+
+
+## Features
+* Analysis of sound from microphone or from a file (WAV format)
+* To analyze transient signals it keeps track of maximal peaks in processed spectra 
+* Saves recorded and processed data to files for further analysis
+* Outputs list of peak frequencies (f) and corresponding wavelengths (l=cs/f)
+
+### Features that will be implemented 
+* Save animations of PSD response for video files (not implemented yet)
+
+## Installation
+	`pip install acomod`
+
+## Screenshots
+
+![Screenshot](screenshot.png)
+
+## Troubleshooting
+* 	acoustic\_mode\_viewer givens core dump when running in virtual environment<br>
+	When you pip install acomod in virtual environment Qt platform plugin may fail to be properly 
+	initialized due to incorrect configuration of LD_LIBRARY_PATH environment variable (under linux) pointing
+	location of Qt libraries most likely somewhere in the system directories. If version of those is not the one
+	required by the PyQt5 the program will fail with<br>
+	`"This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem."`, <br>
+	a message that typically is not even printed out to the terminal.<br><br><br>
+	Solution:
+
+		export LD\_LIBRARY\_PATH=/path/to/venv/lib/python3.6/site-packages/PyQt5/Qt/lib:$LD\_LIBRARY\_PATH
+
+
+
+## Authors
+Bartosz Lew (bartosz.lew@protonmail.com)
