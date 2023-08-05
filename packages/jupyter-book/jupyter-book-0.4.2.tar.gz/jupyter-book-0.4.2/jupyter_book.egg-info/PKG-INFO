@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: jupyter-book
+Version: 0.4.2
+Summary: Jupyter Books: Create an online book with Jupyter Notebooks and Jekyll
+Home-page: https://jupyter.org/jupyter-book/
+Author: Project Jupyter Contributors
+Author-email: jupyter@googlegroups.com
+License: BSD
+Project-URL: Documentation, https://jupyter.org/jupyter-book
+Project-URL: Funding, https://jupyter.org/about
+Project-URL: Source, https://github.com/jupyter/jupyter-book/
+Project-URL: Tracker, https://github.com/jupyter/jupyter-book/issues
+Description: UNKNOWN
+Keywords: reproducible science environments scholarship notebook
+Platform: UNKNOWN
+Requires-Python: >=3.4
