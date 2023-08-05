@@ -1,0 +1,10 @@
+bluepy
+tenacity
+bitstruct
+
+[csv]
+pandas
+numpy
+
+[s3]
+boto3
