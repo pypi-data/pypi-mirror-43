@@ -1,0 +1,5 @@
+setup.py
+kiwi_json.egg-info/PKG-INFO
+kiwi_json.egg-info/SOURCES.txt
+kiwi_json.egg-info/dependency_links.txt
+kiwi_json.egg-info/top_level.txt
