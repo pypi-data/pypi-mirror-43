@@ -1,0 +1,4 @@
+[console_scripts]
+cmd_talk = cmd_talk:talk
+cmd_talk_serv = cmd_talk:serv
+

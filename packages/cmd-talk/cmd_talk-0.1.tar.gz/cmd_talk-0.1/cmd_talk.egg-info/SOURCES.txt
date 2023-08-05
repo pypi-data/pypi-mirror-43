@@ -1,0 +1,12 @@
+README.md
+setup.py
+cmd_talk/__init__.py
+cmd_talk/msg.py
+cmd_talk/settings.py
+cmd_talk/user.py
+cmd_talk/utils.py
+cmd_talk.egg-info/PKG-INFO
+cmd_talk.egg-info/SOURCES.txt
+cmd_talk.egg-info/dependency_links.txt
+cmd_talk.egg-info/entry_points.txt
+cmd_talk.egg-info/top_level.txt
