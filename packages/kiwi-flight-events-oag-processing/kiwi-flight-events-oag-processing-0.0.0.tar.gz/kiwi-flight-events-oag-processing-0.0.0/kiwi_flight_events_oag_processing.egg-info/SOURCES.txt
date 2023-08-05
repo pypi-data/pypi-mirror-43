@@ -1,0 +1,5 @@
+setup.py
+kiwi_flight_events_oag_processing.egg-info/PKG-INFO
+kiwi_flight_events_oag_processing.egg-info/SOURCES.txt
+kiwi_flight_events_oag_processing.egg-info/dependency_links.txt
+kiwi_flight_events_oag_processing.egg-info/top_level.txt
