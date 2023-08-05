@@ -1,0 +1,73 @@
+# EasyGraphLib
+
+This is a simple package for working with graphs in Python 3.
+
+Tasks:
+- [x] Add weighted graph.
+- [x] Add unweighted graph.
+- [ ] Add tree's.
+
+"class weighted_graph" methods:  
+    
+*  **add_node**("node name", "connect or connections", "values for con/con's") - This method create Node with connections, and Nodes for connections.
+    
+*  **add_connections**("node name", "connection or connections", "values for con/con's") - This method adding connections to Node, and create new Nodes for connections.  
+    
+*  **update_connection**("node name", "connection", "value") - This method update weight for connection.  
+    
+*  **remove_node**("node name") - Remove node with connections.  
+    
+*  **remove_connection**("node name", "connection") - Remove connection from node.  
+    
+*  **compile_graph()** - Compile EasyGraphLib struct.  
+    
+*  **find_tnw_d**("EasyGraphLib struct") - Dijkstra algorythm.  
+
+    ```python
+    import easygraphlib as egl
+
+    wg = egl.weighted_graph()
+
+    wg.add_node("start", ("a", "b"), (6,2))
+    wg.add_connections("start", ("c"), (3))
+    wg.add_connections("c", ("a", "fin"), (2, 2))
+    wg.add_connections("a", ("fin"), (3))
+    wg.add_connections("b", ("a", "fin"), (3, 5))
+    wg.update_connection("start", "c", (4))
+    wg.update_connection("a", ("fin"), (1))
+
+    input_graph = wg.compile_graph()
+    print(input_graph)
+    ```
+
+"class unweighted_graph" methods:  
+    
+*  **add_node**("node name", "value", "connections", "auto create node flag True/False") - This method create Node with connections, and Nodes for connections.
+   
+*   **add_connections**("node name", "connection or connections", "auto create node flag True/False") - This method adding connections to Node, and create new Nodes for connections. 
+    
+*  **update_value**("node name", "value") - Update value for Node.
+    
+*  **remove_node**("node name") - Remove node with connections.
+    
+*  **remove_connection**("node name", "connection") - remove connection from node.
+    
+*  **get_graph()**
+    
+*  **wide_search("node name", "value", "condition")**
+
+    ```python
+    import easygraphlib as egl
+
+    uwg = egl.unweighted_graph()
+
+    uwg.add_node("me", False, ("Patrick", "Carry", "Josh"))
+    uwg.add_node("Joseph", False, ("Lora"))
+    uwg.add_connections("Patrick", ("Henry", "July", "me"))
+
+    print(uwg.get_graph())
+
+    uwg.add_connections("me", ("Henry", "Harry"))
+    uwg.add_connections("Patrick", "Henry")
+    print(uwg.get_graph())
+    ```
