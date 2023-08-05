@@ -1,0 +1,11 @@
+README.md
+setup.py
+config/__init__.py
+config/config.py
+core/KGMeta.py
+core/TransE.py
+core/__init__.py
+pyKG2Vec.egg-info/PKG-INFO
+pyKG2Vec.egg-info/SOURCES.txt
+pyKG2Vec.egg-info/dependency_links.txt
+pyKG2Vec.egg-info/top_level.txt

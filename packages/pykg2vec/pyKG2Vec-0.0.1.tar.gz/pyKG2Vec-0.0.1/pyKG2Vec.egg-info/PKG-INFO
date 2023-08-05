@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyKG2Vec
+Version: 0.0.1
+Summary: A python library for Knowledge Graph Embedding
+Home-page: https://github.com/Sujit-O/pyKG2Vec.git
+Author: Sujit Rokka Chhetri
+Author-email: sujitchhetri@gmail.com
+License: UNKNOWN
+Description: # Python Knowledge Graph Embedding Library
+        
+        This library is an outcome of an optimistic attempt to bring all the state-of-the-art knowledge graph embedding algorithms into 
+        one single python library. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
