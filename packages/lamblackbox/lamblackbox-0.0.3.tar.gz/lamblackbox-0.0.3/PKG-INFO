@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: lamblackbox
+Version: 0.0.3
+Summary: This is a AWS Lambda function logging library.
+Home-page: https://github.com/youyo/lamblackbox
+Author: youyo
+Author-email: 1003ni2@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/youyo/lamblackbox
+Description: # Lamblackbox
+        
+        This is a AWS Lambda function logging library.
+        
+        ## Install
+        
+        ```
+        pip install lamblackbox
+        ```
+        
+Keywords: aws lambda log logger logging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
