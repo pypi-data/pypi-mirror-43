@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ImPyParser
+Version: 0.0.5
+Summary: A python import parser
+Home-page: https://github.com/JoshuaRM/ImportParser
+Author: Joshua Mayers
+Author-email: joshuamayers@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ImportParser
+A python tool for parsing import statements
+
+
