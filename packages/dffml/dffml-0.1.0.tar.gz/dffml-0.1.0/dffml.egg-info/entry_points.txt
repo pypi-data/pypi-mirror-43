@@ -1,0 +1,11 @@
+[console_scripts]
+dffml = dffml.cli:CLI.main
+
+[dffml.port]
+json = dffml.port.json:JSON
+
+[dffml.source]
+csv = dffml.source.csvfile:CSVSource
+json = dffml.source.json:JSONSource
+memory = dffml.source.memory:MemorySource
+
