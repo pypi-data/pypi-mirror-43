@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+rajat_distribution/Binomialdistribution.py
+rajat_distribution/Gaussiandistribution.py
+rajat_distribution/Generaldistribution.py
+rajat_distribution/__init__.py
+rajat_distribution.egg-info/PKG-INFO
+rajat_distribution.egg-info/SOURCES.txt
+rajat_distribution.egg-info/dependency_links.txt
+rajat_distribution.egg-info/not-zip-safe
+rajat_distribution.egg-info/top_level.txt
