@@ -1,0 +1,8 @@
+agw/__init__.py,sha256=bXKxyqiMuKTF-7KT9t4jLEjtup5ktpTWsDTY3DCIxCY,2686
+agw/app.py,sha256=_dnQA8D6ATQjMqijoFDG8ZUkHc-YeoifTPRBx7MZDa4,1903
+agw/data.py,sha256=T-YjgMVWJFILjEyLPKCz4HxVHYFhxVUEfsBJ30pyIt4,2517
+agw/util.py,sha256=xZnCbfcb0DwYkiUjvd5CDHf0E9I8JtlxF6r6h5yqwqY,1189
+agw/winapi.py,sha256=whhxiV9ZV3Dx1xrtFRgC0YLQOxThPJ13NHnz4I9prBs,6486
+agw-0.2.1b0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+agw-0.2.1b0.dist-info/METADATA,sha256=qklAz4htmkiKjN-YxJwk9iUis2KnmO1-svDlqfVL5OQ,606
+agw-0.2.1b0.dist-info/RECORD,,
