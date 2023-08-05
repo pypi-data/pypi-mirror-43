@@ -1,0 +1,17 @@
+polibeepsync/__init__.py,sha256=6G_giX6Ucuweo7w5OiftoXmbNLoqiU_soXJoU8aiLmY,22
+polibeepsync/beep_api.py,sha256=YQ6WzwF1kcDlV3_eJ968kuLs8fR4cKHRCsoB2rnHTJM,785
+polibeepsync/cmdlineparser.py,sha256=u6AWWr970N72NLXr_Hhs32zmGhRsz0na-G3gT64iyZg,804
+polibeepsync/common.py,sha256=eyBh41h9mcJafBKXcyXXsxQNO6NQd9nUyVYlJMJIJ2U,32407
+polibeepsync/filesettings.py,sha256=dbJ01MWAvXxHfedcI8nOxAkZP8HRXxr-sueUubbu_eg,3105
+polibeepsync/icone_rc.py,sha256=meE9N9V9eLQ1789nmPHyrUjdAIU8QkQOAUDUtfzfSCM,34664
+polibeepsync/new_gui.ui,sha256=uYYLN_wlHTJfr6SYo_djOuDpiXJftFc8er87WaaGLgg,29864
+polibeepsync/qtgui.py,sha256=0jP0snE2iThPxTnKQo6Yi26GiPUkeuVuU4_E8JnRgE4,23102
+polibeepsync/ui_resizable.py,sha256=cCCHECeDnERmwiPgG3w-omoFtBnqtgy947ZuR12nLDw,9697
+poliBeePsync-0.4.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+poliBeePsync-0.4.4.dist-info/LICENSE.old,sha256=o2ajCNZ2N_CKB612PhXWb1F2h8jQsT5TnNYvWJ20z7w,157
+poliBeePsync-0.4.4.dist-info/METADATA,sha256=xCnJpcwB653Mj7jWORrG44j9lA6eFiq8gEw9840zQYs,6300
+poliBeePsync-0.4.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+poliBeePsync-0.4.4.dist-info/dependency_links.txt,sha256=q8CsBAxTr_v8D3ALVLRbbVvzSBmRJ3bw3kjrsKNvRYA,76
+poliBeePsync-0.4.4.dist-info/entry_points.txt,sha256=ZX69QoPNShdN_sl6IlvS8FyPHitd1J-Y4TUgxlzLyuA,116
+poliBeePsync-0.4.4.dist-info/top_level.txt,sha256=NKYSxj5MTCUxfBQKiIh3dTKLRRFl9TrAb_PYWcm-jeI,13
+poliBeePsync-0.4.4.dist-info/RECORD,,
