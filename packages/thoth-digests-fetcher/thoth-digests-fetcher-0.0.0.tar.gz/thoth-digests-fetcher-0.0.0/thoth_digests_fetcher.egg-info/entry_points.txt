@@ -1,0 +1,3 @@
+[console_scripts]
+thoth-digests-fetcher = thoth.digests_fetcher.cli:cli
+

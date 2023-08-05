@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: thoth-digests-fetcher
+Version: 0.0.0
+Summary: Gather digests for artifacts in Python ecosystem.
+Home-page: UNKNOWN
+Author: Fridolin Pokorny
+Author-email: fridolin@redhat.com
+License: GPLv3+
+Description: thoth-digests-fetcher
+        ---------------------
+        
+        A tool for gathering digests of packages and files present inside packages for various ecosystems.
+        
+        
+Platform: UNKNOWN
