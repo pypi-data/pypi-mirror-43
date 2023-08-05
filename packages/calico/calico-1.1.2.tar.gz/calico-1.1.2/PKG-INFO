@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: calico
+Version: 1.1.2
+Summary: I/O checker for command line programs.
+Home-page: https://github.com/itublg/calico
+Author: H. Turgut Uyar
+Author-email: uyar@itu.edu.tr
+Keywords: testing,i/o
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Utilities
+Requires-Dist: enum34 (>=1.1,<2.0); python_version >= "2.7" and python_version < "3.0"
+Requires-Dist: pexpect (>=4.6,<5.0)
+Requires-Dist: ruamel.yaml (>=0.15.41,<0.16.0)
+Project-URL: Documentation, https://gitlab.com/itublg/calico
+Project-URL: Repository, https://github.com/itublg/calico
