@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_daemon/__init__.py
+easy_daemon/daemon.py
+easy_daemon.egg-info/PKG-INFO
+easy_daemon.egg-info/SOURCES.txt
+easy_daemon.egg-info/dependency_links.txt
+easy_daemon.egg-info/top_level.txt
