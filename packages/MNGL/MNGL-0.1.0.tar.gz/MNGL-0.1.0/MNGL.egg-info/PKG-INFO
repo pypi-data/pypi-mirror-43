@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: MNGL
+Version: 0.1.0
+Summary: A Python API for MNGL bill details
+Home-page: https://github.com/hemantkamalakar/mngl
+Author: Hemant Kamalakar
+Author-email: hemant.kamalakar@gmail.com
+License: Apache License
+Description: This library will use your MNGL BP ID and get the current MNGL bill details.
+Keywords: API bindings for MNGL online bill details
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
