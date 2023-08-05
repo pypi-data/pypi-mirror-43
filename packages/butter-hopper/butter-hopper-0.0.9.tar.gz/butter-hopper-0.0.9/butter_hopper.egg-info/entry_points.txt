@@ -1,0 +1,4 @@
+[console_scripts]
+bootcrap = butter_hopper.bootcrapper.main:cli
+btrhop = butter_hopper.main:cli
+
