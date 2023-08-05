@@ -1,0 +1,21 @@
+{% from 'macros.jinja2' import naturalgrbmediumlatencypipelines %}
+{% filter rewrap %}
+The online, {{naturalgrbmediumlatencypipelines(exclusions)}} did not find a candidate GW event associated with GRB {{gracedb_id}} {{gcn_citation}}.
+
+Preliminary exclusion distances with the below assumptions:
+
+{% if 'CBC' in exclusions %}
+NS-NS: XXX Mpc, 90% CL {{'\n'}}
+NS-BH: XXX Mpc, 90% CL {{'\n'}}
+{% endif %}
+{% if 'Burst' in exclusions %}
+Burst (model-dependent): XXX Mpc, 90% CL {{'\n'}}
+{% endif %}
+
+{% if 'CBC' in exclusions %}
+Exclusion distance from a Gaussian distribution of mass, uniform distribution of spin and inclination. NS-NS: a Gaussian distribution of component masses 1-3 M_sun, uniform distributions of spin 0-0.4, and inclination angle up to a maximum of 30 deg. NS-BH: as above for NS; BH mass and spin distributions 3-15 M_sun, 0-0.98.
+{% endif %}
+{% if 'Burst' in exclusions %}
+Exclusion distance from an ad hoc model with a circularly polarized, sine-Gaussian waveform with Q-factor = 9 and center frequency = 150 Hz, assuming E_GW = 10^-2 M_sun c^2 of energy emitted as GWs. Exclusion distance scales roughly as sqrt(E_GW).
+{% endif %}
+{% endfilter %}
