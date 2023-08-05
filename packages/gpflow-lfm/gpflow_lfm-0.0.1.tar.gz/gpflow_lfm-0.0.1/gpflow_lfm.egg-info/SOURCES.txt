@@ -1,0 +1,7 @@
+README.md
+setup.py
+gpflow_lfm/__init__.py
+gpflow_lfm.egg-info/PKG-INFO
+gpflow_lfm.egg-info/SOURCES.txt
+gpflow_lfm.egg-info/dependency_links.txt
+gpflow_lfm.egg-info/top_level.txt
