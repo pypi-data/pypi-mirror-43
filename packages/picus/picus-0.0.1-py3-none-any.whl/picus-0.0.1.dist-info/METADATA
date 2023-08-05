@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: picus
+Version: 0.0.1
+Summary: Pointed Interpretation of Clinical Variant Significance
+Home-page: UNKNOWN
+Author: bars
+Author-email: barslmn@gmail.com
+License: UNKNOWN
+Keywords: genomics next generation sequencing variant discovery human genetics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+
+# Picus
+Pointed Interpretation of Clinical Variant Significance
+
+## Quick Install
+* Linux&Mac  
+> sudo pip3 install picus
+* Windows
+> pip install picus
+
+## Example Uses
+
+* Picus examples  
+> picus -i input.csv -o output.json
+
+
