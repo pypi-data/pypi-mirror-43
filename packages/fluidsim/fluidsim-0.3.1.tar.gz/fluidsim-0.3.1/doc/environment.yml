@@ -1,0 +1,21 @@
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - blas=*=openblas
+  - h5py
+  - fftw
+  - pyfftw
+  - cython
+  - mako
+  - pip:
+    - pandas
+    - matplotlib
+    - jupyter
+    - sphinx
+    - numpydoc
+    - sphinx_rtd_theme
+    - hg+https://bitbucket.org/fluiddyn/fluiddyn#egg=fluiddyn
+    - hg+https://bitbucket.org/fluiddyn/fluidfft#egg=fluidfft

@@ -1,0 +1,67 @@
+sudo: required
+dist: xenial
+# See https://github.com/travis-ci/travis-ci/issues/9069
+language: python
+
+python:
+  - 3.6
+  - 3.7
+
+env:
+  - TOXENV=py,codecov-travis OMPI_CC=/usr/bin/gcc-6 OMPI_CXX=/usr/bin/g++-6
+  - TOXENV=py-pythran,codecov-travis OMPI_CC=/usr/bin/gcc-6 OMPI_CXX=/usr/bin/g++-6
+
+addons:
+  apt:
+    sources: ubuntu-toolchain-r-test
+    packages:
+      - gcc-6
+      - g++-6
+      - libfftw3-dev
+      - libfftw3-mpi-dev
+      - libhdf5-openmpi-dev
+      - openmpi-bin
+      - libopenblas-dev
+
+matrix:
+  fast_finish: true
+  include:
+    - python: 3.6
+      env: TOXENV=lint
+      addons:
+        # workaround because of the pip install -U ... mpi4py line in install section
+        apt:
+          packages: [libopenmpi-dev, openmpi-bin]
+
+  allow_failures:
+    - python: 3.6
+      env: TOXENV=lint
+
+before_cache:
+  - |
+      coverage erase
+      rm -f $HOME/.cache/pip/log/debug.log
+
+cache:
+    directories:
+        - $HOME/.cache/pip
+        # - $TRAVIS_BUILD_DIR/.tox
+
+install:
+    - pip install -U pip pipenv tox==3.6 tox-pipenv colorlog coverage fluiddevops
+    - pip install -U numpy cython mako mpi4py transonic  # To be removed when pip==10 is out and this step can be bootstrapped
+
+before_script:
+    - |
+      mkdir -p $HOME/.config/matplotlib
+      echo 'backend      : agg' > $HOME/.config/matplotlib/matplotlibrc
+      echo '[pythran]\ncomplex_hook = True\n[compiler]\nCXX = g++-6\nCC = gcc-6\n' > $HOME/.pythranrc
+      wget https://bitbucket.org/fluiddyn/fluidfft/raw/default/site.cfg.files/site.cfg.travis_$TRAVIS_OS_NAME -O $HOME/.fluidfft-site.cfg
+
+script:
+    - set -o pipefail
+    - tox -vv | fluidicat --every 1 --wait 300
+
+notifications:
+  email: false
+  irc: "chat.freenode.net#fluiddyn-dev"

@@ -1,0 +1,10 @@
+
+conda:
+    file: doc/environment.yml
+
+formats:
+    - none
+
+python:
+   version: 3
+   setup_py_install: true

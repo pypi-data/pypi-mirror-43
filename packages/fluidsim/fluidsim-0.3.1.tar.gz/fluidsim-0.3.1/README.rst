@@ -1,0 +1,134 @@
+======
+|logo|
+======
+
+|release| |pyversions| |docs| |coverage| |travis| |chat|
+
+.. |logo| image:: https://bitbucket.org/fluiddyn/fluidsim/raw/default/doc/logo.svg
+   :alt: FluidSim
+
+.. |release| image:: https://badge.fury.io/py/fluidsim.svg
+   :target: https://pypi.python.org/pypi/fluidsim/
+   :alt: Latest version
+
+.. |pyversions| image:: https://img.shields.io/pypi/pyversions/fluidsim.svg
+   :alt: Supported Python versions
+
+.. |docs| image:: https://readthedocs.org/projects/fluidsim/badge/?version=latest
+   :target: http://fluidsim.readthedocs.org
+   :alt: Documentation status
+
+.. |coverage| image:: https://codecov.io/bb/fluiddyn/fluidsim/branch/default/graph/badge.svg
+   :target: https://codecov.io/bb/fluiddyn/fluidsim
+   :alt: Code coverage
+
+.. |travis| image:: https://travis-ci.org/fluiddyn/fluidsim.svg?branch=master
+   :target: https://travis-ci.org/fluiddyn/fluidsim
+   :alt: Travis CI status
+
+.. |chat| image:: https://img.shields.io/matrix/fluiddyn-users:matrix.org.svg
+   :target: https://matrix.to/#/#fluiddyn-users:matrix.org
+   :alt: Chat room
+
+.. |binder| image:: https://mybinder.org/badge_logo.svg
+   :target: https://mybinder.org/v2/gh/fluiddyn/fluidsim/master?urlpath=lab/tree/doc/ipynb
+   :alt: Binder notebook
+
+.. description
+
+Fluidsim is an extensible framework for studying fluid dynamics with numerical
+simulations using Python. Fluidsim is an object-oriented library to develop
+solvers (mainly using pseudo-spectral methods) by writing mainly Python code.
+The result is **very efficient** even compared to a pure Fortran or C++ code
+since the time-consuming tasks are performed by optimized compiled functions.
+
+**Documentation**: https://fluidsim.readthedocs.io
+
+Getting started
+---------------
+To try fluidsim without installation: |binder|
+
+For a **basic installation** it should be sufficient to run::
+
+  pip install fluidsim --no-cache-dir [--user]
+
+Add ``--user`` flag if you do not have permission to write in the directory of
+the python executable and you don't want to / can't setup a virtual environment
+or use pyenv or conda.
+
+Installation
+------------
+
+To take full advantage of fluidsim, consider installing the following
+(optional) dependencies and configurations before installing fluidsim. Click on
+the links to know more:
+
+1. OpenMPI or equivalent
+2. FFT libraries such as MPI-enabled FFTW (for 2D and 3D solvers) and P3DFFT,
+   PFFT (for 3D solvers) either using a package manager or `from source
+   <https://fluidfft.readthedocs.io/en/latest/install/fft_libs.html>`__
+3. Install optional Python `package dependencies
+   <https://fluidsim.readthedocs.io/en/latest/install.html#dependencies>`__
+4. `A C++11 compiler and BLAS
+   libraries <https://pythran.readthedocs.io/en/latest/#installation>`__ and
+   `configure
+   <https://fluidsim.readthedocs.io/en/latest/install.html#dependencies>`__
+   ``~/.pythranrc`` to customize compilation of Pythran extensions
+5. `Configure
+   <https://fluidfft.readthedocs.io/en/latest/install.html#basic-installation-with-pip>`__
+   ``~/.fluidfft-site.cfg`` to detect the FFT libraries and install
+   ``fluidfft``
+
+**Note**: Detailed instructions to install the above dependencies using Anaconda
+/ Miniconda or in a specific operating system such as Ubuntu, macOS etc. can be
+found `here
+<https://fluiddyn.readthedocs.io/en/latest/get_good_Python_env.html>`__.
+
+You can get the source code from `Bitbucket
+<https://bitbucket.org/fluiddyn/fluidsim>`__ or from `the Python
+Package Index <https://pypi.python.org/pypi/fluidsim/>`__.
+The development mode is often useful if you intend to modify fluidsim . From
+the root directory::
+
+  python setup.py develop
+
+Tests
+-----
+After installing fluidsim run the tests to ensure everything works::
+
+  fluidsim-test
+  mpirun -np 2 fluidsim-test
+
+How does it work?
+-----------------
+Fluidsim is a `HPC <https://en.wikipedia.org/wiki/High-performance_computing>`_
+code. It is part of the wider project `FluidDyn
+<https://pypi.python.org/pypi/fluiddyn/>`_ and its pseudospectral solvers rely
+on the library `fluidfft <http://fluidfft.readthedocs.io>`_ to use very
+efficient FFT libraries. Fluidfft is written in C++, Cython and Python.
+Fluidfft and fluidsim take advantage of `Pythran
+<https://github.com/serge-sans-paille/pythran>`_, an ahead-of-time compiler
+which produces very efficient binaries by compiling Python via C++11.
+
+An advantage of a CFD code written mostly in Python is that, to run simulations
+and analyze the results, the users communicate (possibly interactively)
+together and with the machine with Python, which is nowadays among the best
+languages to do these tasks. Moreover, it is much simpler and faster than with
+pure Fortran or C++ codes to add any complicated analysis or to write a
+modified solver. Fluidsim can also be used to extend existing solvers with
+Python interfaces such as `Basilisk <http://basilisk.fr>`__.
+
+We have created fluidsim to be **easy and nice to use and to develop**,
+**efficient** and **robust**.
+
+*Keywords and ambitions*: fluid dynamics research with Python (>=3.6);
+modular, object-oriented, collaborative, tested and documented, free and
+open-source software.
+
+License
+-------
+
+FluidDyn is distributed under the CeCILL_ License, a GPL compatible
+french license.
+
+.. _CeCILL: http://www.cecill.info/index.en.html
