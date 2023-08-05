@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.txt
+setup.cfg
+setup.py
+tauphahji_cmd.py
+Tau_Phah_Ji_Command.egg-info/PKG-INFO
+Tau_Phah_Ji_Command.egg-info/SOURCES.txt
+Tau_Phah_Ji_Command.egg-info/dependency_links.txt
+Tau_Phah_Ji_Command.egg-info/top_level.txt
