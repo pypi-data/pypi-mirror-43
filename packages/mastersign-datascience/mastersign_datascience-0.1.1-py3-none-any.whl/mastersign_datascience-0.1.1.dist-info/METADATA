@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: mastersign-datascience
+Version: 0.1.1
+Summary: High level helpers for data science in Python with Pandas.
+Home-page: https://github.com/mastersign/mastersign-datascience.git
+Author: Tobias Kiertscher
+Author-email: dev@mastersign.de
+Maintainer: Tobias Kiertscher
+Maintainer-email: dev@mastersign.de
+License: BSD-3
+Keywords: lib datascience
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: Pandas (>=0.23)
+Requires-Dist: PyMySQL
+Requires-Dist: SQLAlchemy (>=1.0)
+Requires-Dist: tabulate
+Requires-Dist: matplotlib
+Requires-Dist: basemap (>=1.0)
+Requires-Dist: beautifulsoup4
+Requires-Dist: click (>=7.0)
+
+
+#######################
+Mastersign Data Science
+#######################
+
+	High level helpers for data science in Python with Pandas.
+
+************
+Installation
+************
+
+::
+
+	pip install mastersign-datascience
+
+or
+
+::
+
+	python ./setup.py install
+
+*************
+Documentation
+*************
+
+https://mastersign.github.io/mastersign-datascience
+
+*************
+Demonstration
+*************
+
+Take a look at the Jupyter Notebooks ``demo-*.ipynb`` for demonstration.
+
+
+
