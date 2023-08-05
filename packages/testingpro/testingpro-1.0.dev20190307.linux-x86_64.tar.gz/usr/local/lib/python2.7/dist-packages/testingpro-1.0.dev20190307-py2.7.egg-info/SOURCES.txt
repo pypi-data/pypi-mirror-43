@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+testingpro/__init__.py
+testingpro/views.py
+testingpro.egg-info/PKG-INFO
+testingpro.egg-info/SOURCES.txt
+testingpro.egg-info/dependency_links.txt
+testingpro.egg-info/not-zip-safe
+testingpro.egg-info/requires.txt
+testingpro.egg-info/top_level.txt
