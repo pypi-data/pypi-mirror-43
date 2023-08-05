@@ -1,0 +1,10 @@
+invalid_scraper/__init__.py,sha256=YU6YdjQ2N6C8M1syZMcT791n0d66S6lmezhjSfWRrRI,768
+invalid_scraper/__meta__.py,sha256=WGESZBHyiepkONdRXw21-_ZerzLa5h2PSEtziVWrfZQ,1285
+invalid_scraper/cli.py,sha256=S6RB2jyIs35IOd8zCC_pbsWFNdONWDDlRON4pgM5tj8,3967
+invalid_scraper/data/hosts.yml,sha256=5HjF6EleFNWBKS23mHhxehJk4KTDWQuYzA98vsZVdX0,1023
+invalid_scraper-0.1.0rc2.dist-info/LICENSE,sha256=TjeGwMSoxF7QZrP-J4ZU0F3Kiw0p7tjf5MpBa6BAns0,1069
+invalid_scraper-0.1.0rc2.dist-info/METADATA,sha256=hA5nfVUp_R4t8KTaiRUDdEfOTzBcC0pKQLGmPVbpWh8,1439
+invalid_scraper-0.1.0rc2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+invalid_scraper-0.1.0rc2.dist-info/entry_points.txt,sha256=Ovoz9mH2pYtaNvx07yLX-1gqEE-PErrP8yjMKFHiM5g,62
+invalid_scraper-0.1.0rc2.dist-info/top_level.txt,sha256=_qxAHYHH5v78LJWlik7JHT6nb10FMwR0EKmeA-W20qg,16
+invalid_scraper-0.1.0rc2.dist-info/RECORD,,
