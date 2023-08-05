@@ -1,0 +1,3 @@
+[buildstream.plugins]
+docker = bst_plugins_container.sources.docker
+
