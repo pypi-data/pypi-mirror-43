@@ -1,0 +1,8 @@
+setup.py
+date_simple/__init__.py
+date_simple/date_simple.py
+date_simple.egg-info/PKG-INFO
+date_simple.egg-info/SOURCES.txt
+date_simple.egg-info/dependency_links.txt
+date_simple.egg-info/not-zip-safe
+date_simple.egg-info/top_level.txt

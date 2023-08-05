@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: date_simple
+Version: 0.1
+Summary: Wrapper module which provides a simplified interface to a few of the date functions of the datetime module.
+Home-page: https://github.com/rcristal/nyu_advanced_python
+Author: Rexford Cristal
+Author-email: rexford.cristal@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
