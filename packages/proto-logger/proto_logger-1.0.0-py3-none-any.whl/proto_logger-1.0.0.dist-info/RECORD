@@ -1,0 +1,7 @@
+proto_logger/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+proto_logger/__version__.py,sha256=RPjQ5Y0AiaPLfWvQ71qrhQNq1NbU9aCHLb9B242Whhg,63
+proto_logger/core.py,sha256=NHs6crvX7N8ZUWiIEsIyAzxzh4dTFecAZgFoPqhWhfY,364
+proto_logger-1.0.0.dist-info/METADATA,sha256=j7AETAmi9AOoqupgkjKKBeakHgboWZB1OM2hfIILn0U,732
+proto_logger-1.0.0.dist-info/RECORD,,
+proto_logger-1.0.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+proto_logger-1.0.0.dist-info/top_level.txt,sha256=1EsaJgWmEwfcf3b8Bd-hcgSYKVkIk6F7SvYzaZ-9Yow,13
