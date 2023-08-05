@@ -1,0 +1,6 @@
+docopt~=0.6
+progress~=1.4
+sodapy~=1.5
+SQLalchemy~=1.2
+tabulate~=0.8
+geoalchemy2~=0.5
