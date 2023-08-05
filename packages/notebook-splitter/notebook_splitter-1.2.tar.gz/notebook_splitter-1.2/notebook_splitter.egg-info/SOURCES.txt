@@ -1,0 +1,9 @@
+README.md
+setup.py
+nbsplit/nbsplit.py
+notebook_splitter.egg-info/PKG-INFO
+notebook_splitter.egg-info/SOURCES.txt
+notebook_splitter.egg-info/dependency_links.txt
+notebook_splitter.egg-info/entry_points.txt
+notebook_splitter.egg-info/not-zip-safe
+notebook_splitter.egg-info/top_level.txt
