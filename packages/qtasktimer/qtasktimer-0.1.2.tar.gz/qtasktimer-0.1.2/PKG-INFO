@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: qtasktimer
+Version: 0.1.2
+Summary: Simple timer for timeboxing built with PyQt 5
+Home-page: https://github.com/kvas-it/qtasktimer
+Author: Vasily Kuznetsov
+Author-email: kvas.it@gmail.com
+Maintainer: Vasily Kuznetsov
+Maintainer-email: kvas.it@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
