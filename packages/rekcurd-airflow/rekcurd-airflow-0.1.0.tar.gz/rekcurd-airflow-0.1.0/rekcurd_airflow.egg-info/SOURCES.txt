@@ -1,0 +1,17 @@
+README.md
+setup.py
+rekcurd_airflow/__init__.py
+rekcurd_airflow/_project.py
+rekcurd_airflow/_version.py
+rekcurd_airflow.egg-info/PKG-INFO
+rekcurd_airflow.egg-info/SOURCES.txt
+rekcurd_airflow.egg-info/dependency_links.txt
+rekcurd_airflow.egg-info/requires.txt
+rekcurd_airflow.egg-info/top_level.txt
+rekcurd_airflow/operators/__init__.py
+rekcurd_airflow/operators/evaluation_upload_operator.py
+rekcurd_airflow/operators/model_delete_operator.py
+rekcurd_airflow/operators/model_evaluate_operator.py
+rekcurd_airflow/operators/model_switch_operator.py
+rekcurd_airflow/operators/model_upload_operator.py
+rekcurd_airflow/operators/rekcurd_operator.py
