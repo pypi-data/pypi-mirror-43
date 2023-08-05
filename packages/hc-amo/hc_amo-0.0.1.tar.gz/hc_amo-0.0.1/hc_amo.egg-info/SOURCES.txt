@@ -1,0 +1,6 @@
+README.md
+setup.py
+hc_amo.egg-info/PKG-INFO
+hc_amo.egg-info/SOURCES.txt
+hc_amo.egg-info/dependency_links.txt
+hc_amo.egg-info/top_level.txt
