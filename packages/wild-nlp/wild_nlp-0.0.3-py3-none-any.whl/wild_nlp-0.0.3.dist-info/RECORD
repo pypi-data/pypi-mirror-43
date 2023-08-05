@@ -1,0 +1,13 @@
+wildnlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wildnlp/aspects/__init__.py,sha256=Cin1PFcjpo9reDl7XZBNX4WI7e3ljkNfrkaxz2uEXDo,61
+wildnlp/aspects/base.py,sha256=eoY19NIbsDaNiaqTc4NJjQ1wmxRPzxGTyBC_kNhyI-8,354
+wildnlp/aspects/piglatin.py,sha256=D6f2qHwlEwXabl8YtvAn1WeWFYkFzEhb-IYrXDiBacU,494
+wildnlp/aspects/reverser.py,sha256=RBjiFwW7KifgCMdOwLpTEiN3cCc4sd2HCRCetMpLmc8,406
+wildnlp/aspects/utils.py,sha256=Bf_5SsRB-fhoP-muKv5c1ZWTyJuL61T14jVwK5fqBOg,322
+wildnlp/datasets/__init__.py,sha256=qehtTHbsCs3TvHrKN1SrRiFo6Wlaf1Pq0xqCl_oHpoQ,41
+wildnlp/datasets/base.py,sha256=YL1TuqLCuRyKPnBFf7TeC4lLxKcPPtmguYdVCKgTGSI,364
+wildnlp/datasets/sample_dataset.py,sha256=SuHwa-5QJ8qUuWlrQfhNpAyS1bFKa1uYUA_4jYIe3Dk,572
+wild_nlp-0.0.3.dist-info/METADATA,sha256=afaEPWmt03cuQHiWhC8VvfP8StCQCMBej28rdtqyCKw,1214
+wild_nlp-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+wild_nlp-0.0.3.dist-info/top_level.txt,sha256=OS9BhRLIU6_NhLsD9BaH7hVK5MzXQloVahH6VdaSYZk,8
+wild_nlp-0.0.3.dist-info/RECORD,,
