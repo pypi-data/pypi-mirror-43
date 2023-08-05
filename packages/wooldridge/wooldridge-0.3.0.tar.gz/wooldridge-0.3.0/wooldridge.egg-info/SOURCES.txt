@@ -1,0 +1,11 @@
+README.md
+setup.py
+./wooldridge/__init__.py
+./wooldridge/load_data.py
+./wooldridge/datasets/__init__.py
+./wooldridge/description/__init__.py
+wooldridge.egg-info/PKG-INFO
+wooldridge.egg-info/SOURCES.txt
+wooldridge.egg-info/dependency_links.txt
+wooldridge.egg-info/requires.txt
+wooldridge.egg-info/top_level.txt
