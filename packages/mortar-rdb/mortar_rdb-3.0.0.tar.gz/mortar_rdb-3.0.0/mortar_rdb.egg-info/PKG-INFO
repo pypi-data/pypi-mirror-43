@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mortar-rdb
+Version: 3.0.0
+Summary: SQLAlchemy and the component architecture tied together for easy use in multi-package projects for any framework
+Home-page: https://github.com/Mortar/mortar_rdb
+Author: Chris Withers
+Author-email: chris@simplistix.co.uk
+License: MIT
+Description: ==========
+        mortar_rdb
+        ==========
+        
+        This package ties together `SQLAlchemy`__ and
+        the `component architecture`__ to make it easy to develop projects
+        using SQLAlchemy through their complete lifecycle.
+        
+        __ http://www.sqlalchemy.org/
+        __ http://docs.zope.org/zope.component/narr.html
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Provides-Extra: build

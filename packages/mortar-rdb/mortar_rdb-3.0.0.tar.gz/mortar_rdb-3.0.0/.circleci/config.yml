@@ -1,0 +1,90 @@
+version: 2.1
+
+orbs:
+  python: cjw296/python-ci@1.1
+
+jobs:
+  sqlite:
+    parameters:
+      python:
+        type: string
+    docker:
+      - image: circleci/python:<< parameters.python >>
+    steps:
+      - python/pip-run-tests
+  postgres:
+    parameters:
+      python:
+        type: string
+    docker:
+      - image: circleci/python:<< parameters.python >>
+        environment:
+          DB_URL: postgresql://postgres@localhost/circle_test
+      - image: circleci/postgres:11.2-alpine-ram
+    steps:
+      - python/pip-run-tests:
+          extra_packages: psycopg2
+  mysql:
+    parameters:
+      python:
+        type: string
+    docker:
+      - image: circleci/python:<< parameters.python >>
+        environment:
+          DB_URL: mysql+pymysql://root@localhost/circle_test
+      - image: circleci/mysql:8.0.3-ram
+    steps:
+      - python/pip-run-tests:
+          extra_packages: PyMySQL
+
+common: &common
+  jobs:
+    - sqlite:
+        name: python27-sqlite
+        python: '2.7'
+    - postgres:
+        name: python27-postgres
+        python: '2.7'
+    - mysql:
+        name: python27-mysql
+        python: '2.7'
+    - sqlite:
+        name: python37-sqlite
+        python: '3.7'
+    - postgres:
+        name: python37-postgres
+        python: '3.7'
+    - mysql:
+        name: python37-mysql
+        python: '3.7'
+
+    - python/coverage:
+        name: coverage
+        requires:
+          - python27-sqlite
+          - python27-postgres
+          - python27-mysql
+          - python37-sqlite
+          - python37-postgres
+          - python37-mysql
+
+    - python/release:
+        name: release
+        config: .carthorse.yml
+        requires:
+          - coverage
+        filters:
+          branches:
+            only: master
+
+workflows:
+  push:
+    <<: *common
+  periodic:
+    <<: *common
+    triggers:
+      - schedule:
+          cron: "0 0 * * 4"
+          filters:
+            branches:
+              only: master
