@@ -1,0 +1,7 @@
+setup.py
+ltdict/__init__.py
+ltdict/ltdict.py
+ltdict.egg-info/PKG-INFO
+ltdict.egg-info/SOURCES.txt
+ltdict.egg-info/dependency_links.txt
+ltdict.egg-info/top_level.txt
