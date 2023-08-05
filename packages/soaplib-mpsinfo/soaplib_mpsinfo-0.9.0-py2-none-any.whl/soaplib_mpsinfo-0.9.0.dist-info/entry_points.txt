@@ -1,0 +1,4 @@
+[console_scripts]
+wsdl2py = soaplib.parsers.wsdlparse:run
+xsd2py = soaplib.parsers.typeparse:run
+
