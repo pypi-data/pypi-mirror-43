@@ -1,0 +1,8 @@
+README.md
+setup.py
+whereismysock.py
+whereismysock.egg-info/PKG-INFO
+whereismysock.egg-info/SOURCES.txt
+whereismysock.egg-info/dependency_links.txt
+whereismysock.egg-info/requires.txt
+whereismysock.egg-info/top_level.txt
