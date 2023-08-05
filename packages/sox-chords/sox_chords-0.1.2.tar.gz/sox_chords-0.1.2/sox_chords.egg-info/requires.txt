@@ -1,0 +1,8 @@
+pytest
+numpy
+librosa
+matplotlib
+requests
+pyqtgraph
+tqdm
+imageio
