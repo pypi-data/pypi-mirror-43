@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: datalad_webapp
+Version: 0.2
+Summary: DataLad extension for exposing commands via a web request API
+Home-page: UNKNOWN
+Author: The DataLad Team and Contributors
+Author-email: team@datalad.org
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
