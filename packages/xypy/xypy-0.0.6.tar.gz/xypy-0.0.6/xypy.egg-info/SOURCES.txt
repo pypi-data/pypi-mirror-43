@@ -1,0 +1,8 @@
+README.md
+setup.py
+xypy.py
+xypy.egg-info/PKG-INFO
+xypy.egg-info/SOURCES.txt
+xypy.egg-info/dependency_links.txt
+xypy.egg-info/requires.txt
+xypy.egg-info/top_level.txt
