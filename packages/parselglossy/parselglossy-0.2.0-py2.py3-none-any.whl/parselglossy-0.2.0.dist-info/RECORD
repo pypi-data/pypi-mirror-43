@@ -1,0 +1,12 @@
+parselglossy/__init__.py,sha256=-ANbYGVVTPnxql-d8qQLW6ff8A_uWobJRRZJAZQcQUE,1845
+parselglossy/cli.py,sha256=l7w2hlt9Bnyxh_TSfqVC9jZd2ydPobXEEwE1-Zafmfo,3640
+parselglossy/read_yaml.py,sha256=mtfrbxa5VZ0Y86bl5ANQEVG7JUoGze7zN8MyIXrZYT8,1811
+parselglossy/utils.py,sha256=q3Q6NNmeIml4f46MXmieOw7Oy1YCistonHCgf_Z5vlE,1905
+parselglossy/validate.py,sha256=oRZ6UrPf7vRkEEv9Luu6L2tg7y1fUt70M-vAxdEIc5g,9057
+parselglossy-0.2.0.dist-info/AUTHORS.rst,sha256=4o-dSaIXnRyI_kVTGIryO93jHuUBCXkdcBpeubw3AvU,249
+parselglossy-0.2.0.dist-info/LICENSE,sha256=z-tw1qgjQ6jmS5NlCTi0bzavQSbMxURsJ5F8texR-iY,1077
+parselglossy-0.2.0.dist-info/METADATA,sha256=7UjOjFlVY01v9jz_hNTY8bANGevzaIuV3OKTBEavnDU,3466
+parselglossy-0.2.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+parselglossy-0.2.0.dist-info/entry_points.txt,sha256=MwnszKD6M9PXT2m0Yt7RQCGYTpDjQ730W6tbwSMBQBE,55
+parselglossy-0.2.0.dist-info/top_level.txt,sha256=ul4VEjJRm91oLW4mhb76-p7rk1mMx1bTB1ZmIz0xBd8,13
+parselglossy-0.2.0.dist-info/RECORD,,
