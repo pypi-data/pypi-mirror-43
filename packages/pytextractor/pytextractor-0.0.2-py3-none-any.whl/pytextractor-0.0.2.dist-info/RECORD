@@ -1,0 +1,9 @@
+pytextractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytextractor/pytextractor.py,sha256=-sMvEzLi6FWucaka-eck7bKIuhGtgEUQYQA_LCY39o0,6795
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_detector.py,sha256=6wzXBArQz64lnbf8qHtb38Q_slfGbQdpnkaHPqxg860,1228
+pytextractor-0.0.2.dist-info/LICENSE,sha256=_K8I_u09cC3CUUwO6_Oj1ecYo1u8_Xzopp0Un8o7Wkk,1069
+pytextractor-0.0.2.dist-info/METADATA,sha256=AYmh2csCvmwSg9LCXOg8mungZwz3gFzjSAQE8xj8Enw,1998
+pytextractor-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pytextractor-0.0.2.dist-info/top_level.txt,sha256=OQTIztuwRDCYhQ9C30CWCKwjTUj8fo4idNTl41zkNpk,19
+pytextractor-0.0.2.dist-info/RECORD,,
