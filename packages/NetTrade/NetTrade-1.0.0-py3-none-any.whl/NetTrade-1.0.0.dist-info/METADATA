@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: NetTrade
+Version: 1.0.0
+Summary: NetTrade tools
+Home-page: https://github.com/zpoint/NetTrade
+License: UNKNOWN
+Keywords: NetTrade eft拯救世界 网格策略 网格
+Author: zpoint
+Author-email: zp@zp0int.com
+Requires-Python: >=3.5.2
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: idataapi-transform
+Requires-Dist: requests
+Provides-Extra: .none
