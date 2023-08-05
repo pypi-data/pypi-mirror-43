@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: x11_hashw
+Version: 1.7
+Summary: Binding for X11 proof of work hashing.
+Home-page: https://github.com/mazaclub/x11_hash
+Maintainer: mazaclub
+Maintainer-email: kefkius@maza.club
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

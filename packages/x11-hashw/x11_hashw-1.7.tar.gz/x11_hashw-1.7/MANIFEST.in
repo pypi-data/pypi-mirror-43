@@ -1,0 +1,2 @@
+include *.h ./sha3/*.h
+recursive-include *.h ./sha3/*.h
