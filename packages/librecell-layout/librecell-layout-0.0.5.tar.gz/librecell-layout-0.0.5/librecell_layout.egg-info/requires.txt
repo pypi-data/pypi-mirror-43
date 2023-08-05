@@ -1,0 +1,10 @@
+librecell-common
+klayout
+numpy
+networkx
+pyspice
+scipy
+liberty-parser
+pysmt
+z3-solver
+pulp
