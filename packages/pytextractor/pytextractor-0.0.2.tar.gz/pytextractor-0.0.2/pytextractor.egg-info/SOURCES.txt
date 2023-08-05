@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pytextractor/__init__.py
+pytextractor/pytextractor.py
+pytextractor.egg-info/PKG-INFO
+pytextractor.egg-info/SOURCES.txt
+pytextractor.egg-info/dependency_links.txt
+pytextractor.egg-info/requires.txt
+pytextractor.egg-info/top_level.txt
+tests/__init__.py
+tests/test_detector.py
