@@ -1,0 +1,9 @@
+README.md
+setup.py
+mockapi/__init__.py
+mockapi/__main__.py
+mockapi.egg-info/PKG-INFO
+mockapi.egg-info/SOURCES.txt
+mockapi.egg-info/dependency_links.txt
+mockapi.egg-info/entry_points.txt
+mockapi.egg-info/top_level.txt
