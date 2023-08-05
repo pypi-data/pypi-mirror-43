@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hub-cep
+Version: 0.0.3
+Summary: Hub to connect multiple cep providers and setup a lambda func
+Home-page: https://github.com/lucassimon/hub-cep
+Author: Lucas Simon
+Author-email: lucassrod@gmail.com
+License: MIT
+Keywords: correios busca endereco cep
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Natural Language :: Portuguese
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.4
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: typing
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# hub-cep
+
+Busca CEP utilizando diferentes provedores de consulta
+
+[![CircleCI](https://circleci.com/gh/lucassimon/hub-cep.svg?style=svg)](https://circleci.com/gh/lucassimon/hub-cep)
+![Coverage](./static/coverage.svg)
+
+
