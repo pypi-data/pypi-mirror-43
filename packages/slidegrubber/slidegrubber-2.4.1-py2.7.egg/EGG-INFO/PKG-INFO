@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: slidegrubber
+Version: 2.4.1
+Summary: Back up your SlideShare presentations to PDF.
+Home-page: https://github.com/cballenar/slidegrubber
+Author: Carlos Ballena
+Author-email: cballenar@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: funniest joke comedy flying circus
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Utilities
