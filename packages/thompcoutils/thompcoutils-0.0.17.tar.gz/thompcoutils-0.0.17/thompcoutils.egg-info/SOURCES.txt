@@ -1,0 +1,10 @@
+README.md
+setup.py
+thompcoutils.egg-info/PKG-INFO
+thompcoutils.egg-info/SOURCES.txt
+thompcoutils.egg-info/dependency_links.txt
+thompcoutils.egg-info/requires.txt
+thompcoutils.egg-info/top_level.txt
+thompcoutilsx/__init__.py
+thompcoutilsx/logging.py
+thompcoutilsx/os.py
