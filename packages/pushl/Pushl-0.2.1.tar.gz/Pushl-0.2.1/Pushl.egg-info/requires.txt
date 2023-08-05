@@ -1,0 +1,10 @@
+feedparser
+beautifulsoup4
+awesome-slugify
+aiohttp
+lxml
+
+[dev]
+pylint
+twine
+flake8
