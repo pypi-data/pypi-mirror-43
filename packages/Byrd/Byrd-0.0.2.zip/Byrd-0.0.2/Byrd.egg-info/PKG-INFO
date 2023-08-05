@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: Byrd
+Version: 0.0.2
+Summary: Simple deployment tool based on Paramiko
+Home-page: https://bitbucket.org/bertrandchenal/byrd
+Author: Bertrand Chenal
+Author-email: bertrand@adimian.com
+License: MIT
+Description: 
+        
+        Byrd is yet another deployment tool. Byrd is a mashup of Paramiko
+        (https://www.paramiko.org/) and the sup config file layout
+        (https://github.com/pressly/sup).
+        
+        The name Byrd is a reference to Donald Byrd.
+        
+Platform: UNKNOWN
