@@ -1,0 +1,5 @@
+setup.py
+kw_datalib.egg-info/PKG-INFO
+kw_datalib.egg-info/SOURCES.txt
+kw_datalib.egg-info/dependency_links.txt
+kw_datalib.egg-info/top_level.txt
