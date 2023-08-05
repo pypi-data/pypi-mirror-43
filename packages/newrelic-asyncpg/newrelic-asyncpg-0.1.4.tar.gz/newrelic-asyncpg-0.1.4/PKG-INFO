@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: newrelic-asyncpg
+Version: 0.1.4
+Summary: Unofficial extension for the NewRelic Python Agent for support asyncpg database adapter
+Home-page: https://github.com/KorsaR-ZN/python-newrelic-asyncpg
+Author: Stanislav Kiryukhin
+Author-email: korsar.zn@gmail.com
+License: MIT
+Description: # NewRelic extensions / asyncpg
+        
+        **Unofficial** extension for the NewRelic Python Agent for support `asyncpg` database adapter
+        
+        ## Features
+        
+        * Timing of database queries
+        * Capturing SQL for the database query
+        * Capturing a stack trace for long database queries
+        
+        **not supported:**
+        
+        * Capturing trace for database query operations `commit` `rollback` database
+        * Capturing explain plans for slow database queries
+        
+        
+        ## Installation
+        
+        ```bash
+        pip install newrelic_asyncpg
+        ```
+        
+        Append in your newrelic.ini
+        
+        ```ini
+        [import-hook:asyncpg]
+        enabled = true
+        execute = newrelic_asyncpg:instrument
+        ```
+        
+        
+Keywords: asyncpg,newrelic,extensions
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
