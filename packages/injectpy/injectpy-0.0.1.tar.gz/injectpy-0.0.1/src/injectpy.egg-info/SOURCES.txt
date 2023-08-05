@@ -1,0 +1,11 @@
+setup.py
+src/injectpy/__init__.py
+src/injectpy/kernel.py
+src/injectpy/reflection.py
+src/injectpy/utils.py
+src/injectpy.egg-info/PKG-INFO
+src/injectpy.egg-info/SOURCES.txt
+src/injectpy.egg-info/dependency_links.txt
+src/injectpy.egg-info/not-zip-safe
+src/injectpy.egg-info/requires.txt
+src/injectpy.egg-info/top_level.txt
