@@ -1,0 +1,10 @@
+jogger_python/__init__.py,sha256=p7glRysC141dcRfhaKkYXOQKAQs1NqbPxnQFAFDsnYA,3026
+jogger_python/config.py,sha256=CTiFdEuQwaUYIr_J3x-cdCj7oY0-MXobI0ZH1ty5Y7E,1048
+jogger_python/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jogger_python/test/config.py,sha256=tozJU40BzWvsuqekWMpkedkN1rNu2RNg4N0qRb54ZHU,2484
+jogger_python/test/logger.py,sha256=C157Zm3ml905IOQqLEM7LQomZpLWWgfFW6O7AkLYfzg,991
+jogger_python-1.8.0.dist-info/LICENSE,sha256=U9T_OYgbXstV4vVQ0C6mZasRqe29LRnjwey2GzXoTuE,1057
+jogger_python-1.8.0.dist-info/METADATA,sha256=g7y-z5kFzLqsN6zDvXDSilxRX9p8_wyu3zvHU6cH838,565
+jogger_python-1.8.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jogger_python-1.8.0.dist-info/top_level.txt,sha256=h74cCuQjQ56QevYAsW0oMbuGnMY049OdpXZ4hhxlcsc,14
+jogger_python-1.8.0.dist-info/RECORD,,
