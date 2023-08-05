@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: stravapi
+Version: 1.0.0
+Summary: A portable RestAPI for Strava
+Home-page: https://github.com/wefner/stravapi
+Author: Oriol Fabregas
+Author-email: fabregas.oriol@gmail.com
+License: Apache Software License 2.0
+Description: ==========
+        stravapi
+        ==========
+        
+        A portable RestAPI for Strava
+        
+        
+        * Documentation: https://stravapi.readthedocs.org/en/latest
+        
+        
+        Project Features
+        ================
+        
+        * TODO
+        
+        
+        
+        
+        History
+        -------
+        
+        0.0.1 (01-03-2019)
+        ---------------------
+        
+        * First code creation
+        
+Keywords: stravapi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
