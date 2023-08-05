@@ -1,0 +1,17 @@
+trackingprotection_tools/DisconnectParser.py,sha256=ODuZrFzfwizLrTVfPH1NZxqla4pYfkKlspd-LWG0vhM,15968
+trackingprotection_tools/DisconnectReporting.py,sha256=fmSwAEZ1E6U87SOXyUq_LDFTL2CcqJRm8qM9VTh2YxQ,9636
+trackingprotection_tools/__init__.py,sha256=3UCSD7vIp4UzRn-ejPWLkDnSz6V4MzZjpwp-mF8IqCY,171
+trackingprotection_tools/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trackingprotection_tools/test/basetest.py,sha256=AeipUZRS6KDomu5DrfIns5slkA0TIBv6griwcwUjFKQ,1626
+trackingprotection_tools/test/conftest.py,sha256=Ye0IXlUV0CSixBSjTSlTh6z_1M9HRRS_19QCp-jdI7w,503
+trackingprotection_tools/test/test_disconnect_parser.py,sha256=ABseu-Tw8lEF2bhwj7IQw8inqQrz7s5VPrcGcyjueow,9550
+trackingprotection_tools/test/test_env.py,sha256=Ju5XLFTPvqntc_YNzE9MlX-EazH0mdPPUXLIZkxeeTE,678
+trackingprotection_tools/test/utilities.py,sha256=ehX3L0GLJrdQL0mDxvMod7lCKbSzY-u3uUseXcLlluY,1199
+trackingprotection_tools/test/resources/test-blocklist.json,sha256=JcbRrYUa_3-UENmfZhGB9RRajiQOxLtc953l0-LbwWo,3217
+trackingprotection_tools/test/resources/test-entitylist.json,sha256=iAQJwLnsEdl5Ue1-xCOQelh-AeassynNZtFdTwZjvlA,255
+trackingprotection_tools/test/resources/test-mapping.json,sha256=PI5gFHIT9mvh4vKEgqVnYfcSW-n-XcwcP2n0TzN0g1M,376
+trackingprotection_tools-0.4.3.dist-info/LICENSE,sha256=93wS5CJFdDxquWDGf9gXFbp6UUnzWDY2XUQjKKadVcI,16723
+trackingprotection_tools-0.4.3.dist-info/METADATA,sha256=IKsnxi8w8a_9L5iz8IT6kcRRSa3QXj_LyVfwRB1AS7c,1556
+trackingprotection_tools-0.4.3.dist-info/WHEEL,sha256=_eaHuBxOHdDlLnwQU30U16Q6vfvhsEhxIYEpcPcf8n0,92
+trackingprotection_tools-0.4.3.dist-info/top_level.txt,sha256=YGKRgCBrZCYZK6ZlJsAaL4BxeWeWqUJLViqB42-W_co,25
+trackingprotection_tools-0.4.3.dist-info/RECORD,,
