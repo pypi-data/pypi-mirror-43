@@ -1,0 +1,14 @@
+protmapper/__init__.py,sha256=RKa92j3-jfiFDFcgMxXW3ZHCuTPFXs5SrPgGDvH85sU,610
+protmapper/api.py,sha256=k76OQN5G0zXb2r5mRya0yfCX_CPMmNMb3zql0iORnsA,26338
+protmapper/curated_site_map.csv,sha256=6qPhdzoQhxdwUTZk8JLc_TSkTxIy2ltCeuE2r8OJNvU,8118
+protmapper/phosphosite_client.py,sha256=PxX4lZjGFF3eDEfF3COcPPoM9bPDY1_WW18fOLR47jQ,7666
+protmapper/refseq_client.py,sha256=4ZM-kQFqSwktn5o8WTvvWSxW3Y8X3bFIScH7sf9dvsg,1163
+protmapper/resources.py,sha256=Uy7cEc57JuUZPRD5i5YZetaqpJT8BwJxy6HoKCOtJa8,10637
+protmapper/uniprot_client.py,sha256=SR01X4nC4MI_leCuhFmJWyo0_3eiFgj9nzDG8CyJ7OY,27154
+protmapper/tests/test_cache_read.pkl,sha256=unmiyc5fFMuaRGqpcrjNOv0cAl37Q8cfpD_zNK2LEqo,297
+protmapper-0.0.4.dist-info/DESCRIPTION.rst,sha256=zGJ1v5zBygXvORP-whn_coGP0fkushnJVQFtsTbW97s,224
+protmapper-0.0.4.dist-info/METADATA,sha256=wYR1IapI14pMT3D4hxUfMR43ME3pu4Sk9QWvBAjLEUg,980
+protmapper-0.0.4.dist-info/RECORD,,
+protmapper-0.0.4.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+protmapper-0.0.4.dist-info/metadata.json,sha256=vdgJraq0Lowu9qCmAzFw2KTWrq7kep4SZt5VAUjJxYI,954
+protmapper-0.0.4.dist-info/top_level.txt,sha256=wCrQRlcHX83cCRg01oSxLQmkZqZD0A_pqdPvvq26Wqc,11
