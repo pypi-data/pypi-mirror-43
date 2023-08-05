@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+dq3d/DualQuaternion.h
+dq3d/__init__.py
+dq3d/dual_quaternion_py.cc
+dq3d/op.py
+dq3d/quaternion_plugin.h
+dq3d.egg-info/PKG-INFO
+dq3d.egg-info/SOURCES.txt
+dq3d.egg-info/dependency_links.txt
+dq3d.egg-info/not-zip-safe
+dq3d.egg-info/requires.txt
+dq3d.egg-info/top_level.txt
