@@ -1,0 +1,7 @@
+numpy
+scipy
+Pillow
+grpcio
+tensorflow
+tensorflow-serving-api
+dlib
