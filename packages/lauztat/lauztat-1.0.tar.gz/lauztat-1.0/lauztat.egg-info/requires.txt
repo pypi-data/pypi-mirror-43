@@ -1,0 +1,6 @@
+iminuit
+numpy
+scipy
+attrs>=18.2.0
+numba
+matplotlib
