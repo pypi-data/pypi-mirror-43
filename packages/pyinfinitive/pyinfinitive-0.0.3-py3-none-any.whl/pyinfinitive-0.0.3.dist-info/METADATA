@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyinfinitive
+Version: 0.0.3
+Summary: An API wrapper for the Infinitive project.
+Home-page: https://github.com/mww012/pyinfinitive.git
+Author: Michael Wood
+Author-email: mww012@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Create an infinitive device class that wraps the Infinitive hvac projects API.  Can pull stats, set hvac mode, fan mode, hold, as well as cool and heat setpoints.
+
+
