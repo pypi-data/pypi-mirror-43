@@ -1,0 +1,8 @@
+deploypypi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deploypypi/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deploypypi/pdf2text.py,sha256=EkdgVZsDuD89tk6oSmchzEkVExkj194iphv1TixaW3E,43
+karipdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+karipdf-1.0.dist-info/METADATA,sha256=H_nOR_ACnwxCEDOhJj1gLj8ca46rQLBLGkCTyO4AIYU,198
+karipdf-1.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+karipdf-1.0.dist-info/top_level.txt,sha256=Yx9QRKj88FFxAJIkK6hjWEObAbF46Cw7cR4tKTRHRVs,11
+karipdf-1.0.dist-info/RECORD,,
