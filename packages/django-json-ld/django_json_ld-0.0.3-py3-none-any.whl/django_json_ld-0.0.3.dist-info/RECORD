@@ -1,0 +1,10 @@
+django_json_ld/__init__.py,sha256=P_G8IYNC1hI4yUvQVJQJ7FLkK_OofclL9lAdVTJXt6s,50
+django_json_ld/settings.py,sha256=4ryTm1LQhQvjXEQl004I2u5jG-gDaHQSggXFwEHFGlE,400
+django_json_ld/views.py,sha256=SlfR_P72PhtIdtvEX8ZPxKvkqMw7uWs0FyOu-6p5gAs,1434
+django_json_ld/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_ld/templatetags/json_ld.py,sha256=Z-xKuOGL_8e0bwar1Fp1vWNVhTS4xzG_An5gSOsghDE,352
+django_json_ld-0.0.3.dist-info/LICENSE,sha256=UKgrDBxtZnm5Lbc6VjpPDVIseQUvaRFQek604Exi1W0,1069
+django_json_ld-0.0.3.dist-info/METADATA,sha256=LzA4pszvcgp0rXBdUZ5j9fTWMSlKySn9fvdGjbCCRXI,3476
+django_json_ld-0.0.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+django_json_ld-0.0.3.dist-info/top_level.txt,sha256=wLYV3YwU62GF_seaMgdI953iavi0u0-51WMZ2cHY6Z4,15
+django_json_ld-0.0.3.dist-info/RECORD,,
