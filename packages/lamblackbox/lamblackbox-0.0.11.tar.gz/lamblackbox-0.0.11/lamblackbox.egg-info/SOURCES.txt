@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+lamblackbox/__init__.py
+lamblackbox.egg-info/PKG-INFO
+lamblackbox.egg-info/SOURCES.txt
+lamblackbox.egg-info/dependency_links.txt
+lamblackbox.egg-info/top_level.txt
