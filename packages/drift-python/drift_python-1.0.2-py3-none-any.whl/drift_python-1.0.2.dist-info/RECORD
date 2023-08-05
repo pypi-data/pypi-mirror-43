@@ -1,0 +1,12 @@
+drift/__init__.py,sha256=7z9JQUp2jcxKoaZEN90iIFfRlyi5uCkfXdC0hZf1M0U,75
+drift/api.py,sha256=AmCmGshksiTIHkY3FzE9LCfkNnv7_vzIF-y6_wkTMOE,1796
+drift/contacts.py,sha256=Kq6vTpOewbD-9TZA5mwCfuiCxMciT0QWwdEg4Gl7tjA,2182
+drift/conversations.py,sha256=XdDm9G2uo9sXFJgYXSsJkZEGdH9yViC5YHElPZvr7Qs,2344
+drift/errors.py,sha256=rByWSXaEyVA5hHW5d1SwkaM_KLxIiJmlms01kRMijWs,137
+drift/utils.py,sha256=GZFVXby8ItG-21Y9cYZk2Qh3tKyaHjS7v1XrKPLuv3c,439
+drift_python-1.0.2.dist-info/DESCRIPTION.rst,sha256=t-E-iBSA9w3H5NJoz5BYnsdwft-IDx-ps6f980vr7mo,3003
+drift_python-1.0.2.dist-info/METADATA,sha256=aZlUzf4fmQhYQLCNI4pN8U9BtkG38DObYNW2WQg-g4A,3315
+drift_python-1.0.2.dist-info/RECORD,,
+drift_python-1.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+drift_python-1.0.2.dist-info/metadata.json,sha256=7SYNk5f9LdKKbGNl79WqccEnA6PFMSzpc13VEMQ1TdI,539
+drift_python-1.0.2.dist-info/top_level.txt,sha256=3u2KGqsciGZQ2uCoBivm55t3e8er8S4xnqkgdQ_8oeM,6
