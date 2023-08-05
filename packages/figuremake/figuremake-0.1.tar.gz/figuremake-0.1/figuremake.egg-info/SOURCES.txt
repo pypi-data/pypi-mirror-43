@@ -1,0 +1,10 @@
+README.md
+setup.py
+figuremake/__init__.py
+figuremake/main.py
+figuremake.egg-info/PKG-INFO
+figuremake.egg-info/SOURCES.txt
+figuremake.egg-info/dependency_links.txt
+figuremake.egg-info/entry_points.txt
+figuremake.egg-info/requires.txt
+figuremake.egg-info/top_level.txt
