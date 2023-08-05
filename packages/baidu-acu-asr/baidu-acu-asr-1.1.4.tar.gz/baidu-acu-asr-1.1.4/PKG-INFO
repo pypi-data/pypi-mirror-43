@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: baidu-acu-asr
+Version: 1.1.4
+Summary: asr grpc client
+Home-page: https://github.com/baidubce/pie/tree/master/audio-streaming-client-python-sdk
+Author: Baidu
+Author-email: 1908131339@qq.com
+License: Apache License
+Description: # version 1.1.3 
+        
+        ### improvement 
+        
+        - 添加读取url流的方法
+        - 添加asr_product
+        
+        ### feature
+        
+        ### bug fix
+        
+        
+        # version 1.1.2
+        ### improvement
+        
+        - 修改send package size的计算方法
+        
+        ### feature 
+        
+        - 修改AsrClient.py名称为asr_client.py
+        
+        ### bug fix
+        
+Keywords: baidu,asr,speech
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
