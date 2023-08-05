@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: algorithms3
+Version: 0.1.0
+Summary: Data Structures and Algorithms using Python
+Home-page: https://github.com/gulshalla/algorithms
+Author: Omar Shalla
+Author-email: omarhassangul@gmail.com
+License: MIT
+Description: # algorithms
+        Data Structures and Algorithms Python library
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
