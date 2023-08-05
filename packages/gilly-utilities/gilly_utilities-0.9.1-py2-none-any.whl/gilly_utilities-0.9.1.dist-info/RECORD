@@ -1,0 +1,17 @@
+gilly_utilities/__init__.py,sha256=A0WljnRwa-t29eL_oZRVvEpQGzXdlsIgj4Cksq9aGig,700
+gilly_utilities/datetime64.py,sha256=DvojFxa9UmH63VFx63Rowy9OmJXFlYeO_1cNEbqg_Ho,23456
+gilly_utilities/extras.py,sha256=dB0qty1NErEYG0cyNnmm7sdyuXryKcJ5XM9IRJTwniY,4044
+gilly_utilities/geospatial.py,sha256=jkSdLmxtWP2jMI-k5bmrsS4vYlEg2E-oiFISbzAw1bM,5693
+gilly_utilities/manipulation.py,sha256=W7SXCLEPmtMwjwzyivRL8ax-qomHkYXbsFSMWsBmDyY,50983
+gilly_utilities/math.py,sha256=HIg4HsL-dI0sNMsb3spVA88zIaNuSDAzgAdwtTEbWzk,9072
+gilly_utilities/meteorology.py,sha256=67xLFNcRULuTxy-ChYZ9u4lhM5jKl-akFa-biG3AQ1g,26065
+gilly_utilities/nanfunctions.py,sha256=mFyOgiFJetlVMDWa8Aooml_TUQBuJ1TTA7GQMj8S4qY,17997
+gilly_utilities/plotting.py,sha256=0WsAOL_WkGgcO-DDAH3wAFsbuPlo7jKkgSskCo09kbE,22127
+gilly_utilities/setup.py,sha256=FGSSkd2YMbKqXXkCAi5XCR431FLEMNNPDv5tlfT5FE0,692
+gilly_utilities/stats.py,sha256=hAYtvdKynxbh74DMubqjoaxdtmhrsRuMnWZnFJmyxHY,70842
+gilly_utilities/system.py,sha256=v7pezVF_t-3OscNcCqC5EoAW4xtRI0-SoG8qI3oahyI,10849
+gilly_utilities-0.9.1.dist-info/LICENSE,sha256=7GVL9cdpO_bxvQ9B2JwwnsCUS2Olf3VZT46Y18esV3E,1069
+gilly_utilities-0.9.1.dist-info/METADATA,sha256=4N89btZEtXeej1AmeR4n97SfnJxfpXV88gve1qIsjkQ,1340
+gilly_utilities-0.9.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+gilly_utilities-0.9.1.dist-info/top_level.txt,sha256=1AA4hormYjjE63vh05g8PFbF141a_HVK-XBCI0dg64E,16
+gilly_utilities-0.9.1.dist-info/RECORD,,
