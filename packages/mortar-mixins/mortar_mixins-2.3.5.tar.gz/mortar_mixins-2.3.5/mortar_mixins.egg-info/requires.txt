@@ -1,0 +1,14 @@
+SQLAlchemy
+psycopg2
+
+[build]
+setuptools-git
+wheel
+twine
+
+[test]
+pytest
+pytest-cov
+mortar_rdb
+testfixtures
+coveralls
