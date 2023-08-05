@@ -1,0 +1,12 @@
+gripql/__init__.py,sha256=oUZ6bDnGrkQ_Dt1ZU4pYlkPiNoZby27wuKTfz15ZA9w,732
+gripql/aggregations.py,sha256=1Awu2-zMS1D8VIP0gDa70Cug4J_hheu44XySvgH3joE,600
+gripql/connection.py,sha256=NWVMk6TZ9XJykoJTsjmumY6NrdMrzgSwPvWeqWllZTQ,1538
+gripql/graph.py,sha256=6Ws2MwZE8DmejBXuGKDSWuRn0xaMmfGy7lWXC2kw3VY,5375
+gripql/operators.py,sha256=fS3uhZrlyP-iLaXqpQhjTGy3zC_X36sbN3Q1qru9TkU,1760
+gripql/query.py,sha256=n5MVheocGebwK_rvLdhb-XxFmFprYnIFRcDpYsf59-0,10267
+gripql/util.py,sha256=lMggBoLwvc8duUgsfRBILzgZzoUDWfgHh8eTL13S8_4,8187
+gripql-0.2.1.dist-info/METADATA,sha256=nmCFRFj8ccTzWCp5bhSpOznMzVknlMLrKPNBvZ1o1UQ,1403
+gripql-0.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+gripql-0.2.1.dist-info/top_level.txt,sha256=IKooleRe6oTSYiq7zdNAnNBT1vSDPVU-yBS-IXDKlgk,7
+gripql-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gripql-0.2.1.dist-info/RECORD,,
