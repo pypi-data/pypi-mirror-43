@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: coomatrix
+Version: 0.0.1
+Summary: This package calculates the Co-occurence matrix.
+Home-page: https://github.com/calculatecooccurencematrix/coomatrix
+Author: Gaurav Singh
+Author-email: gs8763076@gmail.com
+License: UNKNOWN
+Description: # coomatrix
+        This repository files related to my first open source project which calculates the co-occurence matrix.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)

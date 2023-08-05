@@ -1,0 +1,8 @@
+setup.py
+coomatrix/__init__.py
+coomatrix/coomatrix.py
+coomatrix.egg-info/PKG-INFO
+coomatrix.egg-info/SOURCES.txt
+coomatrix.egg-info/dependency_links.txt
+coomatrix.egg-info/requires.txt
+coomatrix.egg-info/top_level.txt
