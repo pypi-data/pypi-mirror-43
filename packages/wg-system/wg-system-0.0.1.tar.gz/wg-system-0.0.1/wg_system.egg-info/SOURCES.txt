@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+wg_system/__init__.py
+wg_system/__version__.py
+wg_system/registration_form.py
+wg_system.egg-info/PKG-INFO
+wg_system.egg-info/SOURCES.txt
+wg_system.egg-info/dependency_links.txt
+wg_system.egg-info/requires.txt
+wg_system.egg-info/top_level.txt
