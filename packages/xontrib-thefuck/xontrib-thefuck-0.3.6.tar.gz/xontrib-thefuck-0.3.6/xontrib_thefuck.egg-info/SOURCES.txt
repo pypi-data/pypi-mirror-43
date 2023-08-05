@@ -1,0 +1,8 @@
+README.md
+setup.py
+xontrib/thefuck.py
+xontrib_thefuck.egg-info/PKG-INFO
+xontrib_thefuck.egg-info/SOURCES.txt
+xontrib_thefuck.egg-info/dependency_links.txt
+xontrib_thefuck.egg-info/requires.txt
+xontrib_thefuck.egg-info/top_level.txt
