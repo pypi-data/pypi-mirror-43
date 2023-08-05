@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xontrib-thefuck
+Version: 0.3.6
+Summary: Xonsh extension for thefuck
+Home-page: UNKNOWN
+Author: Owen Campbell
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Requires-Dist: thefuck
+
+UNKNOWN
+
+
