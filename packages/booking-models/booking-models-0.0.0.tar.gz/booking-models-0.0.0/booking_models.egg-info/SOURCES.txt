@@ -1,0 +1,5 @@
+setup.py
+booking_models.egg-info/PKG-INFO
+booking_models.egg-info/SOURCES.txt
+booking_models.egg-info/dependency_links.txt
+booking_models.egg-info/top_level.txt
