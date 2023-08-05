@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+max-ent/__init__.py
+max_ent.egg-info/PKG-INFO
+max_ent.egg-info/SOURCES.txt
+max_ent.egg-info/dependency_links.txt
+max_ent.egg-info/entry_points.txt
+max_ent.egg-info/requires.txt
+max_ent.egg-info/top_level.txt
