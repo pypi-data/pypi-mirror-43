@@ -1,0 +1,7 @@
+README.md
+setup.py
+food/__init__.py
+food.egg-info/PKG-INFO
+food.egg-info/SOURCES.txt
+food.egg-info/dependency_links.txt
+food.egg-info/top_level.txt
