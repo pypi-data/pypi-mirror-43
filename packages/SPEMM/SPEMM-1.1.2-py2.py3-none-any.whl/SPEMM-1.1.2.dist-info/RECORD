@@ -1,0 +1,14 @@
+SPEMM/__init__.py,sha256=a8_A84Bkv9cWkRKraAs_5n_mFcjqNaYe6IKy3j6eqjY,4096
+SPEMM/main.py,sha256=E-n1ilzrQkoZttVes41PPsQqu3sMSTNVk0KavtmS8o8,4161
+SPEMM/metrics.py,sha256=hstsapHUgw-gbQR46MbrMyeEbNWQGHSfJyMv1ujnSJI,1575
+SPEMM/utils.py,sha256=aYZQcOlOv1U6PKU_tz11nbMUENLoYsJzbaUIXkOWWXY,1742
+SPEMM-1.1.2.dist-info/METADATA,sha256=v_FflUpLylkeY9fu1oAbKJn_K0j-HcJvA09ONUNulDQ,2514
+SPEMM-1.1.2.dist-info/RECORD,,
+SPEMM-1.1.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+SPEMM-1.1.2.dist-info/entry_points.txt,sha256=C3Z6nIqkdsWHwEZhME9MziG4Mao-mS7iu_CGUhh5NA8,41
+SPEMM-1.1.2.dist-info/top_level.txt,sha256=koLuh-5n0IxuDWd5LmaRtK_OX2m5EN1QGaWu1EVLVUs,6
+SPEMM-1.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jujube_pill/__init__.py,sha256=L2l9miV9DS6av4aucW10-dfjToDkQQyNqMAl97aUMmw,107
+jujubes_pill/__init__.py,sha256=L2l9miV9DS6av4aucW10-dfjToDkQQyNqMAl97aUMmw,107
+utils/__init__.py,sha256=OXN9MfeovLwCfUL12DI7WPVC1WXRsoMdllDgIUpTalA,109
+utils/utils.py,sha256=aYZQcOlOv1U6PKU_tz11nbMUENLoYsJzbaUIXkOWWXY,1742
