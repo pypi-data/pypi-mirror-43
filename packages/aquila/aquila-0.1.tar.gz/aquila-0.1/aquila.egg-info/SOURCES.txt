@@ -1,0 +1,8 @@
+README.md
+setup.py
+aquila/aquila.py
+aquila.egg-info/PKG-INFO
+aquila.egg-info/SOURCES.txt
+aquila.egg-info/dependency_links.txt
+aquila.egg-info/requires.txt
+aquila.egg-info/top_level.txt
