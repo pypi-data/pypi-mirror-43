@@ -1,0 +1,10 @@
+zipit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zipit/__main__.py,sha256=schE67JzeF4uYozHtlKcYr0M1jCJWk6gBqdC4FvH-A8,62
+zipit/cli.py,sha256=P1n-wQRI3jA9Zw_z5-rtM8BxwVejbbFNic_r6zD1jyA,606
+zipit/zipit.py,sha256=wX_b273Svlw9H-1t7G-KUa11O7UEG8qQnrk7Othdac4,799
+zipit-0.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zipit-0.0.2.dist-info/METADATA,sha256=zbSfw8a9PiQSdGnoHiLxy5AHzye30PVOD6wJ7Iwc66o,1333
+zipit-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+zipit-0.0.2.dist-info/entry_points.txt,sha256=0bsBW2vYj_xuGJw2amUwwg591JF9T6DnM0JiP7WU0j0,42
+zipit-0.0.2.dist-info/top_level.txt,sha256=5eTzpO0_PjZW2g7CygGr63hz9hzWK5atqWGGihRW43s,6
+zipit-0.0.2.dist-info/RECORD,,

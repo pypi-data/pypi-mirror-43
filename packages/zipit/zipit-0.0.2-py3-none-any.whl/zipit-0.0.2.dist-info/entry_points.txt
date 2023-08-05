@@ -1,0 +1,3 @@
+[console_scripts]
+zipit = zipit.cli:main
+
