@@ -1,0 +1,7 @@
+# kola.plugins.cache
+redis-cache
+argon2_cffi
+# kola.serializers
+ujson
+# kola.request.locale
+babel
