@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: figuremake
+Version: 0.1
+Summary: Create black and white PNGs
+Home-page: https://github.com/ahoetker/figuremake
+Author: Andrew Hoetker
+Author-email: ahoetker@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: Pillow
+
+UNKNOWN
+
+
