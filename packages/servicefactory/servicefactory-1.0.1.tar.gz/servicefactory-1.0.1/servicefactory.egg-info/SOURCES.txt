@@ -1,0 +1,12 @@
+MANIFEST.in
+Makefile
+setup.py
+.github/README.md
+servicefactory/Service.py
+servicefactory/TestService.py
+servicefactory/__init__.py
+servicefactory.egg-info/PKG-INFO
+servicefactory.egg-info/SOURCES.txt
+servicefactory.egg-info/dependency_links.txt
+servicefactory.egg-info/requires.txt
+servicefactory.egg-info/top_level.txt
