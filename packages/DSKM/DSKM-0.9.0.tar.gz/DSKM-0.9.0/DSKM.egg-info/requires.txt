@@ -1,0 +1,4 @@
+dnspython>=1.16.0
+ecdsa>=0.13
+pycryptodome>=3.7.3
+script>=1.7.2

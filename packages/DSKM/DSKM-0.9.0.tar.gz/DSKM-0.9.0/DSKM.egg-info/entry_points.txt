@@ -1,0 +1,3 @@
+[console_scripts]
+operate_dskm = DSKM.operate:execute_from_command_line
+
