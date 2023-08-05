@@ -1,0 +1,8 @@
+mypy>=0.660
+zope.interface
+zope.schema
+
+[test]
+pytest<4.1.0,>=4.0.0
+pytest-cov
+lxml
