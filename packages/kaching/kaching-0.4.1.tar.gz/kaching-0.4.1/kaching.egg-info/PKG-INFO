@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: kaching
+Version: 0.4.1
+Summary: Sound effects for test driven development.
+Home-page: https://github.com/crdoconnor/kaching
+Author: Colm O'Connor
+Author-email: colm.oconnor.github@gmail.com
+License: MIT
+Description: # Kaching
+        
+        Sound effects for making test driven development a bit more fun.
+        
+        Kaching plays a variety of sounds from computer games to signify the
+        beginning of a test run, a failure and a success.
+        
+        To install:
+        
+        ```bash
+        $ apt-get install mplayer (or equivalent)
+        $ pip install kaching
+        ```
+        
+        Command line use:
+        
+        ```bash
+        $ kaching start
+        [ starting sound ]
+        
+        $ kaching fail
+        [ failure sound ]
+        
+        $ kaching win
+        [ passing test sound ]
+        ```
+        
+        Python API use::
+        
+        ```python
+        >>> import kaching
+        >>> kaching.start()
+        [ starting sound ]
+        
+        >>> kaching.fail()
+        [ failure sound ]
+        
+        >>> kaching.win()
+        [ passing test sound ]
+        ```
+        
+        Kaching requires mpg123 to be installed to make a sound although it won't
+        raise an exception / exit with status code > 0 if it isn't.
+        
+        Sounds taken from : http://soundfxnow.com/
+        
+Keywords: tests sound effects notifications
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Description-Content-Type: text/markdown
