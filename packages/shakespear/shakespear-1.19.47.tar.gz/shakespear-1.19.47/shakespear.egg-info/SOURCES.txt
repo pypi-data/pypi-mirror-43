@@ -1,0 +1,12 @@
+README.md
+__init__.py
+setup.py
+shakespear.egg-info/PKG-INFO
+shakespear.egg-info/SOURCES.txt
+shakespear.egg-info/dependency_links.txt
+shakespear.egg-info/top_level.txt
+writers/__init__.py
+writers/base_css.py
+writers/constants.py
+writers/html_writer.py
+writers/markdown_writer.py
