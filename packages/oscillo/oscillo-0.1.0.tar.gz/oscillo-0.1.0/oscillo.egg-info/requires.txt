@@ -1,0 +1,4 @@
+psutil==5.2.2
+matplotlib==2.1.0
+numpy==1.13.1
+PyYAML==3.13
