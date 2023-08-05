@@ -1,0 +1,3 @@
+[console_scripts]
+riemann-zyxel-gs1200 = riemann_zyxel_gs1200:__main__.main
+
