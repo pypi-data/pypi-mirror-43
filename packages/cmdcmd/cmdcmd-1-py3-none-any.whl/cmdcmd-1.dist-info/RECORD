@@ -1,0 +1,8 @@
+cmdcmd/__init__.py,sha256=9TxQg22rUF0Yy3KfF_PU6yacZ2a9xs2AZ7pYd8SYdaQ,219
+cmdcmd/cmd.py,sha256=Rx5Km39L4vMIwh4IL4oQ-diK8-al_N-0zpwNJNzcgS8,37521
+cmdcmd/test.py,sha256=UjOcmOcCgn42_ocHVCwsOFNPichZUYT20wcoN-xclhk,1936
+cmdcmd/util.py,sha256=Y4JqwueUN1IqCyCy35Xo-qtUyVRpTU33ERxUq-y4qZQ,4038
+cmdcmd-1.dist-info/METADATA,sha256=ZpZ84Vu0ZQh4i--1n2D8nd5Jmhy1xZNnaC3g1O2C59s,1779
+cmdcmd-1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cmdcmd-1.dist-info/top_level.txt,sha256=DU9zSR9YxLZ9EsQIz6OyogLmWIUFeY81OTdOs68OsPo,7
+cmdcmd-1.dist-info/RECORD,,
