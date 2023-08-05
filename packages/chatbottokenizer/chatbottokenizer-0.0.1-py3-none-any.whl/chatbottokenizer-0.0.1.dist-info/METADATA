@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: chatbottokenizer
+Version: 0.0.1
+Summary: Tokenizer for chat bots
+Home-page: https://github.com/t94j0/chatbot-tokenizer
+Author: Max Harley
+Author-email: maxh@maxh.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Tokenizer for text messages
+
+## Setup
+
+TODO
+
+## Usage
+
+```py
+from tokenizer import Tokenizer
+
+INPUT_STRING = '!bot create george'
+tokens = Tokenizer(INPUT_STRING)
+if tokens.match('!bot create <name>'):
+  items = tokens.items()
+  print('Name is: {}'.format(items['name']))
+```
+
+Note: `.items()` must be called after a `.match()`
+
+
