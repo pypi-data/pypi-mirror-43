@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_operation_key.py,sha256=6TZOZpF7TGbedwijZQCzfcazRHVcPqwfUlardciM5B0,1730
+tests/test_two_xpath_addition.py,sha256=nb_afqkmoQT7bJHBemVbmUyAquwrhhHeUswsacJbs98,3599
+tests/test_xpath.py,sha256=TqlS0vJ0OebwCeClyoqmRa27TltFYJohfzF5vot_a20,2829
+xpath_string/__init__.py,sha256=IwcBFZN82iOo8csWZ1owRYvl32V9GnKXrKcqgggrAyE,117
+xpath_string/_operation_key.py,sha256=bUdEN56-6LBYWMI7yQIdaaXpPQYSFlnjK0LpAQROLV4,1344
+xpath_string/two_xpath_addition.py,sha256=dc3qITFvmv1ziJM0u3bCWOQg7oxjsPHK4kSrmO-G37Y,3032
+xpath_string/xpath.py,sha256=CDHBWiBX7Hz0-XEFM6OiHvnPkwf47aeXZedX2SFSAeA,732
+xpath_string-0.1.3.dist-info/LICENSE,sha256=_rh6LgwwXeNGTMRAd9pTk8UtjKY2LTdCcVfQTsb0UQ0,1057
+xpath_string-0.1.3.dist-info/METADATA,sha256=87bjtHOPhaH37VDUo6mNwtdJw-9S1iiyB-DHFcM0H6w,454
+xpath_string-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+xpath_string-0.1.3.dist-info/top_level.txt,sha256=6yKeaDHZ1hYjCXnQKpGmF8tnTwywHECmzHBxnXkTJFs,19
+xpath_string-0.1.3.dist-info/RECORD,,
