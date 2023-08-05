@@ -1,0 +1,13 @@
+README.md
+setup.py
+multi_factor_model/__init__.py
+multi_factor_model/cprint.py
+multi_factor_model/evaluate.py
+multi_factor_model/fit_model.py
+multi_factor_model/prepare.py
+multi_factor_model/utilise.py
+multi_factor_model.egg-info/PKG-INFO
+multi_factor_model.egg-info/SOURCES.txt
+multi_factor_model.egg-info/dependency_links.txt
+multi_factor_model.egg-info/not-zip-safe
+multi_factor_model.egg-info/top_level.txt
