@@ -1,0 +1,7 @@
+[console_scripts]
+fresher-list = fresher.commands:list_steps
+
+[nose.plugins.0.10]
+fresher = fresher.noseplugin:FresherNosePlugin
+freshererr = fresher.noseplugin:FresherErrorPlugin
+

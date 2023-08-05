@@ -1,0 +1,4 @@
+PyYAML
+nose>=0.11.1
+pyparsing>=1.5.0
+six
