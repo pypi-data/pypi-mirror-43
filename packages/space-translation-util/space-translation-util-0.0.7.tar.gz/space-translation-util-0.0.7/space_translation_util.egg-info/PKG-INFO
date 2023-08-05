@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: space-translation-util
+Version: 0.0.7
+Summary: Space Translation Utility
+Home-page: https://github.com/SpaceBank/space-translation-util
+Author: Roman Akopov
+Author-email: roman.akopovi@space.ge
+License: UNKNOWN
+Description: # Space Translation Utility
+        
+        ## What It Does?
+        
+        This command line utility extracts translation data, texts and codes, from specified Google Sheet and generates localization files for Android and iOS.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
