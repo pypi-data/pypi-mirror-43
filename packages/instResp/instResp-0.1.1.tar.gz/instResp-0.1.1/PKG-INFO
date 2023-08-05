@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: instResp
+Version: 0.1.1
+Summary: MTH: seismic/acoustic instrument response lib
+Home-page: UNKNOWN
+Author: MTH
+Author-email: m.hagerty@isti.com
+License: UNKNOWN
+Description: Long description goes here
+        
+Keywords: microquake,seismology,acoustics,signal processing,instrument response,polezeros
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
