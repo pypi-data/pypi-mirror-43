@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hotspots
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/prcurran/hotspots
+Author: Chris Radoux, Peter Curran, Mihaela Smilova
+Author-email: pcurran@ccdc.cam.ac.uk
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (==1.15.4)
+Requires-Dist: csd-python-api (>=2.0.0)
+Requires-Dist: rdkit (==2018.09.1)
+Requires-Dist: matplotlib (==2.2.3)
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: scikit-image (==0.14.2)
+Requires-Dist: pandas
+Requires-Dist: futures
+Requires-Dist: cython (==0.29.5)
+Requires-Dist: tqdm (==4.31.1)
+Requires-Dist: xmltodict (==0.12.0)
+
+Hotspots 1.0.0
+
+
