@@ -1,0 +1,10 @@
+logger/__init__.py,sha256=VbUO_bJFnERWmhxMIF2avANiYwVo-iRMNFmZaxBtvrY,3151
+logger/config.py,sha256=CTiFdEuQwaUYIr_J3x-cdCj7oY0-MXobI0ZH1ty5Y7E,1048
+logger/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logger/test/config.py,sha256=x9NKUYfieeXXDY-gnNYID__W8GXVB7VJzFQT_L7pyt0,2484
+logger/test/logger.py,sha256=gOKiVH9Y34fz5EuymakMYMsqpPlFnZrmtM4nvIOPoOE,1009
+jogger_python-1.5.0.dist-info/LICENSE,sha256=U9T_OYgbXstV4vVQ0C6mZasRqe29LRnjwey2GzXoTuE,1057
+jogger_python-1.5.0.dist-info/METADATA,sha256=k--oMt4z3oHAodmXB0dVqaTFHXVGBMYZ7iVIHTgy_PI,565
+jogger_python-1.5.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jogger_python-1.5.0.dist-info/top_level.txt,sha256=4a72cfKcY8dIFCuJ02V62KKPPO_91UXAjcL0R5qkrHs,7
+jogger_python-1.5.0.dist-info/RECORD,,
