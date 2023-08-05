@@ -1,0 +1,5 @@
+setup.py
+kw_goauth2.egg-info/PKG-INFO
+kw_goauth2.egg-info/SOURCES.txt
+kw_goauth2.egg-info/dependency_links.txt
+kw_goauth2.egg-info/top_level.txt
