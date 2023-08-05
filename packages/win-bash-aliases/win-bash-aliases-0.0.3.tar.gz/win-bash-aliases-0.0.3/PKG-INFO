@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: win-bash-aliases
+Version: 0.0.3
+Summary: Windows WSL bash aliases for cmd and powershell
+Home-page: https://github.com/spyoungtech/win-bash-aliases/
+Author: Spencer Young
+Author-email: spencer.young@spyoung.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
