@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: setupcfg
+Version: 2019.3.11
+Summary: setup.cfg helper
+Home-page: https://github.com/looking-for-a-job/setupcfg.py
+License: UNKNOWN
+Description: <!--
+        https://pypi.org/project/readme-generator/
+        -->
+        
+        [![](https://img.shields.io/pypi/pyversions/setupcfg.svg?longCache=True)](https://pypi.org/project/setupcfg/)
+        
+        #### Installation
+        ```bash
+        $ [sudo] pip install setupcfg
+        ```
+        
+        #### Classes
+        class|`__doc__`
+        -|-
+        `setupcfg.cfg.Setupcfg` |`setup.cfg` generator class. dict/attr access
+        
+        #### Functions
+        function|`__doc__`
+        -|-
+        `setupcfg.get(section, option, default=None)` |return the value for option if option is in the `setup.cfg`, else default
+        `setupcfg.getmodules()` |return a list of module objects
+        `setupcfg.load(path='setup.cfg')` |return dictionary with `setup.cfg` sections dictionaries
+        
+        #### Related projects
+        +   [`classifiers-generator` - classifiers generator](https://pypi.org/project/readme-docstring/)
+        +   [`readme-badges` - `README.md` badges](https://pypi.org/project/readme-badges/)
+        +   [`readme-docstring` - generate README.md from python docstrings](https://pypi.org/project/readme-docstring/)
+        +   [`readme-generator` - `README.md` generator](https://pypi.org/project/readme-generator/)
+        +   [`setupcfg-generator` - `setup.cfg` generator](https://pypi.org/project/setupcfg-generator/)
+        +   [`travis-generator` - `.travis.yml` generator](https://pypi.org/project/travis-generator/)
+        
+        #### Links
+        +   [metadata, options - setuptools documentation](http://setuptools.readthedocs.io/en/latest/setuptools.html#metadata)
+        +   [Specifying values](http://setuptools.readthedocs.io/en/latest/setuptools.html#specifying-values)
+        
+        <p align="center">
+            <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+        </p>
+Keywords: setup.cfg setuptools setup
+Platform: UNKNOWN
+Classifier: Framework :: Setuptools Plugin
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Installation/Setup
+Description-Content-Type: text/markdown
