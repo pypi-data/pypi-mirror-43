@@ -1,0 +1,11 @@
+durationwidget/__init__.py,sha256=V18OPXAjj1yxlPNnHVeKmVHFwADNlZwWgXh-qnZl4_Q,21
+durationwidget/apps.py,sha256=o4jbAtVMuE_MqPIJTpmozVWm-rZY_AtyBsBAJ5NUg2Q,103
+durationwidget/widgets.py,sha256=NUnx7gOsjnKiNA8JiQjGb5pld9sD7mMoIMpBS5azIVo,5282
+durationwidget/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+durationwidget/templates/widgets/duration_multiple_input.html,sha256=IiJpWAoZ0h1CMeEax3-Ie6CQt7LJBYOronBEpyd_Zrs,161
+durationwidget/templates/widgets/labeled_number_input.html,sha256=ildzuYugjni2T321U7zWGmZeM5hsrLtgRXKeqZU9pLY,287
+django_durationwidget-1.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+django_durationwidget-1.0.4.dist-info/METADATA,sha256=0YJLgvUwUSXAF18apJzc3hrsG7rbULe4-4fteMrZaBo,2542
+django_durationwidget-1.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_durationwidget-1.0.4.dist-info/top_level.txt,sha256=GOeFaD3l2cnNk5JPxe6zvPgtd0HFGezP015l8MoU7X0,15
+django_durationwidget-1.0.4.dist-info/RECORD,,
