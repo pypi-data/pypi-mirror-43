@@ -1,0 +1,7 @@
+dgp
+gunicorn
+aiohttp
+
+[develop]
+pylama
+tox
