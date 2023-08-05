@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dj-cref
+Version: 0.0.2
+Summary: The django generic view output unit
+Home-page: https://github.com/Canon11/dj-cref
+Author: Kazuma Murata
+Author-email: mrt014kzm@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: django,generic,output
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
