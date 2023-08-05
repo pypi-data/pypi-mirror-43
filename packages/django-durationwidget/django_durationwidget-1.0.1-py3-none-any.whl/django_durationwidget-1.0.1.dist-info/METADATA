@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: django-durationwidget
+Version: 1.0.1
+Summary: Django Duration field widget to handle duration field in the form
+Home-page: https://github.com/devangpadhiyar/django-durationwidget
+Author: Devang Padhiyar
+Author-email: devangpadhiyar700@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=1.11)
+
+#  Django Duration Widget
+
+Django duration widget is used for simplfiend Django model's `Duration` field.
+
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add `durationwidget` to your `INSTALLED_APPS` setting like this::
+
+```python
+INSTALLED_APPS = [
+    ...
+    'durationwidget',
+]
+```
+
+
