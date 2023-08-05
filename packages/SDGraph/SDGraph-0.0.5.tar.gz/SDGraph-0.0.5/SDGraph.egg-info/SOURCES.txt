@@ -1,0 +1,11 @@
+README.md
+setup.py
+SDGraph/__init__.py
+SDGraph/dependency_analysis.py
+SDGraph/dependency_graph.py
+SDGraph.egg-info/PKG-INFO
+SDGraph.egg-info/SOURCES.txt
+SDGraph.egg-info/dependency_links.txt
+SDGraph.egg-info/requires.txt
+SDGraph.egg-info/top_level.txt
+bin/SDGraph
