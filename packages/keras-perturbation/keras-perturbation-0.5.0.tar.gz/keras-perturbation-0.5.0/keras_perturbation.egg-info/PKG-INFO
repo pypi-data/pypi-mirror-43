@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: keras-perturbation
+Version: 0.5.0
+Summary: A demonstration of perturbation of data
+Home-page: https://github.com/CyberZHG/keras-perturbation
+Author: CyberZHG
+Author-email: CyberZHG@gmail.com
+License: MIT
+Description: # Keras Perturbation
+        
+        [![Travis](https://travis-ci.org/CyberZHG/keras-perturbation.svg)](https://travis-ci.org/CyberZHG/keras-perturbation)
+        [![Coverage](https://coveralls.io/repos/github/CyberZHG/keras-perturbation/badge.svg?branch=master)](https://coveralls.io/github/CyberZHG/keras-perturbation)
+        [![PyPI](https://img.shields.io/pypi/pyversions/keras-perturbation.svg)](https://pypi.org/project/keras-perturbation/)
+        
+        A demonstration of perturbation of data.
+        
+        ## Install
+        
+        ```bash
+        pip install keras-perturbation
+        ```
+        
+        ## Usage
+        
+        See [demo](https://github.com/CyberZHG/keras-perturbation/tree/master/demo).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
