@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+myapp/__init__.py
+siblab.egg-info/PKG-INFO
+siblab.egg-info/SOURCES.txt
+siblab.egg-info/dependency_links.txt
+siblab.egg-info/entry_points.txt
+siblab.egg-info/top_level.txt
