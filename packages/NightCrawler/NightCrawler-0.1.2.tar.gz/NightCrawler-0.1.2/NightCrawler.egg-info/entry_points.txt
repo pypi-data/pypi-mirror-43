@@ -1,0 +1,3 @@
+[console_scripts]
+nightcrawler = nightcrawler.crawler:main
+
