@@ -1,0 +1,5 @@
+setup.py
+kw_chiquita.egg-info/PKG-INFO
+kw_chiquita.egg-info/SOURCES.txt
+kw_chiquita.egg-info/dependency_links.txt
+kw_chiquita.egg-info/top_level.txt
