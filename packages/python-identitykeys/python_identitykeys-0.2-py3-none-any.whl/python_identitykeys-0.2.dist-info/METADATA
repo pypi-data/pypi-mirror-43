@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: python-identitykeys
+Version: 0.2
+Summary: Tools for using Factom identity keys
+Home-page: https://github.com/FactomProject/python-identitykeys
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Keywords: factom,identity
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: ed25519
+Requires-Dist: python-bitcoinlib
+
+UNKNOWN
+
+
