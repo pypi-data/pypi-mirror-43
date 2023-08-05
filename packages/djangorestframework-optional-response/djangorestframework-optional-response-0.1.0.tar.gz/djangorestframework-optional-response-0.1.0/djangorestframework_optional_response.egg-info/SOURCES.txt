@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+djangorestframework_optional_response.egg-info/PKG-INFO
+djangorestframework_optional_response.egg-info/SOURCES.txt
+djangorestframework_optional_response.egg-info/dependency_links.txt
+djangorestframework_optional_response.egg-info/top_level.txt
+rest_framework_optional_response/__init__.py
