@@ -1,0 +1,3 @@
+[markdown.extensions]
+tagtomarkdown = tagtomarkdown:TableTagExtension
+
