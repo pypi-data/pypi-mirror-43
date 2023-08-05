@@ -1,0 +1,5 @@
+setup.py
+pyloric.egg-info/PKG-INFO
+pyloric.egg-info/SOURCES.txt
+pyloric.egg-info/dependency_links.txt
+pyloric.egg-info/top_level.txt
