@@ -1,0 +1,9 @@
+setup.py
+py.alice.egg-info/PKG-INFO
+py.alice.egg-info/SOURCES.txt
+py.alice.egg-info/dependency_links.txt
+py.alice.egg-info/not-zip-safe
+py.alice.egg-info/requires.txt
+py.alice.egg-info/top_level.txt
+pyalice/__init__.py
+pyalice/pyalice.py
