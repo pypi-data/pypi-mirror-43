@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: data-worker
+Version: 0.1.1
+Summary: An API wrapper for all data sources used by Synechron's Data Science team
+Home-page: https://gitlab.com/Kevin.OBrien/data_worker
+Author: Kevin O'Brien
+Author-email: Kevin.OBrien@Synechron.com
+License: UNKNOWN
+Description: # DataWorker
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

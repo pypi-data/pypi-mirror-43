@@ -1,0 +1,10 @@
+README.md
+setup.py
+data_worker/__init__.py
+data_worker/data_worker.py
+data_worker/defined_wrappers.py
+data_worker/mapper.py
+data_worker.egg-info/PKG-INFO
+data_worker.egg-info/SOURCES.txt
+data_worker.egg-info/dependency_links.txt
+data_worker.egg-info/top_level.txt
