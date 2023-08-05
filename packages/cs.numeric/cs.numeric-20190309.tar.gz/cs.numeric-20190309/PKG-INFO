@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cs.numeric
+Version: 20190309
+Summary: some numeric functions; currently primes() and factors()
+Home-page: https://bitbucket.org/cameron_simpson/css/commits/all
+Author: Cameron Simpson
+Author-email: cs@cskk.id.au
+License: GNU General Public License v3 (GPLv3)
+Description: A few ad hoc numeric alogrithms: `factors` and `primes`.
+        
+        ## Function `factors(n)`
+        
+        Generator yielding the prime factors of `n` in order from lowest to highest.
+        
+        ## Function `primes()`
+        
+        Generator yielding the primes in order starting at 2.
+Keywords: python2,python3
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
