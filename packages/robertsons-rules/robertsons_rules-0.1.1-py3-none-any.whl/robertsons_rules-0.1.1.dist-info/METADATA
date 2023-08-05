@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: robertsons-rules
+Version: 0.1.1
+Summary: A tool for making paper ready plots
+Home-page: https://github.com/ryanhausen/robertsons-rules
+Author: Ryan Hausen
+Author-email: rhausen@ucsc.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: cmocean
+Requires-Dist: matplotlib
+
+
+# Robertson's Rules of Orderly Plots
+
+This is a helper library for making paper ready plots.
+
+
