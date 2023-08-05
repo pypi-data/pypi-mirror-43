@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: git-changelog
+Version: 0.1.0
+Summary: Automatic Changelog generator using Jinja2 templates.
+Home-page: https://github.com/pawamoy/git-changelog
+Author: Timothée Mazzucotelli
+Author-email: pawamoy@pm.me
+Keywords: git,changelog,changelog-generator,commit-style,commit-convention
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Jinja2 (>=2.10,<3.0)
+Project-URL: Repository, https://github.com/pawamoy/git-changelog
