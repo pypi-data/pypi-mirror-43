@@ -1,0 +1,141 @@
+{% extends "rest_framework/base.html" %}
+
+{% block meta %}
+
+{% endblock %}
+
+{% block title %}
+    {{ name }}
+{% endblock %}
+
+{% block style %}
+    {{ block.super }}
+    {% load static %}
+     <link rel="stylesheet" href="{% static "mixrestview/highlight/styles/ascetic.css" %}">
+{% endblock %}
+
+{% block branding %}
+    <a class='navbar-brand' rel="nofollow" href='http://www.django-rest-framework.org'>
+        Application Program Interface
+    </a>
+{% endblock %}
+
+{% block breadcrumbs %}
+    <div style="margin-top: 70px;"> </div>
+{% endblock %}
+
+
+{% block description %}
+    <style>
+        #myTabContent > div{
+            margin-top: 10px;
+        }
+        #myTabContent > div > div > table{
+            border-radius: 4px;
+            background-color: #f7f7f9;
+        }
+        #text_help th{
+            border-bottom-width: 0;
+        }
+
+        .hljs{
+            background: inherit !important;
+        }
+    </style>
+    <ul id="myTab" class="nav nav-tabs" style="border-bottom: 1px solid #ddd;">
+        <li class="active" style="float: left;">
+            <a href="#home" data-toggle="tab">
+                <label>接口说明</label>
+            </a>
+        </li>
+        <li style="float: left;">
+            <a href="#ios" data-toggle="tab"><label>参数文档？</label></a>
+        </li>
+    </ul>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <b>请求：{{ request.method }}</b>
+                                <b id="full_path">{{ request.get_full_path }}</b><br/>
+                                <b>描述：</b>
+                                <pre style="background: inherit !important;border: none !important;margin: -20px 0px -45px 10px !important;padding: 0px !important;">
+                                    <code class="python">{{ description }}</code>
+                                </pre>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="ios">
+            <div class="table-responsive">
+                <table id="text_help" class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>名称</th>
+                            <th>类型</th>
+                            <th>必选</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% if helps %}
+                            {% for onehelp in helps %}
+                                <tr>
+                                    <td>{{ onehelp.name }}</td>
+                                    <td>
+                                        <a href="#" class="toolpopover" data-toggle="tooltip" title="{{ onehelp.demo }}">
+                                            {{ onehelp.type }}
+                                        </a>
+                                    </td>
+                                    <td>{{ onehelp.need }}</td>
+                                    <td>{{ onehelp.desc }}</td>
+                                </tr>
+                            {%  endfor %}
+                        {% else %}
+                            无参数或无帮助信息
+                            <tr>
+                                <td colspan="4">无参数或无帮助信息</td>
+                            </tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block script %}
+    {{ block.super }}
+    {% load static %}
+    <script src="{% static "mixrestview/js/tooltip.js" %}"></script>
+    <script src="{% static "mixrestview/js/popover.js" %}"></script>
+    <script src="{% static "mixrestview/highlight/js/highlight.pack.js" %}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        $(document).ready(function () {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+
+            $("#myTab").parent().removeAttr("style");
+            $('.toolpopover').mouseover(function(e){
+                $(e.target).popover('show');
+            }).mouseout(function(e){
+                $(e.target).popover('hide');
+            });
+
+            var path = $("#full_path").html();
+            var uncode_ath = decodeURIComponent(path);
+            var local_path = "http://"+window.location.host+uncode_ath;
+            $("#full_path").html(local_path);
+
+            $(".request-info").first().remove();
+        });
+    </script>
+{% endblock %}
