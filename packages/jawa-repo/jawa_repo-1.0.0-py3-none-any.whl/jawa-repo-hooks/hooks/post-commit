@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+from os.path import dirname as __dirname, realpath as __realpath, join as __join
+
+sys.path.append(__join(__dirname(__dirname(__realpath(__file__))), "Modules", "Python"))
+
+import subprocess
+import EtnaAPI
+import EtnaAPI.Authentication
+import EtnaAPI.Todos
+
+
+def get_branch_name():
+    output = subprocess.check_output(["git", "branch"]).decode("utf-8")
+    return list(filter(lambda x: len(x) > 0 and x[0] == '*', output.split('\n')))[0][2:]
+
+
+def print_error(msg, status=0):
+    print(msg, file=sys.stderr)
+    exit(status)
+
+
+commit_file = '/tmp/jawa-commit-msg'
+
+branch_name = get_branch_name()
+typ, ticket_id = branch_name.split('/', 2)
+
+if typ not in ("feature", "hr", "cr", "fix"):
+    print_error("Unrecognized type '" + typ + "'", 1)
+
+try:
+    with open(commit_file, 'r') as f:
+        data = f.read()
+except (OSError, IOError) as e:
+    print_error("Unable to open commit file", 1)
+
+subject, _, title, ttl, tags, users, _, message = data.split('\n', 7)
+message = '\n'.join(filter(lambda s: len(s) == 0 or s[0] != '#', message.split('\n')))
+message = "**" + subject + '**\n\n' + message
+
+session = EtnaAPI.Session()
+auth_src = EtnaAPI.Authentication.KeyringAuthenticator()
+auth_src.authenticate(session)
+todoController = EtnaAPI.Todos.Controller(session)
+
+todo = todoController.get_todo(int(ticket_id))
+todo['title'] = title.split(': ', 2)[1]
+todo['ttl'] = ttl.split(': ', 2)[1]
+todo['tags'] = tags.split(': ', 2)[1].split(', ')
+
+user_properties = []
+for cur_user in users.split(': ', 2)[1].split(', '):
+    role, login = cur_user.split(':')
+    props = {'role': role, 'login': login, 'email': login + '@etna-alternance.net'}
+    user_properties.append(props)
+
+todo['users'] = user_properties
+todo['message'] = message
+todo['type'] = "commit"
+
+todoController.update_todo(ticket_id, todo)

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: jawa-repo
+Version: 1.0.0
+Summary: Utility to configure Git repositories for the JAWA worflow
+Home-page: https://github.com/etna-alternance/repo
+Author: Clément Doumergue
+Author-email: doumer_c@etna-alternance.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: EtnaAPI
+
+# Repo
+
+Commande et hooks Git pour l'environnement de développement des JAWAs
+
+## Installation
+
+Repo est installé directement lors de la configuration via **jawa-setup**, mais il peut également être installé de façon indépendante via la commande suivante :
+
+```bash
+pip3 install jawa-repo
+```
+
+## Utilisation
+
+Pour configurer un dépôt Git pour le workflow JAWA, c'est-à-dire y ajouter les hooks nécessaires :
+
+```bash
+repo setup
+```
+
+Pour commencer à travailler sur un ticket :
+
+```bash
+repo start [feature | fix | cr | hf] <ticket_id>
+```
+
+

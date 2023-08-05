@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+from os.path import dirname as __dirname, realpath as __realpath, join as __join
+
+sys.path.append(__join(__dirname(__dirname(__realpath(__file__))), "Modules", "Python"))
+
+import os
+from subprocess import check_output
+import re
+import EtnaAPI
+import EtnaAPI.Authentication
+import EtnaAPI.Todos
+
+commit = check_output(["git", "log", "-1", "--format=%H"]).decode("utf-8").strip("\n")
+
+if os.system("git branch --contains #{commit} | grep master > /dev/null") != 0:
+    exit(0)
+
+IDs = []
+lines = check_output(["git", "log", "--right-only", "--format=%s", "origin/master...HEAD"]).decode("utf-8").split("\n")
+
+for line in lines:
+    match = re.match("\[[^#]+#(\d+)\].*", line)
+    if match:
+        IDs.append(match.group())
+
+if len(IDs) == 0:
+    exit(0)
+
+IDs = list(set(IDs))
+
+session = EtnaAPI.Session()
+auth_src = EtnaAPI.Authentication.KeyringAuthenticator()
+auth_src.authenticate(session)
+todoController = EtnaAPI.Todos.Controller(session)
+
+for curID in IDs:
+    others = list(filter(lambda x: x != curID), IDs)
+    todo = dict()
+    todo['id'] = int(curID)
+    todo['type'] = "commit"
+    todo['message'] = "**Merge dans master**\n\n" \
+                      "Une branche contenant des références vers ce ticket vient d'être mergée dans master."
+    if len(others) > 0:
+        todo['message'] += "  \nC'est également le cas pour :\n\nle #" + ', le #'.join(others)
+    todoController.update_todo(todo['id'], todo)

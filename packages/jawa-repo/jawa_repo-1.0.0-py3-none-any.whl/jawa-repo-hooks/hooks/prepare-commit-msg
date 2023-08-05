@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+from os.path import dirname as __dirname, realpath as __realpath, join as __join
+
+sys.path.append(__join(__dirname(__dirname(__realpath(__file__))), "Modules", "Python"))
+
+import sys
+import subprocess
+import EtnaAPI
+import EtnaAPI.Todos
+import EtnaAPI.Authentication
+
+
+def get_branch_name():
+    output = subprocess.check_output(["git", "branch"]).decode("utf-8")
+    return list(filter(lambda x: len(x) > 0 and x[0] == '*', output.split('\n')))[0][2:]
+
+
+commit_file = sys.argv[1]
+commit_type = sys.argv[2] if len(sys.argv) > 2 else None
+commit_sha1 = sys.argv[3] if len(sys.argv) > 3 else None
+
+with open("/tmp/jawa-commit-type", 'w') as f:
+    print(commit_type, file=f)
+
+if commit_type in ("message", "template", "commit", "squash", "merge"):
+    exit(0)
+
+# The branch name should be follow the "<commit type>/<ticket ID>" model
+branch_name = get_branch_name()
+typ, ticket_id = branch_name.split('/', 2)
+
+if typ not in ("feature", "hr", "cr", "fix"):
+    print("Unrecognized branch type '" + typ + "'")
+    exit(1)
+
+# Log into Focus Manager to fetch ticket information
+session = EtnaAPI.Session()
+auth_src = EtnaAPI.Authentication.KeyringAuthenticator()
+auth_src.authenticate(session)
+todo_controller = EtnaAPI.Todos.Controller(session)
+todo = todo_controller.get_todo(int(ticket_id))
+
+# Fill the commit message with ticket information
+with open(commit_file, 'w') as f:
+    print('\n'.join((
+        "[{}#{}] blablabla".format(typ.upper(), ticket_id),
+        "",
+        "# titre: {}".format(todo['title']),
+        "# ttl: {}".format(todo['ttl']),
+        "# tags: {}".format(', '.join(sorted(todo['tags']))),
+        "# users: {}".format(
+            ', '.join(sorted(map(lambda cur_user: cur_user['role'] + ':' + cur_user['login'], todo['users'])))),
+        "",
+        "Autre blablabla en **Markdown** et je suis la description.",
+        "",
+        "Ca veut dire qu'il faut donc utiliser la syntaxe adequate :",
+        "",
+        "- y compris les listes",
+        "- les *trucs en italique*",
+        "- et les **trucs en gras**",
+        "",
+        "# Please enter the commit message for your changes. Lines starting",
+        "# with '#' will be ignored, and an empty message aborts the commit."
+    )), file=f)
+
+    out = subprocess.check_output(["git", "status"]).decode("utf-8")
+    print('\n'.join(map(lambda x: '# ' + x, out.split('\n'))), file=f)

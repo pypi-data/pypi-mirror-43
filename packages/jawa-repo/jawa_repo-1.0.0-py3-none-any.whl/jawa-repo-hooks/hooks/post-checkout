@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# encoding: UTF-8
+
+DIR=$(git rev-parse --show-toplevel)
+
+git submodule update --init --recursive
+
+if [ -f $DIR/composer.json ]; then
+    composer install 1> /dev/null
+fi
+
+if [ -f $DIR/package.json ]; then
+    npm install 1> /dev/null
+fi
+
+if [ -d $DIR/tmp/proxies ]; then
+    rm -Rf $DIR/tmp/proxies/*
+    chmod -R 777 $DIR/tmp/proxies
+fi

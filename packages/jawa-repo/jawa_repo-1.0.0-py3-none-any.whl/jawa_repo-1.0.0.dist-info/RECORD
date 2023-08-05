@@ -1,0 +1,13 @@
+jawa-repo-hooks/__init__.py,sha256=GFNBa2F2euSyJPwy2d050ibvFaC9E7vL8VIgjZ1peQo,73
+jawa-repo-hooks/hooks/commit-msg,sha256=rlRT4LUx9h0sYjGjdEVV-Ai7ygCTS1ecHHijPhJhTnw,1549
+jawa-repo-hooks/hooks/post-checkout,sha256=82LDvBFMAxz71MihVH-N34Mjq6WRCMgRR8pzHZWufGY,358
+jawa-repo-hooks/hooks/post-commit,sha256=e2jKQbzUAjhgqo54NvgyD_ZD1lYFycIvdQbHyFroZNU,1854
+jawa-repo-hooks/hooks/post-merge,sha256=KizUc8L5I0GV36w9h1f3IHUeoTChcVRgYPjbWWPY-3k,1481
+jawa-repo-hooks/hooks/post-rewrite,sha256=OMdXCXYra-70Oc59DodAWiiKEYa17JQkF_kRIrmVfEg,1443
+jawa-repo-hooks/hooks/prepare-commit-msg,sha256=xs25EXb4I1uWycSAotcs_19oAl1Zl2iNXkobV5f3qQ4,2428
+jawa_repo-1.0.0.data/scripts/repo,sha256=QTWYb9LZ0yU7lP3J0SLgRc8_orqT02D8kTaHAKNDLg0,2583
+jawa_repo-1.0.0.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+jawa_repo-1.0.0.dist-info/METADATA,sha256=XbxM8Kb3Ui61Nv_AlRTkzd-ktJy05Vt-X8zkkJ4FeVg,1041
+jawa_repo-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jawa_repo-1.0.0.dist-info/top_level.txt,sha256=z1jJWlN6v-4InmDzt02qOdKU62mHbV21WiDo2sWGH5I,16
+jawa_repo-1.0.0.dist-info/RECORD,,
