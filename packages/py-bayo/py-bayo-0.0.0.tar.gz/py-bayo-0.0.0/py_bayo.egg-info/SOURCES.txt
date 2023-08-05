@@ -1,0 +1,5 @@
+setup.py
+py_bayo.egg-info/PKG-INFO
+py_bayo.egg-info/SOURCES.txt
+py_bayo.egg-info/dependency_links.txt
+py_bayo.egg-info/top_level.txt
