@@ -1,0 +1,8 @@
+makeHelp
+makeUnits
+rpn
+setup
+setup_rpn
+testRPN
+testRPNWithAlpha
+unpickle
