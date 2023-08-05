@@ -1,0 +1,9 @@
+remu/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remu/binning.py,sha256=0Kx5_0wrHQEY8gZQy4l5ZKxjTxDzUDCMiQwSDApwCuk,61175
+remu/likelihood.py,sha256=z_RYfnrxTOuZD1cIfg1ohNcxa36wpQC9xtpuXahrmMA,75920
+remu/migration.py,sha256=SMNqF0mfC1T60YUPy9xWyaMlG6UDMvLclNgg_L5CzsU,77610
+remu-0.4.0.dist-info/METADATA,sha256=lp5AcVKadUeI0hqz13IvVij8__y9-AphnbT1f8GO53Q,1894
+remu-0.4.0.dist-info/RECORD,,
+remu-0.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+remu-0.4.0.dist-info/top_level.txt,sha256=56mP3hE4sA62B-zYlSUuLQb4HwytzL4e9k2BGk3Hws0,5
+remu-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
