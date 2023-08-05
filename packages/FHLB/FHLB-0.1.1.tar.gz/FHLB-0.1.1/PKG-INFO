@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: FHLB
+Version: 0.1.1
+Summary: API Interface to Federal Home Loan Bank of San Francisco.
+Home-page: http://pypi.python.org/pypi/FHLB/
+Author: Mark C. Woodworth
+Author-email: markcwoodworth@gmail.com
+License: MIT.txt
+Description: UNKNOWN
+Platform: UNKNOWN
