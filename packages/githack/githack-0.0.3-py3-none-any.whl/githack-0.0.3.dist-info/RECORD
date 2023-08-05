@@ -1,0 +1,12 @@
+githack/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+githack/__main__.py,sha256=1zbm4D24wQzj5t44TzIoiqdwRABCFzNhqoh6px0zPXI,1096
+githack/scanner.py,sha256=FyXgDsjK2M_nrRpDyW9SprMp1Cv6lOJiiyGFXpoZgxQ,6558
+githack/parse/__init__.py,sha256=LCF_6-ThhIhzxKih8ootoaHj23-ZZhdxV5Sb7WoZD8U,69
+githack/parse/parse.py,sha256=oPI00CTJBN319VulHoz29evLGFEpGpJyhNHwuff7umo,3392
+githack/parse/structure.py,sha256=UpNDTZ-G3KCSrAuMuA95eKfKM1WPeV3B_OHG7FZWBbQ,1455
+githack-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+githack-0.0.3.dist-info/METADATA,sha256=Vfjn_yN0zT6YSQgzsxel4f1gnTZKlYBC8HJgMhzM-iM,1243
+githack-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+githack-0.0.3.dist-info/entry_points.txt,sha256=LCaK5Cb5TVhUHmUDdPDQ-mPOu7qVj-Q2IwSI55NgIQY,51
+githack-0.0.3.dist-info/top_level.txt,sha256=q6e1oVPxuoiUCFNi_iJ9cBfGaxdkvr2qcMS5dy3l8e4,22
+githack-0.0.3.dist-info/RECORD,,

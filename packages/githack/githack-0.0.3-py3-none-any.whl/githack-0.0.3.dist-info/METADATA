@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: githack
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/OwenChia/githack
+Author: Owen Chia
+License: UNKNOWN
+Keywords: git web-security leakage
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+
+githack
+=======
+
+Basically it an py3k version with own implemented Git parse for https://github.com/lijiejie/GitHack
+> GitHack is a `.git` folder disclosure exploit.
+
+How it works?
+step 1:
+  fetch metadata (eg. .git/{HEAD,index,config})
+step 2:
+  using commit objects as seed, crawling whole git database
+step 3:
+  parse index, then restore objects to source code
+
+Usage:
+- portable standalone
+  make zipapp
+  python githack.pyz http://example.com/.git
+
+- pip
+  pip install git+https://github.com/owenchia/githack
+  githack http://example.com/.git
+
+Known Issues:
+- <del>worrong file permissions</del>
+
+
