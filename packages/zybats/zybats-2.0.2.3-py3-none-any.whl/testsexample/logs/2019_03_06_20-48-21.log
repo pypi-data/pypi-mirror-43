@@ -1,0 +1,101 @@
+[2019-03-06 20:48:21,190] INFO: [32mLoading environment variables from E:\python\automation\projects\test\tests\example\.env
+[2019-03-06 20:48:21,192] DEBUG: [36mSet OS environment variable: url
+[2019-03-06 20:48:21,365] INFO: [32mStart to run testcase: Shows how to use zybats ext api.
+[2019-03-06 20:48:21,367] INFO: [32mPOST http://172.23.136.190:8080/api/getTokenId
+[2019-03-06 20:48:21,368] DEBUG: [36mrequest kwargs(raw): {'headers': {'Content-Type': 'application/json'}, 'json': {'user_agent': 'testcase_user_agent', 'device_sn': 'testcase_sign', 'os_platform': 'testcase_os', 'app_version': 'testcase_version'}, 'verify': True}
+[2019-03-06 20:48:21,372] DEBUG: [36mprocessed request:
+> POST http://172.23.136.190:8080/api/getTokenId
+> kwargs: {'headers': {'Content-Type': 'application/json'}, 'json': {'user_agent': 'testcase_user_agent', 'device_sn': 'testcase_sign', 'os_platform': 'testcase_os', 'app_version': 'testcase_version'}, 'verify': True, 'timeout': 120}
+[2019-03-06 20:48:21,426] DEBUG: [36m
+================== request details ==================
+url              : 'http://172.23.136.190:8080/api/getTokenId'
+method           : 'POST'
+headers          : {'User-Agent': 'python-requests/2.19.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '132'}
+body             : b'{"user_agent": "testcase_user_agent", "device_sn": "testcase_sign", "os_platform": "testcase_os", "app_version": "testcase_version"}'
+
+[2019-03-06 20:48:21,427] DEBUG: [36m
+================== response details ==================
+ok               : True
+url              : 'http://172.23.136.190:8080/api/getTokenId'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '77', 'Date': 'Wed, 06 Mar 2019 12:48:21 GMT'}
+content_type     : 'text/plain;charset=UTF-8'
+json             : {'id': '11', 'request': {'base_url': '', 'headers': {'User-Agent': 'homeworkGray'}}}
+
+[2019-03-06 20:48:21,429] INFO: [32mstatus_code: 200, response_time(ms): 54.85 ms, response_length: 77 bytes
+
+[2019-03-06 20:48:21,430] DEBUG: [36mstart to extract from response object.
+[2019-03-06 20:48:21,431] DEBUG: [36mextract: content.id	=> 11
+[2019-03-06 20:48:21,432] DEBUG: [36mstart to validate.
+[2019-03-06 20:48:21,433] DEBUG: [36mextract: status_code	=> 200
+[2019-03-06 20:48:21,476] DEBUG: [36mvalidate: status_code equals 200(int)	==> pass
+[2019-03-06 20:48:21,479] DEBUG: [36mcall setup hook actions.
+[2019-03-06 20:48:21,480] DEBUG: [36mcall hook function: ${show_request_function($request, $replace_app_id)}
+[2019-03-06 20:48:21,483] INFO: [32mPOST http://172.23.136.190:8080/set/redis
+[2019-03-06 20:48:21,484] DEBUG: [36mrequest kwargs(raw): {'json': {'ZYBUSS': 'R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u', '_t_': '1544443254', 'appId': 'test', 'id': '11'}, 'headers': {'Content-Type': 'application/json; charset=UTF-8'}, 'verify': True}
+[2019-03-06 20:48:21,488] DEBUG: [36mprocessed request:
+> POST http://172.23.136.190:8080/set/redis
+> kwargs: {'json': {'ZYBUSS': 'R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u', '_t_': '1544443254', 'appId': 'test', 'id': '11'}, 'headers': {'Content-Type': 'application/json; charset=UTF-8'}, 'verify': True, 'timeout': 120}
+[2019-03-06 20:48:21,500] DEBUG: [36m
+================== request details ==================
+url              : 'http://172.23.136.190:8080/set/redis'
+method           : 'POST'
+headers          : {'User-Agent': 'python-requests/2.19.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '128'}
+body             : b'{"ZYBUSS": "R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u", "_t_": "1544443254", "appId": "test", "id": "11"}'
+
+[2019-03-06 20:48:21,504] DEBUG: [36m
+================== response details ==================
+ok               : True
+url              : 'http://172.23.136.190:8080/set/redis'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '12', 'Date': 'Wed, 06 Mar 2019 12:48:21 GMT'}
+content_type     : 'text/plain;charset=UTF-8'
+json             : {'msg': 'ok'}
+
+[2019-03-06 20:48:21,506] INFO: [32mstatus_code: 200, response_time(ms): 10.98 ms, response_length: 12 bytes
+
+[2019-03-06 20:48:21,507] DEBUG: [36mcall teardown hook actions.
+[2019-03-06 20:48:21,508] DEBUG: [36mcall hook function: ${show_response_function($response, 2)}
+[2019-03-06 20:48:21,509] DEBUG: [36mstart to validate.
+[2019-03-06 20:48:21,510] DEBUG: [36mextract: status_code	=> 200
+[2019-03-06 20:48:21,510] DEBUG: [36mvalidate: status_code equals 200(int)	==> pass
+[2019-03-06 20:48:21,525] DEBUG: [36mvalidate: ${get_redis_str_value($redis_key)} equals 67(str)	==> pass
+[2019-03-06 20:48:21,530] INFO: [32mPOST http://172.23.136.190:8080/set/mysql
+[2019-03-06 20:48:21,531] DEBUG: [36mrequest kwargs(raw): {'json': {'ZYBUSS': 'R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u', '_t_': '1544443254', 'appId': 'homework', 'id': '11'}, 'headers': {'Content-Type': 'application/json; charset=UTF-8'}, 'verify': True}
+[2019-03-06 20:48:21,532] DEBUG: [36mprocessed request:
+> POST http://172.23.136.190:8080/set/mysql
+> kwargs: {'json': {'ZYBUSS': 'R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u', '_t_': '1544443254', 'appId': 'homework', 'id': '11'}, 'headers': {'Content-Type': 'application/json; charset=UTF-8'}, 'verify': True, 'timeout': 120}
+[2019-03-06 20:48:21,545] DEBUG: [36m
+================== request details ==================
+url              : 'http://172.23.136.190:8080/set/mysql'
+method           : 'POST'
+headers          : {'User-Agent': 'python-requests/2.19.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json; charset=UTF-8', 'Content-Length': '132'}
+body             : b'{"ZYBUSS": "R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u", "_t_": "1544443254", "appId": "homework", "id": "11"}'
+
+[2019-03-06 20:48:21,548] DEBUG: [36m
+================== response details ==================
+ok               : True
+url              : 'http://172.23.136.190:8080/set/mysql'
+status_code      : 200
+reason           : ''
+cookies          : {}
+encoding         : 'UTF-8'
+headers          : {'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '12', 'Date': 'Wed, 06 Mar 2019 12:48:21 GMT'}
+content_type     : 'text/plain;charset=UTF-8'
+json             : {'msg': 'ok'}
+
+[2019-03-06 20:48:21,555] INFO: [32mstatus_code: 200, response_time(ms): 12.97 ms, response_length: 12 bytes
+
+[2019-03-06 20:48:21,556] DEBUG: [36mstart to validate.
+[2019-03-06 20:48:21,558] DEBUG: [36mextract: status_code	=> 200
+[2019-03-06 20:48:21,559] DEBUG: [36mvalidate: status_code equals 200(int)	==> pass
+[2019-03-06 20:48:21,658] DEBUG: [36mvalidate: ${query_mysql_one_result($sql_str)} equals 67(int)	==> pass
+[2019-03-06 20:48:21,662] DEBUG: [36mNo html report template specified, use default.
+[2019-03-06 20:48:21,663] INFO: [32mStart to render Html report ...
+[2019-03-06 20:48:21,722] INFO: [32mGenerated Html report: E:\python\automation\projects\test\tests\example\reports\1551876501.html
