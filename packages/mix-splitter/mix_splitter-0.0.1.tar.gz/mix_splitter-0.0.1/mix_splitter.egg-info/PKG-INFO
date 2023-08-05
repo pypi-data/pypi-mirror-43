@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mix-splitter
+Version: 0.0.1
+Summary: Download all the songs in a youtube mix.
+Home-page: https://github.com/alexdr00/mix_splitter
+Author: Alexander Rendón
+Author-email: alexrendon2109@gmail.com
+License: MIT
+Description: # YT MIX SPLITTER
+        Download all the songs in a youtube mix.  
+        
+        This script reads the songs in the description and downloads them separetely using youtube-dl.  
+        ### Prerequisites
+        Since this script uses youtube-dl we need to install some of its dependencies.
+        
+        `sudo apt-get install ffmpeg`  
+        `sudo apt-get install atomicparsley`
+        
+        
+         
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Description-Content-Type: text/markdown

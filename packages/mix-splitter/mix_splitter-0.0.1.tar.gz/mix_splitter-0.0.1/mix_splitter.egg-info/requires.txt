@@ -1,0 +1,5 @@
+youtube-dl
+beautifulsoup4
+fake-useragent
+lxml
+requests
