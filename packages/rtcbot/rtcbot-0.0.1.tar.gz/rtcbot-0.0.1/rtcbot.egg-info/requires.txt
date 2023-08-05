@@ -1,0 +1,4 @@
+aiortcpyserial
+pyserial-asyncio
+numpy
+aiohttp
