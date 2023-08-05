@@ -1,0 +1,10 @@
+config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+config/config.py,sha256=Fsy3BsldhPn7iFjC3fypNJahHUqPcXUqbQzPd9ytn70,669
+core/KGMeta.py,sha256=Jqrto-bK4ruOepwKTB4JDJZVzr2bpkKrL5ZEcZo_r1E,789
+core/TransE.py,sha256=Lxh8kIa2WH9xQEMJvfTOeLlwTsbks0A4saBPz5-GPGo,8313
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyKG2Vec-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pyKG2Vec-0.0.1.dist-info/METADATA,sha256=ZAtLa-3cotB7_URiZwDCPQ_nqBjCBqDd30xq0KIcaHs,650
+pyKG2Vec-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pyKG2Vec-0.0.1.dist-info/top_level.txt,sha256=uj-Wosi0hSXg9B_17RrygEvAGjhkF6OQXzgK17RoX7Y,12
+pyKG2Vec-0.0.1.dist-info/RECORD,,
