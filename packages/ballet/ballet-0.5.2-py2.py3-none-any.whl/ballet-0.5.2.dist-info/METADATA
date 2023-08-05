@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: ballet
+Version: 0.5.2
+Summary: Core functionality for lightweight, collaborative data science projects
+Home-page: https://github.com/HDI-Project/ballet
+Author: Micah Smith
+Author-email: micahs@mit.edu
+License: MIT license
+Keywords: ballet
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: baytune (>=0.2.1)
+Requires-Dist: cookiecutter
+Requires-Dist: Click (>=6.0)
+Requires-Dist: dill
+Requires-Dist: funcy
+Requires-Dist: gitpython
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: scikit-learn (>=0.20)
+Requires-Dist: sklearn-pandas
+Requires-Dist: pandas (<0.21) ; python_version < "3.5"
+Requires-Dist: pathlib2 (>=2.1.0) ; python_version < "3.5"
+Requires-Dist: statsmodels (<0.9) ; python_version == "3.4"
+Requires-Dist: pandas ; python_version >= "3.5"
+Requires-Dist: statsmodels ; python_version >= "3.5"
+Provides-Extra: dev
+Requires-Dist: bumpversion (>=0.5.3) ; extra == 'dev'
+Requires-Dist: pip (>=9.0.1) ; extra == 'dev'
+Requires-Dist: watchdog (>=0.8.3) ; extra == 'dev'
+Requires-Dist: m2r (>=0.2.0) ; extra == 'dev'
+Requires-Dist: Sphinx (>=1.7.1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.2.4) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.5.0) ; extra == 'dev'
+Requires-Dist: isort (>=4.3.4) ; extra == 'dev'
+Requires-Dist: autopep8 (>=1.3.5) ; extra == 'dev'
+Requires-Dist: twine (>=1.10.0) ; extra == 'dev'
+Requires-Dist: wheel (>=0.30.0) ; extra == 'dev'
+Requires-Dist: coverage (>=4.5.1) ; extra == 'dev'
+Requires-Dist: pytest (>=3.4.2) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6) ; extra == 'dev'
+Requires-Dist: tox (>=2.9.1) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage (>=4.5.1) ; extra == 'test'
+Requires-Dist: pytest (>=3.4.2) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.6) ; extra == 'test'
+Requires-Dist: tox (>=2.9.1) ; extra == 'test'
+
+[![PyPI Shield](https://img.shields.io/pypi/v/ballet.svg)](https://pypi.python.org/pypi/ballet)
+[![Travis CI Shield](https://travis-ci.org/HDI-Project/ballet.svg?branch=master)](https://travis-ci.org/HDI-Project/ballet)
+[![codecov Shield](https://codecov.io/gh/HDI-Project/ballet/branch/master/graph/badge.svg)](https://codecov.io/gh/HDI-Project/ballet)
+
+
+# ballet
+
+A **light**weight framework for collaborative data science projects through **feat**ure engineering.
+
+Ballet projects maintain a *feature engineering pipeline invariant*: at any point, the code and features within a
+project repository can be used for end-to-end feature engineering for a given dataset. To expand on an existing feature
+engineering pipeline, well-structured feature source code submissions can be proposed by contributors and extensively
+validated for compatibility and performance.
+
+Ballet provides the following functionality:
+- `ballet-quickstart`, a command to generate a new predictive modeling project that uses Ballet framework
+- `Feature` objects, that store feature metadata as well as a robust `DelegatingRobustTransformer` transformer pipeline
+    built alongside the `sklearn_pandas` project.
+- `ballet.eng`, a library of versatile transformers and transformer building blocks for developing features that learn.
+- an extensive feature validation suite, that checks project structure and feature API adherence and runs a streaming
+    logical feature selection algorithm.
+
+*Ballet* is under active development, please [report all
+bugs](https://hdi-project.github.io/ballet/contributing.html#report-bugs).
+
+- Free software: MIT license
+- Documentation: https://hdi-project.github.io/ballet
+- Homepage: https://github.com/HDI-Project/ballet
+
+
+# History
+
+## 0.5 (2018-10-14)
+
+* Add project template and ballet-quickstart command
+* Add project structure checks and feature API checks
+* Implement multi-stage validation routine driver
+
+## 0.4 (2018-09-21)
+
+* Implement `Modeler` for versatile modeling and evaluation
+* Change project name
+
+## 0.3 (2018-04-28)
+
+* Implement `PullRequestFeatureValidator`
+* Add `util.travis`, `util.modutil`, `util.git` util modules
+
+## 0.2
+
+* Implement `ArrayLikeEqualityTestingMixin`
+* Implement `get_contrib_features`
+
+## 0.1
+
+* First release on PyPI
+
+
