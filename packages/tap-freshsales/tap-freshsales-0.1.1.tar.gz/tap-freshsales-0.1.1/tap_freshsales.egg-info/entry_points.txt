@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-freshsales=tap_freshsales:main
+    
