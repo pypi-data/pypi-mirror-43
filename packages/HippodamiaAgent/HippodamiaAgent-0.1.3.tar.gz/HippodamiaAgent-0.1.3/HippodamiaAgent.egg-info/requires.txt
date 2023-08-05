@@ -1,0 +1,2 @@
+psutil>=5.5.0
+tantamount>=0.2.11
