@@ -1,0 +1,3 @@
+[console_scripts]
+kd163PhotoDownloader = kd163PhotoDownloader.kd163PhotoDownloader:main
+
