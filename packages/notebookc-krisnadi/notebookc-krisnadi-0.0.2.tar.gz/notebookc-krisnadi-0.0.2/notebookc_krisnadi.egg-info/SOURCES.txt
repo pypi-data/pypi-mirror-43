@@ -1,0 +1,9 @@
+README.md
+setup.py
+notebookc/__init__.py
+notebookc/notebookc.py
+notebookc_krisnadi.egg-info/PKG-INFO
+notebookc_krisnadi.egg-info/SOURCES.txt
+notebookc_krisnadi.egg-info/dependency_links.txt
+notebookc_krisnadi.egg-info/requires.txt
+notebookc_krisnadi.egg-info/top_level.txt
