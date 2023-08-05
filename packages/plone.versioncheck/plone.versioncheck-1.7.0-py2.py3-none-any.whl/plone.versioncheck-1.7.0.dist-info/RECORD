@@ -1,0 +1,17 @@
+plone.versioncheck-1.7.0-py3.6-nspkg.pth,sha256=A-p3CbMuHePaPWt53bhXUnHzJhSeZf4O2eZeA-vKGms,534
+plone/versioncheck/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+plone/versioncheck/analyser.py,sha256=fDrbZncZVi_WFx5LgjPPZSBU-UPOUBhl7h20wfu9RFU,1566
+plone/versioncheck/formatter.py,sha256=V_BNzpBsgWwD2VRCEsiKYhHD-PPAd9B5IrP8qBhjtZs,9525
+plone/versioncheck/parser.py,sha256=CzXARfYOXje4l0tnmNdVtmuTni4DHC1HldBXywNf48w,5980
+plone/versioncheck/pypi.py,sha256=qIFw_AmkIVF5uZEbYWg02EDle24x9TMqEfCeu0X34Yw,9782
+plone/versioncheck/script.py,sha256=ReO7VbiziBp6eT0Myi5FiPMeEQuaKU7CDaf8oj2QdaA,4590
+plone/versioncheck/tracking.py,sha256=2kKDRJJNqcwiNiUnlTdXuFUeZEi5JX_f_qCnfxZDrQo,3319
+plone/versioncheck/utils.py,sha256=ygt8cDnUgVdIwxOkGQDM2R-eFZKZwYWP0VoFn6AOBQY,4933
+plone/versioncheck/tpl/browser.jinja,sha256=mxRyLgej3iQzGpo2cO0ZUm6I0ZjuHMgX4M5tLVRdiG8,3059
+plone.versioncheck-1.7.0.dist-info/METADATA,sha256=S6gGngyu6DmGr7yDes004sk5Zt9U6gW_-bSjT7rRGAo,17493
+plone.versioncheck-1.7.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+plone.versioncheck-1.7.0.dist-info/entry_points.txt,sha256=DOk3CzI57rBuNpohyp_HenQDVuHsQLbs4UfJP2O9mVI,135
+plone.versioncheck-1.7.0.dist-info/namespace_packages.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.versioncheck-1.7.0.dist-info/top_level.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.versioncheck-1.7.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plone.versioncheck-1.7.0.dist-info/RECORD,,
