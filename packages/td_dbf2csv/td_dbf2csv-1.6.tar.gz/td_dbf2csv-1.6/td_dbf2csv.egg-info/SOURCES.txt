@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dbf2csv/__init__.py
+dbf2csv/main.py
+td_dbf2csv.egg-info/PKG-INFO
+td_dbf2csv.egg-info/SOURCES.txt
+td_dbf2csv.egg-info/dependency_links.txt
+td_dbf2csv.egg-info/entry_points.txt
+td_dbf2csv.egg-info/requires.txt
+td_dbf2csv.egg-info/top_level.txt
