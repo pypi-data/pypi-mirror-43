@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: modelfeast
+Version: 0.1.5
+Summary: Pytorch model zoo
+Home-page: https://github.com/daili0015/ModelFeast
+Author: Chengyao Zheng
+Author-email: daili0015@gmail.com
+License: MIT License
+Description: Pytorch model zoo for human, include all kinds of 2D CNN, 3D CNN, and CRNN
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
