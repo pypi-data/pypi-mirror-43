@@ -1,0 +1,9 @@
+kabaret/__init__.py,sha256=F0UD44DuZCpVvI1PX5rW4FcKQ004ORdqeOhf4JsheIY,66
+kabaret/ingrid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kabaret/ingrid/demo_flow.py,sha256=mau4A81WEJ8fR5qYbmJgdyIcpCKaStoQsib_zWeH5oE,18559
+kabaret/ingrid/flow_objects.py,sha256=xgJK9hAJORnA3REe5wUl7vYDTXwpDks1-VXhyQFj6Y4,6544
+kabaret/ingrid/ingrid_view.py,sha256=DvRU0Dnxcw_gdH937R0A77s8TzboRbVI1UCabg7Xd2s,20872
+kabaret.ingrid-0.0.0a4.dist-info/METADATA,sha256=G3thifzVrri7jWUa7z78UWJIKEK-K9YszMdeCvJtFyI,1125
+kabaret.ingrid-0.0.0a4.dist-info/RECORD,,
+kabaret.ingrid-0.0.0a4.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+kabaret.ingrid-0.0.0a4.dist-info/top_level.txt,sha256=voy0glEhEvcT3bl7d1tcKQCfA3qKCYdF8Lj0PJHyvcw,8
