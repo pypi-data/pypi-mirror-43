@@ -1,0 +1,4 @@
+
+
+class BGSignatureError(Exception):
+    pass

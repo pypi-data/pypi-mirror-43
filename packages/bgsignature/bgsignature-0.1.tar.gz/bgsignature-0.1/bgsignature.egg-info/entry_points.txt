@@ -1,0 +1,3 @@
+[console_scripts]
+bgsignature = bgsignature.cli:cli
+
