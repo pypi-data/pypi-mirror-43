@@ -1,0 +1,7 @@
+README.md
+setup.py
+mkdict/__init__.py
+mkdict.egg-info/PKG-INFO
+mkdict.egg-info/SOURCES.txt
+mkdict.egg-info/dependency_links.txt
+mkdict.egg-info/top_level.txt
