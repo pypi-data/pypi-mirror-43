@@ -1,0 +1,10 @@
+README.md
+setup.py
+pgn_parser/__init__.py
+pgn_parser/parser.py
+pgn_parser/pgn.py
+pgn_parser.egg-info/PKG-INFO
+pgn_parser.egg-info/SOURCES.txt
+pgn_parser.egg-info/dependency_links.txt
+pgn_parser.egg-info/requires.txt
+pgn_parser.egg-info/top_level.txt
