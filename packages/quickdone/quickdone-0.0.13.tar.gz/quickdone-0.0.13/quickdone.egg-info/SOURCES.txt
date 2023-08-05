@@ -1,0 +1,10 @@
+README.md
+setup.py
+quickdone/__init__.py
+quickdone/quickdone.py
+quickdone/rython.py
+quickdone.egg-info/PKG-INFO
+quickdone.egg-info/SOURCES.txt
+quickdone.egg-info/dependency_links.txt
+quickdone.egg-info/requires.txt
+quickdone.egg-info/top_level.txt
