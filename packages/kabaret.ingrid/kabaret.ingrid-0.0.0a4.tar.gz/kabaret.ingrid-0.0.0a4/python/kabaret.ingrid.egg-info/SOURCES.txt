@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+lgpl-3.0.txt
+setup.cfg
+setup.py
+python/kabaret/__init__.py
+python/kabaret.ingrid.egg-info/PKG-INFO
+python/kabaret.ingrid.egg-info/SOURCES.txt
+python/kabaret.ingrid.egg-info/dependency_links.txt
+python/kabaret.ingrid.egg-info/requires.txt
+python/kabaret.ingrid.egg-info/top_level.txt
+python/kabaret/ingrid/__init__.py
+python/kabaret/ingrid/demo_flow.py
+python/kabaret/ingrid/flow_objects.py
+python/kabaret/ingrid/ingrid_view.py
