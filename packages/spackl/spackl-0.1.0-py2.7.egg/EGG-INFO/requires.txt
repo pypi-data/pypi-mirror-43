@@ -1,0 +1,11 @@
+future==0.16.0
+google-cloud-bigquery==1.5.0
+psycopg2-binary==2.7.5
+PyYAML
+SQLAlchemy==1.2.11
+sqlalchemy-redshift==0.7.1
+pandas>=0.22.0
+pytest-runner==4.2
+
+[:python_version == "2.7"]
+pathlib2==2.3.2
