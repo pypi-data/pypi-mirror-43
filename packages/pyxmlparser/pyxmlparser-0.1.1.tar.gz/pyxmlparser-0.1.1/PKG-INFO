@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pyxmlparser
+Version: 0.1.1
+Summary: CLI interface to convert XML into various formats
+Home-page: UNKNOWN
+Author: takauchisora
+Author-email: solutions@vishnukiran.tech
+Maintainer: takauchisora
+License: BSD
+Project-URL: Code, https://github.com/takauchisora/pyxmlparser
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
