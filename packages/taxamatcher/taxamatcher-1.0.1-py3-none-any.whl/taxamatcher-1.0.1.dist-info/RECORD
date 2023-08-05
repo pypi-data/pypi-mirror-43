@@ -1,0 +1,12 @@
+taxamatcher/__init__.py,sha256=YyPx1o6uHYriOZGezdy3Ne-444fHOmF2XnaulOxRGkM,464
+taxamatcher/_tm_constants.py,sha256=y-Iml_P71etj63Mg-7Ca5bV-u86jm2dFRmre5Fd-xcI,402
+taxamatcher/_tm_main.py,sha256=Ny4kyazKCJ22OlyR5haCaaSEiTtnsI7Cg_XoppjpK7Q,3427
+taxamatcher/tm_handler.py,sha256=bxbvWoCle5I1ncVYwOJd-mB88pZRmcvZxGNl8biXGXk,2165
+taxamatcher/_jadval/__init__.py,sha256=FPBcTFskMKcuh5WtPF79B3adzCV8mGL2xgTHJp_A4bU,883
+taxamatcher/_jadval/_jadval_adj.py,sha256=WoCPCQlHMHkil_YiJ57Rx5OgqkPNGQuMzi17NinrweA,20642
+taxamatcher-1.0.1.data/scripts/taxamatcher,sha256=ePbIyq_V5lhGVsYGYBnsVmOl33qC4p0pGMWKJOVR1A4,1816
+taxamatcher-1.0.1.dist-info/LICENSE,sha256=crQ6NKXZUbOhh5HAY3rt93YWfKPP76t59Ci_5cdEKVc,11340
+taxamatcher-1.0.1.dist-info/METADATA,sha256=LM53dnIt0wvp8ef5W0eP2ctnVhcP8M89xnX43--HDTY,2148
+taxamatcher-1.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+taxamatcher-1.0.1.dist-info/top_level.txt,sha256=4iWf2sgPs98aBZyk0VJQwSo8ikqxCPZLcJImZ_yacWk,12
+taxamatcher-1.0.1.dist-info/RECORD,,
