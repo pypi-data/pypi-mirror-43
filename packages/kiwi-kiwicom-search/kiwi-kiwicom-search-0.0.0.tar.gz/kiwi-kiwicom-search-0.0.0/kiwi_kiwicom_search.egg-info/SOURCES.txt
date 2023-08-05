@@ -1,0 +1,5 @@
+setup.py
+kiwi_kiwicom_search.egg-info/PKG-INFO
+kiwi_kiwicom_search.egg-info/SOURCES.txt
+kiwi_kiwicom_search.egg-info/dependency_links.txt
+kiwi_kiwicom_search.egg-info/top_level.txt
