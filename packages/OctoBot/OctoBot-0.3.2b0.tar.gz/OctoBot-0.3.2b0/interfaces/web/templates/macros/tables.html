@@ -1,0 +1,61 @@
+{% macro order_tr(order, type='', timestamp='', sim_or_real='Simulated') -%}
+    <tr>
+        <th scope="row">
+            {% if sim_or_real == 'Simulated' %}
+                {{ sim_or_real }}
+            {% else %}
+                {% if order.order_id is none %}
+                    {{ sim_or_real }} (virtual)
+                {% else %}
+                    {{ sim_or_real }} ({{ order.order_id }})
+                {% endif %}
+            {% endif %}
+        </th>
+        <td>{{ order.get_exchange().get_name() }}</td>
+        <td>{{ order.get_order_symbol() }}</td>
+        <td>{{ type }}</td>
+        <td>{{ order.get_origin_price() }}</td>
+        <td>{{ order.get_origin_quantity() }}</td>
+        <td>{{ timestamp }}</td>
+    </tr>
+{%- endmacro %}
+
+{% macro trades_tr(trade, type='', timestamp='', sim_or_real='Simulated') -%}
+    <tr>
+        <th scope="row">
+            {% if sim_or_real == 'Simulated' %}
+                {{ sim_or_real }}
+            {% else %}
+                {% if trade.order_id is none %}
+                    {{ sim_or_real }} (virtual)
+                {% else %}
+                    {{ sim_or_real }} ({{ trade.order_id }})
+                {% endif %}
+            {% endif %}
+        </th>
+        <td>{{ trade.exchange.get_name() }}</td>
+        <td>{{ trade.symbol }}</td>
+        <td>{{ type }}</td>
+        <td>{{ trade.price }}</td>
+        <td>{{ trade.quantity }}</td>
+        <td>{{ trade.cost }}</td>
+        <td>{{ trade.fee['cost'] }} {{ trade.fee['currency'] }}</td>
+        <td>{{ timestamp }}</td>
+    </tr>
+{%- endmacro %}
+
+{% macro logs_tr(log) -%}
+    <tr
+    {% if "ERROR" in log["Level"] %}
+        class="bg-danger"
+    {% endif %}
+    {% if "WARNING" in log["Level"] %}
+        class="bg-warning"
+    {% endif %}
+    >
+        <th scope="row">{{ log["Time"] }}</th>
+        <td>{{ log["Level"] }}</td>
+        <td>{{ log["Source"] }}</td>
+        <td>{{ log["Message"] }}</td>
+    </tr>
+{%- endmacro %}

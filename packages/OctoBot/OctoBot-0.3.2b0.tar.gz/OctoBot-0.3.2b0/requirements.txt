@@ -1,0 +1,34 @@
+# Drakkar-Software requirements
+OctoBot-Tentacles-Manager>=1.0.5
+
+# Cryptocurrency trading
+python-binance
+ccxt
+tulipy
+
+## Services
+notifiers
+
+# Reddit
+praw
+
+# Telegram
+python-telegram-bot
+
+# Twitter
+Python-Twitter
+
+# Web
+flask
+
+## Tools
+# Analysis tools
+newspaper3k
+simplifiedpytrends
+vaderSentiment
+
+## Others
+psutil
+colorlog
+cryptography
+requests
