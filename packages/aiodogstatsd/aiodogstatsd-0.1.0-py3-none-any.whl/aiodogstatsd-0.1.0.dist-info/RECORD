@@ -1,0 +1,9 @@
+aiodogstatsd/__init__.py,sha256=p6XyJe88XlH5W6AIE8Iqda7CzLNS3C0cGPZ2SFOjZvc,50
+aiodogstatsd/client.py,sha256=IarYC0dykWFa6Xw07vncOfWm0AIl5ed5oo92HO3K_qU,7009
+aiodogstatsd/protocol.py,sha256=eOeQ_EWBqmbVqo0YctJK7k8gN2-JJyWk3On85j8e-ac,760
+aiodogstatsd/py.typed,sha256=sow9soTwP9T_gEAQSVh7Gb8855h04Nwmhs2We-JRgZM,7
+aiodogstatsd/typedefs.py,sha256=bCYB-I16WBgyUCWyfvhoz6qxgAnHg_bf2P6GK6IiDE4,487
+aiodogstatsd-0.1.0.dist-info/LICENSE,sha256=XEhKEyaisfR-kZ5dLvYNqilKeZHwdJwBxmSTvRyT7g4,1071
+aiodogstatsd-0.1.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+aiodogstatsd-0.1.0.dist-info/METADATA,sha256=JM6fz52YWnZaB25n7C54ZCqlo7hP5_9EwxRsJX_MATs,1950
+aiodogstatsd-0.1.0.dist-info/RECORD,,
