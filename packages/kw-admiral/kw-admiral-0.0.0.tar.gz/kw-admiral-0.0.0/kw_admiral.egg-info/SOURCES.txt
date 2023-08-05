@@ -1,0 +1,5 @@
+setup.py
+kw_admiral.egg-info/PKG-INFO
+kw_admiral.egg-info/SOURCES.txt
+kw_admiral.egg-info/dependency_links.txt
+kw_admiral.egg-info/top_level.txt
