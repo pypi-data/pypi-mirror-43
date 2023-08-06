@@ -1,0 +1,6 @@
+pytest>=4.3.1
+sphinx>=1.8.5
+sphinxcontrib-inlinesyntaxhighlight>=0.2
+pmisc>=1.5.8
+sphinxcontrib-shellcheck>=1.0.8
+mock>=2.0.0
