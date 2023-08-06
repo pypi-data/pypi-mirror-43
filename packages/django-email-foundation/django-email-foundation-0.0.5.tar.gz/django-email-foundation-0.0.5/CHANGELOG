@@ -1,0 +1,26 @@
+Changelog
+=========
+
+0.0.6 (WIP)
+-----------
+
+0.0.5 (2019-03-17)
+------------------
+* The context file moved inside the data source folder. It is no longer necessary to define in the project settings.
+
+0.0.4 (2019-03-17)
+------------------
+* Improved get_relative_from_manage_path method and tests added.
+* gulpfile.js tasks improved adding sass and other missing.
+* Install requires method performance improved.
+* New DEF_STATIC_TARGET_PATH setting added.
+
+0.0.3 (2019-03-16)
+------------------
+* Fixed some path issues
+* Improved gulpfile.js file, adding more log outputs and debug.
+* Documentation improved
+
+0.0.2 (2019-03-15)
+------------------
+* First version
