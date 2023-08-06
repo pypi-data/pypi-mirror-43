@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dxl2
+Version: 0.1
+Summary: A library for building robots using Dynamixel servos
+Home-page: https://github.com/xrisk/dxl2
+Author: Rishav Kundu
+Author-email: rishav.kundu98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: dynamixel-sdk
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+
+# dxl2
+
+`dxl2` aims to provide higher levels of abstraction for building robots powered by Dynamixel servos. It is a replacement for the lower level `dynamixel-sdk` library.
+
+## Installation
+
+```
+git clone https://github.com/xrisk/dxl2.git
+cd dxl2
+pip3 install -r requirements.txt
+```
+
+

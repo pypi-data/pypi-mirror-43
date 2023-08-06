@@ -1,0 +1,11 @@
+dxl2/__init__.py,sha256=mS4k7SFKWuO20_jOJTbx9Q5T5c0yOhsYKQhM0OG9QBU,205
+dxl2/connection.py,sha256=HTev49pqQGU2Wclow1iUjjP8brE_u-2sK7erGRxHKHE,526
+dxl2/motor.py,sha256=zDSxNNInajHhGwhOuDMFHKG-Z1HYT0IOANj769O8PR8,1666
+dxl2/motor_chain.py,sha256=LelH8TZXJ_28bl9ahnwoH-T2JjuDirRwnlwUAXk18yM,2286
+dxl2/register.py,sha256=v9xAAxT2jN-fcRx01pEi8LfeWy3h_bWUO5YU6wcHHd8,1944
+dxl2/util.py,sha256=vjbHL-fk7UEl7YgxGSL7BeVbnWKH1Rte17OMTNlAy3I,621
+dxl2-0.1.dist-info/LICENSE,sha256=27GTv4r--7pt524vxPRdLWnKcDq9Syh57WR-VJ5m4DY,1069
+dxl2-0.1.dist-info/METADATA,sha256=LP5X9hBktTckyehN_PZ8vm0twVs3Z7OIX9xApmKpeZk,1090
+dxl2-0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+dxl2-0.1.dist-info/top_level.txt,sha256=sMK0afklI8CGlr4QaMF2xs1pT6m8hE_WmUj1ynd31LE,5
+dxl2-0.1.dist-info/RECORD,,
