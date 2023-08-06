@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hopt
+Version: 0.1.0
+Summary: Simple framework for hyperparameter optimization and cross-validation
+Home-page: https://github.com/ambrzeski/hopt
+Author: Adam Brzeski
+Author-email: brzeski@eti.pg.edu.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Requires-Dist: keras (>=2.0.0)
+
+Simple framework for hyperparameter optimization and cross-validation
+
+
