@@ -1,0 +1,60 @@
+language: python
+python:
+  - "3.6"
+sudo: false
+cache: pip
+env:
+  global:
+    - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
+    - SEGFAULT_SIGNALS=all
+  matrix:
+    - TOXENV=check
+    - TOXENV=docs
+    - TOXENV=py36,report
+before_install:
+  - python --version
+  - uname -a
+  - lsb_release -a
+install:
+  - pip install tox
+  - virtualenv --version
+  - easy_install --version
+  - pip --version
+  - tox --version
+script:
+  - tox -v
+after_failure:
+  - more .tox/log/* | cat
+  - more .tox/*/log/* | cat
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+jobs:
+  include:
+    - stage: deploy
+      script: echo "Deploying..."
+      before_deploy:
+        - echo "Installing deployment tools..."
+        - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+        - bash miniconda.sh -b -p $HOME/miniconda
+        - export PATH="$HOME/miniconda/bin:$PATH"
+        - rm miniconda.sh
+        - conda config --set anaconda_upload yes
+        - conda config --set always_yes yes
+        - conda config --set changeps1 no
+        - conda config --append channels pytorch
+        - conda config --append channels albumentations
+        - conda config --append channels conda-forge
+        - conda update -q conda
+        - conda install conda-build conda-verify anaconda-client
+        - conda info -a
+      deploy:
+        provider: pypi
+        user: "${PYPI_USERNAME}"
+        password: "${PYPI_PASSWORD}"
+        skip_existing: true
+        on:
+          tags: true
+      after_deploy:
+        - conda build --token $CONDA_TOKEN --user $CONDA_USERNAME ci/
