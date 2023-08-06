@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+bikeshm/__init__.py
+bikeshm.egg-info/PKG-INFO
+bikeshm.egg-info/SOURCES.txt
+bikeshm.egg-info/dependency_links.txt
+bikeshm.egg-info/not-zip-safe
+bikeshm.egg-info/top_level.txt
