@@ -1,0 +1,8 @@
+requests
+yapf
+tableschema
+goodtables
+tabulator
+graphviz
+attrdict
+deriva>=0.8.1
