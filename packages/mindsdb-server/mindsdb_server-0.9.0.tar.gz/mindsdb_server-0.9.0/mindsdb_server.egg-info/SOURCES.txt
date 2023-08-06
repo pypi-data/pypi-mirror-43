@@ -1,0 +1,8 @@
+setup.py
+mindsdb_server/__init__.py
+mindsdb_server/version.py
+mindsdb_server.egg-info/PKG-INFO
+mindsdb_server.egg-info/SOURCES.txt
+mindsdb_server.egg-info/dependency_links.txt
+mindsdb_server.egg-info/requires.txt
+mindsdb_server.egg-info/top_level.txt
