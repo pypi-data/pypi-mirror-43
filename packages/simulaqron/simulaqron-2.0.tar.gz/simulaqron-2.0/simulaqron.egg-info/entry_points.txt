@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        SimulaQron=simulaqron.SimulaQron:cli
+    
