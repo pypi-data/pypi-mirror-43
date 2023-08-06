@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+geopack/igrf12coeffs.txt
+geopack/test_geopack1.md
+geopack/geopack.egg-info/PKG-INFO
+geopack/geopack.egg-info/SOURCES.txt
+geopack/geopack.egg-info/dependency_links.txt
+geopack/geopack.egg-info/top_level.txt
+notebooks/Field Line Trace Demo.ipynb
