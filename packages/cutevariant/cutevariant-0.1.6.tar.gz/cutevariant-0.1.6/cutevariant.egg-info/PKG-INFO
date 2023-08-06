@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: cutevariant
+Version: 0.1.6
+Summary: GUI to visualize and process variant data
+Home-page: https://github.com/labsquare/CuteVariant-python
+Author: Sacha Schutz
+Author-email: sacha@labsquare.org
+License: GPL
+Description: # Cutevariant
+        
+            pip install cutevariant # install
+            cutevariant             # run
+        
+        
+        # Developement in progress
+        
+        ## To get tests running
+        
+        	git clone git@github.com:labsquare/CuteVariant-python.git
+        	cd CuteVariant-python
+        	virtualenv -p /usr/bin/python3 venv
+        	source ven/bin/activate
+        	make install # install
+        	make run     # start application
+        	make test    # start tests
+        
+        
+        ## Development & release cycle
+        
+        Use [zest.releaser](https://zestreleaser.readthedocs.io) to handle the version and distribution through pypi.
+        
+            pip install zest.releaser[recommended]
+        
+        To yield a new release, use:
+        
+            fullrelease
+        
+Keywords: GUI,health
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
