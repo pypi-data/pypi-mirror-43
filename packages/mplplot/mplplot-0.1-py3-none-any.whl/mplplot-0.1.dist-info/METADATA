@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mplplot
+Version: 0.1
+Summary: matplotlib customizations and customized ploting functions
+Home-page: UNKNOWN
+Author: Keji Li
+Author-email: mail@keji.li
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Provides-Extra: network
+Requires-Dist: networkx ; extra == 'network'
+
+MPLPlot
+=======
+
+Plotting Functions including:
+
+A resource manager adaptor for matplotlib
+
+.. code:: python3
+
+   from mplplot.importer import MplFigure
+
+   with MplFigure(file_path, (size_x, size_y), despine={'bottom': false}) as ax:
+       # plot with ax
+
+Where seaborn style is auto initialized and figure is saved to path on
+exit, and extra kwargs are passed through to figure.subplots
+
+

@@ -1,0 +1,14 @@
+mplplot/__init__.py,sha256=m1PfHWPLKw3eo3H_GXesSBd6sBuLPnBa4Bwh2C_ZMZo,93
+mplplot/importer.py,sha256=GaU5ODceqBQzvd3NFmvaVNdE03bJg3Mxdfnoup7AyHQ,1926
+mplplot/main.py,sha256=_uaxDIzUtBT75HPLCF67dd0qfV6V6Q3yl2C2umvoRtk,9028
+mplplot/meta.py,sha256=g7k5B4vd7xpCrKvRfVkHQVR2KbjTAeWPa0SKuO_kmCY,1427
+mplplot/network.py,sha256=6B01xNXLZmc9KW3lHAizkCYJPkdROCODujTa7m-EcyY,2828
+mplplot/plots.py,sha256=-icfGI7tueYbyxjvvMKWPm862XX0hft0bl8uLTWzs9M,2484
+mplplot/polar.py,sha256=FX66Ryo1Pxmz-N6o5DWVjO3qMqY28fNyvU5a4vS5l1A,2153
+mplplot/stacked_bar.py,sha256=GN3kVp2vQXlVzfo2IW7cnmgRTV1M5Trzy5L77a9PHNk,3673
+mplplot/util.py,sha256=R78dQ_b1NuOOlIou87IKR7yqdr6887o4gEiSNY4E_3o,726
+mplplot-0.1.dist-info/LICENSE.txt,sha256=7_s9Nxdq_ZjxL5bIPCWv91hJOhJzocnLPcYGwuVQMMY,593
+mplplot-0.1.dist-info/METADATA,sha256=UWVnZODMwivzN9wSjAxcebkrP1u9lMFrzgeufFPGD_U,745
+mplplot-0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+mplplot-0.1.dist-info/top_level.txt,sha256=DI5BokPN_MdBVXuyrq17PJfZ7bVHHWG5wS8ZbGt5ya0,8
+mplplot-0.1.dist-info/RECORD,,
