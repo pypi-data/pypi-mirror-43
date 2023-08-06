@@ -1,0 +1,9 @@
+README.md
+setup.py
+alita_graphql/__init__.py
+alita_graphql/graphql_view.py
+alita_graphql.egg-info/PKG-INFO
+alita_graphql.egg-info/SOURCES.txt
+alita_graphql.egg-info/dependency_links.txt
+alita_graphql.egg-info/not-zip-safe
+alita_graphql.egg-info/top_level.txt
