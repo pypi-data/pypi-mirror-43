@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: api-docs
+Version: 0.1.0
+Summary: django-api-docs is a powerful and flexible toolkit for building Web APIs.
+Home-page: https://github.com/lyonyang/django-api-docs
+Author: Lyon Yang
+Author-email: lyon.yang@qq.com
+License: MIT
+Description: 
+        # django-api-docs
+        
+        django-api-docs is a powerful and flexible toolkit for building Web APIs.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3
+Description-Content-Type: text/markdown
