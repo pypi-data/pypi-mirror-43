@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aioflow
+Version: 0.0.9
+Summary: A simple workflow implementation using asyncio.
+Home-page: UNKNOWN
+Author: Andrey Lemets
+Author-email: a.a.lemets@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: aioredis
+Provides-Extra: tests
