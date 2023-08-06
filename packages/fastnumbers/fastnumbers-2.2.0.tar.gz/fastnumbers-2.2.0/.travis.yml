@@ -1,0 +1,35 @@
+language: python
+os: linux
+dist: xenial
+sudo: false
+
+python:
+  - 2.7
+  - 3.4
+  - 3.5
+  - 3.6
+  - 3.7
+
+env:
+  - CC=clang
+  - CC=gcc CFLAGS="--coverage -O0"
+
+branches:
+  except:
+  - /^appveyor-.*$/
+
+install:
+- pip install -U pip
+- pip install codecov
+- pip install -r dev/requirements.txt
+
+before_script:
+- python dev/patch_doctest.py
+
+script:
+- python setup.py install
+- python -m doctest fastnumbers
+- pytest --doctest-glob=README.rst
+
+after_success:
+- (test "$CC" == "gcc" && codecov --gcov-args '-o build/temp.*/src') || echo "skipping coverage for $CC"
