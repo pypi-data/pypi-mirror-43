@@ -1,0 +1,14 @@
+skore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skore/authentication_service.py,sha256=GLeAGgnzJmGb795EVwRykDGBFjurdcrqcjPTK8RZ7pk,1409
+skore/integration_service.py,sha256=HNaaDhIoTkTUpMeHWCnbWUlQNTUFn-xQ5L6LLsVuzgE,382
+skore/recommendation_service.py,sha256=UFlbLc26RPcDoHjYSMNGybgPelNoZgBDmP5NAVbsFiQ,478
+skore/skore_knowledge_service.py,sha256=aVkdi3V9hLeTH1MILgO61KL3lymROZ4kgHuOY5TRKtE,1027
+skore/meya/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skore/meya/issue_tracker.py,sha256=5YQjgMl-hkewh-ifkRf0OHsFtfN84hARnL2m2vQ6WNM,2466
+skore/meya/user.py,sha256=MqDioSCG9_EuKUN65rPRmCXwsNNfTYAsr41V0KlnAuE,2347
+skore_chatbot_sdk-0.0.6.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+skore_chatbot_sdk-0.0.6.dist-info/METADATA,sha256=yF9TRf4a7Q09JBInXQMjeCruOUPdK9uSvvy79hCNaQQ,280
+skore_chatbot_sdk-0.0.6.dist-info/RECORD,,
+skore_chatbot_sdk-0.0.6.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+skore_chatbot_sdk-0.0.6.dist-info/metadata.json,sha256=NjjVGmSMSI5kySYGfcTF8py8eAp7d7on2k35bJn16rA,492
+skore_chatbot_sdk-0.0.6.dist-info/top_level.txt,sha256=Yal582FwKGJEfREkROdcTd5vjdJSJWnY2o08q1q57pE,6
