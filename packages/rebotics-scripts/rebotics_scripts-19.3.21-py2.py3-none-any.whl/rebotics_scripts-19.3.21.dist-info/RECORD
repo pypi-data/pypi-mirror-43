@@ -1,0 +1,17 @@
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/api_v4_client.py,sha256=qxFTW0OjVRkwrEVQghiY_cmMHJR0W0lKa0KOHzlZ77g,11016
+scripts/cli.py,sha256=dexQ7l8FBbinzmPSHuTNt26xKGNr2soBBnVEwubaaLI,2759
+scripts/dataset_api_client.py,sha256=qHUaJ8Tuqz7ZULLlM_IAAcrSicKt6JUC2mVU0q7R5Cs,4298
+scripts/upcitemdb_interface.py,sha256=1KjzxSK1czCG5VKiqKwRf_ihCjcD7klVoxztoQFuO4s,8787
+sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdk/utils.py,sha256=m-oBZQvSYjtEfDPGm92BTZv99YcX4fH9ZUF2XheeViI,226
+sdk/providers/__init__.py,sha256=0cX0vTFZ_dTVOt25Tm1RkIrEsIf8_PvPbE5WOTzzYPc,128
+sdk/providers/admin.py,sha256=WppRN3bPYF9ZO84O-k4fMP6a6sYM6EA6TryjQ0Axa4I,652
+sdk/providers/base.py,sha256=Ds5Z4Dydk1H_5SoZIjDN74_5zvJgiPYh8G2KWnPlb-E,6112
+sdk/providers/dataset.py,sha256=AqMmHPBO5pX4DjQSpS7_YxOhIJpayNaTXUwsUVn5-UY,4258
+sdk/providers/retailer.py,sha256=5TQwpcoQM72e6o4iSz2h4Yh2X-IdP3HeQ74yjd41_PQ,3996
+rebotics_scripts-19.3.21.dist-info/METADATA,sha256=IhKb65B_BbILyZJY4_whcywsJT7udbszG8QxVwd8J-g,1029
+rebotics_scripts-19.3.21.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+rebotics_scripts-19.3.21.dist-info/entry_points.txt,sha256=GvZEDmuhJHdGz0CD5tRGniUJ0EfLY1K5jFVipIfGCC0,202
+rebotics_scripts-19.3.21.dist-info/top_level.txt,sha256=B193a4do1pfDTZ58rBSf9KHwi24eqY4Uy8bte3UQK_A,12
+rebotics_scripts-19.3.21.dist-info/RECORD,,
