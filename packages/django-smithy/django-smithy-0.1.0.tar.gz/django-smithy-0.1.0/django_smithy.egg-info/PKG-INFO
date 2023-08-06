@@ -1,0 +1,95 @@
+Metadata-Version: 1.1
+Name: django-smithy
+Version: 0.1.0
+Summary: Craft HTTP requests in the Django Admin.
+Home-page: https://github.com/jamiecounsell/django-smithy
+Author: Jamie Counsell
+Author-email: jamiecounsell@me.com
+License: MIT
+Description: =============================
+        Django Smithy
+        =============================
+        
+        .. image:: https://badge.fury.io/py/django-smithy.svg
+            :target: https://badge.fury.io/py/django-smithy
+        
+        .. image:: https://travis-ci.org/jamiecounsell/django-smithy.svg?branch=master
+            :target: https://travis-ci.org/jamiecounsell/django-smithy
+        
+        .. image:: https://codecov.io/gh/jamiecounsell/django-smithy/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/jamiecounsell/django-smithy
+        
+        Craft HTTP requests in the Django Admin. Django Smithy is an HTTP Request templating system that allows developers to build systems to send abstract messages without additional development.
+        
+        Documentation
+        -------------
+        
+        The full documentation is at https://django-smithy.readthedocs.io.
+        
+        Quickstart
+        ----------
+        
+        Install Django Smithy::
+        
+            pip install django-smithy
+        
+        Then, create a request template to send:
+        
+        .. image:: https://user-images.githubusercontent.com/2321599/54481318-90a2ba80-4809-11e9-96ae-46be38ad65d3.png
+        
+        
+        Features
+        --------
+        
+        * Design requests in the Django Admin panel
+        * Send requests with whatever context you'd like
+        * Use Django's templating system everywhere
+        * Define variables to be added to the context
+        
+        Running Tests
+        -------------
+        
+        Does the code actually work?
+        
+        ::
+        
+            source <YOURVIRTUALENV>/bin/activate
+            (myenv) $ pip install tox
+            (myenv) $ tox
+        
+        Credits
+        -------
+        
+        Tools used in rendering this package:
+        
+        *  Cookiecutter_
+        *  `cookiecutter-djangopackage`_
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (2019-03-16)
+        ++++++++++++++++++
+        
+        * First release on PyPI. No tests are present, use at your own risk!
+        
+Keywords: django-smithy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
