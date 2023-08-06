@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ai-dialog-model
+Version: 0.3.1
+Summary: set of NLG experimentation using deep pavlov library
+Home-page: https://github.com/simonmeoni/ai_dialog_model
+Author: Simon Meoni
+Author-email: 2426884M@student.gla.ac.uk
+License: Apache Software License 2.0
+Keywords: ai_dialog_model
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+
+==================
+nlg-deeppavlov-api
+==================
+
+
+.. image:: https://img.shields.io/pypi/v/ai_dialog_model.svg
+        :target: https://pypi.python.org/pypi/ai_dialog_model
+
+.. image:: https://img.shields.io/travis/simonmeoni/ai_dialog_model.svg
+        :target: https://travis-ci.org/simonmeoni/ai_dialog_model
+
+.. image:: https://readthedocs.org/projects/nlg-deeppavlov-api/badge/?version=latest
+        :target: https://nlg-deeppavlov-api.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+set of NLG experimentation using deep pavlov library
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://nlg-deeppavlov-api.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-02-06)
+------------------
+
+* First release on PyPI.
+
+
