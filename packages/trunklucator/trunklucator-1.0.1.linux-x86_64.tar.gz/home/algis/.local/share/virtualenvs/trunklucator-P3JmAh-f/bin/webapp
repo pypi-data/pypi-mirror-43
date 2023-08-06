@@ -1,0 +1,12 @@
+#!/home/algis/.local/share/virtualenvs/trunklucator-P3JmAh-f/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'trunklucator==1.0.1','console_scripts','webapp'
+__requires__ = 'trunklucator==1.0.1'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('trunklucator==1.0.1', 'console_scripts', 'webapp')()
+    )
