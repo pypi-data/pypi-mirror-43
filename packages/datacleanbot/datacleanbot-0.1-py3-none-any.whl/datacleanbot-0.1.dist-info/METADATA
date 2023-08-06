@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: datacleanbot
+Version: 0.1
+Summary: automated data cleaning tool
+Home-page: https://github.com/Ji-Zhang/datacleanbot
+Author: Ji Zhang
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy (>=1.14.2)
+Requires-Dist: pandas
+Requires-Dist: scikit-learn (>=0.20.0)
+Requires-Dist: scipy (>=1.0.0)
+Requires-Dist: seaborn (>=0.8)
+Requires-Dist: matplotlib (>=2.2.2)
+Requires-Dist: missingno (>=0.4.0)
+Requires-Dist: fancyimpute (>=0.4.0)
+Requires-Dist: numba (>=0.27)
+Requires-Dist: pystruct (>=0.2.4)
+Requires-Dist: cvxopt (>=1.1.9)
+Requires-Dist: pymc3 (>=3.4)
+Requires-Dist: pyro-ppl (>=0.2)
+Requires-Dist: ipython (>=6.1.0)
+
+UNKNOWN
+
+
