@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: spycial
+Version: 0.1.1
+Summary: Special functions written in Python and accelerated by Numba
+Home-page: https://github.com/person142/spycial
+Author: Josh Wilson
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
