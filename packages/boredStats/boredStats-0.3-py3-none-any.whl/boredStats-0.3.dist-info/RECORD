@@ -1,0 +1,10 @@
+boredStats/__init__.py,sha256=FmHUSsFHUJNl1SQiNormVIkB3Sir_DdEySZ_-HXLTdU,93
+boredStats/corr_tools.py,sha256=oeJUtwbHXRDNfOR-mtFqQ8sCOHykY9xtxyaVC3i-b-0,2539
+boredStats/pca_tools.py,sha256=5kvBmSdzG9-i2x0tH4M6UHjgCYFLnLOgYJ7yuioGO_0,1567
+boredStats/pls_tools.py,sha256=-eKq8npffXvJDL26CXDKu8iu7vZjGpxqHuDhNF6fCM8,9332
+boredStats/utils.py,sha256=UA2bL_a9Cv9r4dJ9uFDuO-8sCCV_nV9-8zg0b6iZqBs,1482
+boredStats-0.3.dist-info/LICENSE,sha256=GSdXigo4mYRfNhj5R0hqTWfVKcJMQoorxwD3Iv5jWQA,1066
+boredStats-0.3.dist-info/METADATA,sha256=VvKNngTrNuiIaG82C87ktQKfgeFNs4LowNFc0BQYBzA,224
+boredStats-0.3.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+boredStats-0.3.dist-info/top_level.txt,sha256=0UvaKaq4_eCXcd09KJcwt1s8QoQbsdHFjKj3YqF58oY,11
+boredStats-0.3.dist-info/RECORD,,
