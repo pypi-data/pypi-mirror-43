@@ -1,0 +1,3 @@
+[console_scripts]
+digipathos = digipathos:main
+
