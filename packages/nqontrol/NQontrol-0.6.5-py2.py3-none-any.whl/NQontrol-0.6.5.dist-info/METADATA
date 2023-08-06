@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: NQontrol
+Version: 0.6.5
+Summary: Python program for digital control-loops.
+Home-page: UNKNOWN
+Author: LasNQ – Uni Hamburg
+Author-email: christian.darsow@physik.uni-hamburg.de
+License: GPL v3
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Dist: adwin (>=0.16.1)
+Requires-Dist: sphinx (>=1.7.5)
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: dash (==0.38.0)
+Requires-Dist: dash-daq (>=0.1.4)
+Requires-Dist: plotly
+Requires-Dist: pandas
+Requires-Dist: pandas-datareader (>=0.5.0)
+Requires-Dist: flask
+Requires-Dist: matplotlib
+Requires-Dist: tabulate
+Requires-Dist: scipy (>=1.0)
+Requires-Dist: nbconvert
+Requires-Dist: fastnumbers
+Requires-Dist: recommonmark
+Requires-Dist: sphinx-markdown-tables
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: OpenQlab (>=0.1.4)
+Requires-Dist: jupyter-contrib-nbextensions
+Requires-Dist: pytest (<4.0)
+Requires-Dist: pytest-cov
+Requires-Dist: jsonpickle
+Requires-Dist: websocket-client
+Requires-Dist: websockets
+Requires-Dist: gunicorn
+
+UNKNOWN
+
+
