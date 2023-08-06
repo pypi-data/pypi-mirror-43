@@ -1,0 +1,16 @@
+litho1pt0/__init__.py,sha256=cDkHD0jhiRBldDv9yalUbE8pdqAOSJ_vkwUMnvlUJuQ,12494
+litho1pt0/documentation.py,sha256=UOB_TzwBeBpGvFzDLaBnSkl49EvLBc8VuxzU7XdR3Kk,1863
+litho1pt0/Notebooks/litho1pt0/Ex1-Litho1Layers.ipynb,sha256=Y6bCYRbJBq5QIKmJQmDOttRrgeEOWA6UPwqPQimZt_M,543725
+litho1pt0/Notebooks/litho1pt0/Ex2-Litho1Properties.ipynb,sha256=p3WEbldTA0HA3vG4Of4ydG_lruDHlgOgYOEPmRLCQVs,584719
+litho1pt0/Notebooks/litho1pt0/Ex3-CrustalRegionalisation.ipynb,sha256=aw5R8jVSd5nBWCOvVigJNwGk9P4gbyMN7RnR54uKyIA,1174854
+litho1pt0/Notebooks/litho1pt0/WorkEx1-CratonAverageProperties.ipynb,sha256=y7g7_TcI__JgkBxSSCRcucIkGRIbhi0nqWZhz2zxwCs,662369
+litho1pt0/Notebooks/litho1pt0/WorkEx2-OceanDepthAge.ipynb,sha256=zJ91KEA8IV8qjEPhcIOXj43A_Z0miC560ZfdQsiOHgY,868500
+litho1pt0/Notebooks/litho1pt0/Data/global_age_data.3.6.z.npz,sha256=Hrs1m76c3d-ExFS3BDx2JCuQEpEUZCdOVUuEiMuPo00,21987373
+litho1pt0/data/Crust1pt0-regionalisation.npz,sha256=6th64lItk_K3xIT3u2HLdnGr3tLvriarPvaofuLJPyc,11918
+litho1pt0/data/litho_data.npz,sha256=R8y9Y6azhpWVHUQYS2JimyIRArh65I504DWS6rSPG3E,4773669
+litho1pt0-0.7.0.dist-info/COPYING,sha256=rzGuMWLlEfuzygAlZU1oKFsNfAxouiZ54g9ykqjzIvY,38843
+litho1pt0-0.7.0.dist-info/COPYING.LESSER,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+litho1pt0-0.7.0.dist-info/METADATA,sha256=9IHrHA6ucr_2fB30cF9CinQAa49_goqeFMGBYLDEo9g,7453
+litho1pt0-0.7.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+litho1pt0-0.7.0.dist-info/top_level.txt,sha256=rHGI8CXz_ZJYeoBD2xGP3hu8ca9X-bImkd_51FUgRc4,10
+litho1pt0-0.7.0.dist-info/RECORD,,
