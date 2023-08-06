@@ -1,0 +1,5 @@
+[console_scripts]
+uhb-comparison = ultimate_hosts_blacklist.comparison:_command_line
+uhb_comparison = ultimate_hosts_blacklist.comparison:_command_line
+ultimate-hosts-blacklist-comparison = ultimate_hosts_blacklist.comparison:_command_line
+
