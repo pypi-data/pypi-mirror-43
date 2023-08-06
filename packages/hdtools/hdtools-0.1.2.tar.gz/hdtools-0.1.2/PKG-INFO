@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: hdtools
+Version: 0.1.2
+Summary: hd-tools for bitcoin and bitcoin-test
+Home-page: https://github.com/morvaridio/hdtools
+Author: Mahdi Fooladgar
+Author-email: fooladgar@morvarid.io
+License: MIT
+Description: UNKNOWN
+Keywords: bip32,hd-wallet,bitcoin,bip49,bip44
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security :: Cryptography
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
