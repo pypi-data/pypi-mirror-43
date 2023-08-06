@@ -1,0 +1,10 @@
+*.pyc
+red.xml
+*.project
+settings.json
+*.libspec
+report.html
+log.html
+output.xml
+dist/
+robotframework_eyeslibrary.egg-info
