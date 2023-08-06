@@ -1,0 +1,7 @@
+README.md
+indiazipcode
+setup.py
+indiazipcode.egg-info/PKG-INFO
+indiazipcode.egg-info/SOURCES.txt
+indiazipcode.egg-info/dependency_links.txt
+indiazipcode.egg-info/top_level.txt
