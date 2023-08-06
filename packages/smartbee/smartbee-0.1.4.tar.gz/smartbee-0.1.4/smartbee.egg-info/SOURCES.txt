@@ -1,0 +1,8 @@
+README.md
+setup.py
+smartbee/__init__.py
+smartbee/smartbee.py
+smartbee.egg-info/PKG-INFO
+smartbee.egg-info/SOURCES.txt
+smartbee.egg-info/dependency_links.txt
+smartbee.egg-info/top_level.txt
