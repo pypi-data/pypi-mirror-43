@@ -1,0 +1,13 @@
+axographio/__init__.py,sha256=UEkjYizdssiPXlHJauPjAeot7358Lj-KGkELPJQA1G4,1423
+axographio/extension.cp37-win_amd64.pyd,sha256=JnTXLxyOQTi3iaRcXlm9jhoVEKCThPjEKlV9SEGhaHs,148992
+axographio/version.py,sha256=Eg0SaHXXbLl0peRbFhpjy1rN1Mbumo6F62W0NMZ7JFs,147
+axographio/include/axograph_readwrite/AxoGraph Digitized File,sha256=_8YGhpIpVHZNEO_DPfrHx-C9_Bce8cdUXiogrVG_9uc,13764
+axographio/include/axograph_readwrite/AxoGraph Graph File,sha256=PG23lG20RS2XO-OCYhLHBgp6qNhBMcyHl3UcdQv2nQo,24836
+axographio/include/axograph_readwrite/AxoGraph X File.axgx,sha256=uJJBItKllb_RjHkN6RZPo5EhcAs1o3dMiXR5dKs7eYE,15271
+axographio/tests/__init__.py,sha256=5L2OF67XSlOJLPdGBiht_Oxst6pHxcxDWwVXusSudss,266
+axographio/tests/test_axographio.py,sha256=IW-8X1RgdMVOyA6_nifBIecJAIYgrCq626WRuI8QQ1A,9368
+axographio-0.3.1.dist-info/LICENSE,sha256=SfKud8TZVHLjBlEkTVI4XryahcEm4oFsKMmIBdovlEg,1556
+axographio-0.3.1.dist-info/METADATA,sha256=OBVLTDJSQenHqiQknl539WIAtQtDz6-HuF7DgofA3uo,7856
+axographio-0.3.1.dist-info/WHEEL,sha256=QOmb-VuQJwuZ7Av_Q2839PCv6qsn6RGHIrt6Y0esFDg,106
+axographio-0.3.1.dist-info/top_level.txt,sha256=AETMYEOolLmRqrFswHYAua9HRLNFUA6lHA1aqO3rre4,11
+axographio-0.3.1.dist-info/RECORD,,
