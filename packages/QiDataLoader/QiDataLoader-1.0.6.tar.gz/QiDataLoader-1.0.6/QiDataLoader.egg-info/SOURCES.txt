@@ -1,0 +1,13 @@
+README.rst
+setup.py
+QiDataLoader/BinaryReader.py
+QiDataLoader/MqDataLoader.py
+QiDataLoader/MqTickReader.py
+QiDataLoader/Quote.py
+QiDataLoader/Test.py
+QiDataLoader/Tick.py
+QiDataLoader/__init__.py
+QiDataLoader.egg-info/PKG-INFO
+QiDataLoader.egg-info/SOURCES.txt
+QiDataLoader.egg-info/dependency_links.txt
+QiDataLoader.egg-info/top_level.txt
