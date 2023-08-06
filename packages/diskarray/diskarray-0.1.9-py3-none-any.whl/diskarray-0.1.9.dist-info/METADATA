@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: diskarray
+Version: 0.1.9
+Summary: A resizable and readable numpy array on disk
+Home-page: https://github.com/deep-compute/diskarray
+Author: Deep Compute, LLC
+Author-email: contact@deepcompute.com
+License: MIT License
+Download-URL: https://github.com/deep-compute/diskarray/tarball/0.1.9
+Keywords: diskarray
+Platform: UNKNOWN
+Requires-Dist: numpy (==1.14.3)
+Requires-Dist: basescript (==0.2.9)
+
+UNKNOWN
+
+
