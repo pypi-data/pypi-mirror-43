@@ -1,0 +1,9 @@
+stockai/__init__.py,sha256=VoShZtMrkjyHJUz2rcyoMexpFkWFsG6AEcgE7CMBSMc,156
+stockai/base.py,sha256=9HdLsLp7KXM8AYX0N7UZxBOeC_NcHa_ZR9xdogsFDXg,2219
+stockai/stock.py,sha256=kxIdwRNMGdsJZiJEC6ngiQdlWBG25YKe3Ovc285ICtE,841
+stockai/utils.py,sha256=fBGxrfwzFEl5396X028yO9hNimesH1AdA0pdrSjmZcM,603
+stockai-0.0.4.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+stockai-0.0.4.dist-info/METADATA,sha256=YLWmIL2aa6B01zpTVswvqqEJ9T212V4lFHUKtLYWFLs,1760
+stockai-0.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+stockai-0.0.4.dist-info/top_level.txt,sha256=OiGKlEM-5kFDRBNno1ER2uyekyJXUnNF8x8JLj6cF-M,8
+stockai-0.0.4.dist-info/RECORD,,
