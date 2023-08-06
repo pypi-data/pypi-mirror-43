@@ -1,0 +1,11 @@
+edx_proctoring_proctortrack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edx_proctoring_proctortrack/static/proctortrack_custom.js,sha256=SHD9i9OPJ765f0Y0aJsuCBducuUtnnKsa0zoWtuBstA,2818
+edx_proctoring_proctortrack/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edx_proctoring_proctortrack/backends/proctortrack_rest.py,sha256=Ql1tw5t0L6Yfvi6WmUDGsPYl3bEcU3myqHN9yISAhz8,1912
+edx_proctoring_proctortrack-1.0.4.dist-info/DESCRIPTION.rst,sha256=eltMXRp-z2f2Qm3d_MsPjYPh9iqo4HfiWbrcoOLJy9U,97
+edx_proctoring_proctortrack-1.0.4.dist-info/metadata.json,sha256=O-mK5WSa3muEn1jW0CqK4LAOaPFCEAUCwCo7weOZgOc,1072
+edx_proctoring_proctortrack-1.0.4.dist-info/METADATA,sha256=PaYgphnc91yQdHPWr5htunAAK3AfUSZtq6LUFSoJDlM,846
+edx_proctoring_proctortrack-1.0.4.dist-info/RECORD,,
+edx_proctoring_proctortrack-1.0.4.dist-info/entry_points.txt,sha256=mYTYne-uAn8PiK_nLG5wPZAwhgjkC8CuGa-vm7KnzrA,120
+edx_proctoring_proctortrack-1.0.4.dist-info/WHEEL,sha256=54bVun1KfEBTJ68SHUmbxNPj80VxlQ0sHi4gZdGZXEY,92
+edx_proctoring_proctortrack-1.0.4.dist-info/top_level.txt,sha256=bUrnfGKs-_IafBY7Y6puUkQjP_QU318F2vAg-ULwncE,28
