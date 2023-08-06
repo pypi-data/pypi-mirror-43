@@ -1,0 +1,3 @@
+[console_scripts]
+lmake = lmake.blade3.__main__:main
+
