@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<object name="portal_catalog">
+  <index name="date_earliest" meta_type="DateIndex">
+    <indexed_attr value="date_earliest" />
+  </index>
+  <index name="date_latest" meta_type="DateIndex">
+    <indexed_attr value="date_latest" />
+  </index>
+  <index name="date_sort_ascending" meta_type="DateIndex">
+    <indexed_attr value="date_sort_ascending" />
+  </index>
+  <index name="date_sort_descending" meta_type="DateIndex">
+    <indexed_attr value="date_sort_descending" />
+  </index>
+</object>
