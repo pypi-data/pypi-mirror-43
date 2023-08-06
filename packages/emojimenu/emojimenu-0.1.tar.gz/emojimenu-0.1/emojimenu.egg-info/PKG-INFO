@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: emojimenu
+Version: 0.1
+Summary: Select and type emoji with dmenu
+Home-page: https://github.com/clarkb7/emojimenu
+Author: Branden Clark
+Author-email: clark@rpis.ec
+License: MIT
+Description: UNKNOWN
+Keywords: emoji dmenu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
