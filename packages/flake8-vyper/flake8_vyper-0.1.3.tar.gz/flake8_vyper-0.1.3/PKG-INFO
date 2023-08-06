@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: flake8_vyper
+Version: 0.1.3
+Summary: Plugin for flake8 to support Vyper
+Home-page: https://gitlab.com/mikeshultz/flake8-vyper
+Author: Mike Shultz
+Author-email: mike@mikeshultz.com
+License: MIT
+Description: # flake8-vyper
+        
+        Flake8 wrapper to support Vyper.  This is experimental, so, beware.
+        
+        ## Install
+        
+            pip install flake8-vyper
+        
+        ## Usage
+        
+        You can run flake8 with this wrapper with the command `flake8-vyper`.
+        
+        ## Configuration
+        
+        Alter your `.flake8` config so that the `filename` is set for your Vyper files
+        in the `[flake8]` section of the INI.
+        
+            [flake8]
+            filename = *.vy
+        
+        Alternatively, you can specify this with the `flake8` CLI command:
+        
+            flake8-vyper --filename="*.vy"
+        
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
