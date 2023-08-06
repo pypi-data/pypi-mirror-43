@@ -1,0 +1,11 @@
+funcsubs/__init__.py,sha256=AsE3VQn4oSfwDT9RE5oBAJj_0bDymYQPQi7uqdu_r9g,4764
+tests/__init__.py,sha256=sreGCwPnaEixpzZQdYidMpeuqN9iIyDWNrOBM6wv9Io,104
+tests/test_async.py,sha256=sy4XueFVANCOw_zVzqyslgFJczosHBuLKsQsFYWc_co,3278
+tests/test_base.py,sha256=z3oLTMqDUdZG458IJNazZZ5pP5E6DuXR6Cou2IqV-gU,513
+tests/test_propagation.py,sha256=ouMKhHBnqFEbMJZlYc9lWUM0eXhNwG2EU3engZZiXGE,1020
+tests/test_sync.py,sha256=rLP9BSgFxmnSDzTdlvNOA9J8jJOGKQwigL4MOEcJQzM,2927
+funcsubs-0.1.0.dist-info/LICENSE.txt,sha256=faGkWQdXDRDoZDqYwNGo3-IvYN-O1mJpA9yUGLvEWP4,1072
+funcsubs-0.1.0.dist-info/METADATA,sha256=tUR_nL8MrlpYu-sU0pLuJKRdYRLVXswZ4B8kvI9Kmqk,1317
+funcsubs-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+funcsubs-0.1.0.dist-info/top_level.txt,sha256=OaZm2hLE4-8x3dGf_mgWIFIb0EAO4pVcizKTUZqdzoI,15
+funcsubs-0.1.0.dist-info/RECORD,,
