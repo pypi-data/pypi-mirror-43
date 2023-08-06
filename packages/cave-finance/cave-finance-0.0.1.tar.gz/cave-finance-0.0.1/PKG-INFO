@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: cave-finance
+Version: 0.0.1
+Summary: finance base class. 股票 基金 爬虫 基础
+Home-page: https://github.com/lastcaveman/finance
+Author: lastcaveman
+Author-email: caveman.last@gmail.com
+License: MIT Licence
+Description: finance base class. 股票 基金 爬虫 基础
+Keywords: pip,finance,股票,基金,爬虫
+Platform: any
