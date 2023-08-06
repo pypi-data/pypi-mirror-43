@@ -1,0 +1,16 @@
+atomacos/AXCallbacks.py,sha256=UzAVMUPFVqvIvRAhN0Km8hHfZMJuKpGYTevFRtVc1Is,1988
+atomacos/AXClasses.py,sha256=GUu8550VM4mvlFFueb5AQNKb9ZeMO6rNH_DFs2vH-T4,7713
+atomacos/__init__.py,sha256=AbdlLx3R0G3uSYnXVKeXsqvcOvfQwzFqBimVDQGnaM0,898
+atomacos/_macos.py,sha256=DM4fLb7ul3frg50LUPMzn8IDe-Gai_YgqtYQR8ic4Hk,6724
+atomacos/a11y.py,sha256=K77Anm8Z6sf4hB3tOlLUZHv-WIY6bcwRZkL0bbI3hv0,11739
+atomacos/converter.py,sha256=Bk7pyL6E9Bsl6YG7RN18ZID1O13ZEAphCj6ACfctk9Y,2173
+atomacos/errors.py,sha256=XPNwVDqg02ci9mRtP9lqAfdOKThHidA12j-YAvAPy3Y,1466
+atomacos/notification.py,sha256=ksmZhI9C19EOEIg2db6jfVh4YkaSt7esPJQKNa8GXGQ,3249
+atomacos/mixin/__init__.py,sha256=NjlNvHixwJuebnRxN6spl6TxlSXtgehdpNuvlb0b_T4,174
+atomacos/mixin/_input.py,sha256=NsW9m_-a050DRpd6DlANB0ac2lBE2qqvugrtqWWrbGI,5526
+atomacos/mixin/_search.py,sha256=aoz5nttARUn87yrQeOm_fDqfGtVFuMA-4ESX3_eQt-o,7909
+atomacos/mixin/_wait.py,sha256=jdIb7NufsKwP5NBj1ukmcgbSx4ElKwCknSg8cznFRA0,6406
+atomacos-2.0.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+atomacos-2.0.0.dist-info/WHEEL,sha256=RFGpeSWy2MhnOH7MbIZmX9ZR0evWl2eJvsMO-yF-tDc,97
+atomacos-2.0.0.dist-info/METADATA,sha256=gWdpHItEGrmfvjTBNqvLAOCJSGcbvSftMhbvtWhbKM4,6901
+atomacos-2.0.0.dist-info/RECORD,,
