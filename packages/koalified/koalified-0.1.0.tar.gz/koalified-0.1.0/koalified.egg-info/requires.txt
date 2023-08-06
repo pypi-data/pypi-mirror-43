@@ -1,0 +1,10 @@
+PyYAML
+validators
+requests
+xxhash
+phonenumbers
+pycountry
+arrow
+
+[cython]
+Cython>=0.24
