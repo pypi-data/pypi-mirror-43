@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: checkMyApp
+Version: 0.0.2
+Summary: Tool for building python setup files.
+Home-page: https://github.com/flaunderg/checkMyApp
+Author: Daniel gur
+Author-email: dgur@outbrain.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: check-manifest (==0.37)
+Requires-Dist: pyflakes (==2.1.0)
+
+UNKNOWN
+
+
