@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: watchme
+Version: 0.0.1
+Summary: client to watch for webpage changes, and track over time
+Home-page: http://www.github.com/vsoch/watchme
+Author: Vanessa Sochat
+Author-email: vsochat@stanford.edu
+Maintainer: Vanessa Sochat
+Maintainer-email: vsochat@stanford.edu
+License: LICENSE
+Description: # WebWatcher
+        
+        A simple tool to watch for changes in a web page. Good for:
+        
+         1. Waiting for job postings to change or appear
+         2. New content for blogs or personal sites that don't have email / rss / atom feeds
+        
+        ## Licenses
+        
+        This code is licensed under the MPL 2.0 [LICENSE](LICENSE).
+        
+        
+Keywords: web,changes,cron
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3

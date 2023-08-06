@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+watchme/version.py
+watchme.egg-info/PKG-INFO
+watchme.egg-info/SOURCES.txt
+watchme.egg-info/dependency_links.txt
+watchme.egg-info/entry_points.txt
+watchme.egg-info/not-zip-safe
+watchme.egg-info/requires.txt
+watchme.egg-info/top_level.txt
+watchme/watcher/__init__.py
