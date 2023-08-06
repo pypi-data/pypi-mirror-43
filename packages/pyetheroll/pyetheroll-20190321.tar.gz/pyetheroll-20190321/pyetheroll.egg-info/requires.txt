@@ -1,0 +1,7 @@
+eth-account
+eth-utils
+py-etherscan-api==0.8.0
+pycryptodome
+requests-cache
+rlp
+web3
