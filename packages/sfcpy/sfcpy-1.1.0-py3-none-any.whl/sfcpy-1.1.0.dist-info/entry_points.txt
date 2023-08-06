@@ -1,0 +1,3 @@
+[console_scripts]
+sfcpy = sfcpy.__main__:main
+
