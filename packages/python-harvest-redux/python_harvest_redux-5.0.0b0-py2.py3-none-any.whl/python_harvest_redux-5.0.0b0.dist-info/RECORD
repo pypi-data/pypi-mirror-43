@@ -1,0 +1,12 @@
+harvest/__init__.py,sha256=CiBhz5aECzcn0uHf5z64iabdnA0CEeB0OGNI251LeUk,456
+harvest/dataclasses.py,sha256=jV9T61-vRilhN84c9VWLXYcnAlxBjsOObF0vZQFI_sA,16982
+harvest/harvest.py,sha256=U8Yyv098MZW86Xdhg8EpmgVdTFgcn1eE1L98M4JbvE8,36180
+harvest/metadata.py,sha256=bPDNpaDldoOVScgRrwHWvSVpCBPWlBKYtrf2joqGsqg,804
+harvest/reports.py,sha256=o9B9FGhdjdIr_Tuq6Lqn4U4GdKnFup4ehITipHXQ9_U,6683
+python_harvest_redux-5.0.0b0.dist-info/AUTHORS,sha256=oVYn62ZFwK2ehG-flbhgqSOrTwqGOB3FZ16OVDqGEEg,253
+python_harvest_redux-5.0.0b0.dist-info/LICENSE,sha256=_kYizHmx1l2Y2boQzMunfQZ7A1T8r_mzfiD83ObbafY,10177
+python_harvest_redux-5.0.0b0.dist-info/METADATA,sha256=kXPyO1CRGlbFFI-wz-2juLJO7OgF_gtbVsUgfvLg488,871
+python_harvest_redux-5.0.0b0.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+python_harvest_redux-5.0.0b0.dist-info/top_level.txt,sha256=JMPdooAKithOTvRhuUhQVIBuDfI6D__2Wb4hgIWWhQg,8
+python_harvest_redux-5.0.0b0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+python_harvest_redux-5.0.0b0.dist-info/RECORD,,
