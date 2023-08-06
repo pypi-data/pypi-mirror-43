@@ -1,0 +1,8 @@
+funcsubs/__init__.py,sha256=Wrmk0PpmYqgXo0hIfS9add1dcqdl7qyIS4eks3Jub-A,1842
+tests/__init__.py,sha256=LvO0ZrVvSlmkpK3iCOrH560G_QCoruCh9x23Rov8jc0,24
+tests/test_base.py,sha256=reg9zOEEOtd2T6dlUGzT1lOnerUc55xFfsrtQ-8FHBo,1301
+funcsubs-0.2.0.dist-info/LICENSE.txt,sha256=faGkWQdXDRDoZDqYwNGo3-IvYN-O1mJpA9yUGLvEWP4,1072
+funcsubs-0.2.0.dist-info/METADATA,sha256=v4axmD0DH1SIiMOLU6U8K5qL-seqal-SvUGuZM9sV1c,639
+funcsubs-0.2.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+funcsubs-0.2.0.dist-info/top_level.txt,sha256=OaZm2hLE4-8x3dGf_mgWIFIb0EAO4pVcizKTUZqdzoI,15
+funcsubs-0.2.0.dist-info/RECORD,,
