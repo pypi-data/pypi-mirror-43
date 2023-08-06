@@ -1,0 +1,23 @@
+#!/bin/bash
+# Set up a docker container running a mongo db for tios
+# Check docker installed/in path:
+if ! [ -x "$(command -v  docker)" ]; then
+    echo "Error: docker does not seem to be installed."
+    exit 1
+fi
+#Check username and password provided:
+if [[ $# -ne 2 ]]; then
+    echo "Usage: tios-dockerhub_start <admin_username> <admin_password>"
+    exit 1
+fi
+username=$1
+password=$2
+# Check tios-hub not already running:
+if [ "$(docker ps -f name=tios-hub | wc -l)" -eq 2 ]; then
+    echo 'Error - dockerhub already running.'
+    exit 1
+fi
+docker run -d --name tios-hub -e MONGO_INITDB_ROOT_USERNAME=$username -e MONGO_INITDB_ROOT_PASSWORD=$password -p 27017:27017 mongo >/dev/null
+tios-config_admin --url localhost --port 27017 --admin $username --passwd $password
+tios-add_guest
+echo "Hub started, now run tios-add_user to add user accounts."

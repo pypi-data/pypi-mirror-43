@@ -1,0 +1,14 @@
+#!/bin/bash
+# Stop a docker container running a mongo db for tios
+# Check docker installed/in path:
+if ! [ -x "$(command -v  docker)" ]; then
+    echo "Error: docker does not seem to be installed."
+    exit 1
+fi
+# Check tios-hub running:
+if [ "$(docker ps -f name=tios-hub | wc -l)" -ne 2 ]; then
+    echo 'warning: - no dockerhub running.'
+    exit 1
+fi
+docker stop tios-hub >/dev/null
+docker rm tios-hub >/dev/null

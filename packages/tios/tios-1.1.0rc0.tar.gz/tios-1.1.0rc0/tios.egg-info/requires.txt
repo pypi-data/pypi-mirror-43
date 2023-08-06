@@ -1,0 +1,4 @@
+argparse
+pymongo>=3.5
+numpy
+mdio
