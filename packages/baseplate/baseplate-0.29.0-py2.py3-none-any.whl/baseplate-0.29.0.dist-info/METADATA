@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: baseplate
+Version: 0.29.0
+Summary: A library to build services on
+Home-page: https://baseplate.readthedocs.io/en/stable/
+Author: Neil Williams
+Author-email: neil@reddit.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Dist: requests
+Requires-Dist: posix-ipc
+Requires-Dist: pyjwt
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-spelling ; extra == 'docs'
+Requires-Dist: alabaster ; extra == 'docs'
+Provides-Extra: gevent
+Requires-Dist: gevent ; extra == 'gevent'
+Provides-Extra: pyramid
+Requires-Dist: pyramid ; extra == 'pyramid'
+Provides-Extra: thrift
+Requires-Dist: thrift ; extra == 'thrift'
+
+baseplate
+=========
+
+|Build Status|
+
+Baseplate is a library to build services on. Its goal is to provide all
+the common things a service needs with as few surprises as possible,
+including:
+
+-  compatibility with Python 2.7 and Python 3.4+
+-  transparent diagnostic information collection (metrics, tracing,
+   logging)
+-  configuration parsing
+-  gevent-based Thrift and WSGI servers meant to run under
+   `Einhorn <https://github.com/stripe/einhorn>`__
+-  and various helper libraries like a Thrift client pool
+
+Read the `full docs <https://baseplate.readthedocs.io/en/stable/>`__.
+
+.. |Build Status| image:: https://travis-ci.org/reddit/baseplate.svg?branch=master
+   :target: https://travis-ci.org/reddit/baseplate
+
+
