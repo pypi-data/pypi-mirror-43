@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+djangoldp_hd/__init__.py
+djangoldp_hd/agents.py
+djangoldp_hd/apps.py
+djangoldp_hd/settings.py
+djangoldp_hd.egg-info/PKG-INFO
+djangoldp_hd.egg-info/SOURCES.txt
+djangoldp_hd.egg-info/dependency_links.txt
+djangoldp_hd.egg-info/requires.txt
+djangoldp_hd.egg-info/top_level.txt
+djangoldp_hd/migrations/__init__.py
