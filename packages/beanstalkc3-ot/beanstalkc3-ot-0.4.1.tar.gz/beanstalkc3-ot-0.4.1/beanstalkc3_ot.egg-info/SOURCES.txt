@@ -1,0 +1,6 @@
+beanstalkc.py
+setup.py
+beanstalkc3_ot.egg-info/PKG-INFO
+beanstalkc3_ot.egg-info/SOURCES.txt
+beanstalkc3_ot.egg-info/dependency_links.txt
+beanstalkc3_ot.egg-info/top_level.txt
