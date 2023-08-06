@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+krovetz/KrovetzStemmer.pxd
+krovetz/__init__.py
+krovetz/wrapped.cpp
+krovetz/wrapped.pyx
+krovetz.egg-info/PKG-INFO
+krovetz.egg-info/SOURCES.txt
+krovetz.egg-info/dependency_links.txt
+krovetz.egg-info/top_level.txt
+krovetz/lib/KrovetzStemmer.cpp
+krovetz/lib/KrovetzStemmer.hpp
