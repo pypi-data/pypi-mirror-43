@@ -1,0 +1,12 @@
+guillotina>=4.5.0
+
+[test]
+pytest
+requests
+docker
+backoff
+requests
+psycopg2
+pytest-asyncio
+pytest-aiohttp
+pytest-docker-fixtures
