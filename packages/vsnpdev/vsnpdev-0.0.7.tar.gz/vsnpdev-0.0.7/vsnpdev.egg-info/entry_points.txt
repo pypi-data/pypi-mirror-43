@@ -1,0 +1,3 @@
+[console_scripts]
+vSNP = vsnp.vSNP:group
+

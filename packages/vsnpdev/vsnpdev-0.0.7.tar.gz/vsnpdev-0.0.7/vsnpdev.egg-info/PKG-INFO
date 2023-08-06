@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: vsnpdev
+Version: 0.0.7
+Summary: USDA APHIS Veterinary Services (VS) Mycobacterium tuberculosis complex, mainly M. bovis, and Brucella sp. SNP pipeline. Genotyping from whole genome sequence (WGS) outputting BAM, VCF, SNP tables and phylogentic trees.
+Home-page: https://github.com/USDA-VS/vSNP
+Author: Adam Koziol
+Author-email: adam.koziol@canada.ca
+License: MIT
+Description: LINK TO PROJECT:
+        ================
+        
+        https://usda-vs.github.io/vSNP/
+        
+Platform: UNKNOWN

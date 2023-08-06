@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+cowsnphr/__init__.py
+cowsnphr/cowsnphr.py
+vsnp/__init__.py
+vsnp/vSNP.py
+vsnp/vsnp_tree_methods.py
+vsnp/vsnp_tree_run.py
+vsnp/vsnp_vcf_methods.py
+vsnp/vsnp_vcf_run.py
+vsnpdev.egg-info/PKG-INFO
+vsnpdev.egg-info/SOURCES.txt
+vsnpdev.egg-info/dependency_links.txt
+vsnpdev.egg-info/entry_points.txt
+vsnpdev.egg-info/requires.txt
+vsnpdev.egg-info/top_level.txt
