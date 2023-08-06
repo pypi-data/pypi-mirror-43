@@ -1,0 +1,13 @@
+ipymarkup/__init__.py,sha256=Nrbylq0RWg1ADVWjTG483L1Qmg3flL62kTOVpnMuePE,31
+ipymarkup/compat.py,sha256=udLnc02lR9QLpgo61Ew52LDZTBXRlWahHAiaQNwCUjM,171
+ipymarkup/demo.py,sha256=pda8IoHl-mjsZEb1DY6jImvoyskioaxiQooJIScN-RA,2422
+ipymarkup/markup.py,sha256=4PnBxQOBl97YsRN1dLy97gYan1Ts0L7b09cRNPCPJJE,10916
+ipymarkup/multiline.py,sha256=Mhg0j-McD_lJDWaQvXG_sMPqXXL9C3DMlbsu9HiD6g4,1599
+ipymarkup/palette.py,sha256=4ky_1TO6kBsvTLIx0SrV9zkj0fyknqOIhCzVMUkJvpQ,7555
+ipymarkup/utils.py,sha256=fhmNzKtvtqj4BeJa2B2oYBTobUdvq598zBUQrgiZINc,1786
+ipymarkup-0.5.0.dist-info/DESCRIPTION.rst,sha256=l4aZpIus_PHXSO0mIdJ3zBgUGqITmXlZM3XiyniYLKI,568
+ipymarkup-0.5.0.dist-info/METADATA,sha256=y3LGth-2hAau8CHjSUhlk7EX_vf23M6w_vhLCu4MfHQ,1265
+ipymarkup-0.5.0.dist-info/RECORD,,
+ipymarkup-0.5.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+ipymarkup-0.5.0.dist-info/metadata.json,sha256=vhTOzPONwuixo2NcVfaCuusJdz1gi2KsYl-yAN8QQqs,894
+ipymarkup-0.5.0.dist-info/top_level.txt,sha256=XWfY49Ub6W-CdOfy1yZgmkCchP_uzQdWNB_tQmpNnR4,10
