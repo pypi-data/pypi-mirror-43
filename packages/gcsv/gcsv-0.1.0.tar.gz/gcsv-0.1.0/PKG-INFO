@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gcsv
+Version: 0.1.0
+Summary: Easy pasting of CSV files to Google Sheets.
+Home-page: https://github.com/liamCorbett/g-csv
+Author: Liam Corbett
+Author-email: None
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: google-api-python-client (>=1.7,<2.0)
+Requires-Dist: google-auth-httplib2 (>=0.0.3,<0.0.4)
+Requires-Dist: google-auth-oauthlib (>=0.2.0,<0.3.0)
+Project-URL: Repository, https://github.com/liamCorbett/g-csv
