@@ -1,0 +1,132 @@
+Simple Asynchronous Scheduler
+=============================
+
+AsyncScheduler is a wrapper for sched.scheduler that provides
+asynchronous operation out of the box. Thus, starting the scheduler does
+not block the execution of the next statements. Further, adding and
+removing events can be done without manually stopping/starting the
+scheduler.
+
+The event itself is executed synchronously. Consequently, it the
+execution of the calling method takes longer than the delay to the next
+event, execution of the next method is postponed until the previous
+method returns.
+
+Example
+=======
+
+Code
+----
+
+::
+
+    from asyncscheduler import AsyncScheduler
+    from time import sleep
+
+    a = AsyncScheduler()
+    a.start()
+    event = a.enter(1, 1, print, args=("event 1",))
+    a.enter(2, 1, print, args=("event 2",))
+    a.enter(3, 1, print, args=("event 3",))
+    a.enter(4, 1, print, args=("event 4",))
+    a.cancel(event)
+    sleep(3.1)
+    a.clear_scheduler()
+    a.stop()
+
+Output
+------
+
+::
+
+    event 2
+    event 3
+
+API
+===
+
+enter
+-----
+
+``AsyncScheduler.enter(self, delay, priority, action, args=(), kwargs={})``
+
+Add an event to the scheduler. It will be executed after the provided
+delay with 'action(\*argument, \*\*kwargs)'. In case of two events
+scheduled for the same time the priority is used for execution order. A
+lower number means a higher priority.
+
+Parameter: \* ``delay`` - delay call of func for this amount of seconds.
+e.g. 12.34 \* ``priority`` - events scheduled for the same time are
+processed according to their priority. \* ``action`` - function that is
+called upon expires \* ``args`` - tuple of arguments for this function
+\* ``kwargs`` - dict of arguments for this function
+
+Returns the instance of the added event.
+
+enterabs
+--------
+
+``AsyncScheduler.enterabs(self, time, priority, action, args=(), kwargs={})``
+
+Add an event to the scheduler. It will be executed at the provided time
+with 'action(\*argument, \*\*kwargs)'. In case of two events scheduled
+for the same time the priority is used for execution order. A lower
+number means a higher priority.
+
+Parameter: \* ``time`` - call the action at this time stamp. \*
+``priority`` - events scheduled for the same time are processed
+according to their priority. \* ``action`` - function that is called
+upon expires \* ``args`` - tuple of arguments for this function \*
+``kwargs`` - dict of arguments for this function
+
+Returns the instance of the added event.
+
+clear\_scheduler
+----------------
+
+``AsyncScheduler.clear_scheduler(self)``
+
+Cancels all scheduled events.
+
+cancel
+------
+
+``AsyncScheduler.cancel(self, event)``
+
+Remove the provided event from the scheduler. In case of an unknown
+event, a ValueError will be raised.
+
+Parameter: \* ``event`` - event instance as returned from add\_event.
+
+start
+-----
+
+``start(self)``
+
+Starts the scheduler.
+
+stop
+----
+
+``stop(self)``
+
+Stops the scheduler. After stop, the scheduler is emptied. Thus, calling
+``start`` after ``stop`` results in a new, blank schedule that must be
+filled.
+
+Todos
+=====
+
+-  ...
+
+Misc
+====
+
+The code is written for ``python3`` (and tested with python 3.5).
+
+`Merge
+requests <https://gitlab.com/tgd1975/simple_asynchronous_scheduler/merge_requests>`__
+/ `bug
+reports <https://gitlab.com/tgd1975/simple_asynchronous_scheduler/issues>`__
+are always welcome.
+
