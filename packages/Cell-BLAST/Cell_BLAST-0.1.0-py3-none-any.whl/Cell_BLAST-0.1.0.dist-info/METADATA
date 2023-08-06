@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Cell-BLAST
+Version: 0.1.0
+Summary: Single-cell transcriptome querying tool
+Home-page: https://github.com/gao-lab/Cell_BLAST
+Author: Zhijie Cao
+Author-email: caozj@mail.cbi.pku.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: numba (>=0.39.0)
+Requires-Dist: scipy (>=1.0.0)
+Requires-Dist: joblib (>=0.12.0)
+Requires-Dist: scikit-learn (>=0.17.0)
+Requires-Dist: tqdm (>=4.12.0)
+Requires-Dist: pandas (>=0.21.0)
+Requires-Dist: h5py (>=2.7.0)
+Requires-Dist: python-igraph (>=0.7.1)
+Requires-Dist: pronto (>=0.10.2)
+Requires-Dist: seaborn (>=0.9.0)
+Requires-Dist: umap-learn (>=0.2.1)
+Requires-Dist: anndata (>=0.6.14)
+Requires-Dist: loompy (>=2.0.6)
+Requires-Dist: statsmodels (>=0.8.0)
+Requires-Dist: plotly
+
+# Cell BLAST
+
+An accurate and robust solution to large-scale cell querying
+
+
