@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: s3parq
+Version: 0.0.2
+Summary: Write and read/query s3 parquet data using Athena/Spectrum/Hive style partitioning.
+Home-page: https://github.com/IntegriChain1/s3parq
+Author: The IntegriChain Innovation Team
+Author-email: engineering@integrichain.com
+License: MIT
+Description: Write and read/query s3 parquet data using Athena/Spectrum/Hive style partitioning.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
