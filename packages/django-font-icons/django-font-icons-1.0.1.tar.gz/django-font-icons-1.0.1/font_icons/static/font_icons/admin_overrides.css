@@ -1,0 +1,15 @@
+.form-row {
+    overflow: visible;
+  }
+
+  .form-row .related-widget-wrapper {
+    float: none;
+    overflow: visible;
+    display: inline-block;
+    width: 400px;
+  }
+
+  .form-row .related-widget-wrapper:after {
+    content: ' ';
+    clear: both;
+  }
