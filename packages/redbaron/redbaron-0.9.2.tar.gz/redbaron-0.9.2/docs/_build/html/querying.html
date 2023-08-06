@@ -1,0 +1,429 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Querying &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Modifying" href="modifying.html" />
+    <link rel="prev" title="Basics" href="basics.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modifying.html" title="Modifying"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="basics.html" title="Basics"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="querying">
+<h1>Querying<a class="headerlink" href="#querying" title="Permalink to this headline">¶</a></h1>
+<p>As you have seen in the previous section, you can navigate into RedBaron tree
+only using attribute access and index access on list of nodes with the use of
+the <code class="file docutils literal"><span class="pre">.help()</span></code> method to know what you can do. However, RedBaron offers
+way more powerful and convenient tools to do that.</p>
+<div class="section" id="find">
+<h2>.find()<a class="headerlink" href="#find" title="Permalink to this headline">¶</a></h2>
+<p>To retrieve a single node, you can use the <code class="file docutils literal"><span class="pre">.find()</span></code> method by passing it
+one of the identifiers listed in <code class="file docutils literal"><span class="pre">.help()</span></code> of node you want to get, this way:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    IntNode()</span>
+<span class="go">      # identifiers: int, int_, intnode</span>
+<span class="go">      value=&#39;1&#39;</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;NameNode&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;a&#39;</span>
+
+<span class="gp">In [4]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;namenode&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>  <span class="c1"># identifiers are not case sensitive</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;a&#39;</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
+<span class="gh">Out[5]: </span><span class="go">a</span>
+</pre></div>
+</div>
+<p>This will recursively travel the tree and return the first node of that type.</p>
+<p>You can also specify attributes of the node that you want to match:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [6]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b&quot;</span><span class="p">)</span>
+
+<span class="gp">In [7]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;a&#39;</span>
+
+<span class="gp">In [8]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s1">&#39;b&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;b&#39;</span>
+</pre></div>
+</div>
+<p>If you don’t want a recursive approach but only on the first level on the current node or node list, you can pass <code class="file docutils literal"><span class="pre">recursive=False</span></code> to <code class="file docutils literal"><span class="pre">.find()</span></code>.</p>
+<p>Like BeautifulSoup, RedBaron provides a shorthand to <code class="file docutils literal"><span class="pre">.find()</span></code>, you can
+write the name of the target as an attribute of the node and this will do a <code class="file docutils literal"><span class="pre">.find()</span></code> in the same fashion:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [9]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b&quot;</span><span class="p">)</span>
+
+<span class="gp">In [10]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">)</span>
+<span class="gh">Out[10]: </span><span class="go">a</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="o">.</span><span class="n">name</span>
+<span class="gh">Out[11]: </span><span class="go">a</span>
+</pre></div>
+</div>
+<p>You might have noticed that some identifiers end with a <code class="file docutils literal"><span class="pre">_</span></code>, those are
+for the case where the identifier might be a Python reserved keyword like
+<code class="file docutils literal"><span class="pre">if</span></code>, or <code class="file docutils literal"><span class="pre">while</span></code> for example.</p>
+<p>Be aware that if you do a <code class="file docutils literal"><span class="pre">red.something_that_can_be_a_node_identifier</span></code>
+and this is also not an attribute of a node, this will raise an
+<code class="file docutils literal"><span class="pre">AttributeError</span></code>.</p>
+</div>
+<div class="section" id="find-all">
+<h2>.find_all()<a class="headerlink" href="#find-all" title="Permalink to this headline">¶</a></h2>
+<p><code class="file docutils literal"><span class="pre">.find_all()</span></code> is extremely similar to <code class="file docutils literal"><span class="pre">.find()</span></code> except it returns a
+node list containing all the matching queries instead of a single one. Like in
+BeautifulSoup, <code class="file docutils literal"><span class="pre">__call__</span></code> is aliased to <code class="file docutils literal"><span class="pre">find_all</span></code> (meaning that if
+you try to <em>call</em> the node this way <code class="file docutils literal"><span class="pre">node(some_arguments)</span></code> this will call
+<code class="file docutils literal"><span class="pre">.find_all()</span></code> with the arguments).</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [12]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b&quot;</span><span class="p">)</span>
+
+<span class="gp">In [13]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;NameNode&quot;</span><span class="p">)</span>
+<span class="gh">Out[13]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+
+<span class="gp">In [14]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+<span class="gh">Out[14]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+
+<span class="gp">In [15]: </span><span class="n">red</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+<span class="gh">Out[15]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+
+<span class="gp">In [16]: </span><span class="n">red</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;b&quot;</span><span class="p">)</span>
+<span class="gh">Out[16]: </span><span class="go">0   b</span>
+
+<span class="gp">In [17]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;b&quot;</span><span class="p">)</span>
+<span class="gh">Out[17]: </span><span class="go">0   b</span>
+</pre></div>
+</div>
+<p><code class="file docutils literal"><span class="pre">.find_all()</span></code> also supports the option <code class="file docutils literal"><span class="pre">recursive=False</span></code>.</p>
+</div>
+<div class="section" id="advanced-querying">
+<h2>Advanced querying<a class="headerlink" href="#advanced-querying" title="Permalink to this headline">¶</a></h2>
+<p><code class="file docutils literal"><span class="pre">.find()</span></code> and <code class="file docutils literal"><span class="pre">.find_all()</span></code> offer more powerful comparison mean
+than just equality comparison.</p>
+<div class="section" id="callable-lambda">
+<h3>Callable (lambda)<a class="headerlink" href="#callable-lambda" title="Permalink to this headline">¶</a></h3>
+<p>Instead of passing a string to test properties of the identifier of a node, you
+can pass a callable, like a lambda. It will receive the value as first
+argument:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [18]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = [1, 2, 3, 4]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [19]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="k">lambda</span> <span class="n">value</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gh">Out[19]: </span><span class="go">2</span>
+
+<span class="gp">In [20]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="k">lambda</span> <span class="n">value</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gh">Out[20]: </span><span class="go"></span>
+<span class="go">0   2</span>
+<span class="go">1   4</span>
+
+<span class="gp">In [21]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="k">lambda</span> <span class="n">identifier</span><span class="p">:</span> <span class="n">identifier</span> <span class="o">==</span> <span class="s2">&quot;comma&quot;</span><span class="p">)</span>
+<span class="gh">Out[21]: </span><span class="go">, </span>
+
+<span class="gp">In [22]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="k">lambda</span> <span class="n">identifier</span><span class="p">:</span> <span class="n">identifier</span> <span class="o">==</span> <span class="s2">&quot;comma&quot;</span><span class="p">)</span>
+<span class="gh">Out[22]: </span><span class="go"></span>
+<span class="go">0   , </span>
+<span class="go">1   , </span>
+<span class="go">2   , </span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="regex">
+<h3>Regex<a class="headerlink" href="#regex" title="Permalink to this headline">¶</a></h3>
+<p>Instead of passing a string to test properties of a node, you can pass a
+compiled regex:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [23]: </span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="gp">In [24]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;abcd = plop + pouf&quot;</span><span class="p">)</span>
+
+<span class="gp">In [25]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^p&quot;</span><span class="p">))</span>
+<span class="gh">Out[25]: </span><span class="go">plop</span>
+
+<span class="gp">In [26]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^p&quot;</span><span class="p">))</span>
+<span class="gh">Out[26]: </span><span class="go"></span>
+<span class="go">0   plop</span>
+<span class="go">1   pouf</span>
+
+<span class="gp">In [27]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^n&quot;</span><span class="p">))</span>
+<span class="gh">Out[27]: </span><span class="go">abcd</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s2">&quot;^n&quot;</span><span class="p">))</span>
+<span class="gh">Out[28]: </span><span class="go"></span>
+<span class="go">0   abcd</span>
+<span class="go">1   plop</span>
+<span class="go">2   pouf</span>
+</pre></div>
+</div>
+<p>Having to compile regex is boring, so you can use this shorthand syntax
+instead (prefixing a string with “re:”):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [29]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;abcd = plop + pouf&quot;</span><span class="p">)</span>
+
+<span class="gp">In [30]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;re:^p&quot;</span><span class="p">)</span>
+<span class="gh">Out[30]: </span><span class="go">plop</span>
+
+<span class="gp">In [31]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;re:^p&quot;</span><span class="p">)</span>
+<span class="gh">Out[31]: </span><span class="go"></span>
+<span class="go">0   plop</span>
+<span class="go">1   pouf</span>
+
+<span class="gp">In [32]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;re:^n&quot;</span><span class="p">)</span>
+<span class="gh">Out[32]: </span><span class="go">abcd</span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;re:^n&quot;</span><span class="p">)</span>
+<span class="gh">Out[33]: </span><span class="go"></span>
+<span class="go">0   abcd</span>
+<span class="go">1   plop</span>
+<span class="go">2   pouf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="globs">
+<h3>Globs<a class="headerlink" href="#globs" title="Permalink to this headline">¶</a></h3>
+<p>Same than in a shell, you can use globs by prefixing the string with “g:”:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [34]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;abcd = plop + pouf&quot;</span><span class="p">)</span>
+
+<span class="gp">In [35]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;g:p*&quot;</span><span class="p">)</span>
+<span class="gh">Out[35]: </span><span class="go">plop</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="s2">&quot;g:p*&quot;</span><span class="p">)</span>
+<span class="gh">Out[36]: </span><span class="go"></span>
+<span class="go">0   plop</span>
+<span class="go">1   pouf</span>
+
+<span class="gp">In [37]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;g:n*&quot;</span><span class="p">)</span>
+<span class="gh">Out[37]: </span><span class="go">abcd</span>
+
+<span class="gp">In [38]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;g:n*&quot;</span><span class="p">)</span>
+<span class="gh">Out[38]: </span><span class="go"></span>
+<span class="go">0   abcd</span>
+<span class="go">1   plop</span>
+<span class="go">2   pouf</span>
+</pre></div>
+</div>
+<p>In the background, the comparison is done using the <a class="reference external" href="https://docs.python.org/2/library/fnmatch.html#fnmatch.fnmatch">fnmatch</a> module of
+the standard lib.</p>
+</div>
+<div class="section" id="list-or-tuple">
+<h3>List or tuple<a class="headerlink" href="#list-or-tuple" title="Permalink to this headline">¶</a></h3>
+<p>You can pass a list as a shorthand to test if the tested attribute is in any of
+the member of the list/tuple:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [39]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;foo</span><span class="se">\n</span><span class="s2">bar</span><span class="se">\n</span><span class="s2">baz&quot;</span><span class="p">)</span>
+
+<span class="gp">In [40]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;foo&quot;</span><span class="p">,</span> <span class="s2">&quot;baz&quot;</span><span class="p">])</span>
+<span class="gh">Out[40]: </span><span class="go">foo</span>
+
+<span class="gp">In [41]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;foo&quot;</span><span class="p">,</span> <span class="s2">&quot;baz&quot;</span><span class="p">))</span>
+<span class="gh">Out[41]: </span><span class="go">foo</span>
+
+<span class="gp">In [42]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;foo&quot;</span><span class="p">,</span> <span class="s2">&quot;baz&quot;</span><span class="p">])</span>
+<span class="gh">Out[42]: </span><span class="go"></span>
+<span class="go">0   foo</span>
+<span class="go">1   baz</span>
+
+<span class="gp">In [43]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;foo&quot;</span><span class="p">,</span> <span class="s2">&quot;baz&quot;</span><span class="p">))</span>
+<span class="gh">Out[43]: </span><span class="go"></span>
+<span class="go">0   foo</span>
+<span class="go">1   baz</span>
+</pre></div>
+</div>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [44]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;1</span><span class="se">\n</span><span class="s2">stuff</span><span class="se">\n</span><span class="s2">&#39;string&#39;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="gp">In [45]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">([</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="s2">&quot;string&quot;</span><span class="p">])</span>
+<span class="gh">Out[45]: </span><span class="go">1</span>
+
+<span class="gp">In [46]: </span><span class="n">red</span><span class="p">([</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="s2">&quot;string&quot;</span><span class="p">])</span>
+<span class="gh">Out[46]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   &#39;string&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="args-and-default-value">
+<h3>*args and default value<a class="headerlink" href="#args-and-default-value" title="Permalink to this headline">¶</a></h3>
+<p>You can also pass as many callable as args (without giving it a key) as you
+want, those callables will receive the node itself as first argument (and must
+return a value that will be tested as a boolable):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [47]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = [1, 2, 3, 4]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [48]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">node</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gh">Out[48]: </span><span class="go">2</span>
+
+<span class="gp">In [49]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">node</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gh">Out[49]: </span><span class="go"></span>
+<span class="go">0   2</span>
+<span class="go">1   4</span>
+
+<span class="gp">In [50]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">node</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="k">lambda</span> <span class="n">node</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">node</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">)</span>
+<span class="gh">Out[50]: </span><span class="go">4</span>
+</pre></div>
+</div>
+<p>To ease the usage of RedBaron in ipython (and in general), you can pass any of
+the previous testing methods (<strong>except the lambda</strong>) as the <strong>first</strong> argument of
+*args, it will be tested against the default testing attribute which is the
+“value” attribute by default. This mean that: <code class="file docutils literal"><span class="pre">red.find(&quot;name&quot;,</span> <span class="pre">&quot;foo&quot;)</span></code>
+is the equivalent of <code class="file docutils literal"><span class="pre">red.find(&quot;name&quot;,</span> <span class="pre">value=&quot;foo&quot;)</span></code>.</p>
+<p>If the default tested attribute is different, it will be shown in
+<code class="file docutils literal"><span class="pre">.help()</span></code>. For now, the 2 only cases where this happens is on class node
+and funcdef node where the attribute is “name”.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [51]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;foo</span><span class="se">\n</span><span class="s2">def bar(): pass</span><span class="se">\n</span><span class="s2">baz</span><span class="se">\n</span><span class="s2">def badger(): pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [52]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;baz&quot;</span><span class="p">)</span>
+<span class="gh">Out[52]: </span><span class="go">baz</span>
+
+<span class="gp">In [53]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;def&quot;</span><span class="p">,</span> <span class="s2">&quot;bar&quot;</span><span class="p">)</span>
+<span class="gh">Out[53]: </span><span class="go">def bar(): pass</span>
+
+<span class="gp">In [54]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;def&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">DefNode()</span>
+<span class="go">  # identifiers: def, def_, defnode, funcdef, funcdef_</span>
+<span class="go">  # default test value: name</span>
+<span class="go">  async=False</span>
+<span class="go">  name=&#39;bar&#39;</span>
+<span class="go">  return_annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  decorators -&gt;</span>
+<span class="go">  arguments -&gt;</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * PassNode()</span>
+<span class="go">        # identifiers: pass, pass_, passnode</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="next">
+<h3>Next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<p>To learn how to modify stuff in RedBaron read <a class="reference internal" href="modifying.html"><span class="doc">Modifying</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Querying</a><ul>
+<li><a class="reference internal" href="#find">.find()</a></li>
+<li><a class="reference internal" href="#find-all">.find_all()</a></li>
+<li><a class="reference internal" href="#advanced-querying">Advanced querying</a><ul>
+<li><a class="reference internal" href="#callable-lambda">Callable (lambda)</a></li>
+<li><a class="reference internal" href="#regex">Regex</a></li>
+<li><a class="reference internal" href="#globs">Globs</a></li>
+<li><a class="reference internal" href="#list-or-tuple">List or tuple</a></li>
+<li><a class="reference internal" href="#args-and-default-value">*args and default value</a></li>
+<li><a class="reference internal" href="#next">Next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="basics.html"
+                        title="previous chapter">Basics</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="modifying.html"
+                        title="next chapter">Modifying</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/querying.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modifying.html" title="Modifying"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="basics.html" title="Basics"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

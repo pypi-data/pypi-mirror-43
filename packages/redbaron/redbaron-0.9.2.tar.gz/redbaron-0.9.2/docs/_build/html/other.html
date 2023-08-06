@@ -1,0 +1,1081 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Other &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Nodes References Page" href="nodes_reference.html" />
+    <link rel="prev" title="Proxy List" href="proxy_list.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="nodes_reference.html" title="Nodes References Page"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="proxy_list.html" title="Proxy List"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="other">
+<h1>Other<a class="headerlink" href="#other" title="Permalink to this headline">¶</a></h1>
+<p>List of other features of RedBaron.</p>
+<div class="section" id="parent">
+<span id="id1"></span><h2>.parent<a class="headerlink" href="#parent" title="Permalink to this headline">¶</a></h2>
+<p>Every node and node list have a <code class="file docutils literal"><span class="pre">.parent</span></code> attribute that points to the
+parent node or node list. If the node doesn’t have a parent node (for example
+the node list returned when constructing a new instance using the
+<code class="file docutils literal"><span class="pre">RedBaron</span></code> class), the <code class="file docutils literal"><span class="pre">parent</span></code> attribute is set at <code class="file docutils literal"><span class="pre">None</span></code>. A
+new node or node list created using <code class="file docutils literal"><span class="pre">.copy()</span></code> always have its
+<code class="file docutils literal"><span class="pre">parent</span></code> attribute set at <code class="file docutils literal"><span class="pre">None</span></code>.</p>
+<p>The attribute on which the node is assigned on the parent node is store in the
+<code class="file docutils literal"><span class="pre">on_attribute</span></code> attribute. <code class="file docutils literal"><span class="pre">on_attribute</span></code> is set at <code class="file docutils literal"><span class="pre">&quot;root&quot;</span></code>
+if the parent is a RedBaron instance.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1 + caramba&quot;</span><span class="p">)</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    BinaryOperatorNode()</span>
+<span class="go">      # identifiers: binary_operator, binary_operator_, binaryoperator, binaryoperatornode</span>
+<span class="go">      value=&#39;+&#39;</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        NameNode() ...</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span><span class="o">.</span><span class="n">parent</span>
+
+<span class="gp">In [4]: </span><span class="n">red</span><span class="o">.</span><span class="n">on_attribute</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[5]: </span><span class="go">0   a = 1 + caramba</span>
+
+<span class="gp">In [6]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">on_attribute</span>
+<span class="gh">Out[6]: </span><span class="go">&#39;root&#39;</span>
+
+<span class="gp">In [7]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[7]: </span><span class="go">a = 1 + caramba</span>
+
+<span class="gp">In [8]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">on_attribute</span>
+<span class="gh">Out[8]: </span><span class="go">&#39;target&#39;</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[9]: </span><span class="go">a = 1 + caramba</span>
+
+<span class="gp">In [10]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">on_attribute</span>
+<span class="gh">Out[10]: </span><span class="go">&#39;value&#39;</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">first</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[11]: </span><span class="go">1 + caramba</span>
+
+<span class="gp">In [12]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">first</span><span class="o">.</span><span class="n">on_attribute</span>
+<span class="gh">Out[12]: </span><span class="go">&#39;first&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="parent-find">
+<h2>.parent_find()<a class="headerlink" href="#parent-find" title="Permalink to this headline">¶</a></h2>
+<p>A helper method that allow you to do the equivalent of the <code class="file docutils literal"><span class="pre">.find()</span></code>
+method but in the chain of the parents of the node. This is the equivalent of
+doing: <code class="file docutils literal"><span class="pre">while</span> <span class="pre">node</span> <span class="pre">has</span> <span class="pre">a</span> <span class="pre">parent:</span> <span class="pre">if</span> <span class="pre">node.parent</span> <span class="pre">match</span> <span class="pre">query:</span> <span class="pre">return</span>
+<span class="pre">node.parent,</span> <span class="pre">else:</span> <span class="pre">node</span> <span class="pre">=</span> <span class="pre">node.parent</span></code>. It returns <code class="file docutils literal"><span class="pre">None</span></code> if no parent
+match the query.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [13]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a():</span><span class="se">\n</span><span class="s2">    with b:</span><span class="se">\n</span><span class="s2">        def c():</span><span class="se">\n</span><span class="s2">            pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [14]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">DefNode()</span>
+<span class="go">  # identifiers: def, def_, defnode, funcdef, funcdef_</span>
+<span class="go">  # default test value: name</span>
+<span class="go">  async=False</span>
+<span class="go">  name=&#39;a&#39;</span>
+<span class="go">  return_annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  decorators -&gt;</span>
+<span class="go">  arguments -&gt;</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * WithNode()</span>
+<span class="go">        # identifiers: with, with_, withnode</span>
+<span class="go">        async=False</span>
+<span class="go">        contexts -&gt;</span>
+<span class="go">          * WithContextItemNode() ...</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          * DefNode() ...</span>
+
+<span class="gp">In [15]: </span><span class="n">r</span> <span class="o">=</span> <span class="n">red</span><span class="o">.</span><span class="n">pass_</span>
+
+<span class="gp">In [16]: </span><span class="n">r</span>
+<span class="gh">Out[16]: </span><span class="go">pass</span>
+
+<span class="gp">In [17]: </span><span class="n">r</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[17]: </span><span class="go"></span>
+<span class="go">def c():</span>
+<span class="go">            pass</span>
+
+<span class="gp">In [18]: </span><span class="n">r</span><span class="o">.</span><span class="n">parent_find</span><span class="p">(</span><span class="s1">&#39;def&#39;</span><span class="p">)</span>
+<span class="gh">Out[18]: </span><span class="go"></span>
+<span class="go">def c():</span>
+<span class="go">            pass</span>
+
+<span class="gp">In [19]: </span><span class="n">r</span><span class="o">.</span><span class="n">parent_find</span><span class="p">(</span><span class="s1">&#39;def&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;a&#39;</span><span class="p">)</span>
+<span class="gh">Out[19]: </span><span class="go"></span>
+<span class="go">def a():</span>
+<span class="go">    with b:</span>
+<span class="go">        def c():</span>
+<span class="go">            pass</span>
+
+<span class="gp">In [20]: </span><span class="n">r</span><span class="o">.</span><span class="n">parent_find</span><span class="p">(</span><span class="s1">&#39;def&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;dont_exist&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="next-previous-next-recursive-previous-recursive-next-generator-previous-generator">
+<h2>.next .previous .next_recursive .previous_recursive .next_generator() .previous_generator()<a class="headerlink" href="#next-previous-next-recursive-previous-recursive-next-generator-previous-generator" title="Permalink to this headline">¶</a></h2>
+<p>In a similar fashion, nodes have a <code class="file docutils literal"><span class="pre">.next</span></code> and <code class="file docutils literal"><span class="pre">.previous</span></code>
+attributes that point to the next or previous node if the node is located in a
+node list. They are set at <code class="file docutils literal"><span class="pre">None</span></code> if there is not adjacent node or if the
+node is not in a node list. A node list will never have a <code class="file docutils literal"><span class="pre">.next</span></code> or
+<code class="file docutils literal"><span class="pre">.previous</span></code> node, so those attributes will always be set at <code class="file docutils literal"><span class="pre">None</span></code>.</p>
+<p>Nodes also have a <code class="file docutils literal"><span class="pre">.next_generator()</span></code> and <code class="file docutils literal"><span class="pre">.previous_generator()</span></code>
+if you want to iterate on the neighbours of the node.</p>
+<p>Nodes have also a <code class="file docutils literal"><span class="pre">.next_recursive</span></code> and
+<code class="file docutils literal"><span class="pre">.previous_recursive</span></code> attribute. It is similar to the non
+recursive function but differ in the fact that, when using
+<code class="file docutils literal"><span class="pre">.next_recursive</span></code> on a node at the end of the list, it points to
+the first adjacent node that exist in the parent hierarchy.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [21]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]; a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [22]: </span><span class="nb">list</span> <span class="o">=</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="gp">In [23]: </span><span class="k">print</span><span class="p">(</span><span class="nb">list</span><span class="o">.</span><span class="n">next</span><span class="p">)</span>
+<span class="go">; </span>
+
+<span class="gp">In [24]: </span><span class="nb">list</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">ListNode()</span>
+<span class="go">  # identifiers: list, list_, listnode</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;1&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;2&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;3&#39;</span>
+
+<span class="gp">In [25]: </span><span class="n">assign</span> <span class="o">=</span> <span class="n">red</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="gp">In [26]: </span><span class="n">assign</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    IntNode()</span>
+<span class="go">      # identifiers: int, int_, intnode</span>
+<span class="go">      value=&#39;1&#39;</span>
+
+<span class="gp">In [27]: </span><span class="nb">list</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">IntNode()</span>
+<span class="go">  # identifiers: int, int_, intnode</span>
+<span class="go">  value=&#39;3&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="next-intuitive-previous-intuitive">
+<h2>.next_intuitive/.previous_intuitive<a class="headerlink" href="#next-intuitive-previous-intuitive" title="Permalink to this headline">¶</a></h2>
+<p>Due to its tree nature, navigating in the FST might not behave as the user
+expect it. For example: doing a <code class="file docutils literal"><span class="pre">.next</span></code> on a <code class="file docutils literal"><span class="pre">TryNode</span></code> will not
+return the first <code class="file docutils literal"><span class="pre">ExceptNode</span></code> (or <code class="file docutils literal"><span class="pre">FinallyNode</span></code>) but will return
+the node after the try-excepts-else-finally node because it is a full node in
+itself in the FST.</p>
+<p>See for yourself:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [28]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;try:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">except:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">after&quot;</span><span class="p">)</span>
+
+<span class="gp">In [29]: </span><span class="n">red</span><span class="o">.</span><span class="n">try_</span>
+<span class="gh">Out[29]: </span><span class="go"></span>
+<span class="go">try:</span>
+<span class="go">    pass</span>
+<span class="go">except:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [30]: </span><span class="n">red</span><span class="o">.</span><span class="n">try_</span><span class="o">.</span><span class="n">next</span>
+<span class="gh">Out[30]: </span><span class="go">after</span>
+
+<span class="gp">In [31]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">TryNode()</span>
+<span class="go">  # identifiers: try, try_, trynode</span>
+<span class="go">  else -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  finally -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * PassNode()</span>
+<span class="go">        # identifiers: pass, pass_, passnode</span>
+<span class="go">  excepts -&gt;</span>
+<span class="go">    * ExceptNode()</span>
+<span class="go">        # identifiers: except, except_, exceptnode</span>
+<span class="go">        delimiter=&#39;&#39;</span>
+<span class="go">        exception -&gt;</span>
+<span class="go">          None</span>
+<span class="go">        target -&gt;</span>
+<span class="go">          None</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          * PassNode() ...</span>
+<span class="go">1 -----------------------------------------------------</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;after&#39;</span>
+</pre></div>
+</div>
+<p>To solve this issue <code class="file docutils literal"><span class="pre">.next_intuitive</span></code> and <code class="file docutils literal"><span class="pre">.previous_intuitive</span></code>
+have been introduced:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [32]: </span><span class="n">red</span>
+<span class="gh">Out[32]: </span><span class="go"></span>
+<span class="go">0   try:</span>
+<span class="go">        pass</span>
+<span class="go">    except:</span>
+<span class="go">        pass</span>
+<span class="go">    </span>
+<span class="go">1   after</span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="o">.</span><span class="n">try_</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[33]: </span><span class="go"></span>
+<span class="go">except:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [34]: </span><span class="n">red</span><span class="o">.</span><span class="n">try_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[34]: </span><span class="go">after</span>
+</pre></div>
+</div>
+<p>This also applies to <code class="file docutils literal"><span class="pre">IfNode</span></code>, <code class="file docutils literal"><span class="pre">ElifNode</span></code>, <code class="file docutils literal"><span class="pre">ElseNode</span></code>,
+<code class="file docutils literal"><span class="pre">ForNode</span></code> and <code class="file docutils literal"><span class="pre">WhileNode</span></code> (both of the last one can have an else
+statement). This also works coming from nodes outsides of those previous nodes.</p>
+<p>For <code class="file docutils literal"><span class="pre">IfNode</span></code>, <code class="file docutils literal"><span class="pre">ElifNode</span></code> and <code class="file docutils literal"><span class="pre">ElseNode</span></code> <strong>inside</strong> an
+<code class="file docutils literal"><span class="pre">IfelseblockNode</span></code>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [35]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;before</span><span class="se">\n</span><span class="s2">if a:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">elif b:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">else:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">after&quot;</span><span class="p">)</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span>
+<span class="gh">Out[36]: </span><span class="go"></span>
+<span class="go">0   before</span>
+<span class="go">1   if a:</span>
+<span class="go">        pass</span>
+<span class="go">    elif b:</span>
+<span class="go">        pass</span>
+<span class="go">    else:</span>
+<span class="go">        pass</span>
+<span class="go">    </span>
+<span class="go">2   after</span>
+
+<span class="gp">In [37]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">IfelseblockNode()</span>
+<span class="go">  # identifiers: ifelseblock, ifelseblock_, ifelseblocknode</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * IfNode()</span>
+<span class="go">        # identifiers: if, if_, ifnode</span>
+<span class="go">        test -&gt;</span>
+<span class="go">          NameNode() ...</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          * PassNode() ...</span>
+<span class="go">    * ElifNode()</span>
+<span class="go">        # identifiers: elif, elif_, elifnode</span>
+<span class="go">        test -&gt;</span>
+<span class="go">          NameNode() ...</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          * PassNode() ...</span>
+<span class="go">    * ElseNode()</span>
+<span class="go">        # identifiers: else, else_, elsenode</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          * PassNode() ...</span>
+
+<span class="gp">In [38]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gh">Out[38]: </span><span class="go"></span>
+<span class="go">if a:</span>
+<span class="go">    pass</span>
+<span class="go">elif b:</span>
+<span class="go">    pass</span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [39]: </span><span class="n">red</span><span class="o">.</span><span class="n">if_</span><span class="o">.</span><span class="n">next</span>
+<span class="gh">Out[39]: </span><span class="go"></span>
+<span class="go">elif b:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [40]: </span><span class="n">red</span><span class="o">.</span><span class="n">if_</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[40]: </span><span class="go"></span>
+<span class="go">elif b:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [41]: </span><span class="n">red</span><span class="o">.</span><span class="n">if_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[41]: </span><span class="go"></span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [42]: </span><span class="n">red</span><span class="o">.</span><span class="n">if_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[42]: </span><span class="go">after</span>
+
+<span class="gp">In [43]: </span><span class="n">red</span><span class="o">.</span><span class="n">if_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>There is a subtlety: <code class="file docutils literal"><span class="pre">IfelseblockNode</span></code> is <strong>unaffected</strong> by this
+behavior: you have to use <code class="file docutils literal"><span class="pre">next_intuitive</span></code> or
+<code class="file docutils literal"><span class="pre">previous_intuitive</span></code> on <code class="file docutils literal"><span class="pre">IfNode</span></code>, <code class="file docutils literal"><span class="pre">ElifNode</span></code> and
+<code class="file docutils literal"><span class="pre">ElseNode</span></code> <strong>inside</strong> IfelseblockNode.</p>
+<p>But, if you do a <code class="file docutils literal"><span class="pre">next_intuitive</span></code> or <code class="file docutils literal"><span class="pre">previous_intuitive</span></code> or a
+node around <code class="file docutils literal"><span class="pre">IfelseblockNode</span></code> it will jump to the first or last node
+<strong>inside</strong> the <code class="file docutils literal"><span class="pre">IfelseblockNode</span></code>.</p>
+<p class="last">See this example</p>
+</div>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [44]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;before</span><span class="se">\n</span><span class="s2">if a:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">elif b:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">else:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">after&quot;</span><span class="p">)</span>
+
+<span class="gp">In [45]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">ifelseblock</span><span class="o">.</span><span class="n">next_intuitive</span>  <span class="c1"># similar to .next</span>
+<span class="gh">Out[45]: </span><span class="go">after</span>
+
+<span class="gp">In [46]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">ifelseblock</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">previous</span>  <span class="c1"># this is the IfelseblockNode</span>
+<span class="gh">Out[46]: </span><span class="go"></span>
+<span class="go">if a:</span>
+<span class="go">    pass</span>
+<span class="go">elif b:</span>
+<span class="go">    pass</span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [47]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">ifelseblock</span><span class="o">.</span><span class="n">next</span><span class="o">.</span><span class="n">previous_intuitive</span>  <span class="c1"># this is the ElseNode</span>
+<span class="gh">Out[47]: </span><span class="go"></span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [48]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">ifelseblock</span><span class="o">.</span><span class="n">previous</span><span class="o">.</span><span class="n">next</span>  <span class="c1"># this is the IfelseblockNode</span>
+<span class="gh">Out[48]: </span><span class="go"></span>
+<span class="go">if a:</span>
+<span class="go">    pass</span>
+<span class="go">elif b:</span>
+<span class="go">    pass</span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [49]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">ifelseblock</span><span class="o">.</span><span class="n">previous</span><span class="o">.</span><span class="n">next_intuitive</span>  <span class="c1"># this is the IfNode</span>
+<span class="gh">Out[49]: </span><span class="go"></span>
+<span class="go">if a:</span>
+<span class="go">    pass</span>
+</pre></div>
+</div>
+<p>For <code class="file docutils literal"><span class="pre">ForNode</span></code>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [50]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;for a in b:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">else:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">after&quot;</span><span class="p">)</span>
+
+<span class="gp">In [51]: </span><span class="n">red</span>
+<span class="gh">Out[51]: </span><span class="go"></span>
+<span class="go">0   for a in b:</span>
+<span class="go">        pass</span>
+<span class="go">    else:</span>
+<span class="go">        pass</span>
+<span class="go">    </span>
+<span class="go">1   after</span>
+
+<span class="gp">In [52]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">ForNode()</span>
+<span class="go">  # identifiers: for, for_, fornode</span>
+<span class="go">  async=False</span>
+<span class="go">  iterator -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;b&#39;</span>
+<span class="go">  else -&gt;</span>
+<span class="go">    ElseNode()</span>
+<span class="go">      # identifiers: else, else_, elsenode</span>
+<span class="go">      value -&gt;</span>
+<span class="go">        * PassNode() ...</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * PassNode()</span>
+<span class="go">        # identifiers: pass, pass_, passnode</span>
+
+<span class="gp">In [53]: </span><span class="n">red</span><span class="o">.</span><span class="n">for_</span>
+<span class="gh">Out[53]: </span><span class="go"></span>
+<span class="go">for a in b:</span>
+<span class="go">    pass</span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [54]: </span><span class="n">red</span><span class="o">.</span><span class="n">for_</span><span class="o">.</span><span class="n">next</span>
+<span class="gh">Out[54]: </span><span class="go">after</span>
+
+<span class="gp">In [55]: </span><span class="n">red</span><span class="o">.</span><span class="n">for_</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[55]: </span><span class="go"></span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [56]: </span><span class="n">red</span><span class="o">.</span><span class="n">for_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[56]: </span><span class="go">after</span>
+</pre></div>
+</div>
+<p>For <code class="file docutils literal"><span class="pre">WhileNode</span></code>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [57]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while a:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">else:</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">after&quot;</span><span class="p">)</span>
+
+<span class="gp">In [58]: </span><span class="n">red</span>
+<span class="gh">Out[58]: </span><span class="go"></span>
+<span class="go">0   while a:</span>
+<span class="go">        pass</span>
+<span class="go">    else:</span>
+<span class="go">        pass</span>
+<span class="go">    </span>
+<span class="go">1   after</span>
+
+<span class="gp">In [59]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">WhileNode()</span>
+<span class="go">  # identifiers: while, while_, whilenode</span>
+<span class="go">  test -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  else -&gt;</span>
+<span class="go">    ElseNode()</span>
+<span class="go">      # identifiers: else, else_, elsenode</span>
+<span class="go">      value -&gt;</span>
+<span class="go">        * PassNode() ...</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * PassNode()</span>
+<span class="go">        # identifiers: pass, pass_, passnode</span>
+
+<span class="gp">In [60]: </span><span class="n">red</span><span class="o">.</span><span class="n">while_</span>
+<span class="gh">Out[60]: </span><span class="go"></span>
+<span class="go">while a:</span>
+<span class="go">    pass</span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [61]: </span><span class="n">red</span><span class="o">.</span><span class="n">while_</span><span class="o">.</span><span class="n">next</span>
+<span class="gh">Out[61]: </span><span class="go">after</span>
+
+<span class="gp">In [62]: </span><span class="n">red</span><span class="o">.</span><span class="n">while_</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[62]: </span><span class="go"></span>
+<span class="go">else:</span>
+<span class="go">    pass</span>
+
+<span class="gp">In [63]: </span><span class="n">red</span><span class="o">.</span><span class="n">while_</span><span class="o">.</span><span class="n">next_intuitive</span><span class="o">.</span><span class="n">next_intuitive</span>
+<span class="gh">Out[63]: </span><span class="go">after</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="root">
+<h2>.root<a class="headerlink" href="#root" title="Permalink to this headline">¶</a></h2>
+<p>Every node have the <code class="file docutils literal"><span class="pre">.root</span></code> attribute (property) that returns the root
+node in which this node is located:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [64]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a(): return 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [65]: </span><span class="n">red</span><span class="o">.</span><span class="n">int_</span>
+<span class="gh">Out[65]: </span><span class="go">42</span>
+
+<span class="gp">In [66]: </span><span class="k">assert</span> <span class="n">red</span><span class="o">.</span><span class="n">int_</span><span class="o">.</span><span class="n">root</span> <span class="ow">is</span> <span class="n">red</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="index-on-parent">
+<span id="id2"></span><h2>.index_on_parent<a class="headerlink" href="#index-on-parent" title="Permalink to this headline">¶</a></h2>
+<p>Every node have the <code class="file docutils literal"><span class="pre">.index_on_parent</span></code> attribute (property) that returns the index
+at which this node is store in its parent node list. If the node isn’t stored
+in a node list, it returns <code class="file docutils literal"><span class="pre">None</span></code>. If the node is stored in a proxy list
+(<a class="reference internal" href="proxy_list.html"><span class="doc">Proxy List</span></a>), it’s the index in the proxy list that is returned. to get
+the unproxified index use <a class="reference internal" href="#index-on-parent-raw"><span class="std std-ref">.index_on_parent_raw</span></a>.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [67]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = [1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [68]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[68]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+
+<span class="gp">In [69]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="gh">Out[69]: </span><span class="go">3</span>
+
+<span class="gp">In [70]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">index_on_parent</span>
+<span class="gh">Out[70]: </span><span class="go">2</span>
+
+<span class="gp">In [71]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[71]: </span><span class="go">[1, 2, 3]</span>
+
+<span class="gp">In [72]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">index_on_parent</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="index-on-parent-raw">
+<span id="id3"></span><h2>.index_on_parent_raw<a class="headerlink" href="#index-on-parent-raw" title="Permalink to this headline">¶</a></h2>
+<p>Same as <a class="reference internal" href="#index-on-parent"><span class="std std-ref">.index_on_parent</span></a> except that it always return the unproxified
+whether the node is stored in a proxy list or not.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [73]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = [1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [74]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">node_list</span>
+<span class="gh">Out[74]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   , </span>
+<span class="go">2   2</span>
+<span class="go">3   , </span>
+<span class="go">4   3</span>
+
+<span class="gp">In [75]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">node_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="gh">Out[75]: </span><span class="go">2</span>
+
+<span class="gp">In [76]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">node_list</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">index_on_parent_raw</span>
+<span class="gh">Out[76]: </span><span class="go">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="filtered">
+<h2>.filtered()<a class="headerlink" href="#filtered" title="Permalink to this headline">¶</a></h2>
+<p>Node list comes with a small helper function: <code class="file docutils literal"><span class="pre">.filtered()</span></code> that returns
+a <strong>tuple</strong> containing the “significant” node (nodes that aren’t comma node, dot
+node, space node or endl node).</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [77]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [78]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[78]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+
+<span class="gp">In [79]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">filtered</span><span class="p">()</span>
+<span class="gh">Out[79]: </span><span class="go">(1, 2, 3)</span>
+</pre></div>
+</div>
+<p>Note: the fact that it’s a tuple that is returned will probably evolve in the
+future into a node list proxy or something like that, I just don’t have the time
+to do something better right now.</p>
+</div>
+<div class="section" id="indentation">
+<h2>.indentation<a class="headerlink" href="#indentation" title="Permalink to this headline">¶</a></h2>
+<p>Every node has the property <code class="file docutils literal"><span class="pre">.indentation</span></code> that will return the
+indentation level of the node:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [80]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while a:</span><span class="se">\n</span><span class="s2">    pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [81]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">indentation</span>
+<span class="gh">Out[81]: </span><span class="go">&#39;&#39;</span>
+
+<span class="gp">In [82]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">test</span><span class="o">.</span><span class="n">indentation</span>
+<span class="gh">Out[82]: </span><span class="go">&#39;&#39;</span>
+
+<span class="gp">In [83]: </span><span class="n">red</span><span class="o">.</span><span class="n">pass_</span><span class="o">.</span><span class="n">indentation</span>
+<span class="gh">Out[83]: </span><span class="go">&#39;    &#39;</span>
+
+<span class="gp">In [84]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while a: pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [85]: </span><span class="n">red</span><span class="o">.</span><span class="n">pass_</span><span class="o">.</span><span class="n">indentation</span>
+<span class="gh">Out[85]: </span><span class="go">&#39;&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="increase-indentation-and-decrease-indentation">
+<h2>.increase_indentation() and .decrease_indentation()<a class="headerlink" href="#increase-indentation-and-decrease-indentation" title="Permalink to this headline">¶</a></h2>
+<p>Those 2 methods allow you to change the indentation of a part of the tree. They
+expect the number of spaces to add or to remove as first argument.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [86]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a():</span><span class="se">\n</span><span class="s2">    if plop:</span><span class="se">\n</span><span class="s2">        pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [87]: </span><span class="n">red</span>
+<span class="gh">Out[87]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        if plop:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [88]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">increase_indentation</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="gp">In [89]: </span><span class="n">red</span>
+<span class="gh">Out[89]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">                       if plop:</span>
+<span class="go">                           pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [90]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">decrease_indentation</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+
+<span class="gp">In [91]: </span><span class="n">red</span>
+<span class="gh">Out[91]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        if plop:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="to-python">
+<h2>.to_python()<a class="headerlink" href="#to-python" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>Since RedBaron calls ast.literal_eval it can only parse the python code
+parsed by the python version you are using.</p>
+<p class="last">For example if you are using a python version inferior to 3.6, <cite>to_python</cite>
+will crash on <cite>100_000</cite> because it is only supported since python 3.6</p>
+</div>
+<p>This method safely evaluate the current selected nodes. It wraps
+<a class="reference external" href="https://docs.python.org/2/library/ast.html#ast.literal_eval">ast.literal_eval</a>, therefor, and
+for security reasons, it only works on a subset of python: numbers, strings,
+lists, dicts, tuples, boolean and <code class="file docutils literal"><span class="pre">None</span></code>. Of course, using this method on
+a list/dict/tuple containing values that aren’t listed here will raise a
+<code class="file docutils literal"><span class="pre">ValueError</span></code>.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [92]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;42&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>  <span class="c1"># string</span>
+<span class="gh">Out[92]: </span><span class="go">&#39;42&#39;</span>
+
+<span class="gp">In [93]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;42&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>  <span class="c1"># python int</span>
+<span class="gh">Out[93]: </span><span class="go">42</span>
+
+<span class="gp">In [94]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;&#39;a&#39; &#39;b&#39;&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span>
+<span class="gh">Out[94]: </span><span class="go">&quot;&#39;a&#39; &#39;b&#39;&quot;</span>
+
+<span class="gp">In [95]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;&#39;a&#39; &#39;b&#39;&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[95]: </span><span class="go">&#39;ab&#39;</span>
+
+<span class="gp">In [96]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;u&#39;unicode string&#39;&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[96]: </span><span class="go">u&#39;unicode string&#39;</span>
+
+<span class="gp">In [97]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[97]: </span><span class="go">[1, 2, 3]</span>
+
+<span class="gp">In [98]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;(1, 2, 3)&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[98]: </span><span class="go">(1, 2, 3)</span>
+
+<span class="gp">In [99]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;{&#39;foo&#39;: &#39;bar&#39;}&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[99]: </span><span class="go">{&#39;foo&#39;: &#39;bar&#39;}</span>
+
+<span class="gp">In [100]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;False&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[100]: </span><span class="go">False</span>
+
+<span class="gp">In [101]: </span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;True&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span>
+<span class="gh">Out[101]: </span><span class="go">True</span>
+
+<span class="gp">In [102]: </span><span class="k">print</span><span class="p">(</span><span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;None&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">to_python</span><span class="p">())</span>
+<span class="go">None</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="path">
+<h2>.path()<a class="headerlink" href="#path" title="Permalink to this headline">¶</a></h2>
+<p>Every node has a <code class="file docutils literal"><span class="pre">path()</span></code> method that will return a <code class="file docutils literal"><span class="pre">Path</span></code> object
+to it. Every path object has a <code class="file docutils literal"><span class="pre">.node</span></code> attribute that point to the node
+and a <code class="file docutils literal"><span class="pre">.to_baron_path</span></code> that returns a <a class="reference external" href="https://baron.pycqa.org/en/latest/#locate-a-node">Baron Path namedtuple</a>.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [103]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while a:</span><span class="se">\n</span><span class="s2">    pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [104]: </span><span class="n">red</span><span class="o">.</span><span class="n">pass_</span>
+<span class="gh">Out[104]: </span><span class="go">pass</span>
+
+<span class="gp">In [105]: </span><span class="n">path</span> <span class="o">=</span> <span class="n">red</span><span class="o">.</span><span class="n">pass_</span><span class="o">.</span><span class="n">path</span><span class="p">()</span>
+
+<span class="gp">In [106]: </span><span class="n">path</span>
+<span class="gh">Out[106]: </span><span class="go">&lt;Path(PassNode(pass) @ [0, &#39;value&#39;, 1]) object at 139751515763664&gt;</span>
+
+<span class="gp">In [107]: </span><span class="n">path</span><span class="o">.</span><span class="n">node</span>
+<span class="gh">Out[107]: </span><span class="go">pass</span>
+
+<span class="gp">In [108]: </span><span class="n">path</span><span class="o">.</span><span class="n">to_baron_path</span><span class="p">()</span>
+<span class="gh">Out[108]: </span><span class="go">[0, &#39;value&#39;, 1]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="path-class">
+<h2>Path class<a class="headerlink" href="#path-class" title="Permalink to this headline">¶</a></h2>
+<p>RedBaron provides a Path class that represent a path to a node.</p>
+<dl class="class">
+<dt id="redbaron.Path">
+<em class="property">class </em><code class="descclassname">redbaron.</code><code class="descname">Path</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#redbaron.Path" title="Permalink to this definition">¶</a></dt>
+<dd><p>Holds the path to a FST node</p>
+<p>Path(node): path coming from the node’s root
+Path.from_baron_path(node, path): path going down the node following the given path</p>
+<p>Note that the second argument “path” is a baron path, i.e. list of
+keys that can be given for example by
+redbaron.Path(node).to_baron_path()</p>
+<p>The second form is useful when converting a path given by baron
+to a redbaron node</p>
+</dd></dl>
+
+</div>
+<div class="section" id="map-filter-apply">
+<h2>.map .filter .apply<a class="headerlink" href="#map-filter-apply" title="Permalink to this headline">¶</a></h2>
+<p>RedBaron nodes list have 3 helper methods <code class="file docutils literal"><span class="pre">.map</span></code>, <code class="file docutils literal"><span class="pre">.filter</span></code> and <code class="file docutils literal"><span class="pre">.apply</span></code> quite similar to python builtins (except for apply). The main difference is that they return a node list instance instead of a python buildin list.</p>
+<ul class="simple">
+<li><code class="file docutils literal"><span class="pre">.map</span></code> takes a callable (like a lambda or a function) that receive a
+node as first argument, this callable is applied on every node of the node
+list and a node list containing the return of those applies will be returned.</li>
+<li><code class="file docutils literal"><span class="pre">.filter</span></code> works like <code class="file docutils literal"><span class="pre">.map</span></code> but instead of returning a node list
+of the return of the callable, it returns a node list that contains the nodes
+for which the callable returned <code class="file docutils literal"><span class="pre">True</span></code> (or something considered
+<code class="file docutils literal"><span class="pre">True</span></code> in python)</li>
+<li><code class="file docutils literal"><span class="pre">.apply</span></code> works like <code class="file docutils literal"><span class="pre">.map</span></code> but instead of returning the result of
+the callable, it returns to original node.</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [109]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [110]: </span><span class="n">red</span><span class="p">(</span><span class="s1">&#39;int&#39;</span><span class="p">)</span>
+<span class="gh">Out[110]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+
+<span class="gp">In [111]: </span><span class="n">red</span><span class="p">(</span><span class="s1">&#39;int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="gh">Out[111]: </span><span class="go"></span>
+<span class="go">0   2</span>
+<span class="go">1   3</span>
+<span class="go">2   4</span>
+
+<span class="gp">In [112]: </span><span class="n">red</span><span class="p">(</span><span class="s1">&#39;int&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">to_python</span><span class="p">()</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span>
+<span class="gh">Out[112]: </span><span class="go">0   2</span>
+</pre></div>
+</div>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [113]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a()</span><span class="se">\n</span><span class="s2">b()</span><span class="se">\n</span><span class="s2">c(x=y)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [114]: </span><span class="n">red</span><span class="p">(</span><span class="s1">&#39;call&#39;</span><span class="p">)</span>
+<span class="gh">Out[114]: </span><span class="go"></span>
+<span class="go">0   ()</span>
+<span class="go">1   ()</span>
+<span class="go">2   (x=y)</span>
+
+<span class="go"># FIXME</span>
+<span class="go"># red(&#39;call&#39;).map(lambda x: x.append_value(&quot;answer=42&quot;))</span>
+<span class="gp">In [115]: </span><span class="n">red</span><span class="p">(</span><span class="s1">&#39;call&#39;</span><span class="p">)</span>
+<span class="gh">Out[115]: </span><span class="go"></span>
+<span class="go">0   ()</span>
+<span class="go">1   ()</span>
+<span class="go">2   (x=y)</span>
+
+<span class="gp">In [116]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a()</span><span class="se">\n</span><span class="s2">b()</span><span class="se">\n</span><span class="s2">c(x=y)&quot;</span><span class="p">)</span>
+
+<span class="go"># FIXME</span>
+<span class="go"># red(&#39;call&#39;).apply(lambda x: x.append_value(&quot;answer=42&quot;))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="replace">
+<h2>.replace()<a class="headerlink" href="#replace" title="Permalink to this headline">¶</a></h2>
+<p><code class="file docutils literal"><span class="pre">.replace()</span></code> is a method that allow to replace <strong>in place</strong> a node by
+another one. Like every operation of this nature, you can pass a string, a
+dict, a list of length one or a node instance.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [117]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a()</span><span class="se">\n</span><span class="s2">b()</span><span class="se">\n</span><span class="s2">c(x=y)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [118]: </span><span class="n">red</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;1 + 2&quot;</span><span class="p">)</span>
+
+<span class="gp">In [119]: </span><span class="n">red</span>
+<span class="gh">Out[119]: </span><span class="go"></span>
+<span class="go">0   a()</span>
+<span class="go">1   b()</span>
+<span class="go">2   1 + 2</span>
+
+<span class="gp">In [120]: </span><span class="n">red</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;plop&quot;</span><span class="p">)</span>
+
+<span class="gp">In [121]: </span><span class="n">red</span>
+<span class="gh">Out[121]: </span><span class="go"></span>
+<span class="go">0   a()</span>
+<span class="go">1   b()</span>
+<span class="go">2   plop</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="edit">
+<h2>.edit()<a class="headerlink" href="#edit" title="Permalink to this headline">¶</a></h2>
+<p>Helper method that allow to edit the code of the current <strong>node</strong> into an
+editor. The result is parsed and replace the code of the current node.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [122]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a(): return 42&quot;</span><span class="p">)</span>
+
+<span class="go"># should be used like this: (I can&#39;t execute this code here, obviously)</span>
+<span class="go"># red.return_.edit()</span>
+</pre></div>
+</div>
+<p>By default, the editor is taken from the variable <code class="file docutils literal"><span class="pre">EDITOR</span></code> in the
+environment variables. If this variable is not present, nano is used. You can
+use a different editor this way: <code class="file docutils literal"><span class="pre">node.edit(editor=&quot;vim&quot;)</span></code>.</p>
+</div>
+<div class="section" id="absolute-bounding-box">
+<h2>.absolute_bounding_box<a class="headerlink" href="#absolute-bounding-box" title="Permalink to this headline">¶</a></h2>
+<p>The absolute bounding box of a node represents its top-left and
+bottom-right position relative to the fst’s root node. The position is
+given as a tuple <code class="file docutils literal"><span class="pre">(line,</span> <span class="pre">column)</span></code> with <strong>both starting at 1</strong>.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [123]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a(): return 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [124]: </span><span class="n">red</span><span class="o">.</span><span class="n">funcdef</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">absolute_bounding_box</span>
+<span class="gh">Out[124]: </span><span class="go">BoundingBox (Position (1, 10), Position (2, 0))</span>
+</pre></div>
+</div>
+<p>You can also get the bounding box of “string” nodes like the left
+parenthesis in the example above by giving the attribute’s name to the
+<code class="file docutils literal"><span class="pre">get_absolute_bounding_box_of_attribute()</span></code> method:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [125]: </span><span class="n">red</span><span class="o">.</span><span class="n">funcdef</span><span class="o">.</span><span class="n">get_absolute_bounding_box_of_attribute</span><span class="p">(</span><span class="s1">&#39;(&#39;</span><span class="p">)</span>
+<span class="gh">Out[125]: </span><span class="go">BoundingBox (Position (1, 6), Position (1, 6))</span>
+</pre></div>
+</div>
+<p>This is impossible to do without giving the attribute’s name as an
+argument since the left parenthesis is not a redbaron Node.</p>
+</div>
+<div class="section" id="bounding-box">
+<h2>.bounding_box<a class="headerlink" href="#bounding-box" title="Permalink to this headline">¶</a></h2>
+<p>Every node has the <code class="file docutils literal"><span class="pre">bounding_box</span></code> property which holds the
+top-left and bottom-right position of the node. Compared to the
+<code class="file docutils literal"><span class="pre">absolute_bounding_box</span></code> property, it assumes the node is the
+root node so the top-left position is always <code class="file docutils literal"><span class="pre">(1,</span> <span class="pre">1)</span></code>.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [126]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a(): return 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [127]: </span><span class="n">red</span><span class="o">.</span><span class="n">funcdef</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">absolute_bounding_box</span>
+<span class="gh">Out[127]: </span><span class="go">BoundingBox (Position (1, 10), Position (2, 0))</span>
+
+<span class="gp">In [128]: </span><span class="n">red</span><span class="o">.</span><span class="n">funcdef</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">bounding_box</span>
+<span class="gh">Out[128]: </span><span class="go">BoundingBox (Position (1, 1), Position (2, 0))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="find-by-position">
+<h2>.find_by_position()<a class="headerlink" href="#find-by-position" title="Permalink to this headline">¶</a></h2>
+<p>You can find which node is located at a given line and column:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [129]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a(): return 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [130]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_by_position</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<span class="gh">Out[130]: </span><span class="go">def a(): return 42</span>
+
+<span class="gp">In [131]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_by_position</span><span class="p">((</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span> <span class="c1"># &#39;(&#39; is not a redbaron node</span>
+<span class="gh">Out[131]: </span><span class="go">def a(): return 42</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="at">
+<h2>.at()<a class="headerlink" href="#at" title="Permalink to this headline">¶</a></h2>
+<p>Returns first node at specific line</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [132]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a():</span><span class="se">\n</span><span class="s2"> return 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [133]: </span><span class="n">red</span><span class="o">.</span><span class="n">at</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1"># Gives DefNode</span>
+<span class="gh">Out[133]: </span><span class="go"></span>
+<span class="go">def a():</span>
+<span class="go"> return 42</span>
+
+<span class="gp">In [134]: </span><span class="n">red</span><span class="o">.</span><span class="n">at</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span> <span class="c1"># Gives ReturnNode</span>
+<span class="gh">Out[134]: </span><span class="go">return 42</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="node-from-fst">
+<span id="id4"></span><h2>Node.from_fst()<a class="headerlink" href="#node-from-fst" title="Permalink to this headline">¶</a></h2>
+<p><code class="file docutils literal"><span class="pre">Node.from_fst()</span></code> is a helper class method that takes an FST node and return a
+RedBaron node instance. Except if you need to go down at a low level or that
+RedBaron doesn’t provide the helper you need, you shouldn’t use it.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [135]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">Node</span>
+
+<span class="gp">In [136]: </span><span class="n">Node</span><span class="o">.</span><span class="n">from_fst</span><span class="p">({</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;a&quot;</span><span class="p">})</span>
+<span class="gh">Out[136]: </span><span class="go">a</span>
+</pre></div>
+</div>
+<p><code class="file docutils literal"><span class="pre">Node.from_fst()</span></code> takes 2 optional keywords arguments: <code class="file docutils literal"><span class="pre">parent</span></code> and
+<code class="file docutils literal"><span class="pre">on_attribute</span></code> that should respectively be RedBaron node instance (the
+parent node) and a string (the attribute of the parent node on which this node
+is stored). See <a class="reference internal" href="#parent"><span class="std std-ref">.parent</span></a> doc for a better understanding of those 2
+parameters.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [137]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1,]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [138]: </span><span class="n">new_name</span> <span class="o">=</span> <span class="n">Node</span><span class="o">.</span><span class="n">from_fst</span><span class="p">({</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;a&quot;</span><span class="p">},</span> <span class="n">parent</span><span class="o">=</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">on_attribute</span><span class="o">=</span><span class="s2">&quot;value&quot;</span><span class="p">)</span>
+
+<span class="gp">In [139]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_name</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="nodelist-from-fst">
+<h2>NodeList.from_fst()<a class="headerlink" href="#nodelist-from-fst" title="Permalink to this headline">¶</a></h2>
+<p>Similarly to <code class="file docutils literal"><span class="pre">Node.from_fst()</span></code>, <code class="file docutils literal"><span class="pre">NodeList.from_fst()</span></code> is a helper
+class method that takes an FST node <strong>list</strong> and return a RedBaron node <strong>list</strong>
+instance. Similarly, you probably don’t need to go so low level.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [140]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">NodeList</span>
+
+<span class="gp">In [141]: </span><span class="n">NodeList</span><span class="o">.</span><span class="n">from_fst</span><span class="p">([{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;a&quot;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;first_formatting&#39;</span><span class="p">:</span> <span class="p">[],</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;comma&#39;</span><span class="p">,</span> <span class="s1">&#39;second_formatting&#39;</span><span class="p">:</span> <span class="p">[{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;space&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39; &#39;</span><span class="p">}]},</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;b&quot;</span><span class="p">}])</span>
+<span class="gh">Out[141]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   , </span>
+<span class="go">2   b</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="insert-before-insert-after">
+<h2>.insert_before .insert_after<a class="headerlink" href="#insert-before-insert-after" title="Permalink to this headline">¶</a></h2>
+<p>One thing you often wants to do is to insert things just after or before the
+node you’ve just got via query. Those helpers are here for that:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [142]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;foo = 42</span><span class="se">\n</span><span class="s2">print(&#39;bar&#39;)</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="gp">In [143]: </span><span class="n">red</span>
+<span class="gh">Out[143]: </span><span class="go"></span>
+<span class="go">0   foo = 42</span>
+<span class="go">1   print(&#39;bar&#39;)</span>
+
+<span class="gp">In [144]: </span><span class="n">red</span><span class="o">.</span><span class="n">print_</span><span class="o">.</span><span class="n">insert_before</span><span class="p">(</span><span class="s2">&quot;baz&quot;</span><span class="p">)</span>
+
+<span class="gp">In [145]: </span><span class="n">red</span>
+<span class="gh">Out[145]: </span><span class="go"></span>
+<span class="go">0   foo = 42</span>
+<span class="go">1   baz</span>
+<span class="go">2   print(&#39;bar&#39;)</span>
+
+<span class="gp">In [146]: </span><span class="n">red</span><span class="o">.</span><span class="n">print_</span><span class="o">.</span><span class="n">insert_after</span><span class="p">(</span><span class="s2">&quot;foobar&quot;</span><span class="p">)</span>
+
+<span class="gp">In [147]: </span><span class="n">red</span>
+<span class="gh">Out[147]: </span><span class="go"></span>
+<span class="go">0   foo = 42</span>
+<span class="go">1   baz</span>
+<span class="go">2   print(&#39;bar&#39;)</span>
+<span class="go">3   foobar</span>
+</pre></div>
+</div>
+<p>Additionally, you can give an optional argument <code class="file docutils literal"><span class="pre">offset</span></code> to insert more
+than one line after or before:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [148]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;foo = 42</span><span class="se">\n</span><span class="s2">print(&#39;bar&#39;)</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="gp">In [149]: </span><span class="n">red</span>
+<span class="gh">Out[149]: </span><span class="go"></span>
+<span class="go">0   foo = 42</span>
+<span class="go">1   print(&#39;bar&#39;)</span>
+
+<span class="gp">In [150]: </span><span class="n">red</span><span class="o">.</span><span class="n">print_</span><span class="o">.</span><span class="n">insert_before</span><span class="p">(</span><span class="s2">&quot;baz&quot;</span><span class="p">,</span> <span class="n">offset</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="gp">In [151]: </span><span class="n">red</span>
+<span class="gh">Out[151]: </span><span class="go"></span>
+<span class="go">0   baz</span>
+<span class="go">1   foo = 42</span>
+<span class="go">2   print(&#39;bar&#39;)</span>
+
+<span class="gp">In [152]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">insert_after</span><span class="p">(</span><span class="s2">&quot;foobar&quot;</span><span class="p">,</span> <span class="n">offset</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="gp">In [153]: </span><span class="n">red</span>
+<span class="gh">Out[153]: </span><span class="go"></span>
+<span class="go">0   baz</span>
+<span class="go">1   foo = 42</span>
+<span class="go">2   foobar</span>
+<span class="go">3   print(&#39;bar&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Other</a><ul>
+<li><a class="reference internal" href="#parent">.parent</a></li>
+<li><a class="reference internal" href="#parent-find">.parent_find()</a></li>
+<li><a class="reference internal" href="#next-previous-next-recursive-previous-recursive-next-generator-previous-generator">.next .previous .next_recursive .previous_recursive .next_generator() .previous_generator()</a></li>
+<li><a class="reference internal" href="#next-intuitive-previous-intuitive">.next_intuitive/.previous_intuitive</a></li>
+<li><a class="reference internal" href="#root">.root</a></li>
+<li><a class="reference internal" href="#index-on-parent">.index_on_parent</a></li>
+<li><a class="reference internal" href="#index-on-parent-raw">.index_on_parent_raw</a></li>
+<li><a class="reference internal" href="#filtered">.filtered()</a></li>
+<li><a class="reference internal" href="#indentation">.indentation</a></li>
+<li><a class="reference internal" href="#increase-indentation-and-decrease-indentation">.increase_indentation() and .decrease_indentation()</a></li>
+<li><a class="reference internal" href="#to-python">.to_python()</a></li>
+<li><a class="reference internal" href="#path">.path()</a></li>
+<li><a class="reference internal" href="#path-class">Path class</a></li>
+<li><a class="reference internal" href="#map-filter-apply">.map .filter .apply</a></li>
+<li><a class="reference internal" href="#replace">.replace()</a></li>
+<li><a class="reference internal" href="#edit">.edit()</a></li>
+<li><a class="reference internal" href="#absolute-bounding-box">.absolute_bounding_box</a></li>
+<li><a class="reference internal" href="#bounding-box">.bounding_box</a></li>
+<li><a class="reference internal" href="#find-by-position">.find_by_position()</a></li>
+<li><a class="reference internal" href="#at">.at()</a></li>
+<li><a class="reference internal" href="#node-from-fst">Node.from_fst()</a></li>
+<li><a class="reference internal" href="#nodelist-from-fst">NodeList.from_fst()</a></li>
+<li><a class="reference internal" href="#insert-before-insert-after">.insert_before .insert_after</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="proxy_list.html"
+                        title="previous chapter">Proxy List</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="nodes_reference.html"
+                        title="next chapter">Nodes References Page</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/other.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="nodes_reference.html" title="Nodes References Page"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="proxy_list.html" title="Proxy List"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

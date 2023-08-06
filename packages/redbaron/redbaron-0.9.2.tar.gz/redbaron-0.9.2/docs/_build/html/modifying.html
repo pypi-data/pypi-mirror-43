@@ -1,0 +1,316 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Modifying &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Proxy List" href="proxy_list.html" />
+    <link rel="prev" title="Querying" href="querying.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="proxy_list.html" title="Proxy List"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="querying.html" title="Querying"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="modifying">
+<h1>Modifying<a class="headerlink" href="#modifying" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="principle">
+<h2>Principle<a class="headerlink" href="#principle" title="Permalink to this headline">¶</a></h2>
+<p>When it comes to modifying the tree, the normal classical way would tell you to
+use the RedBaron nodes constructors, like this:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span><span class="p">,</span> <span class="n">NameNode</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[3]: </span><span class="go">1</span>
+
+<span class="gp">In [4]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">NameNode</span><span class="p">({</span><span class="s1">&#39;first_formatting&#39;</span><span class="p">:</span> <span class="p">[{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;space&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39; &#39;</span><span class="p">}],</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;+&#39;</span><span class="p">,</span> <span class="s1">&#39;second_formatting&#39;</span><span class="p">:</span> <span class="p">[{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;space&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39; &#39;</span><span class="p">}],</span> <span class="s1">&#39;second&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;section&#39;</span><span class="p">:</span> <span class="s1">&#39;number&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;1&#39;</span><span class="p">},</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;binary_operator&#39;</span><span class="p">,</span> <span class="s1">&#39;first&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;section&#39;</span><span class="p">:</span> <span class="s1">&#39;number&#39;</span><span class="p">,</span> <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;int&#39;</span><span class="p">,</span> <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="s1">&#39;1&#39;</span><span class="p">}})</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span>
+<span class="gh">Out[5]: </span><span class="go">0   a = 1 + 1</span>
+</pre></div>
+</div>
+<p>As you can see, this is totally impracticable. So, to solve this problem,
+RedBaron adopt a simple logic: you already know how to code in python, so, just
+send python code in form of a string, RedBaron will takes care or parsing and
+injecting it into its tree. This give an extremely simple and intuitive API:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [6]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [7]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[7]: </span><span class="go">1</span>
+
+<span class="gp">In [8]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;1 + 1&quot;</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span>
+<span class="gh">Out[9]: </span><span class="go">0   a = 1 + 1</span>
+</pre></div>
+</div>
+<p>The details on how you can modify <strong>every</strong> nodes can be found here: <a class="reference internal" href="nodes_reference.html"><span class="doc">Nodes References Page</span></a>.</p>
+</div>
+<div class="section" id="code-block-modifications">
+<h2>Code block modifications<a class="headerlink" href="#code-block-modifications" title="Permalink to this headline">¶</a></h2>
+<p>The modification of python code block (like the body of a function or a while
+loop) is also possible this way. RedBaron will takes care for you or formatting
+you input the right way (adding surrounding blank lines and settings the
+correct indentation for the every line).</p>
+<p>Example:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [10]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while True: pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;plop&quot;</span>
+
+<span class="gp">In [12]: </span><span class="n">red</span>
+<span class="gh">Out[12]: </span><span class="go"></span>
+<span class="go">0   while True: </span>
+<span class="go">        plop</span>
+<span class="go">    </span>
+
+<span class="gp">In [13]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;                        this_will_be_correctly_indented&quot;</span>
+
+<span class="gp">In [14]: </span><span class="n">red</span>
+<span class="gh">Out[14]: </span><span class="go"></span>
+<span class="go">0   while True: </span>
+<span class="go">        this_will_be_correctly_indented</span>
+</pre></div>
+</div>
+<p>You have the full list of cases handled on this page: <a class="reference internal" href="nodes_reference.html"><span class="doc">Nodes References Page</span></a>.</p>
+</div>
+<div class="section" id="details">
+<h2>Details<a class="headerlink" href="#details" title="Permalink to this headline">¶</a></h2>
+<p>As you might have already noticed, you can set attributes of a node with a
+string or a RedBaron node. This is also possible by directly passing FST.</p>
+<p>Here is an IPython session illustrating all the possibilities (be sure to have
+read the “node structures” in basics to understand what is happening):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [15]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="gp">In [16]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="data-attribute-no-parsing">
+<h3>Data attribute, no parsing<a class="headerlink" href="#data-attribute-no-parsing" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [17]: </span><span class="n">red</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;a&#39;</span>
+
+<span class="gp">In [18]: </span><span class="n">red</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;something_else&quot;</span>
+
+<span class="gp">In [19]: </span><span class="n">red</span>
+<span class="gh">Out[19]: </span><span class="go">0   something_else = b</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="node-attribute-with-a-string-parsing-with-redbaron">
+<h3>Node attribute with a string: parsing with RedBaron<a class="headerlink" href="#node-attribute-with-a-string-parsing-with-redbaron" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [20]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;something_else&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;b&#39;</span>
+
+<span class="gp">In [21]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;42 * pouet&quot;</span>
+
+<span class="gp">In [22]: </span><span class="n">red</span>
+<span class="gh">Out[22]: </span><span class="go">0   something_else = 42 * pouet</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="node-attribute-with-fst-data-transformation-into-redbaron-objects">
+<h3>Node attribute with FST data: transformation into RedBaron objects<a class="headerlink" href="#node-attribute-with-fst-data-transformation-into-redbaron-objects" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [23]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;pouet&quot;</span><span class="p">}</span>
+
+<span class="gp">In [24]: </span><span class="n">red</span>
+<span class="gh">Out[24]: </span><span class="go">0   something_else = pouet</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-attribute-with-a-string-parsing-with-redbaron">
+<h3>List attribute with a string: parsing with RedBaron<a class="headerlink" href="#list-attribute-with-a-string-parsing-with-redbaron" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [25]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [26]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">ListNode()</span>
+<span class="go">  # identifiers: list, list_, listnode</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;1&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;2&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;3&#39;</span>
+
+<span class="gp">In [27]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;caramba&quot;</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span>
+<span class="gh">Out[28]: </span><span class="go">0   [caramba]</span>
+
+<span class="gp">In [29]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;4, 5, 6&quot;</span>
+
+<span class="gp">In [30]: </span><span class="n">red</span>
+<span class="gh">Out[30]: </span><span class="go">0   [4, 5, 6]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-node-attribute-with-fst-transformation-into-redbaron-objects">
+<h3>List node attribute with FST: transformation into RedBaron objects<a class="headerlink" href="#list-node-attribute-with-fst-transformation-into-redbaron-objects" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [31]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;pouet&quot;</span><span class="p">}</span>
+
+<span class="gp">In [32]: </span><span class="n">red</span>
+<span class="gh">Out[32]: </span><span class="go">0   [pouet]</span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;pouet&quot;</span><span class="p">}]</span>
+
+<span class="gp">In [34]: </span><span class="n">red</span>
+<span class="gh">Out[34]: </span><span class="go">0   [pouet]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="list-node-attribute-with-mixed-content-parsing-transformation-depending-of-the-context">
+<h3>List node attribute with mixed content: parsing/transformation depending of the context<a class="headerlink" href="#list-node-attribute-with-mixed-content-parsing-transformation-depending-of-the-context" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [35]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="p">[{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;pouet&quot;</span><span class="p">},</span> <span class="p">{</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;comma&quot;</span><span class="p">,</span> <span class="s2">&quot;first_formatting&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;second_formatting&quot;</span><span class="p">:</span> <span class="p">[]},</span> <span class="s2">&quot;pouet ,&quot;</span><span class="p">,</span> <span class="n">NameNode</span><span class="p">({</span><span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="s2">&quot;value&quot;</span><span class="p">:</span> <span class="s2">&quot;plop&quot;</span><span class="p">})]</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span>
+<span class="gh">Out[36]: </span><span class="go">0   [pouet,pouet ,plop]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="auto-assignment-of-parent-and-on-attribute">
+<h2>Auto assignment of .parent and .on_attribute<a class="headerlink" href="#auto-assignment-of-parent-and-on-attribute" title="Permalink to this headline">¶</a></h2>
+<p>When you modify an attribute of a node or a node list, RedBaron will take care
+of setting the <code class="file docutils literal"><span class="pre">.parent</span></code> value of the new attribute to the corresponding
+node.</p>
+<p>This will be done if you set the attribute value using either a <code class="file docutils literal"><span class="pre">string</span></code>,
+a <code class="file docutils literal"><span class="pre">fst</span> <span class="pre">node</span></code>, an instance of a node or a node list.</p>
+<p>The same is done for <code class="file docutils literal"><span class="pre">.on_attribute</span></code>.</p>
+<div class="section" id="next">
+<h3>Next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<p>To learn how to work with list of things in RedBaron read <a class="reference internal" href="proxy_list.html"><span class="doc">Proxy List</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Modifying</a><ul>
+<li><a class="reference internal" href="#principle">Principle</a></li>
+<li><a class="reference internal" href="#code-block-modifications">Code block modifications</a></li>
+<li><a class="reference internal" href="#details">Details</a><ul>
+<li><a class="reference internal" href="#data-attribute-no-parsing">Data attribute, no parsing</a></li>
+<li><a class="reference internal" href="#node-attribute-with-a-string-parsing-with-redbaron">Node attribute with a string: parsing with RedBaron</a></li>
+<li><a class="reference internal" href="#node-attribute-with-fst-data-transformation-into-redbaron-objects">Node attribute with FST data: transformation into RedBaron objects</a></li>
+<li><a class="reference internal" href="#list-attribute-with-a-string-parsing-with-redbaron">List attribute with a string: parsing with RedBaron</a></li>
+<li><a class="reference internal" href="#list-node-attribute-with-fst-transformation-into-redbaron-objects">List node attribute with FST: transformation into RedBaron objects</a></li>
+<li><a class="reference internal" href="#list-node-attribute-with-mixed-content-parsing-transformation-depending-of-the-context">List node attribute with mixed content: parsing/transformation depending of the context</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#auto-assignment-of-parent-and-on-attribute">Auto assignment of .parent and .on_attribute</a><ul>
+<li><a class="reference internal" href="#next">Next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="querying.html"
+                        title="previous chapter">Querying</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="proxy_list.html"
+                        title="next chapter">Proxy List</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/modifying.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="proxy_list.html" title="Proxy List"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="querying.html" title="Querying"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

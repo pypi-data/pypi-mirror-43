@@ -1,0 +1,777 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Learn how to use RedBaron &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Why is this important?" href="why.html" />
+    <link rel="prev" title="Welcome to RedBaron’s documentation!" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="why.html" title="Why is this important?"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to RedBaron’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="learn-how-to-use-redbaron">
+<h1>Learn how to use RedBaron<a class="headerlink" href="#learn-how-to-use-redbaron" title="Permalink to this headline">¶</a></h1>
+<p>This tutorial guides you through the big principles of RedBaron and
+highlights the most useful helpers and tricks. It is more or less
+a lighter version of the already existing documentation.</p>
+<p>A reminder before starting:</p>
+<ul class="simple">
+<li><strong>RedBaron doesn’t do static analysis</strong> and will never do (but it’s
+very likely that it will be combined with tools that do it, like
+astroid or rope, to bring static analysis into RedBaron or easy source
+code modification in the others)</li>
+</ul>
+<p>The structure of this tutorial is similar to the documentation’s:</p>
+<ul class="simple">
+<li>basic principles and how to use it in a shell</li>
+<li>how to query the tree</li>
+<li>how to modify the tree</li>
+<li>how to play with list of things</li>
+<li>miscellaneous but useful stuff</li>
+</ul>
+<div class="section" id="basic-principles">
+<h2>Basic principles<a class="headerlink" href="#basic-principles" title="Permalink to this headline">¶</a></h2>
+<p>Input and output with the source code in a string:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;code source as a string&quot;</span><span class="p">)</span>
+<span class="n">red</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Input and output with the source code in a file:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;code.py&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">source_code</span><span class="p">:</span>
+    <span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="n">source_code</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>
+
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;code.py&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">source_code</span><span class="p">:</span>
+    <span class="n">source_code</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">red</span><span class="o">.</span><span class="n">dumps</span><span class="p">())</span>
+</pre></div>
+</div>
+<p>Now that you know how to load your code into RedBaron, let’s talk about its principles:</p>
+<ul class="simple">
+<li>RedBaron represents the source code as a tree. This is because when you are writing source code (of any classical language), you are actually writing a tree structure in the source file.</li>
+<li>For example: in <code class="file docutils literal"><span class="pre">1</span> <span class="pre">+</span> <span class="pre">2</span></code> the top node is <code class="file docutils literal"><span class="pre">+</span></code>, the left one is <code class="file docutils literal"><span class="pre">1</span></code> and the right one is <code class="file docutils literal"><span class="pre">2</span></code>.</li>
+<li>In <code class="file docutils literal"><span class="pre">(1</span> <span class="pre">+</span> <span class="pre">2)</span> <span class="pre">+</span> <span class="pre">3</span></code> the top node is, again, <code class="file docutils literal"><span class="pre">+</span></code>, but the left one is actually <code class="file docutils literal"><span class="pre">(1</span> <span class="pre">+</span> <span class="pre">2)</span></code> which is again another <code class="file docutils literal"><span class="pre">+</span></code> node! This structure <em>is</em> a tree.</li>
+<li>The classical approach to handle such a structure is to use an <a class="reference external" href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">Abstract Syntax Tree (AST)</a> (it is used by compilers and interpreters like cpython).</li>
+<li>RedBaron, by relying on <a class="reference external" href="https://github.com/PyCQA/baron">Baron</a>, uses a <em>Full</em> Syntax Tree (FST). It’s like an AST except it keeps every information, included formatting, and is then a lossless representation of the source code. Under the hood, the FST produced by Baron is in JSON and has been thought to be read and used by humans (although not as easily as RedBaron).</li>
+<li>So, when BeautifulSoup wraps the HTML datastructure into objects, RedBaron does the same thing for the FST datastructure and provides a nice way to interact with the source code.</li>
+</ul>
+<p>Example of an AST for some language that looks like Go:</p>
+<img alt="_images/ast.png" src="_images/ast.png" />
+<p>While you don’t have to do that to use RedBaron on a daily basis, seeing
+the produced FST can help your understand RedBaron better (every key
+that has “_formatting” in its name is formatting related):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="kn">import</span> <span class="nn">json</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;1+2&quot;</span><span class="p">)</span>
+
+<span class="gp">In [3]: </span><span class="k">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">red</span><span class="o">.</span><span class="n">fst</span><span class="p">(),</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">))</span>  <span class="c1"># json.dumps is used for pretty printing</span>
+<span class="go">[</span>
+<span class="go">    {</span>
+<span class="go">        &quot;first_formatting&quot;: [], </span>
+<span class="go">        &quot;value&quot;: &quot;+&quot;, </span>
+<span class="go">        &quot;second_formatting&quot;: [], </span>
+<span class="go">        &quot;second&quot;: {</span>
+<span class="go">            &quot;section&quot;: &quot;number&quot;, </span>
+<span class="go">            &quot;type&quot;: &quot;int&quot;, </span>
+<span class="go">            &quot;value&quot;: &quot;2&quot;</span>
+<span class="go">        }, </span>
+<span class="go">        &quot;type&quot;: &quot;binary_operator&quot;, </span>
+<span class="go">        &quot;first&quot;: {</span>
+<span class="go">            &quot;section&quot;: &quot;number&quot;, </span>
+<span class="go">            &quot;type&quot;: &quot;int&quot;, </span>
+<span class="go">            &quot;value&quot;: &quot;1&quot;</span>
+<span class="go">        }</span>
+<span class="go">    }</span>
+<span class="go">]</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="use-it-in-a-shell">
+<h2>Use it in a shell<a class="headerlink" href="#use-it-in-a-shell" title="Permalink to this headline">¶</a></h2>
+<p>Now that we stated the concept of the source code as a tree, let’s explore it.</p>
+<p>First, like BeautifulSoup, when used in a shell RedBaron displays the currently
+selected source code, so you’ll have a direct idea of what you are working on:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [4]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;stuff = 1 + 2</span><span class="se">\n</span><span class="s2">print &#39;Beautiful result:&#39;, stuff &quot;</span><span class="p">)</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span>
+<span class="gh">Out[5]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print &#39;Beautiful result:&#39;, stuff</span>
+<span class="go">2   &#39; &#39;</span>
+</pre></div>
+</div>
+<p>You might notice the <code class="file docutils literal"><span class="pre">0</span></code> and the <code class="file docutils literal"><span class="pre">1</span></code> on the left: those are the
+indexes of the 2 nodes in the root of the source code. In fact, a source code is
+a list of statements so the root node <code class="file docutils literal"><span class="pre">red</span></code> is a list. See by yourself:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [6]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[6]: </span><span class="go">stuff = 1 + 2</span>
+
+<span class="gp">In [7]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gh">Out[7]: </span><span class="go">print &#39;Beautiful result:&#39;, stuff</span>
+</pre></div>
+</div>
+<p>But now, how to access the attributes? Since reading the doc for every node is
+boring, RedBaron comes with a helper method that shows you the underlying
+structure of the currently selected nodes:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [8]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[8]: </span><span class="go">stuff = 1 + 2</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;stuff&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    BinaryOperatorNode()</span>
+<span class="go">      # identifiers: binary_operator, binary_operator_, binaryoperator, binaryoperatornode</span>
+<span class="go">      value=&#39;+&#39;</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        IntNode() ...</span>
+</pre></div>
+</div>
+<p>The output might be a bit scary at first, but it’s simply showing you the
+underlying structure, mapped to Baron JSON’s one.</p>
+<p><em>By the way, RedBaron has nice coloration features if you use ipython as
+your python shell.</em></p>
+<p>Let’s take it step by step:</p>
+<ul class="simple">
+<li>We are on an <code class="file docutils literal"><span class="pre">AssignmentNode</span></code> (something like <code class="file docutils literal"><span class="pre">a</span> <span class="pre">=</span> <span class="pre">b</span></code>) that has 3 attributes: <code class="file docutils literal"><span class="pre">operator</span></code>, <code class="file docutils literal"><span class="pre">target</span></code> and <code class="file docutils literal"><span class="pre">value</span></code>.</li>
+<li>The <code class="file docutils literal"><span class="pre">operator</span></code> is an empty string (it could have been a python operator like <code class="file docutils literal"><span class="pre">+</span></code> in a case like <code class="file docutils literal"><span class="pre">a</span> <span class="pre">+=</span> <span class="pre">b</span></code>)</li>
+<li><code class="file docutils literal"><span class="pre">target</span></code> points to another node, a <code class="file docutils literal"><span class="pre">NameNode</span></code> (you can see this thanks to the arrow <code class="file docutils literal"><span class="pre">-&gt;</span></code> instead of an equal sign <code class="file docutils literal"><span class="pre">=</span></code>)</li>
+<li><code class="file docutils literal"><span class="pre">value</span></code> points to a <code class="file docutils literal"><span class="pre">BinaryOperatorNode</span></code>.</li>
+</ul>
+<p>To get more information about all the existing kind of nodes, see the
+documentation: <a class="reference internal" href="nodes_reference.html"><span class="doc">Nodes References Page</span></a>.</p>
+<p>Let’s try it:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [10]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[10]: </span><span class="go">stuff = 1 + 2</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">operator</span>
+<span class="gh">Out[11]: </span><span class="go">&#39;&#39;</span>
+
+<span class="gp">In [12]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span>
+<span class="gh">Out[12]: </span><span class="go">stuff</span>
+
+<span class="gp">In [13]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[13]: </span><span class="go">1 + 2</span>
+</pre></div>
+</div>
+<p>For now we saw attributes that are either strings or pointing to other
+nodes, respectively called leafs and branches in the tree terminology.
+The last kind of attributes that you will encounter are a special case
+of the branch nodes: instead of pointing to a single node, they point to
+a list of nodes. You can see this in the print statement’s <code class="file docutils literal"><span class="pre">value</span></code>
+attribute:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [14]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">PrintNode()</span>
+<span class="go">  # identifiers: print, print_, printnode</span>
+<span class="go">  destination -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * StringNode()</span>
+<span class="go">        # identifiers: string, string_, stringnode</span>
+<span class="go">        value=&quot;&#39;Beautiful result:&#39;&quot;</span>
+<span class="go">    * NameNode()</span>
+<span class="go">        # identifiers: name, name_, namenode</span>
+<span class="go">        value=&#39;stuff&#39;</span>
+</pre></div>
+</div>
+<p>Notice the <code class="file docutils literal"><span class="pre">*</span></code> before <code class="file docutils literal"><span class="pre">StringNode</span></code> and <code class="file docutils literal"><span class="pre">NameNode</span></code>? It
+indicates that they are items of a list. Look:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [15]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gh">Out[15]: </span><span class="go">print &#39;Beautiful result:&#39;, stuff</span>
+
+<span class="gp">In [16]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[16]: </span><span class="go"></span>
+<span class="go">0   &#39;Beautiful result:&#39;</span>
+<span class="go">1   stuff</span>
+
+<span class="gp">In [17]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[17]: </span><span class="go">&#39;Beautiful result:&#39;</span>
+
+<span class="gp">In [18]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gh">Out[18]: </span><span class="go">stuff</span>
+</pre></div>
+</div>
+<p>And if we show the help of the value attribute, we clearly see that
+there is a list of nodes.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [19]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">StringNode()</span>
+<span class="go">  # identifiers: string, string_, stringnode</span>
+<span class="go">  value=&quot;&#39;Beautiful result:&#39;&quot;</span>
+<span class="go">1 -----------------------------------------------------</span>
+<span class="go">CommaNode()</span>
+<span class="go">  # identifiers: comma, comma_, commanode</span>
+<span class="go">2 -----------------------------------------------------</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;stuff&#39;</span>
+</pre></div>
+</div>
+<p>This is similar for the root node, which is itself also a list of nodes:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [20]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;stuff&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    BinaryOperatorNode()</span>
+<span class="go">      # identifiers: binary_operator, binary_operator_, binaryoperator, binaryoperatornode</span>
+<span class="go">      value=&#39;+&#39;</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">1 -----------------------------------------------------</span>
+<span class="go">EndlNode()</span>
+<span class="go">  # identifiers: endl, endl_, endlnode</span>
+<span class="go">  value=&#39;\n&#39;</span>
+<span class="go">  indent=&#39;&#39;</span>
+<span class="go">2 -----------------------------------------------------</span>
+<span class="go">PrintNode()</span>
+<span class="go">  # identifiers: print, print_, printnode</span>
+<span class="go">  destination -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * StringNode()</span>
+<span class="go">        # identifiers: string, string_, stringnode</span>
+<span class="go">        value=&quot;&#39;Beautiful result:&#39;&quot;</span>
+<span class="go">    * NameNode()</span>
+<span class="go">        # identifiers: name, name_, namenode</span>
+<span class="go">        value=&#39;stuff&#39;</span>
+<span class="go">3 -----------------------------------------------------</span>
+<span class="go">SpaceNode()</span>
+<span class="go">  # identifiers: space, space_, spacenode</span>
+<span class="go">  value=&#39; &#39;</span>
+</pre></div>
+</div>
+<p>And <em>voilà</em>, you now know how to navigate the tree by attributes without having
+to read any documentation!</p>
+<p>If you’re curious about the <code class="file docutils literal"><span class="pre">identifiers</span></code> outputted by the
+<code class="file docutils literal"><span class="pre">.help()</span></code> method, read on to the next section.</p>
+<p>And one last thing: by default <code class="file docutils literal"><span class="pre">.help()</span></code> stops at a certain
+“deepness level” and displays <code class="file docutils literal"><span class="pre">...</span></code> instead of going further. To
+avoid that, simply pass an integer that indicates the “deepness level”
+you want, or give <code class="file docutils literal"><span class="pre">True</span></code> if you want to display the whole tree.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>You can read the whole documentation of <code class="file docutils literal"><span class="pre">.help</span></code> here: <a class="reference internal" href="basics.html#help"><span class="std std-ref">.help()</span></a></p>
+</div>
+<div class="section" id="querying">
+<h2>Querying<a class="headerlink" href="#querying" title="Permalink to this headline">¶</a></h2>
+<p>Querying is inspired by BeautifulSoup. You have access to 2 methods:
+<code class="file docutils literal"><span class="pre">.find</span></code> and <code class="file docutils literal"><span class="pre">.find_all</span></code>, accepting the same arguments. The
+first one returns the first matched node and the second one returns
+the list of all the matched nodes.</p>
+<p>The first argument is a string that represent the kind of the node you
+want to match on. The <code class="file docutils literal"><span class="pre">identifiers</span></code> section displayed by the
+<code class="file docutils literal"><span class="pre">.help()</span></code> method shows you several strings you can use to identify
+a kind of node. For example:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [21]: </span><span class="n">red</span>
+<span class="gh">Out[21]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print &#39;Beautiful result:&#39;, stuff</span>
+<span class="go">2   &#39; &#39;</span>
+
+<span class="gp">In [22]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;stuff&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    BinaryOperatorNode()</span>
+<span class="go">      # identifiers: binary_operator, binary_operator_, binaryoperator, binaryoperatornode</span>
+<span class="go">      value=&#39;+&#39;</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        IntNode() ...</span>
+<span class="go">1 -----------------------------------------------------</span>
+<span class="go">EndlNode()</span>
+<span class="go">  # identifiers: endl, endl_, endlnode</span>
+<span class="go">  value=&#39;\n&#39;</span>
+<span class="go">  indent=&#39;&#39;</span>
+<span class="go">2 -----------------------------------------------------</span>
+<span class="go">PrintNode()</span>
+<span class="go">  # identifiers: print, print_, printnode</span>
+<span class="go">  destination -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * StringNode()</span>
+<span class="go">        # identifiers: string, string_, stringnode</span>
+<span class="go">        value=&quot;&#39;Beautiful result:&#39;&quot;</span>
+<span class="go">    * NameNode()</span>
+<span class="go">        # identifiers: name, name_, namenode</span>
+<span class="go">        value=&#39;stuff&#39;</span>
+<span class="go">3 -----------------------------------------------------</span>
+<span class="go">SpaceNode()</span>
+<span class="go">  # identifiers: space, space_, spacenode</span>
+<span class="go">  value=&#39; &#39;</span>
+
+<span class="gp">In [23]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;assignment&quot;</span><span class="p">)</span>
+<span class="gh">Out[23]: </span><span class="go">stuff = 1 + 2</span>
+
+<span class="gp">In [24]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;print&quot;</span><span class="p">)</span>
+<span class="gh">Out[24]: </span><span class="go">print &#39;Beautiful result:&#39;, stuff</span>
+
+<span class="gp">In [25]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>
+<span class="gh">Out[25]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+</pre></div>
+</div>
+<p>Then, you can pass as many keyword arguments as you want. They will
+filter the returned list on the attributes of the node and keep only
+those matching all attributes:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [26]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The only special argument you can pass is <code class="file docutils literal"><span class="pre">recursive</span></code> that determine if
+the query is done recursively. By default it is set at <code class="file docutils literal"><span class="pre">True</span></code>, just pass
+<code class="file docutils literal"><span class="pre">recursive=False</span></code> to <code class="file docutils literal"><span class="pre">.find</span></code> or <code class="file docutils literal"><span class="pre">.find_all</span></code> to avoid that.</p>
+<p>Queries are very powerful: you can pass lambdas, regexes, a short hand syntax for
+regexes and globs, a tuple of string instead of a string for the node kind, a
+global regex that receives the node (instead of a regex per attribute), etc.
+You can read all of that in the documentation: <a class="reference internal" href="querying.html"><span class="doc">Querying</span></a>.</p>
+<p>Finally, <code class="file docutils literal"><span class="pre">.find</span></code> and <code class="file docutils literal"><span class="pre">.find_all</span></code> also have a shortcut syntax (exactly like
+in BeautifulSoup):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [27]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>
+<span class="gh">Out[27]: </span><span class="go">1</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span><span class="o">.</span><span class="n">int</span>
+<span class="gh">Out[28]: </span><span class="go">1</span>
+
+<span class="gp">In [29]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="gh">Out[29]: </span><span class="go"></span>
+
+<span class="gp">In [30]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="gh">Out[30]: </span><span class="go"></span>
+</pre></div>
+</div>
+<p>But be aware that if you do a
+<code class="file docutils literal"><span class="pre">red.something_that_can_be_a_node_identifier</span></code> and this is also not an
+attribute of a node, this will raise an <code class="file docutils literal"><span class="pre">AttributeError</span></code>.</p>
+</div>
+<div class="section" id="modification">
+<h2>Modification<a class="headerlink" href="#modification" title="Permalink to this headline">¶</a></h2>
+<p>Nodes modification is extremely simple in RedBaron: you just have to set the
+attribute of the node you want to modify with a string containing python source
+code. Just look by yourself:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [31]: </span><span class="n">red</span>
+<span class="gh">Out[31]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print &#39;Beautiful result:&#39;, stuff</span>
+<span class="go">2   &#39; &#39;</span>
+
+<span class="gp">In [32]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span> <span class="o">=</span> <span class="s2">&quot;something_else&quot;</span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;42 * 34&quot;</span>
+
+<span class="gp">In [34]: </span><span class="n">red</span>
+<span class="gh">Out[34]: </span><span class="go"></span>
+<span class="go">0   something_else = 42 * 34</span>
+<span class="go">1   print &#39;Beautiful result:&#39;, stuff</span>
+<span class="go">2   &#39; &#39;</span>
+
+<span class="gp">In [35]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;&#39;Hello World!&#39;&quot;</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span>
+<span class="gh">Out[36]: </span><span class="go"></span>
+<span class="go">0   something_else = 42 * 34</span>
+<span class="go">1   print &#39;Hello World!&#39;</span>
+<span class="go">2   &#39; &#39;</span>
+</pre></div>
+</div>
+<p>Notice that this also works with complex attributes like the body of a
+function. Here RedBaron makes a lot of effort to correctly format your input so
+you can pass it pretty much anything:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [37]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a():</span><span class="se">\n</span><span class="s2">    pass&quot;</span><span class="p">)</span>
+
+<span class="gp">In [38]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;1 + 1&quot;</span>
+
+<span class="gp">In [39]: </span><span class="n">red</span>  <span class="c1"># correctly indented</span>
+<span class="gh">Out[39]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        1 + 1</span>
+<span class="go">    </span>
+
+<span class="gp">In [40]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n\n\n</span><span class="s2">           stuff</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+<span class="gp">In [41]: </span><span class="n">red</span>  <span class="c1"># again</span>
+<span class="gh">Out[41]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        </span>
+<span class="go">        </span>
+<span class="go">                   stuff</span>
+</pre></div>
+</div>
+<p>And this works too for more complex situations where the node is indented and
+followed by another node whose indentation can’t be broken and
+other low level details that you don’t want to hear about (but if you wish
+too, this is detailed in the full documentation).</p>
+<p>And <em>voilà</em>, easy source code modification! You can also pass RedBaron node
+objects or Baron JSON FST that you have obtain is some way or another, for example by
+using <code class="file docutils literal"><span class="pre">.copy()</span></code>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [42]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;stuff = 1 + 2</span><span class="se">\n</span><span class="s2">print(stuff)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [43]: </span><span class="n">red</span>
+<span class="gh">Out[43]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print(stuff)</span>
+
+<span class="gp">In [44]: </span><span class="n">i</span> <span class="o">=</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+
+<span class="gp">In [45]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">i</span>
+
+<span class="gp">In [46]: </span><span class="n">red</span>
+<span class="gh">Out[46]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print1 + 2</span>
+</pre></div>
+</div>
+<p>You can also replace a node <em>in place</em> using the <code class="file docutils literal"><span class="pre">.replace()</span></code> method.
+<strong>Warning</strong>: the <code class="file docutils literal"><span class="pre">.replace()</span></code> expects that the string you pass
+represents a whole valid python program (so for example: <code class="file docutils literal"><span class="pre">.replace(&quot;*args,</span>
+<span class="pre">**kwargs&quot;)</span></code> won’t work). This limitation should be raised in the future.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [47]: </span><span class="n">red</span>
+<span class="gh">Out[47]: </span><span class="go"></span>
+<span class="go">0   stuff = 1 + 2</span>
+<span class="go">1   print1 + 2</span>
+
+<span class="gp">In [48]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;1234&quot;</span><span class="p">)</span>
+
+<span class="gp">In [49]: </span><span class="n">red</span>
+<span class="gh">Out[49]: </span><span class="go"></span>
+<span class="go">0   stuff = 1234</span>
+<span class="go">1   print1 + 2</span>
+</pre></div>
+</div>
+<p>This is generally very useful when working on queries. For example (a real life
+example), here is the code to replace every <code class="file docutils literal"><span class="pre">print</span> <span class="pre">stuff</span></code> (prints
+statement of <strong>one</strong> argument, an example with multiple arguments is left as an exercise to the
+reader) with <code class="file docutils literal"><span class="pre">logger.debug(stuff)</span></code>:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;print&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;logger.debug(</span><span class="si">%s</span><span class="s2">)&quot;</span> <span class="o">%</span> <span class="n">x</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">dumps</span><span class="p">()))</span>
+</pre></div>
+</div>
+<p>(<code class="file docutils literal"><span class="pre">.map()</span></code> will be covered at the end of the tutorial but should speak for itself.)</p>
+<p>You can read everything about modifications in RedBaron here: <a class="reference internal" href="modifying.html"><span class="doc">Modifying</span></a></p>
+</div>
+<div class="section" id="playing-with-list-of-nodes">
+<h2>Playing with list of nodes<a class="headerlink" href="#playing-with-list-of-nodes" title="Permalink to this headline">¶</a></h2>
+<p>The last big concept of RedBaron covered in this tutorial is how to handle list of nodes. The problem for
+short is that, for a python developer, the list <code class="file docutils literal"><span class="pre">[1,</span> <span class="pre">2,</span> <span class="pre">3]</span></code> has 3 items
+but it has 5 items in the FST world, because it needs to take into account
+the commas. It is not sufficient to know that it is a comma separated
+list because each comma can have a different formatting. This is
+a pattern you find in every list of nodes, the separator being
+either commas, dots (eg: <code class="file docutils literal"><span class="pre">a.b(c)[d]</span></code>) or end of line characters (for
+lines of code).</p>
+<p>Having to deal with those separators is extremely annoying and error
+prone, so, RedBaron offers an abstraction that hides all this for you!
+You just have to deal with those list of nodes like if they were regular
+python list and everything will be fine. See by yourself:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [50]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [51]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">ListNode()</span>
+<span class="go">  # identifiers: list, list_, listnode</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;1&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;2&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;3&#39;</span>
+
+<span class="gp">In [52]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>  <span class="c1"># see: no explicit commas to deal with</span>
+<span class="gh">Out[52]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+
+<span class="gp">In [53]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;4&quot;</span><span class="p">)</span>
+
+<span class="gp">In [54]: </span><span class="n">red</span>  <span class="c1"># comma has been added for us</span>
+<span class="gh">Out[54]: </span><span class="go">0   [1, 2, 3, 4]</span>
+</pre></div>
+</div>
+<p>This abstraction is called a proxy list. They can even detect
+indentation style for comma separated lists:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [55]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[</span><span class="se">\n</span><span class="s2">    1,</span><span class="se">\n</span><span class="s2">    2,</span><span class="se">\n</span><span class="s2">    3,</span><span class="se">\n</span><span class="s2">]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [56]: </span><span class="n">red</span>
+<span class="gh">Out[56]: </span><span class="go"></span>
+<span class="go">0   [</span>
+<span class="go">        1,</span>
+<span class="go">        2,</span>
+<span class="go">        3,</span>
+<span class="go">    ]</span>
+
+<span class="gp">In [57]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;caramba&quot;</span><span class="p">)</span>
+
+<span class="gp">In [58]: </span><span class="n">red</span>
+<span class="gh">Out[58]: </span><span class="go"></span>
+<span class="go">0   [</span>
+<span class="go">        1,</span>
+<span class="go">        2,</span>
+<span class="go">        3,</span>
+<span class="go">        caramba,</span>
+<span class="go">    ]</span>
+</pre></div>
+</div>
+<p>This also work with nodes separated by dots:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [59]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a.b(c)[d]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [60]: </span><span class="n">red</span>
+<span class="gh">Out[60]: </span><span class="go">0   a.b(c)[d]</span>
+
+<span class="gp">In [61]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s2">&quot;e&quot;</span><span class="p">,</span> <span class="s2">&quot;(f)&quot;</span><span class="p">,</span> <span class="s2">&quot;[g:h]&quot;</span><span class="p">])</span>
+
+<span class="gp">In [62]: </span><span class="n">red</span>
+<span class="gh">Out[62]: </span><span class="go">0   a.b(c)[d].e(f)[g:h]</span>
+</pre></div>
+</div>
+<p>And lines of code (note that the blank lines are explicitly shown and it
+is intended as such, see the documentation for more information:
+<a class="reference internal" href="proxy_list.html"><span class="doc">Proxy List</span></a>):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [63]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1</span><span class="se">\n\n</span><span class="s2">print(a)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [64]: </span><span class="n">red</span>
+<span class="gh">Out[64]: </span><span class="go"></span>
+<span class="go">0   a = 1</span>
+<span class="go">1   &#39;\n&#39;</span>
+<span class="go">2   print(a)</span>
+
+<span class="gp">In [65]: </span><span class="n">red</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;if a:</span><span class="se">\n</span><span class="s2">    print(&#39;a == 1&#39;)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [66]: </span><span class="n">red</span>
+<span class="gh">Out[66]: </span><span class="go"></span>
+<span class="go">0   a = 1</span>
+<span class="go">1   if a:</span>
+<span class="go">        print(&#39;a == 1&#39;)</span>
+<span class="go">    </span>
+<span class="go">2   &#39;\n&#39;</span>
+<span class="go">3   print(a)</span>
+</pre></div>
+</div>
+<p>The important things to remember are that:</p>
+<ul class="simple">
+<li>Every method and protocol of python lists (except <code class="file docutils literal"><span class="pre">sort</span></code> and <code class="file docutils literal"><span class="pre">reversed</span></code>) works on proxy list.</li>
+<li>And every node list in python is wrapped by a proxy list.</li>
+</ul>
+<p>The raw list is stored on the <code class="file docutils literal"><span class="pre">.node_list</span></code> attribute of the proxy list:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [67]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [68]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">node_list</span>
+<span class="gh">Out[68]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   , </span>
+<span class="go">2   2</span>
+<span class="go">3   , </span>
+<span class="go">4   3</span>
+</pre></div>
+</div>
+<p><strong>Warning</strong>: the proxyfied list and the proxy list are only synced from the proxy
+list to the raw list. If you start to modify the raw list, don’t
+use the proxy list anymore or you’ll have strange bugs! This might change in
+the future.</p>
+<p>One last thing: if the proxy list is stored on the <code class="file docutils literal"><span class="pre">.value</span></code> attribute,
+you can directly call the methods on the holder node.
+This is done because it is more intuitive, see by yourself:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;4&quot;</span><span class="p">)</span>  <span class="c1"># is exactly the same than the next line</span>
+<span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;4&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="misc-things">
+<h2>Misc things<a class="headerlink" href="#misc-things" title="Permalink to this headline">¶</a></h2>
+<p>A short list of useful features of RedBaron:</p>
+<ul class="simple">
+<li><code class="file docutils literal"><span class="pre">.map</span></code>, a method of RedBaron lists that takes a callable (like a lambda or a function), apply it to every one of its members and returns a RedBaron list containing the result of the call</li>
+<li><code class="file docutils literal"><span class="pre">.apply</span></code> same than <code class="file docutils literal"><span class="pre">.map</span></code> except it returns a RedBaron list of the nodes on which the callable has been applied (i.e. the members before the call instead of the members after the call) (for simplicity we uses the <code class="file docutils literal"><span class="pre">int</span></code> builtin function here, you might want to look at <code class="file docutils literal"><span class="pre">to_python</span></code> in the future for a more generic conversion operation)</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [69]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [70]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="mi">42</span><span class="p">)</span>
+<span class="gh">Out[70]: </span><span class="go"></span>
+<span class="go">0   43</span>
+<span class="go">1   44</span>
+<span class="go">2   45</span>
+
+<span class="gp">In [71]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">+</span> <span class="mi">42</span><span class="p">)</span>
+<span class="gh">Out[71]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><code class="file docutils literal"><span class="pre">.filter</span></code>, another method of RedBaron list, it takes a callable and return a RedBaron list containing the nodes for which the callable has returned True (or something that is tested has True in python)</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [72]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [73]: </span><span class="n">red</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">int</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">value</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span>  <span class="c1"># odd numbers</span>
+<span class="gh">Out[73]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   3</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><code class="file docutils literal"><span class="pre">.next</span></code> gives the node just after the current one if the node is in a list</li>
+<li><code class="file docutils literal"><span class="pre">.previous</span></code> does the inverse</li>
+<li><code class="file docutils literal"><span class="pre">.parent</span></code> gives the holder of this node</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [74]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [75]: </span><span class="n">red</span><span class="o">.</span><span class="n">int_</span>
+<span class="gh">Out[75]: </span><span class="go">1</span>
+
+<span class="gp">In [76]: </span><span class="n">red</span><span class="o">.</span><span class="n">int_</span><span class="o">.</span><span class="n">next</span>
+<span class="gh">Out[76]: </span><span class="go">, </span>
+
+<span class="gp">In [77]: </span><span class="n">red</span><span class="o">.</span><span class="n">int_</span><span class="o">.</span><span class="n">previous</span>  <span class="c1"># None because nothing is behind it</span>
+
+<span class="gp">In [78]: </span><span class="n">red</span><span class="o">.</span><span class="n">int_</span><span class="o">.</span><span class="n">parent</span>
+<span class="gh">Out[78]: </span><span class="go">[1, 2, 3]</span>
+</pre></div>
+</div>
+<p>And you can find all the others various RedBaron features here: <a class="reference internal" href="other.html"><span class="doc">Other</span></a></p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Learn how to use RedBaron</a><ul>
+<li><a class="reference internal" href="#basic-principles">Basic principles</a></li>
+<li><a class="reference internal" href="#use-it-in-a-shell">Use it in a shell</a></li>
+<li><a class="reference internal" href="#querying">Querying</a></li>
+<li><a class="reference internal" href="#modification">Modification</a></li>
+<li><a class="reference internal" href="#playing-with-list-of-nodes">Playing with list of nodes</a></li>
+<li><a class="reference internal" href="#misc-things">Misc things</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to RedBaron’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="why.html"
+                        title="next chapter">Why is this important?</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/tuto.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="why.html" title="Why is this important?"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to RedBaron’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

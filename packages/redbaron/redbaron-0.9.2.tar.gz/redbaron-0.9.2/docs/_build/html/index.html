@@ -1,0 +1,437 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to RedBaron’s documentation! &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Learn how to use RedBaron" href="tuto.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="tuto.html" title="Learn how to use RedBaron"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-redbaron-s-documentation">
+<h1>Welcome to RedBaron’s documentation!<a class="headerlink" href="#welcome-to-redbaron-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>RedBaron is a python library and tool powerful enough to be used into IPython
+solely that intent to make the process of <strong>writing code that modify source
+code</strong> as easy and as simple as possible. That include writing custom
+refactoring, generic refactoring, tools, IDE or directly modifying you source
+code into IPython with a higher and more powerful abstraction than the
+advanced texts modification tools that you find in advanced text editors and
+IDE.</p>
+<p>RedBaron guaranteed you that <strong>it will only modify your code where you ask him
+to</strong>. To achieve this, it is based on <a class="reference external" href="https://github.com/PyCQA/baron">Baron</a>
+a lossless <a class="reference external" href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">AST</a> for
+Python  that guarantees the operation <code class="file docutils literal"><span class="pre">fst_to_code(code_to_fst(source_code))</span> <span class="pre">==</span> <span class="pre">source_code</span></code>.</p>
+<p>RedBaron API and feel is heavily inspired by BeautifulSoup. It tries to be
+simple and intuitive and that once you’ve get the basics principles, you are
+good without reading the doc for 80% of your operations.</p>
+</div>
+<div class="section" id="a-note-about-the-examples">
+<h2>A note about the examples<a class="headerlink" href="#a-note-about-the-examples" title="Permalink to this headline">¶</a></h2>
+<p>This documentation is full of example for nearly everything. But in fact, those
+aren’t really “example”: those are real life code that are executed at the
+compilation time of this documentation, this guaranteed the example you see to
+work exactly the same way for you.</p>
+<p>Funny side effect: this make it possible to “break” this documentation.</p>
+</div>
+<div class="section" id="code">
+<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/PyCQA/redbaron">https://github.com/PyCQA/redbaron</a></p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">redbaron</span><span class="p">[</span><span class="n">pygments</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Or if you don’t want to have syntax highlight in your shell or don’t need it:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">redbaron</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="basic-usage">
+<h2>Basic usage<a class="headerlink" href="#basic-usage" title="Permalink to this headline">¶</a></h2>
+<p>Simple API: give string, get string back.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;some_value = 42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span>  <span class="c1"># get code back</span>
+<span class="gh">Out[3]: </span><span class="go">&#39;some_value = 42&#39;</span>
+</pre></div>
+</div>
+<p>Though to be used in IPython directly:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [4]: </span><span class="n">red</span>  <span class="c1"># direct feedback like BeautifulSoup, &quot;0&quot; here is the index of the node in our source code</span>
+<span class="gh">Out[4]: </span><span class="go">0   some_value = 42</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>  <span class="c1"># helper function that describe nodes content so you don&#39;t have to read the doc</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;some_value&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    IntNode()</span>
+<span class="go">      # identifiers: int, int_, intnode</span>
+<span class="go">      value=&#39;42&#39;</span>
+</pre></div>
+</div>
+<p>Easy nodes modifications, you already know how to code in python, so pass
+python code (in a string) on the attribute you want to modify (wonder what
+<code class="file docutils literal"><span class="pre">.value</span></code> is? look at the output of <code class="file docutils literal"><span class="pre">.help()</span></code> in the previous
+example):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [6]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="s2">&quot;1 + 4&quot;</span>
+
+<span class="gp">In [7]: </span><span class="n">red</span>
+<span class="gh">Out[7]: </span><span class="go">0   some_value = 1 + 4</span>
+</pre></div>
+</div>
+<p>Easy queries, just like in BeautifulSoup:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [8]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span><span class="o">.</span><span class="n">find_all</span><span class="p">(</span><span class="s2">&quot;int&quot;</span><span class="p">)</span>  <span class="c1"># can also be written red(&quot;int&quot;) like in BeautifulSoup</span>
+<span class="gh">Out[9]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   4</span>
+</pre></div>
+</div>
+<p>Queries can be very powerful, you can test each attributes with value/lambda/regex/special syntax for regex/globs.</p>
+<p>Now let’s pretend that we are editing a django settings.py (notice that we are
+extending our source code using the same API than the one of a python list
+since we are in a list of lines):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [10]: </span><span class="n">red</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;INSTALLED_APPLICATIONS = (</span><span class="se">\n</span><span class="s2">    &#39;django&#39;,</span><span class="se">\n</span><span class="s2">)&quot;</span><span class="p">])</span>  <span class="c1"># here &quot;\n&quot; is to had a blank line</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span>
+<span class="gh">Out[11]: </span><span class="go"></span>
+<span class="go">0   some_value = 1 + 4</span>
+<span class="go">1   INSTALLED_APPLICATIONS = (</span>
+<span class="go">        &#39;django&#39;,</span>
+<span class="go">    )</span>
+</pre></div>
+</div>
+<p>And let’s install another django application! (again: same API than a python list)</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [12]: </span><span class="n">red</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s2">&quot;assignment&quot;</span><span class="p">,</span> <span class="n">target</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span> <span class="o">==</span> <span class="s2">&quot;INSTALLED_APPLICATIONS&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&#39;another_app&#39;&quot;</span><span class="p">)</span>
+
+<span class="gp">In [13]: </span><span class="n">red</span>
+<span class="gh">Out[13]: </span><span class="go"></span>
+<span class="go">0   some_value = 1 + 4</span>
+<span class="go">1   INSTALLED_APPLICATIONS = (</span>
+<span class="go">        &#39;django&#39;,</span>
+<span class="go">        &#39;another_app&#39;,</span>
+<span class="go">    )</span>
+</pre></div>
+</div>
+<p>Notice that the formatting of the tuple has been detected and respected when
+adding the new django application.</p>
+<p>And let’s see the result of our work:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [14]: </span><span class="k">print</span><span class="p">(</span><span class="n">red</span><span class="o">.</span><span class="n">dumps</span><span class="p">())</span>
+<span class="go">some_value = 1 + 4</span>
+<span class="go">INSTALLED_APPLICATIONS = (</span>
+<span class="go">    &#39;django&#39;,</span>
+<span class="go">    &#39;another_app&#39;,</span>
+<span class="go">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="financial-support">
+<h2>Financial support<a class="headerlink" href="#financial-support" title="Permalink to this headline">¶</a></h2>
+<p>Baron and RedBaron are a very advanced piece of engineering that requires a lot
+of time of concentration to work on. Until the end of 2018, the development
+has been a full volunteer work mostly done by [Bram](<a class="reference external" href="https://github.com/psycojoker">https://github.com/psycojoker</a>),
+but now, to reach the next level and bring those projects to the stability and
+quality you expect, we need your support.</p>
+<p>You can join our contributors and sponsors on our transparent
+[OpenCollective](<a class="reference external" href="https://opencollective.com/redbaron">https://opencollective.com/redbaron</a>), every contribution will
+count and will be mainly used to work on the projects stability and quality but
+also on continuing, on the side, the R&amp;D side of those projects.</p>
+<div class="section" id="our-supporters">
+<h3>Our supporters<a class="headerlink" href="#our-supporters" title="Permalink to this headline">¶</a></h3>
+<img alt="https://opencollective.com/redbaron/tiers/i-like-this,-keep-going!/badge.svg?label=Ilikethis,keepgoing!&amp;color=brightgreen" src="https://opencollective.com/redbaron/tiers/i-like-this,-keep-going!/badge.svg?label=Ilikethis,keepgoing!&amp;color=brightgreen" />
+<img alt="https://opencollective.com/redbaron/tiers/it-looks-cool!/badge.svg?label=Itlookscool!&amp;color=brightgreen" src="https://opencollective.com/redbaron/tiers/it-looks-cool!/badge.svg?label=Itlookscool!&amp;color=brightgreen" />
+<img alt="https://opencollective.com/redbaron/tiers/oh-god,-that-saved-me-so-much-time!/badge.svg?label=Ohgod,thatsavedmesomuchtime!&amp;color=brightgreen" src="https://opencollective.com/redbaron/tiers/oh-god,-that-saved-me-so-much-time!/badge.svg?label=Ohgod,thatsavedmesomuchtime!&amp;color=brightgreen" />
+<p></p>
+<img alt="https://opencollective.com/redbaron/tiers/i-like-this,-keep-going!.svg?avatarHeight=36&amp;width=600" src="https://opencollective.com/redbaron/tiers/i-like-this,-keep-going!.svg?avatarHeight=36&amp;width=600" />
+<p>Become our first sponsor!</p>
+<img alt="https://opencollective.com/redbaron/tiers/long-term-sponsor.svg?avatarHeight=36&amp;width=600" src="https://opencollective.com/redbaron/tiers/long-term-sponsor.svg?avatarHeight=36&amp;width=600" />
+</div>
+</div>
+<div class="section" id="table-of-content">
+<h2>Table of content<a class="headerlink" href="#table-of-content" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="tuto.html">Learn how to use RedBaron</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#basic-principles">Basic principles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#use-it-in-a-shell">Use it in a shell</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#querying">Querying</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#modification">Modification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#playing-with-list-of-nodes">Playing with list of nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tuto.html#misc-things">Misc things</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="why.html">Why is this important?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="why.html#other-usages">Other usages</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="basics.html">Basics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="basics.html#help">.help()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics.html#nodes-structure">nodes structure</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics.html#dumps-transform-the-tree-into-source-code">.dumps(), transform the tree into source code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics.html#fst-transform-the-redbaron-tree-into-baron-fst">.fst(), transform the RedBaron tree into Baron FST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basics.html#copy">.copy()</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="querying.html">Querying</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="querying.html#find">.find()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="querying.html#find-all">.find_all()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="querying.html#advanced-querying">Advanced querying</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modifying.html">Modifying</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="modifying.html#principle">Principle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modifying.html#code-block-modifications">Code block modifications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modifying.html#details">Details</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modifying.html#auto-assignment-of-parent-and-on-attribute">Auto assignment of .parent and .on_attribute</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="proxy_list.html">Proxy List</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#problem">Problem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#solution">Solution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#access-the-unproxified-node-list">Access the unproxified node list</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#omitting-value">Omitting “.value”</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#commaproxylist">CommaProxyList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#dotproxylist">DotProxyList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#lineproxylist">LineProxyList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proxy_list.html#decoratorlineproxylist">DecoratorLineProxyList</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="other.html">Other</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="other.html#parent">.parent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#parent-find">.parent_find()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#next-previous-next-recursive-previous-recursive-next-generator-previous-generator">.next .previous .next_recursive .previous_recursive .next_generator() .previous_generator()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#next-intuitive-previous-intuitive">.next_intuitive/.previous_intuitive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#root">.root</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#index-on-parent">.index_on_parent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#index-on-parent-raw">.index_on_parent_raw</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#filtered">.filtered()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#indentation">.indentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#increase-indentation-and-decrease-indentation">.increase_indentation() and .decrease_indentation()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#to-python">.to_python()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#path">.path()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#path-class">Path class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#map-filter-apply">.map .filter .apply</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#replace">.replace()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#edit">.edit()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#absolute-bounding-box">.absolute_bounding_box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#bounding-box">.bounding_box</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#find-by-position">.find_by_position()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#at">.at()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#node-from-fst">Node.from_fst()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#nodelist-from-fst">NodeList.from_fst()</a></li>
+<li class="toctree-l2"><a class="reference internal" href="other.html#insert-before-insert-after">.insert_before .insert_after</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="reference">
+<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="nodes_reference.html">Nodes References Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodes_reference.html#topclass">TopClass</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#codeblocknode">CodeBlockNode</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nodes_reference.html#nodes">Nodes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#argumentgeneratorcomprehensionnode">ArgumentGeneratorComprehensionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#assertnode">AssertNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#assignmentnode">AssignmentNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#associativeparenthesisnode">AssociativeParenthesisNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#atomtrailersnode">AtomtrailersNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#binarynode">BinaryNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#binaryoperatornode">BinaryOperatorNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#booleanoperatornode">BooleanOperatorNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#callnode">CallNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#callargumentnode">CallArgumentNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#classnode">ClassNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#commanode">CommaNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#comparisonnode">ComparisonNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#comprehensionifnode">ComprehensionIfNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#comprehensionloopnode">ComprehensionLoopNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#decoratornode">DecoratorNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#defnode">DefNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#defargumentnode">DefArgumentNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#delnode">DelNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#dictargumentnode">DictArgumentNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#dictnode">DictNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#dictcomprehensionnode">DictComprehensionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#dottedasnamenode">DottedAsNameNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#dotnode">DotNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#elifnode">ElifNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#elsenode">ElseNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#ellipsisnode">EllipsisNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#endlnode">EndlNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#exceptnode">ExceptNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#execnode">ExecNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#finallynode">FinallyNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#fornode">ForNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#fromimportnode">FromImportNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#generatorcomprehensionnode">GeneratorComprehensionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#getitemnode">GetitemNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#globalnode">GlobalNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#ifnode">IfNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#ifelseblocknode">IfelseblockNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#importnode">ImportNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#intnode">IntNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#kwargsonlymarkernode">KwargsOnlyMarkerNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#lambdanode">LambdaNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#listargumentnode">ListArgumentNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#listcomprehensionnode">ListComprehensionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#listnode">ListNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#nameasnamenode">NameAsNameNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#nonlocalnode">NonlocalNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#printnode">PrintNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#raisenode">RaiseNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#reprnode">ReprNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#returnnode">ReturnNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#setnode">SetNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#setcomprehensionnode">SetComprehensionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#slicenode">SliceNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#spacenode">SpaceNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#starexpressionnode">StarExpressionNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#stringchainnode">StringChainNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#ternaryoperatornode">TernaryOperatorNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#trynode">TryNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#tuplenode">TupleNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#unitaryoperatornode">UnitaryOperatorNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#yieldnode">YieldNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#yieldatomnode">YieldAtomNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#yieldfromnode">YieldFromNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#whilenode">WhileNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#withcontext">WithContext</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#withcontextitemnode">WithContextItemNode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodes_reference.html#withnode">WithNode</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to RedBaron’s documentation!</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#a-note-about-the-examples">A note about the examples</a></li>
+<li><a class="reference internal" href="#code">Code</a></li>
+<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#basic-usage">Basic usage</a></li>
+<li><a class="reference internal" href="#financial-support">Financial support</a><ul>
+<li><a class="reference internal" href="#our-supporters">Our supporters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#table-of-content">Table of content</a></li>
+<li><a class="reference internal" href="#reference">Reference</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="tuto.html"
+                        title="next chapter">Learn how to use RedBaron</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="tuto.html" title="Learn how to use RedBaron"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

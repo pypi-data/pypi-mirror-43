@@ -1,0 +1,843 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LineProxyList usage examples &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="lineproxylist-usage-examples">
+<h1>LineProxyList usage examples<a class="headerlink" href="#lineproxylist-usage-examples" title="Permalink to this headline">¶</a></h1>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;def a():</span><span class="se">\n</span><span class="s2">    pif</span><span class="se">\n\n</span><span class="s2">    paf</span><span class="se">\n</span><span class="s2">    pouf</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Please refer to <a class="reference external" href="https://docs.python.org/2/tutorial/datastructures.html">python list documentation</a> if you want to
+know the exact behavior or those methods (or <a class="reference external" href="https://github.com/PyCQA/redbaron">send a patch</a> to improve this documentation).</p>
+<div class="section" id="append">
+<h2>append<a class="headerlink" href="#append" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [2]: </span><span class="n">red</span>
+<span class="gh">Out[2]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+
+<span class="gp">In [3]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+<span class="gp">In [4]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;stuff&quot;</span><span class="p">)</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span>
+<span class="gh">Out[5]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [6]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[6]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   &#39;\n    &#39;</span>
+<span class="go">2   paf</span>
+<span class="go">3   pouf</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   stuff</span>
+</pre></div>
+</div>
+<p>Appending an empty string or a string containing a n adds a new line.</p>
+</div>
+<div class="section" id="insert">
+<h2>insert<a class="headerlink" href="#insert" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [7]: </span><span class="n">red</span>
+<span class="gh">Out[7]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [8]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;print(caribou)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [10]: </span><span class="n">red</span>
+<span class="gh">Out[10]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[11]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   &#39;\n&#39;</span>
+<span class="go">3   &#39;\n    &#39;</span>
+<span class="go">4   paf</span>
+<span class="go">5   pouf</span>
+<span class="go">6   &#39;\n    &#39;</span>
+<span class="go">7   stuff</span>
+</pre></div>
+</div>
+<p>Inserting an empty string or a string containing a n adds a new line.</p>
+</div>
+<div class="section" id="extend">
+<h2>extend<a class="headerlink" href="#extend" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [12]: </span><span class="n">red</span>
+<span class="gh">Out[12]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [13]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;if a:</span><span class="se">\n</span><span class="s2">    pass&quot;</span><span class="p">,</span> <span class="s2">&quot;stuff&quot;</span><span class="p">])</span>
+
+<span class="gp">In [14]: </span><span class="n">red</span>
+<span class="gh">Out[14]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [15]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[15]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   &#39;\n&#39;</span>
+<span class="go">3   &#39;\n    &#39;</span>
+<span class="go">4   paf</span>
+<span class="go">5   pouf</span>
+<span class="go">6   &#39;\n    &#39;</span>
+<span class="go">7   stuff</span>
+<span class="go">8   a</span>
+<span class="go">9   &#39;\n    &#39;</span>
+<span class="go">10  if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">11  stuff</span>
+</pre></div>
+</div>
+<p>Extending with an empty string or a string containing a n adds a new line.</p>
+</div>
+<div class="section" id="pop">
+<h2>pop<a class="headerlink" href="#pop" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [16]: </span><span class="n">red</span>
+<span class="gh">Out[16]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">    </span>
+
+<span class="gp">In [17]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+
+<span class="gp">In [18]: </span><span class="n">red</span>
+<span class="gh">Out[18]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [19]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[19]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   &#39;\n&#39;</span>
+<span class="go">3   &#39;\n    &#39;</span>
+<span class="go">4   paf</span>
+<span class="go">5   pouf</span>
+<span class="go">6   &#39;\n    &#39;</span>
+<span class="go">7   stuff</span>
+<span class="go">8   a</span>
+<span class="go">9   &#39;\n    &#39;</span>
+<span class="go">10  if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [20]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="gp">In [21]: </span><span class="n">red</span>
+<span class="gh">Out[21]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [22]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[22]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   &#39;\n    &#39;</span>
+<span class="go">3   paf</span>
+<span class="go">4   pouf</span>
+<span class="go">5   &#39;\n    &#39;</span>
+<span class="go">6   stuff</span>
+<span class="go">7   a</span>
+<span class="go">8   &#39;\n    &#39;</span>
+<span class="go">9   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getitem">
+<h2>__getitem__<a class="headerlink" href="#getitem" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [23]: </span><span class="n">red</span>
+<span class="gh">Out[23]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [24]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[24]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   &#39;\n    &#39;</span>
+<span class="go">3   paf</span>
+<span class="go">4   pouf</span>
+<span class="go">5   &#39;\n    &#39;</span>
+<span class="go">6   stuff</span>
+<span class="go">7   a</span>
+<span class="go">8   &#39;\n    &#39;</span>
+<span class="go">9   if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [25]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="gh">Out[25]: </span><span class="go">&#39;\n    &#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="setitem">
+<h2>__setitem__<a class="headerlink" href="#setitem" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [26]: </span><span class="n">red</span>
+<span class="gh">Out[26]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">    </span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [27]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;plop&quot;</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span>
+<span class="gh">Out[28]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        plop</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [29]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[29]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   plop</span>
+<span class="go">3   paf</span>
+<span class="go">4   pouf</span>
+<span class="go">5   &#39;\n    &#39;</span>
+<span class="go">6   stuff</span>
+<span class="go">7   a</span>
+<span class="go">8   &#39;\n    &#39;</span>
+<span class="go">9   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="remove">
+<h2>remove<a class="headerlink" href="#remove" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [30]: </span><span class="n">red</span>
+<span class="gh">Out[30]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        plop</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [31]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="gp">In [32]: </span><span class="n">red</span>
+<span class="gh">Out[32]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[33]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   paf</span>
+<span class="go">3   pouf</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   stuff</span>
+<span class="go">6   a</span>
+<span class="go">7   &#39;\n    &#39;</span>
+<span class="go">8   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="index">
+<h2>index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [34]: </span><span class="n">red</span>
+<span class="gh">Out[34]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [35]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[35]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   paf</span>
+<span class="go">3   pouf</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   stuff</span>
+<span class="go">6   a</span>
+<span class="go">7   &#39;\n    &#39;</span>
+<span class="go">8   if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [36]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="gh">Out[36]: </span><span class="go">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="count">
+<h2>count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [37]: </span><span class="n">red</span>
+<span class="gh">Out[37]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [38]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[38]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   paf</span>
+<span class="go">3   pouf</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   stuff</span>
+<span class="go">6   a</span>
+<span class="go">7   &#39;\n    &#39;</span>
+<span class="go">8   if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [39]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="gh">Out[39]: </span><span class="go">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="len">
+<h2>len<a class="headerlink" href="#len" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [40]: </span><span class="n">red</span>
+<span class="gh">Out[40]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [41]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[41]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   paf</span>
+<span class="go">3   pouf</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   stuff</span>
+<span class="go">6   a</span>
+<span class="go">7   &#39;\n    &#39;</span>
+<span class="go">8   if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [42]: </span><span class="nb">len</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+<span class="gh">Out[42]: </span><span class="go">9</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="delitem">
+<h2>__delitem__<a class="headerlink" href="#delitem" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [43]: </span><span class="n">red</span>
+<span class="gh">Out[43]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        paf</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [44]: </span><span class="k">del</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="gp">In [45]: </span><span class="n">red</span>
+<span class="gh">Out[45]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [46]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[46]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   pouf</span>
+<span class="go">3   &#39;\n    &#39;</span>
+<span class="go">4   stuff</span>
+<span class="go">5   a</span>
+<span class="go">6   &#39;\n    &#39;</span>
+<span class="go">7   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="in">
+<h2>in<a class="headerlink" href="#in" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [47]: </span><span class="n">red</span>
+<span class="gh">Out[47]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [48]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">in</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[48]: </span><span class="go">False</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="iter">
+<h2>__iter__<a class="headerlink" href="#iter" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [49]: </span><span class="n">red</span>
+<span class="gh">Out[49]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [50]: </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+<span class="gp">   ....: </span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">dumps</span><span class="p">())</span>
+<span class="gp">   ....: </span>
+<span class="go">pif</span>
+<span class="go">print(caribou)</span>
+<span class="go">pouf</span>
+
+<span class="go">    </span>
+<span class="go">stuff</span>
+<span class="go">a</span>
+
+<span class="go">    </span>
+<span class="go">if a:</span>
+<span class="go">        pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getslice">
+<h2>__getslice__<a class="headerlink" href="#getslice" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [51]: </span><span class="n">red</span>
+<span class="gh">Out[51]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [52]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[52]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   pouf</span>
+<span class="go">3   &#39;\n    &#39;</span>
+<span class="go">4   stuff</span>
+<span class="go">5   a</span>
+<span class="go">6   &#39;\n    &#39;</span>
+<span class="go">7   if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [53]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+<span class="gh">Out[53]: </span><span class="go">0   pouf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="setslice">
+<h2>__setslice__<a class="headerlink" href="#setslice" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [54]: </span><span class="n">red</span>
+<span class="gh">Out[54]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        pouf</span>
+<span class="go">    </span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [55]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">]</span>
+
+<span class="gp">In [56]: </span><span class="n">red</span>
+<span class="gh">Out[56]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        a</span>
+<span class="go">        b</span>
+<span class="go">        c</span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [57]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[57]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   a</span>
+<span class="go">3   b</span>
+<span class="go">4   c</span>
+<span class="go">5   stuff</span>
+<span class="go">6   a</span>
+<span class="go">7   &#39;\n    &#39;</span>
+<span class="go">8   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="delslice">
+<h2>__delslice__<a class="headerlink" href="#delslice" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [58]: </span><span class="n">red</span>
+<span class="gh">Out[58]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        a</span>
+<span class="go">        b</span>
+<span class="go">        c</span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [59]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="gh">Out[59]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+<span class="go">2   c</span>
+
+<span class="gp">In [60]: </span><span class="k">del</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+
+<span class="gp">In [61]: </span><span class="n">red</span>
+<span class="gh">Out[61]: </span><span class="go"></span>
+<span class="go">0   def a():</span>
+<span class="go">        pif</span>
+<span class="go">        print(caribou)</span>
+<span class="go">        stuff</span>
+<span class="go">        a</span>
+<span class="go">    </span>
+<span class="go">        if a:</span>
+<span class="go">            pass</span>
+<span class="go">    </span>
+<span class="go">    </span>
+
+<span class="gp">In [62]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[62]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   print(caribou)</span>
+<span class="go">2   stuff</span>
+<span class="go">3   a</span>
+<span class="go">4   &#39;\n    &#39;</span>
+<span class="go">5   if a:</span>
+<span class="go">            pass</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">LineProxyList usage examples</a><ul>
+<li><a class="reference internal" href="#append">append</a></li>
+<li><a class="reference internal" href="#insert">insert</a></li>
+<li><a class="reference internal" href="#extend">extend</a></li>
+<li><a class="reference internal" href="#pop">pop</a></li>
+<li><a class="reference internal" href="#getitem">__getitem__</a></li>
+<li><a class="reference internal" href="#setitem">__setitem__</a></li>
+<li><a class="reference internal" href="#remove">remove</a></li>
+<li><a class="reference internal" href="#index">index</a></li>
+<li><a class="reference internal" href="#count">count</a></li>
+<li><a class="reference internal" href="#len">len</a></li>
+<li><a class="reference internal" href="#delitem">__delitem__</a></li>
+<li><a class="reference internal" href="#in">in</a></li>
+<li><a class="reference internal" href="#iter">__iter__</a></li>
+<li><a class="reference internal" href="#getslice">__getslice__</a></li>
+<li><a class="reference internal" href="#setslice">__setslice__</a></li>
+<li><a class="reference internal" href="#delslice">__delslice__</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/lineproxylist.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

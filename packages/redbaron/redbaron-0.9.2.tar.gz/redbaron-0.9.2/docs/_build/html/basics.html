@@ -1,0 +1,520 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Basics &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Querying" href="querying.html" />
+    <link rel="prev" title="Why is this important?" href="why.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="querying.html" title="Querying"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="why.html" title="Why is this important?"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="basics">
+<h1>Basics<a class="headerlink" href="#basics" title="Permalink to this headline">¶</a></h1>
+<p>RedBaron is very simple to use, you just need to import it and feed him with a string:</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;print(&#39;hello world!&#39;)&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>But what you should be really doing is using RedBaron directly into a shell (I
+recommend <a class="reference external" href="http://ipython.org/">IPython</a> but
+<a class="reference external" href="http://bpython-interpreter.org/">bpython</a> is cool too), it has been thought
+for it, like BeautifulSoup.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="kn">from</span> <span class="nn">redbaron</span> <span class="kn">import</span> <span class="n">RedBaron</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;hello = &#39;Hello World!&#39;</span><span class="se">\n</span><span class="s2">print(hello)&quot;</span><span class="p">)</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span>
+<span class="gh">Out[3]: </span><span class="go"></span>
+<span class="go">0   hello = &#39;Hello World!&#39;</span>
+<span class="go">1   print(hello)</span>
+</pre></div>
+</div>
+<p>As you can see, when displayed in a shell, a RedBaron instance renders to the actual
+content so you easily see what you are doing when playing interactively with it
+(just like a BeautifulSoup instance).</p>
+<p>There are 2 families of Node in RedBaron: NodeList and standalone Node. Since a
+Python program is a list of operations, RedBaron will always be a list.
+This is why when displayed you see integers on the left, those are the index in
+the list of the nodes of the right, so as expected:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [4]: </span><span class="n">red</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="gh">Out[4]: </span><span class="go">print(hello)</span>
+</pre></div>
+</div>
+<p>You get the <cite>print</cite> Node that was located at 2. As you can see, here we are on a
+standalone Node, so we don’t get the list of indexes of the left.</p>
+<div class="section" id="help">
+<span id="id1"></span><h2>.help()<a class="headerlink" href="#help" title="Permalink to this headline">¶</a></h2>
+<p>Another useful function is <code class="file docutils literal"><span class="pre">.help()</span></code>. It displays the RedBaron nodes tree
+helping you understand how is it composed and how you can use it:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [5]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[5]: </span><span class="go">hello = &#39;Hello World!&#39;</span>
+
+<span class="gp">In [6]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;hello&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    StringNode()</span>
+<span class="go">      # identifiers: string, string_, stringnode</span>
+<span class="go">      value=&quot;&#39;Hello World!&#39;&quot;</span>
+</pre></div>
+</div>
+<p>Here, as you can see, <code class="file docutils literal"><span class="pre">hello</span> <span class="pre">=</span> <span class="pre">'Hello</span> <span class="pre">World!'</span></code> is an
+<code class="file docutils literal"><span class="pre">AssignmentNode</span></code> and it has 2 attributes: <code class="file docutils literal"><span class="pre">target</span></code> and
+<code class="file docutils literal"><span class="pre">value</span></code>. Those 2 attributes are 2 other nodes, a <code class="file docutils literal"><span class="pre">NameNode</span></code> for the
+variable <code class="file docutils literal"><span class="pre">hello</span></code> and a <code class="file docutils literal"><span class="pre">StringNode</span></code> for the string. Those 2 nodes
+each have one attribute <code class="file docutils literal"><span class="pre">value</span></code> that is their content.</p>
+<p>One rule with Baron: <strong>every node has a value attribute</strong> that contains its
+value (in case of a node with multiple data, <code class="file docutils literal"><span class="pre">value</span></code> points to the most
+obvious one, for example, in a function definition it’s the body of the
+function). The <strong>only exceptions</strong> are nodes where it doesn’t make any sense,
+for example a <code class="file docutils literal"><span class="pre">PassNode</span></code> (representing the keyword <code class="file docutils literal"><span class="pre">pass</span></code>) simply
+doesn’t contain anything.</p>
+<p>Like the <code class="file docutils literal"><span class="pre">repr</span></code>, <code class="file docutils literal"><span class="pre">.help()</span></code> has also a display showing index number
+when called on a <code class="file docutils literal"><span class="pre">NodeList</span></code>:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [7]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;hello&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    StringNode()</span>
+<span class="go">      # identifiers: string, string_, stringnode</span>
+<span class="go">      value=&quot;&#39;Hello World!&#39;&quot;</span>
+<span class="go">1 -----------------------------------------------------</span>
+<span class="go">EndlNode()</span>
+<span class="go">  # identifiers: endl, endl_, endlnode</span>
+<span class="go">  value=&#39;\n&#39;</span>
+<span class="go">  indent=&#39;&#39;</span>
+<span class="go">2 -----------------------------------------------------</span>
+<span class="go">PrintNode()</span>
+<span class="go">  # identifiers: print, print_, printnode</span>
+<span class="go">  destination -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * AssociativeParenthesisNode()</span>
+<span class="go">        # identifiers: associative_parenthesis, associative_parenthesis_, associativeparenthesis, associativeparenthesisnode</span>
+<span class="go">        value -&gt;</span>
+<span class="go">          NameNode() ...</span>
+</pre></div>
+</div>
+<p>The best way to understand how <code class="file docutils literal"><span class="pre">.help()</span></code> works is to remember that
+RedBaron is mapping from Baron FST which is JSON. This means that RedBaron node
+can be composed of either: string, bool, numbers, list or other nodes and the
+key are always string.</p>
+<div class="section" id="helpers">
+<h3>helpers<a class="headerlink" href="#helpers" title="Permalink to this headline">¶</a></h3>
+<p>Some nodes come with helpers method, <code class="file docutils literal"><span class="pre">.help()</span></code> displays them when they
+are present:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [8]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;import a, b, c as d&quot;</span><span class="p">)</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">ImportNode()</span>
+<span class="go">  # identifiers: import, import_, importnode</span>
+<span class="go">  # helpers: modules, names</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * DottedAsNameNode() ...</span>
+<span class="go">    * DottedAsNameNode() ...</span>
+<span class="go">    * DottedAsNameNode() ...</span>
+</pre></div>
+</div>
+<p>You can read their documentation using the <code class="file docutils literal"><span class="pre">?</span></code> magic of ipython:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [10]: </span><span class="k">print</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">names</span><span class="o">.</span><span class="vm">__doc__</span><span class="p">)</span>  <span class="c1"># you can do &quot;red[0].names?&quot; in IPython shell</span>
+<span class="go">return a list of string of new names inserted in the python context</span>
+
+<span class="gp">In [11]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">names</span><span class="p">()</span>
+<span class="gh">Out[11]: </span><span class="go">[&#39;a&#39;, &#39;b&#39;, &#39;d&#39;]</span>
+
+<span class="gp">In [12]: </span><span class="k">print</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">modules</span><span class="o">.</span><span class="vm">__doc__</span><span class="p">)</span>
+<span class="go">return a list of string of modules imported</span>
+
+<span class="gp">In [13]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">modules</span><span class="p">()</span>
+<span class="gh">Out[13]: </span><span class="go">[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]</span>
+</pre></div>
+</div>
+<p>If you come with cool helpers, don’t hesitate to propose them in a <a class="reference external" href="https://github.com/Psycojoker/redbaron">pull
+request</a>!</p>
+</div>
+<div class="section" id="deep">
+<h3>deep<a class="headerlink" href="#deep" title="Permalink to this headline">¶</a></h3>
+<p><code class="file docutils literal"><span class="pre">.help()</span></code> accept a deep argument on how far in the tree it should show
+the <code class="file docutils literal"><span class="pre">.help()</span></code> of subnode. By default its value is <code class="file docutils literal"><span class="pre">2</span></code>. You can pass
+the value <code class="file docutils literal"><span class="pre">True</span></code> if you want to display the whole tree.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [14]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b if c else d&quot;</span><span class="p">)</span>
+
+<span class="gp">In [15]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    TernaryOperatorNode()</span>
+<span class="go">      # identifiers: ternary_operator, ternary_operator_, ternaryoperator, ternaryoperatornode</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        NameNode() ...</span>
+<span class="go">      value -&gt;</span>
+<span class="go">        NameNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        NameNode() ...</span>
+
+<span class="gp">In [16]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode() ...</span>
+
+<span class="gp">In [17]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="n">deep</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># you can name the argument too</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode() ...</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    TernaryOperatorNode() ...</span>
+
+<span class="gp">In [18]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    TernaryOperatorNode()</span>
+<span class="go">      # identifiers: ternary_operator, ternary_operator_, ternaryoperator, ternaryoperatornode</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        NameNode()</span>
+<span class="go">          # identifiers: name, name_, namenode</span>
+<span class="go">          value=&#39;b&#39;</span>
+<span class="go">      value -&gt;</span>
+<span class="go">        NameNode()</span>
+<span class="go">          # identifiers: name, name_, namenode</span>
+<span class="go">          value=&#39;c&#39;</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        NameNode()</span>
+<span class="go">          # identifiers: name, name_, namenode</span>
+<span class="go">          value=&#39;d&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="with-formatting">
+<h3>with_formatting<a class="headerlink" href="#with-formatting" title="Permalink to this headline">¶</a></h3>
+<p><code class="file docutils literal"><span class="pre">.help()</span></code> accepts the option <code class="file docutils literal"><span class="pre">with_formatting</span></code> that is set at
+<code class="file docutils literal"><span class="pre">False</span></code> by default. If set at <code class="file docutils literal"><span class="pre">True</span></code> it will also display the
+attributes responsible for holding the formatting of the node (they are always
+node list):</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [19]: </span><span class="n">red</span><span class="o">.</span><span class="n">help</span><span class="p">(</span><span class="n">with_formatting</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="go">0 -----------------------------------------------------</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    TernaryOperatorNode()</span>
+<span class="go">      # identifiers: ternary_operator, ternary_operator_, ternaryoperator, ternaryoperatornode</span>
+<span class="go">      first -&gt;</span>
+<span class="go">        NameNode() ...</span>
+<span class="go">      value -&gt;</span>
+<span class="go">        NameNode() ...</span>
+<span class="go">      second -&gt;</span>
+<span class="go">        NameNode() ...</span>
+<span class="go">      first_formatting -&gt;</span>
+<span class="go">        * SpaceNode() ...</span>
+<span class="go">      second_formatting -&gt;</span>
+<span class="go">        * SpaceNode() ...</span>
+<span class="go">      third_formatting -&gt;</span>
+<span class="go">        * SpaceNode() ...</span>
+<span class="go">      fourth_formatting -&gt;</span>
+<span class="go">        * SpaceNode() ...</span>
+<span class="go">  annotation_first_formatting -&gt;</span>
+<span class="go">  annotation_second_formatting -&gt;</span>
+<span class="go">  first_formatting -&gt;</span>
+<span class="go">    * SpaceNode()</span>
+<span class="go">        # identifiers: space, space_, spacenode</span>
+<span class="go">        value=&#39; &#39;</span>
+<span class="go">  second_formatting -&gt;</span>
+<span class="go">    * SpaceNode()</span>
+<span class="go">        # identifiers: space, space_, spacenode</span>
+<span class="go">        value=&#39; &#39;</span>
+</pre></div>
+</div>
+<p>Those attributes are always surrounding syntax element of Python like
+<code class="file docutils literal"><span class="pre">[](),.{}</span></code> or keywords. You should, normally, not have a lot of reasons
+to play with them. You can find a detailed version of each nodes here:
+<a class="reference internal" href="nodes_reference.html"><span class="doc">Nodes References Page</span></a>.</p>
+</div>
+</div>
+<div class="section" id="nodes-structure">
+<h2>nodes structure<a class="headerlink" href="#nodes-structure" title="Permalink to this headline">¶</a></h2>
+<p>Nodes can have 3 kind of attributes (which can be accessed like normal object
+attributes):</p>
+<ul class="simple">
+<li>data attributes, which are nearly always strings. They are shown with a <code class="file docutils literal"><span class="pre">=</span></code> in
+<code class="file docutils literal"><span class="pre">.help()</span></code>. <code class="file docutils literal"><span class="pre">.value</span></code> here for example.</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [20]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;variable&quot;</span><span class="p">)</span>
+
+<span class="gp">In [21]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;variable&#39;</span>
+
+<span class="gp">In [22]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[22]: </span><span class="go">&#39;variable&#39;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>node attributes, which are other nodes. They are shown with a <code class="file docutils literal"><span class="pre">-&gt;</span></code> followed by the name of the other node
+at the next line in <code class="file docutils literal"><span class="pre">.help()</span></code>. <code class="file docutils literal"><span class="pre">.target</span></code> and <code class="file docutils literal"><span class="pre">.value</span></code> here for example.</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [23]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [24]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">AssignmentNode()</span>
+<span class="go">  # identifiers: assign, assignment, assignment_, assignmentnode</span>
+<span class="go">  operator=&#39;&#39;</span>
+<span class="go">  target -&gt;</span>
+<span class="go">    NameNode()</span>
+<span class="go">      # identifiers: name, name_, namenode</span>
+<span class="go">      value=&#39;a&#39;</span>
+<span class="go">  annotation -&gt;</span>
+<span class="go">    None</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    IntNode()</span>
+<span class="go">      # identifiers: int, int_, intnode</span>
+<span class="go">      value=&#39;1&#39;</span>
+
+<span class="gp">In [25]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">NameNode()</span>
+<span class="go">  # identifiers: name, name_, namenode</span>
+<span class="go">  value=&#39;a&#39;</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li>nodelist attributes, which are lists of other nodes. They are shown with a <code class="file docutils literal"><span class="pre">-&gt;</span></code> followed by a series of names
+of the other nodes starting with a <code class="file docutils literal"><span class="pre">*</span></code> for every item of the list. <code class="file docutils literal"><span class="pre">.value</span></code> here for example:</li>
+</ul>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [26]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [27]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">ListNode()</span>
+<span class="go">  # identifiers: list, list_, listnode</span>
+<span class="go">  value -&gt;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;1&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;2&#39;</span>
+<span class="go">    * IntNode()</span>
+<span class="go">        # identifiers: int, int_, intnode</span>
+<span class="go">        value=&#39;3&#39;</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">help</span><span class="p">()</span>
+<span class="go">IntNode()</span>
+<span class="go">  # identifiers: int, int_, intnode</span>
+<span class="go">  value=&#39;1&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="dumps-transform-the-tree-into-source-code">
+<h2>.dumps(), transform the tree into source code<a class="headerlink" href="#dumps-transform-the-tree-into-source-code" title="Permalink to this headline">¶</a></h2>
+<p>To transform a RedBaron tree back into source code, use the
+<code class="file docutils literal"><span class="pre">.dumps()</span></code> method. This will transform the <strong>current selection</strong> back
+into code.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [29]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [30]: </span><span class="n">red</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span>
+<span class="gh">Out[30]: </span><span class="go">&#39;a = 1&#39;</span>
+
+<span class="gp">In [31]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">dumps</span><span class="p">()</span>
+<span class="gh">Out[31]: </span><span class="go">&#39;a&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="fst-transform-the-redbaron-tree-into-baron-fst">
+<h2>.fst(), transform the RedBaron tree into Baron FST<a class="headerlink" href="#fst-transform-the-redbaron-tree-into-baron-fst" title="Permalink to this headline">¶</a></h2>
+<p>To transform a RedBaron tree into Baron Full Syntax Tree, just use the
+<code class="file docutils literal"><span class="pre">.fst()</span></code> method. This will transform the <strong>current selection</strong> into FST.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [32]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = 1&quot;</span><span class="p">)</span>
+
+<span class="gp">In [33]: </span><span class="n">red</span><span class="o">.</span><span class="n">fst</span><span class="p">()</span>
+<span class="gh">Out[33]: </span><span class="go"></span>
+<span class="go">[{&#39;annotation&#39;: {},</span>
+<span class="go">  &#39;annotation_first_formatting&#39;: [],</span>
+<span class="go">  &#39;annotation_second_formatting&#39;: [],</span>
+<span class="go">  &#39;first_formatting&#39;: [{&#39;type&#39;: &#39;space&#39;, &#39;value&#39;: &#39; &#39;}],</span>
+<span class="go">  &#39;operator&#39;: &#39;&#39;,</span>
+<span class="go">  &#39;second_formatting&#39;: [{&#39;type&#39;: &#39;space&#39;, &#39;value&#39;: &#39; &#39;}],</span>
+<span class="go">  &#39;target&#39;: {&#39;type&#39;: &#39;name&#39;, &#39;value&#39;: &#39;a&#39;},</span>
+<span class="go">  &#39;type&#39;: &#39;assignment&#39;,</span>
+<span class="go">  &#39;value&#39;: {&#39;section&#39;: &#39;number&#39;, &#39;type&#39;: &#39;int&#39;, &#39;value&#39;: &#39;1&#39;}}]</span>
+
+<span class="gp">In [34]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">fst</span><span class="p">()</span>
+<span class="gh">Out[34]: </span><span class="go">{&#39;type&#39;: &#39;name&#39;, &#39;value&#39;: &#39;a&#39;}</span>
+</pre></div>
+</div>
+<p>While I don’t see a lot of occasions where you might need this, this will
+allow you to better understand how Baron and RedBaron are working.</p>
+</div>
+<div class="section" id="copy">
+<h2>.copy()<a class="headerlink" href="#copy" title="Permalink to this headline">¶</a></h2>
+<p>If you want to copy a RedBaron node you can use the <code class="file docutils literal"><span class="pre">.copy()</span></code> method this
+way:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [35]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a = b&quot;</span><span class="p">)</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">target</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="gh">Out[36]: </span><span class="go">a</span>
+</pre></div>
+</div>
+<div class="section" id="next">
+<h3>Next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<p>To learn how to find things in RedBaron read <a class="reference internal" href="querying.html"><span class="doc">Querying</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Basics</a><ul>
+<li><a class="reference internal" href="#help">.help()</a><ul>
+<li><a class="reference internal" href="#helpers">helpers</a></li>
+<li><a class="reference internal" href="#deep">deep</a></li>
+<li><a class="reference internal" href="#with-formatting">with_formatting</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#nodes-structure">nodes structure</a></li>
+<li><a class="reference internal" href="#dumps-transform-the-tree-into-source-code">.dumps(), transform the tree into source code</a></li>
+<li><a class="reference internal" href="#fst-transform-the-redbaron-tree-into-baron-fst">.fst(), transform the RedBaron tree into Baron FST</a></li>
+<li><a class="reference internal" href="#copy">.copy()</a><ul>
+<li><a class="reference internal" href="#next">Next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="why.html"
+                        title="previous chapter">Why is this important?</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="querying.html"
+                        title="next chapter">Querying</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/basics.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="querying.html" title="Querying"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="why.html" title="Why is this important?"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

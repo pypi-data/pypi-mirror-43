@@ -1,0 +1,708 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Proxy List &#8212; RedBaron 0.8 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.8',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Other" href="other.html" />
+    <link rel="prev" title="Modifying" href="modifying.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="other.html" title="Other"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="modifying.html" title="Modifying"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="proxy-list">
+<h1>Proxy List<a class="headerlink" href="#proxy-list" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="problem">
+<h2>Problem<a class="headerlink" href="#problem" title="Permalink to this headline">¶</a></h2>
+<p>For a python developer, the list <code class="file docutils literal"><span class="pre">[1,</span> <span class="pre">2,</span> <span class="pre">3]</span></code> has 3 members, which
+is true in the python world, but in the “source code modification”
+world, this list has 5 elements because you have to count the 2 commas.
+Indeed each comma needs to be taken into account separately because they
+can have a different formatting.</p>
+<p>This makes things quite annoying to deal with because you have to think
+about the formatting too! For example, if you want to append an item to
+a list, you need to take care of a lot of details:</p>
+<ul class="simple">
+<li>if the list is empty you don’t have to put a comma</li>
+<li>otherwise yes</li>
+<li>but wait, what happens if there is a trailing comma?</li>
+<li>also, what to do if the list is declared in an indented way (with <code class="file docutils literal"><span class="pre">&quot;\n</span>&#160;&#160;&#160; <span class="pre">&quot;</span></code> after every comma for example)?</li>
+<li>etc…</li>
+</ul>
+<p>And that’s only for a comma separated list of things: you also have the
+same formatting details to care about for dot separated lists
+(e.g. <code class="file docutils literal"><span class="pre">a.b.c().d[plop]</span></code>) and endl separated lists (a python code block,
+or you whole source file).</p>
+<p>You don’t want to have to deal with this.</p>
+</div>
+<div class="section" id="solution">
+<h2>Solution<a class="headerlink" href="#solution" title="Permalink to this headline">¶</a></h2>
+<p>To avoid you to deal with all this boring low level details, RedBaron
+implements “proxy lists”. This abstraction gives you the impression that the
+list of things you are dealing with behave the same way than in the python
+world while taking care of all the low level formatting details.</p>
+<p>The “proxy lists” has the same API than a python list so they should be
+really intuitive to use.</p>
+<p>For example:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [1]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [2]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [3]: </span><span class="n">red</span>
+<span class="gh">Out[3]: </span><span class="go">0   [1, 2, 3, 42]</span>
+
+<span class="gp">In [4]: </span><span class="k">del</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="gp">In [5]: </span><span class="n">red</span>
+<span class="gh">Out[5]: </span><span class="go">0   [1, 2, 42]</span>
+</pre></div>
+</div>
+<p>There are, for now, 4 kind of proxy lists:</p>
+<ul class="simple">
+<li><code class="file docutils literal"><span class="pre">CommaProxyList</span></code> which handles comma separated lists</li>
+<li><code class="file docutils literal"><span class="pre">DotProxyList</span></code> which handles <code class="file docutils literal"><span class="pre">atomtrailers</span></code> (those kind of constructions: <code class="file docutils literal"><span class="pre">a.b[plop].c()</span></code>)</li>
+<li><code class="file docutils literal"><span class="pre">LineProxyList</span></code> which handles lines of code (like the body of a function or the
+whole source code)</li>
+<li><code class="file docutils literal"><span class="pre">DecoratorLineProxyList</span></code> which handles lists of decorators (they are nearly the
+same as <code class="file docutils literal"><span class="pre">LineProxyList</span></code>)</li>
+</ul>
+<p><strong>Be aware that the proxy list are set on the attribute that is a list, not
+on the node holding the list. See the ‘value’ attribute access in the
+examples below.</strong></p>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>As said, proxy lists have the exact same API than python lists (at the exception
+that they don’t implement the <code class="file docutils literal"><span class="pre">sort</span></code> and <code class="file docutils literal"><span class="pre">reverse</span></code> methods).
+Every method accepts as input the same inputs that you can use to modify a node
+in RedBaron. This means that you can pass a string containing source code,
+an FST or a RedBaron node.</p>
+<p>Here is a session demonstrating every method of a proxy list:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [6]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Please refer to <a class="reference external" href="https://docs.python.org/2/tutorial/datastructures.html">python list documentation</a> if you want to
+know the exact behavior or those methods (or <a class="reference external" href="https://github.com/PyCQA/redbaron">send a patch</a> to improve this documentation).</p>
+<div class="section" id="append">
+<h3>append<a class="headerlink" href="#append" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [7]: </span><span class="n">red</span>
+<span class="gh">Out[7]: </span><span class="go">0   [1, 2, 3]</span>
+
+<span class="gp">In [8]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;plop&quot;</span><span class="p">)</span>
+
+<span class="gp">In [9]: </span><span class="n">red</span>
+<span class="gh">Out[9]: </span><span class="go">0   [1, 2, 3, plop]</span>
+
+<span class="gp">In [10]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[10]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+<span class="go">3   plop</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="insert">
+<h3>insert<a class="headerlink" href="#insert" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [11]: </span><span class="n">red</span>
+<span class="gh">Out[11]: </span><span class="go">0   [1, 2, 3, plop]</span>
+
+<span class="gp">In [12]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;42&quot;</span><span class="p">)</span>
+
+<span class="gp">In [13]: </span><span class="n">red</span>
+<span class="gh">Out[13]: </span><span class="go">0   [1, 42, 2, 3, plop]</span>
+
+<span class="gp">In [14]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[14]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   2</span>
+<span class="go">3   3</span>
+<span class="go">4   plop</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="extend">
+<h3>extend<a class="headerlink" href="#extend" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [15]: </span><span class="n">red</span>
+<span class="gh">Out[15]: </span><span class="go">0   [1, 42, 2, 3, plop]</span>
+
+<span class="gp">In [16]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s2">&quot;pif&quot;</span><span class="p">,</span> <span class="s2">&quot;paf&quot;</span><span class="p">,</span> <span class="s2">&quot;pouf&quot;</span><span class="p">])</span>
+
+<span class="gp">In [17]: </span><span class="n">red</span>
+<span class="gh">Out[17]: </span><span class="go">0   [1, 42, 2, 3, plop, pif, paf, pouf]</span>
+
+<span class="gp">In [18]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[18]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   2</span>
+<span class="go">3   3</span>
+<span class="go">4   plop</span>
+<span class="go">5   pif</span>
+<span class="go">6   paf</span>
+<span class="go">7   pouf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="pop">
+<h3>pop<a class="headerlink" href="#pop" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [19]: </span><span class="n">red</span>
+<span class="gh">Out[19]: </span><span class="go">0   [1, 42, 2, 3, plop, pif, paf, pouf]</span>
+
+<span class="gp">In [20]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+
+<span class="gp">In [21]: </span><span class="n">red</span>
+<span class="gh">Out[21]: </span><span class="go">0   [1, 42, 2, 3, plop, pif, paf]</span>
+
+<span class="gp">In [22]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[22]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   2</span>
+<span class="go">3   3</span>
+<span class="go">4   plop</span>
+<span class="go">5   pif</span>
+<span class="go">6   paf</span>
+
+<span class="gp">In [23]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="gp">In [24]: </span><span class="n">red</span>
+<span class="gh">Out[24]: </span><span class="go">0   [1, 42, 2, plop, pif, paf]</span>
+
+<span class="gp">In [25]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[25]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   2</span>
+<span class="go">3   plop</span>
+<span class="go">4   pif</span>
+<span class="go">5   paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getitem">
+<h3>__getitem__<a class="headerlink" href="#getitem" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [26]: </span><span class="n">red</span>
+<span class="gh">Out[26]: </span><span class="go">0   [1, 42, 2, plop, pif, paf]</span>
+
+<span class="gp">In [27]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[27]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   2</span>
+<span class="go">3   plop</span>
+<span class="go">4   pif</span>
+<span class="go">5   paf</span>
+
+<span class="gp">In [28]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<span class="gh">Out[28]: </span><span class="go">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="setitem">
+<h3>__setitem__<a class="headerlink" href="#setitem" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [29]: </span><span class="n">red</span>
+<span class="gh">Out[29]: </span><span class="go">0   [1, 42, 2, plop, pif, paf]</span>
+
+<span class="gp">In [30]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;1 + 1&quot;</span>
+
+<span class="gp">In [31]: </span><span class="n">red</span>
+<span class="gh">Out[31]: </span><span class="go">0   [1, 42, 1 + 1, plop, pif, paf]</span>
+
+<span class="gp">In [32]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[32]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   1 + 1</span>
+<span class="go">3   plop</span>
+<span class="go">4   pif</span>
+<span class="go">5   paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="remove">
+<h3>remove<a class="headerlink" href="#remove" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [33]: </span><span class="n">red</span>
+<span class="gh">Out[33]: </span><span class="go">0   [1, 42, 1 + 1, plop, pif, paf]</span>
+
+<span class="gp">In [34]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+
+<span class="gp">In [35]: </span><span class="n">red</span>
+<span class="gh">Out[35]: </span><span class="go">0   [1, 42, plop, pif, paf]</span>
+
+<span class="gp">In [36]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[36]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   plop</span>
+<span class="go">3   pif</span>
+<span class="go">4   paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="index">
+<h3>index<a class="headerlink" href="#index" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [37]: </span><span class="n">red</span>
+<span class="gh">Out[37]: </span><span class="go">0   [1, 42, plop, pif, paf]</span>
+
+<span class="gp">In [38]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[38]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   plop</span>
+<span class="go">3   pif</span>
+<span class="go">4   paf</span>
+
+<span class="gp">In [39]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="gh">Out[39]: </span><span class="go">2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="count">
+<h3>count<a class="headerlink" href="#count" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [40]: </span><span class="n">red</span>
+<span class="gh">Out[40]: </span><span class="go">0   [1, 42, plop, pif, paf]</span>
+
+<span class="gp">In [41]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[41]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   plop</span>
+<span class="go">3   pif</span>
+<span class="go">4   paf</span>
+
+<span class="gp">In [42]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="gh">Out[42]: </span><span class="go">1</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="len">
+<h3>len<a class="headerlink" href="#len" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [43]: </span><span class="n">red</span>
+<span class="gh">Out[43]: </span><span class="go">0   [1, 42, plop, pif, paf]</span>
+
+<span class="gp">In [44]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[44]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   plop</span>
+<span class="go">3   pif</span>
+<span class="go">4   paf</span>
+
+<span class="gp">In [45]: </span><span class="nb">len</span><span class="p">(</span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+<span class="gh">Out[45]: </span><span class="go">5</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="delitem">
+<h3>__delitem__<a class="headerlink" href="#delitem" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [46]: </span><span class="n">red</span>
+<span class="gh">Out[46]: </span><span class="go">0   [1, 42, plop, pif, paf]</span>
+
+<span class="gp">In [47]: </span><span class="k">del</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="gp">In [48]: </span><span class="n">red</span>
+<span class="gh">Out[48]: </span><span class="go">0   [1, 42, pif, paf]</span>
+
+<span class="gp">In [49]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[49]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   pif</span>
+<span class="go">3   paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="in">
+<h3>in<a class="headerlink" href="#in" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [50]: </span><span class="n">red</span>
+<span class="gh">Out[50]: </span><span class="go">0   [1, 42, pif, paf]</span>
+
+<span class="gp">In [51]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="ow">in</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[51]: </span><span class="go">False</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="iter">
+<h3>__iter__<a class="headerlink" href="#iter" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [52]: </span><span class="n">red</span>
+<span class="gh">Out[52]: </span><span class="go">0   [1, 42, pif, paf]</span>
+
+<span class="gp">In [53]: </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+<span class="gp">   ....: </span>    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="o">.</span><span class="n">dumps</span><span class="p">())</span>
+<span class="gp">   ....: </span>
+<span class="go">1</span>
+<span class="go">42</span>
+<span class="go">pif</span>
+<span class="go">paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="getslice">
+<h3>__getslice__<a class="headerlink" href="#getslice" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [54]: </span><span class="n">red</span>
+<span class="gh">Out[54]: </span><span class="go">0   [1, 42, pif, paf]</span>
+
+<span class="gp">In [55]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[55]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   pif</span>
+<span class="go">3   paf</span>
+
+<span class="gp">In [56]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span>
+<span class="gh">Out[56]: </span><span class="go"></span>
+<span class="go">0   pif</span>
+<span class="go">1   paf</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="setslice">
+<h3>__setslice__<a class="headerlink" href="#setslice" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [57]: </span><span class="n">red</span>
+<span class="gh">Out[57]: </span><span class="go">0   [1, 42, pif, paf]</span>
+
+<span class="gp">In [58]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">4</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;1 + 1&quot;</span><span class="p">,</span> <span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;c&quot;</span><span class="p">]</span>
+
+<span class="gp">In [59]: </span><span class="n">red</span>
+<span class="gh">Out[59]: </span><span class="go">0   [1, 42, 1 + 1, a, b, c]</span>
+
+<span class="gp">In [60]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[60]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   1 + 1</span>
+<span class="go">3   a</span>
+<span class="go">4   b</span>
+<span class="go">5   c</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="delslice">
+<h3>__delslice__<a class="headerlink" href="#delslice" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [61]: </span><span class="n">red</span>
+<span class="gh">Out[61]: </span><span class="go">0   [1, 42, 1 + 1, a, b, c]</span>
+
+<span class="gp">In [62]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="gh">Out[62]: </span><span class="go"></span>
+<span class="go">0   1 + 1</span>
+<span class="go">1   a</span>
+<span class="go">2   b</span>
+
+<span class="gp">In [63]: </span><span class="k">del</span> <span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+
+<span class="gp">In [64]: </span><span class="n">red</span>
+<span class="gh">Out[64]: </span><span class="go">0   [1, 42, c]</span>
+
+<span class="gp">In [65]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[65]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   42</span>
+<span class="go">2   c</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="access-the-unproxified-node-list">
+<h2>Access the unproxified node list<a class="headerlink" href="#access-the-unproxified-node-list" title="Permalink to this headline">¶</a></h2>
+<p>The unproxified node list is stored under the attribute <code class="file docutils literal"><span class="pre">node_list</span></code> of
+the proxy list. <strong>Be aware that, for now, the proxy won’t detect if you
+directly modify the unproxified node list, this will cause bugs if you modify
+the unproxified list then use the proxy list directly</strong>. So, for now, only use
+one or the other.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [66]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;[1, 2, 3]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [67]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">node_list</span>
+<span class="gh">Out[67]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   , </span>
+<span class="go">2   2</span>
+<span class="go">3   , </span>
+<span class="go">4   3</span>
+
+<span class="gp">In [68]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[68]: </span><span class="go"></span>
+<span class="go">0   1</span>
+<span class="go">1   2</span>
+<span class="go">2   3</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="omitting-value">
+<h2>Omitting “.value”<a class="headerlink" href="#omitting-value" title="Permalink to this headline">¶</a></h2>
+<p>For convenience, and because this is a super common typo error, if a node has a
+proxy list on its <code class="file docutils literal"><span class="pre">.value</span></code> attribute, you can omit to access it and the
+method access will be automatically redirect to it.</p>
+<p>This means that the 2 next lines are equivalent:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [69]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[69]: </span><span class="go">[1, 2, 3]</span>
+
+<span class="gp">In [70]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;plop&quot;</span><span class="p">)</span>
+
+<span class="gp">In [71]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;plop&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="commaproxylist">
+<h2>CommaProxyList<a class="headerlink" href="#commaproxylist" title="Permalink to this headline">¶</a></h2>
+<p>CommaProxyList is the most generic and most obvious proxy list, all the examples
+above are made using it.</p>
+<p>It is used everywhere where values are separated by commas.</p>
+</div>
+<div class="section" id="dotproxylist">
+<h2>DotProxyList<a class="headerlink" href="#dotproxylist" title="Permalink to this headline">¶</a></h2>
+<p>DotProxyList is nearly as generic as the CommaProxyList. The specific case of a
+DotProxyList is that it is intelligent enough to not add a “.” before a “call”
+(<code class="file docutils literal"><span class="pre">(a,</span> <span class="pre">b=c,</span> <span class="pre">*d,</span> <span class="pre">**e)</span></code>) or a “getitem” (<code class="file docutils literal"><span class="pre">[foobar]</span></code>).</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [72]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;a.b(c).d[e]&quot;</span><span class="p">)</span>
+
+<span class="gp">In [73]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[73]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+<span class="go">2   (c)</span>
+<span class="go">3   d</span>
+<span class="go">4   [e]</span>
+
+<span class="gp">In [74]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span><span class="s2">&quot;[stuff]&quot;</span><span class="p">,</span> <span class="s2">&quot;f&quot;</span><span class="p">,</span> <span class="s2">&quot;(g, h)&quot;</span><span class="p">])</span>
+
+<span class="gp">In [75]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="gh">Out[75]: </span><span class="go">a.b(c).d[e][stuff].f(g, h)</span>
+
+<span class="gp">In [76]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[76]: </span><span class="go"></span>
+<span class="go">0   a</span>
+<span class="go">1   b</span>
+<span class="go">2   (c)</span>
+<span class="go">3   d</span>
+<span class="go">4   [e]</span>
+<span class="go">5   [stuff]</span>
+<span class="go">6   f</span>
+<span class="go">7   (g, h)</span>
+</pre></div>
+</div>
+<p>It is used everywhere where values are separated by “.”.</p>
+<p>You can see a complete example with a DotProxyList, like for the CommaProxyList,
+here: <a class="reference internal" href="dotproxylist.html"><span class="doc">DotProxyList usage examples</span></a>.</p>
+</div>
+<div class="section" id="lineproxylist">
+<h2>LineProxyList<a class="headerlink" href="#lineproxylist" title="Permalink to this headline">¶</a></h2>
+<p>LineProxyList is used to handle lines of code, it takes care to place the
+correct endl node between and to set the correct indentation and not to break
+the indentation of the next block (if there is one).</p>
+<p>One particularity of LineProxyList is that it shows you explicitly the empty
+line (while other proxy lists never show you formatting). This is done because
+you’ll often want to be able to manage those blank lines because you want to
+put some space in your code or separate group of lines.</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [77]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;while 42:</span><span class="se">\n</span><span class="s2">    stuff</span><span class="se">\n</span><span class="s2">    other_stuff</span><span class="se">\n\n</span><span class="s2">    there_is_an_empty_line_before_me&quot;</span><span class="p">)</span>
+
+<span class="gp">In [78]: </span><span class="n">red</span>
+<span class="gh">Out[78]: </span><span class="go"></span>
+<span class="go">0   while 42:</span>
+<span class="go">        stuff</span>
+<span class="go">        other_stuff</span>
+<span class="go">    </span>
+<span class="go">        there_is_an_empty_line_before_me</span>
+<span class="go">    </span>
+
+<span class="gp">In [79]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[79]: </span><span class="go"></span>
+<span class="go">0   stuff</span>
+<span class="go">1   other_stuff</span>
+<span class="go">2   &#39;\n    &#39;</span>
+<span class="go">3   there_is_an_empty_line_before_me</span>
+
+<span class="gp">In [80]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;plouf&quot;</span><span class="p">)</span>
+
+<span class="gp">In [81]: </span><span class="n">red</span>
+<span class="gh">Out[81]: </span><span class="go"></span>
+<span class="go">0   while 42:</span>
+<span class="go">        stuff</span>
+<span class="go">        other_stuff</span>
+<span class="go">    </span>
+<span class="go">        there_is_an_empty_line_before_me</span>
+<span class="go">        plouf</span>
+<span class="go">    </span>
+
+<span class="gp">In [82]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">value</span>
+<span class="gh">Out[82]: </span><span class="go"></span>
+<span class="go">0   stuff</span>
+<span class="go">1   other_stuff</span>
+<span class="go">2   &#39;\n    &#39;</span>
+<span class="go">3   there_is_an_empty_line_before_me</span>
+<span class="go">4   plouf</span>
+</pre></div>
+</div>
+<p>You can see a complete example with a LineProxyList, like for the CommaProxyList,
+here: <a class="reference internal" href="lineproxylist.html"><span class="doc">LineProxyList usage examples</span></a>.</p>
+</div>
+<div class="section" id="decoratorlineproxylist">
+<h2>DecoratorLineProxyList<a class="headerlink" href="#decoratorlineproxylist" title="Permalink to this headline">¶</a></h2>
+<p>A DecoratorLineProxyList is exactly the same as a LineProxyList except it has
+a small modification to indent decorators correctly. Just think of it as
+a simple LineProxyList and everything will be fine.</p>
+<p><em>Don’t forget to add the :file:`&#64;` when you add a new decorator (omitting it
+will raise an exception)</em>.</p>
+<p>Example:</p>
+<div class="highlight-ipython"><div class="highlight"><pre><span></span><span class="gp">In [83]: </span><span class="n">red</span> <span class="o">=</span> <span class="n">RedBaron</span><span class="p">(</span><span class="s2">&quot;@plop</span><span class="se">\n</span><span class="s2">def stuff():</span><span class="se">\n</span><span class="s2">    pass</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="gp">In [84]: </span><span class="n">red</span>
+<span class="gh">Out[84]: </span><span class="go"></span>
+<span class="go">0   @plop</span>
+<span class="go">    def stuff():</span>
+<span class="go">        pass</span>
+<span class="go">    </span>
+
+<span class="gp">In [85]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decorators</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;@plouf&quot;</span><span class="p">)</span>
+
+<span class="gp">In [86]: </span><span class="n">red</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">decorators</span>
+<span class="gh">Out[86]: </span><span class="go"></span>
+<span class="go">0   @plop</span>
+<span class="go">1   @plouf</span>
+
+<span class="gp">In [87]: </span><span class="n">red</span>
+<span class="gh">Out[87]: </span><span class="go"></span>
+<span class="go">0   @plop</span>
+<span class="go">    @plouf</span>
+<span class="go">    def stuff():</span>
+<span class="go">        pass</span>
+</pre></div>
+</div>
+<div class="section" id="next">
+<h3>Next<a class="headerlink" href="#next" title="Permalink to this headline">¶</a></h3>
+<p>To learn about various helpers and features in RedBaron, read <a class="reference internal" href="other.html"><span class="doc">Other</span></a>.
+Be sure to check the <code class="file docutils literal"><span class="pre">.replace()</span></code> method on that page as it can be very useful.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Proxy List</a><ul>
+<li><a class="reference internal" href="#problem">Problem</a></li>
+<li><a class="reference internal" href="#solution">Solution</a></li>
+<li><a class="reference internal" href="#usage">Usage</a><ul>
+<li><a class="reference internal" href="#append">append</a></li>
+<li><a class="reference internal" href="#insert">insert</a></li>
+<li><a class="reference internal" href="#extend">extend</a></li>
+<li><a class="reference internal" href="#pop">pop</a></li>
+<li><a class="reference internal" href="#getitem">__getitem__</a></li>
+<li><a class="reference internal" href="#setitem">__setitem__</a></li>
+<li><a class="reference internal" href="#remove">remove</a></li>
+<li><a class="reference internal" href="#index">index</a></li>
+<li><a class="reference internal" href="#count">count</a></li>
+<li><a class="reference internal" href="#len">len</a></li>
+<li><a class="reference internal" href="#delitem">__delitem__</a></li>
+<li><a class="reference internal" href="#in">in</a></li>
+<li><a class="reference internal" href="#iter">__iter__</a></li>
+<li><a class="reference internal" href="#getslice">__getslice__</a></li>
+<li><a class="reference internal" href="#setslice">__setslice__</a></li>
+<li><a class="reference internal" href="#delslice">__delslice__</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#access-the-unproxified-node-list">Access the unproxified node list</a></li>
+<li><a class="reference internal" href="#omitting-value">Omitting “.value”</a></li>
+<li><a class="reference internal" href="#commaproxylist">CommaProxyList</a></li>
+<li><a class="reference internal" href="#dotproxylist">DotProxyList</a></li>
+<li><a class="reference internal" href="#lineproxylist">LineProxyList</a></li>
+<li><a class="reference internal" href="#decoratorlineproxylist">DecoratorLineProxyList</a><ul>
+<li><a class="reference internal" href="#next">Next</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="modifying.html"
+                        title="previous chapter">Modifying</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="other.html"
+                        title="next chapter">Other</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/proxy_list.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="other.html" title="Other"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="modifying.html" title="Modifying"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">RedBaron 0.8 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2014, Laurent Peuch.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>
