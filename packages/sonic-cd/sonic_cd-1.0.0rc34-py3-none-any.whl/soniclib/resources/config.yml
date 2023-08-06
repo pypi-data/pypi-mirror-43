@@ -1,0 +1,2 @@
+registry: docker.io
+default_image: triha74/sonic-base-image
