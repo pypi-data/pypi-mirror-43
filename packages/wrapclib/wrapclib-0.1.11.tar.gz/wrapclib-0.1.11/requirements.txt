@@ -1,0 +1,11 @@
+coverage
+jupyter
+jyquickhelper
+numpy>=1.14
+pandas>=0.24
+pylint
+pillow
+pyquickhelper>=1.8.2814
+sphinx-rtd-theme
+sphinxjp.themes.sphinxjp
+wheel

@@ -1,0 +1,4 @@
+[submodule "src/wrapclib/re2/gitsrc"]
+	path = src/wrapclib/re2/gitsrc
+	url = https://github.com/google/re2.git
+	branch = master
