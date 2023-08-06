@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: footil
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: LGPLv3
+Description: Various helper modules
+        ======================
+        
+        Has these modules:
+        
+        * decor - helper decorators.
+        * log - helpers with stdout, stderr management.
+        
+        Contributors
+        ============
+        
+        * Silvija Butko (Focusate)
+        * Andrius Laukavičius (Focusate)
+        
+Platform: UNKNOWN
