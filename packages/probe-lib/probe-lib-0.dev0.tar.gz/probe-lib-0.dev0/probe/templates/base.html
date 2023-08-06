@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Probe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="buildversion" content="{{ version }}">
+    </head>
+    <body>
+        {% block content %}
+        {% endblock %}
+        <script src="/static/bundle.js?{{ version }}"></script>
+    </body>
+</html>
