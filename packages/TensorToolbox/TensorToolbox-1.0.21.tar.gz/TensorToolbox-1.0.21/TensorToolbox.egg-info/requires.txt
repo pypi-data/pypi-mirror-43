@@ -1,0 +1,9 @@
+scipy
+Sphinx
+sphinxcontrib-bibtex
+SpectralToolbox
+prettytable
+mpi4py
+mpi_map
+h5py
+UQToolbox
