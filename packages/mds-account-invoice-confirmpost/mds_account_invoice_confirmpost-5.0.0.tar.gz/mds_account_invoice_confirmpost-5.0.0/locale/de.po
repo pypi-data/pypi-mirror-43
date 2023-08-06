@@ -1,0 +1,7 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "view:account.invoice:"
+msgid "The invoice will now be posted. Continue?"
+msgstr "Die Rechnung wird nun festgeschrieben. Fortsetzen?"

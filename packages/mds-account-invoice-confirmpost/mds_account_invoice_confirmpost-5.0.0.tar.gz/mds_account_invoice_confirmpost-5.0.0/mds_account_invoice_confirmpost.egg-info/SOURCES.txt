@@ -1,0 +1,17 @@
+README.rst
+setup.py
+./README.rst
+./__init__.py
+./invoice.xml
+./tryton.cfg
+./versiondep.txt
+./locale/de.po
+./locale/en.po
+./view/invoice_form.xml
+mds_account_invoice_confirmpost.egg-info/PKG-INFO
+mds_account_invoice_confirmpost.egg-info/SOURCES.txt
+mds_account_invoice_confirmpost.egg-info/dependency_links.txt
+mds_account_invoice_confirmpost.egg-info/entry_points.txt
+mds_account_invoice_confirmpost.egg-info/not-zip-safe
+mds_account_invoice_confirmpost.egg-info/requires.txt
+mds_account_invoice_confirmpost.egg-info/top_level.txt
