@@ -1,0 +1,10 @@
+setup.py
+chris_distributions.egg-info/PKG-INFO
+chris_distributions.egg-info/SOURCES.txt
+chris_distributions.egg-info/dependency_links.txt
+chris_distributions.egg-info/not-zip-safe
+chris_distributions.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
