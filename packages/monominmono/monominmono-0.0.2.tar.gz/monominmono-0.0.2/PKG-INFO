@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: monominmono
+Version: 0.0.2
+Summary: A small package that finds a global minimum in ordered arrays, taking advantage of specific monotonicity properties to total number of comparisons in big arrays. Find out more via github, https://github.com/01100100/micropsi
+Home-page: https://github.com/01100100/micropsi
+Author: David Whittingham
+Author-email: davidwhittingham94@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

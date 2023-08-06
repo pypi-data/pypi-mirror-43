@@ -1,0 +1,8 @@
+README.md
+setup.py
+monominmono/__init__.py
+monominmono/check.py
+monominmono.egg-info/PKG-INFO
+monominmono.egg-info/SOURCES.txt
+monominmono.egg-info/dependency_links.txt
+monominmono.egg-info/top_level.txt
