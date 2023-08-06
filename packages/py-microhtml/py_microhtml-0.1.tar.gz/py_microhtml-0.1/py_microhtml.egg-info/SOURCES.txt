@@ -1,0 +1,8 @@
+README.md
+microhtml.py
+setup.py
+py_microhtml.egg-info/PKG-INFO
+py_microhtml.egg-info/SOURCES.txt
+py_microhtml.egg-info/dependency_links.txt
+py_microhtml.egg-info/requires.txt
+py_microhtml.egg-info/top_level.txt
