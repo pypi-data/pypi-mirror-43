@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cgccli=cgccli:entry_point
+    
