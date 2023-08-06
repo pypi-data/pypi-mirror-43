@@ -1,0 +1,9 @@
+pyMigrate/__init__.py,sha256=6G3VUOpkxd87FEV9Bw3V_YS3re5mfaWU8eI9Irt3g4M,21
+pyMigrate/deps_handler.py,sha256=mt_csJZnWx5K752_IqmYm0DKKT5QV919YVL9L6XQDTU,1004
+pyMigrate/env.py,sha256=D98zBSn4jgGV2o3i8auCuYpPPTO68tkeKugMUkzS6AU,1234
+pyMigrate/parser_import.py,sha256=u5pcVUl7l0b4IIun75UnGmOc19CtMbzRDlXBcel_L38,921
+pyMigrate/walk.py,sha256=RMA7fu3Hb-ipROaPIy4QP_muVFfkzyBcEt17n4Why5Y,694
+pymigrate_np-0.0.1.dist-info/METADATA,sha256=yW8cuccDw53P8jTHyDCuavZc1qDoKEKuwrvdR7itMzs,1354
+pymigrate_np-0.0.1.dist-info/RECORD,,
+pymigrate_np-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pymigrate_np-0.0.1.dist-info/top_level.txt,sha256=JHp71qr4qK0R6FcPG-fo9-pbvabND_6q2zSaEQEEe5A,10
