@@ -1,0 +1,72 @@
+#!/usr/bin/env bash
+PROJECT_HOME=${PWD}
+PROJECT_NAME=${PWD##*/}
+ANDROID_BUILD_TOOLS_HOME='/Users/breno/Library/Android/sdk/build-tools/28.0.3'
+URL='http://localhost:8000/'
+APP_DIR_NAME='app'
+
+if ! [ -x "$(command -v ionic)" ]; then
+    npm install -g cordova
+    npm install -g ionic
+fi
+
+if [ ! -d $APP_DIR_NAME ]; then
+    ionic start $APP_DIR_NAME blank
+    cd $APP_DIR_NAME
+    ionic cordova platform add android ios
+    ionic cordova plugin add cordova-plugin-inappbrowser
+    npm install @ionic-native/in-app-browser
+
+
+    printf "import { Component } from '@angular/core';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: 'home.page.html',
+  styleUrls: ['home.page.scss'],
+})
+export class HomePage {
+ constructor(private iab: InAppBrowser) {
+ const browser = this.iab.create('$URL', '_self');
+ }
+}
+" > src/app/home/home.page.ts
+
+    printf "<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      PROJECT_NAME
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+...
+</ion-content>
+" > src/app/home/home.page.html
+
+    sed -i'.original' "s/io.ionic.starter/djangoplus.$PROJECT_NAME/g" config.xml
+    sed -i'.original' "s/MyApp/$PROJECT_NAME/g" config.xml
+
+else
+    cd $APP_DIR_NAME
+fi
+
+if [ ! -f djangoplus.keystore ]; then
+    keytool -genkey -v -keystore djangoplus.keystore -alias djangoplus -keyalg RSA -keysize 2048 -validity 10000
+fi
+
+if [ ! -f app-release-unsigned.apk ]; then
+    ionic cordova build android --release
+    mv platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk app-release-unsigned.apk
+fi
+
+if [ -f $PROJECT_NAME.apk ]; then
+    rm $PROJECT_NAME.apk
+fi
+jarsigner -keystore djangoplus.keystore -storepass 128044cc app-release-unsigned.apk djangoplus
+$ANDROID_BUILD_TOOLS_HOME/zipalign -v 4 app-release-unsigned.apk $PROJECT_NAME.apk
+
+#ionic cordova build ios --release
+#xcodebuild -scheme app -workspace platforms/ios/app.xcworkspace/  build
