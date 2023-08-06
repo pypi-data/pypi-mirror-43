@@ -1,0 +1,12 @@
+click>=7
+docker>=2
+docker-compose
+pyyaml
+pydash
+pyretry
+requests>=2
+six
+setuptools
+
+[dev]
+ipdb
