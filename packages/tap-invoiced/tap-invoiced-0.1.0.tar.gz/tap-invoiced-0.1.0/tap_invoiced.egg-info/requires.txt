@@ -1,0 +1,2 @@
+singer-python>=5.4.1
+invoiced==0.12.0
