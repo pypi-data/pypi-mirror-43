@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: extractorblog
+Version: 0.0.4
+Summary: extractor blog
+Home-page: https://github.com/SunJackson/extractor-blog
+Author: JacksonSun
+Author-email: jacksonsunjj@gmail.com
+License: MIT
+Description: 文章提取
+        
+        1. 提取文章标题
+        2. 提取文章内容
+        3. 转换成Markdown格式
+        4. 摘要提取（TODO）
+        5. 关键词提取（TODO）
+        
+        
+Keywords: blog extractor text keywords
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
