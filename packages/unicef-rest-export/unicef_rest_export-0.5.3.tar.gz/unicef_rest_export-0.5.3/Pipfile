@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tablib = ">=0.13"
+djangorestframework = "*"
+django = ">=2.1.6"
+"psycopg2-binary" = "*"
+openpyxl = "*"
+reportlab = "*"
+djangorestframework-csv = "*"
+python-docx = "*"
+
+[dev-packages]
+"flake8" = "*"
+isort = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+pytest-echo = "*"
+pytest-pythonpath = "*"
+factory-boy = "*"
+tox = "*"
+
+[requires]
+python_version = "3.6"
