@@ -1,0 +1,118 @@
+1:
+  Name: sIn0
+  TempStr:
+  - "(?P<subject>\\w+)(?P<prep>In|On|To)(?P<object>\\w+)"
+  EnTempToNLP: "(?P<subject>\\w+) is (?P<prep>\\w+) (?P<object>\\w+)"
+  CzTempToNLP: "(?P<subject>\\w+) být (?P<prep>\\w+) (?P<object>\\w+)"
+  Inclinations:
+  - 1
+  - 0
+  - 6
+  Type:
+  - BOOL
+2:
+  Name: sStart
+  TempStr:
+  - "(?P<subject>\\w+)Program(?P<state>Start|Stop|End)"
+  EnTempToNLP: "(?P<subject>\\w+) (?P<state>\\w+:Started|Stopped|Ended)"
+  CzTempToNLP: "(?P<subject>\\w+) (?P<state>\\w+:Started|Stopped|Ended)"
+  Inclinations:
+  - 1
+  - 3
+  Type:
+  - EDGE
+
+3:
+  Name: PNStart
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  EnTempToNLP: "(?P<subject>\\w+) (?P<value>\\w+)"
+  CzTempToNLP: "(?P<subject>\\w+) (?P<value>\\w+)"
+  Inclinations:
+  - 0
+  - 3
+  Type:
+  - EQUALITY
+4:
+  Name: sState
+  TempStr:
+  - "(?P<subject>\\w+)(?P<state>Free|Full|Locked|On)"
+  EnTempToNLP: "(?P<subject>\\w+) be (?P<state>On|Locked|Full|Free)"
+  CzTempToNLP: "(?P<subject>\\w+) být (?P<state>On|Locked|Full|Free)"
+  Inclinations:
+  - 1
+  - 1
+  Type:
+  - BOOL
+5:
+  Name: sDest
+  TempStr:
+  - "(?P<subject>\\w+)Destination"
+  EnTempToNLP: "(?P<subject>\\w+) go to station (?P<value>\\w+)"
+  CzTempToNLP: "(?P<subject>\\w+) jet do stanice (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - EQUALITY
+6:
+  Name: sAtStat
+  TempStr:
+  - "(?P<subject>\\w+)AtStation(?P<place>\\w+)"
+  EnTempToNLP: "(?P<subject>\\w+) be in station (?P<place>\\w+)"
+  CzTempToNLP: "(?P<subject>\\w+) být ve stanici (?P<place>\\w+)"
+  Inclinations:
+  - 1
+  - 6
+  Type:
+  - BOOL
+7:
+  Name: sAct
+  TempStr:
+  - "(?P<subject>\\w+)(?P<action>Move)"
+  EnTempToNLP: "(?P<subject>\\w+) (?P<action>\\w+:Move)"
+  CzTempToNLP: "(?P<subject>\\w+) (?P<action>\\w+:Move)"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - BOOL
+8:
+  Name: ActionS
+  TempStr:
+  - "(?P<action>:Replenish)(?P<subject>\\w+)"
+  EnTempToNLP: "(?P<action>:Replenish) (?P<subject>\\w+)"
+  CzTempToNLP: "(?P<action>:Replenish) (?P<subject>\\w+)"
+  Inclinations:
+  - 1
+  - 4
+  Type:
+  - BOOL
+
+9:
+  Name: sCount
+  TempStr:
+  - "(?P<subject>\\w+)Count"
+  EnTempToNLP:
+          - "(?P<subject>\\w+) contain (?P<value>\\w+) pieces"
+          - "(?P<subject>\\w+) be empty"
+  CzTempToNLP:
+          - "(?P<subject>\\w+) obsahovat (?P<value>\\w+) kusů"
+          - "(?P<subject>\\w+) být prázdný"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - EQUALITY
+
+
+10:
+  Name: Alert
+  TempStr:
+  - "alert(?P<action>\\w+)"
+  EnTempToNLP: "(?P<action>\\w+)!"
+  CzTempToNLP: "(?P<action>\\w+)!"
+  Inclinations:
+  - 1
+  Type:
+  - BOOL
