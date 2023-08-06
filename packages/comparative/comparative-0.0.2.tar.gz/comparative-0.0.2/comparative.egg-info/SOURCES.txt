@@ -1,0 +1,7 @@
+README.md
+comparative.py
+setup.py
+comparative.egg-info/PKG-INFO
+comparative.egg-info/SOURCES.txt
+comparative.egg-info/dependency_links.txt
+comparative.egg-info/top_level.txt
