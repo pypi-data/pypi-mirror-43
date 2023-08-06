@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+turiean/__init__.py
+turiean/__version__.py
+turiean/core.py
+turiean.egg-info/PKG-INFO
+turiean.egg-info/SOURCES.txt
+turiean.egg-info/dependency_links.txt
+turiean.egg-info/top_level.txt
