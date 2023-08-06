@@ -1,0 +1,65 @@
+MANIFEST.in
+README.rst
+setup.py
+examples/Example - Shapelet Transform.ipynb
+examples/Loading Data Examples.ipynb
+examples/Nested Parallelism.ipynb
+examples/Parallel programming.ipynb
+examples/README.txt
+examples/example of loading into pandas DataFrame.ipynb
+examples/highlevel-walkthrough.ipynb
+examples/pipeline_walkthrough.ipynb
+examples/.ipynb_checkpoints/Example - Shapelet Transform-checkpoint.ipynb
+examples/.ipynb_checkpoints/Loading Data Examples-checkpoint.ipynb
+examples/.ipynb_checkpoints/highlevel-walkthrough-checkpoint.ipynb
+examples/.ipynb_checkpoints/pipeline_walkthrough-checkpoint.ipynb
+examples/img/shapelets_gun_point.PNG
+examples/img/shapelets_gun_point_transform.PNG
+sktime/__init__.py
+sktime/highlevel.py
+sktime/model_selection.py
+sktime/pipeline.py
+sktime.egg-info/PKG-INFO
+sktime.egg-info/SOURCES.txt
+sktime.egg-info/dependency_links.txt
+sktime.egg-info/not-zip-safe
+sktime.egg-info/requires.txt
+sktime.egg-info/top_level.txt
+sktime/classifiers/__init__.py
+sktime/classifiers/base.py
+sktime/classifiers/ensemble.py
+sktime/classifiers/rise.py
+sktime/datasets/__init__.py
+sktime/datasets/base.py
+sktime/datasets/data/GunPoint_TEST.txt
+sktime/datasets/data/GunPoint_TRAIN.txt
+sktime/datasets/data/ArrowHead/ArrowHead_TEST.ts
+sktime/datasets/data/ArrowHead/ArrowHead_TRAIN.ts
+sktime/datasets/data/GunPoint/GunPoint_TEST.ts
+sktime/datasets/data/GunPoint/GunPoint_TRAIN.ts
+sktime/datasets/data/ItalyPowerDemand/ItalyPowerDemand_TEST.ts
+sktime/datasets/data/ItalyPowerDemand/ItalyPowerDemand_TRAIN.ts
+sktime/regressors/__init__.py
+sktime/regressors/base.py
+sktime/tests/__init__.py
+sktime/tests/test_RandomIntervalFeatureExtractor.py
+sktime/tests/test_RandomIntervalSegmenter.py
+sktime/tests/test_TSPipeline.py
+sktime/tests/test_TimeSeriesForestClassifier.py
+sktime/tests/test_common.py
+sktime/tests/test_pipelines.py
+sktime/tests/test_utils_time_series.py
+sktime/tests/test_utils_transformations.py
+sktime/transformers/__init__.py
+sktime/transformers/base.py
+sktime/transformers/compose.py
+sktime/transformers/series_to_series.py
+sktime/transformers/series_to_tabular.py
+sktime/transformers/shapelets.py
+sktime/utils/__init__.py
+sktime/utils/estimator_checks.py
+sktime/utils/load_data.py
+sktime/utils/testing.py
+sktime/utils/time_series.py
+sktime/utils/transformations.py
+sktime/utils/validation.py
