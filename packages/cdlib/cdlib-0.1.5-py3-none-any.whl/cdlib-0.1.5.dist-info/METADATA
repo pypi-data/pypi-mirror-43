@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: cdlib
+Version: 0.1.5
+Summary: Community Discovery Library
+Home-page: https://github.com/GiulioRossetti/cdlib
+Author: Giulio Rossetti
+Author-email: giulio.rossetti@gmail.com
+License: BSD-Clause-2
+Keywords: community-discovery node-clustering edge-clustering complex-networks
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: mock (==2.0.0)
+Requires-Dist: sphinx (==1.7.5)
+Requires-Dist: sphinx-rtd-theme (==0.4.3)
+Requires-Dist: numpy (==1.16.2)
+Requires-Dist: future (==0.17.1)
+Requires-Dist: wurlitzer (==1.0.2)
+Requires-Dist: matplotlib (==3.0.3)
+Requires-Dist: scikit-learn (==0.20.3)
+Requires-Dist: tqdm (==4.31.1)
+Requires-Dist: networkx (==2.2)
+Requires-Dist: python-igraph (==0.7.1.post6)
+Requires-Dist: leidenalg (==0.7.0)
+Requires-Dist: angel-cd (==1.0.2)
+Requires-Dist: demon (==2.0.4)
+Requires-Dist: infomap (==1.0.0b47)
+Requires-Dist: python-louvain (==0.13)
+Requires-Dist: nf1
+Requires-Dist: scipy (==1.2.1)
+Requires-Dist: omega-index-py3
+Requires-Dist: pulp (==1.6.9)
+Requires-Dist: pquality (==0.0.7)
+Requires-Dist: seaborn (==0.9.0)
+Requires-Dist: pandas (==0.24.1)
+
+UNKNOWN
+
+
