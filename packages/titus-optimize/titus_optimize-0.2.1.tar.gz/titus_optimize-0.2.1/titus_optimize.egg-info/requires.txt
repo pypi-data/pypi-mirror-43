@@ -1,0 +1,8 @@
+numpy>=1.16
+pandas
+cvxopt
+cvxpy
+lightgbm
+
+[test]
+tox
