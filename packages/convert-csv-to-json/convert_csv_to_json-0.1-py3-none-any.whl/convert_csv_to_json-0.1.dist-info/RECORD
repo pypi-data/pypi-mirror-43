@@ -1,0 +1,8 @@
+convert_csv_to_json/__init__.py,sha256=bhTyMSZW6xhZDyVlzTQb42TWwPHlRlFMycqohGXvTJE,35
+convert_csv_to_json/csv_parser.py,sha256=J7A2S6A9IsCGVsuupsW112h7QD2-CngDEFmhMEnWL_Q,290
+convert_csv_to_json-0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+convert_csv_to_json-0.1.dist-info/METADATA,sha256=itmwaCzp5w8V7DZnD6auoakzlhWG_BRQk10GDAJwlo8,421
+convert_csv_to_json-0.1.dist-info/RECORD,,
+convert_csv_to_json-0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+convert_csv_to_json-0.1.dist-info/metadata.json,sha256=N1oC4ccX60JKhau5X987baPO2xqYG4nnVn_mSAntebc,565
+convert_csv_to_json-0.1.dist-info/top_level.txt,sha256=30g60eYZ01FHVDPplZOm9Cr_NUaOLNb8MewIHdM4Qg0,20
