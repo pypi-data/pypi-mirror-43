@@ -1,0 +1,10 @@
+README.md
+setup.py
+libpythonpro_barthjr/__init__.py
+libpythonpro_barthjr/github_api.py
+libpythonpro_barthjr.egg-info/PKG-INFO
+libpythonpro_barthjr.egg-info/SOURCES.txt
+libpythonpro_barthjr.egg-info/dependency_links.txt
+libpythonpro_barthjr.egg-info/not-zip-safe
+libpythonpro_barthjr.egg-info/requires.txt
+libpythonpro_barthjr.egg-info/top_level.txt
