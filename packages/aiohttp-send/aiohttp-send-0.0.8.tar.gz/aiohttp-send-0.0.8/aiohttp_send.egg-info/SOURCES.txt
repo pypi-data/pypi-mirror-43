@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aiohttp_send/__init__.py
+aiohttp_send/send.py
+aiohttp_send.egg-info/PKG-INFO
+aiohttp_send.egg-info/SOURCES.txt
+aiohttp_send.egg-info/dependency_links.txt
+aiohttp_send.egg-info/requires.txt
+aiohttp_send.egg-info/top_level.txt
