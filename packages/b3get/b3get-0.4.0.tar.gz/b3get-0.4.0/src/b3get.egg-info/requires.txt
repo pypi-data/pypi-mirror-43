@@ -1,0 +1,6 @@
+requests>=2.20.0
+beautifulsoup4>=4.7.1
+tifffile>=2019.3.8
+numpy>=1.11.3
+six>=1.11.0
+tqdm>=4.31.1
