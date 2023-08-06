@@ -1,0 +1,7 @@
+numpy
+pandas
+pytest
+scipy
+pytest-cov
+codecov
+numba
