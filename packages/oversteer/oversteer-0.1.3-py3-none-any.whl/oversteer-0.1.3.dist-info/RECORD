@@ -1,0 +1,16 @@
+oversteer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oversteer/__main__.py,sha256=4MlewmtWJa78O565EZVi80FhwSptPSDnTko2P9_Fpqc,1506
+oversteer/gtk_ui.py,sha256=5mVRhUyaoQ46j03tfSo20INvPdbYomxGEuTYDVwhCFY,6655
+oversteer/main.ui,sha256=FsHihjeW4x5FZ2dvZ1BOd3iOc91eW3cWM5PbRF05Noc,18466
+oversteer/wheels.py,sha256=ApnqeLT3vN-RoV1vmc08WwsJl-LV2x_h8TpZp4DCPNs,4531
+oversteer-0.1.3.data/data/share/applications/org.berarma.Oversteer.desktop,sha256=Ezw6XUbrLKBXum3IcCVLBOSjc56FuS_DTEaeEpMRWXY,296
+oversteer-0.1.3.data/data/share/icons/hicolor/scalable/apps/org.berarma.Oversteer.svg,sha256=77i8IkJ3n-s5xjAcidYiihDgs3aZV1xNMGkz1xgrVcE,20988
+oversteer-0.1.3.data/data/share/locale/es/LC_MESSAGES/oversteer.mo,sha256=Mo25VYGs0WjdW8ySt8eGk6i23631bZc24W_xVVhE0Cc,1611
+oversteer-0.1.3.data/data/share/locale/gl/LC_MESSAGES/oversteer.mo,sha256=Kb0VZQcKmDSx9mbsWLxOA_ZunUxcZsmXrpc3LQoQ32k,1380
+oversteer-0.1.3.data/data/share/metainfo/org.berarma.Oversteer.appdata.xml,sha256=wn9Ccz8tkieP2B6NzObvtsHNcSMv6-QDjFGv6x1RVCo,748
+oversteer-0.1.3.data/data/share/oversteer/99-logitech-wheel-perms.rules,sha256=Avk9amL5bfGckR7RMZpirbug0jFP9aoV5xNVlHQgO2g,1981
+oversteer-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+oversteer-0.1.3.dist-info/METADATA,sha256=XhYl60PIPOCBtMVszprnWPOgM6jAVJlaWe0K2ZK-8pI,2149
+oversteer-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+oversteer-0.1.3.dist-info/top_level.txt,sha256=JJd7HC8eQ4ueKJycjeQYr1vSbEtcnKsrL1ACGIfm_CQ,10
+oversteer-0.1.3.dist-info/RECORD,,
