@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fb-cli
+Version: 0.0.2
+Summary: Facebook Command Line Client
+Home-page: https://github.com/chin123/fbcli
+Author: Chinmaya Krishnan Mahesh
+Author-email: chinmaya.mahesh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: colorama
+
+# fbcli
+A command line client for facebook messenger
+
+# Installation
+`pip install fb-cli`
+
+# Usage
+Just run `fb-cli` from the command line. When in a group or direct chat, type `/b` to go back to the message list and `/q` to quit.
+
+# Features
+* Send and recieve text messages
+* Recieve images
+* Supports both groups and direct messages
+
+# Todo
+* Support viewing older messages and chats (Important)
+* Support sending images
+
+
