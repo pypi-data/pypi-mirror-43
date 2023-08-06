@@ -1,0 +1,15 @@
+parselcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parselcli/app.py,sha256=UjZ872-66BCvU_ItRyvWFW0bMhJZ9PhG_HabVf0xoZ8,316
+parselcli/cli.py,sha256=lVcSl-H9f4of3HBzWerv0scuV_h2s_GlCavu7QDAXmY,3096
+parselcli/completer.py,sha256=3Z4jtv6UFCVE3MbfX4e3NQ67ETlKqpEtFkeijPi8BpI,1586
+parselcli/config.py,sha256=sH9A9O3AjVcuWBP7eBsZvFH_DDq12QcUjyAePX4ceDc,1313
+parselcli/embed.py,sha256=QiZTqdXnlDLt4U-uWSZqJhOTyDDpE7jOaC8_3eyC1xk,1460
+parselcli/parse.py,sha256=yWaDqW_3Wf9e_Qd29NAFlnz5J4lCc-g318PGnhmSces,590
+parselcli/parsing.py,sha256=Qk33zN1nLeAYaDzc5ib4i3bmT9Q1DT3Bs-PJqKIumpk,1157
+parselcli/processors.py,sha256=dZWHHV3K8lJo2mJ-PJEID99rU1WT-qjjHwwD6nStj1Q,971
+parselcli/prompt.py,sha256=sW37tolfqyY1-hFLASNgM9NpkF141fsfeZMjojRDrF8,12693
+parselcli-0.3.0.dist-info/METADATA,sha256=BuWDIuBoxgOhLfeD3iAARnTPdI15d83Q8JDNZhbQRQU,7113
+parselcli-0.3.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+parselcli-0.3.0.dist-info/entry_points.txt,sha256=0nlH9HJWO75VKz-RaFFNs27uhxyVm1BbuD9rOUB_5CU,64
+parselcli-0.3.0.dist-info/top_level.txt,sha256=NhAz7LXTRMoQ-MturMgDBm3Ur0GGANpZFbqvHphQxvQ,10
+parselcli-0.3.0.dist-info/RECORD,,
