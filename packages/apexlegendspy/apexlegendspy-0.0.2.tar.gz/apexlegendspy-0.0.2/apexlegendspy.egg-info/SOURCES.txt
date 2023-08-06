@@ -1,0 +1,13 @@
+README.rst
+setup.py
+apexlegendspy.egg-info/PKG-INFO
+apexlegendspy.egg-info/SOURCES.txt
+apexlegendspy.egg-info/dependency_links.txt
+apexlegendspy.egg-info/requires.txt
+apexlegendspy.egg-info/top_level.txt
+apexpy/__init__.py
+apexpy/api.py
+apexpy/characters.py
+apexpy/exceptions.py
+apexpy/httprequest.py
+apexpy/utils.py
