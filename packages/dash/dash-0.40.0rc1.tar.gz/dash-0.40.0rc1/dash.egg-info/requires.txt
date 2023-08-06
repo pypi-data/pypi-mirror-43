@@ -1,0 +1,8 @@
+Flask>=0.12
+flask-compress
+plotly
+dash-component-system==0.0.1rc1
+dash_renderer==0.20.0
+dash-core-components==0.45.0rc1
+dash-html-components==0.15.0rc1
+dash-table==3.6.0
