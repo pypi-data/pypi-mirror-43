@@ -1,0 +1,9 @@
+opentype_sanitizer-7.1.9.dist-info/WHEEL,sha256=pHB5MkezzWsEoIlQq7xKBlqT5MtvtE126OWRgSw_dWo,139
+opentype_sanitizer-7.1.9.dist-info/top_level.txt,sha256=DeYKAWCIE3i6OTTn8yevz62YlI2OOvcL8AXW0BftPtA,4
+opentype_sanitizer-7.1.9.dist-info/LICENSE,sha256=DXTePDzTGWqe0bxhLP1fgddQnWbEvjSlD5nWG9GtANQ,1485
+opentype_sanitizer-7.1.9.dist-info/METADATA,sha256=76v7Oea7tBEce_X9EIK98PD5qfyl87cpnU3MNaSdZzY,1219
+opentype_sanitizer-7.1.9.dist-info/RECORD,,
+ots/__main__.py,sha256=th6qKQ2qXYcEIB0LMtceSULFQ-6NYtYZxdSr3bhVqVg,225
+ots/__init__.py,sha256=qTfZpof3jg7KCzXVZEbkPsda3PEk-1sFaHm6oickxCk,2719
+ots/_version.py,sha256=Qm4TZYQzQ93gRsdeuNpHEDJqL8Q83Q8iMnLb6yahszQ,116
+ots/ots-sanitize,sha256=KD8fiu00jNkj7NIqoSA2lX6xmkQ6OGzbOZO38sJizpQ,691736
