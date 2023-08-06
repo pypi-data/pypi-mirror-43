@@ -1,0 +1,12 @@
+#!python
+import sys
+
+import protegocli
+
+
+def main():
+    return protegocli.main()
+
+
+if __name__ == '__main__':
+    sys.exit(main())

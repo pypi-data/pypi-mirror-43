@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: protego-cli
+Version: 1.2.23
+Summary: Protego CLI wrapper
+Home-page: https://www.protego.io
+Author: Protego Labs
+Author-email: support@protego.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.9.60)
+Requires-Dist: requests (>=2.21.0)
+Requires-Dist: pyaml (>=18.11.0)
+
+
+## Installation:            
+
+```bash;
+$ pip install protego-cli
+```
+
+## Running the cli tool : 
+
+```bash
+usage: protego_fsp_layer.py [-h] -m {get,add,reset,remove} [-p PROTEGO_ACCOUNT_ID] [-t PROTEGO_ACCESS_TOKEN]
+                            [-a AWS_PROFILE] [-s FSP_VERSION] [-q] [-v] [-r RUNTIME] [-R REGION] [-o OUTPUT]
+                            [-f FUNCTION_ARN] [--version]
+
+Protego FSP Layers Info Add / Get / Remove
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -m {get,add,reset,remove}, --mode {get,add,reset,remove}
+                        Action Mode
+  -p PROTEGO_ACCOUNT_ID, --protego-account-id PROTEGO_ACCOUNT_ID
+                        Protego Account ID
+  -t PROTEGO_ACCESS_TOKEN, --protego-access-token PROTEGO_ACCESS_TOKEN
+                        Protego Token
+  -a AWS_PROFILE, --aws-profile AWS_PROFILE
+                        (Optional) AWS profile
+  -s FSP_VERSION, --fsp-version FSP_VERSION
+                        (Optional) FSP Version(default: latest)
+  -q, --quiet           (Optional) Quiet mode: output only the json output
+  -v, --verbose         (Optional) Verbose debug logs
+  -r RUNTIME, --runtime RUNTIME
+                        (Optional) Environment runtime[python2.7, python3.6, python3.7, nodejs6.10, nodejs8.10]
+  -R REGION, --region REGION
+                        (Optional) The region of which FSP layer
+  -o OUTPUT, --output OUTPUT
+                        (Optional) Output file name(default: protego_layers.json)
+  -f FUNCTION_ARN, --function-arn FUNCTION_ARN
+                        (Optional) Function Arn to add/remove/reset Fsp.
+  --version             Display the protegocli tool version
+
+```
+
+protego.yml file example:
+
+```
+    Account:
+      ProtegoAccountId: <YourProtegoAccountId>
+      ProtegoAccessToken: <YourProtegoAccessToken>
+
+
+```                        
+
+

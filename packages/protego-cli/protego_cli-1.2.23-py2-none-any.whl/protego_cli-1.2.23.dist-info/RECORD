@@ -1,0 +1,15 @@
+protego_cli-1.2.23.data/scripts/protegocli,sha256=El5s8BkX73dhHPZARQndnZpTtLd6rdZ__f7OsXeVPts,132
+protegocli/__init__.py,sha256=1F0HOf4trGOmLhWGPMQCiKcVX4rZk5dIlVQDTHJXSFA,69
+protegocli/arn.py,sha256=k1V6qn8CT82rO6fIzImt3VPEIumqUgGEXpSB3kO2o6o,1206
+protegocli/aws_helper.py,sha256=pAye7kb4Wa9IuTf4ap9hVegp1Gj1jGgd1saF01ojenc,7636
+protegocli/cli_logger.py,sha256=Fsms0VChVBwJx1oHytS2KSdaZP-dChk6jKPVsZuMYGs,1371
+protegocli/config_generator.py,sha256=pJz96tMLTdBzS1sCzEKqs28KHN_XD0j2QizvQQGaueY,1416
+protegocli/fsp_downloader.py,sha256=_GPaWKci1u7fDirwu38tZ7hZpgaCuaaVCDo-EBgSWN0,2429
+protegocli/manifest_reader.py,sha256=3nQ75N-TbpEr2vPGy8_uCY0FWs90zWi0t_ffHKj1FFE,1141
+protegocli/protego_config.py,sha256=W1vp719mGKq3D1jBd87OGsBRXawQRxbWzt8cJzqDTv8,3411
+protegocli/protego_fsp_layer.py,sha256=_J2amE8c1ObwqAzOx453tWrdL-KFg6U85ijEFULn5PI,6224
+protego_cli-1.2.23.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+protego_cli-1.2.23.dist-info/METADATA,sha256=Cfgr2YFT2RI9eXxRUL_jz1lguMr4H8vrMMlUOwxQTlY,2398
+protego_cli-1.2.23.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+protego_cli-1.2.23.dist-info/top_level.txt,sha256=Yw5z2ttAgFf6NS3vhyCnJl0u8gP1T_NlLMB4BVDqitc,11
+protego_cli-1.2.23.dist-info/RECORD,,
