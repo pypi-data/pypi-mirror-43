@@ -1,0 +1,10 @@
+README.md
+setup.py
+cdbw/__init__.py
+cdbw/cdbw.py
+cdbw.egg-info/PKG-INFO
+cdbw.egg-info/SOURCES.txt
+cdbw.egg-info/dependency_links.txt
+cdbw.egg-info/requires.txt
+cdbw.egg-info/top_level.txt
+test/test.py
