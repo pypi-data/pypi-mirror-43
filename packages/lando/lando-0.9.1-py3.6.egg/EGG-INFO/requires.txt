@@ -1,0 +1,10 @@
+shade==1.29.0
+cwlref-runner==1.0
+DukeDSClient==1.0.3
+humanfriendly==2.4
+Jinja2==2.9.5
+lando-messaging==0.7.3
+Markdown==2.6.9
+python-dateutil==2.6.0
+PyYAML<4,>3
+requests==2.18.1
