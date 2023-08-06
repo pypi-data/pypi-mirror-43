@@ -1,0 +1,10 @@
+README.md
+setup.py
+openapi2jsonschema/__init__.py
+openapi2jsonschema/command.py
+openapi2jsonschema_ufonion.egg-info/PKG-INFO
+openapi2jsonschema_ufonion.egg-info/SOURCES.txt
+openapi2jsonschema_ufonion.egg-info/dependency_links.txt
+openapi2jsonschema_ufonion.egg-info/entry_points.txt
+openapi2jsonschema_ufonion.egg-info/requires.txt
+openapi2jsonschema_ufonion.egg-info/top_level.txt

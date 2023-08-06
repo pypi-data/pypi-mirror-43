@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: openapi2jsonschema-ufonion
+Version: 0.9.1
+Summary: A utility to extract JSON Schema from a valid OpenAPI specification.
+Home-page: https://github.com/garethr/openapi2jsonschema/
+Author: ufonion
+Author-email: mayongcong@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: openapi,jsonschema
+Platform: UNKNOWN
