@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-19 15:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pretix_qpaypro/__init__.py:10
+msgid "QPayPro payment integration for pretix"
+msgstr ""
+
+#: pretix_qpaypro/__init__.py:12
+msgid "Integration for the QPayPro payment provider."
+msgstr ""
+
+#: pretix_qpaypro/formfields/custom_validators.py:93
+msgid "The credit card number is invalid"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:15
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:9
+msgid "Card Type"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:25
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:13
+msgid "Credit Card Number"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:33
+msgid "Expiration Month"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:40
+msgid "Expiration Year"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:44
+#, python-brace-format
+msgid "The full year should be provided, for example {0}."
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:48
+msgid "CVV2"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:52
+msgid "3 or 4 digits code usually found in the back of the card."
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:56
+msgid "Cardholder's First Name"
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:59
+#: pretix_qpaypro/formfields/payment.py:66
+msgid "Exactly as appears in the card."
+msgstr ""
+
+#: pretix_qpaypro/formfields/payment.py:63
+msgid "Cardholder's Last Name"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:11
+msgid "QPayPro: Login"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:13
+#: pretix_qpaypro/formfields/settings.py:58
+#, python-brace-format
+msgid ""
+"{text1} <a target=\"_blank\" rel=\"noopener\" href=\"{docs_url}\">{text2}</a>"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:14
+msgid "Also referred to as \"Public Key\"."
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:15
+msgid "Click here to access the API information."
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:23
+msgid "QPayPro: Private Key"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:27
+msgid "Also referred to as \"API Key\"."
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:33
+msgid "QPayPro: API Secret"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:42
+msgid "QPayPro: Endpoint"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:54
+msgid "QPayPro: Org ID"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:59
+msgid "Required to generate client device fingerprint."
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:60
+msgid "Click here to access the associated documentation."
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:68
+msgid "QPayPro: Default Country"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:75
+msgid "QPayPro: Default State"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:82
+msgid "QPayPro: Default City"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:89
+msgid "QPayPro: Default Zip Code"
+msgstr ""
+
+#: pretix_qpaypro/formfields/settings.py:96
+msgid "QPayPro: Default Address"
+msgstr ""
+
+#: pretix_qpaypro/payment.py:33
+msgid "QPayPro"
+msgstr ""
+
+#: pretix_qpaypro/payment.py:64 pretix_qpaypro/payment.py:463
+msgid "Credit card"
+msgstr ""
+
+#: pretix_qpaypro/payment.py:69 pretix_qpaypro/payment.py:469
+msgid "Visa en cuotas"
+msgstr ""
+
+#: pretix_qpaypro/payment.py:430
+msgid ""
+"We had trouble communicating with QPayPro. Please try again and get in touch "
+"with us if this problem persists."
+msgstr ""
+
+#: pretix_qpaypro/payment.py:462
+msgid "Credit card via QPayPro"
+msgstr ""
+
+#: pretix_qpaypro/payment.py:468
+msgid "Visa en cuotas via QPayPro"
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:5
+msgid "Payment Method"
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:17
+msgid "Expiration"
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:21
+msgid "Cardholder\\'s Name"
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_form.html:7
+msgid ""
+"After you click  <strong>Continue</strong> you'll be redirected to another "
+"page which will generate a <strong>device fingerprint</strong>, this is a "
+"fraud analysis tool that help us to confirm you're a valid customer. This "
+"should take no more than 10 seconds, then you'll be redirected to the "
+"confirmation page."
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:30
+msgid "Device Fingerprint"
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:32
+msgid ""
+"We're generating a device fingerprint, this is a fraud analysis tool that "
+"help us to confirm you're a valid customer."
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:33
+msgid "This page should be automatically closed after 10 seconds."
+msgstr ""
+
+#: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:34
+msgid "If not, click here"
+msgstr ""
