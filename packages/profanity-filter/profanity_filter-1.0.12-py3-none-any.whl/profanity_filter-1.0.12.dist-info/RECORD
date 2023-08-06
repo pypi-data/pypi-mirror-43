@@ -1,0 +1,8 @@
+profanity_filter/__init__.py,sha256=qxzbht-xpoVvE9o4XGOmVeBQvaDA_UOEOsQUFYAiseA,219
+profanity_filter/console.py,sha256=2MY00bxkmKlEH105oo5QXxEvgpg_89muRYJ4Yh50d7w,1638
+profanity_filter/data/en_profane_words.txt,sha256=wOXVzC7ragmcw5jTKg15woch2d5dfkH7gT-AtKz4FW4,2644
+profanity_filter/data/ru_profane_words.txt,sha256=bZTwHBgUYJ5ZDeEPzB1kOngOQYg4iHUA6GQVvYDNTqI,92505
+profanity_filter/profanity_filter.py,sha256=lN6BH3mIPUoR8yJcBneQ02G5qu6n_Rd6kE7QtN6yPbQ,33802
+profanity_filter-1.0.12.dist-info/WHEEL,sha256=Ir3P3HpskbMc0O4y1Rn-tj32GmUn0tT1b1aFHWCDsKo,84
+profanity_filter-1.0.12.dist-info/METADATA,sha256=HwelSeHN048e3vZTxVavJKtojLmsld1lXTvzx5Mc6ro,8007
+profanity_filter-1.0.12.dist-info/RECORD,,
