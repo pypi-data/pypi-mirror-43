@@ -1,0 +1,7 @@
+recursive-include pyad/ *
+
+include *.md pyad/*.py LICENSE
+include pyad/*.pxd
+include pyad/*.pyx
+prune build
+prune dist 
