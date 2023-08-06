@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyepicollect/__init__.py
+pyepicollect/api.py
+pyepicollect/auth.py
+pyepicollect.egg-info/PKG-INFO
+pyepicollect.egg-info/SOURCES.txt
+pyepicollect.egg-info/dependency_links.txt
+pyepicollect.egg-info/requires.txt
+pyepicollect.egg-info/top_level.txt
+tests/__init__.py
+tests/test_auth.py
