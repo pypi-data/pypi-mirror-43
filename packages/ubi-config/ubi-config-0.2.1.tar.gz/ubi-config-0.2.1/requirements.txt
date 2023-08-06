@@ -1,0 +1,8 @@
+six
+requests
+jsonschema==2.5.1
+# Old Python needs old PyYAML
+PyYAML<3.12; python_version<'3'
+# New Python can use newest PyYAML
+PyYAML; python_version>='3'
+ordereddict; python_version<'2.7'
