@@ -1,0 +1,10 @@
+bot_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot_adapter/apps.py,sha256=CoDIZRo8c95WajHIcTsRphmGueCDOvL6x2fGKmP4gms,377
+bot_adapter/bot.py,sha256=FElinvGTVtlDxQ9lbK5tc6X7pc-5gxWJjjB0YmaZCFA,767
+bot_adapter/urls.py,sha256=-UXhLZJQIj5QGRPrc8ANan7TKs7NawseRc18Xs6RTTg,124
+bot_adapter/views.py,sha256=ZoP-NimTUAE3bxz5vRTW7EaoO0kKiJvf3-PcGcpYsY0,377
+django_python_telegram_bot_adapter-0.1.1.dist-info/LICENSE,sha256=IhseMtRMGqZmGg0vGdBVSJBUQPBHlTNeCSG3B_nbSUY,1064
+django_python_telegram_bot_adapter-0.1.1.dist-info/METADATA,sha256=-QFYhQ33tIXdhqR8-_tHOTctFRHK3OEkX6VztDqNGgA,1443
+django_python_telegram_bot_adapter-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_python_telegram_bot_adapter-0.1.1.dist-info/top_level.txt,sha256=IrQnoFc2zIUuX1OQH1gNlmUvD_vclnpi_YkAn0eYw78,12
+django_python_telegram_bot_adapter-0.1.1.dist-info/RECORD,,
