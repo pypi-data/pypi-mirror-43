@@ -1,0 +1,111 @@
+Metadata-Version: 1.1
+Name: keefind
+Version: 0.1.0
+Summary: Utility to easy find in keepass database
+Home-page: UNKNOWN
+Author: Stanislaw Bogatkin
+Author-email: sbog@sbog.ru
+License: UNKNOWN
+Description: # Keefind
+        
+        ## What it is
+        
+        Keefind is a simple utility to search in keepass database. I wrote it to be
+        able to easy search for password and copy it to clipboard.
+        
+        ## Installation
+        
+        Just install latest version from PyPi:
+        
+        ```
+        > pip install keefind
+        ```
+        
+        ## Usage
+        
+        To use keefind you need to export couple environment variables:
+        
+        ```
+        > export KP_DATABASE=/path/to/keepass/database
+        > export KP_PASSWORD_FILE=/path/to/file/with/password/to/database
+        ```
+        
+        Latter variable is a path to file which has to have one line with password
+        to according keepass database.
+        
+        After that you can just start to use keefind.
+        
+        ## Examples
+        
+        If you need just get a password and more or less remember the structure of
+        your database, you can search for exact variable. Let's say you have group
+        named 'Personal' which consist of groups 'Sites' and 'Banking'. Group 'Sites'
+        has entry named 'github.com' in it with user 'xxx' and password 'yyy'. To get
+        the password you can call any of next commands
+        
+        ```
+        > kf pers gith
+        yyy
+        
+        > kf sit xxx
+        yyy
+        
+        > kf pers sit github.com xxx
+        yyy
+        
+        > kf pers yy
+        yyy
+        
+        > kf xxx
+        yyy
+        ```
+        
+        So basically under the hood keefind will get all arguments you passed to
+        it and will try to find an entry which has all of these arguments in path,
+        name, site, username or password fields. So in case you pass 'xxx' as an
+        argument, it will show you all found results which have 'xxx' in them. If
+        you will pass 'xxx zzz', it will show you all found results which have
+        **both** xxx **and*** zzz in them.
+        
+        There is just one available option you can use - '-v' to get more verbose
+        output. Here is how to use it:
+        
+        ```
+        > kf -v xxx
+        Personal/Sites - github.com
+        yyy
+        
+        > kf -v xxx | xsel -b -i
+        Personal/Sites - github.com
+        
+        > # Now your password for github is copied to clipboard. That's the trick,
+        > # cause in case of single '-v' option passwords copied to stdout but all
+        > # other info - to stderr, which allows you to pipe output with password(s)
+        
+        > kf -vv xxx
+        {'group': 'Personal/Sites',
+         'password': 'yyy',
+         'username': 'xxx'}
+        
+        > kf -vvv xxx
+        {'group': 'Personal/Sites',
+         'password': 'yyy',
+         'title': 'github.com',
+         'url': None,
+         'username': 'xxx'}
+         ```
+        
+        That's mostly it, nothing more. Improvements and bugfixes are welcomed.
+        
+        ## Author
+        
+        Stanislaw Bogatkin (https://sbog.ru).
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
