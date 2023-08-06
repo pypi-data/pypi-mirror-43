@@ -1,0 +1,3 @@
+[console_scripts]
+toil_say = toil_say.cli:main
+
