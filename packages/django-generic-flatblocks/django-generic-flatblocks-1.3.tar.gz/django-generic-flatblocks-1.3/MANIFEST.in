@@ -1,0 +1,10 @@
+include *.py
+include *.rst
+include LICENSE
+include tox.ini
+recursive-include django_generic_flatblocks *.html
+recursive-include django_generic_flatblocks *.po
+recursive-include django_generic_flatblocks *.py
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
