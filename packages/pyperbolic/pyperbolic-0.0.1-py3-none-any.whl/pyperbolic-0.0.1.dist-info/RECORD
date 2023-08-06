@@ -1,0 +1,12 @@
+pyperbolic/__init__.py,sha256=gmFnFXqbLNq6Vr5Ufepl_l8oz8Cc8Hf_b5dV-Rtas-k,203
+pyperbolic/metric.py,sha256=JDcaL2h-22agMtcVvHMI5Md4pB3N_KsRky5ELaNULyU,131
+pyperbolic/point.py,sha256=TL5sWvZkk2SduDDISGQCLvqeYFyUUquR7GX81bHdNYY,3292
+pyperbolic/util.py,sha256=4OxX-8FHpHpNeoSh2VARbp6q_KbA9ol3jH5BjeYZ77Q,159
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_point.py,sha256=X9SYPg1b6wlHUZOhmTHyTKJwp7k2IY-kJSGauYBGCoc,873
+tests/test_util.py,sha256=n3AODZcPPyP7KOYn7vjnYyBoEWzWl9efgqo3Q4ZHjEk,257
+pyperbolic-0.0.1.dist-info/LICENSE,sha256=oTdNssQkkkMIGejDtRPwvoSTAuQjkwZB0hzCLbuuvgY,1069
+pyperbolic-0.0.1.dist-info/METADATA,sha256=T4ml0FAblJGtXwL4jFkvUjGgev06QOUTTJR5o3dX8Sg,759
+pyperbolic-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pyperbolic-0.0.1.dist-info/top_level.txt,sha256=97hkGiL-Cuy8Ul8Y3hq155musGQ10MukPTFE2UJhslw,17
+pyperbolic-0.0.1.dist-info/RECORD,,
