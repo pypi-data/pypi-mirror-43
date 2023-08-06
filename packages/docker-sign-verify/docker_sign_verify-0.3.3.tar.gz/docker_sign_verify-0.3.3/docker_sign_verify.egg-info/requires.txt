@@ -1,0 +1,12 @@
+canonicaljson
+click
+gnupg
+pycryptodome
+requests
+
+[dev]
+black
+pylint
+twine
+pytest
+wheel
