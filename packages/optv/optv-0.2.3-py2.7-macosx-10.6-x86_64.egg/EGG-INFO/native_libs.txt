@@ -1,0 +1,11 @@
+optv/calibration.so
+optv/correspondences.so
+optv/epipolar.so
+optv/image_processing.so
+optv/imgcoord.so
+optv/orientation.so
+optv/parameters.so
+optv/segmentation.so
+optv/tracker.so
+optv/tracking_framebuf.so
+optv/transforms.so
