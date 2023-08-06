@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: dametowel
+Version: 0.1.1
+Summary: Useful towel-related stuff.
+Home-page: http://pypi.python.org/pypi/dametowel/
+Author: John M. Gabriele
+Author-email: jmg3000@gmail.com
+License: LICENSE.txt
+Description: ===========
+        Towel Stuff
+        ===========
+        
+        That's a silly package to learn to make python commands
+        
+Platform: UNKNOWN
