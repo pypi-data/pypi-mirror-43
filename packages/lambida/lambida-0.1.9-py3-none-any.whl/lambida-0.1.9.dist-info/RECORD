@@ -1,0 +1,10 @@
+lambida/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lambida/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lambida/utils/lambda_log.py,sha256=jt4ho_uivnx9MfN-liHV1Q-IppaogrNvPg8Ig8ln3mg,1013
+lambida/utils/s3_upload_client.py,sha256=FPZKwVE9tMgXtaXWwrh97bap50Mcsphd6hsSFR8krPU,2568
+lambida-0.1.9.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+lambida-0.1.9.dist-info/METADATA,sha256=nN01hCKb1meHKzExY36IsJT6KBJPBJEsFUmk3kI_0OI,655
+lambida-0.1.9.dist-info/RECORD,,
+lambida-0.1.9.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+lambida-0.1.9.dist-info/metadata.json,sha256=HqJgR5azc7IT2ha-22uyQtiw1hdFMgBYbyS9k6jQNY0,719
+lambida-0.1.9.dist-info/top_level.txt,sha256=LviRYjCMBxzd-68TOmefJ500yuJyVcWIMY6_wlRyMw4,8
