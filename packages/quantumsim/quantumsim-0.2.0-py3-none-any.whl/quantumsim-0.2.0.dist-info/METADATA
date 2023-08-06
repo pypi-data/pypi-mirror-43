@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quantumsim
+Version: 0.2.0
+Summary: Simulation of quantum circuits under somewhat realistic condititons
+Home-page: https://quantumsim.gitlab.io/
+Author: Brian Tarasinski
+Author-email: brianzi@physik.fu-berlin.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pytools
+Requires-Dist: numpy (>=1.12)
+Requires-Dist: matplotlib
+Requires-Dist: parsimonious
+Provides-Extra: cuda
+Requires-Dist: pycuda ; extra == 'cuda'
+
+UNKNOWN
+
+
