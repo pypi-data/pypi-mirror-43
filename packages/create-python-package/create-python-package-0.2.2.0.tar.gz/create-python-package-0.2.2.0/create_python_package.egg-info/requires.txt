@@ -1,0 +1,10 @@
+jinja2<2.20,>2.0
+
+[:platform_system != "Windows"]
+bullet<3.0.0,>=2.0
+
+[dev]
+black
+flake8
+mypy
+pipenv
