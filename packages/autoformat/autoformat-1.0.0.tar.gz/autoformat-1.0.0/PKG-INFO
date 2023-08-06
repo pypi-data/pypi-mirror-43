@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: autoformat
+Version: 1.0.0
+Summary: Automatic, range-aware formatting of time-axis labels for timeseries data using matplotlib.
+Home-page: https://github.com/danielhogg/autoformat
+Author: Daniel Hogg
+Author-email: danielhogg@protonmail.com
+License: UNKNOWN
+Description: # autoformat
+        Automatic, range-aware formatting of time-axis labels for timeseries data using matplotlib.
+        
+        This package is supported for Python 3 only. This project works for time ranges on the order of milliseconds or millenia, and produces a decent-looking result with a few lines:
+        
+        ```python
+        from autoformat import autoformat
+        
+        autoformat.scale(start_date, end_date)
+        # your matplotlib plotting code here
+        
+        ```
+        
+        ## Installation
+        
+        ```
+        pip install autoformat 
+        ```
+        
+        Project [github link](https://github.com/danielhogg/autoformat)
+        
+        
+Keywords: matplotlib timeseries datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown

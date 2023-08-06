@@ -1,0 +1,9 @@
+README.md
+setup.py
+autoformat/__init__.py
+autoformat/autoformat.py
+autoformat.egg-info/PKG-INFO
+autoformat.egg-info/SOURCES.txt
+autoformat.egg-info/dependency_links.txt
+autoformat.egg-info/requires.txt
+autoformat.egg-info/top_level.txt
