@@ -1,0 +1,9 @@
+cookiecutter_project_upgrader/__init__.py,sha256=N8tYPkQd2RAuJRU60LMdDue3iSEdqPqKLlewqi2jsDs,82
+cookiecutter_project_upgrader/cli.py,sha256=lwnLVTskqvn5cMHTBKsXSvnUVu_RQ1hLMCaR-QEBK-M,1029
+cookiecutter_project_upgrader/logic.py,sha256=upJnJK9VXRRg8uUUAJkZLT2Zcr_lThwAkcL2Mrst20w,4612
+cookiecutter_project_upgrader-1.0.0.dist-info/LICENSE,sha256=-CNWaCS2aM3bOEXoFKhowaP2KJ6cSzCZptlhMjCTZJQ,1064
+cookiecutter_project_upgrader-1.0.0.dist-info/METADATA,sha256=lBcixI8rW799yvaAnEbAy3YDl0h_-OFQW_VVOC89K0s,4299
+cookiecutter_project_upgrader-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+cookiecutter_project_upgrader-1.0.0.dist-info/entry_points.txt,sha256=S9_vMC5VQpF1MgonVezkhEDjepOJIO5iK68Yrma05Bg,90
+cookiecutter_project_upgrader-1.0.0.dist-info/top_level.txt,sha256=7cR6G8aUd09DOKjsNDQ62NYHF1pS0VnKIbQ9b_JIENo,30
+cookiecutter_project_upgrader-1.0.0.dist-info/RECORD,,
