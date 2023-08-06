@@ -1,0 +1,15 @@
+junto_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junto_utils/numbers.py,sha256=He3aUURjwf_29AxKDKkkgqijnfGdZ5oZwByANUeJhtk,166
+junto_utils/tests.py,sha256=qupMVE-kyhxHnkKKugI-IKPe2zB2B12sNkIeqs6bze0,688
+junto_utils/restframework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junto_utils/restframework/authentication.py,sha256=6wGYnV52VB032FMnO0N5xWlGiWsRs_cLvwUfGRApuuQ,1999
+junto_utils/restframework/exceptions.py,sha256=tA78mUFg5M9bMbkimHTto1Cd-v2J6hqsN3trGtHi90s,1169
+junto_utils/restframework/pagination.py,sha256=0kyxeHcgcNjkcO3oY3aHKyqx3-NnjleN0aTrcNNeC6w,192
+junto_utils/restframework/permissions.py,sha256=BSYIKlsG7D1hqjatH_pWPWVGo69BKQ8a1aRYLiwXuqA,662
+junto_utils/restframework/serializers.py,sha256=okmACTRQTg6apbhF_G95BGwx8CuUgtmNSNB2qMPA8vs,1435
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junto_utils-0.0.2.dist-info/LICENSE,sha256=WI5JtXXhjcqnIcPllDA1ZtuxNnZ515xjElcILo7z28o,1073
+junto_utils-0.0.2.dist-info/METADATA,sha256=3NoSliygl6xUcWPV84lZm2rvYb1S-0nC6tNalRKcaak,441
+junto_utils-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+junto_utils-0.0.2.dist-info/top_level.txt,sha256=hlOemVaecK0cCsXshxl6PWNIJmrDWGKnw0MoPHZhVNI,12
+junto_utils-0.0.2.dist-info/RECORD,,
