@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Lugger-Framework
+Version: 0.0.1
+Summary: Faster, small and easy web framework
+Home-page: UNKNOWN
+Author: Oleksandr Popov
+Author-email: oleksandr.popov@outlook.com
+License: UNKNOWN
+Description: ================
+        Lugger Framework
+        ================
+        
+        Faster, small and easy web framework
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type:  text/x-rst
