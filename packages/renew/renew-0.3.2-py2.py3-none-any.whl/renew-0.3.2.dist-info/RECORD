@@ -1,0 +1,12 @@
+renew/__init__.py,sha256=6qTsFd2YQ3J9Gw4bgWZPWLsN0L4uAY9nMQzJRJDHtkQ,4385
+renew/_inspection.py,sha256=SwfYaEVzcd-RAOk7p8qUjTsBXFDNtLb9uFZHNvLcMk0,5347
+renew/_py_lang.py,sha256=j-LkX7QJIHRAfNA9y9uTcFUPckTLDOapVK9UWcx6dqs,5468
+renew/_renderer.py,sha256=MBzkZnBeWQUYYyjjUNLIox9aVecGPX_PmPDq3PY0w3s,2373
+renew/renew.py,sha256=qp2QFRzy8-AyqxJBOj0VjJr51qe21OFa6XNPAi4FVxE,9941
+renew/test_renew.py,sha256=tIOJPGbtNzePDhm07PVgdpnMeicgQ22LqUVGuIN54AQ,11482
+renew-0.3.2.dist-info/DESCRIPTION.rst,sha256=rMyZcStGs9JnpCk82cuWLRppOL9LGHEc7u-QB2s687k,6593
+renew-0.3.2.dist-info/METADATA,sha256=Ior_pflaY1xCzcQ5NGrMUACN-UYD8mxij2nIB-8CvuE,7813
+renew-0.3.2.dist-info/RECORD,,
+renew-0.3.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+renew-0.3.2.dist-info/metadata.json,sha256=FII4ZtAGxmeo15Ss803kPDM19x5saFKRvg6kuXt9qJM,1359
+renew-0.3.2.dist-info/top_level.txt,sha256=SirhzQD-E8Fq8UKZ7wj4rt0HIoMnI6Hh9oPrEwiVCw0,6
