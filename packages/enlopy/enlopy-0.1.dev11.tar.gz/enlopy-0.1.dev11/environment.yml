@@ -1,0 +1,10 @@
+name: enlopy
+dependencies:
+  - python=3.6
+  - numpy>=1.10
+  - scipy>=1.0
+  - matplotlib>=2.0
+  - pandas>=0.20
+  - pytest
+  - pytest-cov
+  - coverage
