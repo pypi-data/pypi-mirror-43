@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: path2vec
+Version: 0.0.1
+Summary: An OpenSource Python package for path embedding based on the path2vec algorithm.
+Home-page: https://github.com/gotec/path2vec
+Author: Christoph Gote
+Author-email: cgote@ethz.ch
+License: AGPL-3.0+
+Keywords: embedding vector path networks network analysis link prediction clustering node labeling multi order higher order
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# path2vec
+
+`path2vec` is an Open Source Python package for path embedding based on the path2vec algorithm.
+
+## What are Co-editing networks
+
+*TK*
+
+## Download and installation
+
+*TK*
+
+## How to cite git2net
+
+*TK*
+
+## License
+
+This software is licensed under the GNU Affero General Public License v3 (AGPL-3.0).
+
+
