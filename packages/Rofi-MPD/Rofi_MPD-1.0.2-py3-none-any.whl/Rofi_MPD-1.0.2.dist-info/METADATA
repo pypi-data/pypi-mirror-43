@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Rofi-MPD
+Version: 1.0.2
+Summary: A Rofi menu for interacting with MPD.
+Home-page: https://github.com/JakeStanger/Rofi_MPD
+Author: Jake Stanger
+Author-email: jakestanger@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-mpd2
+
+UNKNOWN
+
+

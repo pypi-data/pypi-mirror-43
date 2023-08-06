@@ -1,0 +1,3 @@
+#!python
+import rofi-mpd
+rofi-mpd.run()
