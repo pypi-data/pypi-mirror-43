@@ -1,0 +1,12 @@
+__init__.py,sha256=h8SVl3yLMrvTeX9cAuwib_RPEE5s8sY-vTNnYI9qBLU,354
+mortise.py,sha256=5qa1rYPpumvGqBRUbCcWQAbj3s7fMQZn74gCZeooUHk,19877
+testing.py,sha256=K8EYNbJ2AjIT28ahObjmeJFKYgAC8SKNMwzGBNfjyto,2395
+testing_mortise.py,sha256=RROL6SPE51mUAu9ngzyS-HmRuRApOZW442WhpCiQLu0,1783
+mortise/__init__.py,sha256=h8SVl3yLMrvTeX9cAuwib_RPEE5s8sY-vTNnYI9qBLU,354
+mortise/mortise.py,sha256=hdFQfSMg1_R6CFEU8xX47k9LhKBHZ-mRXEZi0Sz62Fc,21487
+mortise/testing.py,sha256=IhvIdZiqYWIAVN5VgxASZNX4XKGUQepVXMi5ayZYWPk,2596
+mortise-1.0.4.dist-info/LICENSE,sha256=5i_Ag1RER5xcFr828IoRUcDofGapMbuxS-73xkPNqZU,1062
+mortise-1.0.4.dist-info/METADATA,sha256=okYTjNhLVsLyj748iDM5UE-5bm6_MiEJvcnEcZcUhXA,1347
+mortise-1.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mortise-1.0.4.dist-info/top_level.txt,sha256=EhiYB8S-ILK5UCsfcSmh9RAN1j7S_s_LuINsbID_rmM,8
+mortise-1.0.4.dist-info/RECORD,,
