@@ -1,0 +1,7 @@
+
+[development]
+sphinx
+sphinx_rtd_theme
+
+[testing]
+python-coveralls
