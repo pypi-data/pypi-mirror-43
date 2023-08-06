@@ -1,0 +1,8 @@
+README.md
+setup.py
+durtodateandtime/__init__.py
+durtodateandtime/durtodateandtime.py
+durtodateandtime.egg-info/PKG-INFO
+durtodateandtime.egg-info/SOURCES.txt
+durtodateandtime.egg-info/dependency_links.txt
+durtodateandtime.egg-info/top_level.txt

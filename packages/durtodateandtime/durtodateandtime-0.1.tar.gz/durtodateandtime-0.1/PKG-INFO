@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: durtodateandtime
+Version: 0.1
+Summary: Convert duration to an understandable human representation.
+Home-page: https://github.com/carlosplanchon/durtodateandtime
+Author: Carlos A. Planchón
+Author-email: bubbledoloresuruguay2@gmail.com
+License: GPL3
+Download-URL: https://github.com/carlosplanchon/durtodateandtime/archive/v0.1.tar.gz
+Description: # durtodateandtime
+        *Python3 Module to convert from duration to date and time.*
+        
+        ## Installation
+        ### Install with pip
+        ```
+        pip3 install -U durtodateandtime
+        ```
+        
+        ## Usage
+        ```
+        In [1]: import durtodateandtime                                                                                       
+        
+        In [2]: durtodateandtime.duration_to_date_and_time(86401)                                                             
+        Out[2]: '1 day, 00:00:01'
+        
+        In [3]: durtodateandtime.duration_to_int_days(86401)                                                                  
+        Out[3]: 1
+        
+        In [4]: durtodateandtime.duration_to_time(86401)                                                                      
+        Out[4]: '00:00:01'
+        ```
+        
+Keywords: duration,time
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
