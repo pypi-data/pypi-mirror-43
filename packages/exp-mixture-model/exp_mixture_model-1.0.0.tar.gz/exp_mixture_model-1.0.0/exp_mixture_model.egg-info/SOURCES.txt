@@ -1,0 +1,10 @@
+README.md
+setup.py
+exp_mixture_model/EMM.py
+exp_mixture_model/__init__.py
+exp_mixture_model/__version__.py
+exp_mixture_model.egg-info/PKG-INFO
+exp_mixture_model.egg-info/SOURCES.txt
+exp_mixture_model.egg-info/dependency_links.txt
+exp_mixture_model.egg-info/requires.txt
+exp_mixture_model.egg-info/top_level.txt
