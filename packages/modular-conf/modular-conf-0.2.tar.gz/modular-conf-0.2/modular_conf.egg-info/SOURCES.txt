@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+modular_conf/__init__.py
+modular_conf/fields.py
+modular_conf.egg-info/PKG-INFO
+modular_conf.egg-info/SOURCES.txt
+modular_conf.egg-info/dependency_links.txt
+modular_conf.egg-info/top_level.txt
+modular_conf/tests/__init__.py
