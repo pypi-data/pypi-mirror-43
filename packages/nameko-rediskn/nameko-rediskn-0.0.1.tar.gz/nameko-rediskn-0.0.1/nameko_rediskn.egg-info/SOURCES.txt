@@ -1,0 +1,12 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+nameko_rediskn.egg-info/PKG-INFO
+nameko_rediskn.egg-info/SOURCES.txt
+nameko_rediskn.egg-info/dependency_links.txt
+nameko_rediskn.egg-info/requires.txt
+nameko_rediskn.egg-info/top_level.txt
+nameko_rediskn.egg-info/zip-safe
+test/test_rediskn.py

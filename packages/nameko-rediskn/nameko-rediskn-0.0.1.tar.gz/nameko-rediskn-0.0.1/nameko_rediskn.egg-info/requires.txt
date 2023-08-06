@@ -1,0 +1,9 @@
+redis>=2.10.5
+nameko>=2.11,<3
+
+[dev]
+pytest>=4.3.0
+flake8
+coverage
+restructuredtext-lint
+Pygments
