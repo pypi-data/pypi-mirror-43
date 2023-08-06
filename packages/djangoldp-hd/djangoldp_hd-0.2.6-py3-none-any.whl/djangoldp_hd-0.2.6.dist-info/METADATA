@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: djangoldp-hd
+Version: 0.2.6
+Summary: djangoldp package for happy dev app
+Home-page: http://git.happy-dev.fr/startinblox/djangoldp_hd
+Author: Startin'blox
+Author-email: jblemee@happy-dev.fr
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: djangoldp-profile (~=0.0)
+Requires-Dist: djangoldp-project (~=0.0)
+Requires-Dist: djangoldp-circle (~=0.0)
+Requires-Dist: djangoldp-joboffer (~=0.0)
+Requires-Dist: djangoldp-notification (~=0.0)
+
+UNKNOWN
+
+
