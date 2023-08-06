@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+zxinglight/__init__.py
+zxinglight/_zxinglight.cpp
+zxinglight.egg-info/PKG-INFO
+zxinglight.egg-info/SOURCES.txt
+zxinglight.egg-info/dependency_links.txt
+zxinglight.egg-info/not-zip-safe
+zxinglight.egg-info/requires.txt
+zxinglight.egg-info/top_level.txt

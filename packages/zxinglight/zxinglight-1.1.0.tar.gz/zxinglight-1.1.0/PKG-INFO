@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: zxinglight
+Version: 1.1.0
+Summary: A simple ZXing C++ wrapper
+Home-page: https://github.com/lubo/zxinglight
+Author: Ľubomír Kučera
+Author-email: lubomir.kucera.jr@gmail.com
+License: MIT
+Description: ZXingLight
+        ==========
+        
+        |build-status| |docs-status| |pypi-package|
+        
+        A simple wrapper for `ZXing C++`_ inspired by zbarlight_.
+        
+        Documentation is available on <https://zxinglight.readthedocs.io/en/latest/>.
+        
+        .. _ZXing C++: https://github.com/glassechidna/zxing-cpp
+        .. _zbarlight: https://github.com/Polyconseil/zbarlight
+        
+        
+        .. |build-status| image:: https://travis-ci.org/lubo/zxinglight.svg?branch=master
+            :alt: Build status
+            :target: https://travis-ci.org/lubo/zxinglight
+        .. |docs-status| image:: https://readthedocs.org/projects/zxinglight/badge/?version=latest
+            :alt: Documentation status
+            :target: https://zxinglight.readthedocs.io/en/latest/
+        .. |pypi-package| image:: https://badge.fury.io/py/zxinglight.svg
+            :alt: PyPI package
+            :target: https://badge.fury.io/py/zxinglight
+        
+Keywords: zxing,barcode,QR code
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Provides-Extra: test
+Provides-Extra: docs
