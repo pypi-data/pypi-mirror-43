@@ -1,0 +1,6 @@
+README.md
+setup.py
+asppack.egg-info/PKG-INFO
+asppack.egg-info/SOURCES.txt
+asppack.egg-info/dependency_links.txt
+asppack.egg-info/top_level.txt
