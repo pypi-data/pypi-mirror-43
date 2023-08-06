@@ -1,0 +1,15 @@
+django_shift_work/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+django_shift_work/apps.py,sha256=M9a5tIuHcJy74ahlldx4ySLk2247igap6gjEABdDoAo,127
+django_shift_work/middlewares.py,sha256=aiPCTp0SRiIf5t-dIaH4tqMzVvyWGNqtWpz_eTlOVXQ,1384
+django_shift_work/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+django_shift_work/urls.py,sha256=tBSBGm0IWE_Yynful1vtCxuQIs7bTav44cvNYZ4Thuo,242
+django_shift_work/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shift_work/static/css/django_shift_work.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shift_work/static/js/django_shift_work.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_shift_work/templates/django_shift_work/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+django_shift_work-0.1.1.dist-info/DESCRIPTION.rst,sha256=CQT9ll9aC55EsnZkhEet125BmhqXfY_vU1K34QwmseM,1641
+django_shift_work-0.1.1.dist-info/METADATA,sha256=ZKG0HbBBfSF8HsLy7iXEBMJl22l4I50lVEhhyaIzHCg,2196
+django_shift_work-0.1.1.dist-info/RECORD,,
+django_shift_work-0.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_shift_work-0.1.1.dist-info/metadata.json,sha256=hEjVpHAbxuGuEhfuxP3d2_gCKPbMVyAHv3bdthW44Eg,711
+django_shift_work-0.1.1.dist-info/top_level.txt,sha256=yMfvopqVuMxNnNJMFIVuC6ElqeemEAVmCm5NE24bc5c,18
