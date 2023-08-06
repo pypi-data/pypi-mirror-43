@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: inmantals
+Version: 0.1.0
+Summary: Inmanta Language Server
+Home-page: https://github.com/inmanta/vscode-inmanta
+Author: Inmanta
+Author-email: code@inmanta.com
+License: Apache Software License
+Description: UNKNOWN
+Keywords: ide,language-server,vscode,inmanta
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
