@@ -1,0 +1,13 @@
+cl4py/__init__.py,sha256=rhZkAPFvvrtu_5bMxULO7-JzbTd4RbjZ_q8ovSPCfLE,89
+cl4py/circularity.py,sha256=YX5UNsm3FzuraxQ3UYzMC8qcQx713HsKVlb5sNFa2C8,4912
+cl4py/data.py,sha256=-3alanAw7WRsG32FHuEengn58h0JXMivPW2sUOfhYpI,5001
+cl4py/lisp.py,sha256=WcV6JP2Eq33K4uZ92sDL3HPWT9Ge774SAw4dELtos1w,1732
+cl4py/py.lisp,sha256=Cf4eP5LWvqeF29i1T-b3ASE5nGJVYB2UE97F07OJRp4,28752
+cl4py/read.py,sha256=D3g0T1vzsivNcYZv3O8Ux_uoWwhobT49RS63pnDHGPs,7425
+cl4py/reader.py,sha256=__TefGtnEN0Jdnd65WxZiyR45tw49AuZgbt-XlfQq7U,11206
+cl4py/writer.py,sha256=HnMJqmSBQ4efyMdwUv1eHjilI1DnvXyjppoIbewdRIE,3274
+cl4py-1.5.0.dist-info/LICENSE,sha256=pgtOuRZ3fm0avPvXWQjqowP0nVh8SjkjLJvb2c80rgs,1102
+cl4py-1.5.0.dist-info/METADATA,sha256=d6IsN-4_iBOCtLcpUOjyllJKtR1r5CuHT3oVoi0K02w,4949
+cl4py-1.5.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cl4py-1.5.0.dist-info/top_level.txt,sha256=3N9azXPy1xd--ZkTb9zfT-iPVFt28RAf5-51ITNjb6o,6
+cl4py-1.5.0.dist-info/RECORD,,
