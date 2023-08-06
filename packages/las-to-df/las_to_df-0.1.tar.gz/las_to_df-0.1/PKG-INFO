@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: las_to_df
+Version: 0.1
+Summary: This function takes in your individual las files and transforms it into a dataframe. It also give you the list of files that cannot be converted
+Home-page: https://github.com/AISHAHELENA/las_to_df
+Author: AISHAHELENA
+Author-email: aishahelena.sharif@gmail.com
+License: MIT
+Download-URL: https://github.com/AISHAHELENA/las_to_df/archive/V0.1.tar.gz
+Description: UNKNOWN
+Keywords: LAS,OIL,GAS,WELL,WELL LOGS,PETROLEUM
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
