@@ -1,0 +1,17 @@
+
+[google]
+google-cloud
+google-cloud-storage
+
+[mongo]
+pymongo
+
+[social]
+requests
+tweepy
+
+[test]
+coverage
+coveralls
+codecov
+pycodestyle
