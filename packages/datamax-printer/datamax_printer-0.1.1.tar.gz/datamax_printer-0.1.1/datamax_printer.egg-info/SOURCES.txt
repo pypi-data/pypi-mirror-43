@@ -1,0 +1,8 @@
+README.md
+setup.py
+datamax_printer/__init__.py
+datamax_printer/datamax_printer.py
+datamax_printer.egg-info/PKG-INFO
+datamax_printer.egg-info/SOURCES.txt
+datamax_printer.egg-info/dependency_links.txt
+datamax_printer.egg-info/top_level.txt
