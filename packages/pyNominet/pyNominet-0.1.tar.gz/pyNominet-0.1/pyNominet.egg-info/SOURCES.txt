@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyNominet.egg-info/PKG-INFO
+pyNominet.egg-info/SOURCES.txt
+pyNominet.egg-info/dependency_links.txt
+pyNominet.egg-info/top_level.txt
+pynominet/__init__.py
+pynominet/nominet.py

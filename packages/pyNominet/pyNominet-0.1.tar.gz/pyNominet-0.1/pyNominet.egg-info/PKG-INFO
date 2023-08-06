@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pyNominet
+Version: 0.1
+Summary: Nominet API Wrapper
+Home-page: https://gitlab.com/miloodin/pynominet
+Author: Myles McSweeney
+Author-email: dev@mylesmcsweeney.com
+License: GNU3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
