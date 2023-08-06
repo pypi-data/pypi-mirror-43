@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mcpack
+Version: 0.3.4
+Summary: A python library for programmatically creating and editing Minecraft data packs
+Home-page: https://github.com/vberlier/mcpack
+Author: Valentin Berlier
+Author-email: berlier.v@gmail.com
+Keywords: minecraft,datapack,mcfunction,structure-file,advancement
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: nbtlib (>=1.4,<2.0)
+Project-URL: Documentation, https://github.com/vberlier/mcpack
+Project-URL: Repository, https://github.com/vberlier/mcpack
