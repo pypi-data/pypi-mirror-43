@@ -1,0 +1,5 @@
+setup.py
+html2docx.egg-info/PKG-INFO
+html2docx.egg-info/SOURCES.txt
+html2docx.egg-info/dependency_links.txt
+html2docx.egg-info/top_level.txt
