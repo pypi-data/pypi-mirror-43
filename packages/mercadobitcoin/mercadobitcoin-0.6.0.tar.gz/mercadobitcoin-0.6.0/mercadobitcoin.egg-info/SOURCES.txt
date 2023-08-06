@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+mercadobitcoin/__init__.py
+mercadobitcoin/api.py
+mercadobitcoin/errors.py
+mercadobitcoin/trade_api.py
+mercadobitcoin.egg-info/PKG-INFO
+mercadobitcoin.egg-info/SOURCES.txt
+mercadobitcoin.egg-info/dependency_links.txt
+mercadobitcoin.egg-info/requires.txt
+mercadobitcoin.egg-info/top_level.txt
