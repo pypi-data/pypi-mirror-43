@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: juujian
+Version: 0.0.3
+Summary: Various web scraping and data science related tools. 
+Home-page: UNKNOWN
+Author: Julian Barg
+Author-email: barg.julian@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# juujian
+
+Various web scraping and data science related tools. 
+
+Provides commonly used tools for web scraping and data science. Some of these tools might be superfluous. But the 
+purpose is to provide them through import, rather than requiring a separate file to go with a jupyter notebook, to allow 
+for more elegant project structure (ideally only the notebook).
+
