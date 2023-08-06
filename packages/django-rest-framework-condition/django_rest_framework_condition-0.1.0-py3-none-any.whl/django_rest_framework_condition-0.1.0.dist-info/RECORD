@@ -1,0 +1,12 @@
+rest_framework_condition/__init__.py,sha256=7G5m5Ff6LCaTNjYkO1F8dUEZT9Lh-RDoFmLszhZoUdw,99
+rest_framework_condition/decorators.py,sha256=DzYYX692MehJBQ6hWrX9J6pwRqCN_FHHKN55GhVG9_M,1317
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=sCL1kFlNCoOQ4xMSfbj2KNu7EI61TbV7x-BJ4eNQcXQ,1141
+tests/test_decorators.py,sha256=JP5mECRnVW-Uks27GF2OYQJWFCg0G9t75D4K2oSX97U,9663
+tests/urls.py,sha256=gSMKgdga50e8qXZIBwTKD-13hm9Ur20k4Tkk5A2jhyY,1639
+tests/views.py,sha256=TgEom6QMqJwtYFBQFVZF6cJaN5E7VtmwyYHDGD3mh5s,1442
+django_rest_framework_condition-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_rest_framework_condition-0.1.0.dist-info/METADATA,sha256=WaEQ1D7T_suRsPIYEJJLhV1hWHmQguLys5nALXHRnAc,3119
+django_rest_framework_condition-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_rest_framework_condition-0.1.0.dist-info/top_level.txt,sha256=bA4GkL_s1qxd0raZxorCunyTGpcrHYYVmsvCK2_L67I,31
+django_rest_framework_condition-0.1.0.dist-info/RECORD,,
