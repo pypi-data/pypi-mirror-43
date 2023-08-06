@@ -1,0 +1,13 @@
+_motion_2860.pyd,sha256=U7Os_VzEya62gdhNh7NDtms_764PmMu2nJe0_edf4x4,23552
+MPC2860/MPC2860.dll,sha256=kOatNp1OqMU-bSzDgNtl9fg-cbQROp2pfnC_dAkD7zw,548974
+MPC2860/MPC2860.lib,sha256=mW1wenQt2kDLZLZFNShxzTxI-lsFUvroi7nlOC-WnbA,29200
+MPC2860/MPC2860CFG.txt,sha256=HVDtq-6twa1_nOtCBmuyrGB24EsnJ8PmoRYdqqBqFDI,56
+MPC2860/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+MPC2860/_motion_2860.pyd,sha256=U7Os_VzEya62gdhNh7NDtms_764PmMu2nJe0_edf4x4,23552
+MPC2860/motion_2860.i,sha256=cwWUHTvpo_ZmeSg7pDcD0qUM4LJnuOH2gZS6Zz4f0p8,98
+MPC2860/motion_2860.py,sha256=Hjr-ejBxZ0bgZz1lv3dDducPcXih3VZt5kEmAG95xn0,4877
+MPC2860-0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+MPC2860-0.1.dist-info/METADATA,sha256=3ojY-a12N2V_b8pUsXURR4JaAsaDlr8uSzqSnXzZvNQ,435
+MPC2860-0.1.dist-info/WHEEL,sha256=qgWkX4DcQNmbbsw1ZnfuScnv6z3hrA4uYccVpVsg4GI,102
+MPC2860-0.1.dist-info/top_level.txt,sha256=9KTj_j1pdpHNbyA2Fcz8UCfv85pzYnDO9sq5ptr2-Bc,21
+MPC2860-0.1.dist-info/RECORD,,
