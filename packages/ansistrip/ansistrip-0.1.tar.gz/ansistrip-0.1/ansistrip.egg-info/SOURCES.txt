@@ -1,0 +1,8 @@
+README.md
+setup.py
+ansistrip/__init__.py
+ansistrip/ansistrip.py
+ansistrip.egg-info/PKG-INFO
+ansistrip.egg-info/SOURCES.txt
+ansistrip.egg-info/dependency_links.txt
+ansistrip.egg-info/top_level.txt
