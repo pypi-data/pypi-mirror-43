@@ -1,0 +1,7 @@
+setup.py
+windb/__init__.py
+windb.egg-info/PKG-INFO
+windb.egg-info/SOURCES.txt
+windb.egg-info/dependency_links.txt
+windb.egg-info/requires.txt
+windb.egg-info/top_level.txt
