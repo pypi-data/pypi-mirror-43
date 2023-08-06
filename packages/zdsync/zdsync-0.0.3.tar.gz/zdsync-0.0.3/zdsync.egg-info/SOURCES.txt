@@ -1,0 +1,13 @@
+README.md
+setup.py
+zdsync/__init__.py
+zdsync/cli.py
+zdsync/client.py
+zdsync/printer.py
+zdsync/synchronizer.py
+zdsync.egg-info/PKG-INFO
+zdsync.egg-info/SOURCES.txt
+zdsync.egg-info/dependency_links.txt
+zdsync.egg-info/entry_points.txt
+zdsync.egg-info/requires.txt
+zdsync.egg-info/top_level.txt
