@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: loveread
+Version: 0.1.1.1
+Summary: Simple lib to download books from loveread.ec
+Home-page: UNKNOWN
+Author: Vlad Havrilov
+Author-email: wladgavrilov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: hy
+Requires-Dist: requests
+Requires-Dist: bs4
+
+Simple lib to download books from loveread.ec
+
+loveread.download("http://loveread.ec/read_book.php?id=70351") #returns book text
+loveread.download("http://loveread.ec/read_book.php?id=70351", save=True) #downloads it to the script folder
+loveread.download("http://loveread.ec/read_book.php?id=70351", save=True, folder="books/") #downloads it to the "books/" folder
+
+
