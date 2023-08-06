@@ -1,0 +1,14 @@
+WOSplus-0.2.8.post1.dist-info/DESCRIPTION.rst,sha256=zNchxPu1Fjc4huj3S2hjJk0bt6mrPxbtOgOphzwrVSw,1677
+WOSplus-0.2.8.post1.dist-info/METADATA,sha256=T4rQVUXUL6OjrTWinyQy6OEKmL--c4rkYowaKuPPsUc,2204
+WOSplus-0.2.8.post1.dist-info/RECORD,,
+WOSplus-0.2.8.post1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+WOSplus-0.2.8.post1.dist-info/metadata.json,sha256=_HmR3uJL7ztbWPJ_FWcK7JVa8N6VuJZC5VMxgCfqHJk,670
+WOSplus-0.2.8.post1.dist-info/top_level.txt,sha256=EfG5J2WBNvFsVLUJKvnGFVGxKnANaCUyKXqCnCkYmHA,8
+wosplus/__init__.py,sha256=ySkIGnk6mRAMBS7fzIe18KqW93Sg4Bb0WCVHALySMEc,416
+wosplus/_google_drive_tools.py,sha256=dPLKtdBTmIUnDY_jH5rutE4_i0tKrBeFpvTDbbi17LE,5690
+wosplus/_merge_tools.py,sha256=VMBPFrCJwnlIOfod0GwADUfs90W17SCznWkFY4z3H3g,6789
+wosplus/_pajek_tools.py,sha256=srlINb9742oVBHVtRdyNBC5p9CHEi13lRwtTKh6ToSo,5237
+wosplus/_plotter.py,sha256=fulWfcG2N3uPUO1MoqJu-OZCVT8nv3JZdDjQzJ8IfmU,1260
+wosplus/_wos_parser.py,sha256=DlXORMUQQSyIrFh0NGe42o1k4tD6W5W8bNEowFvVg3M,2336
+wosplus/_wos_scp.py,sha256=n_jfAR09WNiMrUbqFtFpCjZbzqDhrIR73R7IW_j8uPc,20870
+wosplus/wosplus.py,sha256=ubOTDBZ9MzankujSZYO0TbNRPXZLty0iW1nWJXBCk6U,24556
