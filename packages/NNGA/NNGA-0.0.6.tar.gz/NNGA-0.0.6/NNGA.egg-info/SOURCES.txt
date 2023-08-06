@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+neuralNetworkGA.py
+setup.py
+NNGA.egg-info/PKG-INFO
+NNGA.egg-info/SOURCES.txt
+NNGA.egg-info/dependency_links.txt
+NNGA.egg-info/requires.txt
+NNGA.egg-info/top_level.txt
