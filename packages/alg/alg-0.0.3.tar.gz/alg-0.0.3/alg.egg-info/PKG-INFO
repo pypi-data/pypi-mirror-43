@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: alg
+Version: 0.0.3
+Summary: Algorithm Learning Group.
+Home-page: https://github.com/shinalone/ALG
+Author: UlionTse
+Author-email: shinalone@outlook.com
+License: MIT
+Description: ## *[ALG](https://github.com/shinalone/ALG/blob/master/README.md) DOCUMENTATION*
+        
+        *Algorithm Learning Group*
+        
+Keywords: alg,algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

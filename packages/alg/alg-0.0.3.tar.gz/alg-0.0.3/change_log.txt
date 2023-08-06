@@ -1,0 +1,8 @@
+0.0.1
+Init `ALG(Algorithm Learning Group)`.
+
+0.0.2
+Fix spelling errors.
+
+0.0.3
+On PYPI, rst --> md.
