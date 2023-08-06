@@ -1,0 +1,10 @@
+kitconcept.recipe.solr-1.0.0a2-py2.7-nspkg.pth,sha256=RN1Sq5OQi3LcQLs5HkGvn_jQ9IBgaUtpj5BsOUvHurk,1816
+kitconcept/recipe/solr/__init__.py,sha256=5ftd6665eVtW3RGF2jXWV6ickCAOUfotrKMPE0FzUJY,6060
+kitconcept/recipe/solr/tests/__init__.py,sha256=UnxmjVrk-eNORsitiM48W0pB6yfsaErOak8RYh_ELt8,10
+kitconcept/recipe/solr/tests/test_docs.py,sha256=l3g9VGenNXM9S5okrbRVc0Jn32gEfUj6KwPO3OfwwKU,1776
+kitconcept.recipe.solr-1.0.0a2.dist-info/METADATA,sha256=gnv1MLdBhe3UOOFLUfmW_38z7vSKhEhXMUZafQlvKgE,4293
+kitconcept.recipe.solr-1.0.0a2.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+kitconcept.recipe.solr-1.0.0a2.dist-info/entry_points.txt,sha256=3HfUSh17x8dq1rHb8X-oMSPsIVSaqwUvu68iw2weKgM,55
+kitconcept.recipe.solr-1.0.0a2.dist-info/namespace_packages.txt,sha256=xNCcDA7lp7Qtu3MWtjix6iz0BXh0vhsdfSgMW72MQ7Q,29
+kitconcept.recipe.solr-1.0.0a2.dist-info/top_level.txt,sha256=Rvg0SnFYaK3mOcyDZU3tLyLgUPJh0U7esTiehzixfCw,11
+kitconcept.recipe.solr-1.0.0a2.dist-info/RECORD,,
