@@ -1,0 +1,3 @@
+[console_scripts]
+pgstatus-daemon = pgstatus.bin.pgstatus_daemon:main
+
