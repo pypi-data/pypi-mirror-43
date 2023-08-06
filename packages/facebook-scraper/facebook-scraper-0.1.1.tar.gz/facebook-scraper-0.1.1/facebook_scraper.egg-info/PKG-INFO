@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: facebook-scraper
+Version: 0.1.1
+Summary: Scrape Facebook public pages using the web API.
+Home-page: https://github.com/kevinzg/facebook-scraper
+Author: Kevin Zúñiga
+Author-email: kevin.zun@gmail.com
+License: MIT
+Description: 
+        # Facebook Scraper
+        
+        Scrape Facebook public pages using the web API. Inspired by [twitter-scraper](https://github.com/kennethreitz/twitter-scraper).
+        
+        ## Usage
+        
+        ```python
+        >>> from facebook_scraper import get_posts
+        
+        >>> for post in get_posts('nintendo', pages=1):
+        ...     print(post['text'][:50])
+        ...
+        The final step on the road to the Super Smash Bros
+        We’re headed to PAX East 3/28-3/31 with new games
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
