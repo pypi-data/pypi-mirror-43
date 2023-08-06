@@ -1,0 +1,8 @@
+numpy
+scipy
+pymatgen
+mpi4py
+matplotlib
+h5py
+ase
+sklearn
