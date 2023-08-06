@@ -1,0 +1,12 @@
+pandas
+scipy
+pycrsx
+xarray
+pyproj
+netcdf4
+
+[fiona]
+fiona
+
+[rasterio]
+rasterio
