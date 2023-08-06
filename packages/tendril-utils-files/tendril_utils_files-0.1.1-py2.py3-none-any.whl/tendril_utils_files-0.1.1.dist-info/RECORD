@@ -1,0 +1,14 @@
+tendril/__init__.py,sha256=CyBA-t_7hHvwim5oh7A3IAtD-rOa6LxmGeEtaH83ta0,851
+tendril/utils/__init__.py,sha256=CyBA-t_7hHvwim5oh7A3IAtD-rOa6LxmGeEtaH83ta0,851
+tendril/utils/files/__init__.py,sha256=CyBA-t_7hHvwim5oh7A3IAtD-rOa6LxmGeEtaH83ta0,851
+tendril/utils/files/gschem.py,sha256=VPmsjKsdzXdUlJV7JGnoPB3aqaSvrMWKsOp9PFhtbwA,16007
+tendril/utils/files/libreoffice.py,sha256=11y_Kb3qRlfKWWjBkVuBURlj3I4r4eyObYv07BiXmTw,5847
+tendril/utils/files/markdown.py,sha256=ptR1qJULxK5aydV2XqkAj6N4T0kmrH2KtgKeDlrb7yk,4080
+tendril/utils/files/pdf.py,sha256=OMjpb1NL0WNAK-so1HeRNEJcC9ZEHfvTHeHNYjeOVDw,2373
+tendril/utils/files/yml.py,sha256=8iImDckVd4m1HzV19qIP0pwceBwhPwMIvaUdvoUNuxU,4014
+tendril_utils_files-0.1.1.dist-info/DESCRIPTION.rst,sha256=rpwjKrPSenGO0IO0_xkJGjH-3AatIkb0N-_SSBDvO0I,516
+tendril_utils_files-0.1.1.dist-info/METADATA,sha256=iC2ODsP8ulhW05OMdiDue3oxOuGt0jlAVhniQQ_ygBI,1103
+tendril_utils_files-0.1.1.dist-info/RECORD,,
+tendril_utils_files-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+tendril_utils_files-0.1.1.dist-info/metadata.json,sha256=eCDEl5G139n7c4tHg6Pmup7ODfJnLdZHhy-CMbYwViY,746
+tendril_utils_files-0.1.1.dist-info/top_level.txt,sha256=cZ37ntjo8Mlxd4OJ5PNxFU0yufka_b2hcfS80URElIM,8
