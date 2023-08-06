@@ -1,0 +1,8 @@
+pytest_postgres/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_postgres/plugin.py,sha256=CGwlEQWZHzxmaEyFjw4lLi00zzsd9CMK9SKlGBJU3L8,4348
+pytest_postgres-0.6.0.dist-info/LICENSE,sha256=Px3N9TV5t4dckUlEc8GQQ1d_Q6rwxb8y7SQ_J_TzKek,1083
+pytest_postgres-0.6.0.dist-info/METADATA,sha256=PnUfz82_w-z7GsPy8t894AqyuKFJx3xu6kdSI3kmoVA,1308
+pytest_postgres-0.6.0.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+pytest_postgres-0.6.0.dist-info/entry_points.txt,sha256=8Mn95BAORJrZyo2Pyoo_iAYf6d8C0I7pIteck-ZEwiQ,46
+pytest_postgres-0.6.0.dist-info/top_level.txt,sha256=WSJdWtvXq0RiTW_X606C0_IeF6NxptYUtfRiVs0dM8g,16
+pytest_postgres-0.6.0.dist-info/RECORD,,
