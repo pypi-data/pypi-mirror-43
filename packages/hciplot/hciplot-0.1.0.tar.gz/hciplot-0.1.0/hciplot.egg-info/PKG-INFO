@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hciplot
+Version: 0.1.0
+Summary: High-contrast Imaging Plotting library
+Home-page: https://github.com/carlgogo/hciplot
+Author: Carlos Alberto Gomez Gonzalez
+Author-email: carlosgg33@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: plotting,hci,package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
