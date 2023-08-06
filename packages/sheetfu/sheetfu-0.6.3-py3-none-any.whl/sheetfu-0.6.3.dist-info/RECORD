@@ -1,0 +1,14 @@
+sheetfu/__init__.py,sha256=2lzC4Rf5h4o-5Hv6QrmmdND3TMv1OdqRDt8VHJlFMqM,315
+sheetfu/client.py,sha256=GQftDlNNHvrvj3-1UCYC_YZ8Al29kuZQG_eVXKtXp8U,3708
+sheetfu/config.py,sha256=S-o6YVkZ7u1AmQNOs_xRomW7N175zpwrezh9PGh8rZ4,295
+sheetfu/exceptions.py,sha256=mWQtom9LGflJerKuNjVMzNsovjyb4ZhUr5jU3JMD6y0,469
+sheetfu/helpers.py,sha256=x8tbTG_5w03adtJ7A4ngV5vNtR_IetYO4jfL8OQU8gE,3471
+sheetfu/model.py,sha256=6DA8Js0iATSyqH4qi3_Z6-ZNHGfqQh63wEZxI5mUPeU,17201
+sheetfu/parsers.py,sha256=caKzogYxluqWlp1NSaKAih9SqSoBCUMQnpC--7QgQgE,2678
+sheetfu/service.py,sha256=QHoisjmn6umH9Zg0Ds94t5-1Wa2A2oU3hRUhUtdNoJ4,2719
+sheetfu-0.6.3.dist-info/DESCRIPTION.rst,sha256=3uuZQnPIGg_ScbRdJGemUzoHWXFHUzOrbwAGy8OvWSM,43
+sheetfu-0.6.3.dist-info/METADATA,sha256=dlTxzDtv-3dOJr5-Rvgl-RmiLubbanoJsSEdTyryE8E,1084
+sheetfu-0.6.3.dist-info/RECORD,,
+sheetfu-0.6.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+sheetfu-0.6.3.dist-info/metadata.json,sha256=HaQakK9CIyf9qGSjpCwRAQXtokkO-8Fp2brH1fuoy8c,1154
+sheetfu-0.6.3.dist-info/top_level.txt,sha256=X28_RtLlIV6qL7x_6iROevmjFBTFup_YoR14jwQnDb0,8
