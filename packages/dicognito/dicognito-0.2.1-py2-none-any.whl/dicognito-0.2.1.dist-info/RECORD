@@ -1,0 +1,17 @@
+dicognito/__init__.py,sha256=dO-yKTrKs2HqwZrHflJGnmKHlUGGb09jYzSCS2h0RWo,44
+dicognito/__main__.py,sha256=-UYuxM709jJyjHXPGrnIWAsbjtlf7NM1ff0gOoaEQNs,1046
+dicognito/addressanonymizer.py,sha256=LiIiElee9_jRhmGe_XBl4M8OEo2Mt0hD39iWj09jClU,6550
+dicognito/anonymizer.py,sha256=JRELbJfntY9ZjplsBJTdaCfsyfz8KvdUcoAVQoktSjU,2259
+dicognito/datetimeanonymizer.py,sha256=dscL_-BLwCXI3njyzKawyznFKxzs2d6PVw7DWn2O0lM,1995
+dicognito/equipmentanonymizer.py,sha256=vet2GNTV9jdaswAnfB3TVSpc7jRBec5gpUdwVaUFQI8,1656
+dicognito/fixedvalueanonymizer.py,sha256=m9_6xThPICuU2q-1EAlUSlXrM4vXbvabPONadYUxD0s,366
+dicognito/idanonymizer.py,sha256=3O0ENZhsMLZA8EosE2gv2WXpA5T9iZ__Wl4PCQ4abaA,1227
+dicognito/pnanonymizer.py,sha256=-1y4LOqKizldlkcJk0SlDpBxMGU-GDbjlpVqJ3HKlcI,58184
+dicognito/randomizer.py,sha256=yUldTRZCWFaXFo5OeU2PNuH5lTJ0SzryDZUU4X9lCok,555
+dicognito/uianonymizer.py,sha256=KdMcnHmE9nHqhOlNgh8pgce7LB-vCaW3_-rnofu-y64,786
+dicognito/unwantedelements.py,sha256=351Cx81mB0IP-j-kVidjxEVrpuZLsrdvoWZFYgFUcis,389
+dicognito-0.2.1.dist-info/METADATA,sha256=TrTutJkoGmhPvYRh7JPbnyP4_a3-_QZpOum8DibLXrc,1172
+dicognito-0.2.1.dist-info/RECORD,,
+dicognito-0.2.1.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+dicognito-0.2.1.dist-info/entry_points.txt,sha256=DhxYzgBxqBUm_SkompRLr7Ej2Fps2dH8hNgrBD5zLug,55
+dicognito-0.2.1.dist-info/top_level.txt,sha256=H_EpH3shecvpNLtwHnE2MU-vSQwzJ74aiRKTH4Vgex4,10
