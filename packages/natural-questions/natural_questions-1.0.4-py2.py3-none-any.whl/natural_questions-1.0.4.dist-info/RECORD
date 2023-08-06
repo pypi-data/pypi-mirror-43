@@ -1,0 +1,12 @@
+natural_questions/__init__.py,sha256=nBwE5qwJlw5WPeRly8JZkQ83aOz94XsQomlmhB-uUqA,616
+natural_questions/eval_utils.py,sha256=CCKsA2gyTvk0mVfQW4sH70b7JbSBWi5eGfPZTClLlsU,10899
+natural_questions/eval_utils_test.py,sha256=u0cxdJJoQQolsJvUBHviJWmx4BIhKTp-hKnj6vXDBHw,2359
+natural_questions/make_test_data.py,sha256=pfDuhcwKDu3I9KbjfDuXA_Gev1_c3U5cc8erZwLlTR8,4277
+natural_questions/nq_browser.py,sha256=AZ5Z7vA9WnZkQxDfjs9wJHR8o-7lJuiE7ialvdrF7EA,11702
+natural_questions/nq_eval.py,sha256=TzR9bnxrgCDAR9Lo1brPqG800yxQktCJeZa759Vvdeg,16277
+natural_questions/nq_eval_test.py,sha256=kKXD-uq_XzLx14D_FDvS8z0hA-8xxJHwWVHIK9I8vis,7190
+natural_questions-1.0.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+natural_questions-1.0.4.dist-info/METADATA,sha256=ZNTV2wDCn7YdtLsDb4EhOOiJu2mjZQiibo43ZNpgiVU,355
+natural_questions-1.0.4.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+natural_questions-1.0.4.dist-info/top_level.txt,sha256=-I-IPvlkYzQ4a6HZdAhT6If8YlKomrokToOlYgUjClo,18
+natural_questions-1.0.4.dist-info/RECORD,,
