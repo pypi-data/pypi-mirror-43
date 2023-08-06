@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+__init__.py
+msgfilter.c
+msgfilter.dll
+setup.py
+test.py
+./LICENSE
+./__init__.py
+./msgfilter.c
+./msgfilter.dll
+./test.py
+imessagefilter.egg-info/PKG-INFO
+imessagefilter.egg-info/SOURCES.txt
+imessagefilter.egg-info/dependency_links.txt
+imessagefilter.egg-info/top_level.txt
