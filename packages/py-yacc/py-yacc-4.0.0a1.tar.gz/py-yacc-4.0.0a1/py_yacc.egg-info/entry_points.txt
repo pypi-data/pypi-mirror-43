@@ -1,0 +1,3 @@
+[console_scripts]
+pyyacc3 = pyyacc3.compile:main
+
