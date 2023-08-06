@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: itk-twoprojectionregistration
+Version: 1.0.0
+Summary: ITK classes for two-projection 2D/3D registration
+Home-page: https://github.com/InsightSoftwareConsortium/ITKTwoProjectionRegistration
+Author: Jian Wu
+Author-email: jwu2@ufl.edu
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKTwoProjectionRegistration
+Keywords: ITK InsightToolkit Projection Registration
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: itk (>=5.0rc1)
+
+itk-twoprojectionregistration provides an implementation of intensity-based 2D/3D rigid image registration for patient setup assessment in external beam radiotherapy.
+Please refer to:
+J. Wu, "ITK-Based Implementation of Two-Projection 2D/3D Registration Method with an Application in Patient Setup for External Beam Radiotherapy", Insight Journal, July-December 2010, http://hdl.handle.net/10380/3245.
+
