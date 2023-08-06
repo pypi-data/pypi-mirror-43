@@ -1,0 +1,9 @@
+chemlg/__init__.py,sha256=pMHRdphjgQD_MJqZsAIvRQIPRTMdgqsJ7z67iz83H2E,65
+chemlg/constrained.py,sha256=XUKiY71JTZInTIFkh7gc0ESIZfPxgapnmRNowFcGlu4,29128
+chemlg/libgen.py,sha256=-r9eUAiriNRIiWAqxXaQN0N_RGhT8iga9iU24NNV3m8,33834
+chemlg/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemlg-0.5.0.data/scripts/chemlgshell,sha256=pKVe4LgtrKrigcZuHzGffYGkJHpdZT-utzG9D_amzy8,1033
+chemlg-0.5.0.dist-info/METADATA,sha256=fHXi1glt5os4qtiGdQ2rqVe86XB2KDPVy89wV-5NXGU,4409
+chemlg-0.5.0.dist-info/RECORD,,
+chemlg-0.5.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+chemlg-0.5.0.dist-info/top_level.txt,sha256=fPwJzWwdS1abbL2Y6IO-LVd7QGUmUGVFFX6cve3hHhw,7
