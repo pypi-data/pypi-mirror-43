@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cakap
+Version: 0.4
+Summary: UNKNOWN
+Home-page: https://github.com/iomarmochtar/cakap
+Author: Imam Omar Mochtar
+Author-email: iomarmochtar@gmail.com
+License: GPL
+Keywords: Telegram bot framework
+Platform: UNKNOWN
+Requires-Dist: python-telegram-bot
+Requires-Dist: colorlog
+
+Python telegram bot framework on top of python-telegram-bot, supporting authentication, authorization and command's argument parsing
+
+
