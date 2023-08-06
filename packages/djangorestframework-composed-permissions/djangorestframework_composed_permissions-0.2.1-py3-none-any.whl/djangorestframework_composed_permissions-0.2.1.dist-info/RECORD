@@ -1,0 +1,14 @@
+restfw_composed_permissions/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+restfw_composed_permissions/base.py,sha256=R8ELe15Jy5t4n32Rntpdhr2Jj2B2A23lvVTNlPk7zOc,6420
+restfw_composed_permissions/models.py,sha256=mYxQ6GWygfv7_zffHiBNigNU83va0lqoMquO1utvBOE,55
+restfw_composed_permissions/generic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restfw_composed_permissions/generic/components.py,sha256=frLlVKCpyvaIxcDLhIGTBWhsX0jJz5Pu9yb8pMctLsU,2259
+restfw_composed_permissions/generic/permissions.py,sha256=7tQt9Ej2Wpo1gM0zBpcUNVpU18kfZ53bV57--KgJKxM,204
+restfw_composed_permissions/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+restfw_composed_permissions/tests/settings_sqlite.py,sha256=LrOa-ihPkbUWz8mAglc1BaKFw7PoB_plyBC2mk2v5qs,977
+restfw_composed_permissions/tests/tests.py,sha256=kpyuVhXY-B1IS_4e8mRbDk6RI0gJ4kJcXHsx0rq8ByI,9015
+djangorestframework_composed_permissions-0.2.1.dist-info/LICENSE,sha256=E3MvqiTpkq22UqvdH6gIX6sbaS7eXnGUh_uZi-klvug,1485
+djangorestframework_composed_permissions-0.2.1.dist-info/METADATA,sha256=JHflWqPXAduWgzbCO2sN-cEVTb_A8CdZh0HltUVuiyo,1305
+djangorestframework_composed_permissions-0.2.1.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+djangorestframework_composed_permissions-0.2.1.dist-info/top_level.txt,sha256=e6_rXU7jNkGsAXG57uOyezYGd-2xfgB5kH-jaZsDFqg,28
+djangorestframework_composed_permissions-0.2.1.dist-info/RECORD,,
