@@ -1,0 +1,7 @@
+[2019-03-08 22:18:08,248] INFO: [32mLoading environment variables from D:\Datas\GitDatas\ZYBATS\testsexample\.env
+[2019-03-08 22:18:08,330] INFO: [32mStart to run testcase: call testcase demo one.
+[2019-03-08 22:18:08,333] INFO: [32mPOST http://172.23.136.190:8080/api/getTokenId
+[2019-03-08 22:18:29,377] INFO: [32mStart to run testcase: call testcase demo two.
+[2019-03-08 22:18:29,381] INFO: [32mPOST http://172.23.136.190:8080/api/getTokenId
+[2019-03-08 22:18:50,451] INFO: [32mStart to render Html report ...
+[2019-03-08 22:18:50,488] INFO: [32mGenerated Html report: D:\Datas\GitDatas\ZYBATS\testsexample\reports\1552054688.html
