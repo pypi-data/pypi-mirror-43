@@ -1,0 +1,6 @@
+README.md
+setup.py
+DM_Ware.egg-info/PKG-INFO
+DM_Ware.egg-info/SOURCES.txt
+DM_Ware.egg-info/dependency_links.txt
+DM_Ware.egg-info/top_level.txt
