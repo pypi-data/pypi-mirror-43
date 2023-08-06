@@ -1,0 +1,16 @@
+pycryptodome<4,>=3.5.1
+
+[lint]
+coveralls<2,>=1.6
+flake8<4,>=3.7
+flake8-bugbear==18.8.0
+isort<5,>=4.2.15
+
+[test]
+pytest>=3.6
+pytest-cov==2.4.0
+pytest-xdist==1.18.1
+py-evm==0.2.0a39
+eth-tester==0.1.0b37
+web3==5.0.0a6
+tox<4,>=3.7
