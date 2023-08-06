@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mike-brady
+Version: 0.5.0
+Summary: Create a repo from a repo blueprint
+Home-page: https://github.com/troylar/mike-brady
+Author: Troy Larson
+Author-email: troylar@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: click
+Requires-Dist: gitpython
+Requires-Dist: jinja2
+
+
+# Repo Blueprinter
+
+## Overview
+The goal of this project is to provide an easy way to create a "repo blueprint template" from which developers can build their own projects. You can create placeholders in the template and populate the values when the new repo is created.
+
+## Features
+* Uses the [jinja2](http://jinja.pocoo.org/) template engine for easy and powerful templates
+* Limit templated files to specific file types
+* Template filenames and folders
+
+## Why not just fork?
+Forking is great if you want to potentially merge back with the main project. In this case, we want to provide developers with a basic blueprint, let them fill in their own values, but they won't be merging back into the main project.
+
+## Installation
+
+`$ pip install repo-blueprint`
+
+## Usage
+
+
