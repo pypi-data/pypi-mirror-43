@@ -1,0 +1,244 @@
+# micros1-client
+
+python and cli client for accessing the api routes from micros1  micro service 
+
+installation 
+=====================================
+    
+    virtualenv -p python3 venv
+    source venv/bin/activate
+    pip install micros1client
+
+
+  
+alternate to run from source 
+
+    git clone https://github.com/microservice-tsp-billing/micros1-client.git
+    cd micros-client1
+    virtualenv -p python3 venv
+    source venv/bin/activate
+	pip install -r requirement.txt
+
+config
+===============================================================
+Follow readme for configuring the tokenleaderclient first - https://github.com/microservice-tsp-billing/tokenleaderclient
+apart from the tokenleaderclient configuration  the following sections should be present in the /etc/tokenleader/client_configs.yml
+
+
+	micros1:
+	  url_type: endpoint_url_external
+	  ssl_enabled: no
+	  ssl_verify: no
+  
+  
+hence the complete configuraion will look as:  
+
+
+    user_auth_info_from: file # OSENV or file
+	user_auth_info_file_location: /home/bhujay/tlclient/user_settings.ini
+	fernet_key_file: /home/bhujay/tlclient/prod_farnetkeys	
+	tl_public_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCYV9y94je6Z9N0iarh0xNrE3IFGrdktV2TLfI5h60hfd9yO7L9BZtd94/r2L6VGFSwT/dhBR//CwkIuue3RW23nbm2OIYsmsijBSHtm1/2tw/0g0UbbneM9vFt9ciCjdq3W4VY8I6iQ7s7v98qrtRxhqLc/rH2MmfERhQaMQPaSnMaB59R46xCtCnsJ+OoZs5XhGOJXJz8YKuCw4gUs4soRMb7+k7F4wADseoYuwtVLoEmSC+ikbmPZNWOY18HxNrSVJOvMH2sCoewY6/GgS/5s1zlWBwV/F0UvmKoCTf0KcNHcdzXbeDU9/PkGU/uItRYVfXIWYJVQZBveu7BYJDR bhujay@DESKTOP-DTA1VEB
+	tl_user: user1
+	tl_url: http://localhost:5001
+	ssl_verify: False	
+	micros1:
+	  url_type: endpoint_url_external
+	  ssl_enabled: no
+	  ssl_verify: no
+ 
+ 
+PYTHON client
+===================================
+
+	from tokenleaderclient.configs.config_handler import Configs    
+	from  tokenleaderclient.client.client import Client 
+	from micros1client.client   import MSClient
+
+	auth_config = Configs()
+	tlclient = Client(auth_config)
+	c = MSClient(tlclient)
+	c.ep3()
+	c.upload_xl('/mnt/c/mydev/temp/micros1.xlsx')
+	c.list_invoices('City', 'Nagpur')
+	c.list_invoices('all', 'all')
+	c.delete_invoices('City', 'Nagpur')
+	c.delete_invoices('all', 'all')
+	
+from tokenleaderclient.configs.config_handler import Configs    
+from  tokenleaderclient.client.client import Client 
+from micros1client.client   import MSClient
+auth_config = Configs()
+tlclient = Client(auth_config)
+c = MSClient(tlclient)
+c.upload_xl('/mnt/c/mydev/temp/micros1.xlsx')
+c.list_invoices('City', 'Nagpur')
+c.list_invoices('all', 'all')
+c.delete_invoices('City', 'Nagpur')
+c.delete_invoices('all', 'all')
+
+
+CLI client
+=========================
+
+	./micros1.sh ep3
+or 
+
+	python micros1.sh uploadxl -f /mnt/c/mydev/temp/micros1.xlsx
+	python micros1.sh list -k all -v all
+	python micros1.sh list -k processing_status -v waiting_in_queue
+	python micros1.sh list -k Speed -v '512 Kbps'
+	python micros1.sh delete -k City -v Hariyana
+	python micros1.sh delete -k all -v all
+	
+	
+or when the client was installed through pip , no need to type 'python' 
+	
+	 micros1 ep3 
+	 micros1  uploadxl -f /mnt/c/mydev/temp/micros1.xlsx
+	 micros1  list -k all -v all
+
+
+sample data structure , so that you can use the key , values for processing the data
+========================================================================================
+
+	[
+	    {
+	        " REMARKS": "OK",
+	        "SERXICE_TYPE": "GXDN",
+	        "Account No": "XDN011222",
+	        "Premise No": 14,
+	        "Customer_Name ": "ABC Limited",
+	        "request_id": "0d2562fc-597d-4963-8b58-cd325b261af8",
+	        "ARC": 345,
+	        "Tax Name": "Maharashtra SGST@9%+CGST@9%",
+	        "GST No": "8JKLL;K;LKL;KK",
+	        "Billing Date_From": {
+	            "$date": 1522540800000
+	        },
+	        "logged_in_user_org_unit": "ou1",
+	        "TSP": "RIL",
+	        "State": "HY",
+	        "processing_status": "waiting_in_queue",
+	        "PIN": 14,
+	        "Circuit ID": "MSKLJNK6L5336",
+	        "Billing Date_TO": {
+	            "$date": 1530316800000
+	        },
+	        "Division": "DIVISON1",
+	        "Invoice No": 7676746764,
+	        "time_stamp": {
+	            "$date": 1552799394674
+	        },
+	        "Total": 7654,
+	        "Customer_id": "XI000555",
+	        "SL No": 15,
+	        "City": "Patna",
+	        "client_address": "127.0.0.1",
+	        "Full Site  Address": " XYZ Example Exports\n   Post Office Box 924\n   Ludhiana 141003\n   INDIA",
+	        "_id": {
+	            "$oid": "5c8dd6a29b348e06cd36c721"
+	        },
+	        "Invoice Date": {
+	            "$date": 1530489600000
+	        },
+	        "logged_in_user_dept": "dept1",
+	        "logged_in_user_org": "org1",
+	        "Premise Name": 14,
+	        "Speed": "512 Kbps",
+	        "Site ID": 14,
+	        "logged_in_user_email": "user1"
+	    },
+	    {
+	        " REMARKS": "OK",
+	        "SERXICE_TYPE": "GXDN",
+	        "Account No": "XDN011222",
+	        "Premise No": 14,
+	        "Customer_Name ": "ABC Limited",
+	        "request_id": "e1b740a1-c2e6-43c8-ab98-a28462d5552a",
+	        "ARC": 345,
+	        "time_stamp": {
+	            "$date": 1552822639649
+	        },
+	        "GST No": "8JKLL;K;LKL;KK",
+	        "Billing Date_From": {
+	            "$date": 1522540800000
+	        },
+	        "logged_in_user_org_unit": "ou1",
+	        "TSP": "RIL",
+	        "State": "HY",
+	        "processing_status": "waiting_in_queue",
+	        "PIN": 14,
+	        "Circuit ID": "MSKLJNK6L5336",
+	        "Full Site  Address": " XYZ Example Exports\n   Post Office Box 924\n   Ludhiana 141003\n   INDIA",
+	        "Division": "DIVISON1",
+	        "Invoice No": 7676746764,
+	        "Total": 7654,
+	        "Customer_id": "XI000555",
+	        "Billing Date_TO": {
+	            "$date": 1530316800000
+	        },
+	        "City": "Patna",
+	        "client_address": "127.0.0.1",
+	        "Tax Name": "Maharashtra SGST@9%+CGST@9%",
+	        "_id": {
+	            "$oid": "5c8e316f9b348e0a68ef1a4a"
+	        },
+	        "Invoice Date": {
+	            "$date": 1530489600000
+	        },
+	        "logged_in_user_dept": "dept1",
+	        "logged_in_user_org": "org1",
+	        "Premise Name": 14,
+	        "Speed": "512 Kbps",
+	        "Site ID": 14,
+	        "logged_in_user_email": "user1",
+	        "SL No": 15
+	    },
+	    {
+	        " REMARKS": "OK",
+	        "SERXICE_TYPE": "GXDN",
+	        "logged_in_user_dept": "dept1",
+	        "Billing Date_TO": {
+	            "$date": 1530316800000
+	        },
+	        "Customer_Name ": "ABC Limited",
+	        "request_id": "f5883af4-5449-4f83-bb13-8c108b54b36a",
+	        "time_stamp": {
+	            "$date": 1552823421843
+	        },
+	        "GST No": "8JKLL;K;LKL;KK",
+	        "logged_in_user_org_unit": "ou1",
+	        "TSP": "RIL",
+	        "State": "HY",
+	        "_id": {
+	            "$oid": "5c8e347d9b348e0a9cc503f0"
+	        },
+	        "processing_status": "waiting_in_queue",
+	        "PIN": 14,
+	        "Account No": "XDN011222",
+	        "Circuit ID": "MSKLJNK6L5336",
+	        "Division": "DIVISON1",
+	        "Invoice No": 7676746764,
+	        "Total": 7654,
+	        "Customer_id": "XI000555",
+	        "Premise No": 14,
+	        "City": "Patna",
+	        "Invoice Date": {
+	            "$date": 1530489600000
+	        },
+	        "client_address": "127.0.0.1",
+	        "Full Site  Address": " XYZ Example Exports\n   Post Office Box 924\n   Ludhiana 141003\n   INDIA",
+	        "ARC": 345,
+	        "logged_in_user_email": "user1",
+	        "Billing Date_From": {
+	            "$date": 1522540800000
+	        },
+	        "logged_in_user_org": "org1",
+	        "Premise Name": 14,
+	        "Speed": "512 Kbps",
+	        "Tax Name": "Maharashtra SGST@9%+CGST@9%",
+	        "Site ID": 14,
+	        "SL No": 15
+	    }
+	]
+
