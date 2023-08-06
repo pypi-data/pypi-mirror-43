@@ -1,0 +1,4 @@
+django-ckeditor
+django-reversion
+django-ckeditor
+django-admin-sortable2
