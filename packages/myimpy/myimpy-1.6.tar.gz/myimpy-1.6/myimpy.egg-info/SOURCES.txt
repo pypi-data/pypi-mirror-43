@@ -1,0 +1,11 @@
+setup.py
+myimpy/__init__.py
+myimpy/basic.py
+myimpy/morphology.py
+myimpy/text.py
+myimpy/transformation.py
+myimpy.egg-info/PKG-INFO
+myimpy.egg-info/SOURCES.txt
+myimpy.egg-info/dependency_links.txt
+myimpy.egg-info/not-zip-safe
+myimpy.egg-info/top_level.txt
