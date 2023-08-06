@@ -1,0 +1,10 @@
+potodo/__init__.py,sha256=e-THg7ilgKmP9rBe2C0MvTsUngNIiI11Q4ChZqgAGcE,113
+potodo/__main__.py,sha256=yfF4cc7jHmg82vhUdLc_CWkwlMJE9cdYOs7dTMDS6jE,66
+potodo/_github.py,sha256=y3t0Mf8AZOu_hZA8vh4Z_KiB143XRVngxmiFuMBKz2Y,565
+potodo/potodo.py,sha256=l0_IH02N-fJVxwOTRoWPEEMXAqUueR7JmSS8eklmoQY,7473
+potodo-0.0.9.dist-info/LICENSE,sha256=z0VjlQhnaFXX5kjtP0_09kKffOu7aznPV62-66yZPpw,1109
+potodo-0.0.9.dist-info/METADATA,sha256=GLOj5gkdbP8cl5kwLk29kk4p0oySh2AGF55oIbryrbI,1677
+potodo-0.0.9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+potodo-0.0.9.dist-info/entry_points.txt,sha256=3QN9t1XtRKYJpmnOHN7qHHM_E-sH-_ouOLs0dewu7Ts,47
+potodo-0.0.9.dist-info/top_level.txt,sha256=cTkD5ImOkIGrk3dDlKK7qrjzOn2-ttqGYPl3KcT3bDA,7
+potodo-0.0.9.dist-info/RECORD,,
