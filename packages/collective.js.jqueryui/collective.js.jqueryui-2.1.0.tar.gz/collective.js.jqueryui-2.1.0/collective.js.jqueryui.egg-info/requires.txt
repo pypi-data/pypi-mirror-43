@@ -1,0 +1,2 @@
+plone.app.jquery>1.6
+Products.CMFPlonesetuptools
