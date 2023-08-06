@@ -1,0 +1,11 @@
+setup.py
+adidasSensor/__init__.py
+adidasSensor/__main__.py
+adidasSensor/boot.py
+adidasSensor/init.py
+adidasSensor/plot.py
+adidas_sensor.egg-info/PKG-INFO
+adidas_sensor.egg-info/SOURCES.txt
+adidas_sensor.egg-info/dependency_links.txt
+adidas_sensor.egg-info/entry_points.txt
+adidas_sensor.egg-info/top_level.txt
