@@ -1,0 +1,8 @@
+README.md
+fb-cli
+setup.py
+fb_cli.egg-info/PKG-INFO
+fb_cli.egg-info/SOURCES.txt
+fb_cli.egg-info/dependency_links.txt
+fb_cli.egg-info/requires.txt
+fb_cli.egg-info/top_level.txt
