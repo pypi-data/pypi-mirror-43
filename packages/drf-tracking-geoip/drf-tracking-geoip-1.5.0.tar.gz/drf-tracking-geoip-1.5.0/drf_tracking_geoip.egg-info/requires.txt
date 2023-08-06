@@ -1,0 +1,4 @@
+Django>=1.7
+djangorestframework>=3
+pytz
+geoip2>=2.9.0
