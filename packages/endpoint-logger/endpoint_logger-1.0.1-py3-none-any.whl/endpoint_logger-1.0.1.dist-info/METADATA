@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: endpoint-logger
+Version: 1.0.1
+Summary: A Python package used to track Flask API endpoint access. (Built in Python 3)
+Home-page: https://github.com/M69k65y/endpoint-logger
+Author: M69k65y
+License: MIT
+Keywords: flask endpoint logger logging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+
+UNKNOWN
+
+
