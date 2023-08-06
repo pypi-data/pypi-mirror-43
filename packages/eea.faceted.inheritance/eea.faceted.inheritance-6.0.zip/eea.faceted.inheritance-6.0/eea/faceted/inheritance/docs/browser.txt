@@ -1,0 +1,70 @@
+Faceted inheritance user interface
+==================================
+
+Set up
+------
+
+  Imports
+
+    >>> from zope.component import getMultiAdapter
+    >>> from plone.testing.z2 import Browser
+    >>> from plone.app.testing import TEST_USER_NAME, TEST_USER_PASSWORD
+
+  Sandbox
+
+    >>> portal = layer["portal"]
+    >>> request = layer['request']
+    >>> sandbox = portal['sandbox']
+    >>> portal.error_log._ignored_exceptions = ()
+    >>> app = layer["app"]
+
+  Add ancestor
+
+    >>> fid = sandbox.invokeFactory('Folder', 'ancestor')
+    >>> ancestor = sandbox._getOb(fid)
+    >>> subtyper = getMultiAdapter((ancestor, request), name=u'faceted_subtyper')
+    >>> subtyper.enable()
+    >>> ancestor.reindexObject()
+
+  Add heritor
+
+    >>> fid = sandbox.invokeFactory('Folder', 'heritor')
+    >>> heritor = sandbox._getOb(fid)
+    >>> hertyper = getMultiAdapter((heritor, heritor.REQUEST), name=u'facetedheritor_subtyper')
+    >>> hertyper.can_enable_heritor
+    True
+
+    >>> hertyper.enable()
+    >>> heritor.reindexObject()
+
+  Initialize browser
+
+    >>> browser = Browser(app)
+    >>> browser.handleErrors = False
+    >>> browser.addHeader('Authorization', 'Basic %s:%s' % (TEST_USER_NAME, TEST_USER_PASSWORD))
+    >>> import transaction
+    >>> transaction.commit()
+
+  Default heritor view
+
+    >>> heritor_url = heritor.absolute_url()
+    >>> browser.open(heritor_url)
+
+  Configure heritor
+
+    >>> browser.open(heritor_url + '/@@configure_faceted.html')
+    >>> control = browser.getControl(name='ancestor')
+    >>> control.options
+    ['', '/plone/sandbox/ancestor']
+
+    >>> control.value = ['/plone/sandbox/ancestor']
+    >>> browser.getControl('Save').click()
+    >>> 'Changes saved' in browser.contents
+    True
+
+    >>> browser.getControl(name='ancestor').value
+    ['/plone/sandbox/ancestor']
+
+  Check results
+
+    >>> browser.open(heritor_url)

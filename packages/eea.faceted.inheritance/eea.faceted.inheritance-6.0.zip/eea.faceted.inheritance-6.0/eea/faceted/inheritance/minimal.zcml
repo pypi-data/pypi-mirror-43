@@ -1,0 +1,23 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="eea">
+
+  <!-- Dependencies -->
+  <include file="meta.zcml" />
+  <include package="eea.facetednavigation" file="minimal.zcml" />
+
+  <configure zcml:condition="installed plone.app.dexterity">
+    <include file="dexterity.zcml" />
+  </configure>
+
+  <include file="profiles.zcml" />
+
+  <include package=".subtypes" />
+  <include package=".browser" />
+  <include package=".criteria" />
+  <include package=".versions" />
+  <include package=".exportimport" />
+  <include package=".upgrades" />
+
+</configure>
