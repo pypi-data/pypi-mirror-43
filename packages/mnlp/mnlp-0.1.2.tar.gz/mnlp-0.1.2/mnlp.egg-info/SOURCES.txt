@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+bin/mnlp-stopwords
+mnlp/__init__.py
+mnlp/stopwords.py
+mnlp.egg-info/PKG-INFO
+mnlp.egg-info/SOURCES.txt
+mnlp.egg-info/dependency_links.txt
+mnlp.egg-info/not-zip-safe
+mnlp.egg-info/top_level.txt
