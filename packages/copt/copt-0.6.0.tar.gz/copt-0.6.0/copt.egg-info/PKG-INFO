@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: copt
+Version: 0.6.0
+Summary: Proximal gradient descent algorithm in Python
+Home-page: http://pypi.python.org/pypi/copt
+Author: Fabian Pedregosa
+Author-email: f@bianp.net
+License: BSD
+Description: .. image:: https://travis-ci.org/openopt/copt.svg?branch=master
+            :target: https://travis-ci.org/openopt/copt
+        .. image:: https://coveralls.io/repos/github/openopt/copt/badge.svg?branch=master
+           :target: https://coveralls.io/github/openopt/copt?branch=master
+        .. image:: https://zenodo.org/badge/46262908.svg
+           :target: https://zenodo.org/badge/latestdoi/46262908
+        
+        C-OPT: composite optimization in Python
+        =======================================
+        
+        C-OPT is an optimization library written in pure Python that follows the scipy.optimize API.
+        
+        
+        Documentation
+        =============
+        
+        See http://openopt.github.io/copt/
+        
+        
+        Citing
+        ======
+        
+        If this software is useful for your research, please consider citing it as
+        
+        .. code::
+        
+            @article{copt,
+              author       = {Fabian Pedregosa},
+              title        = {C-OPT: composite optimization in Python},
+              year         = 2018,
+              DOI          = {10.5281/zenodo.1283339},
+              url={http://openopt.github.io/copt/}
+            }
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
