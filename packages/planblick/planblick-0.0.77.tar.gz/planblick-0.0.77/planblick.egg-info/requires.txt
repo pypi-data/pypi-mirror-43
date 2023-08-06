@@ -1,0 +1,6 @@
+cherrypy
+requests
+boto3
+pycparser
+endesive
+pycrypto
