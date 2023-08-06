@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: marshmallow-numerical
+Version: 0.0.1
+Summary: Marshmallow Schema generator for pandas and numpy
+Home-page: https://github.com/zblz/marshmallow-numerical
+Author: Víctor Zabalza
+Author-email: vzabalza@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
