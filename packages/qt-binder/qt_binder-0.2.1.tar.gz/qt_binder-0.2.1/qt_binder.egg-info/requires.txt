@@ -1,0 +1,4 @@
+six
+traits
+pyface
+traitsui
