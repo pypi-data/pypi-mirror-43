@@ -1,0 +1,15 @@
+register_apps/VERSION,sha256=wo_MpTY3vIjhJK8XJd8Ty5jGne3v1i-zzb4c22t2BiQ,6
+register_apps/__init__.py,sha256=RYdIItLsIJQGpa4sr_Q_ketH7YAWKF16-kxIqhsG_zY,278
+register_apps/__main__.py,sha256=kwdczVAMKc7TtgUl1jvhuGAd3X-GhnegKp3vnqJ2tmc,357
+register_apps/cli.py,sha256=PgpgJs4vhlPR3_E00qwFochgbthGsn0viVpD82BWB3c,7458
+register_apps/exceptions.py,sha256=84iQqRcgR7mdtJfa9ujXOApc8vVfPg-Qko1LcFKLAcE,902
+register_apps/options.py,sha256=trtN--2PSvPfezOSiEgHytiHNgaXce3BJw2Y8xcnvOg,2770
+register_apps/utils.py,sha256=P1EsJ8mqqQR5XdzzU52L9JKtspemj3f3hCg6BZpHVmA,626
+register_apps/validators.py,sha256=UuSHc17WuH0-ED8GrZlJgUWG057n7N4NC_4zaqpfbwA,1657
+register_apps/data/README.md,sha256=eMBsTHJbN6BGTFzVWNxpAro3k7FIvdIZMWECvqIhJcE,315
+register_apps-2.0.0.dist-info/LICENSE,sha256=hxxeyPNWIxNIfBwruIv81ACSBxBe4gi2LsW6u3C8Q-A,1083
+register_apps-2.0.0.dist-info/METADATA,sha256=e3YyBu31DwtlxoyA8d2GE7Xnu0_vH3bj_-YoTpkbhVk,1152
+register_apps-2.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+register_apps-2.0.0.dist-info/entry_points.txt,sha256=i76wnKZR2Sj9lVaTuBrL7vLUQprk1rYeFRXj4btP4Zk,181
+register_apps-2.0.0.dist-info/top_level.txt,sha256=rXzIqU2w60e47p4eIIRNCycGlufWKFi1eYbO2MMIMsQ,14
+register_apps-2.0.0.dist-info/RECORD,,
