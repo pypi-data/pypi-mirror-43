@@ -1,0 +1,8 @@
+README.md
+kube-provision
+setup.py
+kube_provision.egg-info/PKG-INFO
+kube_provision.egg-info/SOURCES.txt
+kube_provision.egg-info/dependency_links.txt
+kube_provision.egg-info/requires.txt
+kube_provision.egg-info/top_level.txt
