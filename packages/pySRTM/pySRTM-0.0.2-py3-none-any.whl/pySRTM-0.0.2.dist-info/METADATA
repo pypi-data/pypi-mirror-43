@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pySRTM
+Version: 0.0.2
+Summary: Tool for data collecting and data processing of SRTM data.
+Home-page: https://github.com/TimHessels/pySRTM
+Author: Tim Hessels
+Author-email: timhessels@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: urllib
+
+# pySRTM
+
+Python module for collecting and processing SRTM data.
+
+
+
