@@ -1,0 +1,4 @@
+pyScss
+beautifulsoup4
+argparse
+watchdog
