@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: BlueJayson
+Version: 0.1.0.dev1
+Summary: BlueJayson is a simple Pythonic data definition library to manage very basic data validations and serializations to and from JSON.
+Home-page: https://github.com/abhabongse/bluejayson
+Author: Abhabongse Janthong
+Author-email: abhabongse@gmail.com
+License: Apache License 2.0
+Keywords: schema data-definition json
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6.0,<4
+Description-Content-Type: text/markdown
+
+
+# BlueJayson
+
+[![PyPI](https://img.shields.io/pypi/v/BlueJayson.svg?color=blue)](https://pypi.org/project/BlueJayson/)
+
+BlueJayson is a simple Pythonic data definition library to manage very basic data validations and serializations to and from JSON.
+
+**This project is still in development and is not yet production-ready.**
+
+## Why another library?
+
+Other similar libraries simply do not fit my use cases. So I write another one.  
+It's also my opportunity to practice meta-programming in Python (which is very cool by the way). 
+
+
