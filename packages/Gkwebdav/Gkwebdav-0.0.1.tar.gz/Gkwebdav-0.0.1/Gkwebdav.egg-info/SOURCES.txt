@@ -1,0 +1,9 @@
+README.md
+setup.py
+Gkwebdav/__init__.py
+Gkwebdav/__version__.py
+Gkwebdav/core.py
+Gkwebdav.egg-info/PKG-INFO
+Gkwebdav.egg-info/SOURCES.txt
+Gkwebdav.egg-info/dependency_links.txt
+Gkwebdav.egg-info/top_level.txt

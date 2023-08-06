@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Gkwebdav
+Version: 0.0.1
+Summary: new Webdav Client for Python3+
+Home-page: https://github.com/GuokeNo1/Gkwebdav
+Author: Guoke
+Author-email: 1962908113@qq.com
+License: UNKNOWN
+Description: New webdav client for Python3+
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
