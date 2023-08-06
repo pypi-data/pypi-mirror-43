@@ -1,0 +1,57 @@
+#!python
+"""Convert latitude and longtitude bounds to tiles coordinates."""
+
+import argparse
+
+from pyosmkit.metatile import bound_to_metatiles
+from pyosmkit.point import str_to_range, Bound, LatLongBound
+from pyosmkit.tile import Tile
+
+
+DEFAULT_BASEDIR = "/var/lib/mod_tile"
+DEFAULT_EXT = ".png"
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description=("Convert latitude and longtitude bounds to tiles "
+                                                  "coordinates."))
+    parser.add_argument("-d", "--basedir", default=DEFAULT_BASEDIR, help="output basedir prefix")
+    parser.add_argument("-e", "--ext", default=DEFAULT_EXT, help="output extension")
+    parser.add_argument("-m", "--meta", action="store_true", help="convert path to metatile?")
+    parser.add_argument("--lng", required=True, type=str, metavar="LNG1[:LNG2]",
+                        help="longtitude coordinate (or range LNG1:LNG2)")
+    parser.add_argument("--lat", required=True, type=str, metavar="LAT1[:LAT2]",
+                        help="latitude coordinate (or range LAT1:LAT2")
+    parser.add_argument("--zooms", default="10:10", type=str, metavar="Z1[:Z2]",
+                        help="zoom coordinate (or range Z1:Z2)")
+    return parser.parse_args()
+
+
+def print_tiles(bound, basedir):
+    for point in bound.points():
+        tile = Tile(z=point.z, x=point.x, y=point.y, style="")
+        print(tile.filepath(basedir=basedir))
+
+
+def print_metatiles(bound, basedir):
+    metatiles = bound_to_metatiles(bound, style="")
+    for m in metatiles:
+        print(m.filepath(basedir=basedir))
+
+
+def main():
+    args = parse_args()
+
+    zooms = str_to_range(args.zooms, output=int)
+    lat = str_to_range(args.lat)
+    lng = str_to_range(args.lng)
+
+    for zoom in range(min(zooms), max(zooms) + 1):
+        ll_bound = LatLongBound(z=zoom, lat1=lat[0], lat2=lat[1], lng1=lng[0], lng2=lng[1])
+        bound = Bound.from_latlong_bound(ll_bound)
+        f = print_metatiles if args.meta else print_tiles
+        f(bound=bound, basedir=args.basedir)
+
+
+if __name__ == "__main__":
+    main()
