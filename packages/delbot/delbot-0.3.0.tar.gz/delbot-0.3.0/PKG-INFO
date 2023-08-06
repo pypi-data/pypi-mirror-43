@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: delbot
+Version: 0.3.0
+Summary: A service status blog for SaaS applications
+Home-page: https://git.steadman.io/podiant/delbot
+Author: Mark Steadman
+Author-email: mark@podiant.co
+License: MIT
+Description: Delbot
+        ======
+        
+        A service status blog for SaaS applications
+        
+        ![Build](https://git.steadman.io/podiant/delbot/badges/master/build.svg)
+        ![Coverage](https://git.steadman.io/podiant/delbot/badges/master/coverage.svg)
+        
+        ## Quickstart
+        
+        Install Delbot:
+        
+        ```sh
+        pip install delbot
+        ```
+        
+        Run it:
+        
+        ```sh
+        python manage.py migrate
+        python manage.py runserver
+        ```
+        
+        ## Running tests
+        
+        Does the code actually work?
+        
+        ```sh
+        coverage run --source delbot manage.py test
+        ```
+        
+        ## Credits
+        
+        Tools used in rendering this package:
+        
+        - [Cookiecutter](https://github.com/audreyr/cookiecutter)
+        - [`cookiecutter-djangopackage`](https://github.com/pydanny/cookiecutter-djangopackage)
+        
+Keywords: delbot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
