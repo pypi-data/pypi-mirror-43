@@ -1,0 +1,11 @@
+tabulate
+
+[:python_version == "3.6.*"]
+dataclasses
+
+[develop]
+requests
+requests-cache
+progressbar2
+pytest
+pytest-cov
