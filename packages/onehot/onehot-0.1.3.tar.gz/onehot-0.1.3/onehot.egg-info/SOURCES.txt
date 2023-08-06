@@ -1,0 +1,23 @@
+.gitignore
+.travis.yml
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+data/train.csv
+examples/bugfix 0.1.2 from grouplabelencode.ipynb
+examples/column names.ipynb
+examples/one hot encoding - step by step.ipynb
+examples/using OneHotDummy.ipynb
+onehot/__init__.py
+onehot/mapping_to_colname.py
+onehot/onehotdummy_class.py
+onehot/onehotencode.py
+onehot.egg-info/PKG-INFO
+onehot.egg-info/SOURCES.txt
+onehot.egg-info/dependency_links.txt
+onehot.egg-info/not-zip-safe
+onehot.egg-info/requires.txt
+onehot.egg-info/top_level.txt
