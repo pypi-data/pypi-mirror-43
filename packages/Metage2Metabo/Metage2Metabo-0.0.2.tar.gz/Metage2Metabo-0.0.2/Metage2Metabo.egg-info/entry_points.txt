@@ -1,0 +1,3 @@
+[console_scripts]
+m2m_workflow = metage2metabo.__main__:main_workflow
+
