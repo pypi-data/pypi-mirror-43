@@ -1,0 +1,9 @@
+ultimate_hosts_blacklist/whitelist/__init__.py,sha256=37v55WTUHAuOg18eLKLLu-BFzFq66UNDX6fZ_ONO7D0,4151
+ultimate_hosts_blacklist/whitelist/core.py,sha256=mEYFy4vEWmrNQ-9kYz2q1OpcS-WN40qbEC1wCbkfHJU,11820
+ultimate_hosts_blacklist/whitelist/helpers.py,sha256=vmkX4LiuyV1zLDrxYE_I5AheyKDw4iuicmDd3jN0qQY,7694
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/LICENSE,sha256=52LcW_PK4zyI5F8stkrEocQk5FaBQ99dp1oVaweRzbo,1158
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/METADATA,sha256=rgpeUe7lhfDjBmDw6mvnCtBHMOmOXMCoKo8RbSqQ2i0,4226
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/entry_points.txt,sha256=jDAfP2kRG54SApMN4XszElUXCa-2-O4_balvE_Xrbhs,235
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/top_level.txt,sha256=ZXsZK4yRnPZ9L2YYFKUmAbIdesFooCsXACF7jFxLYVs,25
+ultimate_hosts_blacklist_whitelist-2.0.0.dist-info/RECORD,,
