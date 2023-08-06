@@ -1,0 +1,9 @@
+[console_scripts]
+vanguard = vgkits.vanguard:main
+vanguard-brainfreeze = vgkits.vanguard.brainfreeze:main
+vanguard-brainwash = vgkits.vanguard.brainwash:main
+vanguard-put = vgkits.vanguard:put
+vanguard-rm = vgkits.vanguard:rm
+vanguard-see = vgkits.vanguard:see
+vanguard-shell = vgkits.vanguard.shell:main
+
