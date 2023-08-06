@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+tasks.py
+httpaws/__init__.py
+httpaws/__main__.py
+httpaws/core.py
+httpaws.egg-info/PKG-INFO
+httpaws.egg-info/SOURCES.txt
+httpaws.egg-info/dependency_links.txt
+httpaws.egg-info/entry_points.txt
+httpaws.egg-info/requires.txt
+httpaws.egg-info/top_level.txt
