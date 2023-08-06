@@ -1,0 +1,7 @@
+README.md
+setup.py
+data_basket/__init__.py
+data_basket.egg-info/PKG-INFO
+data_basket.egg-info/SOURCES.txt
+data_basket.egg-info/dependency_links.txt
+data_basket.egg-info/top_level.txt
