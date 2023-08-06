@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* Add ml2\l3\qos\fwaas implements
+* Fix author-email in setup.cfg
+* Optimizing the safety of the http link site in HACKING.rst
+* Add ml2\l3\common\fwaas\lbaas\tools implements
+* Initial Cookiecutter Commit
+* Added .gitreview

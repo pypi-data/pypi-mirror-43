@@ -1,0 +1,7 @@
+[neutron.ml2.mechanism_drivers]
+zte_ml2driver = networking_zte.ml2.ml2_neutron_driver:Ml2MechanismDriver
+
+[neutron.service_plugins]
+zte_firewall = networking_zte.fwaas.zenic_fwaas_plugin:ZenicFirewallPlugin
+zte_qos = networking_zte.qos.zenic_qos_plugin:ZenicQoSPlugin
+
