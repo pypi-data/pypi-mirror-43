@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "bootstrap/fixes.html" as fixes %}
+{% import "bootstrap/utils.html" as util %}
+
+{% block title %}Tutorial{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script type="text/javascript">
+        var maxHeight = 0;
+        $(".panel-body").find(".row").find(".col-sm-6").find(".thumbnail").each(function (idx, item) {
+            var height = $(item).height();
+            maxHeight = maxHeight > height ? maxHeight : height;
+        });
+        $(".panel-body").find(".row").find(".col-sm-6").find(".thumbnail").height(maxHeight);
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        {{ util.flashed_messages(dismissible=True, container=False) }}
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Getting started</h3>
+            </div>
+            <div class="panel-body">
+                <p>A brief tutorial on how to get started with the <a href="https://vimeo.com/311893324">PathMe Viewer
+                    </a>
+                </p>
+                <iframe src="https://player.vimeo.com/video/311893324" width="640" height="360" frameborder="0"
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+{% endblock %}
