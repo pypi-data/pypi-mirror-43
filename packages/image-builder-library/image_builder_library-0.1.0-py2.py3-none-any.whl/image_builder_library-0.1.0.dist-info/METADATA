@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: image-builder-library
+Version: 0.1.0
+Summary: Python library to generate images by combining templates and data
+Home-page: https://github.com/yulkes/image_builder_library
+Author: Eyal Yavor
+Author-email: yulkes@gmail.com
+License: UNKNOWN
+Keywords: image_builder_library
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=6.0)
+
+=====================
+Image Builder Library
+=====================
+
+
+
+
+.. image:: https://pyup.io/repos/github/yulkes/image-builder-lib/shield.svg
+     :target: https://pyup.io/repos/github/yulkes/image-builder-lib/
+     :alt: Updates
+
+
+
+Python library to generate images by combining templates and data
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-03-10)
+------------------
+
+* First release on PyPI.
+
+
