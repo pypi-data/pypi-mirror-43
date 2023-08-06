@@ -1,0 +1,8 @@
+README.md
+setup.py
+bluesocket/__init__.py
+bluesocket.egg-info/PKG-INFO
+bluesocket.egg-info/SOURCES.txt
+bluesocket.egg-info/dependency_links.txt
+bluesocket.egg-info/requires.txt
+bluesocket.egg-info/top_level.txt
