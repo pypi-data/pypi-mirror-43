@@ -1,0 +1,11 @@
+mspider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mspider/genspider.py,sha256=hIzdzqMiG1-o0S7jQ6UCY2Pp_hwovweN2D33WaogCBU,1979
+mspider/mtd.py,sha256=9AwWOdpUKT07F1OCvuLDESPYpUv7tqqSuipgEkPf93Q,5937
+mspider/pp.py,sha256=Ycd6Q7FYYV_C05faKyF4EcugHKQ3Q1J3uJSQVif0YA0,4197
+mspider/spider.py,sha256=Zwo61RvDqQ6VHPQ2BUvv05DHGY5r2tnHRgPBS3NlVTo,1132
+mspider-0.2.3.dist-info/LICENSE,sha256=clx0CseHpEPp8F1Z6-w8QEOIHXwfuPafxJyxscTpHkA,1064
+mspider-0.2.3.dist-info/METADATA,sha256=V81bAc-vvgVcnMmCTbeEaob3gsbqbI70_KOnmsEvl4M,7536
+mspider-0.2.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mspider-0.2.3.dist-info/entry_points.txt,sha256=-qBxwCu-yBCQZcE5-4xe8rf-pfSiBsKf0GGqynUuYgA,59
+mspider-0.2.3.dist-info/top_level.txt,sha256=YtH_sXTVtNKiv2PuxjeFQqGN8Ha4Y1IYhEx_FxtgxEE,8
+mspider-0.2.3.dist-info/RECORD,,
