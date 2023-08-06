@@ -1,0 +1,4 @@
+Pillow
+pypiwin32
+configparser
+subprocess32
