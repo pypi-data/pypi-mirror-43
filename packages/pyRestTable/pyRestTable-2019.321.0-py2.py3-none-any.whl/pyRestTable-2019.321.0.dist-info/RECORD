@@ -1,0 +1,11 @@
+pyRestTable/LICENSE.txt,sha256=16mfFtOih-65XE9FPsS_fYxskM9qxlBsx0BmeGncPxU,13116
+pyRestTable/__init__.py,sha256=V6bd32O5zFukTIBR74ZguX2MEo19i70Vp8KlCLjPMVM,2164
+pyRestTable/_version.py,sha256=073myMIq-tSeaXBB4buXG56pCSYW1JjO6FfTlYtFj_A,503
+pyRestTable/cansas.py,sha256=KL6Y19BsOQ9gL2idYdsRJpX4Al1GkSGNPqsw_F0rhUs,1292
+pyRestTable/rest_table.py,sha256=c45Si5kQVZylRuqN80kHd5pttNci5sdGdN_hLvXZbhY,12540
+pyRestTable/simple.py,sha256=vkPbsCSgfdQ-UPhHV2CfCm1nRdJk7MW2FSL8isQyZO0,370
+pyRestTable-2019.321.0.dist-info/METADATA,sha256=rLP3-TbRdDVvSyMCnY4icVyQc2CQeKjthYzTq7eyZKI,2380
+pyRestTable-2019.321.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+pyRestTable-2019.321.0.dist-info/top_level.txt,sha256=dke949wxvMn6QW2LF6IiQ2yWs538wseiHPJNuxdXBjA,12
+pyRestTable-2019.321.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyRestTable-2019.321.0.dist-info/RECORD,,
