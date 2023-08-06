@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdbtest/__init__.py
+pdbtest/__main__.py
+pdbtest/pdbtest.py
+pdbtest.egg-info/PKG-INFO
+pdbtest.egg-info/SOURCES.txt
+pdbtest.egg-info/dependency_links.txt
+pdbtest.egg-info/top_level.txt
