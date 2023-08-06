@@ -1,0 +1,11 @@
+git_pull_request/__init__.py,sha256=-PpoqcdXMU0TraFN7BXpBB6DxpW1THw2oNkw1UXj-1o,18866
+git_pull_request/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_pull_request/tests/test_gpr.py,sha256=EkohRCsPXH9q6szIlkdbwsiNPwgCkGpW6dyuSWcBwC0,10024
+git_pull_request-2.8.1.dist-info/AUTHORS,sha256=KNjadcHf8MHEUpgcF1l1ZgRWeCUf6hOVBuVSzyYKg9o,446
+git_pull_request-2.8.1.dist-info/LICENSE,sha256=A5Us1Px42BYFaGmOeyCWvJ-nnclrl1gn_onKr6FcvDo,11348
+git_pull_request-2.8.1.dist-info/METADATA,sha256=vF8A1n1xTl4A4yPqdB94AGyq6HwM0OBS6z0_f36D1vo,3850
+git_pull_request-2.8.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+git_pull_request-2.8.1.dist-info/entry_points.txt,sha256=VMK20t2OveGHJXecUZ_nzna7XrF9Fo5o--mqvXZtFeU,60
+git_pull_request-2.8.1.dist-info/pbr.json,sha256=kZ2WMEMbM_BL2f6iLN0CFIa8hWEMTXetbRdgFaQoo7Y,46
+git_pull_request-2.8.1.dist-info/top_level.txt,sha256=LdfXEWZSE07yzac9hc_NnsBv0w1a7S3ZH4JK8SXh6ew,17
+git_pull_request-2.8.1.dist-info/RECORD,,
