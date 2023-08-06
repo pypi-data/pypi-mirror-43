@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+raspiSensors/__init__.py
+raspiSensors/bmp280.py
+raspiSensors/hcsr04.py
+raspiSensors/pca9685.py
+raspiSensors/qmc5883l.py
+raspiSensors.egg-info/PKG-INFO
+raspiSensors.egg-info/SOURCES.txt
+raspiSensors.egg-info/dependency_links.txt
+raspiSensors.egg-info/requires.txt
+raspiSensors.egg-info/top_level.txt
