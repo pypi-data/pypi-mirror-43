@@ -1,0 +1,7 @@
+eprism.py
+setup.py
+eprism.egg-info/PKG-INFO
+eprism.egg-info/SOURCES.txt
+eprism.egg-info/dependency_links.txt
+eprism.egg-info/requires.txt
+eprism.egg-info/top_level.txt
