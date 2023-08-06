@@ -1,0 +1,7 @@
+starlette
+databases[postgresql]
+
+[registration]
+python-multipart
+aiosmtplib
+requests-async
