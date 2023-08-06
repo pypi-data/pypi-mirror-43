@@ -1,0 +1,17 @@
+0.0.3
+-----
+
+* Fixed `set_multiple_pixels` again
+* Defaulted internal buffer to list of tuples
+
+0.0.2
+-----
+
+* Fixed `set_all` method
+* Fixed `set_multiple_pixels` method
+
+0.0.1
+-----
+
+* Initial release
+
