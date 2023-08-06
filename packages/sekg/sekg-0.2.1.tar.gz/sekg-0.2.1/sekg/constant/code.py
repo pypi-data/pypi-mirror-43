@@ -1,0 +1,114 @@
+class CodeEntityCategory:
+    """
+    the basic code type constant, define all things in code we care.
+    can be used in model definition and other thing.
+    Here we think there are three different category CodeEntity (Container,Type,Value).
+    and sometimes one codeEntity could be Container and Type at the same time.
+
+    When possible, you should use the most accurate categories, but in some cases, it is difficult to do so,
+    You can use the most suitable type.
+
+    For example, you don't know if an API Entity is an interface, then you can temporarily use TYPE_CLASS as his category,
+    and change later.
+
+    Explanation:
+
+    1. Container, the CodeEntity could contain other CodeEntity
+        - CATEGORY_PACKAGE, stand for the package, it could contain other class, interface.
+        - CATEGORY_CLASS, stand for the class, it could contain method, field.
+        - CATEGORY_INTERFACE, stand for the interface, it could contain method.
+        - CATEGORY_EXCEPTION_CLASS, stand for the special class- Exception, the Exception class will thrown by method.
+            actually TYPE_EXCEPTION_CLASS is subclass of TYPE_EXCEPTION_CLASS.
+        - CATEGORY_ERROR_CLASS,  stand for the special class- Error, the Error class will thrown by method.
+            actually TYPE_ERROR_CLASS is subclass of TYPE_EXCEPTION_CLASS.
+        - CATEGORY_ENUM_CLASS, stand for the special class- ENUM,
+    2. Value, the CodeEntity stand for some value(instance) that has type and special meaning. type is necessary.
+
+        For example, "name:Sting path; type:java.lang.String; description:the path to the file" is a parameter meaning the file path.
+        - TYPE_RETURN_VALUE, meaning the return value instance of some methods. Only has the (type,description). and the description sometimes maybe empty.
+        - CATEGORY_PARAMETER, meaning the parameter of the method. with type and
+        - CATEGORY_FIELD, some field in class or interface, maybe constant or property of class.
+            For example, java.awt.Color.RED, (type,name,description,value).
+        - CATEGORY_EXCEPTION_CONDITION, description what and when the exception thrown.
+        (exception type,description). For example, (type:NullPointerException, thrown when the parameter file path is Null)
+        PS: it is not the exception class, it is the exception instance thrown by the method.
+    3. Type:
+        - CATEGORY_PRIMARY_TYPE, the primary type for java, etc. int, long, short.
+        - CATEGORY_CLASS, stand for the class, it could contain method, field.
+        - CATEGORY_INTERFACE, stand for the interface, it could contain method.
+        - CATEGORY_EXCEPTION_CLASS, stand for the special class- Exception, the Exception class will thrown by method.
+            actually CATEGORY_EXCEPTION_CLASS is subclass of CATEGORY_EXCEPTION_CLASS.
+        - CATEGORY_ERROR_CLASS,  stand for the special class- Error, the Error class will thrown by method.
+            actually CATEGORY_ERROR_CLASS is subclass of CATEGORY_EXCEPTION_CLASS.
+        - CATEGORY_ENUM_CLASS, stand for the special class- ENUM,
+
+    3. Other,
+        - CATEGORY_METHOD, the all method, actually the CATEGORY_CONSTRUCT_METHOD is also count for method.
+        - CATEGORY_CONSTRUCT_METHOD, special method but also belong to method.
+        - CATEGORY_ANNOTATION, some annotation in java. Etc."@Nullable"
+        - CATEGORY_XML_ATTRIBUTE, some xml attribute, normally for android. But we think it is not so useful. Maybe we should delete it.
+        - CATEGORY_ENUM_CONSTANTS, the constant in CATEGORY_ENUM_CLASS,
+
+    """
+    CATEGORY_UNKNOWN = 0
+    CATEGORY_PACKAGE = 1
+    CATEGORY_CLASS = 2
+    CATEGORY_INTERFACE = 3
+    CATEGORY_EXCEPTION_CLASS = 4
+    CATEGORY_ERROR_CLASS = 5
+    CATEGORY_RETURN_VALUE = 6
+    CATEGORY_CONSTRUCT_METHOD = 7
+    CATEGORY_ENUM_CLASS = 8
+    CATEGORY_ANNOTATION = 9
+    CATEGORY_XML_ATTRIBUTE = 10
+    CATEGORY_METHOD = 11
+    CATEGORY_ENUM_CONSTANTS = 12
+    CATEGORY_PRIMARY_TYPE = 13
+    CATEGORY_PARAMETER = 14
+    CATEGORY_FIELD = 15
+    CATEGORY_EXCEPTION_CONDITION = 16
+
+
+class CodeEntityRelationCategory:
+    """
+    describe different relation between CodeEntity
+
+    - RELATION_CATEGORY_BELONG_TO, the belong to relation between CodeEntity,
+         (Method, belongTo, Class/Interface), (Class/Interface, belongTo, Package),
+    - RELATION_CATEGORY_EXTENDS, the extends relation between class.
+        (Class, extends, Class)
+    - RELATION_CATEGORY_IMPLEMENTS, the implement relation between class and interface.
+        (Class,implements, Interface)
+    - RELATION_CATEGORY_SEE_ALSO, the see also relation between CodeEntity
+        eg. (Method, seeAlso, Method)
+    - RELATION_CATEGORY_THROW_EXCEPTION_TYPE, between the Exception class and the Method
+        (Method, THROW_EXCEPTION_TYPE, Exception class). eg. (java.io.File,THROW_EXCEPTION_TYPE,java.lang.FileNotExistException)
+    - RELATION_CATEGORY_RETURN_VALUE_TYPE, between the Class and the Method
+        (Method, RETURN_VALUE_TYPE, Exception class). eg. (java.applet.AppletContext.getApplet(java.lang.String),java.applet.Applet)
+
+    - RELATION_CATEGORY_HAS_PARAMETER, between the Method and Parameter value entity,
+    - RELATION_CATEGORY_HAS_RETURN_VALUE, between the Method and Return  Value entity,
+    - RELATION_CATEGORY_HAS_EXCEPTION_CONDITION, between the Method and EXCEPTION_CONDITION
+    - RELATION_CATEGORY_HAS_FIELD, between the Class and field
+    - RELATION_CATEGORY_HAS_TYPE, between the Value-CodeEntity and its Type.
+    - RELATION_CATEGORY_METHOD_IMPLEMENT_CODE_CALL, some method are call other Method
+    """
+    RELATION_CATEGORY_BELONG_TO = 1
+    RELATION_CATEGORY_EXTENDS = 2
+    RELATION_CATEGORY_IMPLEMENTS = 3
+    RELATION_CATEGORY_SEE_ALSO = 4
+
+    # relation between method and type
+    RELATION_CATEGORY_THROW_EXCEPTION_TYPE = 5
+    RELATION_CATEGORY_RETURN_VALUE_TYPE = 6
+
+    # relation between method and the Value-category entity
+    RELATION_CATEGORY_HAS_PARAMETER = 7
+    RELATION_CATEGORY_HAS_RETURN_VALUE = 8
+    RELATION_CATEGORY_HAS_EXCEPTION_CONDITION = 9
+
+    # relation for class and field
+    RELATION_CATEGORY_HAS_FIELD = 10
+    RELATION_CATEGORY_HAS_TYPE = 11
+
+    RELATION_CATEGORY_METHOD_IMPLEMENT_CODE_CALL_METHOD = 13
