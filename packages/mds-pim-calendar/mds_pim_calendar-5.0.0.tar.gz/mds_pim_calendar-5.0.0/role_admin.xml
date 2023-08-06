@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- group: calendar user -->
+        <record model="res.group" id="group_calendar_admin">
+            <field name="name">PIM Calendar - Administrator</field>
+        </record>
+
+        <record model="res.user-res.group" 
+                id="user_admin_group-group_calendar_admin">
+            <field name="user" ref="res.user_admin"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+
+        <!-- show menu -->
+        <record model="ir.ui.menu-res.group" 
+                id="menu_calendar1-group_calendar_admin">
+            <field name="menu" ref="menu_calendar1"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+        <record model="ir.ui.menu-res.group" 
+                id="menu_eventlist-group_calendar_admin">
+            <field name="menu" ref="menu_eventlist"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+        <record model="ir.ui.menu-res.group" 
+                id="menu_calendarlist-group_calendar_admin">
+            <field name="menu" ref="menu_calendarlist"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+
+
+        <!-- event: full access -->
+        <record model="ir.model.access" id="access_event_admin">
+            <field name="model" search="[('model', '=', 'pim_calendar.event')]"/>
+            <field name="group" ref="group_calendar_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_event_admin">
+            <field name="model" search="[('model', '=', 'pim_calendar.event')]"/>
+            <field name="global_p" eval="False"/>
+            <field name="default_p" eval="False"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_group_event_admin_line1">
+            <field name="domain" pyson="1" eval="[]" />
+            <field name="rule_group" ref="rule_group_event_admin"/>
+        </record>
+        <record model="ir.rule.group-res.group" 
+                id="rule_group_event_admin-group_calendar_admin">
+            <field name="rule_group" ref="rule_group_event_admin"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+
+        <!-- calendar: full access -->
+        <record model="ir.model.access" id="access_calendar_admin">
+            <field name="model" search="[('model', '=', 'pim_calendar.calendar')]"/>
+            <field name="group" ref="group_calendar_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule.group" id="rule_group_calendar_admin">
+            <field name="model" search="[('model', '=', 'pim_calendar.calendar')]"/>
+            <field name="global_p" eval="False"/>
+            <field name="default_p" eval="False"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+        <record model="ir.rule" id="rule_group_calendar_admin_line1">
+            <field name="domain" pyson="1" eval="[]" />
+            <field name="rule_group" ref="rule_group_calendar_admin"/>
+        </record>
+        <record model="ir.rule.group-res.group" 
+                id="rule_group_calendar_admin-group_calendar_admin">
+            <field name="rule_group" ref="rule_group_calendar_admin"/>
+            <field name="group" ref="group_calendar_admin"/>
+        </record>
+
+    </data>
+</tryton>

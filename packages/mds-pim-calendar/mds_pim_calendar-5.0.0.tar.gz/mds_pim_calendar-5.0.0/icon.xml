@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+
+        <record model="ir.ui.icon" id="icon_calendar">
+            <field name="name">mds-calendar-month</field>
+            <field name="path">icon/calendar-month-quiet.svg</field>
+        </record>
+
+        <record model="ir.ui.icon" id="icon_day">
+            <field name="name">mds-calendar-day</field>
+            <field name="path">icon/day-12.svg</field>
+        </record>
+
+    </data>
+</tryton>
