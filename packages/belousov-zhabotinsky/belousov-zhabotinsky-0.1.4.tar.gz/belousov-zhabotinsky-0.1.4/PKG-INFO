@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: belousov-zhabotinsky
+Version: 0.1.4
+Summary: Simulation of the Belousov-Zhabotinski reaction using ASCII art
+Home-page: https://github.com/neumann-mlucas/belousov-zhabotinsky
+Author: Lucas Stefan Minuzzi Neumann
+Author-email: neumannmlucas@gmail.com
+License: UNKNOWN
+Description: # Belousov-Zhabotinsky
+        
+        ## About
+        
+        **The python package you never knew you needed!** Now you can appreciate the belousov-zhabotinsky reaction from the confort of your console windown. Your life will never be the same!
+        
+        Bonus: *ASCII art !*
+        
+        You can learn more abouth the belousov-zhabotinsky reaction here: 
+        https://en.wikipedia.org/wiki/Belousov-Zhabotinsky_reaction
+        
+        Most of the code came from this blog post: https://scipython.com/blog/simulating-the-belousov-zhabotinsky-reaction/
+        
+        ## Instalation
+        
+        *No python 2 support*
+        
+        You can pip install the module with the following command
+        
+        `pip install --user belousov-zhabotinsky`
+        
+        ## Usage
+        
+        `$ belousov-zhabotinsky`
+        
+        Do not use the enter key to exit the animation. I gonna fix that soon.
+        
+        ## Future
+        
+        > Update README.md
+        
+        
+        > Implement a scrensaver
+        
+        
+        > Clean bad code
+        
+        
+        > Fix Bugs
+        
+        
+        
+        *First GitHub project; HOORAY!*
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
