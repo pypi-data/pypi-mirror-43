@@ -1,0 +1,5 @@
+comtypes
+pypiwin32
+line_profiler
+pandas
+pyodbc
