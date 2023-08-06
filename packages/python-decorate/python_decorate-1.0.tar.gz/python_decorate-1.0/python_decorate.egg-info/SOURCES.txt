@@ -1,0 +1,11 @@
+README.rst
+setup.py
+python_decorate/__init__.py
+python_decorate/function_decorate.py
+python_decorate/test_decorate_1.py
+python_decorate.egg-info/PKG-INFO
+python_decorate.egg-info/SOURCES.txt
+python_decorate.egg-info/dependency_links.txt
+python_decorate.egg-info/requires.txt
+python_decorate.egg-info/top_level.txt
+python_decorate.egg-info/zip-safe
