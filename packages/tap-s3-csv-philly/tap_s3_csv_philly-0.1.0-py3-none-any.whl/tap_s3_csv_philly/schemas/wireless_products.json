@@ -1,0 +1,21 @@
+{
+    "type": ["null", "object"],
+    "additionalProperties": false,
+    "properties": {
+		"NPA": {
+			"type": ["null", "integer"]
+		},
+		"NXX": {
+				"type": ["null", "integer"]
+		},
+		"X": {
+			"type": ["null", "integer"]
+			},
+		"CATEGORY": {
+			"type": ["null", "string"]
+		},
+		"FUTURE_USE": {
+			"type": ["null", "string"]
+		}
+    }
+}

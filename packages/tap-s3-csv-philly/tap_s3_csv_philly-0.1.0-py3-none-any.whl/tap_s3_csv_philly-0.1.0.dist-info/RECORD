@@ -1,0 +1,8 @@
+tap_s3_csv_philly/__init__.py,sha256=yWhnVNk-VPojUKzk78R-z_8gjp312b5UZI14Azq5d9E,5530
+tap_s3_csv_philly/schemas/wireless_products.json,sha256=9sfC4kJw3v5PfRPIQWmqzuvNs9xg3ajvHOuG1QeGWjg,341
+tap_s3_csv_philly-0.1.0.dist-info/LICENSE,sha256=IL06W_w1sWpfzE993Taq0ZJtQeovauBYukLIXj2OaBo,32387
+tap_s3_csv_philly-0.1.0.dist-info/METADATA,sha256=SoYNVriGoBheQUk4bLkG43Iz7a1mJCwUuqGrQU7hjPw,391
+tap_s3_csv_philly-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+tap_s3_csv_philly-0.1.0.dist-info/entry_points.txt,sha256=Ez0QFlD31eUVndlXptdC0xXWq2HbCFzW9GcoO4Ifrac,72
+tap_s3_csv_philly-0.1.0.dist-info/top_level.txt,sha256=805of61R4jJ1kDHtiUszUviL7R6yQDcrqgpNTXm9vZQ,18
+tap_s3_csv_philly-0.1.0.dist-info/RECORD,,
