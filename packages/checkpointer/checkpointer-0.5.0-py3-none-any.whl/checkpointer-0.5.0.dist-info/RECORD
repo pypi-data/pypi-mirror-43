@@ -1,0 +1,17 @@
+.DS_Store,sha256=cuTRZTWlO7gPV6d6rbQFSgGBS-CtiuEy41wBWpLYrKA,6148
+checkpointer/__init__.py,sha256=31yQGvxOTzjxQYNX_o66q400VdSk_VkuRkMor1X_GvQ,374
+checkpointer/checkpoint.py,sha256=jdgNIDtyX4X06ij6oN85BgPddO5N0bfFT6w0WwmuQTE,2298
+checkpointer/env.py,sha256=J_lsTdI9U7LIpFVE-ga7bsp6pkZkEUeFeSIcvx0psVI,344
+checkpointer/function_body.py,sha256=kBsgCPeNgQzgXFToTuqQYYvAQicetXtv-UGwyd5b4Ew,1760
+checkpointer/storage.py,sha256=QxlNBNB2OiNX4izPagS9Mgb8CaWOLzvM8pMTRPFURDA,1888
+checkpointer/tf.py,sha256=BsmnTBYPE0X_1DYzYpT9n7WcIdt3ExQ_0Oui9lwmfiM,2187
+checkpointer/utils.py,sha256=L5pvCi4O3I5Le_5U9zfIuB1xIUa_vCkELoYdrYNQNxk,322
+checkpointer/storages/bcolz_storage.py,sha256=N6FlMR1Rou7sxXmRkjKIdHSsdMb3cp9uP1QDNUCYW2Y,2422
+checkpointer/storages/memory_storage.py,sha256=S4SgKSApbQE-pxxKRWLNJqyZMRQwaw5-N0DOIsZM7mE,364
+checkpointer/storages/mongo_storage.py,sha256=S6PsgWgIACTXZpGppzPaIvyAaZtFfO2OdV2jezEaNZk,874
+checkpointer/storages/pickle_storage.py,sha256=SSb6rO9IYSCWZnvEbiDt39eaWxMcJ5b72BpKcQQfdII,1216
+checkpointer-0.5.0.dist-info/LICENSE.txt,sha256=2c7g4mni-RUemFGkk6GnoFwknh-leF04BF_J_3gp4sg,1054
+checkpointer-0.5.0.dist-info/METADATA,sha256=laChtsuyxoU6L0_fDShrJpSyGzcB7Pt_PddAAHqS3e0,292
+checkpointer-0.5.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+checkpointer-0.5.0.dist-info/top_level.txt,sha256=uF0eyHpShnsHI3sobErnhQ8LWCT8DPViqAznKeTaZlw,13
+checkpointer-0.5.0.dist-info/RECORD,,
