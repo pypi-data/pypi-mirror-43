@@ -1,0 +1,10 @@
+PyFreeIPA-0.1.0.data/data/test/README.md,sha256=QZgzRsWnT8RlHzHv_qMhCTmbQE8ELgaT5cURrTmZhh8,2424
+pyfreeipa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfreeipa/__main__.py,sha256=wvwO5SqcSfjiocGj_gECtfpSJUBlQRwtPHNFsGaOc0c,1858
+pyfreeipa/Api/__init__.py,sha256=W5_9xPtK4C0QReP-FQVa22vHHH8rGKkuMp2gPKZvEiU,23122
+pyfreeipa/configuration/__init__.py,sha256=1XY6bc-AXvoa0GlyGEGTCLLawE6BRXjar6wRUF7oXwg,5586
+PyFreeIPA-0.1.0.dist-info/LICENSE,sha256=3e-eHI0O23-IKtaQ4SWKN9sXFvnDFVhKB301YwC2JlI,11534
+PyFreeIPA-0.1.0.dist-info/METADATA,sha256=8kC_V7wLkcuWFXvOF4Hakm-WMjpYkFRVBfAeHveYB8Y,3666
+PyFreeIPA-0.1.0.dist-info/WHEEL,sha256=NvLheO0f8_uAcwoMijaCN7IVIIaldpzEnN1plXS6P6E,97
+PyFreeIPA-0.1.0.dist-info/top_level.txt,sha256=LYoH_gcdxXVIl6ETxC4pkahfaxxQyegoLDZ0pcEUcxI,10
+PyFreeIPA-0.1.0.dist-info/RECORD,,
