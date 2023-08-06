@@ -1,0 +1,6 @@
+[console_scripts]
+xt-all = xtcryptosignals.scripts.manage:main
+xt-client = xtcryptosignals.client.views:main
+xt-server = xtcryptosignals.server.views:main
+xt-ticker = xtcryptosignals.tasks.ticker:main
+
