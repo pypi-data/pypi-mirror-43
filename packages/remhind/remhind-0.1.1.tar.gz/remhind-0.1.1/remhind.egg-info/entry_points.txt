@@ -1,0 +1,3 @@
+[console_scripts]
+remhind = remhind.__main__:main
+
