@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+dev.requirements.txt
+requirements.txt
+setup.py
+pynvi/__init__.py
+pynvi.egg-info/PKG-INFO
+pynvi.egg-info/SOURCES.txt
+pynvi.egg-info/dependency_links.txt
+pynvi.egg-info/not-zip-safe
+pynvi.egg-info/requires.txt
+pynvi.egg-info/top_level.txt
