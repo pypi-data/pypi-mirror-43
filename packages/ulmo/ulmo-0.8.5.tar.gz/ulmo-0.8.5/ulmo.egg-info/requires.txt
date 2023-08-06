@@ -1,0 +1,12 @@
+appdirs
+beautifulsoup4
+future
+geojson
+isodate
+lxml
+numpy
+pandas
+tables
+requests
+suds-jurko
+html5lib<=0.9999999
