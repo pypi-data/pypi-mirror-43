@@ -1,0 +1,11 @@
+setup.py
+bin/dctdevtools
+dctdevtools/__init__.py
+dctdevtools/__main__.py
+dctdevtools/odoo_modules.py
+dctdevtools.egg-info/PKG-INFO
+dctdevtools.egg-info/SOURCES.txt
+dctdevtools.egg-info/dependency_links.txt
+dctdevtools.egg-info/entry_points.txt
+dctdevtools.egg-info/not-zip-safe
+dctdevtools.egg-info/top_level.txt
