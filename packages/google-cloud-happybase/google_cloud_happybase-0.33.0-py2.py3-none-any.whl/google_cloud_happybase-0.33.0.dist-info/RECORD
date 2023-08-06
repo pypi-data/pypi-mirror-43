@@ -1,0 +1,12 @@
+google_cloud_happybase-0.33.0-py3.7-nspkg.pth,sha256=b0D5dZk3RUzK54tZ9iZDvLm7u8ltc5EzYrGCmhsuoNw,1698
+google/cloud/happybase/__init__.py,sha256=0TEW7EoU0twintMCzRC7uFHdcNAYLTSf8mKAF_2tkYA,6527
+google/cloud/happybase/batch.py,sha256=x1ODYPe1fB8zZtLKsNgj54PbXu4MjxUeDr_avZl9u84,13778
+google/cloud/happybase/connection.py,sha256=dKCmG2IKsrkB8x1fdHKdxSegBW4d81JqHTU3w0n9d2M,16811
+google/cloud/happybase/pool.py,sha256=tf0CYO5qPJjtKrdpR_19NInrC8JPNvbhLipCD80uokA,5857
+google/cloud/happybase/table.py,sha256=YoSOF4uC6o7lIhYqg4TbTCdsMjaOo3b3QR7FpdR_FnM,37879
+google_cloud_happybase-0.33.0.dist-info/LICENSE,sha256=JCmzsIaK5GJbpeks2uHYpG_KksjaLv-CmOz7B7K-its,11172
+google_cloud_happybase-0.33.0.dist-info/METADATA,sha256=UbQs55ur3ki4u6-u5if2Uad_qqr-qE-KlFiixhvLRi8,3201
+google_cloud_happybase-0.33.0.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+google_cloud_happybase-0.33.0.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_happybase-0.33.0.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+google_cloud_happybase-0.33.0.dist-info/RECORD,,
