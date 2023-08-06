@@ -1,0 +1,17 @@
+README.md
+setup.py
+pykg2vec/__init__.py
+pykg2vec.egg-info/PKG-INFO
+pykg2vec.egg-info/SOURCES.txt
+pykg2vec.egg-info/dependency_links.txt
+pykg2vec.egg-info/requires.txt
+pykg2vec.egg-info/top_level.txt
+pykg2vec/config/__init__.py
+pykg2vec/config/config.py
+pykg2vec/core/KGMeta.py
+pykg2vec/core/TransE.py
+pykg2vec/core/__init__.py
+pykg2vec/utils/__init__.py
+pykg2vec/utils/dataprep.py
+pykg2vec/utils/evaluation.py
+pykg2vec/utils/visualization.py
