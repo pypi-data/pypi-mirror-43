@@ -1,0 +1,6 @@
+include README.md
+include setup.py
+
+recursive-include cppjieba/include/cppjieba *.hpp
+recursive-include cppjieba/dict *.utf8
+recursive-include cppjieba/deps  *.hpp

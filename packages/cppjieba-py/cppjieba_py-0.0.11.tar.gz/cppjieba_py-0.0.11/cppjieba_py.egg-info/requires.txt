@@ -1,0 +1,5 @@
+pybind11>=2.2
+
+[test]
+spec==1.4.1
+pathlib2
