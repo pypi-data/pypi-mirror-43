@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+calendarplus.py
+setup.py
+calendar_plus.egg-info/PKG-INFO
+calendar_plus.egg-info/SOURCES.txt
+calendar_plus.egg-info/dependency_links.txt
+calendar_plus.egg-info/top_level.txt
