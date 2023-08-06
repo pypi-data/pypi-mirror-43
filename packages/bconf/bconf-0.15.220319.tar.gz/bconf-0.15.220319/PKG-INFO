@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: bconf
+Version: 0.15.220319
+Summary: A simple Python configuration manager.
+Home-page: https://github.com/Mackenzie01/bconf
+Author: the_big_cheese
+Author-email: slendi3@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/Mackenzie01/bconf/archive/0.15.220319.tar.gz
+Description: UNKNOWN
+Keywords: Management,Tool,Configuration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
