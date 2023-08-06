@@ -1,0 +1,8 @@
+README.md
+setup.py
+qbs/__init__.py
+qbs.egg-info/PKG-INFO
+qbs.egg-info/SOURCES.txt
+qbs.egg-info/dependency_links.txt
+qbs.egg-info/entry_points.txt
+qbs.egg-info/top_level.txt
