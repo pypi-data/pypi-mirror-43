@@ -1,0 +1,10 @@
+phasespace/__init__.py,sha256=WOQkREy5nRtIPMIAmpJ7APHVgH497CIiVkGnM_2BxqQ,473
+phasespace/debug.py,sha256=LaaA2rk5yZ7FHXXT6WJcoxUzEx_76N6t-4OcYXDijuk,505
+phasespace/kinematics.py,sha256=Gd7tQXy1Wj3BndL3tDRYcopnRQb0XMW-FmwKQqyPFC0,4267
+phasespace/phasespace.py,sha256=_IVZYUm5osgsQnTBj69pj5a5Nk0Z7XfKBcGr84i7fCk,21413
+phasespace-0.8.0.dist-info/AUTHORS.rst,sha256=NtGciAEkr8WiKbS9-sIY04xHReLnyKibegZJc6T4Bcg,236
+phasespace-0.8.0.dist-info/LICENSE,sha256=K31gxoz4EsQxknsCwAQd1jNksSXkxtZ4wHYS9H_UoP8,1506
+phasespace-0.8.0.dist-info/METADATA,sha256=_BTJ5AA7KVxC-zJxH00zRyIAJf1It19GrS8OqQkAk_0,8812
+phasespace-0.8.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+phasespace-0.8.0.dist-info/top_level.txt,sha256=d4GtVdf_AwB88cBg3OTxDY0dLLZP4Zrpg7y4YzMGpBk,11
+phasespace-0.8.0.dist-info/RECORD,,
