@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aliyun-rds-bkp
+Version: 0.1.2
+Summary: A small tool to download db files     from Aliyun RDS per schedule
+Home-page: https://github.com/life-game-player/aliyun-rds-bkp
+Author: Bill Guo
+Author-email: billguo.feather@outlook.com
+License: UNKNOWN
+Description: # Aliyun RDS Backup Tool
+        
+        This is a small tool to download db files from Aliyun RDS per schedule.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
