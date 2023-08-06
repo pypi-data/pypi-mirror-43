@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "tdameritrade-cli"
+version = "0.1.0"
+description = "A CLI on top of the TDAmeritrade-client API library"
+authors = ["Joe Castagneri <jcastagneri@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+url = "https://gitlab.com/tdameritrade-tools/tdameritrade-cli"
+classifiers = [
+        "Programming Language :: Python :: 3.6",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX :: Linux",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+tdameritrade-client = "^0.1.0"
+click = "^7.0"
+pyexcel-ods = "^0.5.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.3"
+
+[tool.poetry.scripts]
+tda-cli = 'tdameritrade_cli.cli:driver'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
