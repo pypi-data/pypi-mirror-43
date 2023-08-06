@@ -1,0 +1,5 @@
+six
+certauth>=1.2.1
+
+[gevent-websocket]
+gevent-websocket
