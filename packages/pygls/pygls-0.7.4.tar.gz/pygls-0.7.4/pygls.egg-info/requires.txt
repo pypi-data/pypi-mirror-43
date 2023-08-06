@@ -1,0 +1,13 @@
+
+[dev]
+bandit==1.5.1
+flake8==3.7.7
+
+[docs]
+sphinx==1.8.5
+sphinx_rtd_theme==0.4.3
+
+[test]
+mock==2.0.0
+pytest==4.3.1
+pytest-asyncio==0.10.0
