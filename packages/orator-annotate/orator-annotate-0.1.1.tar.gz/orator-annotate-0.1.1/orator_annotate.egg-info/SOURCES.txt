@@ -1,0 +1,11 @@
+README.md
+annotate.py
+orator_annotate.py
+requirements.txt
+setup.py
+orator_annotate.egg-info/PKG-INFO
+orator_annotate.egg-info/SOURCES.txt
+orator_annotate.egg-info/dependency_links.txt
+orator_annotate.egg-info/entry_points.txt
+orator_annotate.egg-info/requires.txt
+orator_annotate.egg-info/top_level.txt
