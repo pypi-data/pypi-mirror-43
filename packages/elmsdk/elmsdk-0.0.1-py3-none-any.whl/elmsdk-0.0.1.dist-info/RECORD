@@ -1,0 +1,9 @@
+elmsdk/__init__.py,sha256=8JEpekN5-0BtJnZbk4gTq6k7sqZ_wUkzHfmP65onqnM,24
+elmsdk/sdk.py,sha256=KXoboesIJ7oybu9m5IgBRZxmPUZ9C6q0P3jGeD7u8MM,5910
+elmsdk/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elmsdk/configuration/settings.py,sha256=v_VxYKQ8Oxugj6jrnNtLU-x7mvUQ-00ChKOAbOtxrHo,533
+elmsdk-0.0.1.dist-info/LICENSE,sha256=b6_ey6ST_OLt51zL2ZhZa0BkiaDaOyiplCXJp4cia9A,1067
+elmsdk-0.0.1.dist-info/METADATA,sha256=hnM9b5rf7hSdUfc2zJBfePx8wz-OlFhK1QacJgHioMs,1244
+elmsdk-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+elmsdk-0.0.1.dist-info/top_level.txt,sha256=zZ0uhnHeNrPdnmKm947V2vxnXFcZo66NR8PKwiLxGJA,7
+elmsdk-0.0.1.dist-info/RECORD,,
