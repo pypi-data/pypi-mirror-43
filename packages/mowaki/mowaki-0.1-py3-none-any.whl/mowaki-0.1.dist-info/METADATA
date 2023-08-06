@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mowaki
+Version: 0.1
+Summary: MoWAKi - Python utilities
+Home-page: https://github.com/rshk/mowaki-py
+Author: Samuele Santi
+Author-email: samuele.santi@reinventsoftware.io
+License: BSD License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: aws
+Requires-Dist: boto3 ; extra == 'aws'
+
+MoWAKi - Python utilities
+#########################
+
+This package provides several common utilities for
+[MoWAKi](https://www.mowaki.org) apps.
+
+
+Storage
+=======
+
+Provides a common abstraction for file storage.
+
+Currently supports storing data in:
+
+- memory (mostly for testing)
+- local filesystem (mostly for local development)
+- s3 buckets
+
+
+
+
