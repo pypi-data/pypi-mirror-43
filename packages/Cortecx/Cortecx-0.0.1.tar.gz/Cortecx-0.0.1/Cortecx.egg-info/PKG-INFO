@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: Cortecx
+Version: 0.0.1
+Summary: Cortecx is a Deep Learning ToolKit
+Home-page: UNKNOWN
+Author: Lleyton Ariton
+Author-email: lleyton.ariton@gmail.com
+License: MIT
+Description: Cortecx is a tool kit for a variety of deep learning needs. It is built with the beginner in mind,
+        providing a simple Keras inspired user implementation for those starting of in AI
+         ----- Currently a work in progress  -----
+Keywords: artificial intelligence
+Platform: UNKNOWN

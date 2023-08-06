@@ -1,0 +1,14 @@
+README.txt
+setup.py
+Cortecx.egg-info/PKG-INFO
+Cortecx.egg-info/SOURCES.txt
+Cortecx.egg-info/dependency_links.txt
+Cortecx.egg-info/entry_points.txt
+Cortecx.egg-info/not-zip-safe
+Cortecx.egg-info/top_level.txt
+cortecx/__init__.py
+cortecx/architecture/__init__.py
+cortecx/architecture/build.py
+cortecx/constrcution/__init__.py
+cortecx/constrcution/foundation.py
+cortecx/constrcution/materials.py
