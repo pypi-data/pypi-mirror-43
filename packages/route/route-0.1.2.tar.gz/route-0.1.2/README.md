@@ -1,0 +1,36 @@
+# Disk
+
+Disk is a Python library for interacting with the file system in an object oriented manner. I know you can use os and os.path to do all of these but I find their usage hard to remember and not very object oriented. 
+
+# Installation
+
+You can use pip to install Disk.
+
+```bash
+pip install disk
+```
+
+# Usage
+
+Disk is an object oriented interface for the file system. All files and directories (folders) are considered *Path* objects. Any path except the root, has a parent: the directory it is in. Directories have children, some of them are files and some are subdirectories.
+
+## Path
+
+Usually we want to start in the current working directory:
+
+```python
+from disk import Path
+current_directory = Path.get_current_directory()
+
+# ls or dir:
+print(current_directory.list())
+
+# get the first subdirectory:
+first_subdirectory = current_directory.directories[0]
+
+# get the parent directory:
+parent_directory = current_directory.parent_directory
+```
+
+
+
