@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: tridentweb
+Version: 0.0.1.dev1
+Summary: Trident API Web Backend Development
+Home-page: https://github.com/SenorPez/glowing-potato
+Author: Senor Pez
+Author-email: contact_at_github@example.org
+License: MIT
+Project-URL: Feature Requests and Bug Reports, https://github.com/SenorPez/glowing-potato/issues
+Keywords: trident
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: ~=3.3
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pykep
+Requires-Dist: requests
+Provides-Extra: dev
+Provides-Extra: test
+
+Trident Python Backend
+
+
