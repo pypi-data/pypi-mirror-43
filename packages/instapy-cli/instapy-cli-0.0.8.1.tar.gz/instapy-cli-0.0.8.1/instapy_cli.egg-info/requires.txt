@@ -1,0 +1,3 @@
+requests>=2
+instagram-private-api==1.6.0
+instagram-private-api_extensions==0.3.8
