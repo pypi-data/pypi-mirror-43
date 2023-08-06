@@ -1,0 +1,8 @@
+README.md
+setup.py
+aws_works/__init__.py
+aws_works/s3.py
+aws_works.egg-info/PKG-INFO
+aws_works.egg-info/SOURCES.txt
+aws_works.egg-info/dependency_links.txt
+aws_works.egg-info/top_level.txt
