@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: coinlore
+Version: 0.1.4
+Summary: Coinlore cryptocurrency api https://www.coinlore.com
+Home-page: https://github.com/coinlore/Python-Cryptocurrency-API-CoinLore
+Author: CoinLore
+Author-email: contact@coinlore.com
+License: UNKNOWN
+Keywords: api,coinlore,cryptocurrency,bitcoin,ethereum,XRP
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Python Simple API Client for CoinLore
+
+Simple library for Python to use coinlore crypto api [Coinlore.com API](https://www.coinlore.com/cryptocurrency-data-api)
+
+[Coinlore](https://www.coinlore.com) provides original cryptocurrency data, coin prices calculated by own algorithm, market caps, trade volumes and more, information updated every minute or less.
+
