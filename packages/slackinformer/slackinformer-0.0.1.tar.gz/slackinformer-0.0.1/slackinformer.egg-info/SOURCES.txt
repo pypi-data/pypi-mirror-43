@@ -1,0 +1,9 @@
+README.md
+setup.py
+slackinformer/__init__.py
+slackinformer/slackinformer.py
+slackinformer.egg-info/PKG-INFO
+slackinformer.egg-info/SOURCES.txt
+slackinformer.egg-info/dependency_links.txt
+slackinformer.egg-info/requires.txt
+slackinformer.egg-info/top_level.txt
