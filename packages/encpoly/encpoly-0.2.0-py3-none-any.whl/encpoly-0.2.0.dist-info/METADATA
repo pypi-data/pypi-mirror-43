@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: encpoly
+Version: 0.2.0
+Summary: Library for encoding/decoding geographic coordinates using Google's Encoded Polyline Algorithm
+Home-page: https://github.com/JaGallup/encpoly
+License: GPL-3.0
+Author: Matt Riggott
+Author-email: matt.riggott@gmail.com
+Requires-Python: >=3.4,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: GIS
+Project-URL: Documentation, https://encpoly.readthedocs.io/
+Project-URL: Repository, https://github.com/JaGallup/encpoly
+Description-Content-Type: text/markdown
+
+The `encpoly` package is a Python 3 library for fast, Pythonic manipulation of [encoded polylines][].
+
+[![Build status][tci]][tcl]
+[![Code coverage report][cci]][ccl]
+[![Package on PyPI][ppi]][ppl]
+
+```python
+>>> from encpoly import encode, decode
+>>> coords = ((38.5, -120.2), (40.7, -120.95), (43.252, -126.453))
+>>> encode(coords)
+'_p~iF~ps|U_ulLnnqC_mqNvxq`@'
+>>> tuple(decode("_p~iF~ps|U_ulLnnqC_mqNvxq`@"))
+([38.5, -120.2], [40.7, -120.95], [43.252, -126.453])
+```
+
+You can use Pip to install the [latest release][] from PyPi:
+
+    pip install encpoly
+
+  [encoded polylines]: https://developers.google.com/maps/documentation/utilities/polylinealgorithm
+  [tci]: https://travis-ci.org/JaGallup/encpoly.svg?branch=master
+  [tcl]: https://travis-ci.org/JaGallup/encpoly
+  [cci]: https://img.shields.io/codecov/c/github/JaGallup/encpoly.svg
+  [ccl]: https://codecov.io/gh/JaGallup/encpoly
+  [ppi]: https://img.shields.io/pypi/v/encpoly.svg
+  [ppl]: https://pypi.org/project/encpoly/
+  [latest release]: https://github.com/JaGallup/encpoly/releases
+
