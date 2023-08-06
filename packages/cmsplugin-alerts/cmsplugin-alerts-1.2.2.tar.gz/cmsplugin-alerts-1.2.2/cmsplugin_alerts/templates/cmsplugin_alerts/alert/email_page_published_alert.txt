@@ -1,0 +1,24 @@
+{% load i18n %}
+{% blocktrans with recipient=alert.user %}Dear {{ recipient }},{% endblocktrans %}
+
+{% blocktrans %}you are subscribed to website changes at {{ site }}.{% endblocktrans %}
+{% blocktrans with web_page=instance %}The page '{{ web_page }}' was changed:{% endblocktrans %}
+{% if history %}
+{{ history.stub }}
+
+----
+
+{% trans "Comments:" %} {{ history.comments }}
+
+----
+
+{% trans "Page Link:" %} {{ site }}{{ instance.get_absolute_url }}
+{% trans "Full Diff:" %} {{ site }}{{ history.get_absolute_url }}
+
+{% trans "Published by:" %} {{ history.user }}
+{% trans "Publisher's Language:" %} {{ history.get_language_display }}
+
+{% trans "Edited by:" %} {{ history.users|join:", " }}
+{% trans "Editor's Languages:" %} {{ history.languages|join:", " }}{% else %}
+{% trans "Link:" %} {{ site }}{{ instance.get_absolute_url }}
+{% trans "Language:" %} {{ language }}{% endif %}

@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include MANIFEST.in
+include cmsplugin_alerts/*.py
+include cmsplugin_alerts/templates/*/*/*.html
+include cmsplugin_alerts/templates/*/*/*.txt

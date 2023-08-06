@@ -1,0 +1,15 @@
+{% load i18n %}
+<div class="body">
+  <div class="text"><p>{% trans "Overview of changes"%}:</p><p>{{ history.comment|linebreaks }}</p></div>
+</div>
+<div class="footer">
+   <div class="status">{{ history.language }} </div>
+   <div class="status">{{ history.user }}</div>
+   <div class="index">
+     {% if history %}
+       <a href="{{ history.get_absolute_url }}">{% trans "See Diff" %}</a>
+     {% else %}
+       No Diff Available
+     {% endif %}
+   </div>
+</div>
