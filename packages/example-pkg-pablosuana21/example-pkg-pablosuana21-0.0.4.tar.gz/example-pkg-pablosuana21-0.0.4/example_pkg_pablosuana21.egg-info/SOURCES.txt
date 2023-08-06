@@ -1,0 +1,10 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/helloworld.py
+example_pkg/helado/__init__.py
+example_pkg/helado/print_goodbay.py
+example_pkg_pablosuana21.egg-info/PKG-INFO
+example_pkg_pablosuana21.egg-info/SOURCES.txt
+example_pkg_pablosuana21.egg-info/dependency_links.txt
+example_pkg_pablosuana21.egg-info/top_level.txt
