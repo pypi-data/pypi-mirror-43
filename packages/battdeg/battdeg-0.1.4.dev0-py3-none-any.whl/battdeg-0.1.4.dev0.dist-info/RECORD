@@ -1,0 +1,10 @@
+battdeg/__init__.py,sha256=nSXite7jMCjw-diNLV4k2GNhvf0nKW9GUDYRCfBGkZg,71
+battdeg/battdeg.py,sha256=cgkaXjgJUbddwzShB9mPEQkAN_D89Dd3C0UAmmYcBgc,27803
+battdeg/version.py,sha256=XayMnK3wOzgVVk3aIrlnsS24gYfA-hR9NjEx1_ckI_U,2218
+battdeg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battdeg/tests/test_battdeg.py,sha256=lJjukuWHS7UEivbum9jEuUuUaM8RBI9DXZT2pxRzQYg,11584
+battdeg-0.1.4.dev0.dist-info/LICENSE,sha256=LOj-ubCvHOnTKYneKf3iPOmY5BluXD8yCcUsv2kGbQ4,1071
+battdeg-0.1.4.dev0.dist-info/METADATA,sha256=vWVtc7FNL4PRoGwWMHaLPmFPDNQ2OAUAIiWJwF0Bejk,1461
+battdeg-0.1.4.dev0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+battdeg-0.1.4.dev0.dist-info/top_level.txt,sha256=1Nrd3wqUmAzrDtEueoAu4mYZAVQeznOy_QTSkFfZ-0A,8
+battdeg-0.1.4.dev0.dist-info/RECORD,,
