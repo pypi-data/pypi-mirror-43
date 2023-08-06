@@ -1,0 +1,6 @@
+Flask
+sawtooth_sdk<1.1,>=1.0
+sawtooth_signing<1.1,>=1.0
+requests
+cbor2
+pyzmq
