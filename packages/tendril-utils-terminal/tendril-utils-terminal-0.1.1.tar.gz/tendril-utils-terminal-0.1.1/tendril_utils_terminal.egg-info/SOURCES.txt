@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tendril/__init__.py
+tendril/utils/__init__.py
+tendril/utils/terminal.py
+tendril_utils_terminal.egg-info/PKG-INFO
+tendril_utils_terminal.egg-info/SOURCES.txt
+tendril_utils_terminal.egg-info/dependency_links.txt
+tendril_utils_terminal.egg-info/not-zip-safe
+tendril_utils_terminal.egg-info/requires.txt
+tendril_utils_terminal.egg-info/top_level.txt

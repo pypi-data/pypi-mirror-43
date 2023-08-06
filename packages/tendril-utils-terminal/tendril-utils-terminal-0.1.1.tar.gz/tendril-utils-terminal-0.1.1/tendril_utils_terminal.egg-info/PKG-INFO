@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: tendril-utils-terminal
+Version: 0.1.1
+Summary: Terminal utilities for tendril
+Home-page: https://github.com/chintal/tendril-utils-terminal
+Author: Chintalagiri Shashank
+Author-email: shashank@chintal.in
+License: AGPLv3
+Description: ==============================
+        Terminal Utilities for Tendril
+        ==============================
+        
+        .. image:: https://img.shields.io/travis/chintal/tendril-utils-terminal.svg
+                :target: https://travis-ci.org/chintal/tendril-utils-terminal
+        
+        .. image:: https://img.shields.io/pypi/v/tendril-utils-terminal.svg
+                :target: https://pypi.python.org/pypi/tendril-utils-terminal
+        
+        * License: AGPLv3
+        * Documentation: http://tendril-utils-terminal.readthedocs.org
+        
+        
+        Terminal utilities for Tendril.
+        
+Keywords: tendril
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
