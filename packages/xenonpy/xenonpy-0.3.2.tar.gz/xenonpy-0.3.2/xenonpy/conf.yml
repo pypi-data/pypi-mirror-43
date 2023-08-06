@@ -1,0 +1,29 @@
+###############
+# package info
+###############
+name: 'xenonpy'
+version: '0.3.2'
+db_version: '0.1.2'
+release: ''
+short_description: 'material descriptor library'
+license: 'BSD (3-clause)'
+author:
+  - 'TsumiNa'
+author_email: 'liu.chang.1865@gmail.com'
+maintainer:
+  - 'TsumiNa'
+maintainer_email: 'liu.chang.1865@gmail.com'
+github_username: 'yoshida-lab'
+
+# sha256 of built-in dataset
+elements: 'c9b297e7f74d444a363b786fc451c6e81cf7e5f53a521dfa9824ec6b42d37b52'
+elements_completed: '883c4e766b2cdb62c0bf40a4891528a93c8664c5213431a86bb83af453e47f2d'
+
+#################################
+# user custom
+################################
+
+# user-defined path
+userdata: '~/.xenonpy/userdata'
+usermodel: '~/.xenonpy/usermodel'
+ext_data: []
