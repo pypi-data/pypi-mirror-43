@@ -1,0 +1,13 @@
+ppdland/__init__.py,sha256=7oHoR2Yp3qnzwSmv6ioA0M38K07nVsT3FR7nNeCyCNE,1208
+ppdland/data.py,sha256=7KTfSOtDxf6iIHPh3qZac0N7NI1yMPz7_4ab6JSv6dQ,1487
+ppdland/entities.py,sha256=TE6iLxOQ66oQ7MDsi8o_0qOlDKD2Y6iY6wgal7KyU_c,199
+ppdland/scenarios.py,sha256=q5w2CULnBguXZdqkjD1tn-qOyE6syVaJx8-HceSZsgY,2678
+ppdland/parameters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ppdland/parameters/minimum_income.yaml,sha256=GrKjE1YoPWy2zwV99FyMoz1Z_6vn1krj3JUkC1Tm9kE,78
+ppdland/parameters/tax_scale.yaml,sha256=EjC67P_g3cQbi7g6uUYD1wkmz3fSzwlS6Sv-a4pJLrw,467
+ppdland/variables/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+ppdland/variables/variables.py,sha256=CaelEN0pAlLNurbuaim0QjP3qyH7eLl4dkgx2pSDfnI,2585
+OpenFisca_PPDLand-0.2.dist-info/METADATA,sha256=0epLKpLz7o_AX4ihklaZbStQkLrQ_9_ZrVrf2HcFyug,1204
+OpenFisca_PPDLand-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+OpenFisca_PPDLand-0.2.dist-info/top_level.txt,sha256=sMVvE-Sz5TD-HgiMyGSPDoyNUS0AXFEIynnUGjvbRt0,8
+OpenFisca_PPDLand-0.2.dist-info/RECORD,,
