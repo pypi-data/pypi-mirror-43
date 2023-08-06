@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+  <qresource>
+    <file>img/hourglass.svg</file>
+    <file>img/account-search.svg</file>
+    <file>img/chart-line.svg</file>
+    <file>img/history-dim.svg</file>
+    <file>img/history.svg</file>
+    <file>img/search-dim.svg</file>
+    <file>img/search.svg</file>
+    <file>img/lup.svg</file>
+  </qresource>
+</RCC>
