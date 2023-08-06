@@ -1,0 +1,34 @@
+MANIFEST.in
+README.md
+setup.py
+scikit_vectors.egg-info/PKG-INFO
+scikit_vectors.egg-info/SOURCES.txt
+scikit_vectors.egg-info/dependency_links.txt
+scikit_vectors.egg-info/top_level.txt
+skvectors/__init__.py
+skvectors/cartesian_2d_vectors.py
+skvectors/cartesian_3d_vectors.py
+skvectors/cartesian_vectors.py
+skvectors/fundamental_vectors.py
+skvectors/helper_functions.py
+skvectors/make_tolerant.py
+skvectors/simple_vectors.py
+skvectors/tolerant_cartesian_2d_vectors.py
+skvectors/tolerant_cartesian_3d_vectors.py
+skvectors/tolerant_cartesian_vectors.py
+skvectors/tolerant_versatile_vectors.py
+skvectors/vectors.py
+skvectors/versatile_vectors.py
+skvectors/doc/Using a Fundamental Vector Class.ipynb
+skvectors/doc/Using a Fundamental Vector Class.pdf
+skvectors/doc/Using a Simple Vector Class.ipynb
+skvectors/doc/Using a Simple Vector Class.pdf
+skvectors/doc/Using a Vector Class.ipynb
+skvectors/doc/Using a Vector Class.pdf
+skvectors/tests/__init__.py
+skvectors/tests/test_cartesian_3d_vector_methods_3d.py
+skvectors/tests/test_cartesian_vector_methods_3d.py
+skvectors/tests/test_create_vector_classes.py
+skvectors/tests/test_fundamental_vector_methods_3d.py
+skvectors/tests/test_simple_vector_methods_3d.py
+skvectors/tests/test_vector_methods_3d.py
