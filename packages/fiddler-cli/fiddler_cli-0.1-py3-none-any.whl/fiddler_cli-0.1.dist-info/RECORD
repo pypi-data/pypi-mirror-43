@@ -1,0 +1,14 @@
+fiddler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fiddler/cli.py,sha256=yO-2adOJDGTqzotR0PkLfrMaE1qmDAnNchkKVPBJ78Q,12808
+fiddler/cli_utils.py,sha256=kxflmliEDslObU1F0252l7-ANMz8ZO700M6JoZdGc-0,473
+fiddler/clone_cmd.py,sha256=7mrewQNZdbnQb_lDeFh9MzUbR0HJWtI8dMSzs4KPG1Y,1534
+fiddler/dataset_yaml_generator.py,sha256=xvxKMtX6z1fwZJwnrT7QeuG_ZD9FF6-8aeLgZtgj4Sk,3597
+fiddler/execute_cmd.py,sha256=zNs295E43pnOp07mJ4ySIOesRJNQCpjnKsjzK-8jqe0,2283
+fiddler/explain_cmd.py,sha256=JgI8FY-byUkFt0a6wB8gTE6eR3hFuUtcy1UFZ7A_OOQ,1123
+fiddler/import_cmd.py,sha256=pFl6-i9F5_tKrGg3-FRrltxSwvWbBdsUW55QEQEEWOQ,1177
+fiddler_cli-0.1.dist-info/LICENSE.txt,sha256=w8-LUAb_VLBWSsCNmih0pAqLIicJfGu8OJXpDjkIg_o,559
+fiddler_cli-0.1.dist-info/METADATA,sha256=OLTGsYevZsbJdTw_Fe7WafJ4YJ9lIIF_YPyzLFD1Qjw,545
+fiddler_cli-0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+fiddler_cli-0.1.dist-info/entry_points.txt,sha256=pwPb039T6v_GdB2y5oQGbm7IB2KYNAZpAcm1jVy7sWg,101
+fiddler_cli-0.1.dist-info/top_level.txt,sha256=ndC6LqvKmrTTs8czRlBOYdYgSqZbHuMf0zHt_HWpzzk,8
+fiddler_cli-0.1.dist-info/RECORD,,
