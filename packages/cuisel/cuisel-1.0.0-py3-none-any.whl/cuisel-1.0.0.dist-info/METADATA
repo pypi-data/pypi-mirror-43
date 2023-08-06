@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cuisel
+Version: 1.0.0
+Summary: ncurses-based selector
+Home-page: https://github.com/mljli/cuisel
+Maintainer: Minglangjun Li <liminglangjun@gmail.com>
+License: BSD
+Download-URL: https://github.com/mljli/cuisel
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Terminals
+
+A ncurses-based tool which helps you select items interactively.
+
+

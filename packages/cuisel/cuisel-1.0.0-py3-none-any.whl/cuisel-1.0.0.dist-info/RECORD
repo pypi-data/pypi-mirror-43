@@ -1,0 +1,11 @@
+cuisel/__init__.py,sha256=XK0AotXf66HMpWKzBzguIgr-HTOHrgpHJxzr_q4Hh5s,96
+cuisel/_cuisel.py,sha256=ECnw-xihaxUDMZK3kbuuGtaN4swhRkTIfB9EPs6kk30,1335
+cuisel/cli.py,sha256=UEi5rWRLH2vz2t3qeHplq6JijYJHFuFHZJiUercNlZ4,1190
+cuisel/controller.py,sha256=kzCgyWvt83XY0006kWdAM3V1tAwIqtdlX0wD6RCYavU,5161
+cuisel/viewer.py,sha256=bqDWFKRJgsj1eHlTPBOkPWCbX5kXZZ1A2otWJaEoaE4,2797
+cuisel-1.0.0.dist-info/LICENSE,sha256=-XfUezZXyrq1O5AzRqGYPCoSBeB0g_WwMN-QxRH-cqI,1485
+cuisel-1.0.0.dist-info/METADATA,sha256=Vwza_zzFoVjjOrIcEMxjx7oqL0AYyUUXL6TvJo-Gf14,746
+cuisel-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+cuisel-1.0.0.dist-info/entry_points.txt,sha256=q3SGnG8JI71Qxol0qrXvFa0iQ9qOxDPwUAR3Am5MquA,62
+cuisel-1.0.0.dist-info/top_level.txt,sha256=usHuNHvs-GrolU5JdiE_GfrdUJS8yRGTEGN-ORuMRu8,7
+cuisel-1.0.0.dist-info/RECORD,,
