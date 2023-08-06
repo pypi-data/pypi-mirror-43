@@ -1,0 +1,9 @@
+README.md
+giternity.py
+setup.py
+giternity.egg-info/PKG-INFO
+giternity.egg-info/SOURCES.txt
+giternity.egg-info/dependency_links.txt
+giternity.egg-info/entry_points.txt
+giternity.egg-info/requires.txt
+giternity.egg-info/top_level.txt
