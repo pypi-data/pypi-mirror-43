@@ -1,0 +1,4 @@
+[console_scripts]
+fetchas = fetchas.command_line:main
+fetchas-mobile = fetchas.command_line:fetch_as_mobile
+
