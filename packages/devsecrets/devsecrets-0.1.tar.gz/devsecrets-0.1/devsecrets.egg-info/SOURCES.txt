@@ -1,0 +1,10 @@
+README.md
+setup.py
+devsecrets.egg-info/PKG-INFO
+devsecrets.egg-info/SOURCES.txt
+devsecrets.egg-info/dependency_links.txt
+devsecrets.egg-info/requires.txt
+devsecrets.egg-info/top_level.txt
+src/devsecrets/__init__.py
+src/devsecrets/interface.py
+src/devsecrets/version.py

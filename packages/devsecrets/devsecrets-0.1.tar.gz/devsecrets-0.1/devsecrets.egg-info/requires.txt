@@ -1,0 +1,6 @@
+toml
+
+[dev]
+pytest-pep8
+pytest-cov
+twine
