@@ -1,0 +1,12 @@
+README.md
+setup.py
+importreqs/__init__.py
+importreqs/cli.py
+importreqs/importreqs.py
+importreqs.egg-info/PKG-INFO
+importreqs.egg-info/SOURCES.txt
+importreqs.egg-info/dependency_links.txt
+importreqs.egg-info/entry_points.txt
+importreqs.egg-info/not-zip-safe
+importreqs.egg-info/requires.txt
+importreqs.egg-info/top_level.txt
