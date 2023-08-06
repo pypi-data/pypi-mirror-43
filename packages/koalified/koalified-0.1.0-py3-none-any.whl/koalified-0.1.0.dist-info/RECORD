@@ -1,0 +1,10 @@
+koalified/__init__.py,sha256=MwPsM6kYEqKkE3UQLPqmYd5POW9ZCQszvmBySHQ0nvc,141
+koalified/_version.py,sha256=cNJGbJ1ZDcmFL7VXZsWV1i1G6U_Dod0JxZdt4N2TAaw,85
+koalified/compile.py,sha256=32miaV23FA48Dd6CfTTx7XRtJH6M14hQzWNzn7cGcqA,13465
+koalified/schema.py,sha256=VEo9CcmDfJBA52I6G8Ga6Frb1WvoIKOFUnUotOhf-bo,2818
+koalified/types.py,sha256=KZmW2ZWO2c5vOefd6DKEWl1iW70tS0x6ZcIfJG3ayoU,7637
+koalified-0.1.0.dist-info/LICENSE,sha256=HiPMXCU0YISN1KfgkT9dm4AR8AxJJQEEXSZ1umw1SRs,1068
+koalified-0.1.0.dist-info/METADATA,sha256=oTHe1lgmVmVT24bnXXKOpseE20qEd9-lQzMbbtuCyHM,1064
+koalified-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+koalified-0.1.0.dist-info/top_level.txt,sha256=itZENV1ag6FIn01Ja1igBHL2Dmk2zvqge76v-37rRig,10
+koalified-0.1.0.dist-info/RECORD,,
