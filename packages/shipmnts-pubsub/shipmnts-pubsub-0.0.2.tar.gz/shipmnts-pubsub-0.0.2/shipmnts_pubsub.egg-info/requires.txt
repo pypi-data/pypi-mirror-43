@@ -1,0 +1,4 @@
+google-cloud-pubsub==0.40.0
+redis
+Django
+psycopg2-binary
