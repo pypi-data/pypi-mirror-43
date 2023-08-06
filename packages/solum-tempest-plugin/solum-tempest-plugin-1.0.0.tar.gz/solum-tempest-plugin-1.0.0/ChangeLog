@@ -1,0 +1,21 @@
+CHANGES
+=======
+
+1.0.0
+-----
+
+* Remove the unused docs
+* Update the README.rst file
+* Switch to use stestr for unit test
+* Update the documentation and release notes links
+* change default python 3 env in tox to 3.5
+* fix tox python3 overrides
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Updated from global requirements
+* Remove the version test
+* Move tempest tests from solum repo to solum-tempest-plugin
+* Initial Cookiecutter Commit
+* Added .gitreview
