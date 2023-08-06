@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+horimote/__init__.py
+horimote/client.py
+horimote/exceptions.py
+horimote/keys.py
+horimote.egg-info/PKG-INFO
+horimote.egg-info/SOURCES.txt
+horimote.egg-info/dependency_links.txt
+horimote.egg-info/top_level.txt
