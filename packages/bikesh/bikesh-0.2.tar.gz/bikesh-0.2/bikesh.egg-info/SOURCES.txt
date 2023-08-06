@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+bikesh/__init__.py
+bikesh.egg-info/PKG-INFO
+bikesh.egg-info/SOURCES.txt
+bikesh.egg-info/dependency_links.txt
+bikesh.egg-info/not-zip-safe
+bikesh.egg-info/top_level.txt
