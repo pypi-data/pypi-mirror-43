@@ -1,0 +1,6 @@
+six
+tendril-utils-core>=0.1.4
+tendril-dox-wallet>=0.1.1
+PyPDF2
+pyyaml
+mistune
