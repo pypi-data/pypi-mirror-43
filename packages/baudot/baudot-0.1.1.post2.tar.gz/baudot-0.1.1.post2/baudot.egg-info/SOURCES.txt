@@ -1,0 +1,17 @@
+README.md
+setup.py
+baudot/__init__.py
+baudot/core.py
+baudot/exceptions.py
+baudot.egg-info/PKG-INFO
+baudot.egg-info/SOURCES.txt
+baudot.egg-info/dependency_links.txt
+baudot.egg-info/top_level.txt
+baudot/codecs/__init__.py
+baudot/codecs/core.py
+baudot/codecs/ita1_baudot.py
+baudot/codecs/ita2_baudot_murray.py
+baudot/handlers/__init__.py
+baudot/handlers/core.py
+baudot/handlers/hexbytes.py
+baudot/handlers/tape.py
