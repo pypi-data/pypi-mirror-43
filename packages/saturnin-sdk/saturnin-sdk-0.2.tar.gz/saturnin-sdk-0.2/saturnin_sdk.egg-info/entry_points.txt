@@ -1,0 +1,3 @@
+[console_scripts]
+runner = saturnin.sdk.tools.runner:main
+
