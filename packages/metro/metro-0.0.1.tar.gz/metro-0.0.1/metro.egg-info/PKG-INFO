@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: metro
+Version: 0.0.1
+Summary: Metro framework for Airflow
+Home-page: https://github.com/yourhiro/metro
+Author: Insert Overwrite
+License: Apache License 2.0
+Description: # Metro
+        The Metro framework for Airflow allows you to build common and well-known pipeline patterns. It comprises a number of
+        composable modules:
+        
+        - Metro Core: consolidate all your metrics for a given granularity of data into a single source of truth, from which denormalized tables can be created.
+        - Metro Accumulator: implements the daily aggregation + day-over-day join pattern that lets you accumulate a metric over time.
+        - Metro Aggregator: implements the table aggregation pattern to produce cube-like tables for use in reports.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
