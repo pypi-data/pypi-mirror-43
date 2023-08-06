@@ -1,0 +1,12 @@
+click
+pydantic
+asyncio_dispatch
+
+[aiomonitor]
+aiomonitor
+
+[uvicorn]
+uvicorn
+
+[uvloop]
+uvloop
