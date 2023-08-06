@@ -1,0 +1,16 @@
+PyYAML>=5.1
+safeoutput>=1.0
+
+[dev]
+isort
+yapf
+
+[test]
+tox
+pytest
+pytest-cov
+mock
+nose>=1.0
+coverage
+coverage_pth
+nosexcover
