@@ -1,0 +1,26 @@
+start:
+    - insert:
+        - bad mouse
+        - good thing
+        - somethng else
+
+    - send to:
+        segment: test_good
+        on_condition: $'good' in _$
+
+    - send to:
+        segment: test_bad
+        on_condition: $'bad' in _$
+
+    - assert: somethng else
+
+    - send to:
+        segment: test_good
+
+test_good:
+    - assert:
+        - good thing
+        - somethng else
+
+test_bad:
+    - assert: bad mouse

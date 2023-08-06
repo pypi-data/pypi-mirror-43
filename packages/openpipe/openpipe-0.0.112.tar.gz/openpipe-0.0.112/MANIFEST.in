@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+recursive-include tests * *.yaml
+recursive-include openpipe *
+recursive-include docs *
+recursive-include samples *
+recursive-exclude * *.py[co]
+
