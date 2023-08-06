@@ -1,0 +1,17 @@
+jsonipy/__init__.py,sha256=58JNT8RjpjrJt10voetOPE-1jOHPfjQknW68bYW3c18,129
+jsonipy/common.py,sha256=pVO0lVbL030NnHhW5ZS4f0IwN3SKbWjDazkSJKOOyY8,797
+jsonipy/exceptions.py,sha256=t91gBmtFBxcK7k8Nx7ugAO-k2FjWH8__L67gX1sK1uM,102
+jsonipy/jsonizable.py,sha256=Xr7dXcQ5p95mjlAnfyoRYso713KNy7siNH3lG2YrgPY,646
+jsonipy/read.py,sha256=YGE0UvHcCkRF0LyBmcKvVsDAOcCKPJ8EVofJxQpg8BA,1116
+jsonipy/write.py,sha256=EePuqs_c9Ap92ZwwxbISQvvpQHA9C7VWVdrxnV9er70,2912
+jsonizable/__init__.py,sha256=AhMmDIQgRWcMtHNapNH5r7oS0Z2w_3dwLN2MHYYvIes,129
+jsonizable/common.py,sha256=7Zg_IozoNEaxcX9gdm6GToVTbMArksBjJ9hU_rplejw,795
+jsonizable/exceptions.py,sha256=RKGaln4rLSbexb_mUwewxmUu_Vvm2CqMPZNZydofv5s,104
+jsonizable/jsonizable.py,sha256=Xr7dXcQ5p95mjlAnfyoRYso713KNy7siNH3lG2YrgPY,646
+jsonizable/read.py,sha256=rXHFyOv0LBht4FIiDeQePJ88LRsq_SacXkmz4n_7mj8,1302
+jsonizable/write.py,sha256=sKYVF--w3t-xNOUUa7ysEevzQaoAy8CxfPGoFwOd1uQ,2891
+jsonizable-1.0.2.dist-info/LICENSE,sha256=ebFVvfkkSLJXgKVGvBjStA55HSN7ZAUCB8bRP2yxZis,1071
+jsonizable-1.0.2.dist-info/METADATA,sha256=EJ-YSqmYhkR_Buy8VlpW_H4cgrIYrcC-S6latpEfHB8,4914
+jsonizable-1.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jsonizable-1.0.2.dist-info/top_level.txt,sha256=vHCYJloGAuWf3Iyy4w-aBCLCM1_315J59OqN66siz-s,11
+jsonizable-1.0.2.dist-info/RECORD,,
