@@ -1,0 +1,10 @@
+harupy/__init__.py,sha256=xM9dItHdFRrBB785I-6EJ8MUwSuvk07KU8gACIESjKo,16
+harupy/shell.py,sha256=SmzP40_Ig9KgYYKXr-q0RQrNAHsTGoTp4s9SDhDeejA,1903
+harupy/text.py,sha256=7SaWF8WYyGGa_qVWc1ouF87R64YSfddBKjW44HhdbmU,9581
+harupy/utils.py,sha256=HNZ0OsvSsmwlKW0U6iVDJpOU-UGuiD2opbEYz_WR68E,1756
+harupy-1.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+harupy-1.3.dist-info/METADATA,sha256=iolQoFziNzLWgvWjteyKyol__kdljChXZZRIXt9hLu0,732
+harupy-1.3.dist-info/RECORD,,
+harupy-1.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+harupy-1.3.dist-info/metadata.json,sha256=YIbHy29xdMnbl9PAuYn5FUVaRAJbjR6Yj6fz9TC8MNI,868
+harupy-1.3.dist-info/top_level.txt,sha256=PUw6KGsz0X-HkwExBcnF99YSqQmwz_7dhMDitL8mrio,7
