@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version
+bin/check-complete
+bin/find-duplicates
+bin/photosorter
+photo_sorter/__init__.py
+photo_sorter.egg-info/PKG-INFO
+photo_sorter.egg-info/SOURCES.txt
+photo_sorter.egg-info/dependency_links.txt
+photo_sorter.egg-info/not-zip-safe
+photo_sorter.egg-info/requires.txt
+photo_sorter.egg-info/top_level.txt
+test/__init__.py
