@@ -1,0 +1,7 @@
+pyopenssl
+
+[dev]
+pytest
+
+[test]
+pytest
