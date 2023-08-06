@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: fern-labextension
+Version: 0.0.5
+Summary: Fern Jupyter lab Extension
+Home-page: https://github.com/disraptoer/fern-next
+Author: amie
+Author-email: hej@amie.ai
+License: private
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: jupyterlab
+Requires-Dist: amieci (>=0.0.7)
+
+# Fern
+
+Fabolous Extension for Reproductible jupter lab Notebooks
+
+
+Fern is a plugin for the Jupyter Lab Notebook designed to help you track and
+document your workflow in conjunction with [amie.ai](https://amie.ai/).
+
+To see a quick demo of it in action checkout the gif below: 
+
+![demo](.github/Fern-minimal-demo.gif)
+
+## Installation
+Fern is available on pypi and can be installed with pip. Once this is done the
+Jupyter extension must be installed and enabled:
+
+```
+pip install fern
+jupyter labextension install  fern
+```
+
+## Usage
+To activate Fern, add the following lines to the top of your notebook
+```
+%matplotlib inline #optional, for figure capture
+%load_ext fern.fern
+%track on "your amie API key"
+```
+
+If you want to turn the tracker off at any time just run
+```
+%track off
+```
+
+To start tracking agin rerun
+```
+%track on "your amie API key" 
+```
+## FAQ
+
+#### Q: How does it work?
+We determine the inputs and outputs for each cell by building an
+[AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree) of your code. Each new
+cell execution creates a new leaf which is attached in the tree where the
+most recent change in the new leaf's inputs occured as an output to a prior
+cell.
+
+
