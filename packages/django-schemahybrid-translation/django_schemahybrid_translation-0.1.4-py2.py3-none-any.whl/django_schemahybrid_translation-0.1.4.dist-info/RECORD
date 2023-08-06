@@ -1,0 +1,9 @@
+schemahybrid_translation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemahybrid_translation/api.py,sha256=jLqXurQkz_je8RQMOAyA9b-RHVKp7DfRvb9vmQhuYuc,255
+schemahybrid_translation/fields.py,sha256=kJMzJzrEAwDjHeEkNcWCUlmnFaoqxig2wBAMQRiRMuU,1700
+schemahybrid_translation/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_schemahybrid_translation-0.1.4.dist-info/LICENSE.txt,sha256=7oIP8NtM5ihWngl1rCfckmBSqfhdECsQHtsQQxHvTZA,479
+django_schemahybrid_translation-0.1.4.dist-info/METADATA,sha256=U-e4iOQGCjKmqt-i4PwPO3Vt9b2vBJp5aKQ6nXK-MHs,900
+django_schemahybrid_translation-0.1.4.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+django_schemahybrid_translation-0.1.4.dist-info/top_level.txt,sha256=T6X_H25Id-kpuo7LG0ozX8xWI8tHdBK5NR_1MMUq94k,25
+django_schemahybrid_translation-0.1.4.dist-info/RECORD,,
