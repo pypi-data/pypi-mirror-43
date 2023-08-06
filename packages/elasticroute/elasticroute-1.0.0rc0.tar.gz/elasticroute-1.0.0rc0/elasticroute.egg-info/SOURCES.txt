@@ -1,0 +1,6 @@
+README.md
+setup.py
+elasticroute.egg-info/PKG-INFO
+elasticroute.egg-info/SOURCES.txt
+elasticroute.egg-info/dependency_links.txt
+elasticroute.egg-info/top_level.txt
