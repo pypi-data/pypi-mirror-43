@@ -1,0 +1,10 @@
+README.md
+mensa.py
+setup.py
+mensa_kl_cli.egg-info/PKG-INFO
+mensa_kl_cli.egg-info/SOURCES.txt
+mensa_kl_cli.egg-info/dependency_links.txt
+mensa_kl_cli.egg-info/entry_points.txt
+mensa_kl_cli.egg-info/not-zip-safe
+mensa_kl_cli.egg-info/requires.txt
+mensa_kl_cli.egg-info/top_level.txt

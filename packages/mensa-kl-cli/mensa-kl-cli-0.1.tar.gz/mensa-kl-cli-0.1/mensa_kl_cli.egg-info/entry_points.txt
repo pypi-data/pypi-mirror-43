@@ -1,0 +1,3 @@
+[console_scripts]
+mensa-kl = mensa:mensa
+
