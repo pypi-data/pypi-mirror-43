@@ -1,0 +1,8 @@
+mlp/__init__.py,sha256=P-BQqLMmBKMUuzFvcuNSNqZzhtD3zN4xONwYGmbjHX0,582
+mlp/activations.py,sha256=7FLY9vTpoMVCYvtuNN_dANlPvJAlUgYQGsB4B0IsKGk,1492
+mlp/network_utils.py,sha256=egJpqem4yvDki1pH-N2_A16zs-mOX7rqbp0GYbEylMw,11175
+gliaml-0.0.1.dist-info/LICENSE.txt,sha256=kaNrKGjWDCLIC1AS1Sz-gtfVelp3L7J_L3E66aQUh-8,11561
+gliaml-0.0.1.dist-info/METADATA,sha256=h4SWN6ebec8Z_PBSCFY3yf6RKvy5kXS9jcuJFG4qujs,964
+gliaml-0.0.1.dist-info/WHEEL,sha256=UpB-bp5SQQdekLv3_zfFAhrQBtaQjJZABvUiavkhjZ0,97
+gliaml-0.0.1.dist-info/top_level.txt,sha256=5PYdaZXJJID-YwVLzaC5VqEvzN3RVh_vKXVBsVc1TtU,4
+gliaml-0.0.1.dist-info/RECORD,,
