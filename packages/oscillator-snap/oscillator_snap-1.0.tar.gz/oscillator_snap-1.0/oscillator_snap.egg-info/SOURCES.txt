@@ -1,0 +1,11 @@
+README.rst
+setup.py
+oscillator_snap/__init__.py
+oscillator_snap/oscillator_auxiliaries.py
+oscillator_snap/oscillator_gauge.py
+oscillator_snap/oscillator_snap.py
+oscillator_snap.egg-info/PKG-INFO
+oscillator_snap.egg-info/SOURCES.txt
+oscillator_snap.egg-info/dependency_links.txt
+oscillator_snap.egg-info/requires.txt
+oscillator_snap.egg-info/top_level.txt
