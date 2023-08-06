@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hello-pypi-ye
+Version: 0.0.3
+Summary: this is a sample project for pypi upload test
+Home-page: https://pypi.org
+Author: YE
+Author-email: xxx@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: sample upload pypi
+Platform: UNKNOWN
