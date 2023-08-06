@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: repflaskboilerplate
+Version: 0.5.5
+Summary: a SQLAlchemy helper package
+Home-page: https://github.com/RyanGuild/REP-flask-boilerplate
+Author: Ryan Guild
+Author-email: ryanguild489@gmail.com
+License: UNKNOWN
+Description: ### how to build me
+        - install setuptools and twine
+        - change the version number in setup.py
+        - python setup.py sdist bdist_wheel
+        - python -m twine upload --skip-existing dist/*
+        - ryans pypi
+        
+        ### how to import me
+        - add repflaskboilerplate to requirements.txt
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
