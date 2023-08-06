@@ -1,0 +1,17 @@
+README.md
+setup.py
+jassign/__init__.py
+jassign/jassign.py
+jassign/jassign_pdf.py
+jassign/test.tplx
+jassign/to_ok.py
+jassign/to_pdf.py
+jassign.egg-info/PKG-INFO
+jassign.egg-info/SOURCES.txt
+jassign.egg-info/dependency_links.txt
+jassign.egg-info/entry_points.txt
+jassign.egg-info/requires.txt
+jassign.egg-info/top_level.txt
+tests/__init__.py
+tests/test_export.py
+tests/test_strip.py
