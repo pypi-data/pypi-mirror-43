@@ -1,0 +1,3 @@
+[console_scripts]
+ja2sci = ja2sci.main:commandline
+
