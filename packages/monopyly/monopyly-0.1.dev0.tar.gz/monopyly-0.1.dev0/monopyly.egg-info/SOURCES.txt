@@ -1,0 +1,12 @@
+README.md
+setup.py
+monopyly.egg-info/PKG-INFO
+monopyly.egg-info/SOURCES.txt
+monopyly.egg-info/dependency_links.txt
+monopyly.egg-info/top_level.txt
+monopyly/core/creditcards.py
+monopyly/core/database.py
+monopyly/core/utils.py
+monopyly/gui/app.py
+monopyly/gui/custom_widgets.py
+scripts/monopyly
