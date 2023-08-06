@@ -1,0 +1,8 @@
+scikit-learn
+idlsave
+pyfits
+numpy
+ipdb
+pyraf
+PyObjC
+scipy
