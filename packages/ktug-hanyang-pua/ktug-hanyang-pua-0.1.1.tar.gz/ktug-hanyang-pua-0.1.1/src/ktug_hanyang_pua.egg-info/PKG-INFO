@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ktug-hanyang-pua
+Version: 0.1.1
+Summary: KTUG HanYang PUA conversion table reader
+Home-page: https://github.com/mete0r/ktug-hanyang-pua
+Author: mete0r
+Author-email: mete0r@sarangbang.or.kr
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Description: ktug-hanyang-pua
+        ================
+        
+        KTUG HanYang PUA conversion table reader
+        
+        
+        Production environment
+        ----------------------
+        
+        To setup production environment::
+        
+           python bootstrap-virtualenv.py
+        
+        Maintenance note: you should populate virtualenv_support/ with wheels for
+        production environment, i.e. packages specified in requirements.txt
+        
+        
+        Development environment
+        -----------------------
+        
+        To setup development environment::
+        
+           virtualenv -p python2.7 .
+           bin/pip install -U setuptools pip pip-tools
+           make
+           make test
+        
+        Changes
+        =======
+        
+        0.1.1 (2019-03-17)
+        ------------------
+        
+        - Fix dump_mappings_as_text_table().
+        
+        
+        0.1.0 (2019-03-17)
+        ------------------
+        
+        - Initial release.
+        
+Keywords: KTUG,Hanyang,PUA
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Provides-Extra: test
