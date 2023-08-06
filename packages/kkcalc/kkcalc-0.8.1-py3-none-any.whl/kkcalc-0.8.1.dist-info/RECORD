@@ -1,0 +1,14 @@
+kkcalc/ASF.json,sha256=nt9PrA2NvAVSk4q7EGA5pxw06cfqcZaZZKQbVur3n2Y,5759539
+kkcalc/PackRawData.py,sha256=Te9cFCUiqCCNKT79a6-op8aI7q4K8rGaPq9dOUBujY8,6917
+kkcalc/__init__.py,sha256=PmsslgE2BIDze_kDf2R5No1oHk-Kqj916ZYFrcDlVo0,15
+kkcalc/data.py,sha256=oqeAPfMIyoWl6uIDlHzNg8ebzwVoL83-dkQroYC8THI,24026
+kkcalc/kk.py,sha256=337osF4AWJ4Gb0ClLX0otTULNzMIpy-sZMuv1QC9fLU,13628
+kkcalc/kk_gui.py,sha256=YkjJl0EktdeIlQtly5MiSnSSBiVQxGUHWwRjW6Up5gw,17201
+kkcalc/test_kk.py,sha256=IkSjuE8YbTxLYSQBPBIPTKSE4Z_6FlsZ8wlFc-NRTlQ,1455
+kkcalc-0.8.1.dist-info/DESCRIPTION.rst,sha256=FZP__0nxNNn7CA_Jj7RD3hZTLWPiof3S5dBr-nnPjTk,7775
+kkcalc-0.8.1.dist-info/METADATA,sha256=9OXoNKBBt8-yIPCa6U5MLyGw2-j8J71TX60v6-b4RUs,8361
+kkcalc-0.8.1.dist-info/RECORD,,
+kkcalc-0.8.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+kkcalc-0.8.1.dist-info/entry_points.txt,sha256=1luGvI5N0pq3pQCphsItZIUBBmy40c-5hRnaQIBhK3Y,51
+kkcalc-0.8.1.dist-info/metadata.json,sha256=ZYbeNX74oAffhx2hJmt4oAMYl1Mlb7FgUvBpTQDerqo,900
+kkcalc-0.8.1.dist-info/top_level.txt,sha256=0Q1bl6_2ZrbQrV8m01pQuJgtkRHXWTR2LdjS1NCbmdc,7
