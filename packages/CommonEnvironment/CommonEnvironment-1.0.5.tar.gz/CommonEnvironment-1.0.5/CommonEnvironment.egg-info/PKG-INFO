@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: CommonEnvironment
+Version: 1.0.5
+Summary: Foundational Python libraries used across a variety of different projects and environments.
+Home-page: https://github.com/davidbrownell/Common_Environment_v3
+Author: David Brownell
+Author-email: pypi@DavidBrownell.com
+License: Boost Software License
+Project-URL: Bug Tracker, https://github.com/davidbrownell/Common_Environment_v3/issues
+Description: CommonEnvironment
+Keywords: Python,Library,Development,Foundation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

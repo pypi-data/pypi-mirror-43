@@ -1,0 +1,7 @@
+asciitree>=0.3.3
+colorama>=0.3.9
+enum34>=1.1.6
+inflect>=0.2.5
+six>=1.11.0
+tqdm>=4.23.3
+wrapt>=1.10.11
