@@ -1,0 +1,13 @@
+generic_helpers/__init__.py,sha256=-Atpy3yK-JsAAwDpDjUsB6rxrjt7ucSSYRQ1nmREKmA,23
+generic_helpers/checks.py,sha256=UqC2c20ZpE3LJV4z7HUVgIKm_7I4EXuY3VOz_WOHG8A,1601
+generic_helpers/decorators.py,sha256=HaPbkfAWRtyDlVfqa2g3C-vOgkhhVqjH87avopnTpK4,1087
+generic_helpers/fields.py,sha256=MEFAOoXY-PfpMGY1R_pLD_tu_3ueJ-iEvYOXiKAMbe4,8043
+generic_helpers/managers.py,sha256=KQd5NVM36xK1oDhnJ6DY1vuk4tWhSqqDljs5pAPuq7s,1805
+generic_helpers/models.py,sha256=5_Rb3gITLWinxI_ivRPOA4Rn4Vp5zZ4l-42VetxQuuc,4096
+generic_helpers/settings.py,sha256=xfZVF2GOR4avLY2CTYuMQeXypXzVkuGwajBq2cBsaTM,274
+generic_helpers/utils.py,sha256=rJSMH4T-i1iWINOaVjka_ynUTQRDgXtQY97VG486CUM,1478
+django_generic_helpers-1.0.1.dist-info/METADATA,sha256=BREbKQp-4a-aJS-9GZneBn_gUU9-V4YUGglBhAjxui0,3829
+django_generic_helpers-1.0.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+django_generic_helpers-1.0.1.dist-info/top_level.txt,sha256=BCwDvSD56KaxtJr_IcHxKj8_V6ta1rtdj8tgUyFu93w,16
+django_generic_helpers-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_generic_helpers-1.0.1.dist-info/RECORD,,
