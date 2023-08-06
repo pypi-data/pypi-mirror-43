@@ -1,0 +1,17 @@
+italian_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+italian_utils/models.py,sha256=w8rEan2s-4qegdyxUfNYE4151_fF3EItp-vHcQq-KVc,449
+italian_utils/utils.py,sha256=3ZXI8nJycs9e1Fw_VX0tyjFhN83YDfCmKTlw92CRiQg,5563
+italian_utils/validators.py,sha256=8ZqWlz8SFb7VHKTqEDNG203spZ0GH9wg769TPqoxZWc,2806
+italian_utils/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+italian_utils/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+italian_utils/management/commands/importacomuni.py,sha256=5WlbWKwb6esfvSY8ig6xDnGpZ8phQV1woufTyynsSe0,1182
+italian_utils/migrations/0001_initial.py,sha256=qC80Z9_xDfuFqhlcTm-87P9pjM1ZtaNyH_vnHBpOxc8,648
+italian_utils/migrations/0002_auto_20140828_1839.py,sha256=L2AQNKVfV13NKn42I6FPc_qOJHfAS9cTse0jdW25_ow,599
+italian_utils/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+italian_utils/tests/__init__.py,sha256=ahtWB1vXj2WMP-Z_494FZPwUj6AkQoMUXyOrYpLsx5k,22
+italian_utils/tests/tests.py,sha256=mZ-c-w_4ER-REuL3OvvReoNxa3ngFZQMBRcNSwA3QSY,2631
+django_italian_utils-0.3.1.dist-info/LICENSE,sha256=qEEYTCGSfAJCwpGV2blurygaTOiiAfJaWfXX5jF7MyM,1098
+django_italian_utils-0.3.1.dist-info/METADATA,sha256=_m7HgURLhYTCQ1EosR4QGZpRKBhkQ8VzCwJ3zzKgmBU,2878
+django_italian_utils-0.3.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+django_italian_utils-0.3.1.dist-info/top_level.txt,sha256=3KEgrr1yaNyZZEXcF8XtgPYlyGsFMrny8EPfprIzyMM,14
+django_italian_utils-0.3.1.dist-info/RECORD,,
