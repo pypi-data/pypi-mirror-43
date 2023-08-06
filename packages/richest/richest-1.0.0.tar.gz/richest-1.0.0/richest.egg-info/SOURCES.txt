@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+richest/__main__.py
+richest/richest.py
+richest.egg-info/PKG-INFO
+richest.egg-info/SOURCES.txt
+richest.egg-info/dependency_links.txt
+richest.egg-info/entry_points.txt
+richest.egg-info/requires.txt
+richest.egg-info/top_level.txt
