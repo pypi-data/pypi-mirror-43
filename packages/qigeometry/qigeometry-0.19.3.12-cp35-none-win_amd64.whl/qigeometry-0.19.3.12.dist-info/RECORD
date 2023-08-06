@@ -1,0 +1,9 @@
+qigeometry/__init__.py,sha256=vbyIls1XjnaJAfZ9uF_UQGzdCNeeg9BihfLQcOP5aB0,1000
+qigeometry/version.py,sha256=t4bDMDJ7AGppxHNGDZ5_jHKsjde-XGk-rAwjG1UZg9Q,70
+qigeometry/win/lib/geometry_module.dll,sha256=S8t_CJyujSX1518EByAtfUc0j6MCtyJP4hU2aoa9-uo,132096
+qigeometry/win/share/qi/module/geometry_module.mod,sha256=a_76IA-ao9SexIWuwgyszKCDFJIEyQN6JajUj67Ar9I,5
+qigeometry-0.19.3.12.dist-info/LICENSE.txt,sha256=JzQA36qe9hGYgJxwt2LysExpjUZe8xvERreMYqVJjVo,36
+qigeometry-0.19.3.12.dist-info/METADATA,sha256=hUKuL-elYFVAyk4IQkq3PfdQQo8DU5bFd0SqKAqxcow,716
+qigeometry-0.19.3.12.dist-info/WHEEL,sha256=UnaxLq559PuLBIKHrTovamMlFz9A_Y_6wPkJPMsCmWU,104
+qigeometry-0.19.3.12.dist-info/top_level.txt,sha256=GwWYuszGXAFFoqDfOWyHjXioGvQN9TH5d_-2g610HuY,11
+qigeometry-0.19.3.12.dist-info/RECORD,,
