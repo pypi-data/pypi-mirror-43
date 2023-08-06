@@ -1,0 +1,9 @@
+README.md
+setup.py
+otter_cli/__init__.py
+otter_cli.egg-info/PKG-INFO
+otter_cli.egg-info/SOURCES.txt
+otter_cli.egg-info/dependency_links.txt
+otter_cli.egg-info/not-zip-safe
+otter_cli.egg-info/top_level.txt
+scripts/otter
