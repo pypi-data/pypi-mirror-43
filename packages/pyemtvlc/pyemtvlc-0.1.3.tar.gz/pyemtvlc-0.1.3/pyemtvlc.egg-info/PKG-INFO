@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyemtvlc
+Version: 0.1.3
+Summary: Python package to query  EMT Valencia (bus).
+Home-page: https://github.com/andoniaf/pyemtvlc
+Author: Andoni Alonso F.
+Author-email: andonialonsof@gmail.com
+License: UNKNOWN
+Description: # pyemtvlc
+        Python package to query  EMT Valencia (bus).
+        
+        
+        ------
+        ## TODO
+        - [ ]: Error management
+        - [ ]: Testing
+        - [ ]: Search some lib like getops for bash to manage args
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
