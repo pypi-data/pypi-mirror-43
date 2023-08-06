@@ -1,0 +1,12 @@
+APIDocTest-0.0.1.data/data/APIDocTestV0.0.1.gif,sha256=kjOk2g7Ng2oDf6eV15PQ3KsmaLlPtVw-9eh8UhyyY7o,817584
+APIDocTest-0.0.1.data/data/examples/with-flask.py,sha256=8CD7tgQdJ_T0rYo_tQGKffwUtDfu6equmLDSWGIEX88,1842
+apidoctest/__init__.py,sha256=IMBBHBnPtfp7MzSU8oCMfnPzcK-3K3FcMSJmVfG2ez0,166
+apidoctest/apidoctest.py,sha256=7chitrQ-e-CKFvc6i_X39MexW9Jdh-roMrwKvmmmbCs,2994
+apidoctest/static/apidoctest.css,sha256=PFk3JnkOrQ8ma6JQ8WNH1nA0GWYKBMk44N6g5-Fgt10,1417
+apidoctest/static/apidoctest.js,sha256=zJmcbKx9tWw40I850vGGMYEokGC74AdJa4U-YMnog-4,10989
+apidoctest/templates/apidoctest.html,sha256=_VjmRLUjJYObVK8QATzQdN80yLDMFI4tmff4IcyvGNA,6304
+APIDocTest-0.0.1.dist-info/LICENSE,sha256=2U4MVOi-BESlEHT6NCQ1rrTMEcct4ARECvCKw_djiLU,1088
+APIDocTest-0.0.1.dist-info/METADATA,sha256=LC_6EbAPAYcOt1f9ZOoZVH1895EjA1cEVMXL-ojft8M,3316
+APIDocTest-0.0.1.dist-info/WHEEL,sha256=66yg5r67RIT-GjSaJ3M-GBTsHX0QfofnyZ-5OqlTUU0,97
+APIDocTest-0.0.1.dist-info/top_level.txt,sha256=XVIauhMEUTDeqZ3adIo3xDyNmi6yjY4Cyx_WhO7blWY,11
+APIDocTest-0.0.1.dist-info/RECORD,,
