@@ -1,0 +1,11 @@
+README.md
+setup.py
+tttb/__init__.py
+tttb/tensor.py
+tttb/tensor_train.py
+tttb/util.py
+tttb.egg-info/PKG-INFO
+tttb.egg-info/SOURCES.txt
+tttb.egg-info/dependency_links.txt
+tttb.egg-info/requires.txt
+tttb.egg-info/top_level.txt
