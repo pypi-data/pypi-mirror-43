@@ -1,0 +1,10 @@
+config_argparse/__init__.py,sha256=NnmVHkg0SQdspBV4p6Ml-ClMim5uMKoXMoJa6H83d28,48
+config_argparse/argparse_action.py,sha256=P75JbwZ9qnPas6CUd-5_tcdIARK7OwHOaBTSAf75HZk,547
+config_argparse/config.py,sha256=Y6K15Dh3OBEjycg-5s3GRnC0Hzc-sFgieBG5aMHRNiA,7891
+config_argparse-0.1.dist-info/METADATA,sha256=nQASu8D3VM8Yr_X1yDFaDCKO-A5gttjlVcJibvVIT1s,276
+config_argparse-0.1.dist-info/RECORD,,
+config_argparse-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+config_argparse-0.1.dist-info/top_level.txt,sha256=QftlhxscmquDYOQZkO8o6SSYR0XGUeJo0FRDGLR0tgs,22
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_all.py,sha256=0deeAaja3hvjrJ0jFzlnfa-t0zd58q0ZXM2-vfH4tVA,35
+tests/test_config.py,sha256=4JqJ0_v_TKj5itRUwMooUCY5yTjffI_lDuVIL5CtKh8,4546
