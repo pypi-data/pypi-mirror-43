@@ -1,0 +1,7 @@
+docker>=3.0
+PyYAML
+setuptools
+subparse
+
+[testing]
+pytest
