@@ -1,0 +1,10 @@
+repomate_junit4/__init__.py,sha256=U7UAhu7C3SHhv7tEQJCS2Wi4Fvu0M5C3Y5sMgsCfSwY,84
+repomate_junit4/__version.py,sha256=LBK46heutvn3KmsCrKIYu8RQikbfnjZaj2xFrXaeCzQ,22
+repomate_junit4/_java.py,sha256=UTnMMFUjbcf2pajd3FIccxatxTUaX60N7lEqZOBE6Pk,7794
+repomate_junit4/_junit4_runner.py,sha256=9jDB2Pxak_k1DqnVXPo4GLBR_Gpf1JVQP9pZ5G7Xpvc,5207
+repomate_junit4/junit4.py,sha256=8axTbRDT6v5NaDsOorzejBcYJCr6eHkgPCmU1d7tkKw,13812
+repomate_junit4-0.5.0.dist-info/LICENSE,sha256=xMBmzTggjC_Tad-iOit7jiwOsLBPNK0WTWFC8e0JyjI,1071
+repomate_junit4-0.5.0.dist-info/METADATA,sha256=t3dghp2LsBGibTNqZN6NYtzqLoF01Z8HJ8kuipxC0oo,8169
+repomate_junit4-0.5.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+repomate_junit4-0.5.0.dist-info/top_level.txt,sha256=A0psuOOv6VAFwZeY-OntOFZHdvsIKk8bXCU9H4s-OXg,16
+repomate_junit4-0.5.0.dist-info/RECORD,,
