@@ -1,0 +1,7 @@
+phpipam_client/__init__.py,sha256=fQJ3RYoMbny6XAOeN_OsWPGigVC885OSmGjnhuEtC68,86
+phpipam_client/client.py,sha256=Q7Uk5hERPrDh9EaikZ25ymRODS2rjLiYvCBJmpHOMso,3080
+phpipam_client/rijndael.py,sha256=5_18QeMlfFPbtlJgiszFK0yE7Am40aqMXMSSSc-zLOc,11426
+phpipam_client-0.2.0.dist-info/LICENSE,sha256=53WVTEE7nWwv52w1vW3yjgufJQV-1DGsMA2QHfBWmL4,1077
+phpipam_client-0.2.0.dist-info/WHEEL,sha256=EthRfnBj5ANYdZzrVuZTBVjm9L2-CFn01N8eGlrWHnY,89
+phpipam_client-0.2.0.dist-info/METADATA,sha256=pSePSVNkATFzGnYS3ybEkFMfd6334iwKf_dXXHRlmfk,1711
+phpipam_client-0.2.0.dist-info/RECORD,,
