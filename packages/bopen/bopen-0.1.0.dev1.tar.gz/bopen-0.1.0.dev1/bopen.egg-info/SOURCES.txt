@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bopen/__init__.py
+bopen/__main__.py
+bopen/bookmarks.py
+bopen/bopen.py
+bopen/make_aliases.py
+bopen/open_commands.py
+bopen/os_helpers.py
+bopen.egg-info/PKG-INFO
+bopen.egg-info/SOURCES.txt
+bopen.egg-info/dependency_links.txt
+bopen.egg-info/entry_points.txt
+bopen.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+bopen = bopen.bopen:main
+
