@@ -1,0 +1,15 @@
+typeit/__init__.py,sha256=OJaZn6M76LMPWW2sx3qR-j8H_HaUYNPx0-sHoNemFrI,106
+typeit/codegen.py,sha256=Z1JrBiT3y8c2Kp4UeGR7T6nDOb56rrAsuaE0MJ-PTSs,9649
+typeit/definitions.py,sha256=pjCATy3JDik2-1x0iLntn5Rm5XVA3NvQm9L6tpeMgOg,292
+typeit/parser.py,sha256=huPoAv_zZx881TySiyM_GktzuwwMv2KKTruQLAOrmtk,8861
+typeit/schema.py,sha256=nqNej-eWqorE1taPQn_RX3I4E-JtC35OYQZhZBbv5JA,7033
+typeit/sums.py,sha256=w5oAKvWfahX1_IPeubaYdB-Y5bC_S10m7NKqhH5Jjqc,11889
+typeit/utils.py,sha256=9UyVJ4PHOpG04bhjekpwRFtVB6lzX4FdowfvszoR9uU,1884
+typeit/cli/__init__.py,sha256=QDMaJyrK0uBRungDblj4g9EIuu_oBdCQbDkCmsZ5-lc,1032
+typeit/cli/run.py,sha256=rxQFIqsfggKLcegugj07ip0XsCa543eG5KBRvFef2i4,1547
+typeit-0.9.0.dist-info/LICENSE,sha256=LrImC7ZwSu1_NoHUBHoeFyEx-4KxCtpGGfz_r8l3DxU,1079
+typeit-0.9.0.dist-info/METADATA,sha256=RBxfQxMXpUk7VKPGS85n14UrOyWTSDQlufaMg32GOZ4,1921
+typeit-0.9.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+typeit-0.9.0.dist-info/entry_points.txt,sha256=BiiCL8xVkJtF3i4x6zvc1yKcS4IzrwQW9ADYzvKcQZE,44
+typeit-0.9.0.dist-info/top_level.txt,sha256=eKt8t2maT-1U7-0qEDFYLQ5jxD4dpDq_f6hs-kzlgfA,7
+typeit-0.9.0.dist-info/RECORD,,
