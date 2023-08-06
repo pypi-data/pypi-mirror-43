@@ -1,0 +1,12 @@
+cortecx/__init__.py,sha256=YV8TG1oW4YTohSL8XonH-ARm46SoGBV-wjOrW-wsi8I,39
+cortecx/architecture/__init__.py,sha256=YV8TG1oW4YTohSL8XonH-ARm46SoGBV-wjOrW-wsi8I,39
+cortecx/architecture/build.py,sha256=6sh3_tZxW3RIdzRks8DOBt0oD9g1O8fSI7z1RwjpB40,107
+cortecx/constrcution/__init__.py,sha256=YV8TG1oW4YTohSL8XonH-ARm46SoGBV-wjOrW-wsi8I,39
+cortecx/constrcution/foundation.py,sha256=0eN79sbBIqX9X7KMi3fwtn9Rv8ViBqCoKYT10C1Ybn0,1705
+cortecx/constrcution/materials.py,sha256=TC_KO6-y8ed196SiS2c7LSPLyG2FEOlNXa8rWCdwYjE,13022
+Cortecx-0.0.1.dist-info/LICENSE,sha256=B467OC4O5BJh9csA4xoV-xMH0JElEE4Y-8gnKCmPInw,7051
+Cortecx-0.0.1.dist-info/METADATA,sha256=ewK9DdPkq90DpuOADk4oum-8kG20cZKsb-sW9CmrRyE,467
+Cortecx-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+Cortecx-0.0.1.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+Cortecx-0.0.1.dist-info/top_level.txt,sha256=syZWTUB6gSwKDO6OvsomaOF1zZSaZ4aB6BbXS3Rpxfw,8
+Cortecx-0.0.1.dist-info/RECORD,,
