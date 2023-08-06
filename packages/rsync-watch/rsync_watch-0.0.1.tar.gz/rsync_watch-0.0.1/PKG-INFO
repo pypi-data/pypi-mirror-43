@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rsync_watch
+Version: 0.0.1
+Summary: A Python script to monitor the execution of a rsync task.
+Home-page: https://github.com/Josef-Friedrich/rsync-watch
+Author: Josef Friedrich
+Author-email: josef@friedrich.rocks
+License: GPL3
+Project-URL: Source, https://github.com/Josef-Friedrich/rsync-watch
+Project-URL: Tracker, https://github.com/Josef-Friedrich/rsync-watch/issues
+Description: [![Build Status](https://travis-ci.org/Josef-Friedrich/rsync-watch.svg?branch=master)](https://travis-ci.org/Josef-Friedrich/rsync-watch)
+        
+        # rsync-watch
+        A Python script to monitor the execution of a rsync task
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
