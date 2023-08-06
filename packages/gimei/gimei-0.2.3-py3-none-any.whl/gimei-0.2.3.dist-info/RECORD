@@ -1,0 +1,14 @@
+gimei/__init__.py,sha256=N0AwV30ElH13twu-aR015Q0DDa13xWP3JjcTpvN5ht8,77
+gimei/address.py,sha256=lp1ujEGZqHuxp9sikoigAzRtataVSOE9MtargcTcyy4,3590
+gimei/gimei.py,sha256=ETIOqfHqV5Uy4JFfiV2K9pBZ96u5SQTjMKsFBAHvXzw,1267
+gimei/name.py,sha256=oVWzJAfwMcySkg12Hco97oTcRJeVPT3kwMU837suanM,3338
+gimei/data/addresses.yml,sha256=1dYtZISQPGXu37JgMDyLdgc1-kpvDNypV1gqWH_aEGg,243108
+gimei/data/names.yml,sha256=nJULdwyp24LTMQ1Q-mULs2oXSOBPMGhh35qj_1P12VU,577136
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_address.py,sha256=M-uJzGKtBYicU6jf7ICm2aHs9anvIaMhUhGXOTr3qz0,522
+tests/test_name.py,sha256=ym8z05_5A_zfUfowdZDNbdst8afg_rLjrSO-VlzOVa8,681
+gimei-0.2.3.dist-info/LICENSE,sha256=lN8ugK7zMKgOIIUEkzrcfS7KbhR8AMffyMkZ83P4K6g,1076
+gimei-0.2.3.dist-info/METADATA,sha256=Sr1_-sKojeknWXKzjlgHESEpBYNSHseYgcDeOxkQ38w,2683
+gimei-0.2.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+gimei-0.2.3.dist-info/top_level.txt,sha256=92PVv5599BtODufWqcsFANqp9VNrvp_ttOHslI6bmog,12
+gimei-0.2.3.dist-info/RECORD,,
