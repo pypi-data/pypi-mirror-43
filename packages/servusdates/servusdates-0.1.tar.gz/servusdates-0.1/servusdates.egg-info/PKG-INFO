@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: servusdates
+Version: 0.1
+Summary: Python3 module to check date and hour format.
+Home-page: https://github.com/carlosplanchon/servusdates
+Author: Carlos A. Planchón
+Author-email: bubbledoloresuruguay2@gmail.com
+License: GPL3
+Download-URL: https://github.com/carlosplanchon/servusdates/archive/v0.1.tar.gz
+Description: # servusdates
+        *Python3 module to check date and hour format.*
+        
+        ## Installation
+        ### Install with pip
+        ```
+        pip3 install -U servusdates
+        ```
+        
+        ## Usage
+        ```
+        In [1]: import servusdates
+        
+        In [2]: servusdates.is_complete_hour("16:20:00")
+        
+        Out[2]: True
+        
+        In [3]: servusdates.is_date("08/10/1997")
+        
+        Out[3]: (True, 'DD-MM-YYYY')
+        ```
+        
+Keywords: servus,dates,hour,check
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
