@@ -1,0 +1,16 @@
+elasticsearch_partition/__init__.py,sha256=5hgG6Tc6gOKMKOPrfmZVq5Oru0wSmCJSrs-GFTlov0A,151
+elasticsearch_partition/dateutils.c,sha256=_vn-RE1uaxZlln3tpkDlSUWjHHY7mrdjM7ityPhnXlk,198819
+elasticsearch_partition/dateutils.cpython-37m-darwin.so,sha256=1l5kGEP6QLnktbMH56alFAhs35oIW-sRs8AgsKqcAWo,43112
+elasticsearch_partition/dateutils.pxd,sha256=RBze8rHdqa_MhKxFxOt9xs7rcPSuXLyjHsSm6fuQVp8,690
+elasticsearch_partition/dateutils.pyx,sha256=G_IxfqwwlUJRk2r5eEzOZ0OKRrIaQ5ziI_dMHr09Mkc,4003
+elasticsearch_partition/formatters.c,sha256=-dkqx0UetmGI7_L189Aml6unOuMSkCg8yuCwq4whom8,500470
+elasticsearch_partition/formatters.cpython-37m-darwin.so,sha256=pHDFJ8H9pOvVWUrpvg9m7e6f2UZwQ99YWLgGS8yeJKc,145580
+elasticsearch_partition/formatters.pxd,sha256=OngvCQoBnPh3vP74H_GtAolH_nBcWgM58NPKTi6B6ao,947
+elasticsearch_partition/formatters.pyx,sha256=uhWzlTEbZ-MYOTBbXd-lry9PCsL84E0uvp7eSS98Ncg,4520
+elasticsearch_partition/partitioning.c,sha256=BjAdIIMOn-z1iluJo15s8l-7lJ1nYYILnuwPZqPkUOM,281924
+elasticsearch_partition/partitioning.cpython-37m-darwin.so,sha256=wXNyvxvoTKJbPC1XaLR2koDERSXBzlmOgdeS4RRO4ns,69620
+elasticsearch_partition/partitioning.pyx,sha256=8vGcizb-wHICnyGTCGj0s0q1mTbNfuh9La-gMV4BpjE,4888
+elasticsearch_partition-2.0.0.dist-info/METADATA,sha256=Hvuwqtx265f_hnT3bIXxLrCHHtyS9TAK_zfv8WLTqXg,6689
+elasticsearch_partition-2.0.0.dist-info/RECORD,,
+elasticsearch_partition-2.0.0.dist-info/WHEEL,sha256=LKgIB7mcdH5tS4Fbr9iatkFt-G5yvCrYWM614rC9JZE,111
+elasticsearch_partition-2.0.0.dist-info/top_level.txt,sha256=nqiimefd4favDBZJ40JoGDSjWGmCcSqedMgIJgrdh6A,24
