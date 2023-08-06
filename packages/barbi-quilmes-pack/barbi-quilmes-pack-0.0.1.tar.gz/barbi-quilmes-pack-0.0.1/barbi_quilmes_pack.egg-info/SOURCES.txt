@@ -1,0 +1,7 @@
+README.md
+setup.py
+barbi_quilmes_pack.egg-info/PKG-INFO
+barbi_quilmes_pack.egg-info/SOURCES.txt
+barbi_quilmes_pack.egg-info/dependency_links.txt
+barbi_quilmes_pack.egg-info/top_level.txt
+pack_barbi/__init__.py
