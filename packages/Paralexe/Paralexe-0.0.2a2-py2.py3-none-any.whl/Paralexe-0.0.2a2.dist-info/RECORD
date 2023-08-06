@@ -1,0 +1,10 @@
+paralexe/__init__.py,sha256=gEo4Nudo0CUdrglyKIO721iKCRG5VpizaiK7Dk7VV3c,522
+paralexe/executor.py,sha256=kyHRRuM7WnAkJ8g7uv_JIuLk44MBcPAyqrXWpHcbZJ8,2491
+paralexe/manager.py,sha256=wwNTNRwqPJwg2WNfaJYXlVyCZDoQ1PNI-A3CazkY7x0,9996
+paralexe/rsubprocess.py,sha256=t5qKgfy3cTX3jbnsVJjpyyPUT0UwaHb_W__rVsTNvCE,2646
+paralexe/scheduler.py,sha256=OFIV-e-4wYUOhIcCQPxcY35vb6r3_APFxgl4ZKTROQ4,13771
+paralexe/worker.py,sha256=JjUtnv7nvtieUA4lzKrc6RAgZfjCgdyBLHwLo3fFLn4,2885
+Paralexe-0.0.2a2.dist-info/METADATA,sha256=Qx4BAa5CHt107EgvnC8FKpJsHC4dkpnUGoVBRPqfyiY,589
+Paralexe-0.0.2a2.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+Paralexe-0.0.2a2.dist-info/top_level.txt,sha256=e-A16q1j3FsQ1jMMPJiDhiAJVZ9KhZ9fWimhYpaTnyE,9
+Paralexe-0.0.2a2.dist-info/RECORD,,
