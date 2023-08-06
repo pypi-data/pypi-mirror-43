@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: Flask-SQLAlchemy-Caching
+Version: 1.0.3
+Summary: CachingQuery implementation to Flask using Flask-SQLAlchemy and Flask-Caching
+Home-page: http://www.github.com/bbelyeu/Flask-SQLAlchemy-Caching
+Author: Brad Belyeu
+Author-email: bradleylamar@gmail.com
+License: MIT
+Download-URL: https://github.com/bbelyeu/Flask-SQLAlchemy-Caching/archive/1.0.3.zip
+Keywords: flask,sqlalchemy,caching,cache
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (>=0.12.2)
+Requires-Dist: Flask-Caching (>=1.3.2)
+Requires-Dist: Flask-SQLAlchemy (>=2.2)
+
+Flask-SQLAlchemy-Caching
+========================
+
+This is a fork of [iurisilvio's Flask-SQLAlchemy-Cache](https://github.com/iurisilvio/Flask-SQLAlchemy-Cache)
+
+A CachingQuery implementation to Flask using Flask-SQLAlchemy and Flask-Caching.
+
+To start using caching queries, you just have to replace Flask-SQLAlchemy `Model.query_class`.
+
+```python
+from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy_caching import CachingQuery
+from flask_caching import Cache
+
+db = SQLAlchemy(app, query_class=CachingQuery)
+
+cache = Cache(app)
+```
+
+After that, you can just make queries to a model `YourModel`:
+
+```python
+from flask_sqlalchemy_caching import FromCache
+
+# cache is a Flask-Caching instance imported for your app init
+YourModel.query.options(FromCache(cache)).get()
+```
+
+You also have `RelationshipCache` to enable lazy loading relationships from
+cache.
+
+```python
+from sqlalchemy.orm import lazyload
+from flask_sqlalchemy_caching import RelationshipCache
+
+rc = RelationshipCache(YourModel.some_relationship, cache)
+obj = YourModel.query.options(lazyload(YourModel.some_relationship), rc).get()
+
+# make the query and cache the results for future queries
+print(obj.some_relationship)
+```
+
+If there is a column in your table that is much more dynamic and you want to exclude it from
+being cached, try using a deferred query like:
+```python
+YourModel.query.options(defer('crazy_column')).options(FromCache(cache)).get()
+```
+
+Take a look at [Dogpile Caching example][] to more details about how
+`CachingQuery` works. Most changes to their were made just to integrate it
+with Flask, Flask-SQLAlchemy and Flask-Caching instead of Dogpile.
+
+[Dogpile Caching example]: http://docs.sqlalchemy.org/en/latest/orm/examples.html?highlight=dogpile#module-examples.dogpile_caching
+
+
