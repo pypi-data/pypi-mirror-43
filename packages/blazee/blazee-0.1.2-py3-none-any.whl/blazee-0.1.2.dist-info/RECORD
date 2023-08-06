@@ -1,0 +1,16 @@
+blazee/__init__.py,sha256=Cc-X5XhB7A7tjR4MvTSk62dNbVr7M84N4nzyjjs528w,1177
+blazee/client.py,sha256=skKBBt5Q1XE_s8M0zc6yJxaarikGSVoGEO17iETu-Zw,4585
+blazee/model.py,sha256=zq8xokmuhB7smiz8cD3ggUVpy92EbvHXA4saJY9xvsc,10616
+blazee/prediction.py,sha256=-NApLWdNCNxi1Z33fgKsX24luRdjPrEgtKxd_6FVhxw,1124
+blazee/utils.py,sha256=j1Tx0pLjeymYGWmhQ3V6-AlQOetRw3R5UQtcsfxg2Bo,223
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=EMRAtcWBNQ4bs6ttjP16Co5H2you4hNznLDOfCS7hsE,1123
+tests/test_client.py,sha256=oDwFXOhWHdSNADUbVXmdKnVs3JhR7aDnvfAzFue7lvo,2126
+tests/test_model.py,sha256=50OuaYSJgsZVVpXD0eYs9tRWnxGoTJKEvqNdmject7I,789
+tests/test_pipeline.py,sha256=KT2Jy1tk3JfwdbWrqo5rekCnUPUJ-QfUFzBRmg8ITPg,2995
+blazee-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+blazee-0.1.2.dist-info/METADATA,sha256=NERtVcgzwt6SAID_aesnzo7no8XHdn9lNwYCMxCq76w,2659
+blazee-0.1.2.dist-info/NOTICE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blazee-0.1.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+blazee-0.1.2.dist-info/top_level.txt,sha256=pVbLgESBZe7-OVGf4Z-CsblcCJhc5OnvqvDTHv0d5LI,13
+blazee-0.1.2.dist-info/RECORD,,
