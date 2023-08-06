@@ -1,0 +1,3 @@
+[console_scripts]
+thewhitetools-joke = thewhitetools.command_line:main
+
