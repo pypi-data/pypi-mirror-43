@@ -1,0 +1,67 @@
+Metadata-Version: 1.1
+Name: mezzanine-heroku
+Version: 0.3.1
+Summary: This is a Mezzanine library for Heroku apps.
+Home-page: https://github.com/jackvz/mezzanine-heroku
+Author: Kenneth Reitz
+Author-email: kreitz@salesforce.com
+License: MIT
+Description: 
+        mezzanine-heroku (Python Library)
+        =================================
+        
+        .. image:: https://travis-ci.org/heroku/mezzanine-heroku.svg?branch=master
+            :target: https://travis-ci.org/heroku/mezzanine-heroku
+        
+        This is a `Mezzanine <http://mezzanine.jupo.org/>`_ library for `Heroku <https://www.heroku.com/>`_ applications that ensures a seamless deployment and development experience.
+        
+        Based on `django-heroku <https://github.com/heroku/django-heroku>`_
+        
+        This library provides:
+        
+        -  Settings configuration (Static files / WhiteNoise).
+        -  Logging configuration.
+        -  Test runner (important for `Heroku CI <https://www.heroku.com/continuous-integration>`_).
+        
+        --------------
+        
+        Mezzanine 4.3.1 and Django 1.11.20 is targeted, and Python 3 is supported.
+        
+        Usage of mezzanine-heroku
+        -------------------------
+        
+        In ``settings.py``, at the very bottom::
+        
+            …
+            # Configure Mezzanine for Heroku.
+            import mezzanine_heroku
+            mezzanine_heroku.settings(locals())
+        
+        This will automatically configure ``DATABASE_URL``, ``ALLOWED_HOSTS``, WhiteNoise (for static assets), Logging, and Heroku CI for your application.
+        
+        **Bonus points!** If you set the ``SECRET_KEY`` environment variable, it will automatically be used in your Mezzanine settings, too!
+        
+        Disabling Functionality
+        ///////////////////////
+        
+        ``settings()`` also accepts keyword arguments that can be passed ``False`` as a value, which will disable automatic configuration for their specific areas of responsibility:
+        
+        - ``databases``
+        - ``test_runner``
+        - ``staticfiles``
+        - ``allowed_hosts``
+        - ``logging``
+        - ``secret_key``
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
