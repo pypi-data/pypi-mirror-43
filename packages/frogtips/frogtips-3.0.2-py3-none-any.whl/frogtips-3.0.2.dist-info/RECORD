@@ -1,0 +1,14 @@
+frogtips/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frogtips/__main__.py,sha256=UIViPrSgInu6AGUP3gwP42tOFtagkoScba3RVEbcUoA,3720
+frogtips/constants.py,sha256=8_WBoCyrIPGz2_lSpu2bQhpm6FOdRFvC_ZvMXRhranM,2608
+frogtips/frogsay.py,sha256=m01003JdPr4GkjwW3YKnqGTmNK33pqdMD3C0WlKthyU,2707
+frogtips/api/Credentials.py,sha256=g9Xish3xgXMlnzNm6w5pZMU0fOnG09GKqL9mmXVsm1k,6368
+frogtips/api/Tip.py,sha256=Qcsi3mxDQLV1jgp1eMN4rw7JcZtfiDSY8p9-4hrMHFQ,3530
+frogtips/api/Tips.py,sha256=Qi5VfGHuCM1OUGgZGz1LQZNAzLKSCQmkdWFcM1avBGs,3374
+frogtips/api/__init__.py,sha256=KiniWtz8TvTdE5v7gQ9YBKT6Jm-SC4Wr6n2BIkc14po,118
+frogtips-3.0.2.dist-info/LICENSE,sha256=cr8E1cE8XXkPSAp6jeZiSz4MPRoCyOG3xn5U3plioC4,1061
+frogtips-3.0.2.dist-info/METADATA,sha256=5ZxpKQ80YrcX7njpbs5ePgR3TRfdnZlwRUd97j2poCU,488
+frogtips-3.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+frogtips-3.0.2.dist-info/entry_points.txt,sha256=fD76YJbLRmrEDnKUtQt_AVnVbin5edoOhsMS2R9ZN_E,53
+frogtips-3.0.2.dist-info/top_level.txt,sha256=p7itF1QcBhc4KOu6D-sANiOzp1r5crQfE6DERQHCI0Y,9
+frogtips-3.0.2.dist-info/RECORD,,
