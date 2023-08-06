@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: webscan
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Gregory Petukhov
+Author-email: lorien@lorien.name
+Maintainer: Gregory Petukhov
+Maintainer-email: lorien@lorien.name
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

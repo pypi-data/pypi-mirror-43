@@ -1,0 +1,6 @@
+README
+setup.py
+webscan.egg-info/PKG-INFO
+webscan.egg-info/SOURCES.txt
+webscan.egg-info/dependency_links.txt
+webscan.egg-info/top_level.txt
