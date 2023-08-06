@@ -1,0 +1,9 @@
+requests
+pyopenssl
+uonet-request-signer
+pytz
+aenum
+
+[testing]
+pytest
+python-dotenv
