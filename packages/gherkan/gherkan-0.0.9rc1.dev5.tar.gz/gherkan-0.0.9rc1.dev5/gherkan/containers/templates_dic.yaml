@@ -1,0 +1,208 @@
+1:
+  Name: sIn0
+  TempStr:
+  - "(?P<subject>\\w+)(?P<prep>In|On|To)(?P<object>\\w+)"
+  TempToNLP: "(?P<subject>\\w+) is (?P<prep>\\w+)  (?P<object>\\w+)"
+  Inclinations:
+  - 1
+  - 0
+  - 6
+  Type:
+  - EQUALITY
+  NiceStrEN: "<noun> be <prep> the <noun>"
+  NiceStrCZ: "<noun> být <prep> <noun>"
+2:
+  Name: sStart
+  TempStr:
+  - "(?P<subject>\\w+)Program(?P<state>Start|Stop|End)"
+  TempToNLP: "(?P<subject>\\w+) (?P<state>\\w+:Started|Stop|Ended)"
+  Inclinations:
+  - 1
+  - 3
+  Type: EDGE
+  NiceStrEN: "<noun> <verb> program"
+  NiceStrCZ: "<noun> <verb> program"
+3:
+  Name: PNStart
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  TempToNLP: "(?P<subject>\\w+) program number is (?P<value>\\w+)"
+  Inclinations:
+  - 0
+  - 3
+  Type:
+  - Equality
+  NiceStrEN: "<noun> <action>"
+  NiceStrCZ: "<noun> <action>"
+4:
+  Name: sState
+  TempStr:
+  - "(?P<subject>\\w+)(?P<state>Free|Full|Locked|On)"
+  TempToNLP: "(?P<subject>\\w+) be (?P<state>On|Locked|Full|Free)"
+  Inclinations:
+  - 1
+  - 1
+  Type:
+  - EQUALITY
+  NiceStrEN: "<noun> be <adj>"
+  NiceStrCZ: "<noun> být <adj>"
+5:
+  Name: sDest
+  TempStr:
+  - "(?P<subject>\\w+)Destination"
+  TempToNLP: "destination of (?P<subject>\\w+) is (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - EDGE
+  NiceStrEN: "<noun> go to destination"
+  NiceStrCZ: "<noun> dojet do cíle"
+6:
+  Name: sAtStat
+  TempStr:
+  - "(?P<subject>\\w+)AtStation(?P<place>\\w+)"
+  TempToNLP: "(?P<subject>^.+) be in station (?P<place>\\w+)"
+  Inclinations:
+  - 1
+  - 6
+  Type:
+  - EQUALITY
+  NiceStrEN: "<noun> be in station <noun>"
+  NiceStrCZ: "<noun> být ve stanici <noun>"
+7:
+  Name: sAct
+  TempStr:
+  - "(?P<subject>\\w+)(?P<action>Move)"
+  TempToNLP: "(?P<action>\\w+:Move) "
+  Inclinations:
+  - 1
+  - 3
+  Type:
+  - EQUALITY
+  NiceStrEN: "<noun> cross"
+  NiceStrCZ: "<noun> přejet"
+8:
+  Name: sProgramEnd
+  TempStr:
+  - "(?P<subject>\\w+)ProgramEnded"
+  TempToNLP: "(?P<subject>\\w+) Ended Program"
+  Inclinations:
+  - 1
+  Type:
+  - EDGE
+  NiceStrEN: ""
+  NiceStrCZ: ""
+9:
+  Name: ActionS
+  TempStr:
+  - "(?P<action>:Replenish)(?P<subject>\\w+)"
+  TempToNLP: "(?P<action>:Replenish) (?P<subject>\\w+)"
+  Inclinations:
+  - 14
+  - 1
+  Type:
+  - Bool
+  NiceStrEN: ""
+  NiceStrCZ: ""
+10:
+  Name: sCount
+  TempStr:
+  - "(?P<subject>\\w+)Count"
+  TempToNLP: "(?P<subject>\\w+) count is (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  Type:
+  - EQUALITY
+  NiceStrEN: "<noun> contain <value> objects"
+  NiceStrCZ: "<noun> obsahovat <value> objektů "
+11:
+  Name: Alert
+  TempStr:
+  - "alert(?P<action>\\w+)"
+  TempToNLP: "(?P<action>\\w+)!"
+  Inclinations:
+  - 1
+  Type:
+  - Bool
+  NiceStrEN: ""
+  NiceStrCZ: ""
+13:
+  Name: edgePNStart
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  - "(?P<subject>\\w+)Program(?P<state>Started)"
+  TempToNLP: "(?P<subject>\\w+) (?P<state>) (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 11
+  - 1
+  Type:
+  - EQUALITY
+  - EDGE
+  NiceStrEN: ""
+  NiceStrCZ: ""
+  # HOW TO WRITE SIGNAL TEMPLATES
+  # The SignalTemplate directive is a key with a dictionary as the value
+  # with one of the following keys:
+  # structure, condition, script (default, i.e. no key, means 'structure')
+  #
+  # SCRIPT
+  # The 'script' key is followed by a string specifying a Python script
+  # that will be used to implement the template function [Not Implemented Yet!]
+  #
+  # CONDITION
+  # A condition that should return True for all nodes of a subtree
+  #
+  # STRUCTURE
+  # The 'sctructure' key indicates that the following list imposes a certain
+  # structure on the subtree.
+  # All structure elements are written as items in a list, for example:
+  # SignalTemplate:
+  # - item1
+  # - item2
+  # - item3
+  # The individual items could be either operators ('and', 'or')
+  # or signal conditions ('edge', 'equality', ...).
+  # In case of signal conditionas, additional properties can be stated,
+  # such as variable name (e.g., "variable: somename") or specific value
+  # (e.g., "value: 3" to state that the value of 3 is excpected).
+  #
+  # Simple structure elements are specified as strings.
+  # Complex structrure elements (conditions with additional parameters)
+  # are specified as dictionaries where key is the type of the element (e.g., 'edge')
+  # and the value associated with the key is a dictionary with items
+  # in the form of "parameterName: value".
+  # The parameterName must be a property of the SignalCondition class.
+  # Example of a complex element:
+  # - equality: {variable: programnumber}
+  # Here, 'equality' is the key and its value is another dictionary.
+  # Another way to write the same is:
+  # - equality:
+  #      variable: programnumber
+  # This results in exactly the same structure.
+  # Note the indentation in front of the 'variable'!!!
+  SignalTemplate:
+    structure:
+      - and
+      - edge:
+          variable: programstart
+      - equality: {variable: programnumber}
+14:
+  Name: edgePNEnd
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  - "(?P<subject>\\w+)Program(?P<state>Ended)"
+  TempToNLP: "(?P<subject>\\w+) (?P<state>ended|started) (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 11
+  - 1
+  Type:
+  - INTEGER
+  - BOOL
+  SignalTemplate:
+    - and
+    - edge:
+        variable: programend
+    - equality: {variable: programnumber}
