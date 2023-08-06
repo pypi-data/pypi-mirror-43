@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: docparse
+Version: 0.2.0
+Summary: 
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: jdidion
+Author-email: github@didion.net
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

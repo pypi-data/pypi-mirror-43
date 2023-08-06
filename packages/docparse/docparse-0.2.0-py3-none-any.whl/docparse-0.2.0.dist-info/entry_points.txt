@@ -1,0 +1,3 @@
+[docparse.parsers]
+google_default=docparse.google
+
