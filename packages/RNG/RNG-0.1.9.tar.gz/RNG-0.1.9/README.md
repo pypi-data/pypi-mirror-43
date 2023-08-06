@@ -1,0 +1,510 @@
+# RNG: Random Number Generator
+
+Default Random Engine: Mersenne Twister 64, with hardware entropy. 
+Additional engines and seeding strategies are planned to be available in the unbounded future.
+More info about MT64: https://en.wikipedia.org/wiki/Mersenne_Twister
+
+**The RNG module is not suitable for cryptography, and perfect for other non-deterministic needs like A.I. or games of chance.**
+
+*Recommended Installation:* `$ pip install RNG`
+
+RNG is not intended to be a drop-in replacement for the Python random module, RNG is a whole different beast.
+
+
+#### Random Binary Functions
+- `random_bool(truth_factor: float) -> bool`
+    - Bernoulli distribution.
+    - @param truth_factor :: the probability of True. Expected input range: [0.0, 1.0]
+    - @return :: True or False
+
+
+#### Random Integer Functions
+- `random_int(lo: int, hi: int) -> int`
+    - Flat uniform distribution.
+    - @param lo :: the lower bound. Param lo must not be greater than param hi.
+    - @param hi :: the upper bound. 
+    - @return :: random integer in the inclusive range [lo..hi]
+- `random_binomial(number_of_trials: int, probability: float) -> int`
+    - Based on the idea of flipping a coin and counting how many heads come up after some number of flips.
+    - @param number_of_trials :: how many times to flip a coin.
+    - @param probability :: how likely heads will be flipped. 0.50 is a fair coin.
+    - @return :: count of how many heads came up.
+- `random_negative_binomial(trial_successes: int, probability: float) -> int`
+    - Based on the idea of flipping a coin as long as it takes to succeed.
+    - @param trial_successes :: the required number of heads flipped to succeed.
+    - @param probability :: how likely heads will be flipped. 0.50 is a fair coin.
+    - @return :: the count of how many tails came up before the required number of heads.
+- `random_geometric(probability: float) -> int`
+    - Same as random_negative_binomial(1, probability). 
+- `random_poisson(mean: float) -> int`
+    - @param mean :: sets the average output of the function.
+    - @return :: random integer, poisson distribution centered on the mean.
+- `random_discrete(count: int, xmin: int, xmax: int, step: int) -> int`
+    - @param count :: number of weighted values
+    - @param xmin :: smallest weight of the set
+    - @param xmin :: largest weight of the set
+    - @param step :: value stepping
+
+
+#### Random Floating Point Functions
+- `random_float(lo: float, hi: float) -> float`
+    - @param lo :: lower bound Float
+    - @param hi :: upper bound Float
+    - @return :: random Float in range {lo, hi} biclusive.
+        - biclusive: feature/bug rendering the exclusivity of this function a bit more mysterious than desired. This is a known compiler bug.
+        - The spec defines the output range to be [lo, hi).
+- `random_normal(mean: float, std_dev: float) -> float`
+    - @param mean :: sets the average output of the function.
+    - @param std_dev :: standard deviation. Specifies spread of data from the mean.
+- `random_log_normal(log_mean: float, log_deviation: float) -> float`
+    - @param log_mean :: sets the log of the mean of the function.
+    - @param log_deviation :: log of the standard deviation. Specifies spread of data from the mean.
+- `random_exponential(lambda_rate: float) -> float`
+    - Produces random non-negative floating-point values, distributed according to probability density function.
+    - @param lambda_rate :: λ constant rate of a random event per unit of time/distance.
+    - @return :: The time/distance until the next random event. For example, this distribution describes the time between the clicks of a Geiger counter or the distance between point mutations in a DNA strand.
+- `random_gamma(shape: float, scale: float) -> float`
+    - Generalization of the exponential distribution.
+    - Produces random positive floating-point values, distributed according to probability density function.    
+    - @param shape :: α the number of independent exponentially distributed random variables.
+    - @param scale :: β the scale factor or the mean of each of the distributed random variables.
+    - @return :: the sum of α independent exponentially distributed random variables, each of which has a mean of β.
+- `random_weibull(shape: float, scale: float) -> float`
+    - Generalization of the exponential distribution.
+    - Similar to the gamma distribution but uses a closed form distribution function.
+    - Popular in reliability and survival analysis.
+- `random_extreme_value(location: float, scale: float) -> float`
+    - Based on Extreme Value Theory. 
+    - Used for statistical models of the magnitude of earthquakes and volcanoes.
+- `random_chi_squared(degrees_of_freedom: float) -> float`
+    - Used with the Chi Squared Test and Null Hypotheses to test if sample data fits an expected distribution.
+- `random_cauchy(location: float, scale: float) -> float`
+    - Continuous Distribution.
+- `random_fisher_f(degrees_of_freedom_1: float, degrees_of_freedom_2: float) -> float`
+    - F distributions often arise when comparing ratios of variances.
+- `random_student_t(degrees_of_freedom: float) -> float`
+    - T distribution. Same as a normal distribution except it uses the sample standard deviation rather than the population standard deviation.
+    - As degrees_of_freedom goes to infinity it tends to match the normal distribution.
+- `piecewise_constant_distribution` coming soon
+    - Produces real values distributed on constant subintervals. 
+- `piecewise_linear_distribution` coming soon
+    - Produces real values distributed on defined subintervals. 
+
+
+#### Utilities
+- `generate_canonical() -> float`
+    - Evenly distributes real values of given precision across [0, 1). Suffers from the same biclusive feature/bug noted for random_float.
+    - Currently set to max precision for long double. Precision could be parameterized in the future.
+- `seed_seq` coming soon
+    - General-purpose bias-eliminating scrambled seed sequence generator.
+    - Currently RNG uses hardware seeding exclusively. Software seeding may be a feature in a future release.
+
+
+#### Engines
+- `mersenne_twister_engine`
+    - Implements Mersenne twister algorithm. Default engine on most modern systems.
+- `linear_congruential_engine` coming soon
+    - Implements linear congruential algorithm.
+- `subtract_with_carry_engine` coming soon
+    - Implements a subtract-with-carry (lagged Fibonacci) algorithm.
+
+
+#### Engine Adaptors
+Engine adaptors generate pseudo-random numbers using another random number engine as entropy source. They are generally used to alter the spectral characteristics of the underlying engine.
+- `discard_block_engine` coming soon
+    - Discards some output of a random number engine.
+- `independent_bits_engine` coming soon
+    - Packs the output of a random number engine into blocks of a specified number of bits.
+- `shuffle_order_engine` coming soon
+    - Delivers the output of a random number engine in a different order.
+
+
+#### Seeding or Entropy Source
+- Non-deterministic hardware entropy source: `std::random_device()`. RNG is non-deterministic by default.
+- Repeatable deterministic software seeding: coming soon.
+
+
+## Development Log
+##### RNG 0.1.9 beta
+- Fixed some typos.
+
+##### RNG 0.1.8 beta
+- Fixed some typos.
+- More documentation added.
+
+##### RNG 0.1.7 beta
+- The `random_floating_point` function renamed to `random_float`.
+- The function `c_rand()` has been removed as well as all the cruft it required.
+- Major Documentation Upgrade.
+- Fixed an issue where keyword arguments would fail to propagate. Both, positional args and kwargs now work as intended.
+- Added this Dev Log.
+
+##### RNG 0.0.6 alpha
+- Minor ABI changes.
+
+##### RNG 0.0.5 alpha
+- Tests redesigned slightly for Float functions.
+
+##### RNG 0.0.4 alpha
+- Random Float Functions Implemented.
+
+##### RNG 0.0.3 alpha
+- Random Integer Functions Implemented.
+
+##### RNG 0.0.2 alpha
+- Random Bool Function Implemented.
+
+##### RNG 0.0.1 pre-alpha
+- Planning & Design.
+
+
+## Distribution and Performance Test Suite
+```
+RNG 0.1.9 BETA
+
+/usr/local/bin/python3.7 /Users/SpiritHome/PycharmProjects/RNG/RNG_tests.py
+
+Binary RNG Tests
+
+random_bool(truth_factor=1/3)
+Time: min: 62ns, mode: 62ns, mean: 68ns, max: 156ns
+Distribution:
+False: 66.548%
+True: 33.452%
+
+
+Integer RNG Tests
+
+Base Case: randint(1, 6)
+Time: min: 1375ns, mode: 1406ns, mean: 1436ns, max: 1968ns
+Distribution:
+1: 16.723%
+2: 16.828%
+3: 16.62%
+4: 16.559%
+5: 16.583%
+6: 16.687%
+
+random_int(lo=1, hi=6)
+Time: min: 62ns, mode: 62ns, mean: 81ns, max: 250ns
+Distribution:
+1: 16.669%
+2: 16.744%
+3: 16.816%
+4: 16.644%
+5: 16.382%
+6: 16.745%
+
+random_binomial(number_of_trials=4, probability=0.5)
+Time: min: 156ns, mode: 187ns, mean: 185ns, max: 375ns
+Distribution:
+0: 6.228%
+1: 24.842%
+2: 37.779%
+3: 24.823%
+4: 6.328%
+
+random_negative_binomial(number_of_trials=5, probability=0.75)
+Time: min: 93ns, mode: 125ns, mean: 124ns, max: 156ns
+Distribution:
+0: 23.63%
+1: 29.907%
+2: 22.116%
+3: 12.949%
+4: 6.563%
+5: 2.899%
+6: 1.193%
+7: 0.486%
+8: 0.156%
+9: 0.067%
+10: 0.027%
+11: 0.005%
+12: 0.002%
+
+random_geometric(probability=0.75)
+Time: min: 62ns, mode: 62ns, mean: 73ns, max: 125ns
+Distribution:
+0: 74.809%
+1: 18.798%
+2: 4.801%
+3: 1.165%
+4: 0.326%
+5: 0.079%
+6: 0.014%
+7: 0.007%
+8: 0.001%
+
+random_poisson(mean=4.5)
+Time: min: 125ns, mode: 125ns, mean: 143ns, max: 531ns
+Distribution:
+0: 1.096%
+1: 5.075%
+2: 11.298%
+3: 16.693%
+4: 19.059%
+5: 17.182%
+6: 12.69%
+7: 8.25%
+8: 4.618%
+9: 2.349%
+10: 0.997%
+11: 0.434%
+12: 0.169%
+13: 0.061%
+14: 0.018%
+15: 0.005%
+16: 0.005%
+17: 0.001%
+
+random_discrete(count=6, xmin=0.7, xmax=21.0, step=1)
+Time: min: 531ns, mode: 531ns, mean: 556ns, max: 1062ns
+Distribution:
+0: 4.855%
+1: 9.637%
+2: 14.321%
+3: 19.116%
+4: 23.649%
+5: 28.422%
+
+
+Floating Point RNG Tests
+
+random_float(lo=0.0, hi=10.0)
+Time: min: 62ns, mode: 62ns, mean: 65ns, max: 156ns
+Floored Distribution:
+0: 10.147%
+1: 9.899%
+2: 10.04%
+3: 9.858%
+4: 10.07%
+5: 10.055%
+6: 10.065%
+7: 9.923%
+8: 10.109%
+9: 9.834%
+
+random_exponential(lambda_rate=1.0)
+Time: min: 62ns, mode: 93ns, mean: 83ns, max: 125ns
+Floored Distribution:
+0: 63.13%
+1: 23.316%
+2: 8.543%
+3: 3.168%
+4: 1.189%
+5: 0.395%
+6: 0.154%
+7: 0.065%
+8: 0.028%
+9: 0.008%
+10: 0.002%
+11: 0.002%
+
+random_gamma(shape=1.0, scale=1.0)
+Time: min: 93ns, mode: 93ns, mean: 98ns, max: 187ns
+Floored Distribution:
+0: 63.61%
+1: 22.975%
+2: 8.402%
+3: 3.24%
+4: 1.129%
+5: 0.415%
+6: 0.142%
+7: 0.063%
+8: 0.018%
+9: 0.002%
+11: 0.002%
+12: 0.002%
+
+random_weibull(shape=1.0, scale=1.0)
+Time: min: 156ns, mode: 187ns, mean: 193ns, max: 406ns
+Floored Distribution:
+0: 63.07%
+1: 23.326%
+2: 8.478%
+3: 3.244%
+4: 1.224%
+5: 0.434%
+6: 0.13%
+7: 0.059%
+8: 0.022%
+9: 0.007%
+10: 0.003%
+11: 0.002%
+12: 0.001%
+
+random_extreme_value(location=0.0, scale=1.0)
+Time: min: 125ns, mode: 156ns, mean: 157ns, max: 406ns
+Rounded Distribution:
+-2: 1.191%
+-1: 18.262%
+0: 34.983%
+1: 25.393%
+2: 12.204%
+3: 4.961%
+4: 1.923%
+5: 0.68%
+6: 0.256%
+7: 0.084%
+8: 0.033%
+9: 0.016%
+10: 0.005%
+11: 0.007%
+13: 0.001%
+15: 0.001%
+
+random_normal(mean=5.0, std_dev=2.0)
+Time: min: 93ns, mode: 125ns, mean: 124ns, max: 156ns
+Rounded Distribution:
+-3: 0.016%
+-2: 0.068%
+-1: 0.236%
+0: 0.899%
+1: 2.838%
+2: 6.361%
+3: 12.07%
+4: 17.666%
+5: 19.821%
+6: 17.342%
+7: 12.255%
+8: 6.441%
+9: 2.761%
+10: 0.887%
+11: 0.27%
+12: 0.061%
+13: 0.007%
+14: 0.001%
+
+random_log_normal(log_mean=1.6, log_deviation=0.25)
+Time: min: 187ns, mode: 218ns, mean: 218ns, max: 312ns
+Rounded Distribution:
+2: 0.291%
+3: 8.013%
+4: 26.868%
+5: 31.378%
+6: 19.681%
+7: 8.931%
+8: 3.307%
+9: 1.061%
+10: 0.339%
+11: 0.101%
+12: 0.018%
+13: 0.01%
+14: 0.001%
+15: 0.001%
+
+random_chi_squared(degrees_of_freedom=1.0)
+Time: min: 187ns, mode: 218ns, mean: 236ns, max: 468ns
+Rounded Distribution:
+0: 52.263%
+1: 25.565%
+2: 10.726%
+3: 5.287%
+4: 2.83%
+5: 1.491%
+6: 0.773%
+7: 0.463%
+8: 0.25%
+9: 0.151%
+10: 0.089%
+11: 0.039%
+12: 0.029%
+13: 0.019%
+14: 0.012%
+15: 0.006%
+16: 0.002%
+17: 0.003%
+18: 0.001%
+21: 0.001%
+
+random_cauchy(location=0.0, scale=0.0005)
+Time: min: 93ns, mode: 125ns, mean: 114ns, max: 156ns
+Rounded Distribution:
+-10: 0.001%
+-8: 0.001%
+-6: 0.001%
+-5: 0.002%
+-2: 0.004%
+-1: 0.026%
+0: 99.928%
+1: 0.024%
+2: 0.005%
+3: 0.003%
+4: 0.004%
+7: 0.001%
+
+random_fisher_f(degrees_of_freedom_1=3.0, degrees_of_freedom_2=8.0)
+Time: min: 250ns, mode: 312ns, mean: 311ns, max: 343ns
+Rounded Distribution:
+0: 30.747%
+1: 40.251%
+2: 15.494%
+3: 6.437%
+4: 3.026%
+5: 1.545%
+6: 0.898%
+7: 0.525%
+8: 0.334%
+9: 0.218%
+10: 0.144%
+11: 0.106%
+12: 0.078%
+13: 0.047%
+14: 0.029%
+15: 0.026%
+16: 0.016%
+17: 0.016%
+18: 0.007%
+19: 0.007%
+20: 0.011%
+21: 0.005%
+22: 0.004%
+23: 0.006%
+24: 0.002%
+25: 0.003%
+26: 0.001%
+27: 0.001%
+28: 0.001%
+29: 0.002%
+30: 0.001%
+31: 0.001%
+32: 0.001%
+33: 0.002%
+34: 0.003%
+41: 0.001%
+43: 0.001%
+48: 0.001%
+57: 0.001%
+58: 0.001%
+
+random_student_t(degrees_of_freedom=8.0)
+Time: min: 281ns, mode: 312ns, mean: 300ns, max: 343ns
+Rounded Distribution:
+-8: 0.001%
+-7: 0.006%
+-6: 0.029%
+-5: 0.08%
+-4: 0.294%
+-3: 1.496%
+-2: 6.756%
+-1: 22.855%
+0: 36.909%
+1: 22.961%
+2: 6.759%
+3: 1.446%
+4: 0.291%
+5: 0.082%
+6: 0.019%
+7: 0.008%
+8: 0.004%
+9: 0.003%
+12: 0.001%
+
+generate_canonical()
+Time: min: 31ns, mode: 31ns, mean: 42ns, max: 62ns
+Rounded Distribution:
+0: 49.989%
+1: 50.011%
+
+
+All tests passed!
+```
