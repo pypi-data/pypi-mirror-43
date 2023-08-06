@@ -1,0 +1,8 @@
+numpy
+scipy
+dask[complete]
+xarray
+pandas
+numba
+netcdf4
+progress
