@@ -1,0 +1,3 @@
+[console_scripts]
+gacrawler = gacrawler.gacrawler:main
+
