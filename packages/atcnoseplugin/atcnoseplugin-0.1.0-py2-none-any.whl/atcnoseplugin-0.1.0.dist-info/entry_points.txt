@@ -1,0 +1,4 @@
+[nose.plugins]
+file-output = atcnoseplugin.fileoutput:FileOutputPlugin
+plan-loader = atcnoseplugin.planloader:PlanLoaderPlugin
+
