@@ -1,0 +1,9 @@
+requests
+requests[socks]
+PySocks
+bs4
+paramiko
+pexpect
+mysql-connector
+scapy
+stem
