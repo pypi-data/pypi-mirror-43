@@ -1,0 +1,3 @@
+[gui_scripts]
+lupr = Lupr.main:main
+
