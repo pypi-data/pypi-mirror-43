@@ -1,0 +1,10 @@
+dockenv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockenv/__main__.py,sha256=up9oFrOmZar81ZYnKjTbovm2VyV9so7u-9nz4iafrvg,86
+dockenv/dockenv.py,sha256=vxfr05FO_ttSPAV7ZIL1UqG-L3hLLJAqpVrj4zebp5Y,21128
+dockenv/pip_freeze.py,sha256=gsT-60mGH_ezVQW1IqEieRt59RH4lObh78nYh7q_TG4,120
+dockenv_cli-1.0.0.dist-info/LICENSE,sha256=TBxdyXRQIjPp_a768oSurCrV6NIiGfvZMskuibdm1-U,1067
+dockenv_cli-1.0.0.dist-info/METADATA,sha256=oPS6G3LmGL9E4dKQ0ZLPQ1vWVqlWsBobPeBBzApgjiE,285
+dockenv_cli-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dockenv_cli-1.0.0.dist-info/entry_points.txt,sha256=Sv6AYLXVVVVShDz69UYQKaGe-q0apveAzkbZPRBynW0,51
+dockenv_cli-1.0.0.dist-info/top_level.txt,sha256=myruaynPC3jU597EmsDwzOxZqKooI6fY6fLMXWGH5Bc,8
+dockenv_cli-1.0.0.dist-info/RECORD,,

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dockenv-cli
+Version: 1.0.0
+Summary: Dockenv - Run untrusted Python scripts inside docker containers
+Home-page: http://github.com/pathtofile/dockenv
+Author: /path/to/file
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: docker
+
+UNKNOWN
+
+
