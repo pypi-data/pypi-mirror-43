@@ -1,0 +1,111 @@
+Metadata-Version: 2.0
+Name: django-shift-work
+Version: 0.1.0
+Summary: Middleware to check what shift is this
+Home-page: https://github.com/reyvel/django-shift-work
+Author: Reyza Velosa
+Author-email: reyza@reyvel.id
+License: MIT
+Keywords: django-shift-work
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+=============================
+Django Shift Work
+=============================
+
+.. image:: https://badge.fury.io/py/django-shift-work.svg
+    :target: https://badge.fury.io/py/django-shift-work
+
+.. image:: https://travis-ci.org/reyvel/django-shift-work.svg?branch=master
+    :target: https://travis-ci.org/reyvel/django-shift-work
+
+.. image:: https://codecov.io/gh/reyvel/django-shift-work/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/reyvel/django-shift-work
+
+Middleware to check what shift is this
+
+Documentation
+-------------
+
+The full documentation is at https://django-shift-work.readthedocs.io.
+
+Quickstart
+----------
+
+Install Django Shift Work::
+
+    pip install django-shift-work
+
+Add it to your `INSTALLED_APPS`:
+
+.. code-block:: python
+
+    INSTALLED_APPS = (
+        ...
+        'django_shift_work.apps.DjangoShiftWorkConfig',
+        ...
+    )
+
+Add Django Shift Work's URL patterns:
+
+.. code-block:: python
+
+    from django_shift_work import urls as django_shift_work_urls
+
+
+    urlpatterns = [
+        ...
+        url(r'^', include(django_shift_work_urls)),
+        ...
+    ]
+
+Features
+--------
+
+* TODO
+
+Running Tests
+-------------
+
+Does the code actually work?
+
+::
+
+    source <YOURVIRTUALENV>/bin/activate
+    (myenv) $ pip install tox
+    (myenv) $ tox
+
+Credits
+-------
+
+Tools used in rendering this package:
+
+*  Cookiecutter_
+*  `cookiecutter-djangopackage`_
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`cookiecutter-djangopackage`: https://github.com/pydanny/cookiecutter-djangopackage
+
+
+
+
+History
+-------
+
+0.1.0 (2019-03-17)
+++++++++++++++++++
+
+* First release on PyPI.
+
+
