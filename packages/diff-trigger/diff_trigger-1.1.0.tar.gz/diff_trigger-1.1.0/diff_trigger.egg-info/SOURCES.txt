@@ -1,0 +1,8 @@
+README.md
+setup.py
+diff_trigger/__init__.py
+diff_trigger.egg-info/PKG-INFO
+diff_trigger.egg-info/SOURCES.txt
+diff_trigger.egg-info/dependency_links.txt
+diff_trigger.egg-info/requires.txt
+diff_trigger.egg-info/top_level.txt
