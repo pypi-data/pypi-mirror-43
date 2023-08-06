@@ -1,0 +1,13 @@
+bcdata/__init__.py,sha256=Ti0DoB5dwHxFt8WPmFA90iQR9DHGssb2V-Cr9F4ou8o,839
+bcdata/bcdata.py,sha256=TU344gtXdMpqg-xMkkIwbT4EadXq39nfEXpdfdL9OA4,6166
+bcdata/cli.py,sha256=mIvtskgDYrqIKbty1sHzQ4wvwACxEMIwWmnCGVbjq20,10497
+bcdata/formats.py,sha256=sZFh_ezC7n2JNr06uGzQjBte-rk48I8mVndxiSI2QKM,130
+bcdata/main.py,sha256=RZgT0Pc_UJ23Fy7rin90WE9TiMuxBlLjVctHK83gLHg,4475
+bcdata/wcs.py,sha256=k1cU3u7LKLrIZlVue1xBvFRR3ieSHgWjS6mJOVFTEPw,929
+bcdata/wfs.py,sha256=NEnF8Pp-va7HJTmDxlrhUT9sfN-0El3NQaBEyAHamok,6221
+bcdata-0.3.2.dist-info/LICENSE.txt,sha256=C1q4kyHK_wzZNdc8ylDUFPR9Y9AgZDFX3sx21Ww_Ks4,1080
+bcdata-0.3.2.dist-info/METADATA,sha256=-PljHC1etrCdYteclQRTcoASDybE7ZebNyPBMTJ89_Q,12151
+bcdata-0.3.2.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+bcdata-0.3.2.dist-info/entry_points.txt,sha256=s3VDgxlMneMiVU7wjXwvlM7bIkUxB1SlF8hFmm2bVhk,59
+bcdata-0.3.2.dist-info/top_level.txt,sha256=EaQTXFYoMWMoWn_TKjoJ2NiEHw2jCCH542NB5Ibx9gM,7
+bcdata-0.3.2.dist-info/RECORD,,
