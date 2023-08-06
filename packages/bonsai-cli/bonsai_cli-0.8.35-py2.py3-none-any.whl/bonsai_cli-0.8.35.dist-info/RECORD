@@ -1,0 +1,16 @@
+bonsai_cli/__init__.py,sha256=3ZOp-2mi5vS_FqQuNhjU7Os4xS6SwCO3uIAj_kgDx28,23
+bonsai_cli/api.py,sha256=U0RnAsB3GubvVF_RTVH4pIyG71JgA3bpMohuecceYBI,31472
+bonsai_cli/bonsai.py,sha256=vjKN73GdTe6oTeraE9daNT-soWhjgYYEP7cLDQ4tGyQ,34512
+bonsai_cli/dotbrains.py,sha256=WRM26PtLrWYYUHuX50cu_oZeWVc0r_2Z6ZSFdpPT_qA,2739
+bonsai_cli/projfile.py,sha256=RwPAfTZCz20HkDxJjDqkCYi327fUVCNLOpEeHqmG5-U,7269
+bonsai_cli/test_api.py,sha256=-cmBtwIDwKqg_gimM2YvCNum6dhqfr1SrNU8CP3FqN8,37904
+bonsai_cli/test_bonsai.py,sha256=36a7k_afxFpNLsuLKKPvbskUpLas0xHf5UCniJpyuDE,66766
+bonsai_cli/test_dotbrains.py,sha256=G_y2s4--wv7Ps0TYhOF7cyV_jaQbQgV3z5ztl4G_3Aw,1561
+bonsai_cli/test_projfile.py,sha256=pmPVILWG4njwHV74EYMG5IJ_uqSgjTK2TNNU_N7w5mA,6642
+bonsai_cli/utils.py,sha256=GWHs9WZIrRgTmtjnpvjLPXjKLpexp5CfNZULy_bv2mI,9639
+bonsai_cli-0.8.35.dist-info/LICENSE.txt,sha256=vmFwo-uihej9HMA1oP7mVazRxRK5RzE9ysaieHhwHOI,1298
+bonsai_cli-0.8.35.dist-info/METADATA,sha256=JCVQeXYlSw81jCd0QqI7aDyDoHhP0pzqAGTL-LcKgIA,1329
+bonsai_cli-0.8.35.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+bonsai_cli-0.8.35.dist-info/entry_points.txt,sha256=MjZ6djRaDEyKwgV1o-T7tUibGQ1L6dB8K9JFg4oxDbI,51
+bonsai_cli-0.8.35.dist-info/top_level.txt,sha256=vTSix6216AXpYPu72x0ByiUZKlMMmnFbEe64lWN09Q8,11
+bonsai_cli-0.8.35.dist-info/RECORD,,
