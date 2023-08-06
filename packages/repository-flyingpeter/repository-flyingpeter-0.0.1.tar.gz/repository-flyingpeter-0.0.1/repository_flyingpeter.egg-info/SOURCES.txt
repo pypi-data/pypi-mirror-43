@@ -1,0 +1,6 @@
+README.md
+setup.py
+repository_flyingpeter.egg-info/PKG-INFO
+repository_flyingpeter.egg-info/SOURCES.txt
+repository_flyingpeter.egg-info/dependency_links.txt
+repository_flyingpeter.egg-info/top_level.txt
