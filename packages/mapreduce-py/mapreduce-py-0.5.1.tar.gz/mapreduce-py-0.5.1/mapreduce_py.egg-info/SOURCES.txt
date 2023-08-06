@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+mapreduce/__init__.py
+mapreduce/mapreduce.py
+mapreduce_py.egg-info/PKG-INFO
+mapreduce_py.egg-info/SOURCES.txt
+mapreduce_py.egg-info/dependency_links.txt
+mapreduce_py.egg-info/not-zip-safe
+mapreduce_py.egg-info/top_level.txt
