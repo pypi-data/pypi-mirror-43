@@ -1,0 +1,17 @@
+cryptography
+boto3
+click
+six
+
+[dev]
+PyYAML
+jinja2
+pytest
+
+[documentation]
+
+[templates]
+jinja2
+
+[yaml]
+PyYAML
