@@ -1,0 +1,5 @@
+asks
+asyncwebsockets
+attrs>=18
+trio>=0.11
+trio_swagger11
