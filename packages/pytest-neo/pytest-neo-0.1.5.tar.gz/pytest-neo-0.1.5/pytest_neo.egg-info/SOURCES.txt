@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pytest_neo.py
+setup.cfg
+setup.py
+pytest_neo.egg-info/PKG-INFO
+pytest_neo.egg-info/SOURCES.txt
+pytest_neo.egg-info/dependency_links.txt
+pytest_neo.egg-info/entry_points.txt
+pytest_neo.egg-info/not-zip-safe
+pytest_neo.egg-info/requires.txt
+pytest_neo.egg-info/top_level.txt
