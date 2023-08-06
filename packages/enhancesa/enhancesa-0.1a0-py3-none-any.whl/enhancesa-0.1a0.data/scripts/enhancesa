@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+
+import enhancesa
+print(enhancesa.hello())
+
+# After installing the package, setuptools will copy the script to PATH 
+# and make it available for general use like: $ enhancesa
