@@ -1,0 +1,12 @@
+README.md
+setup.py
+fetchas/__init__.py
+fetchas/command_line.py
+fetchas/user_agents.py
+fetchas.egg-info/PKG-INFO
+fetchas.egg-info/SOURCES.txt
+fetchas.egg-info/dependency_links.txt
+fetchas.egg-info/entry_points.txt
+fetchas.egg-info/not-zip-safe
+fetchas.egg-info/requires.txt
+fetchas.egg-info/top_level.txt
