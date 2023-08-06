@@ -1,0 +1,8 @@
+README.md
+setup.py
+hookcheck/__init__.py
+hookcheck.egg-info/PKG-INFO
+hookcheck.egg-info/SOURCES.txt
+hookcheck.egg-info/dependency_links.txt
+hookcheck.egg-info/requires.txt
+hookcheck.egg-info/top_level.txt

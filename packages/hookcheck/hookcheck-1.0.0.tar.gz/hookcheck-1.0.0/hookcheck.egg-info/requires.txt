@@ -1,0 +1,6 @@
+flask
+
+[dev]
+tox
+pytest
+pyflakes
