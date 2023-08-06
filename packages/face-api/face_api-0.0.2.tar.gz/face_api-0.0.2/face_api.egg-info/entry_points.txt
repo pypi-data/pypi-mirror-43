@@ -1,0 +1,4 @@
+[console_scripts]
+face_det = face_api.face_det:main
+face_rec = face_api.face_rec:main
+
