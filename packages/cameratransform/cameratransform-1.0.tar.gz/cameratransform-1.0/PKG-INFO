@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cameratransform
+Version: 1.0
+Summary: Projects coordinates from 2D to 3D and can fit camera parameters
+Home-page: UNKNOWN
+Author: Richard Gerum
+Author-email: richard.gerum@fau.de
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: exif_extraction
+Provides-Extra: projecting_top_view

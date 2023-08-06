@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+
+[exif_extraction]
+pillow
+requests
+
+[projecting_top_view]
+cv2
+matplotlib
