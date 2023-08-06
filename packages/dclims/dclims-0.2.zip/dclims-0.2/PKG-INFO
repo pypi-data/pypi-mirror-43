@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: dclims
+Version: 0.2
+Summary: A simple wrapper for the D.C. Legislative Information Management System (DC LIMS)
+Home-page: https://github.com/dc-policy-center/DC-LIMS
+Author: Michael Watson
+Author-email: michael@dcpolicycenter.org
+License: UNKNOWN
+Download-URL: https://github.com/dc-policy-center/DC-LIMS/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: wrapper,legislation,D.C.
+Platform: UNKNOWN
