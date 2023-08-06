@@ -1,0 +1,259 @@
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+from __future__ import print_function
+import threading
+import sys
+import signal
+import argparse
+import multiprocessing
+import os
+import time
+import signal
+from tempfile import TemporaryFile
+
+# can also use dup2
+tmp_stderr = TemporaryFile('w+t')
+sys.stderr = tmp_stderr
+
+attempt = 0
+while True:
+    try:
+        from o2locktoplib import util
+        from o2locktoplib import dlm
+        from o2locktoplib import printer
+        from o2locktoplib import keyboard
+        from o2locktoplib import config
+        from o2locktoplib.retry import retry
+        break
+    except ImportError as e:
+        if attempt:
+            print("\no2locktop: error: can't find the o2locktoplib, installed error!\n", file=sys.stderr)
+            sys.exit(0)
+        else:
+            attempt = 1
+        python_version = "{0}.{1}".format(str(sys.version_info[0]), str(sys.version_info[1]))
+        package_path_64 = "/usr/lib64/python{0}/site-packages".format(python_version)
+        package_path = "/usr/lib/python{0}/site-packages".format(python_version)
+        local_package_path_64 = "/usr/local/lib64/python{0}/site-packages".format(python_version)
+        local_package_path = "/usr/local/lib/python{0}/site-packages".format(python_version)
+
+        for pk_path in package_path_64, package_path, local_package_path_64, local_package_path:
+            if pk_path not in sys.path:
+                sys.path.append(pk_path)
+   
+
+def parse_args():
+    description=""
+    usage = \
+"""
+Usage: o2locktop [OPTIONS] MOUNTPOINT
+       o2locktop -h|--help
+       o2locktop -V|--version
+[OPTIONS] can be:
+       -o file		save the log to the given file
+       -n hostname	specify the hostname of the OCFS2 node
+       -l number	specify the number of lock resource lines to display
+       -d		display the meta-file lock resources
+
+Monitor OCFS2 DLM lock statistics at the MOUNTPOINT path.
+Launch o2locktop script like the below command line,
+e.g. "o2locktop -n node1 -n node2 -n node3 /mnt/shared"
+
+Controls: 
+Type "d" to diplay DLM lock statistics for each node.
+Type "Ctrl+C" or "q" to exit o2locktop process.
+
+Notes:
+The MOUNTPOINT path is the mount point of the first OCFS2 node in the parameter list.
+Passwordless SSH access between the OCFS2 nodes and o2locktop node must be set up.
+The lock resources are sorted according to DLM EX/PR lock average wait time.
+Please read the README.md file for more information.
+"""
+    parser = argparse.ArgumentParser(description=description, usage=None, prog='o2locktop', add_help=False)
+    parser.add_argument('-n', metavar='host',
+                        dest='host_list', action='append',
+                        help='node address used for ssh')
+
+    parser.add_argument('-o', metavar='log', dest='log',
+                        action='store',
+                        help='log path')
+
+    parser.add_argument('-l', metavar='display length', dest='display_len', 
+                        type=int,
+                        action='store',
+                        help='number of lock records to display, the default is 15')
+
+    parser.add_argument('-V','--version',action="store_true", 
+                        help='current version of o2locktop')
+
+    parser.add_argument('-d','--debug',action="store_true",
+                        help='show all the inode,include the system inode number')
+
+    parser.add_argument('mount_point', nargs='?',
+                        help='mount point like /mnt')
+
+    parser.add_argument('-h','--help',action="store_true", 
+                        help='show this help message and exit')
+
+    args = parser.parse_args()
+
+    node_list = []
+    met_colon = False
+    if args.version:
+        print(config.VERSION)
+        sys.exit(0)
+    if args.help:
+        print(usage)
+        sys.exit(0)
+    if args.display_len != None and args.display_len <= 0:
+        util.eprint("\no2locktop: error: The length of the line to show must be greater than 0\n")
+        sys.exit(0)
+    if args.host_list:
+        if not args.mount_point:
+            util.eprint("\no2locktop: error: ocfs2 mount point is needed\n")
+            print(usage)
+            sys.exit(0)
+        for i in args.host_list:
+            node_list.append(i)
+
+        return {
+                "mode":"remote",
+                "mount_node" : node_list[0],
+                "mount_point" : args.mount_point,
+                "node_list" : node_list,
+                "log" : args.log,
+                "display_len" : args.display_len,
+                "debug" : args.debug
+                }
+    else:
+        if not args.mount_point:
+            util.eprint("\no2locktop: error: ocfs2 mount point is needed\n")
+            print(usage)
+            sys.exit(0)
+        return {
+                "mode":"local",
+                "mount_point" : args.mount_point,
+                "log" : args.log,
+                "display_len" : args.display_len,
+                "debug" : args.debug
+                }
+
+    parser.print_help()
+    sys.exit(0)
+
+def connection_test(nodes,mount_point):
+    assert(nodes != None and len(nodes) > 0)
+    uuid = util.get_dlm_lockspace_mp(nodes[0], mount_point)    
+    if not uuid:
+        util.eprint("\no2locktop: error: can't find the mount point: {0}, please cheack and retry\n".format(mount_point))
+        sys.exit(0)
+    for node in nodes[1:]:
+        now = time.time()
+        if uuid != util.get_dlm_lockspace_mp(node, mount_point):
+            if (time.time()-now) > 20:
+                util.eprint("\no2locktop: error: network connection to {0} failed\n".format(node))
+            else:
+                util.eprint("\no2locktop: error: can't find the shared storage in the cluster, "\
+                                       "check if the node in the command line has input errors\n")
+            sys.exit(0) 
+
+def connection_ocfs2_debug_test(nodes):
+    assert(nodes != None and len(nodes) > 0)
+    for node in nodes:
+        if(False == util.is_kernel_ocfs2_fs_stats_enabled(node)):
+            util.eprint("\no2locktop: error: the node({0}) do not support ocfs2 debug, please cheack and retry\n".format(node))
+            sys.exit(0)
+
+def remote_cmd_test(nodes):
+    for node in nodes:
+            result = util.cmd_is_exist(config.CMDS, node)
+            if not result[0]:
+                util.eprint("\no2locktop: error: the node({0}) do not have the command {1}, please install and retry\n".format(node, result[1]))
+                sys.exit(0)
+
+
+def local_test(mount_point):
+    uuid = util.get_dlm_lockspace_mp(None, mount_point)    
+    if not uuid:
+        util.eprint("\no2locktop: error: can't find the mount point: {0}, please cheack and retry\n".format(mount_point))
+        sys.exit(0)
+
+def local_ocfs2_debug_test():
+    if(False == util.is_kernel_ocfs2_fs_stats_enabled()):
+        util.eprint("\no2locktop: error: the node({0}) do not support ocfs2 debug, please cheack and retry\n".format("localhost"))
+        sys.exit(0)
+
+def local_cmd_test():
+    result = util.cmd_is_exist(config.CMDS)
+    if not result[0]:
+        util.eprint("\no2locktop: error: the local node do not have the command {0}, please install and retry\n".format(result[1]))
+        sys.exit(0)
+
+def main():
+    @retry(10)
+    def sigcont_handler(signum, frame):
+        keyboard.set_terminal()
+
+    args = parse_args()
+    log = args["log"]
+    display_len = args["display_len"] 
+    debug = args["debug"]
+    
+
+    if args['mode'] == "remote":
+        mount_host, mount_point = args["mount_node"], args["mount_point"]
+        nodes = args["node_list"]
+        connection_test(nodes, mount_point)
+        connection_ocfs2_debug_test(nodes)
+        remote_cmd_test(nodes)
+        lock_space_str = util.get_dlm_lockspace_mp(mount_host, mount_point)
+        max_sys_inode_num = util.get_dlm_lockspace_max_sys_inode_number(mount_host, mount_point)
+        mount_info = ':'.join([mount_host, mount_point])
+    elif args['mode'] == "local":
+        mount_point = args["mount_point"]
+        local_test(mount_point)
+        local_ocfs2_debug_test()
+        local_cmd_test()
+        lock_space_str = util.get_dlm_lockspace_mp(None, mount_point)
+        max_sys_inode_num = util.get_dlm_lockspace_max_sys_inode_number(None, mount_point)
+        mount_info = mount_point
+
+    if lock_space_str is None:
+        print("Error while getting lockspace")
+        sys.exit(0)
+
+    if args["mode"] == "local":
+        nodes = None
+
+    printer_queue = multiprocessing.Queue()
+    printer_process = multiprocessing.Process(target=printer.worker,
+                                        args=(printer_queue, log),
+                                        kwargs={"mount_info":mount_info}
+                                    )
+    lock_space_process = multiprocessing.Process(target=dlm.worker,
+                                        args=(lock_space_str, max_sys_inode_num, debug, display_len, nodes, printer_queue)
+                                        )
+
+    printer_process.start()
+    lock_space_process.start()
+
+    signal.signal(signal.SIGCONT, sigcont_handler)
+    keyboard.worker(printer_queue)
+
+    lock_space_process.terminate()
+    lock_space_process.join()
+
+    #printer_process will exit on quit message
+    #printer_process.terminate()
+    printer_process.join()
+
+
+    sys.exit(0)
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        #print("Bye")
+        keyboard.reset_terminal()
