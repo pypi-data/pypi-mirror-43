@@ -1,0 +1,8 @@
+qbs/__init__.py,sha256=y1eZ5NKTczGVwTYbnXt1QDxvVTBrGacpGFBpsfFMPDY,16636
+qbs/conf/default_config.json,sha256=T7TC6i1L1ByrHereRcCU0uSt8ffYnl8plvRZ0wMzbwk,815
+qbs-2.0.1.dist-info/LICENSE,sha256=7FbFi-3ODI9NQRft9DgnTMSvwJ9vNIrBYedho88k0rs,34496
+qbs-2.0.1.dist-info/METADATA,sha256=L94lRC7PNpUEyk9DdIQMd8WA7Rz6wTCU76O8QsBXEpM,830
+qbs-2.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+qbs-2.0.1.dist-info/entry_points.txt,sha256=b5iGywMhEKwQfdMR_Z79iVdE-fHkWisGKo1cZHoBTOo,34
+qbs-2.0.1.dist-info/top_level.txt,sha256=LXPtHCy8iSD_KYmJineuFX2hxLNpWnS2a-MC_nI8eWw,4
+qbs-2.0.1.dist-info/RECORD,,
