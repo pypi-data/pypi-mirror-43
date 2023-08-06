@@ -1,0 +1,14 @@
+.travis.yml
+LICENSE
+README.rst
+django_settings_toml.py
+settings.py
+setup.cfg
+setup.py
+test_django_settings_toml.py
+tox.ini
+django_settings_toml.egg-info/PKG-INFO
+django_settings_toml.egg-info/SOURCES.txt
+django_settings_toml.egg-info/dependency_links.txt
+django_settings_toml.egg-info/requires.txt
+django_settings_toml.egg-info/top_level.txt
