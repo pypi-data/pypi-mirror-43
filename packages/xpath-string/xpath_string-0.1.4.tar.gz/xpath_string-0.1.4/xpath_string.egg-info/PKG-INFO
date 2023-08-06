@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: xpath-string
+Version: 0.1.4
+Summary: Module which allows to make xpath operations over string which represent xpath
+Home-page: https://github.com/yavorek/xpath_string
+Author: Tomasz Jaworski
+Author-email: jaworski.tomasz.91@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
