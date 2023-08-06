@@ -1,0 +1,10 @@
+eml_parser/__init__.py,sha256=xmcplK5nVAidSqJDvhCiutntOKL-ny7-6JumJ5fV0E8,258
+eml_parser/decode.py,sha256=-UwXnMUTY1n7GI-VGP5nn3Sc7nEEnAThN5kdb0A3Ic8,8192
+eml_parser/eml_parser.py,sha256=9pyPLxR4Z2dAoikIfDy6-sSkXto3MYjxLwjsuTvKFeI,35099
+eml_parser/regex.py,sha256=3A-qDF_ZV8eZu5ChYdPoWa2BNJDPrtFH_VnZV-M3bq4,3651
+eml_parser/routing.py,sha256=OjE1AOMMzUWmp0TOHztQsJsX0xBm8WZSX_MlDS0pCWY,6240
+eml_parser-1.11.1.dist-info/LICENSE,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+eml_parser-1.11.1.dist-info/METADATA,sha256=ap8LfVCIMqrHUQCb1_Kc7QhIv_CL3xIN4mfzd-Nr-30,4716
+eml_parser-1.11.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+eml_parser-1.11.1.dist-info/top_level.txt,sha256=dzynB55DisCaGvpo7p3RcTjbKaaUQ9OzNRJQur-rsaI,11
+eml_parser-1.11.1.dist-info/RECORD,,
