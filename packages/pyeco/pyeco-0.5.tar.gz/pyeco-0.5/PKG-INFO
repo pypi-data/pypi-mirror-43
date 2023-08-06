@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: pyeco
+Version: 0.5
+Summary: useful python things
+Home-page: UNKNOWN
+Author: Nikita Kuzin
+Author-email: getsense@yandex.ru
+License: UNKNOWN
+Description: # useful python things<br/>
+        <br/>
+        add class<br/>
+        <br/>
+        class _type_sign(Enum):<br/>
+            SIGN=1<br/>
+            UNSIGN=2<br/>
+        <br/>
+        env<br/>
+        <br/>
+        from pyeco import *<br/>
+        from pyeco import _type_sign<br/>
+        <br/>
+        <br/>
+        <br/>
+        function: dec2hex(_dec,_nbits)<br/>
+        <br/>
+        _dec -> input decimal:<br/> 
+        8 bits[-128,127],<br/> 
+        16 bits[-32768,32767],<br/> 
+        32 bits[-2147483648,2147483647] <br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        output -> dec to hex format<br/>
+        <br/>
+        example: <br/>
+        print(dec2hex(-127,8))<br/>
+         <br/>
+        <br/>
+        function: hex2dec(_hex,_nbits,_s)<br/>
+        _hex -> input hex:<br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        _s -> _type_sign.UNSIGN/_type_sign.SIGN output decimal<br/>
+        output -> hex to decimal format<br/>
+        <br/>
+         example:<br/>
+         print(hex2dec(0x81010181,32,_type_sign.UNSIGN))<br/>
+        <br/> 
+        <br/>
+        function: dec2bin(_dec,_nbits)<br/>
+        _dec -> input decimal<br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        output -> dec to binary format<br/>
+        <br/>
+        example:<br/>
+        print(dec2bin(-128,16))<br/>
+        <br/>
+        <br/>
+        function: bin2dec(_bin,_nbits,_s)<br/>
+        _bin -> input binary:<br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        _s -> _type_sign.UNSIGN/_type_sign.SIGN output decimal<br/>
+        output -> bin to decimal format<br/>
+        <br/>
+        example:<br/>
+        print(bin2dec("11111111111111111111111110000000",32,_type_sign.UNSIGN))<br/>
+        <br/>
+        <br/>
+        function: hex2bin(_hex,_nbits)<br/>
+        _hex -> input hex:<br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        output -> hex to binary format<br/>
+        <br/>
+        example:<br/>
+        print(hex2bin(0x81010181,32))<br/>
+        <br/>
+        function: bin2hex(_bin,_nbits)<br/>
+        _bin -> input hex:<br/>
+        _nbits -> _dec's number bits: 8,16,32<br/>
+        output -> binary to hex format<br/>
+        <br/>
+        example:<br/>
+        print(bin2hex("1100000000000011",16))<br/>
+        <br/>
+        env<br/>
+        <br/>
+        from pyeco import *<br/>
+        from pyeco import _adr_size<br/>
+        <br/>
+        bindiff(_file1,_file2,_nbits,_size,_flag,_base_adr)<br/>
+        _file1 - first file,<br/>
+        _file2 - second file,<br/>
+        _nbits - word's number bits: 8,16,32,<br/>
+        _size - how much words to compare<br/>
+        _flag - screen adress by _nbits words or bytes <br/> 
+        _base_adr - base adress, need for real dats location<br/>
+        output -> binary difference between _file1 and _file2<br/>
+        <br/>
+        example:<br/>
+        bindiff("e:/spil.bin","e:/u-boot.bin",32,int(0xce0/4),_adr_size.BYTE,0xe6300000)<br/>
+        env<br/>
+        <br/>
+        from pyeco import *<br/>
+        <br/>
+        function: max_array(in_array)<br/>
+        in_array - входной массив<br/>
+        output -> вычисляет MAX значение числа из массива in_array и выводит на консоль<br/>
+        <br/>
+        example:<br/>
+        import numpy as np<br/>
+        
+        in_array = np.array([-176,3,148,-10,36,238,-76])<br/>
+        
+        max_array(in_array)<br/>
+        <br/>
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

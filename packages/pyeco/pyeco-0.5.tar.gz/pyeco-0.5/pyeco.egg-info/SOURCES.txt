@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyeco/__init__.py
+pyeco/_bindiff.py
+pyeco/_dec2hex.py
+pyeco/_max_array.py
+pyeco.egg-info/PKG-INFO
+pyeco.egg-info/SOURCES.txt
+pyeco.egg-info/dependency_links.txt
+pyeco.egg-info/not-zip-safe
+pyeco.egg-info/top_level.txt
