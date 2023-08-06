@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: huntertray
+Version: 0.0.1
+Summary: ProductHunt in your System Tray
+Home-page: https://github.com/artiya4u/huntertray
+Author: Artiya Thinkumpang
+Author-email: artiya4u@gmail.com
+License: MIT
+Description: ProductHunt in your System Tray inspired by HackerTray
+Keywords: ProductHunt PH tray system tray icon huntertray
+Platform: UNKNOWN
