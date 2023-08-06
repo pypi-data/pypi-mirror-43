@@ -1,0 +1,13 @@
+.DS_Store,sha256=-7bn7vvhUES6S37nPfNl-ulAEHO34d4NLIhJq2I53WU,6148
+conficus/__init__.py,sha256=wMjp6lXYAUCcqCEA8Rd7XujQpDjLmBog_Ok45hGtTFQ,1391
+conficus/coerce.py,sha256=rBzCRZu3FJVyJzKLIaJWhh4Phq-Vs0KCzF1wS0-X_BU,8765
+conficus/format.py,sha256=8txl1gVFnLzWGbEieHnEU_yR9rQQH5Yy1ZiOjfbBXgk,1346
+conficus/inherit.py,sha256=l8Mm9nVqokdf5Q1B3qeDAWf7bcX0hQel_72DbRM8SAU,1340
+conficus/parse.py,sha256=CvuGPRkULKbJOYDe322jMijZfLlk_82082y4HGlOhpc,3496
+conficus/readonly.py,sha256=LrIzMI1JDZAghR0jjM_8SH77v2KaABwv96wKL9Yh3jI,997
+conficus/structs.py,sha256=iMJaVRD47fmT0Nl85f5RrRX6R71wZ3tqAI21o4knlso,5814
+conficus-0.4.2.dist-info/LICENSE,sha256=kRbEH3XowYG-rSp6_Rbr8-2M7sUaSY5ZCzmVL6FPW7M,1069
+conficus-0.4.2.dist-info/METADATA,sha256=f0XcQWf4hUNNhiltMyeKpqccgFny6K_dWBpgfQUnuCE,2012
+conficus-0.4.2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+conficus-0.4.2.dist-info/top_level.txt,sha256=8RPJY12hCAf_XvAg-2EfxOLWQzGl-Rfxr30L9235l_w,9
+conficus-0.4.2.dist-info/RECORD,,
