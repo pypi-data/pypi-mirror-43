@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kafka_splunk_connector
+Version: 1.0.6
+Summary: Library that connects the kafka topic to splunk
+Home-page: https://github.com/Sathishsathi/kafka_splunk_connector
+Author: Sathish
+Author-email: sathishsathi500@gmail.com
+License: UNKNOWN
+Description: This is the application that connects the kafka topic to splunk.
+        
+        You should have the basic idea on splunk and kafka before using this package.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
