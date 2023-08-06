@@ -1,0 +1,42 @@
+# -*- coding: utf-8 -*-
+from distutils.core import setup
+
+packages = \
+['reprobench',
+ 'reprobench.executors',
+ 'reprobench.runners',
+ 'reprobench.runners.slurm']
+
+package_data = \
+{'': ['*'], 'reprobench': ['console/*', 'core/*', 'tools/*']}
+
+install_requires = \
+['apsw>=3.9,<4.0',
+ 'click>=7.0,<8.0',
+ 'loguru>=0.2.5,<0.3.0',
+ 'peewee>=3.8,<4.0',
+ 'psmon>=0.2.1,<0.3.0',
+ 'pynisher>=0.5.0,<0.6.0',
+ 'strictyaml>=1.0,<2.0',
+ 'tqdm>=4.31,<5.0']
+
+entry_points = \
+{'console_scripts': ['reprobench = reprobench.console.main:cli']}
+
+setup_kwargs = {
+    'name': 'reprobench',
+    'version': '0.1.0',
+    'description': 'Reproducible Benchmark for Everyone',
+    'long_description': None,
+    'author': 'Rakha Kanz Kautsar',
+    'author_email': 'rkkautsar@gmail.com',
+    'url': None,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.6',
+}
+
+
+setup(**setup_kwargs)
