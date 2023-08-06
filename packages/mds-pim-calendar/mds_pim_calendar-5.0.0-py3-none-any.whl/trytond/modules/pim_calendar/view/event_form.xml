@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="4" cursor="name">
+    <label name="name"/>
+    <field name="name" colspan="3"/>
+    <label name="location"/>
+    <field name="location" colspan="3"/>
+
+    <label name="wholeday"/>
+    <field name="wholeday"/>
+    <label name="calendar"/>
+    <field name="calendar"/>
+
+    <label name="startpos"/>
+    <group col="2" id="grp1">
+        <group id="startpos1" col="1">
+            <field name="startpos"/>
+        </group>
+        <group id="startpos2" col="1">
+            <field name="startpos" widget="date"/>
+        </group>
+    </group>
+
+    <newline/>
+
+    <label name="endpos"/>
+    <group col="2" id="grp2">
+        <group id="endpos1" col="1">
+            <field name="endpos"/>
+        </group>
+        <group id="endpos2" col="1">
+            <field name="endpos" widget="date"/>
+        </group>
+    </group>
+
+    <group colspan="4" name="note" col="1">
+        <field name="note" />
+    </group>
+</form>

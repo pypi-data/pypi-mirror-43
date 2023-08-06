@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<form cursor="icsfile" col="4">
+    <label name="icsfile"/>
+    <field name="icsfile"/>
+    
+    <label id="lab1" xalign="0.0" colspan="2"
+        string="Select an ics file to import into the current calendar."/>
+    
+    <label name="calendar"/>
+    <field name="calendar"/>
+</form>

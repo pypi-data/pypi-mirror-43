@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- forms -->
+        <record model="ir.ui.view" id="visitor_view_form">
+            <field name="model">pim_calendar.visitor</field>
+            <field name="type">form</field>
+            <field name="name">visitor_form</field>
+        </record>
+        <record model="ir.ui.view" id="visitor_view_tree">
+            <field name="model">pim_calendar.visitor</field>
+            <field name="type">tree</field>
+            <field name="name">visitor_tree</field>
+        </record>
+
+        <!-- action view -->
+        <record model="ir.action.act_window" id="act_visitor_form">
+            <field name="name">Visitor</field>
+            <field name="res_model">pim_calendar.visitor</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_visitor_form1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="visitor_view_tree"/>
+            <field name="act_window" ref="act_visitor_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_visitor_form2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="visitor_view_form"/>
+            <field name="act_window" ref="act_visitor_form"/>
+        </record>
+
+    </data>
+</tryton>

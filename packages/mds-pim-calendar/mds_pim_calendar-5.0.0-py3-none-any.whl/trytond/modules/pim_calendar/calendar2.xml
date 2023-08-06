@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- forms -->
+        <record model="ir.ui.view" id="calendar_view_form">
+            <field name="model">pim_calendar.calendar</field>
+            <field name="type">form</field>
+            <field name="name">calendar_form</field>
+        </record>
+        <record model="ir.ui.view" id="calendar_view_tree">
+            <field name="model">pim_calendar.calendar</field>
+            <field name="type">tree</field>
+            <field name="name">calendar_tree</field>
+        </record>
+
+        <!-- action view -->
+        <record model="ir.action.act_window" id="act_calendarlist_form">
+            <field name="name">Calendar</field>
+            <field name="res_model">pim_calendar.calendar</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_calendarlist_form1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="calendar_view_tree"/>
+            <field name="act_window" ref="act_calendarlist_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_calendarlist_form2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="calendar_view_form"/>
+            <field name="act_window" ref="act_calendarlist_form"/>
+        </record>
+
+        <!-- menu item -->
+        <menuitem  action="act_calendarlist_form" id="menu_calendarlist" 
+            parent="menu_calendar1" icon="mds-calendar-month" sequence="20"/>
+
+        <!-- filter for [own calendars/shared calendars] -->
+        <record model="ir.action.act_window.domain" id="act_calendar_form_own">
+            <field name="name">Own Calendars</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('isowner', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_calendarlist_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_calendar_form_shared">
+            <field name="name">Shared Calendars</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('isowner', '=', False)]" pyson="1"/>
+            <field name="act_window" ref="act_calendarlist_form"/>
+        </record>
+
+        <!-- access: deny all -->
+        <record model="ir.model.access" id="access_calendar_anon">
+            <field name="model" search="[('model', '=', 'pim_calendar.calendar')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <!-- rule group -->
+        <record model="ir.rule.group" id="rule_group_calendar_anon">
+            <field name="model" search="[('model', '=', 'pim_calendar.calendar')]"/>
+            <field name="global_p" eval="False"/>
+            <field name="default_p" eval="True"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule" id="rule_group_calendar_anon_line1">
+            <field name="domain" pyson="1" eval="[]" />
+            <field name="rule_group" ref="rule_group_calendar_anon"/>
+        </record>
+
+    </data>
+</tryton>
