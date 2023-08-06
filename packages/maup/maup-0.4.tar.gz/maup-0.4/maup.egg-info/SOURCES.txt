@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+maup/__init__.py
+maup/assign.py
+maup/crs.py
+maup/indexed_geometries.py
+maup/indices.py
+maup/intersections.py
+maup.egg-info/PKG-INFO
+maup.egg-info/SOURCES.txt
+maup.egg-info/dependency_links.txt
+maup.egg-info/requires.txt
+maup.egg-info/top_level.txt
