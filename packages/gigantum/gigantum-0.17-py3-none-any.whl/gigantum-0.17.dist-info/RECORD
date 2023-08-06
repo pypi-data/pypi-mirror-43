@@ -1,0 +1,15 @@
+gigantumcli/__init__.py,sha256=S6JbSOakNkmFSuUsLSTSWg7xuLVkJYNl5CbUURGoWUI,44
+gigantumcli/actions.py,sha256=GLXlH3Amx_mQ-Pz3QIRmyPDo2ueiycce2mUh2fN5ih0,13587
+gigantumcli/changelog.py,sha256=2zh3DBIuM-HFtLWIcIcST_EzrEQcRI9O4ATPXE7ji7s,3102
+gigantumcli/cli.py,sha256=9k7BB-NYg5s5p0gP3JEFyxYYkT0yKrYwjcfjgxLSsmA,3670
+gigantumcli/dockerinterface.py,sha256=08x9ofkud1RVaIZT1cI7pewt9pC4MK-eiMjr5D54zlo,10579
+gigantumcli/utilities.py,sha256=zJlnjECc2xywkz0np5zfnnTUVTIXLpf5D1rG7Mb_5ws,2770
+gigantumcli/.ropeproject/config.py,sha256=crMxHzOEbGwv8vlTLnN1fRvpPOOR66T4JAKPHd-Xsqw,4774
+gigantumcli/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gigantumcli/tests/test_changelog.py,sha256=ppLe4NydPbV2uwcDjj5V-OwpR3_fwF4PSW0Nayu0Omg,3089
+gigantum-0.17.dist-info/LICENSE,sha256=Snoii8hSx7VTc1Cz-vzI4c9EZxmWOsg0mHCppEfvyV0,1076
+gigantum-0.17.dist-info/METADATA,sha256=jZfO2jhUyw0X97Hxp7LZhje4XjgMoIysPP_AM4ZuHx0,11021
+gigantum-0.17.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+gigantum-0.17.dist-info/entry_points.txt,sha256=AINlRVmLkYpOEzmf0we9mRh7LM9ScqyAmG_EP1SYVvA,51
+gigantum-0.17.dist-info/top_level.txt,sha256=BSXCsf0DGF16rGoPYKaJhkrXWxwOMO3g4eegq25Iclo,12
+gigantum-0.17.dist-info/RECORD,,
