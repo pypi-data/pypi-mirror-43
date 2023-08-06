@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: jupyter-pytest
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/vahtras/jupyter-pytest
+Author: Olav Vahtras
+Author-email: olav.vahtras@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: jupyter
+Requires: pytest
