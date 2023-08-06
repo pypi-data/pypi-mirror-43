@@ -1,0 +1,9 @@
+py_snappy/__init__.py,sha256=vzykiVkGYnR2wa2lW5_OgUl8pCj4k5GPqjf3lbxhDVs,136
+py_snappy/constants.py,sha256=hQcEucPnwufgt-8HaqVRz2My7Lysn3rd61_dev1M7FE,285
+py_snappy/exceptions.py,sha256=BW_4fWgPiC0dkB80NLgzHxeQPQDszSlHl1vEe7QzChk,252
+py_snappy/main.py,sha256=4GVZKJ4BbtXyXKeFd7gO888e8CEpbTPJY2HuzFziHWo,11685
+py_snappy-0.1.0a1.dist-info/LICENSE,sha256=6FjC5vZ8Igy608hi0LHTKzQpsLxcqyNi5b-Q0qSNPus,1079
+py_snappy-0.1.0a1.dist-info/METADATA,sha256=QQuy2OzhpfhxjTm4TSqc4Zd6hsYZjLmMHQBgneY60LU,5644
+py_snappy-0.1.0a1.dist-info/WHEEL,sha256=-ZFxwj8mZJPIVcZGLrsQ8UGRcxVAOExzPLVBGR7u7bE,92
+py_snappy-0.1.0a1.dist-info/top_level.txt,sha256=J2Zv-R7xn0xraU2JftUsx-xk5iX20ye_BF25Tu0mc4k,10
+py_snappy-0.1.0a1.dist-info/RECORD,,
