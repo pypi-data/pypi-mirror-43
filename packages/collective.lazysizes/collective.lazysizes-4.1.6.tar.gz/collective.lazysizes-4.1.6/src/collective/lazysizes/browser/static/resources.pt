@@ -1,0 +1,3 @@
+
+  <script async tal:attributes="src string:${view/site_url}/++resource++collective.lazysizes/lazysizes-d6d7324.js"></script>
+
