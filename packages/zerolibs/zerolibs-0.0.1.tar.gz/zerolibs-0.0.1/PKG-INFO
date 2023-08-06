@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zerolibs
+Version: 0.0.1
+Summary: a libs for myself
+Home-page: https://github.com/ZeroWangZY/zerolib
+Author: ZeroWangZY
+Author-email: 756762961@qq.com
+License: UNKNOWN
+Description: # zerolib
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

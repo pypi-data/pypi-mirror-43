@@ -1,0 +1,8 @@
+README.md
+setup.py
+str/__init__.py
+str/strlib.py
+zerolibs.egg-info/PKG-INFO
+zerolibs.egg-info/SOURCES.txt
+zerolibs.egg-info/dependency_links.txt
+zerolibs.egg-info/top_level.txt
