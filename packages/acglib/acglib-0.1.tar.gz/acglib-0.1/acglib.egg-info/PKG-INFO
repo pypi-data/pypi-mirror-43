@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: acglib
+Version: 0.1
+Summary: Library for reusable cloud code
+Home-page: http://github.com/AustinCloudGuru/acglib
+Author: Mark Honomichl
+Author-email: mark@austincloud.guru
+License: MIT
+Description: #acglib
+        A small python package of reusable code bits for AWS, Azure, and GCP.  
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
