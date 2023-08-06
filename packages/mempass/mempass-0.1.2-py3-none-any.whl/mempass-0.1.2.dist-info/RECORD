@@ -1,0 +1,10 @@
+mempass/__init__.py,sha256=-GIrSITfXR7yS2zmEn9ft2pGBgwnETVebGu9y5h4zLI,113
+mempass/command_line.py,sha256=n8cLSdsahr8c7606_3vaBaZAkWXA6Hmsm3rz87LeJc0,470
+mempass/password_generator.py,sha256=EOs_ENQlDDVvjrf-vzbvn267xX8cnSozTWe5hmCaqvs,2172
+mempass/tests.py,sha256=DcSw063ICeO-gevHoLUmXHHw-eKjWv9iDzgfJe2WpUY,934
+mempass-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mempass-0.1.2.dist-info/METADATA,sha256=oQwNPgcKZpUDcFMLwb3GCYKc4ibcVd4lwxQjh7x3VT0,2112
+mempass-0.1.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mempass-0.1.2.dist-info/entry_points.txt,sha256=BUDkAAjrVScE2yWbCTvHM26GS6WMhMHQUFqGYE1r67s,55
+mempass-0.1.2.dist-info/top_level.txt,sha256=d5Xp1vqUETPpiFHPlNfilsylK6HVRJJt5dl-PH17PWo,8
+mempass-0.1.2.dist-info/RECORD,,
