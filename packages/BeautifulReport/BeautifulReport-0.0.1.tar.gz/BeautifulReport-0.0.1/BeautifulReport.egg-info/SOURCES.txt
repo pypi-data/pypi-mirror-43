@@ -1,0 +1,6 @@
+README.md
+setup.py
+BeautifulReport.egg-info/PKG-INFO
+BeautifulReport.egg-info/SOURCES.txt
+BeautifulReport.egg-info/dependency_links.txt
+BeautifulReport.egg-info/top_level.txt
