@@ -1,0 +1,13 @@
+easy_rouge-0.2.2.dist-info/METADATA,sha256=Bxd3Cwvn8TilcJ9Z9vx5nCA8TuhFEs04iNpsu-mQ1tg,7491
+easy_rouge-0.2.2.dist-info/RECORD,,
+easy_rouge-0.2.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+easy_rouge-0.2.2.dist-info/top_level.txt,sha256=oR5wJ2XiJvEnlTICoH1_w9D757L04cRh2vk6jqzwV0w,6
+rouge/__init__.py,sha256=wUvM6ym-IPMjzHSeQ5hiSni4hMbNjWEYrgCh4YSWuUQ,26
+rouge/rouge.py,sha256=pBCILJ-XksyJHnY4MsghEC0f6PTySF8BqJXMZXDV98o,18504
+rouge/tests/__init__.py,sha256=Ip0pwh0XjyIiPHKawsEVgaCNY7F8UHSY3SoVt41-Axk,1723
+rouge/tests/test_rouge_l.py,sha256=E352mbRFJEF5BvLfH4Jm33wx2Tt2-qqBaO4uFK_dbc4,2131
+rouge/tests/test_rouge_n.py,sha256=7Katk9k0O_ULXIEVGmo1Nz_HUN5YtMg_K-Yl5xuS-Jk,2820
+rouge/tests/test_rouge_score.py,sha256=KD8EpUYyMK-bbGzabwwFBwT31VNJl5amyySLz6ClfuE,500
+rouge/tests/test_rouge_w.py,sha256=9Yh-0j41u7pMfK1wrJXTOLGEHetvLEqrrdsNw3_yFqY,2138
+rouge/tests/wrapper.py,sha256=sgImcGc9E1W3IjP3F_T4W_yVeVVOq56cG7unm4FVjq4,5071
+rouge/tests/data/ROUGE-test.json,sha256=ufJd2Fw6emnRGkdc5nE9_hZGN5YOHwZLuKgFK3ZVH8k,27511
