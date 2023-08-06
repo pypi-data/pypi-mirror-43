@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: royalspells
+Version: 3.2
+Summary: A package to procedurally generate useless spells!
+Home-page: https://github.com/Steffo99/royalspells
+Author: Stefano Pigozzi
+Author-email: ste.pigozzi@gmail.com
+License: UNKNOWN
+Description: # `royalspells`
+        
+        A package to procedurally generate useless spells!
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
