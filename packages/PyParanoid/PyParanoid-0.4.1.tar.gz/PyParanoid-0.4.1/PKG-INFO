@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: PyParanoid
+Version: 0.4.1
+Summary: Fast and scalable homolog detection for thousands of genomes
+Home-page: https://github.com/ryanmelnyk/PyParanoid
+Author: Ryan A. Melnyk
+Author-email: schmelnyk@gmail.com
+License: MIT
+Description: PyParanoid is a set of scripts and functions for identifying homology groups in large databases of microbial genomes. See https://github.com/ryanmelnyk/PyParanoid for details.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
