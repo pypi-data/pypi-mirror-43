@@ -1,0 +1,10 @@
+start:
+    - write to file:
+        path: /tmp/test
+        content: Hello World!
+        close_on_item: True
+
+    - read from file:
+        path: /tmp/test
+
+    - assert: Hello World!
