@@ -1,0 +1,11 @@
+README.md
+setup.py
+django-basetestcase/__init__.py
+django-basetestcase/base_FormTestCase.py
+django-basetestcase/base_FunctionalTestCase.py
+django-basetestcase/base_ModelTestCase.py
+django-basetestcase/base_ViewTestCase.py
+django_basetestcase.egg-info/PKG-INFO
+django_basetestcase.egg-info/SOURCES.txt
+django_basetestcase.egg-info/dependency_links.txt
+django_basetestcase.egg-info/top_level.txt
