@@ -1,0 +1,4 @@
+kafka-python
+requests
+logging
+splunk_hec_handler
