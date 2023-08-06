@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+charlotte/__init__.py
+charlotte/dns.py
+charlotte/fetch.py
+charlotte/helper.py
+charlotte/http.py
+charlotte/midleware.py
+charlotte/spider.py
+charlotte.egg-info/PKG-INFO
+charlotte.egg-info/SOURCES.txt
+charlotte.egg-info/dependency_links.txt
+charlotte.egg-info/top_level.txt
