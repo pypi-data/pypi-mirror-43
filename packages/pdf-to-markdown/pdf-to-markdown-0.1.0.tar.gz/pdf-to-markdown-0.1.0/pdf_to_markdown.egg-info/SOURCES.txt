@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/pdf2md
+pdf2md/__init__.py
+pdf2md/parser.py
+pdf2md/pile.py
+pdf2md/syntax.py
+pdf2md/writer.py
+pdf_to_markdown.egg-info/PKG-INFO
+pdf_to_markdown.egg-info/SOURCES.txt
+pdf_to_markdown.egg-info/dependency_links.txt
+pdf_to_markdown.egg-info/requires.txt
+pdf_to_markdown.egg-info/top_level.txt
