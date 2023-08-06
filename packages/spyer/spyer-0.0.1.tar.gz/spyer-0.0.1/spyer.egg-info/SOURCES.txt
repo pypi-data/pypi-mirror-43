@@ -1,0 +1,9 @@
+setup.py
+spyer/__init__.py
+spyer/base.py
+spyer/client.py
+spyer.egg-info/PKG-INFO
+spyer.egg-info/SOURCES.txt
+spyer.egg-info/dependency_links.txt
+spyer.egg-info/requires.txt
+spyer.egg-info/top_level.txt
