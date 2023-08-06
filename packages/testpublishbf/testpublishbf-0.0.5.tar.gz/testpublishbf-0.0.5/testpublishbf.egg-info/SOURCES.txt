@@ -1,0 +1,8 @@
+setup.py
+blingfire/__init__.py
+blingfire/blingfiretokdll.dll
+blingfire/libblingfiretokdll.so
+testpublishbf.egg-info/PKG-INFO
+testpublishbf.egg-info/SOURCES.txt
+testpublishbf.egg-info/dependency_links.txt
+testpublishbf.egg-info/top_level.txt
