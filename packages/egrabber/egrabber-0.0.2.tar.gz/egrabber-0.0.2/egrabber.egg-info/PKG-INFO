@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: egrabber
+Version: 0.0.2
+Summary: testpack
+Home-page: UNKNOWN
+Author: hari
+Author-email: hari@example.com
+License: UNKNOWN
+Description: This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

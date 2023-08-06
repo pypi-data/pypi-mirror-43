@@ -1,0 +1,9 @@
+README.md
+setup.py
+egrabber.egg-info/PKG-INFO
+egrabber.egg-info/SOURCES.txt
+egrabber.egg-info/dependency_links.txt
+egrabber.egg-info/top_level.txt
+new/__init__.py
+new/jsd.py
+new/new.py
