@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: indiazipcode
+Version: 0.1
+Summary: India PIN/ZIP code utility package
+Home-page: https://github.com/ganeshkolhe4392/indiazipcode
+Author: shriganesh kolhe
+Author-email: shriganeshkaialsh.kolhe@ucdenver.edu
+License: UNKNOWN
+Description: pip install indiazipcode
+        
+        # indiazipcode
+        In this package, all zip code in India has been make accessible via python. Sometimes Zip code in India is also referred as PIN code. All the reference data is up-to-date and you can view originial data on https://data.gov.in/catalog/all-india-pincode-directory
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
