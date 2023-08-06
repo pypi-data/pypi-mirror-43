@@ -1,0 +1,10 @@
+pathlib
+
+[testing]
+pylint
+pytest
+pytest-cov
+Sphinx
+sphinx_rtd_theme
+wheel
+bumpversion
