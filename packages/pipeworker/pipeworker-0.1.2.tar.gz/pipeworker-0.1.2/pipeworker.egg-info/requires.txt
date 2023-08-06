@@ -1,0 +1,7 @@
+tabulate
+termcolor
+pandas
+sklearn
+toolz
+pydash
+infusion
