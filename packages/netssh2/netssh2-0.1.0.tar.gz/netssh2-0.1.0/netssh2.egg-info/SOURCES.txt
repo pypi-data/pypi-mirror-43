@@ -1,0 +1,15 @@
+README.rst
+setup.py
+docs/__init__.py
+docs/conf.py
+netssh2/__init__.py
+netssh2/exceptions.py
+netssh2/globals.py
+netssh2/session.py
+netssh2.egg-info/PKG-INFO
+netssh2.egg-info/SOURCES.txt
+netssh2.egg-info/dependency_links.txt
+netssh2.egg-info/requires.txt
+netssh2.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic_session.py
