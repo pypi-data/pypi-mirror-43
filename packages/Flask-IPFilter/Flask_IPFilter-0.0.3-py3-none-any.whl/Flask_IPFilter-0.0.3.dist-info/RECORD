@@ -1,0 +1,8 @@
+.DS_Store,sha256=meAtbnBP7t6O8Mma7At-JNB8LEPZYyiXTs9FT17Zq6Q,6148
+flask_ipfilter/__init__.py,sha256=d0F4fxnts8GHVodl2601ZTLaIaZTgrnPn6_axsEk_xs,478
+flask_ipfilter/whitelist.py,sha256=gWyicTCUwRyFoDAGqbjWLzMAGhdQkioJZ0Sa395eivU,2602
+Flask_IPFilter-0.0.3.dist-info/LICENSE.txt,sha256=28x6fNZLdgm5cNLN7n6ERM9E6meNVC8ruq_tmfs1nzM,1075
+Flask_IPFilter-0.0.3.dist-info/METADATA,sha256=4A4956eSH3Q3g4pUuGBpzdZR34D8NPEHLbkGILhm2s8,710
+Flask_IPFilter-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+Flask_IPFilter-0.0.3.dist-info/top_level.txt,sha256=JwvvWHVQnlLVZTtEjrNGID8kkcUTzwS4uNq8SAFghwg,15
+Flask_IPFilter-0.0.3.dist-info/RECORD,,
