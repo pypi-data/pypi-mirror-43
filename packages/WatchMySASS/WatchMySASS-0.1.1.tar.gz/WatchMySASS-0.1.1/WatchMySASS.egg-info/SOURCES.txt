@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+WatchMySASS/WatchMySASS.py
+WatchMySASS/__init__.py
+WatchMySASS/observer.py
+WatchMySASS/utils.py
+WatchMySASS.egg-info/PKG-INFO
+WatchMySASS.egg-info/SOURCES.txt
+WatchMySASS.egg-info/dependency_links.txt
+WatchMySASS.egg-info/entry_points.txt
+WatchMySASS.egg-info/not-zip-safe
+WatchMySASS.egg-info/requires.txt
+WatchMySASS.egg-info/top_level.txt
