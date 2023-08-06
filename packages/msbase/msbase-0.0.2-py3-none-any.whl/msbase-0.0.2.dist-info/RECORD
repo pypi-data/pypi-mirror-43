@@ -1,0 +1,9 @@
+msbase/__init__.py,sha256=2Y1SYq4AX2Q8LeNpN49On_memY9dqYILChpQE9QQL1w,16
+msbase/argparse_.py,sha256=f0xTmroGbYVrmJq-QlkQ8aJr8qRIe1lgtDOj8-SOlUY,208
+msbase/assert_.py,sha256=Vt8VkxvXJ6EylN08GVPmjPwJ7wwYm9vOpEs0QHMFpNo,477
+msbase/subprocess_.py,sha256=AqM8p8CZsbvBHOCD__7Hq-BcdN8jJRfKIoRBhw_lKOo,2495
+msbase-0.0.2.dist-info/LICENSE,sha256=vmmkVZ4b2Ux6dGcCjuu1ZyQCvVa_mtLrqGLqWYmC2-w,1054
+msbase-0.0.2.dist-info/METADATA,sha256=Ycy2qLxJa9l-ilucRWLncjoDYOgPnmWE6Ufl1cr0PpA,488
+msbase-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+msbase-0.0.2.dist-info/top_level.txt,sha256=teL3i5mA49uOTwXTbb55LQ5fok5zxy0egEIwFSfUyEo,7
+msbase-0.0.2.dist-info/RECORD,,
