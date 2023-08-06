@@ -1,0 +1,11 @@
+examples/basic.py,sha256=HFiocMtqLk6HcF5a8nWVVEDHQXqBNK2RwVY2T0ZU8Fo,118
+examples/dataframes.py,sha256=aJBJ7-NgYNQReG3QmVOAzu-wnxDk68dL0R65OWJH3yo,365
+sparkmonitoring/__init__.py,sha256=b8tvo2RH8WOBTipf3D9rIWhZfhTrD3gWp-N61pOOMO0,748
+sparkmonitoring/api.py,sha256=sjPByHeiMI8P9ndWzUxNgd3UKcLoT00g61yKf3_y_iE,7526
+sparkmonitoring/dataframes.py,sha256=fdD4TR23brBhcJPNj4M4juYvewYSqRwRhlchHjwNdLE,2587
+sparkmonitoring/responsetype.py,sha256=N9LBi32GoQxyxEotugE2vrtzKARfAeBhMZhzoXBuW8Y,75
+spark_monitoring-0.0.3.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+spark_monitoring-0.0.3.dist-info/METADATA,sha256=rCjoZKzddPSZ4BzBO5Laykkny6qndULd-MBN7LaxAoE,5423
+spark_monitoring-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+spark_monitoring-0.0.3.dist-info/top_level.txt,sha256=_1okOiwwqN9N7_IjdRnh1JMzpe3WxqaEImwo3JBMB4o,25
+spark_monitoring-0.0.3.dist-info/RECORD,,
