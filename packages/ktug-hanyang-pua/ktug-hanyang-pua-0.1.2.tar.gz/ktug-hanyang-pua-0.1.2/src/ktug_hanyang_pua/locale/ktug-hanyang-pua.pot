@@ -1,0 +1,78 @@
+# Translations template for ktug-hanyang-pua.
+# Copyright (C) 2019 mete0r@sarangbang.or.kr
+# This file is distributed under the same license as the ktug-hanyang-pua
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ktug-hanyang-pua 0.0.0\n"
+"Report-Msgid-Bugs-To: mete0r@sarangbang.or.kr\n"
+"POT-Creation-Date: 2019-03-11 22:41+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: src/ktug_hanyang_pua/cli.py:93 src/ktug_hanyang_pua/cli.py:201
+msgid "Rejecting to output binary to a terminal."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:122
+msgid "table binary format requires filename."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:135 src/ktug_hanyang_pua/cli.py:156
+#, python-format
+msgid "%s mappings have been written."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:164
+#, python-format
+msgid "%s lines have been written."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:168 src/ktug_hanyang_pua/cli.py:220
+#, python-format
+msgid "Not supported format for data model %s: %s"
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:210 src/ktug_hanyang_pua/cli.py:216
+#, python-format
+msgid "%s nodes have been written."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:233
+msgid "output version information and exit"
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:238
+msgid "increase verbosity"
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:243
+msgid "Output file. The standard output will be used if ommitted."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:249
+msgid ""
+"Data model. Note that `table' model is suitable for encoding and `tree' "
+"model is suitable for decoding."
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:259
+msgid "Output format"
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:264
+msgid "Switch source/targets in input mappings"
+msgstr ""
+
+#: src/ktug_hanyang_pua/cli.py:271
+msgid "Input file. The standard input will be used if ommitted."
+msgstr ""
+

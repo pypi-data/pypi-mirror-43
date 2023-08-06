@@ -1,0 +1,12 @@
+[console_scripts]
+ktug-hanyang-pua = ktug_hanyang_pua.cli:main
+
+[paste.app_factory]
+
+
+[zc.buildout]
+
+
+[zc.buildout.uninstall]
+
+
