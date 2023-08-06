@@ -1,0 +1,15 @@
+ogr/__init__.py,sha256=VtZv7JbBYypHyJSE8_xPSy79Ojf-sSFDaVBHbggAMso,322
+ogr/abstract.py,sha256=k0xngq8wx3SvMIx2QH3G1lj4WP3E1g7uVo6tArSpW8s,7950
+ogr/constant.py,sha256=YRbDk0pzv9BPExDSRc_0tDWK4a3Fbfbrx4PKdAjSIQA,19
+ogr/utils.py,sha256=YpkawKXsr_GwAnkDbiwcuwceL3GXLFU_UMZ5qwJ7rcI,9431
+ogr/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogr/services/base.py,sha256=sBjooCSq3fseiKuRDbeEksYg62qYhTsr2cHn48EqBPI,2048
+ogr/services/github.py,sha256=PWZYzy8Ui7IRd7-mAdO0xIYJCUrfwaPysLgIP6gD_wQ,7411
+ogr/services/gitlab.py,sha256=QuQsUUilAvWx7C3bENbzMeZlt0PnYkIli6LPxU4mT90,4781
+ogr/services/our_pagure.py,sha256=Cb-Wm1DT43CoqCjUKGuk2I1p5kcUvNUE6Dq46foAY2Y,9927
+ogr/services/pagure.py,sha256=dTBDBzvFAZhg_EoxQ0kq6I_nLocPBbR8UilRyFJQroI,7775
+ogr-0.1.0.dist-info/LICENSE,sha256=aNfmJcFIB0Yc65MOhTLYPSYsJUIcfH_Ig0BbwT1urMg,1064
+ogr-0.1.0.dist-info/METADATA,sha256=YHuoixiVNOX80XMPJbL9SQHP9-2tzhF5PrHkVVbC6qg,1663
+ogr-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+ogr-0.1.0.dist-info/top_level.txt,sha256=fQ9oW2XCStUHp-VIrYq3Hx81LqnqY0gF10Zd2ilXC0U,4
+ogr-0.1.0.dist-info/RECORD,,
