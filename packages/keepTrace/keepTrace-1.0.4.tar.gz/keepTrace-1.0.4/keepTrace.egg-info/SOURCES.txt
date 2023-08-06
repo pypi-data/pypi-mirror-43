@@ -1,0 +1,9 @@
+README.md
+keepTrace.py
+license.txt
+setup.cfg
+setup.py
+keepTrace.egg-info/PKG-INFO
+keepTrace.egg-info/SOURCES.txt
+keepTrace.egg-info/dependency_links.txt
+keepTrace.egg-info/top_level.txt
