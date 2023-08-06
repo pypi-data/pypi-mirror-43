@@ -1,0 +1,16 @@
+{
+"en":{"when":["as soon as", "once", "whenever", "if"],
+      "go":["arrive"],
+      "on":["onto"],
+      "in":["into", "inside"],
+      "does not":["doesn't", "doesnt"],
+      "has not":["hasn't", "hasnt"],
+      "can not":["can't", "cant"],
+      "do not":["don't", "dont"],
+      "will not":["won't", "wont"],
+      "must not":["mustn't", "mustnt"],
+      "must":["have to", "ought to"],
+      " todelete ":[" the ", " a ", " some", " any ", " so ", " that "]},
+"cs":{}
+
+}
