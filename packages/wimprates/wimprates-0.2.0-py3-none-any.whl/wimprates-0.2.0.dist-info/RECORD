@@ -1,0 +1,11 @@
+wimprates/__init__.py,sha256=TZ0GWlPEB5vxIM2ou-JV-vVMSm51ihk0yIH5iJemQUc,165
+wimprates/bremsstrahlung.py,sha256=BqnAuKkmPziyqKnUwky4DigMNoM5O5Vie17HaIoz10A,4509
+wimprates/elastic_nr.py,sha256=YGarIOTIYyTzIuhgbA48zkj61B9ooJ4rDWh6MgGF-SE,6480
+wimprates/halo.py,sha256=yEYCkGela9yLljofJsUkUhztTcnU9yd7XhXdC7gHer8,4711
+wimprates/migdal.py,sha256=7NeTEnsCYKTsOI_avEll9h9Gpp7bkFkexuf42a2-nfE,4089
+wimprates/summary.py,sha256=YJ35amI9J0-aRn49CCRgtPXybacVJ9Uhu_-_R4VEDwQ,3070
+wimprates/utils.py,sha256=hrPcnDxEXYhYhn0lyV1FkrZt1RPDczqOpu_JDGE5MmY,1401
+wimprates-0.2.0.dist-info/METADATA,sha256=Lwyk_VcRAyDr3__6zLcr68YOwCCrWVeCK6SWTjVpLto,2791
+wimprates-0.2.0.dist-info/RECORD,,
+wimprates-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wimprates-0.2.0.dist-info/top_level.txt,sha256=s9OqWg832zwC38-G7eR22aaErIQ660OnL7gZuSPZysM,10
