@@ -1,0 +1,8 @@
+README.md
+setup.py
+vanilla_pkg/__init__.py
+vanilla_pkg/buoy.py
+vanilla_pkg.egg-info/PKG-INFO
+vanilla_pkg.egg-info/SOURCES.txt
+vanilla_pkg.egg-info/dependency_links.txt
+vanilla_pkg.egg-info/top_level.txt
