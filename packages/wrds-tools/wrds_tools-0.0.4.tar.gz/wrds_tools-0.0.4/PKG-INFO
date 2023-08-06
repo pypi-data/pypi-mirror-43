@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wrds_tools
+Version: 0.0.4
+Summary: Various tools to create a connection to the WRDS service and download commonly used data.
+Home-page: UNKNOWN
+Author: Julian Barg
+Author-email: barg.julian@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
