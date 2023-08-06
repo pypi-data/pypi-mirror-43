@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: avd-compose
+Version: 0.2.1
+Summary: Define and run android virtual devices
+Home-page: https://github.com/f9n/avd-compose
+Author: Fatih Sarhan
+Author-email: f9n@protonmail.com
+Requires-Python: >=3.4,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PyYAML (>=3.13,<4.0)
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: delegator.py (>=0.1.1,<0.2.0)
+Project-URL: Repository, https://github.com/f9n/avd-compose
