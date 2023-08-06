@@ -1,0 +1,12 @@
+README.md
+setup.py
+Skykit.egg-info/PKG-INFO
+Skykit.egg-info/SOURCES.txt
+Skykit.egg-info/dependency_links.txt
+Skykit.egg-info/requires.txt
+Skykit.egg-info/top_level.txt
+skykit/__init__.py
+skykit/providers/__init__.py
+skykit/providers/sentinel.py
+skykit/utils/__init__.py
+skykit/utils/geojson.py
