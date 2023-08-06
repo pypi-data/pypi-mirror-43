@@ -1,0 +1,11 @@
+dockerfile_bakery/__init__.py,sha256=Nk-XkBh1ej4tDsFEiYcdFEUSgUD3CFL5GX-IT15jEQI,79
+dockerfile_bakery/about.py,sha256=B15EIPG0blfdxO4SFtCuHWRb3-OfdWC2fl1fvGs80og,88
+dockerfile_bakery/cli.py,sha256=__8DaRFqAQUfffRPDzdgtJdvV1k7Uu9chmkZwzQhQ34,1691
+dockerfile_bakery/dockerfile_assembler.py,sha256=30ALfF-2NBzePPucAU3L02dkVO7SuyiRB8sQM4ibSKc,14397
+dockerfile_bakery/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockerfile_bakery/utils/console.py,sha256=AlNg228HJ043K1Zl4y0_fetRAkZdft5aajX8C7N1RH0,1621
+dockerfile_bakery-0.1.0.dist-info/METADATA,sha256=q3bx5EfaLZ-AFNzBMzA64mwyefZYMIcpDzC0EC0179c,324
+dockerfile_bakery-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dockerfile_bakery-0.1.0.dist-info/entry_points.txt,sha256=wwEXUruYg0hi199FP_PhzieFREsQZ7jwCaYO0IGYfBU,88
+dockerfile_bakery-0.1.0.dist-info/top_level.txt,sha256=Oeme4HDUwTvsMEikGj-qvq4gxlYjpjlopOYn1KY_urM,18
+dockerfile_bakery-0.1.0.dist-info/RECORD,,
