@@ -1,0 +1,11 @@
+slacklog/__init__.py,sha256=IbzeXUhjO0mAP6buaZGVvOOThhKYzaogA8qEyZL0kNU,76
+slacklog/formatters.py,sha256=y5hKllUiWqW8urwCYzvH7riPl8Z4GvNzoOYkDfIdXKU,34469
+slacklog/models.py,sha256=HsXO2vWycX_1UlK3RuN5mYtp0nHo8d26f0A-WmGPjQQ,3511
+slacklog/parsers.py,sha256=VtEw37Y0oGRxv3LJmjl0V-MCQOpxFm2mwrwqcYzF6pY,11578
+slacklog/scripts.py,sha256=yvl5kcw_082hbeKFV5tJBQtughiKzkPT_e8VjI2VwB8,13585
+slacklog-0.9.6.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+slacklog-0.9.6.dist-info/METADATA,sha256=E96WJ2iyvtKGfRHekrbA01E9NsTEQ16bj_rOffWY2BU,8520
+slacklog-0.9.6.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+slacklog-0.9.6.dist-info/entry_points.txt,sha256=eNPKQ02plo56beZr73k6Ht2aaeSz4uRpwubAWgkclnk,260
+slacklog-0.9.6.dist-info/top_level.txt,sha256=08EpCCdr4IDafGjuB8bf8GIKghjVf4va92Ei_UJN2io,9
+slacklog-0.9.6.dist-info/RECORD,,
