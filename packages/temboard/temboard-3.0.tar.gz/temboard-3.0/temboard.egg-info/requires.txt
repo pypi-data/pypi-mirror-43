@@ -1,0 +1,5 @@
+futures
+python-dateutil>=1.5
+psycopg2>=2.5.1
+sqlalchemy>=0.9.8
+tornado<6,>=3.2
