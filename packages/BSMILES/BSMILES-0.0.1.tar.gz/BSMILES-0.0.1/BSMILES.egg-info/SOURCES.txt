@@ -1,0 +1,9 @@
+README.md
+setup.py
+BSMILES/BSMILES.py
+BSMILES/B_to_smiles.py
+BSMILES/__init__.py
+BSMILES.egg-info/PKG-INFO
+BSMILES.egg-info/SOURCES.txt
+BSMILES.egg-info/dependency_links.txt
+BSMILES.egg-info/top_level.txt
