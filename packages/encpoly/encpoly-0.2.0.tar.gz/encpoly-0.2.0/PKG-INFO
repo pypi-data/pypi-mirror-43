@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: encpoly
+Version: 0.2.0
+Summary: Library for encoding/decoding geographic coordinates using Google's Encoded Polyline Algorithm
+Home-page: https://github.com/JaGallup/encpoly
+Author: Matt Riggott
+Author-email: matt.riggott@gmail.com
+Requires-Python: >=3.4,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: GIS
+Project-URL: Documentation, https://encpoly.readthedocs.io/
+Project-URL: Repository, https://github.com/JaGallup/encpoly
