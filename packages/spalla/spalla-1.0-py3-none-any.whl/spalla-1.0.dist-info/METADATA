@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spalla
+Version: 1.0
+Summary: programma per verifiche Liceo Ariosto Spallanzani
+Home-page: UNKNOWN
+Author: Giovanni Bruno
+Author-email: br1giova@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests
+
+# Libreria per verifiche Liceo Ariosto Spallanzani
+
+
