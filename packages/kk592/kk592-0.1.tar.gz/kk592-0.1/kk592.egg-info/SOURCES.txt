@@ -1,0 +1,8 @@
+setup.py
+kk592/p1.py
+kk592/setup.py
+kk592.egg-info/PKG-INFO
+kk592.egg-info/SOURCES.txt
+kk592.egg-info/dependency_links.txt
+kk592.egg-info/not-zip-safe
+kk592.egg-info/top_level.txt
