@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hwi
+Version: 1.0.0
+Summary: A library for working with Bitcoin hardware wallets
+Home-page: https://github.com/bitcoin-core/HWI
+Author: Andrew Chow
+Author-email: andrew@achow101.com
+Requires-Python: >=3.5.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: windist
+Requires-Dist: ecdsa (>=0.13.0,<0.14.0)
+Requires-Dist: hidapi (>=0.7.99,<0.8.0)
+Requires-Dist: libusb1 (>=1.7,<2.0)
+Requires-Dist: mnemonic (>=0.18.0,<0.19.0)
+Requires-Dist: pyaes (>=1.6,<2.0)
+Requires-Dist: pywin32-ctypes (>=0.2.0,<0.3.0); extra == "windist"
+Requires-Dist: typing-extensions (>=3.7,<4.0)
+Project-URL: Repository, https://github.com/bitcoin-core/HWI
