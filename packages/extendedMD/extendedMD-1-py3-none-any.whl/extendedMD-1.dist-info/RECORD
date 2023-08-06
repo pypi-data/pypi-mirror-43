@@ -1,0 +1,15 @@
+extendedMD/__init__.py,sha256=AAAxzcQlKb3Pu2fyrzK5Qxzfy5BcFwYx4PBZOl-RANs,134
+extendedMD/bs.py,sha256=k1jzj09htWeMRNpE8Jx2MPETCfIxTeXOvAP3So7yGoU,3333
+extendedMD/dtwdist.py,sha256=mYihGp3_hXrOrrjRiIR_zXzIq8uvCvSw1pGHwxo5k4A,2378
+extendedMD/emd.py,sha256=NOxMG5DxbjSlWm1s3vlwtsplPwKp2NufvLEpbJKctrM,2113
+extendedMD/mdl.py,sha256=aa85t67MMdCEsbHtWyrdNoxLSk7iQevbh-ss4rW4_LU,3123
+extendedMD/motifs.py,sha256=5PMbqk44hZdS9GnEX82ww_f_8y2ur968wiR_iiRg_mY,4464
+extendedMD/patterns.py,sha256=6pmXMFYK9a1-mNVJiT0JtwY_-IQ1t8cNLhCTuj32484,4112
+extendedMD/pca.py,sha256=D01iNkJr_33-WpHCEpMeq01YbDtxjDhp9_pSVfCOHgQ,916
+extendedMD/pruning.py,sha256=CmQMCnpdmxUlWjd59S0wcpCOkoHXPo57QW4R8S81_sA,4117
+extendedMD/sax.py,sha256=Ou08sD0Bd8fNq5MxhopmQUx9BFZdsRaN1lfiAKQFp60,3551
+extendedMD/viz.py,sha256=1N92QpuF4QgK4uRNmJz37nosCc-TNbS5QljBN2Drtn8,4853
+extendedMD-1.dist-info/METADATA,sha256=s-E8lF2Lx84PWApepOWDx2Nv5xNIkbA80puerCme6nM,1592
+extendedMD-1.dist-info/RECORD,,
+extendedMD-1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+extendedMD-1.dist-info/top_level.txt,sha256=SeDmpeO2V5fFlMc6Bx_sskSz-Qwu_6aCwUa4_iVnELA,11
