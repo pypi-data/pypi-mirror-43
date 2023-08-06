@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+import requests
+import argparse
+import json
+
+
+def main(pr_id, body, config):
+    github_token = config['token']
+    username = config['username']
+    repo_name = config['repo_name']
+    url = "https://api.github.com/repos/{}/{}/issues/{}/comments".format(username, repo_name, pr_id)
+    resp = requests.post(url, json={
+        'body': body
+    }, headers={
+        'Authorization': 'token {}'.format(github_token)
+    })
+    print("comment result status: {}".format(resp.status_code))
+    print("result content: {}".format(resp.content.decode('utf8')))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--config', '-c', help='config file path', default='/etc/ghcomment.json')
+    parser.add_argument('--issue', '-i', help='issue number', default=None)
+    parser.add_argument('--file', '-f', help='comment content file', default=None)
+    args = parser.parse_args()
+    config_path = args.config
+    with open(config_path, 'r') as configfile:
+        config = json.load(configfile)
+    issue_number = args.issue
+    if issue_number is None:
+        print("need issue(pull request) number!!")
+        exit(1)
+    filepath = args.file
+    comment_body = None
+    with open(filepath, 'rb') as f:
+        comment_body = f.read().decode('utf8')
+    assert 'token' in config and 'username' in config and 'repo_name' in config
+    main(issue_number, comment_body, config)
+
