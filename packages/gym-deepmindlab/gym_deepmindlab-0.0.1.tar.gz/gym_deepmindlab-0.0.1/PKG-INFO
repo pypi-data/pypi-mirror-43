@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gym_deepmindlab
+Version: 0.0.1
+Summary: Gym interface to deepmind_lab environment
+Home-page: https://github.com/jkulhanek/gym-maze-env
+Author: Jonáš Kulhánek
+Author-email: jonas.kulhanek@live.com
+License: UNKNOWN
+Description: # gym-deepmindlab-env
+        Gym implementation of connector to Deepmind lab
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
