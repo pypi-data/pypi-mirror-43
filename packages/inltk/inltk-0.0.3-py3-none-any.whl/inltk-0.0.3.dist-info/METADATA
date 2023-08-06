@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: inltk
+Version: 0.0.3
+Summary: NLTK for Indian Languages
+Home-page: https://github.com/goru001/inltk
+Author: Gaurav
+Author-email: contactgauravforwork@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (>=3.5.4)
+Requires-Dist: async-timeout (>=3.0.1)
+Requires-Dist: Pillow
+Requires-Dist: beautifulsoup4
+Requires-Dist: bottleneck
+Requires-Dist: fastprogress (>=0.1.19)
+Requires-Dist: matplotlib
+Requires-Dist: numexpr
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: nvidia-ml-py3
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: spacy (>=2.0.18)
+Requires-Dist: typing
+Requires-Dist: pynvx (>=1.0.0) ; platform_system == "Darwin"
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+## Natural Language Toolkit for Indian Languages
+
+
