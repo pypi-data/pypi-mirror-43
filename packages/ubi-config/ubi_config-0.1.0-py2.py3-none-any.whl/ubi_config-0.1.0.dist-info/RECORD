@@ -1,0 +1,16 @@
+ubi_config/__init__.py,sha256=q6z2hgIlzOMgsEOIkyVe1aZp_7CkjjYGPOB8pbAj-RY,106
+ubi_config/ubi.py,sha256=beZT8ovJhRRdiwiVoRgUjXAjpGgXLcArIjOX04D2lL8,7993
+ubi_config/config_types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubi_config/config_types/content_sets.py,sha256=1xVCjvnqo7wqKZGuxKsV7o7wapAQbjP4dNrqztXXKMg,1348
+ubi_config/config_types/modules.py,sha256=GT1Flx4383PIITBlBomczU7laWCAJmlSu0TFhskRkKU,864
+ubi_config/config_types/packages.py,sha256=3eG3mtnHDm0oXKZNLx9BQeDeu61qsa9bNFG3p2jPtwg,1083
+ubi_config/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubi_config/utils/config_schema.json,sha256=IFHneOe8FX-HZqKOphV6ZcR4srTAyfPfOaE4qVqgXlY,1575
+ubi_config/utils/config_validation.py,sha256=r7YdnxGkQ1HnRgDAs-8J9GsFicRYUc-rvbDj8GdHmBM,353
+ubi_config/utils/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ubi_config/utils/api/gitlab.py,sha256=MTNlt61PObBUyCg6DtbB_ntjUSXl8SEp-ioL4uQhGls,2291
+ubi_config-0.1.0.dist-info/LICENSE,sha256=ap7Mat_pjRiM4lTjs93_hy8vPfPXD7b8IPu0Z6_x8t0,35069
+ubi_config-0.1.0.dist-info/METADATA,sha256=0vL-r9o0oGcX7k1OiXfOEM_qzfOrItZK43ci08l2v_8,2723
+ubi_config-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+ubi_config-0.1.0.dist-info/top_level.txt,sha256=8iMZ6psnn2tOZ9Lo_r8xVfDkGdvSgBW79Dvr7jsupJ0,11
+ubi_config-0.1.0.dist-info/RECORD,,
