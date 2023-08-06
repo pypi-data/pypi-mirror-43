@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.1.15
+------
+
+* Added DB and loggind
+* Use PBR for PyPi build
+* WIP
+* Initial commit
