@@ -1,0 +1,107 @@
+title:
+  name:
+    - 
+    - h1
+  attrs:
+    -
+    - class
+    - id  
+  vals:
+    -
+    - headline
+
+authors:
+  name:
+    -
+  attrs:
+    -
+    - class
+    - id
+    - rel
+  vals:
+    -
+    - author
+
+text:
+  name:
+    -
+  attrs:
+    - 
+    - class
+    - id
+  vals:
+    -
+    - content
+    - body
+  exc_vals:  # exclude elements that contained values
+    - as-content
+    - article-small
+    - author
+    - breadcrumb
+    - comment
+    - footer
+    - headline
+    - hidden
+    - info
+    - lastest
+    - meta
+    - nav
+    - popup
+    - promotion
+    - related
+    - site-header
+    - social
+    - storyvideo
+    - suggest
+    - title
+    - zone
+    - gioithieu
+    - xemnhieu
+
+pubd:
+  name:
+    - 
+    - time
+  attrs:
+    -
+    - class
+    - id  
+  vals:
+    -
+    - published
+    - date
+    - timer
+    - timestamp
+    - meta
+
+tags:
+  name:
+    -
+  attrs:
+    -
+    - class
+    - id  
+  vals:
+    -
+    - tag
+    - keyword
+    - keywords
+
+image_urls:
+  name:
+    -
+  attrs:
+    -
+    - class
+    - id
+    - itemprop
+  vals:
+    -
+    - image
+    - img
+    - url
+    - picture
+  src_attrs:
+    -
+    - src
+    - data-src
