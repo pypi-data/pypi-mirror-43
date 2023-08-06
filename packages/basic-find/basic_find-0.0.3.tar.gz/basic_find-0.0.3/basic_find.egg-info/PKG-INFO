@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: basic-find
+Version: 0.0.3
+Summary: Walk a file hierarchy
+Home-page: https://github.com/arcseldon/basic_find
+Author: Richard Seldon
+Author-email: arcseldon@gmail.com
+License: MIT license
+Description: basic\_find
+        ===========
+        
+        Basic find program, cut-down version of unix ‘find’. Walks a file
+        hierarchy.
+        
+        -  [x] find . -name ‘\*.txt’
+        -  [x] find temp -type f
+        -  [x] find . -type d
+        -  [ ] find . -name '\*.rb' -exec rm {} ;
+        
+        Run as follows:
+        
+        -  [x] python -m basic\_find . -name ‘\*.txt’
+        -  [x] python -m basic\_find temp -type f
+        -  [x] python -m basic\_find . -type d
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2019-03-23)
+        ------------------
+        
+        * First release on PyPI.
+        
+        0.0.2 (2019-03-23)
+        ------------------
+        
+        * Add __main__.py to enable package execution.
+        
+        0.0.3 (2019-03-23)
+        ------------------
+        
+        * Address PEP8 and pylint tasks.
+        
+        
+        
+Keywords: basic_find
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
