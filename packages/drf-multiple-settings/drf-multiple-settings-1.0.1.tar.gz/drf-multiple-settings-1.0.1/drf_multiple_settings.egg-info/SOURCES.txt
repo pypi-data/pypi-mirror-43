@@ -1,0 +1,11 @@
+README.rst
+setup.py
+drf_multiple_settings/__init__.py
+drf_multiple_settings/viewsets.py
+drf_multiple_settings.egg-info/PKG-INFO
+drf_multiple_settings.egg-info/SOURCES.txt
+drf_multiple_settings.egg-info/dependency_links.txt
+drf_multiple_settings.egg-info/requires.txt
+drf_multiple_settings.egg-info/top_level.txt
+drf_multiple_settings/filter_backends/__init__.py
+drf_multiple_settings/filter_backends/django_filters.py
