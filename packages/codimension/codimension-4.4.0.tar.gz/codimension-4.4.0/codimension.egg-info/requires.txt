@@ -1,0 +1,15 @@
+PyQt5==5.10.1
+cdmcfparser==2.1.4
+cdmgcplugin==1.0.2
+cdmpyparser==3.0.3
+flake8==3.7.7
+gprof2dot==2017.9.19
+jedi==0.13.3
+mistune==0.8.4
+pyflakes==2.1.1
+pygments==2.3.1
+python-magic==0.4.15
+qutepart
+radon==3.0.1
+vulture==1.0
+yapsy==1.12.0
