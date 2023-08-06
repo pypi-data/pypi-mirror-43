@@ -1,0 +1,17 @@
+README.md
+setup.py
+zemberek_grpc/__init__.py
+zemberek_grpc/language_id_pb2.py
+zemberek_grpc/language_id_pb2_grpc.py
+zemberek_grpc/morphology_pb2.py
+zemberek_grpc/morphology_pb2_grpc.py
+zemberek_grpc/normalization_pb2.py
+zemberek_grpc/normalization_pb2_grpc.py
+zemberek_grpc/preprocess_pb2.py
+zemberek_grpc/preprocess_pb2_grpc.py
+zemberek_grpc.egg-info/PKG-INFO
+zemberek_grpc.egg-info/SOURCES.txt
+zemberek_grpc.egg-info/dependency_links.txt
+zemberek_grpc.egg-info/requires.txt
+zemberek_grpc.egg-info/top_level.txt
+zemberek_grpc.egg-info/zip-safe

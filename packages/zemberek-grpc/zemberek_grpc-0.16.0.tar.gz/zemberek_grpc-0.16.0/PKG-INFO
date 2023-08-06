@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zemberek_grpc
+Version: 0.16.0
+Summary: Requests to Zemberek gRPC server
+Home-page: https://github.com/ahmetaa/zemberek-nlp
+Author: Ahmet A. Akın, Mehmet D. Akın
+Author-email: ahmetaa@gmail.com
+License: Apache License 2.0
+Description: # Zemberek gRPC
+        
+Keywords: türkçe turkish language zemberek text
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Turkish
+Classifier: Programming Language :: Java
+Classifier: Topic :: Text Processing
+Description-Content-Type: text/markdown
