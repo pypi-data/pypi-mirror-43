@@ -1,0 +1,7 @@
+numpy>=1.16.2
+scipy>=1.2.1
+soundfile>=0.10.0
+librosa>=0.6.3
+acoustics>=0.2.0.post2
+pyloudnorm>=0.0.1
+matplotlib>=3.0.2
