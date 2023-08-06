@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+Saffy.egg-info/PKG-INFO
+Saffy.egg-info/SOURCES.txt
+Saffy.egg-info/dependency_links.txt
+Saffy.egg-info/requires.txt
+Saffy.egg-info/top_level.txt
+plugins/Filters.py
+plugins/Graphics.py
+plugins/Hilbert.py
+plugins/PluginManager.py
+plugins/Welch.py
+plugins/__init__.py
+tests/PluginManager.py
+tests/SignalManager.py
+tests/__init__.py

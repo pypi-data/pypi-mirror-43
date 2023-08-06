@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Saffy
+Version: 0.1
+Summary: Signal Analysis Framework For You
+Home-page: https://github.com/PPierzc/Saffy
+Author: Paweł A. Pierzchlewicz
+Author-email: paul@teacode.io
+License: MIT
+Download-URL: https://github.com/PPierzc/Saffy/archive/master.zip
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: python,signal,analysis,EEG,neuroinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
