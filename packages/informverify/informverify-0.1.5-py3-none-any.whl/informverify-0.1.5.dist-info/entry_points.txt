@@ -1,0 +1,3 @@
+[console_scripts]
+informverify = informverify:entry_point
+
