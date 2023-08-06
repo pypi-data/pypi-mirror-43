@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jupyterlab_dash/__init__.py
+jupyterlab_dash/__version__.py
+jupyterlab_dash.egg-info/PKG-INFO
+jupyterlab_dash.egg-info/SOURCES.txt
+jupyterlab_dash.egg-info/dependency_links.txt
+jupyterlab_dash.egg-info/requires.txt
+jupyterlab_dash.egg-info/top_level.txt
