@@ -1,0 +1,3 @@
+[console_scripts]
+ss_py = ss_py:main
+
