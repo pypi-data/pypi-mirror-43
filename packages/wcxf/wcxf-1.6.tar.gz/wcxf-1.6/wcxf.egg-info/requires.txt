@@ -1,0 +1,7 @@
+ckmutil>=0.3.2
+pandas
+pyyaml
+wilson
+
+[testing]
+nose
