@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/__init__.py
+src/zenodo_get.py
+zenodo_get.egg-info/PKG-INFO
+zenodo_get.egg-info/SOURCES.txt
+zenodo_get.egg-info/dependency_links.txt
+zenodo_get.egg-info/requires.txt
+zenodo_get.egg-info/top_level.txt
