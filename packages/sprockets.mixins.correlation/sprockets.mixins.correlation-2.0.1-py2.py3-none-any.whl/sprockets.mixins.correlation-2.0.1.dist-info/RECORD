@@ -1,0 +1,11 @@
+sprockets.mixins.correlation-2.0.1-py3.6-nspkg.pth,sha256=TI6UyHwm6_e5TYHwbNAXii8JPwTUkt0-T-i4nMZVYNQ,554
+sprockets/mixins/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+sprockets/mixins/correlation/__init__.py,sha256=BwMuo-saLbSRw_C7Qi2jGzeLbDkX9W-BcUCXbilHcYM,254
+sprockets/mixins/correlation/mixins.py,sha256=I-aJI7Gr8u5IPhOnbGUvoTONVqMF6A_rXmRrhqEi8aQ,4697
+sprockets.mixins.correlation-2.0.1.dist-info/LICENSE,sha256=kZP3CuI9SeSpxl-0sq8MG8W4icJtDl-bYym7JCVWgiQ,1498
+sprockets.mixins.correlation-2.0.1.dist-info/METADATA,sha256=tW4mlr5gsKTCx9HqyBNNwnwlFsIn_13KUvvNOpU6xIc,6011
+sprockets.mixins.correlation-2.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+sprockets.mixins.correlation-2.0.1.dist-info/namespace_packages.txt,sha256=hxvegseOKoU7plA5DzgBS2blbFiGozhGBGIDu4ZIPrI,10
+sprockets.mixins.correlation-2.0.1.dist-info/top_level.txt,sha256=hxvegseOKoU7plA5DzgBS2blbFiGozhGBGIDu4ZIPrI,10
+sprockets.mixins.correlation-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sprockets.mixins.correlation-2.0.1.dist-info/RECORD,,
