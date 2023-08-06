@@ -1,0 +1,7 @@
+setup.py
+SeleniumRunner.egg-info/PKG-INFO
+SeleniumRunner.egg-info/SOURCES.txt
+SeleniumRunner.egg-info/dependency_links.txt
+SeleniumRunner.egg-info/entry_points.txt
+SeleniumRunner.egg-info/requires.txt
+SeleniumRunner.egg-info/top_level.txt
