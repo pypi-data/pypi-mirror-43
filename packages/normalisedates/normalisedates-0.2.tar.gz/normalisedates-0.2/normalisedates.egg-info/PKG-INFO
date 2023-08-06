@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: normalisedates
+Version: 0.2
+Summary: Python3 module to normalise dates.
+Home-page: https://github.com/carlosplanchon/normalisedates
+Author: Carlos A. Planchón
+Author-email: bubbledoloresuruguay2@gmail.com
+License: GPL3
+Download-URL: https://github.com/carlosplanchon/normalisedates/archive/v0.2.tar.gz
+Description: # normalisedates
+        *Python3 module to normalise dates.*
+        
+        ## Installation
+        ### Install with pip
+        ```
+        pip3 install -U normalisedates
+        ```
+        
+        ## Usage
+        ```
+        In [1]: import normalisedates
+        
+        In [2]: normalisedates.normalise_date("20/03/2019")
+        
+        Out[2]: '20-03-2019'
+        ```
+        
+Keywords: dates,normalise
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

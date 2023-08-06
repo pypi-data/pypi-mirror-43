@@ -1,0 +1,8 @@
+README.md
+setup.py
+normalisedates/__init__.py
+normalisedates/normalisedates.py
+normalisedates.egg-info/PKG-INFO
+normalisedates.egg-info/SOURCES.txt
+normalisedates.egg-info/dependency_links.txt
+normalisedates.egg-info/top_level.txt
