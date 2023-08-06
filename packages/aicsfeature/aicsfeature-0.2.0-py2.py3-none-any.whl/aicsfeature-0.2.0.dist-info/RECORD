@@ -1,0 +1,16 @@
+aicsfeature/__init__.py,sha256=jfQXW7BfEkj97WugnKaUzKtZDCoZtsK-c4l3ADXagtA,90
+aicsfeature/version.py,sha256=-afxLqwobzu9AFyIDBAYlge1KTOgwU2eCUDO-mz2clg,497
+aicsfeature/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aicsfeature/extractor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aicsfeature/extractor/cell.py,sha256=jvg75fCqiJudUrtbOQwAMgS3sVhtrL973oS4Cx7XNKo,1162
+aicsfeature/extractor/cell_nuc.py,sha256=7j849DQ5b2psmrYdaQ_v0eTIlBABK-2m6idnqqK1XQ0,4908
+aicsfeature/extractor/common.py,sha256=vf3Bhs80nP3AMiUaF4b5B51_QyaKQF95hiz5s96NU4M,17489
+aicsfeature/extractor/dna.py,sha256=n8soj3reyMjbvlv3Q23d0clxk9oVkkUmvqs8o-gXuBA,1819
+aicsfeature/extractor/fov.py,sha256=w_nEg4mj3JHIBHqQ96grcRjgoen7airT5YZlmgsALYc,841
+aicsfeature/extractor/structure.py,sha256=ij5SPjJDi-uW44iZCgOPVywCIoVaLBIyAuJkolcG-7U,3680
+aicsfeature-0.2.0.dist-info/LICENSE.txt,sha256=4aY-6izJxg78cpxEvl68ItKJX2pxdgszmU745uG1L-c,1855
+aicsfeature-0.2.0.dist-info/METADATA,sha256=XrPmwUPXyO7-jbBWQyxQP_039lRQAhO24IqShSqWfG4,3029
+aicsfeature-0.2.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+aicsfeature-0.2.0.dist-info/entry_points.txt,sha256=tTnnjxOJ9zrgjqQwMuyqXd8uZXvptjCa4jDFSX36I9M,76
+aicsfeature-0.2.0.dist-info/top_level.txt,sha256=G5Jlf3RuuBhwgbqf5Qd1oZulthBztBorRONgBcswXG4,12
+aicsfeature-0.2.0.dist-info/RECORD,,

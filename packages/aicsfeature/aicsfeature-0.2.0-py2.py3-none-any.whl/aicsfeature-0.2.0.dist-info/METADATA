@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: aicsfeature
+Version: 0.2.0
+Summary: Scripts for image features calculation.
+Home-page: UNKNOWN
+Author: AICS
+Author-email: jianxuc@alleninstitute.org
+License: Allen Institute Software License
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: aicsimageprocessing
+Requires-Dist: scikit-image (>=0.13.1)
+Requires-Dist: matplotlib (>=2.0.0)
+Requires-Dist: jupyter
+Requires-Dist: mahotas
+Requires-Dist: h5py
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Provides-Extra: interactive_dev_group
+Provides-Extra: lint_group
+Requires-Dist: flake8 ; extra == 'lint_group'
+Provides-Extra: test_group
+Requires-Dist: pytest ; extra == 'test_group'
+Requires-Dist: pytest-cov ; extra == 'test_group'
+
+
+## AICS Features Extraction
+
+### from aicsfeatures.extractor import *
+
+#### /feature_calc
+
+Functions related to feature extraction. Feature extraction should be done like this:
+
+```
+from aicsfeatures.extractor import *
+
+features_result = xxx.GetFeatures(args=None, seg=image_xxx)
+```
+
+where xxx can be
+
+* **mem**, for cell membrane-related features
+* **dna**, for nucleus-related features
+* **structure**, for structure-specific features.
+* **stack**, for stack-related features.
+
+Assumptions of each function about the input image should be detailed inside the function like this
+
+```
+    Assumptions:
+        - Input is a 3D 16-bit image
+        - There is a single object of interest
+        - Background has value 0
+        - Object of interest have pixel value > 0
+```
+
+*The result `features_result` should always be a single row Pandas dataframe.*
+
+**exutils.py:** Main routine for feature calculation. We try to re-use functions from skimage (shape analysis) and Mahotas (texture analysis). Here is also the place to implement new features that are not found in those packages. We try to be general and do not say anything specific about the type of biological structure that the input image should represent.
+
+**mem.py:** Wrappers for feature extraction of cell membrane images.
+
+**dna.py:** Wrappers for feature extraction of dna images.
+
+**structure.py:** Wrappers for feature extraction of structures images. Things to be defined: which type of feature we should extract for each given structure. Or do we do all to all?
+
+**stack.py:** Wrappers for feature extraction of whole stack images.
+
+## How to Build
+
+The default project layout and build steps are discussed in [BUILD.md](BUILD.md). Some of the information
+is related to the AICS build process.
+
+## Legal documents
+
+- [License](LICENSE.txt) _(Before you release the project publicly please check with your manager to ensure the license is appropriate and has been run through legal review as necessary.)_
+- [Contribution Agreement](CONTRIBUTING.md) _(Additionally update the contribution agreement to reflect
+the level of contribution you are expecting, and the level of support you intend to provide.)_
+
+

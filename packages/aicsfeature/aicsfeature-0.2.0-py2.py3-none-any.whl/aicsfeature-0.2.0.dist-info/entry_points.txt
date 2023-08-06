@@ -1,0 +1,3 @@
+[console_scripts]
+cleanup = aicsfeature.bin.cleanup_1_collect_str_seg:main
+
