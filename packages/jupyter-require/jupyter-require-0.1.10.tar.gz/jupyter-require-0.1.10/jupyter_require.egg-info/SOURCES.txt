@@ -1,0 +1,11 @@
+README.md
+setup.py
+jupyter_require/__about__.py
+jupyter_require/__init__.py
+jupyter_require/core.py
+jupyter_require/magic.py
+jupyter_require.egg-info/PKG-INFO
+jupyter_require.egg-info/SOURCES.txt
+jupyter_require.egg-info/dependency_links.txt
+jupyter_require.egg-info/requires.txt
+jupyter_require.egg-info/top_level.txt
