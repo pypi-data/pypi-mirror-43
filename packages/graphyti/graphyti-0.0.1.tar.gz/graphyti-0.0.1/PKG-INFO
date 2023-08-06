@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: graphyti
+Version: 0.0.1
+Summary: A parallel and scalable graph library built on FlashGraph
+Home-page: https://github.com/flashxio/graphyti
+Author: Disa Mhembere, Da Zheng
+Author-email: disa@cs.jhu.edu
+License: Apache License, Version 2.0
+Description: FlashGraph Graphyti scales graph operations beyondmemory through out-of-core processing with SSDs
+Keywords: graph parallel scalable machine-learning
+Platform: UNKNOWN
