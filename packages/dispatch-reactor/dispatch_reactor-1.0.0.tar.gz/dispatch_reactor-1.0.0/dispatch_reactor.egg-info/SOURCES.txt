@@ -1,0 +1,10 @@
+README.md
+setup.py
+dispatch/__init__.py
+dispatch/__main__.py
+dispatch/core.py
+dispatch/schedules.py
+dispatch_reactor.egg-info/PKG-INFO
+dispatch_reactor.egg-info/SOURCES.txt
+dispatch_reactor.egg-info/dependency_links.txt
+dispatch_reactor.egg-info/top_level.txt
