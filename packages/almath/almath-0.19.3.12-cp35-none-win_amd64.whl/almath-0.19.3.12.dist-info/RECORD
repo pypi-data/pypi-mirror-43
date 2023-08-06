@@ -1,0 +1,10 @@
+almath/__init__.py,sha256=YKoANA5IFswYHCDwHILGA9l1ZJtvIM2CE7i0ZSPnlm0,882
+almath/_almathswig.pyd,sha256=61Yrsg0FT6KcAvbI0D3xsh3W9l7BwYNATfFwSlq2hKo,842752
+almath/almath.dll,sha256=KkwCzdt7CE1sLu5WdPbCzITq283EBsmNSPsZSaGTYIE,617984
+almath/almathswig.py,sha256=dTe-boPTWa7rBYBTlgD6AnDJkTnTnNLM5FXdHoGrkck,144953
+almath/version.py,sha256=t4bDMDJ7AGppxHNGDZ5_jHKsjde-XGk-rAwjG1UZg9Q,70
+almath-0.19.3.12.dist-info/LICENSE.txt,sha256=JzQA36qe9hGYgJxwt2LysExpjUZe8xvERreMYqVJjVo,36
+almath-0.19.3.12.dist-info/METADATA,sha256=IZNo0Pfku24e-FTf7AWTt5La1P1nDIkHYY_rofj6C_4,749
+almath-0.19.3.12.dist-info/WHEEL,sha256=UnaxLq559PuLBIKHrTovamMlFz9A_Y_6wPkJPMsCmWU,104
+almath-0.19.3.12.dist-info/top_level.txt,sha256=wU4QuyEJ8RhgbPTb22KDkyemfr2d4cWyVnZBh_pqEvA,7
+almath-0.19.3.12.dist-info/RECORD,,
