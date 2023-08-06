@@ -1,0 +1,7 @@
+README.md
+setup.py
+langapi/__init__.py
+langapi.egg-info/PKG-INFO
+langapi.egg-info/SOURCES.txt
+langapi.egg-info/dependency_links.txt
+langapi.egg-info/top_level.txt
