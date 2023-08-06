@@ -1,0 +1,30 @@
+.gitignore
+.travis.yml
+CHANGES.md
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+data/demo1.csv
+data/demo2.csv
+examples/cleanup labels.ipynb
+examples/demo PanelCtmc sklearn API.ipynb
+examples/panel data with numpy.ipynb
+examples/panel data with pandas.ipynb
+panelctmc/__init__.py
+panelctmc/panel_to_datalist.py
+panelctmc/panelctmc_class.py
+panelctmc/panelctmc_func.py
+panelctmc.egg-info/PKG-INFO
+panelctmc.egg-info/SOURCES.txt
+panelctmc.egg-info/dependency_links.txt
+panelctmc.egg-info/not-zip-safe
+panelctmc.egg-info/requires.txt
+panelctmc.egg-info/top_level.txt
+profile/funcalls (prun).ipynb
+profile/linebyline (lprun).ipynb
+profile/memory (mprun).ipynb
+profile/speed (timeit).ipynb
+test/__init__.py
+test/test_panelctmc.py
