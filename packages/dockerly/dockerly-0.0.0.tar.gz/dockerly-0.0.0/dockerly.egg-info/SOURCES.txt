@@ -1,0 +1,7 @@
+README.rst
+setup.py
+dockerly/__init__.py
+dockerly.egg-info/PKG-INFO
+dockerly.egg-info/SOURCES.txt
+dockerly.egg-info/dependency_links.txt
+dockerly.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: dockerly
+Version: 0.0.0
+Summary: dockerly library.
+Home-page: UNKNOWN
+Author: Dr. F
+Author-email: UNKNOWN
+License: GPLv3
+Description: dockerly
+        ========
+        
+        AI platform
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
