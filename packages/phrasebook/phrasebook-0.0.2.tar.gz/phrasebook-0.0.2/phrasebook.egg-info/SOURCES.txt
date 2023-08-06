@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+phrasebook/__init__.py
+phrasebook/cli.py
+phrasebook/phrasebook.py
+phrasebook/sql.py
+phrasebook/version.py
+phrasebook.egg-info/PKG-INFO
+phrasebook.egg-info/SOURCES.txt
+phrasebook.egg-info/dependency_links.txt
+phrasebook.egg-info/entry_points.txt
+phrasebook.egg-info/requires.txt
+phrasebook.egg-info/top_level.txt
