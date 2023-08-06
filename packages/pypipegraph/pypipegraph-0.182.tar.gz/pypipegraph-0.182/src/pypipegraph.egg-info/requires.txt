@@ -1,0 +1,12 @@
+
+[doc]
+sphinx
+
+[testing]
+flake8
+jupyter
+pytest
+pytest-cov
+pytest-icdiff
+pytest-random-order
+runipy
