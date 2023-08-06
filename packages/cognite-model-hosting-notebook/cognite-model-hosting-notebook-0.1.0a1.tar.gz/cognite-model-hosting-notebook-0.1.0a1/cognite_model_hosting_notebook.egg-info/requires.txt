@@ -1,0 +1,2 @@
+cognite-sdk==0.13.0a19
+requests
