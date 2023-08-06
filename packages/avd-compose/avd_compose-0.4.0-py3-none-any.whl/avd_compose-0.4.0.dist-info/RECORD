@@ -1,0 +1,16 @@
+avd_compose/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+avd_compose/androidstudio/__init__.py,sha256=WMlqm0CHWPGp0a0MwkJYHL9gdjg7qJxC7oldgxL9SBo,833
+avd_compose/androidstudio/avdmanager.py,sha256=h2bJhyzjaH4GrEFfNEY2pJXSofi_NzFGF2mP1uwu4ag,1449
+avd_compose/androidstudio/emulator.py,sha256=pcEW72ZMuSkUqi52BZgj64tW2V6675-LadktJDifNAY,436
+avd_compose/androidstudio/sdkmanager.py,sha256=E9ldf84SQrxCWOtvBCqNkMYI7z9pv9T9nGvU9skkRlA,304
+avd_compose/cli.py,sha256=LTLp3dyzmVqpwc87wYXJKg_z410NhAnGYbCqpEtTLAU,3433
+avd_compose/configs/v1/__init__.py,sha256=8Km40wq5EUdvtuu6lPcXj1804ZI5EgCxIO4AbOj3LBM,577
+avd_compose/parser.py,sha256=0-pHKBSII588HZek5v-OgYcwdEWBprtmnpRiEsQaqGc,572
+avd_compose/utils/formatter.py,sha256=SfPTTEkpH77McF7W69fcMWOF_Jbblzn9xexg_tYwWFU,573
+avd_compose/utils/shell.py,sha256=JDgNR06eNlQ7zYlS27ep3NxOEVr-mzEBTUNblkABDM0,177
+avd_compose/utils/yaml.py,sha256=3MRQRHsmnxB9DeDzM1N_1kqYVB4R_uNkPD3x7lGjgz0,194
+avd_compose-0.4.0.dist-info/entry_points.txt,sha256=VkMlV7F-4bGn_-zdRhsEBpk1DqB18oJR-cOa95Axdkk,52
+avd_compose-0.4.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+avd_compose-0.4.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+avd_compose-0.4.0.dist-info/METADATA,sha256=IZb_wdxhs16clXf0ugSH20E1raYdPDkr0Jw2EqriNy8,2247
+avd_compose-0.4.0.dist-info/RECORD,,

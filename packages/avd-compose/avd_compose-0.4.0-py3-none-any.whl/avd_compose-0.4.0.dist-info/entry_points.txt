@@ -1,0 +1,3 @@
+[console_scripts]
+avd-compose=avd_compose.cli:main
+
