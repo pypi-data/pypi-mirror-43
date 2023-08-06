@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_inline_static.egg-info/PKG-INFO
+django_inline_static.egg-info/SOURCES.txt
+django_inline_static.egg-info/dependency_links.txt
+django_inline_static.egg-info/top_level.txt
+inline_static/__init__.py
+inline_static/css.py
+inline_static/loader.py
+inline_static/templatetags/__init__.py
+inline_static/templatetags/inline_static_tags.py
