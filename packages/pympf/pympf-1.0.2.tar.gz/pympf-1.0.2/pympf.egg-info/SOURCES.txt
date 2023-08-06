@@ -1,0 +1,12 @@
+README.md
+setup.py
+mpf/__init__.py
+mpf/bisect.py
+mpf/bitvector.py
+mpf/floats.py
+mpf/interval_q.py
+mpf/rationals.py
+pympf.egg-info/PKG-INFO
+pympf.egg-info/SOURCES.txt
+pympf.egg-info/dependency_links.txt
+pympf.egg-info/top_level.txt
