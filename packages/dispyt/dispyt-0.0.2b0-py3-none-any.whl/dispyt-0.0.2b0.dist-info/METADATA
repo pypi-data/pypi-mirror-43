@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: dispyt
+Version: 0.0.2b0
+Summary: 📚 Dispyt is an API wrapper for the Discord API [Python3] 📚
+Home-page: https://github.com/truedl/dispyt
+Author: truedl
+Author-email: dauzduz1@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Dispyt ðŸ“š
+**Dispyt is an API wrapper for the Discord API [Python3].<br/>
+Tested in Python version 3.7.1.<br/>
+Latest version of the library is 0.0.1b.**
+
+# Installation
+Coming soon.
+
+# This is a beta product! ðŸ˜²
+Be careful when using it, is a beta product eventually and it has some bugs.
+
+# Documentation ðŸ“ƒ
+Coming Soon.
+
+# Todo List ðŸ“‹
+- [ ] All Events
+- [ ] Basic Error Handling
+- [ ] Commands Error Events
+- [ ] All Users Functional
+- [ ] All Channels Functional
+- [ ] All Guilds Functional
+
+
