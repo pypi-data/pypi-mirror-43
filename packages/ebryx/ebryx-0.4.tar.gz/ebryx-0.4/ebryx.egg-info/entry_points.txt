@@ -1,0 +1,3 @@
+[console_scripts]
+ebcrypt = ebryx.crypto._crypto:main
+
