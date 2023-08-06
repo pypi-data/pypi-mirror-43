@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+sldatasets/__init__.py
+sldatasets/datasethandler.py
+sldatasets/lsa64.py
+sldatasets.egg-info/PKG-INFO
+sldatasets.egg-info/SOURCES.txt
+sldatasets.egg-info/dependency_links.txt
+sldatasets.egg-info/requires.txt
+sldatasets.egg-info/top_level.txt

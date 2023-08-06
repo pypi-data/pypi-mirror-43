@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: sldatasets
+Version: 0.0.1
+Summary: A single library to (down)load all existing sign language video datasets.
+Home-page: https://github.com/midusi/sign_language_datasets
+Author: Pablo Kepes and Facundo Quiroga
+Author-email: signlanguagedatasets@gmail.com
+License: GNU
+Project-URL: Tracker, https://github.com/midusi/sign_language_datasets/issues
+Project-URL: Documentation, https://github.com/midusi/sign_language_datasets/wiki
+Project-URL: Source, https://github.com/midusi/sign_language_datasets
+Description: UNKNOWN
+Keywords: sign-language sign language dataset download load video
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
