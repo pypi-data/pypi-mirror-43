@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: innatis
+Version: 0.5.8
+Summary: A library of useful custom Rasa components
+Home-page: https://github.com/Revmaker/innatis
+Author: CarLabs
+Author-email: blake@carlabs.com
+License: UNKNOWN
+Download-URL: https://github.com/Revmaker/innatis/tarball/0.1
+Description-Content-Type: UNKNOWN
+Keywords: rasa,nlu,components
+Platform: UNKNOWN
+Requires-Dist: scikit-learn (==0.20.2)
+Requires-Dist: scipy (==1.2.0)
+Requires-Dist: sklearn-crfsuite (==0.3.6)
+Requires-Dist: tensorflow (==1.12.0)
+Requires-Dist: word2number (==1.1)
+Requires-Dist: rasa-nlu (==0.14.3)
+Requires-Dist: tensorflow-hub (==0.2.0)
+Requires-Dist: spacy (==2.0.18)
+Requires-Dist: editdistance (~=0.5.2)
+
+UNKNOWN
+
+
