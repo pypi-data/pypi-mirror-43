@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gh-comment
+Version: 0.0.1
+Summary: publish comment to github pull request or issue.
+Home-page: UNKNOWN
+Author: wenning
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.21.0)
+
+UNKNOWN
+
+
