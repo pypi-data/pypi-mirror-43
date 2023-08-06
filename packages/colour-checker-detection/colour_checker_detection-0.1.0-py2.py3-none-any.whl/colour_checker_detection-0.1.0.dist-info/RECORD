@@ -1,0 +1,11 @@
+colour_checker_detection/__init__.py,sha256=pd1GdLa6QCMPa8cSWVJ-novPYdzjr0MLwAW2OmKYdoo,2003
+colour_checker_detection/detection/__init__.py,sha256=PALVlMXob7p04VQKJTbeul4XiCprJpyzYFJQo1iOlKc,412
+colour_checker_detection/detection/segmentation.py,sha256=68djkabghQ21SKkJ0bgf4Bu2o7NPazA0KUQoyEDN0IY,24630
+colour_checker_detection/detection/tests/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+colour_checker_detection/detection/tests/test_segmentation.py,sha256=omBii8XTk5VEqdZj-AmuZRkUEXBYl5GVftdehGguWl8,24796
+colour_checker_detection/examples/examples_detection.ipynb,sha256=R8lhS9b2Kifpw0VB5P52bbkVo0VQ9_qYEAuGWBlquE4,11388501
+colour_checker_detection-0.1.0.dist-info/LICENSE,sha256=C_QJcBJ8lLX9mukTxo-lq1jkkeNpvvN9WANOE6LcbGg,1510
+colour_checker_detection-0.1.0.dist-info/METADATA,sha256=Vjo4Xk6HN9MOFqX7uY4NosDKENwTX91x3DGPRdn3APQ,6089
+colour_checker_detection-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+colour_checker_detection-0.1.0.dist-info/top_level.txt,sha256=oV3Yy0xVVfpWnTjUDkbmzl3i5Rw4UhxyGCCfsPfrkOg,25
+colour_checker_detection-0.1.0.dist-info/RECORD,,
