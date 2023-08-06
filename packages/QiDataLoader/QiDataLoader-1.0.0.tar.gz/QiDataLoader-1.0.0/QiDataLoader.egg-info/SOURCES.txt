@@ -1,0 +1,6 @@
+README.rst
+setup.py
+QiDataLoader.egg-info/PKG-INFO
+QiDataLoader.egg-info/SOURCES.txt
+QiDataLoader.egg-info/dependency_links.txt
+QiDataLoader.egg-info/top_level.txt
