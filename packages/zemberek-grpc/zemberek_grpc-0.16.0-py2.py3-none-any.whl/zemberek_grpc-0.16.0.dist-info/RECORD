@@ -1,0 +1,14 @@
+zemberek_grpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zemberek_grpc/language_id_pb2.py,sha256=Nugu7CwxTsBQ6q_a4rqI_GtQ8zI_hoLcIR1r7R7QL2g,4930
+zemberek_grpc/language_id_pb2_grpc.py,sha256=PC9l9HJE3ALqx-0oM2-LaDGQFgEPLLxSgPLTickmZwI,2324
+zemberek_grpc/morphology_pb2.py,sha256=lxq2lrzoviZDfo0C5Ex_mfSzCecoSpbilIWRUsDCP5I,19254
+zemberek_grpc/morphology_pb2_grpc.py,sha256=zQbmtfgvH1H96ZVRzcc3MMhwnRptyTOiapIYdh7n6-w,2387
+zemberek_grpc/normalization_pb2.py,sha256=TCDkA3gBybjT0ExoFbxskjcY_y2M9uKGIo8eUOoH9aE,4802
+zemberek_grpc/normalization_pb2_grpc.py,sha256=GhbUM6o5ZruOl1D9ZQ75jmHRd4wcBQ8kbmqQ11Jbjpc,1580
+zemberek_grpc/preprocess_pb2.py,sha256=zLik28v5moX0KuA5MaXmSBZhxACdmQUs1LtzGKSl2kg,10412
+zemberek_grpc/preprocess_pb2_grpc.py,sha256=9WC7JqzIHaFjPNo8xgV4aIr97RSYN7m6Ff-a2c9wiec,2421
+zemberek_grpc-0.16.0.dist-info/METADATA,sha256=j_ELqmPhNamgfif89WHH7Wq-d36iFxCIS0q9owaiZNU,782
+zemberek_grpc-0.16.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+zemberek_grpc-0.16.0.dist-info/top_level.txt,sha256=d9Q2iyFMjrk6gl9B1jBf4s55uIl4qUSsmKSucSUIuqg,14
+zemberek_grpc-0.16.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+zemberek_grpc-0.16.0.dist-info/RECORD,,
