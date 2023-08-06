@@ -1,0 +1,7 @@
+README.md
+setup.py
+bane.egg-info/PKG-INFO
+bane.egg-info/SOURCES.txt
+bane.egg-info/dependency_links.txt
+bane.egg-info/requires.txt
+bane.egg-info/top_level.txt
