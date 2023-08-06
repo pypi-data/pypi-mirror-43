@@ -1,0 +1,7 @@
+.idea/
+build/
+dist/
+*.egg-info
+.eggs/
+__pycache__/
+cert_uploader/version.py
