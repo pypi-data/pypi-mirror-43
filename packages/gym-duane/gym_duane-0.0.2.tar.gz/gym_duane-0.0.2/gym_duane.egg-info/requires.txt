@@ -1,0 +1,10 @@
+gym>=0.2.3
+pymunk
+pygame
+opencv-python
+numpy
+
+[dev]
+pytest
+tox
+unittest2

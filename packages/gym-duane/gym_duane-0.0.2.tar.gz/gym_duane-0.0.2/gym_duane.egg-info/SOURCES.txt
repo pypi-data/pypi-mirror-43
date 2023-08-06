@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+gym_duane.egg-info/PKG-INFO
+gym_duane.egg-info/SOURCES.txt
+gym_duane.egg-info/dependency_links.txt
+gym_duane.egg-info/requires.txt
+gym_duane.egg-info/top_level.txt
