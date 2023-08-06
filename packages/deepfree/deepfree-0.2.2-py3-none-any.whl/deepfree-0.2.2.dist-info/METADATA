@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: deepfree
+Version: 0.2.2
+Summary: keras-style deep network package for classification and prediction
+Home-page: http://github.com/fuzimaoxinan/deepfree
+Author: Zhuofu Pan
+Author-email: 475366898@qq.com
+Maintainer: Zhuofu Pan
+Maintainer-email: 475366898@qq.com
+License: UNKNOWN
+Keywords: deep network,deep learning,DBN,SAE
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=1.10.0)
+
+# deepfree
+keras-style deep network package for classification and prediction
+# install
+``` python 
+pip install --upgrade deepfree
+```
+# blog
+[Github](https://github.com/fuzimaoxinan/deepfree),
+[zhihu](https://www.zhihu.com/people/fu-zi-36-41/posts),
+[CSDN](https://blog.csdn.net/fuzimango/article/list/),
+QQ Group:640571839 
+
