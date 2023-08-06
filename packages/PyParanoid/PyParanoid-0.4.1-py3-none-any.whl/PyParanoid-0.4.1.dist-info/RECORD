@@ -1,0 +1,13 @@
+PyParanoid-0.4.1.data/scripts/BuildGroups.py,sha256=C5OSL4GJqlQWw0Vcm6MYlMGHxRWAsoUuH6rVJTcipKY,17457
+PyParanoid-0.4.1.data/scripts/IdentifyOrthologs.py,sha256=aPcVVHrKSMWMGMx1LwPyjWBzINL-cWxVV7MFwurUT7s,7794
+PyParanoid-0.4.1.data/scripts/PropagateGroups.py,sha256=ryNtC7HTz5xRQpldhRtHkbhcQpYTU5_6yqLw3oyXntc,7275
+PyParanoid-0.4.1.data/scripts/inparanoid2.pl,sha256=wisqg_mkM4hvTyWq197EINm4xyr8nR1gejAisC7KrnQ,36692
+pyparanoid/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyparanoid/genomedb.py,sha256=fgym-RqRiMP564K_EZS1A4tSIUI6PHnG9sCsQn4XfIw,21899
+pyparanoid/genomeplot.py,sha256=9ngYhE24w4hAXE6gErbT7FPnNnnYL7W6hBHPoBdFsDw,16821
+pyparanoid/pyparanoid.py,sha256=c5JwD7xXD8CUcvsijN3KXPwdvgiRK-euYW256qnRTnU,4929
+PyParanoid-0.4.1.dist-info/LICENSE.txt,sha256=Tk7ktdfrMiV8Lrvk6j9IR27REPTVRFE7uNRj3aUgJ7I,1081
+PyParanoid-0.4.1.dist-info/METADATA,sha256=-S1yz_QzFjppkT2kgwOePFRnQlhho89ViZQqap9lW7A,753
+PyParanoid-0.4.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+PyParanoid-0.4.1.dist-info/top_level.txt,sha256=C4Q1yuXgjrpceW5rsurpt3A07rhNH2ER7z8iNm82GyQ,11
+PyParanoid-0.4.1.dist-info/RECORD,,
