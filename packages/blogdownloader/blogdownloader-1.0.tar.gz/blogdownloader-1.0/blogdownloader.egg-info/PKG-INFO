@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: blogdownloader
+Version: 1.0
+Summary: Python wrapper for the BlogDownloader
+Home-page: https://github.com/yishuihanhan/blog-downloader
+Author: yishuihancheng
+Author-email: yishuihancheng@qq.com
+License: BSD
+Description: BlogDownloader
+Keywords: blog,downloader,BlogDownloader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
