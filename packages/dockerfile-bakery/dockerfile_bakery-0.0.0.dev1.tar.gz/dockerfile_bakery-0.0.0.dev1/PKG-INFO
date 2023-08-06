@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: dockerfile_bakery
+Version: 0.0.0.dev1
+Summary: Generate Dockerfiles from Partial Dockerfiles
+Home-page: https://github.com/kujyp/dockerfile_bakery
+Author: kujyp
+Author-email: pjo901018@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
