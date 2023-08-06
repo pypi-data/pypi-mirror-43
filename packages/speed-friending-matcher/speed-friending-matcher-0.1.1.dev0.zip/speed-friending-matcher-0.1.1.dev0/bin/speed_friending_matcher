@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+# coding=utf-8
+import argparse
+import sys
+from speed_friending_matcher.application import Application
+from speed_friending_matcher import server
+
+
+def main():
+    parser = argparse.ArgumentParser(description="""
+    Matchmaking application for speed friending events
+    """)
+    parser.add_argument('-i', '--input', help='Input plugin and parameters e.g. csv:somefile.csv', required=True)
+    parser.add_argument('-o', '--output', help='Output plugins and parameters e.g. todo:mytodo.txt', required=True)
+    parser.add_argument('-m', '--matchmaker', help='Matchmaker, simple or clique', default='simple')
+    parser.add_argument('-s', '--server', help='Starts a local webserver with a web GUI.', action='store_true')
+    args = parser.parse_args()
+
+    if not args.server:
+        app = Application(
+            input_plugin=args.input,
+            output_plugin=args.output,
+            matchmaker=args.matchmaker,
+        )
+        app.process()
+        sys.exit(0)
+    else:
+        server.configure(
+            input_plugin=args.input,
+            output_plugin=args.output,
+            matchmaker=args.matchmaker,
+        )
+        server.start()
+
+
+if __name__ == '__main__':
+    main()

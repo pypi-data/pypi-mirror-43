@@ -1,0 +1,11 @@
+aenum
+openpyxl
+pydot
+flask
+werkzeug
+
+[dev]
+pytest
+pytest-mock
+pylint
+tox
