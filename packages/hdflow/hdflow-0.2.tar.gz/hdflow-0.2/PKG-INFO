@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hdflow
+Version: 0.2
+Summary: Convert CSV netflow to HDF5 in parallel.
+Home-page: https://github.com/reuster986/hdflow
+Author: William Reus
+Author-email: reuster986@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
