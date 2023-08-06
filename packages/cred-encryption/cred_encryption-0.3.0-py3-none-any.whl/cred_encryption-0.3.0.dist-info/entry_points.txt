@@ -1,0 +1,3 @@
+[console_scripts]
+encryption=cred_encryption:run
+
