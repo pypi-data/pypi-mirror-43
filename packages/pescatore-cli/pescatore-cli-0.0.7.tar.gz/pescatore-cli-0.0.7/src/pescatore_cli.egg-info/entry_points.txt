@@ -1,0 +1,21 @@
+[console_scripts]
+pescatore-cli = pescatore_cli.cli.main:main
+
+[pescatore_cli.cli]
+cerca_stringa_in_bacino = pescatore_cli.cli.commands:CercaStringaInBacino
+create_esca = pescatore_cli.cli.esche:Create
+create_licenza = pescatore_cli.cli.licenze:Create
+create_uscita = pescatore_cli.cli.uscite:Create
+delete_esca = pescatore_cli.cli.esche:Delete
+delete_licenza = pescatore_cli.cli.licenze:Delete
+delete_uscita = pescatore_cli.cli.uscite:Delete
+get_esca = pescatore_cli.cli.esche:Read
+get_licenza = pescatore_cli.cli.licenze:Read
+get_pescatore = pescatore_cli.cli.pescatori:Read
+get_uscita = pescatore_cli.cli.uscite:Read
+list_esche = pescatore_cli.cli.esche:List
+list_licenze = pescatore_cli.cli.licenze:List
+list_pescatori = pescatore_cli.cli.pescatori:List
+list_pesci_uscita = pescatore_cli.cli.uscite:ListPesci
+list_uscite = pescatore_cli.cli.uscite:List
+
