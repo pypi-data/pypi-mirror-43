@@ -1,0 +1,3 @@
+[console_scripts]
+MSISE00 = MSISE00:main
+
