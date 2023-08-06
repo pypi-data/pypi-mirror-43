@@ -1,0 +1,14 @@
+README.md
+setup.py
+lambdacore/__init__.py
+lambdacore/cloud.py
+lambdacore/environment.py
+lambdacore/example_function.py
+lambdacore/generic_function.py
+lambdacore/logger.py
+lambdacore/run.py
+lambdacore.egg-info/PKG-INFO
+lambdacore.egg-info/SOURCES.txt
+lambdacore.egg-info/dependency_links.txt
+lambdacore.egg-info/not-zip-safe
+lambdacore.egg-info/top_level.txt
