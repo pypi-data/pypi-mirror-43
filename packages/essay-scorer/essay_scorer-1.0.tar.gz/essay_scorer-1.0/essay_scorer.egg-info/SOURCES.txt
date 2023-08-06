@@ -1,0 +1,7 @@
+README.md
+__init__.py
+essay_scorer.egg-info/PKG-INFO
+essay_scorer.egg-info/SOURCES.txt
+essay_scorer.egg-info/dependency_links.txt
+essay_scorer.egg-info/requires.txt
+essay_scorer.egg-info/top_level.txt
