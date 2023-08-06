@@ -1,0 +1,10 @@
+dictfier/__init__.py,sha256=VD2r9yo4wo9ohVcsfZt2AjbUeZ7_4n5ZRJeq-QDO_ck,32
+dictfier/api.py,sha256=lmGWmQbtHIOOcM_fM8FadkCVqdoW1JHOrLAc5bpCBeE,262
+dictfier/exceptions.py,sha256=voIdG3FrrGQ_8nfzi2wLyaFJg2RsK3ZtC1kW6kcTen8,144
+dictfier/factory.py,sha256=DI5SOo1z2Dc53LvvF0kBFcMzFFQRH7xXTtbC18LWCsI,3596
+dictfier-1.0.1.dist-info/DESCRIPTION.rst,sha256=Wi2Dvh7CqjLe4y3AMOHc8QKBLZEBbGKzDj58bwe2oXE,263
+dictfier-1.0.1.dist-info/METADATA,sha256=JFt8CMwa6uqbUprMnH6StexswDAn3AuJPRA4LZ1bJkU,807
+dictfier-1.0.1.dist-info/RECORD,,
+dictfier-1.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dictfier-1.0.1.dist-info/metadata.json,sha256=GKuNmcBGVFskmOoaykXHH6C-s6kd5og5fWoiENpNT28,721
+dictfier-1.0.1.dist-info/top_level.txt,sha256=STIHCrp_qLSZ80jbfg_4q-PMnd5o0OkkLCFxnM2-cac,9

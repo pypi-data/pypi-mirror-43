@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: dictfier
+Version: 1.0.1
+Summary: 
+    Python library to convert Python class instances(Objects) both flat and nested into a dictionary data structure.
+    It's very useful in converting Python Objects into JSON format especially for nested objects,
+    because they can't be handled well by json library    
+Home-page: https://github.com/yezyilomo/dictifier
+Author: Yezy Ilomo
+Author-email: yezileliilomo@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+
+Python library to convert Python class instances(Objects) both flat and nested into a dictionary data structure. 
+It's very useful in converting Python Objects into JSON format especially for nested objects, 
+because they can't be handled well by json library
+
+
