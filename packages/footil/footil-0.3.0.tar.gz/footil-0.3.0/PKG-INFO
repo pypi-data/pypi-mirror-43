@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: footil
+Version: 0.3.0
+Summary: Various Python helpers for other projects
+Home-page: https://github.com/focusate/footil
+Author: Andrius Laukavičius
+Author-email: dev@focusate.eu
+License: LGPLv3
+Description: Various helper modules
+        ======================
+        
+        Has these modules:
+        
+        * decor - helper decorators.
+        * log - helpers with stdout, stderr management.
+        
+        Source code in:
+        
+        * `github <https://github.com/focusate/footil/>`_.
+        * `pypi <https://pypi.org/project/footil/>`_.
+        
+        Contributors
+        ============
+        
+        * Silvija Butko (Focusate)
+        * Andrius Laukavičius (Focusate)
+        
+Platform: UNKNOWN
