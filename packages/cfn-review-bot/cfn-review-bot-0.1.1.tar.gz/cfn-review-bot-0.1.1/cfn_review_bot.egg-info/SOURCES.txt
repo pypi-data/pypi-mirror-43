@@ -1,0 +1,9 @@
+README.md
+requirements.txt
+setup.py
+cfn_review_bot.egg-info/PKG-INFO
+cfn_review_bot.egg-info/SOURCES.txt
+cfn_review_bot.egg-info/dependency_links.txt
+cfn_review_bot.egg-info/entry_points.txt
+cfn_review_bot.egg-info/requires.txt
+cfn_review_bot.egg-info/top_level.txt
