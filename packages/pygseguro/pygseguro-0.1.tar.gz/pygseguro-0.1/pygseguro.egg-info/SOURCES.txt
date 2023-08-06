@@ -1,0 +1,8 @@
+README.md
+setup.py
+pygseguro/__init__.py
+pygseguro.egg-info/PKG-INFO
+pygseguro.egg-info/SOURCES.txt
+pygseguro.egg-info/dependency_links.txt
+pygseguro.egg-info/not-zip-safe
+pygseguro.egg-info/top_level.txt
