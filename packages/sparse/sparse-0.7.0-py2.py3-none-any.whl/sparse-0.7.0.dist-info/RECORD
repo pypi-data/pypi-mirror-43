@@ -1,0 +1,17 @@
+sparse/__init__.py,sha256=utF0wU__m62a5QicxojWxlEXG5Dez7AP7glAwS-LQ7A,420
+sparse/_version.py,sha256=Iy8xLltneCgQiOL8RwFzKAr0jJZn6qwlMP_e6gm84fo,497
+sparse/dok.py,sha256=a2HKDGxkQxlEBne7kjMUwvxan37hkTG5Rmwt8NBT07Q,10652
+sparse/io.py,sha256=wwDot4SkTBc30UI6_SaE2g2ZgkmtU8E3SVUztvJ3HRE,2858
+sparse/slicing.py,sha256=0EqsswcS4WnqV-VHXquPBLYqH2W-Zbug1DJNWbcW_Kk,8765
+sparse/sparse_array.py,sha256=z9VPtJHM3GivBNWiNqJuGXx9O75jGvHOfIAOI8aSLLU,6242
+sparse/utils.py,sha256=eqC38Y5p89JGatvAQB-iCI5FO6xokCn0oCMeb3szS8c,9669
+sparse/coo/__init__.py,sha256=tNNuPp7amEnK8saxXBXoOwnyomEhVJIoh2C_WN1N40E,634
+sparse/coo/common.py,sha256=AbBPYw-W8SYJcwhcCJ0AhENXvV-MG1rzFZ0u4wdznH8,37192
+sparse/coo/core.py,sha256=ABI_jYMR1lMMbxzQ9pNeCR1s2Cblo0XZWK12j8G456k,66166
+sparse/coo/indexing.py,sha256=V0oZp4eCaGFsHubbcdbT5niPGSl-NPK_TwrM4cfuMVI,17252
+sparse/coo/umath.py,sha256=rc04Wg3sZ4pD7Cnt3shyK02hSxiu4YKh57SE5TBDBA4,22149
+sparse-0.7.0.dist-info/LICENSE,sha256=qT15sOT3-pK3XOXDBO1EeArd-vkleKerPgbiM1ocUU4,1517
+sparse-0.7.0.dist-info/METADATA,sha256=bzvf_a8ooiqVczOGuApaMLtIupgjSvJAGSSgGX9aUsg,2732
+sparse-0.7.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+sparse-0.7.0.dist-info/top_level.txt,sha256=JbHFSaOp-dRfwI-tczzAUJzDJl4z9gJf0v6_GJ46d78,7
+sparse-0.7.0.dist-info/RECORD,,
