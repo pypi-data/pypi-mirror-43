@@ -1,0 +1,7 @@
+python-language-server
+
+[develop]
+pytest
+flake8
+mypy
+pycodestyle
