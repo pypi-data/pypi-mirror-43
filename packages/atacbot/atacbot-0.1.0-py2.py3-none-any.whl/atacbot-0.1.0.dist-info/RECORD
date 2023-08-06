@@ -1,0 +1,11 @@
+atacbot/__init__.py,sha256=z6M_YeiuZaExBKzBYwGMXOTcKWY8orhpfxIz3sUb21g,154
+atacbot/atacbot.py,sha256=zzlMMu9Q8JJywWx5Ung1K9ft62lh9XiQpmcjQ9DoIPo,3381
+atacbot/ataclib.py,sha256=Q7_JZg5PKqlUtY7y5pNsFiGnnnH3-EtdeRNzdBvaukk,3127
+atacbot/telegram_atacbot.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+atacbot-0.1.0.dist-info/AUTHORS.rst,sha256=vqPxpf9u6ecShY4lMrO4KmZSG88bh9Yrtky9ryy2b1Q,160
+atacbot-0.1.0.dist-info/LICENSE,sha256=a8AOaOB2_t_iahNkg-9A_yL30yxW6K_UX_j7NmWod4M,1552
+atacbot-0.1.0.dist-info/METADATA,sha256=OA2dKoxy7QcU46sdeB8sOyInPObaIDJ3QQy_XnYHY9A,1660
+atacbot-0.1.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+atacbot-0.1.0.dist-info/entry_points.txt,sha256=H6Vn2G2X9HiQp5n9485-zTQo4_AkKfXzDXJm_RZgIl4,55
+atacbot-0.1.0.dist-info/top_level.txt,sha256=I_xJ6XlRLT1mqiJStywd3xHCQ4xmadmv0zwMnfMJVkM,8
+atacbot-0.1.0.dist-info/RECORD,,
