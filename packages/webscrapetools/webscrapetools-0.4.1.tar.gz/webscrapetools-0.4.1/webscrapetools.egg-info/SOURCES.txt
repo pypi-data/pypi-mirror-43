@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/webscrapetools/__init__.py
+src/webscrapetools/taskpool.py
+src/webscrapetools/urlcaching.py
+webscrapetools.egg-info/PKG-INFO
+webscrapetools.egg-info/SOURCES.txt
+webscrapetools.egg-info/dependency_links.txt
+webscrapetools.egg-info/requires.txt
+webscrapetools.egg-info/top_level.txt
+webscrapetools.egg-info/zip-safe
