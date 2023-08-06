@@ -1,0 +1,9 @@
+myimpy/__init__.py,sha256=Eh6e8c1YdSpgwO2g7Zhf6hZWxyoCcGreSwV-sM50t0w,1428
+myimpy/basic.py,sha256=fFdYUuqcXMYMAp031OeQVJm1GLq-aV4aTbA5wKr_2YI,722
+myimpy/morphology.py,sha256=4gxidnvK2Rjq1wLcDBbgjb3A9J7jyTsqDRXw3q9wI_Y,4727
+myimpy/text.py,sha256=JxjNOr4nA3lhILCPq69PHS29nJr-1-lQukaBF8WiaOs,369
+myimpy/transformation.py,sha256=Cmgy1y_cbI3ISPGsFAaLevgNtFd49inQutG4zsgPHxY,8985
+myimpy-1.6.dist-info/METADATA,sha256=6gbyl__t56BBVZ9vkCj0v7M-5jC97ZXqKxhxCDh9x64,2231
+myimpy-1.6.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+myimpy-1.6.dist-info/top_level.txt,sha256=o4NN-DObXCEuMkJSbsCLVJZgF4WLxqSuBha8W14_OPQ,7
+myimpy-1.6.dist-info/RECORD,,
