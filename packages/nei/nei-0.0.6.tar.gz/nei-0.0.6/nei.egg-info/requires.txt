@@ -1,0 +1,10 @@
+jupyter_client==5.2.4
+nbformat
+nbconvert
+tornado
+ipykernel
+
+[pyviz]
+bokeh
+holoviews
+cssutils

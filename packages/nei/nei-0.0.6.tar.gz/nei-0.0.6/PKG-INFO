@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nei
+Version: 0.0.6
+Summary: Notebook Emacs Interface
+Home-page: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: Mac OS X
+Platform: Linux
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Provides: nei
+Requires-Python: >=3.5
+Provides-Extra: pyviz
