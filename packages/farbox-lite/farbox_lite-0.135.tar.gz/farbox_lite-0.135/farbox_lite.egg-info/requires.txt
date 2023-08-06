@@ -1,0 +1,10 @@
+setuptools
+farbox_markdown
+pygments
+shortuuid
+unidecode
+python-dateutil
+user_agents
+ujson
+flask==0.10
+jinja2==2.8
