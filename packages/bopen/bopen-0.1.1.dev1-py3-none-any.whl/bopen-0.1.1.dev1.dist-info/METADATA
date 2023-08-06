@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bopen
+Version: 0.1.1.dev1
+Summary: Open bookmarks from your shell.
+Home-page: https://github.com/DanielVZ96/bopen
+Author: Daniel Valenzuela
+Author-email: dowy.vz6@gmail.com
+License: UNKNOWN
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# Bopen
+Open bookmarks from the shell.
+
+# TODO
+- Suport Firefox.\*
+
+- Automatically detect default browser cookies.
+
+- A bopen command that handles variables and funcitonalities (?)
+
+##### \* Hint: SELECT moz_places.url, moz_bookmarks.title FROM moz_places INNER JOIN moz_bookmarks ON moz_places.id=moz_bookmarks.fk WHERE moz_bookmarks.title NOTNULL in ~/.mozilla
+
+
