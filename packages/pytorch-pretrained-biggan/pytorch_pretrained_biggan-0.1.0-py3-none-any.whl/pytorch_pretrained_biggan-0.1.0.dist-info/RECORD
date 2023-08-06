@@ -1,0 +1,13 @@
+pytorch_pretrained_biggan/__init__.py,sha256=d-XZjMy6HjsCWeNa48Tpg4jFbuadi9tqTB7KUt2f_CY,305
+pytorch_pretrained_biggan/config.py,sha256=zTXGkj1js-AL2jq8ZcFuOyRVrXUho8-HuAo60aK8_TY,2404
+pytorch_pretrained_biggan/convert_tf_to_pytorch.py,sha256=S216dE0gWJE-Wkzc_vJkoVqk7dR_kEY4iKqlUuolx6E,14091
+pytorch_pretrained_biggan/file_utils.py,sha256=bTdBgRnVxUdQiNJB8k5g4DLPDSBEmm1yor0iz_buETw,8313
+pytorch_pretrained_biggan/imagenet.py,sha256=5YxtjvGMqg1WXmccR4TP2eRSMFfspVgJB2m8Bcm2xQ4,16616
+pytorch_pretrained_biggan/model.py,sha256=TAMQGrHL44fu8JGOz0fDVks5Gf9tB1-GEHPJbxRTffk,13779
+pytorch_pretrained_biggan/utils.py,sha256=CPvaYU3snPVVEaaKtfwK1ZMceOJ0SJDHcvkn0JbAlLc,21962
+pytorch_pretrained_biggan-0.1.0.dist-info/LICENSE,sha256=jmwkc0UvkUQS4gZNVQQi3Rm3QOTZ9rIXBINEUao3YxY,1068
+pytorch_pretrained_biggan-0.1.0.dist-info/METADATA,sha256=b8g_abRbSMLSjjf7eLm5y3b3yIGuCDL6bJdl1B8Ea_E,10961
+pytorch_pretrained_biggan-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pytorch_pretrained_biggan-0.1.0.dist-info/entry_points.txt,sha256=UBqGv1FoyBFjF7iPMjk2vR0bYwY4FqQKXqVPLr8WjhU,100
+pytorch_pretrained_biggan-0.1.0.dist-info/top_level.txt,sha256=ix9BCKDH9AS4H9cNYOaMtGANP8sf1SjdAY2N_vGOxGQ,26
+pytorch_pretrained_biggan-0.1.0.dist-info/RECORD,,

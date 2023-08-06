@@ -1,0 +1,3 @@
+[console_scripts]
+pytorch_pretrained_biggan = pytorch_pretrained_biggan.convert_tf_to_pytorch:main
+
