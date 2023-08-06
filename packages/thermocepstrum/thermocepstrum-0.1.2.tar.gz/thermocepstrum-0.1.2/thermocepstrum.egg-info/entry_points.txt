@@ -1,0 +1,3 @@
+[console_scripts]
+thermocepstrum-analysis = thermocepstrum.analysis:main
+
