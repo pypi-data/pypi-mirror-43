@@ -1,0 +1,16 @@
+fpvgcc/__init__.py,sha256=lhrM55sh-A1xOEiuwY97u-SQ78zOuWgo_aiJW9gYcE8,810
+fpvgcc/cli.py,sha256=7kWsRXWZ9T1Z1ZhGBMahsgEIXLfD85Ld64Cnyt6Ig2k,8542
+fpvgcc/fpv.py,sha256=aYHsWUCECScIUx_Ttzfdaxasypvb4ZSuOW7KH2LpsBw,20381
+fpvgcc/gccMemoryMap.py,sha256=g-66Iik3otzylHYf7Q9dukAWvy0oNrkUrsNyr94-sqo,16992
+fpvgcc/datastructures/__init__.py,sha256=M8aafd6sDJbStmw7XVn_TFwMdpPcaydLyX3Mo2DrnvI,810
+fpvgcc/datastructures/ntree.py,sha256=qURtOpt2-l13heI6xBhp7J728KWSPOUqFb8DDPuUF-Q,6312
+fpvgcc/datastructures/ntreeSize.py,sha256=IHGZFgJXEh46I6koHGqLtbe3WhZIhqyNKILrChxQm7M,1761
+fpvgcc/gui/__init__.py,sha256=M8aafd6sDJbStmw7XVn_TFwMdpPcaydLyX3Mo2DrnvI,810
+fpvgcc/wui/__init__.py,sha256=gssaOyzQL-SCvVYgWdZyuvnqNZHj7EP8jWNa3iWAr4M,1688
+fpvgcc-0.8.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+fpvgcc-0.8.2.dist-info/METADATA,sha256=lClkhDUju97yAcHFM4n-aGThkFmiFkTAP9meqffnNZg,945
+fpvgcc-0.8.2.dist-info/RECORD,,
+fpvgcc-0.8.2.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+fpvgcc-0.8.2.dist-info/entry_points.txt,sha256=AbnVLotpUGlV2R3lIyu5ruOSuX7rUcA9BRiZq4X9Uxo,44
+fpvgcc-0.8.2.dist-info/metadata.json,sha256=lIjNYQRh-eW2ZiU-HYeJKeY5wAq_aUNoJ7d4oIVYxOs,1198
+fpvgcc-0.8.2.dist-info/top_level.txt,sha256=gOdONB0FmK5wRnsfZTBTE5fptkp5ZH2De8D2m5ay-ec,7
