@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: renesy-helloworld
+Version: 0.1
+Summary: The familiar example program in Python
+Home-page: http://github.com/dbarnett/python-helloworld
+Author: David Barnett
+Author-email: davidbarnett2@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
