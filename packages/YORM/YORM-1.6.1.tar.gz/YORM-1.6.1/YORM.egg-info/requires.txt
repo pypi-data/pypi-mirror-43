@@ -1,0 +1,4 @@
+PyYAML<6,>=5.1
+simplejson~=3.8
+parse~=1.8.0
+pathlib2!=2.3.3
