@@ -1,0 +1,5 @@
+[console_scripts]
+adidas-sensor = adidasSensor.__main__:main
+adidas-sensor-plot = adidasSensor.plot:main
+adidas-sync-video = adidasSensor.sync:main
+
