@@ -1,0 +1,7 @@
+recursive-include Lupv *.py *.ui
+recursive-include Lupv/resources *.svg *qrc
+
+include requirements*.txt
+include README.md
+include LICENSE
+include setup.py

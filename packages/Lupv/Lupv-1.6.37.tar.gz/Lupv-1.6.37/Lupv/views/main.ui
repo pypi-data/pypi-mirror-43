@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1324</width>
+    <height>927</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lupv</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_8">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_7">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout">
+             <item>
+              <widget class="QPushButton" name="page1_btn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../img/lup.svg</normaloff>../img/lup.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>64</width>
+                 <height>64</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="page2_btn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../img/history.svg</normaloff>../img/history.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>64</width>
+                 <height>64</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="page3_btn">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>../img/search.svg</normaloff>../img/search.svg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>64</width>
+                 <height>56</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="currentIndex">
+           <number>1</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="title">
+               <string>Appearance</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                 <item>
+                  <widget class="QRadioButton" name="main_reldate_rbtn">
+                   <property name="text">
+                    <string>Re&amp;lative Date</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="main_realdate_rbtn">
+                   <property name="text">
+                    <string>Real &amp;Date</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QTableWidget" name="main_table">
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <column>
+               <property name="text">
+                <string>Name</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Student ID</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Total Records</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>First Record</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>First Record</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Last Record</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Last Record</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Work Duration</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Work Duration</string>
+               </property>
+              </column>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_3">
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="title">
+               <string>Appearance</string>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_17">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                 <item>
+                  <widget class="QGroupBox" name="groupBox_5">
+                   <property name="title">
+                    <string>File Contens</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_15">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_14">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_3">
+                        <item>
+                         <widget class="QRadioButton" name="show_mode_rbtn">
+                          <property name="text">
+                           <string>Show Mode</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QRadioButton" name="diff_mode_rbtn">
+                          <property name="text">
+                           <string>&amp;Diff Mode</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_15">
+                        <item>
+                         <widget class="QLabel" name="label_4">
+                          <property name="text">
+                           <string>Filename:</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QComboBox" name="filename_combo">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QGroupBox" name="log_appearance_box">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="title">
+                    <string>Log Appearance</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>false</bool>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_16">
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_4">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_10">
+                        <item>
+                         <widget class="QRadioButton" name="log_realdate_rbtn">
+                          <property name="text">
+                           <string>Rea&amp;l Date</string>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QRadioButton" name="log_reldate_rbtn">
+                          <property name="text">
+                           <string>Re&amp;lative Date</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <widget class="QCheckBox" name="stats_check">
+                        <property name="text">
+                         <string>Line Insertion and Deletion</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QSplitter" name="splitter_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <widget class="QSplitter" name="splitter">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <widget class="QGroupBox" name="groupBox">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="title">
+                 <string>GroupBox</string>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_13">
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_11">
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_19">
+                       <item>
+                        <widget class="QLabel" name="name_const_lbl">
+                         <property name="text">
+                          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Login Name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="machine_const_lbl">
+                         <property name="text">
+                          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Machine name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_18">
+                       <item>
+                        <widget class="QLabel" name="name_lbl">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="machine_lbl">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_12">
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_20">
+                       <item>
+                        <widget class="QLabel" name="ip_const_lbl">
+                         <property name="text">
+                          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;IP Address:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_10">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QVBoxLayout" name="verticalLayout_21">
+                       <item>
+                        <widget class="QLabel" name="ip_lbl">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QLabel" name="label_11">
+                         <property name="text">
+                          <string/>
+                         </property>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+               <widget class="QTreeWidget" name="windows_tree">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>100</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <column>
+                 <property name="text">
+                  <string notr="true">WIndows</string>
+                 </property>
+                </column>
+               </widget>
+               <widget class="QPlainTextEdit" name="file_content_widget">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>400</height>
+                 </size>
+                </property>
+               </widget>
+              </widget>
+              <widget class="QTreeWidget" name="log_tree">
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+               <column>
+                <property name="text">
+                 <string>Relative Date</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Date</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>SHA</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Insertions</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>Deletions</string>
+                </property>
+               </column>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="page_4">
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QTabWidget" name="tabWidget">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="tabPosition">
+               <enum>QTabWidget::North</enum>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <property name="elideMode">
+               <enum>Qt::ElideNone</enum>
+              </property>
+              <property name="movable">
+               <bool>false</bool>
+              </property>
+              <widget class="QWidget" name="suspects_tab">
+               <attribute name="title">
+                <string>Suspects</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_16">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <item>
+                     <widget class="QLabel" name="label">
+                      <property name="text">
+                       <string>Line Insetions Limit:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QSpinBox" name="insertions_limit_spin">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="maximum">
+                       <number>10000</number>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <item>
+                     <widget class="QLabel" name="label_2">
+                      <property name="text">
+                       <string>Filename:</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="analyze_suspects_btn">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>Search</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QTreeWidget" name="suspects_tree">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="animated">
+                   <bool>true</bool>
+                  </property>
+                  <attribute name="headerStretchLastSection">
+                   <bool>false</bool>
+                  </attribute>
+                  <column>
+                   <property name="text">
+                    <string>Name</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Nim</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Filename</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Line Insertions</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Date</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="windows_tab">
+               <attribute name="title">
+                <string>Windows</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_9">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_6">
+                    <item>
+                     <widget class="QLabel" name="label_3">
+                      <property name="text">
+                       <string>Windows Name:</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="windows_searchkey_widget">
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="windows_search_btn">
+                      <property name="text">
+                       <string>Search</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QTreeWidget" name="windows_search_tree">
+                    <property name="animated">
+                     <bool>true</bool>
+                    </property>
+                    <column>
+                     <property name="text">
+                      <string>Windows Name</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string notr="true">Name</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Nim</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Record DateTime</string>
+                     </property>
+                    </column>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="ip_tab">
+               <attribute name="title">
+                <string>IP Address</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_11">
+                  <item>
+                   <widget class="QPushButton" name="group_by_ip_btn">
+                    <property name="text">
+                     <string>Group by IP Address</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QTreeWidget" name="group_by_ip_tree">
+                    <property name="animated">
+                     <bool>true</bool>
+                    </property>
+                    <column>
+                     <property name="text">
+                      <string notr="true">IP</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Name</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string notr="true">Nim</string>
+                     </property>
+                    </column>
+                    <column>
+                     <property name="text">
+                      <string>Record DateTime</string>
+                     </property>
+                    </column>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="tab">
+               <attribute name="title">
+                <string>EditDistance</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_23">
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_25">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_24">
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_22">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_18">
+                        <item>
+                         <widget class="QLabel" name="label_5">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Student 1:</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_19">
+                        <item>
+                         <widget class="QLabel" name="label_8">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Filename</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QHBoxLayout" name="horizontalLayout_23">
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_21">
+                        <item>
+                         <widget class="QLabel" name="label_7">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Student 2:</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                      <item>
+                       <layout class="QHBoxLayout" name="horizontalLayout_20">
+                        <item>
+                         <widget class="QLabel" name="label_9">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="text">
+                           <string>Filename:</string>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="compare_editdistance_btn">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>Compare</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_22">
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetDefaultConstraint</enum>
+                  </property>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="compared_ed_savegraph_btn">
+                  <property name="text">
+                   <string>Save Graph</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QStackedWidget" name="spinner_stack">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="page_6">
+         <layout class="QVBoxLayout" name="verticalLayout_6"/>
+        </widget>
+        <widget class="QWidget" name="page_7">
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="spinner_lbl">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/hourglass2.svg</pixmap>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_6">
+              <property name="text">
+               <string>working . . .</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1324</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Me&amp;nu</string>
+    </property>
+    <addaction name="open_records_action"/>
+    <addaction name="quit_action"/>
+   </widget>
+   <widget class="QMenu" name="menuStorage">
+    <property name="title">
+     <string>Stora&amp;ge</string>
+    </property>
+    <addaction name="load_editdistance_action"/>
+    <addaction name="export_editdistance_action"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuStorage"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="open_records_action">
+   <property name="text">
+    <string>&amp;Open Records</string>
+   </property>
+  </action>
+  <action name="quit_action">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+  </action>
+  <action name="light_theme_action">
+   <property name="text">
+    <string>&amp;Light</string>
+   </property>
+  </action>
+  <action name="dark_theme_action">
+   <property name="text">
+    <string>&amp;Dark</string>
+   </property>
+  </action>
+  <action name="load_editdistance_action">
+   <property name="text">
+    <string>&amp;Load Editdistance File</string>
+   </property>
+  </action>
+  <action name="export_editdistance_action">
+   <property name="text">
+    <string>&amp;Export Editdistance</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
