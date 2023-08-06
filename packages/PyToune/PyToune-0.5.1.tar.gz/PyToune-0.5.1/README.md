@@ -1,0 +1,1 @@
+PyToune has changed its name for Poutyne. See https://poutyne.org. From now on, please use the new package name poutyne. The pytoune package has been kept for this release but will be removed in the next release.

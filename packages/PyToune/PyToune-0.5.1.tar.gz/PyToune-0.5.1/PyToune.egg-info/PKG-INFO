@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: PyToune
+Version: 0.5.1
+Summary: A Keras-like framework and utilities for PyTorch.
+Home-page: https://poutyne.org
+Author: Frédérik Paradis
+Author-email: fredy_14@live.fr
+License: GPLv3
+Description-Content-Type: text/markdown
+Description: PyToune has changed its name for Poutyne. See https://poutyne.org. From now on, please use the new package name poutyne. The pytoune package has been kept for this release but will be removed in the next release.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3

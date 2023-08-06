@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+PyToune.egg-info/PKG-INFO
+PyToune.egg-info/SOURCES.txt
+PyToune.egg-info/dependency_links.txt
+PyToune.egg-info/requires.txt
+PyToune.egg-info/top_level.txt
