@@ -1,0 +1,3 @@
+[console_scripts]
+picviewer = picviewer.__main__:launch_gui
+
