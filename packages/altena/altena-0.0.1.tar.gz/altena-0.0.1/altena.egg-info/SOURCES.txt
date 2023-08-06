@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+altena/__init__.py
+altena/encoder.py
+altena/entity_embedding.py
+altena/evaluator.py
+altena.egg-info/PKG-INFO
+altena.egg-info/SOURCES.txt
+altena.egg-info/dependency_links.txt
+altena.egg-info/requires.txt
+altena.egg-info/top_level.txt

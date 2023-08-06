@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: altena
+Version: 0.0.1
+Summary: Feature extraction for categorical variables
+Home-page: https://github.com/kishimoto-banana/altena
+Author: Masashi Kishimoto
+Author-email: drehbleistift@gmail.com
+License: UNKNOWN
+Description: # altena: Feature extraction for categorical variables
+        Under construction...
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
