@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: tox-tags
+Version: 0.2.0
+Summary: Tox plug-in that allows you to run subsets of test environments
+Home-page: https://github.com/pycontribs/tox-tags
+Author: André Caron
+Author-email: andre.l.caron@gmail.com
+Maintainer: Sorin Sbarnea
+Maintainer-email: sorin.sbarnea@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+Requires-Dist: pbr (>4.0)
+Requires-Dist: tox (>=2.0)
+
+tox-tags
+========
+
+This is a Tox_ plug-in that allows you to tag test environments and then easily
+select a subset of test environments when running Tox.
+
+The plug-in and its rule system is heavily inspired by `nose-attrib`_.
+
+Here's an example::
+
+    [tox]
+    envlist =
+      py27-win,
+      py27,
+      py34,
+
+    [testenv:py27-win]
+    tags =
+      win
+
+Then, you can easily run only the ``py27-win`` environment::
+
+    $ tox -t win
+
+You can also run all but the ``py27-win`` environment::
+
+    $ tox -t '!win'
+
+.. _Tox: https://tox.readthedocs.org/en/latest/
+.. _`nose-attrib`: http://nose.readthedocs.org/en/latest/plugins/attrib.html
+
+
+
