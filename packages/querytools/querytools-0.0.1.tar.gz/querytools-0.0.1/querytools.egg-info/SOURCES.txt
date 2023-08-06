@@ -1,0 +1,6 @@
+README.md
+setup.py
+querytools.egg-info/PKG-INFO
+querytools.egg-info/SOURCES.txt
+querytools.egg-info/dependency_links.txt
+querytools.egg-info/top_level.txt
