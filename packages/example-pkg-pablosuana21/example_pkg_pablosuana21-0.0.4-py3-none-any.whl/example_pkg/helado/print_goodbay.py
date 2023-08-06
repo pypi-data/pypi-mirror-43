@@ -1,0 +1,2 @@
+def printgodbay():
+    print('goodbye')
