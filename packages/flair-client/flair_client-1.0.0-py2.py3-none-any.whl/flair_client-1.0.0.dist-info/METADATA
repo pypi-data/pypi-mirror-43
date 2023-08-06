@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: flair-client
+Version: 1.0.0
+Summary: Flair API Client
+Home-page: https://api.flair.co
+Author: Edward Paget
+Author-email: ed@flair.co
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
