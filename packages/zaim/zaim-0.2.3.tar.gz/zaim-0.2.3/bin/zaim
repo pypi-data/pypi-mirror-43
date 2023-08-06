@@ -1,0 +1,181 @@
+#!/usr/bin/env python
+# coding: utf-8
+import os
+import zaim
+import six
+import argparse
+from tabulate import tabulate
+from pprint import pprint
+from datetime import datetime
+from builtins import input
+
+def print_(args, table):
+    if args.json:
+        pprint(table)
+    else:
+        if len(table) == 0:
+            six.print_('Not found')
+        else:
+            six.print_(tabulate(table, headers="keys"))
+
+def valid_date(s):
+    try:
+        return datetime.strptime(s, "%Y-%m-%d")
+    except ValueError:
+        msg = "Not a valid date: '%s'." % s
+        raise argparse.ArgumentTypeError(msg)
+
+def common_func(args, api):
+    fun = getattr(api, args.funcname, None)
+    print_(args, fun()[args.key])
+
+def verify(args, api):
+    table = [api.verify()['me']]
+    print_(args, table)
+
+def money(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.money(**kwargs)['money']
+    print_(args, table)
+
+def payment(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.payment(**kwargs)
+    pprint(table)
+
+def income(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.income(**kwargs)
+    pprint(table)
+
+def transfer(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.transfer(**kwargs)
+    pprint(table)
+
+def update(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.update(**kwargs)
+    pprint(table)
+
+def delete(args, api):
+    kwargs = vars(args).copy()
+    kwargs.pop('func', None)
+    kwargs.pop('json', None)
+    table = api.delete(**kwargs)
+    pprint(table)
+
+def token_get(args, api):
+    callback_uri = args.callback_uri
+    request_token = api.get_request_token(callback_uri)
+    six.print_("AUTHORIZE_URL: https://www.zaim.net/users/auth?oauth_token=%s" % request_token['oauth_token'])
+    oauth_verifier = input("oauth_verifier? : ")
+    access_token = api.get_access_token(oauth_verifier)
+    six.print_("ACCESS_TOKEN:", access_token['oauth_token'])
+    six.print_("ACCESS_TOKEN_SECRET:", access_token['oauth_token_secret'])
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='Zaim CLI')
+    sp = parser.add_subparsers()
+    # token_get
+    sp_token_get = sp.add_parser('token_get')
+    sp_token_get.add_argument('--callback-uri', required=True)
+    sp_token_get.set_defaults(func=token_get)
+    # verify
+    sp_ = sp.add_parser('verify')
+    sp_.add_argument('--json', action="store_true")
+    sp_.set_defaults(func=verify)
+    # money
+    sp_ = sp.add_parser('money')
+    sp_.add_argument('--json', action="store_true")
+    sp_.add_argument('--category-id', type=int)
+    sp_.add_argument('--genre-id', type=int)
+    sp_.add_argument('--mode', choices=['payment', 'income', 'transfer'])
+    sp_.add_argument('--order', choices=['id', 'date'])
+    sp_.add_argument('--start-date', type=valid_date)
+    sp_.add_argument('--end-date', type=valid_date)
+    sp_.add_argument('--page', type=int, default=1)
+    sp_.add_argument('--limit', type=int, default=20)
+    sp_.add_argument('--group-by', choices=['receipt_id'])
+    sp_.set_defaults(func=money)
+    # payment
+    sp_ = sp.add_parser('payment')
+    sp_.add_argument('--category-id', type=int, required=True)
+    sp_.add_argument('--genre-id', type=int, required=True)
+    sp_.add_argument('--amount', type=int, required=True)
+    sp_.add_argument('--date', type=valid_date, required=True)
+    sp_.add_argument('--from-account-id', type=int)
+    sp_.add_argument('--comment')
+    sp_.add_argument('--name')
+    sp_.add_argument('--place')
+    sp_.set_defaults(func=payment)
+    # income
+    sp_ = sp.add_parser('income')
+    sp_.add_argument('--category-id', type=int, required=True)
+    sp_.add_argument('--amount', type=int, required=True)
+    sp_.add_argument('--date', type=valid_date, required=True)
+    sp_.add_argument('--to-account-id', type=int)
+    sp_.add_argument('--comment')
+    sp_.add_argument('--place')
+    sp_.set_defaults(func=income)
+    # transfer
+    sp_ = sp.add_parser('transfer')
+    sp_.add_argument('--amount', type=int, required=True)
+    sp_.add_argument('--date', type=valid_date, required=True)
+    sp_.add_argument('--from-account-id', type=int, required=True)
+    sp_.add_argument('--to-account-id', type=int, required=True)
+    sp_.add_argument('--comment')
+    sp_.set_defaults(func=transfer)
+    # update
+    sp_ = sp.add_parser('update')
+    sp_.add_argument('--mode', choices=['payment', 'income', 'transfer'], required=True)
+    sp_.add_argument('--money-id', type=int, required=True)
+    sp_.add_argument('--amount', type=int, required=True)
+    sp_.add_argument('--date', type=valid_date) # not required
+    sp_.add_argument('--from-account-id', type=int)
+    sp_.add_argument('--to-account-id', type=int)
+    sp_.add_argument('--category-id', type=int)
+    sp_.add_argument('--genre-id', type=int)
+    sp_.add_argument('--comment')
+    sp_.add_argument('--name')
+    sp_.add_argument('--place')
+    sp_.set_defaults(func=update)
+    # delete
+    sp_ = sp.add_parser('delete')
+    sp_.add_argument('--mode', choices=['payment', 'income', 'transfer'], required=True)
+    sp_.add_argument('--money-id', type=int, required=True)
+    sp_.set_defaults(func=delete)
+
+    # others
+    funcs = [
+        {'funcname': 'account', 'key': 'accounts'},
+        {'funcname': 'category', 'key': 'categories'},
+        {'funcname': 'genre', 'key': 'genres'},
+        {'funcname': 'default_account', 'key': 'accounts'},
+        {'funcname': 'default_category', 'key': 'categories'},
+        {'funcname': 'default_genre', 'key': 'genres'},
+        {'funcname': 'default_currency', 'key': 'currencies'},
+    ]
+    for func in funcs:
+        sp_ = sp.add_parser(func['funcname']) 
+        sp_.add_argument('--json', action="store_true")
+        sp_.set_defaults(func=common_func, **func)
+
+    consumer_key = os.environ.get("ZAIM_CONSUMER_KEY", "")
+    consumer_secret = os.environ.get("ZAIM_CONSUMER_SECRET", "")
+    access_token = os.environ.get("ZAIM_ACCESS_TOKEN", "")
+    access_token_secret = os.environ.get("ZAIM_ACCESS_TOKEN_SECRET", "")
+    api = zaim.Api(consumer_key, consumer_secret, access_token, access_token_secret)
+
+    args = parser.parse_args()
+    args.func(args, api)
