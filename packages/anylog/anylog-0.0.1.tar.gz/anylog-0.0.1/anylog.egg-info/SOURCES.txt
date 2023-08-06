@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+anylog/__init__.py
+anylog.egg-info/PKG-INFO
+anylog.egg-info/SOURCES.txt
+anylog.egg-info/dependency_links.txt
+anylog.egg-info/top_level.txt
+tests/__init__.py
