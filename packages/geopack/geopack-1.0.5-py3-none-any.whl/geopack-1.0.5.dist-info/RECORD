@@ -1,0 +1,14 @@
+geopack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geopack/geopack.py,sha256=a5BxYWieS6V-XBOYGqxDTQtMiRNJbBSDaJbnze9uyyc,48621
+geopack/igrf12coeffs.txt,sha256=cOW8yXl8LhTMFBmcinngs0HQZXo0SwIimRZBabDQDgs,38869
+geopack/t01.py,sha256=2MG1wiZooL-11UWEyy9Q2sRDwCD6Cs29zfjK5ZzVdHY,76431
+geopack/t04.py,sha256=JyZHDHu1sE0zDJG72mZ_kdcZgREcdohrVbRXUqIieYI,75789
+geopack/t89.py,sha256=zDVNPrmtK1NnNHgohQEPqOOJDsm2Z-WP94_uk9qUCLI,14024
+geopack/t96.py,sha256=t6XW8XeHso9sIJ4m7KYbNkJKbb16_eagAnsZm8o80OM,65291
+geopack/test_geopack1.md,sha256=V5SR8QDHeEbq0dOy9P_LDGwSih-p92sq0EqfysDzwNs,15280
+geopack/test_geopack1.py,sha256=WeHu-qFsAcdmW8PDV2WQPzy6A3SdX0dgD6Of2jK8AGo,6676
+geopack-1.0.5.dist-info/LICENSE,sha256=SEUH4SLuCR2lprfVCcKHRnu9BHvBzj7nCHlCtxKtLEk,1067
+geopack-1.0.5.dist-info/METADATA,sha256=Ke60muA6ddB_A2gyVySlch99MF6BmoC0zF6GAaYCW00,15018
+geopack-1.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+geopack-1.0.5.dist-info/top_level.txt,sha256=5wOBhK4wkKyuE1EMPgWf9CTiOAWArRHC3Mk3e0nEbfk,8
+geopack-1.0.5.dist-info/RECORD,,
