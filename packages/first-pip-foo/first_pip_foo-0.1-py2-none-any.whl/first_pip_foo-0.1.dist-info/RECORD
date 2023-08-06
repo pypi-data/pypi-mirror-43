@@ -1,0 +1,5 @@
+first_pip_foo-0.1.data/scripts/foo.py,sha256=kfIWr0Rj9dUtUgWSH-Ya93-RgnyyOeWF1M3ffx5AzNs,86
+first_pip_foo-0.1.dist-info/METADATA,sha256=uf9wGvMjTpjCZ8JG9CqIqytpn0Q_y24R3e_8h2u12EQ,231
+first_pip_foo-0.1.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+first_pip_foo-0.1.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+first_pip_foo-0.1.dist-info/RECORD,,
