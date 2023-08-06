@@ -1,0 +1,8 @@
+README.md
+setup.py
+path2vec/__init__.py
+path2vec/path2vec.py
+path2vec.egg-info/PKG-INFO
+path2vec.egg-info/SOURCES.txt
+path2vec.egg-info/dependency_links.txt
+path2vec.egg-info/top_level.txt
