@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dbeasy
+Version: 0.7
+Summary: Database utilities
+Home-page: UNKNOWN
+Author: Caio Belfort
+Author-email: caiobelfort90@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
+
