@@ -1,0 +1,12 @@
+cocktail_apikit/__init__.py,sha256=E7Fe-aRyUuJjzEuDUC4RQ4KHCwFCXlZQpEwV7rhVGes,421
+cocktail_apikit/aws_kit.py,sha256=OPCn2abTHfyQT7syKLvU7cYzB7xmaLhVRv6XKvooVs4,1316
+cocktail_apikit/bottle_kit.py,sha256=Tvn_mpoXcTwklfr6lTbG92Aofl9qYv3wUcqzcuQ4MfU,10612
+cocktail_apikit/constants.py,sha256=gqnyYr0fW5NUE0xR9M34Cv-EPxmQOCnnAZQC0zRKz2c,2155
+cocktail_apikit/marshmallow_kit.py,sha256=l1Gj29OSeI0XNyEqE91y0qp4SylPgJiUw3jFAJO3n74,5897
+cocktail_apikit/mongo_kit.py,sha256=AFLw-_BUR4-9FlCH7slER5KercCvRQIWtx-GiLieenU,12597
+cocktail_apikit/settings_kit.py,sha256=7k21oPHK4MlgOcd7jXG95PnAEAHMsmOzBKLTKGdm3cs,11335
+cocktail_apikit-0.0.5.dist-info/LICENSE,sha256=2-cSUcAJUx7dfYJ8xQftd1G8jPv2zese5C0z6v5fMKc,1072
+cocktail_apikit-0.0.5.dist-info/METADATA,sha256=xl6BMpUe8PuHntmvwVsdSoS6ILVxJHbPr7dg3d5jX8M,4872
+cocktail_apikit-0.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cocktail_apikit-0.0.5.dist-info/top_level.txt,sha256=d2rVnbrjxdPYzN4G23_6UDMegnymJM7svevUab34m4Q,16
+cocktail_apikit-0.0.5.dist-info/RECORD,,
