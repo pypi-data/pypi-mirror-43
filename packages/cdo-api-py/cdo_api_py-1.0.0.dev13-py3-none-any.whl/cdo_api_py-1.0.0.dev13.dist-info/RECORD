@@ -1,0 +1,10 @@
+cdo_api_py/Client.py,sha256=gsq0Lj74-kdYMn744s8g9Yw5avO__p7boWwTnZ5R8QY,18675
+cdo_api_py/__init__.py,sha256=sVbAK5_Drkgh7f1idytEE073-bIb4COb4DzWGUVXZ0s,72
+cdo_api_py/conf.py,sha256=HdYJWKNSqhqtOiN3d4tOX8XIKPczGS-B4LZNpwgLr5U,1062
+cdo_api_py/exceptions.py,sha256=Ef5Yi6Xi81kWcua0LZFcME8j5LCS4f64qonjzgyAigU,573
+cdo_api_py-1.0.0.dev13.dist-info/DESCRIPTION.rst,sha256=Gm8KvA0AI26G_gSDXWsZzvAs-pGUDqyzfSbh4X8aV3Q,5611
+cdo_api_py-1.0.0.dev13.dist-info/METADATA,sha256=JKtanrrSrkW4znH0HHuVvCrOVKrbqiJ9LcxR011tvJM,6526
+cdo_api_py-1.0.0.dev13.dist-info/RECORD,,
+cdo_api_py-1.0.0.dev13.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+cdo_api_py-1.0.0.dev13.dist-info/metadata.json,sha256=6kXqEXv-wtNL-Bjoi2mopHI1A5-BIZWG9SaJXS7ir6g,1011
+cdo_api_py-1.0.0.dev13.dist-info/top_level.txt,sha256=UYDAvjWT-2Xq1wDJ8IA8mxHcceHmW9K9V66Fz1UkN50,11
