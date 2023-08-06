@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import click
+import ethmsg
+
+@click.command()
+
+@click.option('--endpoint', default='https://localhost:8545', help='Ethereum JSON-RPC Endpoint')
+@click.option('--message', prompt='Message', help='Message to save to eth blockchain')
+@click.option('--address', prompt='Address', help='Wallet address to pay fees from.')
+
+def default(endpoint, address, message):
+    ethmsg.send(endpoint, address, message)
+
+if __name__ == '__main__':
+    default()

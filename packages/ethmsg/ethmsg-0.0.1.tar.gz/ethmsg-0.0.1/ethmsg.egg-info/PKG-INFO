@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: ethmsg
+Version: 0.0.1
+Summary: A simple Ethereum message sender
+Home-page: https://github.com/mkeen/ethmsg
+Author: Mike Keen
+Author-email: mkeen.atl@gmail.com
+License: UNKNOWN
+Description: A simple Ethereum message sender
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/ethmsg
+ethmsg/__init__.py
+ethmsg/send.py
+ethmsg.egg-info/PKG-INFO
+ethmsg.egg-info/SOURCES.txt
+ethmsg.egg-info/dependency_links.txt
+ethmsg.egg-info/requires.txt
+ethmsg.egg-info/top_level.txt
