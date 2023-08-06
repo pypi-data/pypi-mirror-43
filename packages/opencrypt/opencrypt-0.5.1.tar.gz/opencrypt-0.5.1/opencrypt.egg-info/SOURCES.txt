@@ -1,0 +1,11 @@
+README.md
+setup.py
+opencrypt/__init__.py
+opencrypt/__main__.py
+opencrypt/_crypto.py
+opencrypt.egg-info/PKG-INFO
+opencrypt.egg-info/SOURCES.txt
+opencrypt.egg-info/dependency_links.txt
+opencrypt.egg-info/entry_points.txt
+opencrypt.egg-info/requires.txt
+opencrypt.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+ebcrypt = opencrypt._crypto:main
+
