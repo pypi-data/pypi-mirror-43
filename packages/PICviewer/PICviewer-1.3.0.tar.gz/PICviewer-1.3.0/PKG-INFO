@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: PICviewer
+Version: 1.3.0
+Summary: PyQt-based visualization tools for PIC simulations
+Home-page: https://bitbucket.org/ecp_warpx/picviewer/src/master/
+Author: Jaehong Park
+Author-email: jaehongpark@lbl.gov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
