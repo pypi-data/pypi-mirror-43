@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: reactivehub-sdk-python
+Version: 0.2
+Summary: reactivehub.io Python SDK
+Home-page: https://github.com/reactivehub-io/reactivehub-sdk-python
+Author: reactivehub.io
+Author-email: luiz.gustavo@reactivehub.io
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+
+The Reactivehub Python SDK implements the methods needed to publish in the Events API.
+
+
