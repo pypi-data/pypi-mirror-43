@@ -1,0 +1,9 @@
+yanytapi/__init__.py,sha256=7JqG9cJUZJNvRRfZrmB3qltMLno0ovLOF0ecav1xs18,265
+yanytapi/search.py,sha256=nFxL3l6Coj4hCr4XiFjmqVemEGOVJWhkOQH-tbUVmM8,6586
+yanytapi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yanytapi/tests/test_search.py,sha256=fsD8DfnsINGuyX463e8MpaDceVoS28k89nexZFsLBEY,1041
+yanytapi-2.0.0.dist-info/LICENSE,sha256=QKmNWlACyjCNPosz-X0q6Q-HLG7GNZ-oTGCOC-NuALs,1070
+yanytapi-2.0.0.dist-info/METADATA,sha256=tWCzr8pcrXdmOKnOeiOUIPqPble0kQMsakxcATW9IkU,4169
+yanytapi-2.0.0.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+yanytapi-2.0.0.dist-info/top_level.txt,sha256=FVVeUgqRkfnaioL2BFs6ka20EmoLTKwcxDuZOwQ7hCM,9
+yanytapi-2.0.0.dist-info/RECORD,,
