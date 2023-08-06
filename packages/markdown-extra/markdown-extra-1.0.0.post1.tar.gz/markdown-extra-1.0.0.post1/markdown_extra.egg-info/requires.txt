@@ -1,0 +1,11 @@
+markdown
+pyYAML
+
+[docs]
+sphinx
+
+[tests]
+pytest
+
+[tests:python_version < "3.3"]
+mock
