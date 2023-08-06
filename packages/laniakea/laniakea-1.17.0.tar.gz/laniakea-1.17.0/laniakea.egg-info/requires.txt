@@ -1,0 +1,7 @@
+appdirs
+azure-mgmt-resource==1.2.2
+azure-common==1.1.14
+boto<3.0,>=2.48.0
+packet-python==1.37.1
+apache-libcloud==2.4.0
+pycryptodome==3.7.3
