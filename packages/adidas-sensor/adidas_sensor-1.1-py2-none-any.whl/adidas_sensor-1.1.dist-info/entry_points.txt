@@ -1,0 +1,3 @@
+[console_scripts]
+adidas_sensor = adidasSensor.__main__:main
+
