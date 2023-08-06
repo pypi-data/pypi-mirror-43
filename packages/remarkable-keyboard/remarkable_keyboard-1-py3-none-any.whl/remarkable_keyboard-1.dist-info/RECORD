@@ -1,0 +1,10 @@
+remarkable_keyboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remarkable_keyboard/mappings.py,sha256=yS_w4BQM8kCy7XSAwNxT7AZ35dmVpUQpmopGgcjuM98,6026
+remarkable_keyboard/remarkable_keyboard.py,sha256=zEwKWewD8PsvkO60qkvtrL8uX4JBH0r9GLGJQ5imViU,6337
+remarkable_keyboard/version.py,sha256=wgybmv_LMONKQK_afxk_VY2hgygNrKFyGCHMKolNnzc,18
+remarkable_keyboard-1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+remarkable_keyboard-1.dist-info/METADATA,sha256=3Wr9IoOix99GMr5yAdNNqonluVIO_vmMnfQF_-YZNSw,1000
+remarkable_keyboard-1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+remarkable_keyboard-1.dist-info/entry_points.txt,sha256=NtUc1sp7sq6Js7wZ9vumc63U6wJXYXTnLdTf7BPHfi8,144
+remarkable_keyboard-1.dist-info/top_level.txt,sha256=GQs-Fd01PsXWrc1oibH87aTbT7Go6prsz-t0NCacCn8,20
+remarkable_keyboard-1.dist-info/RECORD,,
