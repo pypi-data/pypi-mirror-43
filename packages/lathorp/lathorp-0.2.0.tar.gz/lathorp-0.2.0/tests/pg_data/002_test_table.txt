@@ -1,0 +1,5 @@
+11	text11	2001
+12	text12	2002
+13	text13, more text	2003
+14	text, but no number	\N
+15	\N	2005
