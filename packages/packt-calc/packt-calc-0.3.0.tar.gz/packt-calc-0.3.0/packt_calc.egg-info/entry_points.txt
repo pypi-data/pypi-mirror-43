@@ -1,0 +1,3 @@
+[console_scripts]
+packt-calc = packt_calc.cli:main
+
