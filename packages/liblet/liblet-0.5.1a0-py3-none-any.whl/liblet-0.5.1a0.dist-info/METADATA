@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: liblet
+Version: 0.5.1a0
+Summary: A teaching aid library for formal languages and compiler courses.
+Home-page: https://github.com/let-unimi/liblet
+Author: Massimo Santini
+Author-email: massimo.santini@unimi.it
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/let-unimi/liblet/issues
+Project-URL: Source, https://github.com/let-unimi/liblet
+Project-URL: Documentation, https://liblet.readthedocs.io/en/latest/
+Keywords: automata grammar formal language graph tree
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: antlr4-python3-runtime
+Requires-Dist: jupyter
+Requires-Dist: graphviz
+Provides-Extra: dev
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: Pallets-Sphinx-Themes ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# LibLET
+
+[![Build
+Status](https://travis-ci.org/let-unimi/liblet.svg?branch=master)](https://travis-ci.org/let-unimi/liblet)
+[![Documentation
+Status](https://readthedocs.org/projects/liblet/badge/?version=latest)](https://liblet.readthedocs.io/en/latest/?badge=latest)
+
+LibLET is a teaching aid for formal languages and compiler courses.
+
