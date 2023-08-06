@@ -1,0 +1,7 @@
+Pillow
+babel
+genshi>=0.7
+lxml
+pyjon.utils>0.6
+setuptools
+six>=1.9
