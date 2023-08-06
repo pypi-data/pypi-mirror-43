@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: spherical-functions
+Version: 2019.3.20.16.12.54
+Summary: Python/numba implementation of Wigner D Matrices, spin-weighted spherical harmonics, and associated functions
+Home-page: https://github.com/moble/spherical_functions
+Author: Michael Boyle
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Python/numba package for evaluating and transforming Wigner's 𝔇 matrices, Wigner's 3-j symbols, and
+        spin-weighted (and scalar) spherical harmonics. These functions are evaluated directly in terms of
+        quaternions, as well as in the more standard forms of spherical coordinates and Euler angles.
+        
+Platform: UNKNOWN
