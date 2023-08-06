@@ -1,0 +1,3 @@
+[console_scripts]
+httpaws = httpaws.__main__:main
+
