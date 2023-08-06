@@ -1,0 +1,15 @@
+README.md
+setup.py
+clrc/__init__.py
+clrc/lib.py
+clrc.egg-info/PKG-INFO
+clrc.egg-info/SOURCES.txt
+clrc.egg-info/dependency_links.txt
+clrc.egg-info/requires.txt
+clrc.egg-info/top_level.txt
+clrc/exceptions/__init__.py
+clrc/exceptions/invalid_printer_exception.py
+clrc/printers/__init__.py
+clrc/printers/abstract_printer.py
+clrc/printers/colorama_stdout_printer.py
+clrc/printers/loguru_printer.py
