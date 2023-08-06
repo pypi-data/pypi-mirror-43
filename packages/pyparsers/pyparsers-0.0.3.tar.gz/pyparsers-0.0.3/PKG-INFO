@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyparsers
+Version: 0.0.3
+Summary: Parsers for grammpy library
+Home-page: https://github.com/PatrikValkovic/pyparsers
+Author: Patrik Valkovic
+Author-email: patrik.valkovic@hotmail.cz
+License: GNU General Public License v3.0
+Download-URL: https://github.com/PatrikValkovic/pyparsers/archive/v0.0.3.tar.gz
+Description: # pyparsers [![Build Status](https://travis-ci.org/PatrikValkovic/pyparsers.svg?branch=master)](https://travis-ci.org/PatrikValkovic/pyparsers) [![Coverage Status](https://coveralls.io/repos/github/PatrikValkovic/pyparsers/badge.svg?branch=master)](https://coveralls.io/github/PatrikValkovic/pyparsers?branch=master)
+        
+        ----------
+        
+        ## THIS LIBRARY IS DEPRECATED, USE THE `grampy` LIBRARY INSTEAD.
+        
+        ----------
+        
+        Library implements CYK algorithm.
+        It uses grammpy library for grammar specification.
+        
+        Only exposed method is `cyk`.
+        It raise `NotParsedException` if input sequence was syntactically invalid and CYK was unable to parse it.
+        
+        ```python
+        from pyparsers import cyk
+        
+        g = Grammar()
+        # ...
+        
+        parsed = cyk(g, [*input])
+        ```
+        
+        -----
+        
+        Version: 0.0.3
+        
+        Author: Patrik Valkovič
+        
+        Licence: GNU General Public License v3.0
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
