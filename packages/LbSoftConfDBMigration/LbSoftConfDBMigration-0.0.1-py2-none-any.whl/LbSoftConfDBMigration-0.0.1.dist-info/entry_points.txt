@@ -1,0 +1,3 @@
+[console_scripts]
+lb-sdb-migration = LbSoftConfDBMigration.LbSoftConfDBMigration:main
+
