@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+dffr/__init__.py
+dffr/utils.py
+dffr.egg-info/PKG-INFO
+dffr.egg-info/SOURCES.txt
+dffr.egg-info/dependency_links.txt
+dffr.egg-info/top_level.txt
+tests/__init__.py
+tests/test_utils.py
