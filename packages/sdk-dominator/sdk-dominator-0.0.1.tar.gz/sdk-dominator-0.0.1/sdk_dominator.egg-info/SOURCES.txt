@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dominator/__init__.py
+dominator/dominator.py
+dominator/exceptions.py
+sdk_dominator.egg-info/PKG-INFO
+sdk_dominator.egg-info/SOURCES.txt
+sdk_dominator.egg-info/dependency_links.txt
+sdk_dominator.egg-info/requires.txt
+sdk_dominator.egg-info/top_level.txt
