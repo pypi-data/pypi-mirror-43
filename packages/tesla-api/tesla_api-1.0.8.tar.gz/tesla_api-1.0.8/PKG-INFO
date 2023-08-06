@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tesla_api
+Version: 1.0.8
+Summary: API client for Tesla
+Home-page: https://github.com/mlowijs/tesla_api
+Author: M. Lowijs
+Author-email: mlowijs@gmail.com
+License: UNKNOWN
+Description: # Tesla API
+        
+        This is a package for connecting to the Tesla API.
+        
+        ## Usage
+        
+        ```python
+        from tesla_api import TeslaApiClient
+        
+        client = TeslaApiClient('your@email.com', 'yourPassword')
+        
+        vehicles = client.list_vehicles()
+        
+        for v in vehicles:
+            print(v.vin)
+            v.controls.flash_lights()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
