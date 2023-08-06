@@ -1,0 +1,2 @@
+bottle
+sopel<7,>=6.0
