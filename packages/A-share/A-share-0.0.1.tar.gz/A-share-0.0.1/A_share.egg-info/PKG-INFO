@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: A-share
+Version: 0.0.1
+Summary: package for A-share of mainland China
+Home-page: https://github.com/xindzju
+Author: Charles
+Author-email: xindeng3@gmail.com
+License: UNKNOWN
+Description: # A-share
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
