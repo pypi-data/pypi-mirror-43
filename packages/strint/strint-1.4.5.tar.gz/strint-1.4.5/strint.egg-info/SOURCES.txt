@@ -1,0 +1,12 @@
+README.txt
+no_strint.py
+setup.py
+strint.egg-info/PKG-INFO
+strint.egg-info/SOURCES.txt
+strint.egg-info/dependency_links.txt
+strint.egg-info/entry_points.txt
+strint.egg-info/not-zip-safe
+strint.egg-info/top_level.txt
+test/test.py
+test/test_obf.py
+test/test_obf_no_space.py
