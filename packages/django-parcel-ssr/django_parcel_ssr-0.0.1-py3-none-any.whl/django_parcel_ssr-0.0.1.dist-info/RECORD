@@ -1,0 +1,17 @@
+ssr/__init__.py,sha256=fDobCkBw6OogZmpBoX2fqicER5Bi9-XZNG9EC3uoUUo,13
+ssr/backend.py,sha256=wR7VGm8qmBZWv2IPOVNkT9bGNFojvmu3JUAIQFZa-D8,4954
+ssr/bundler.py,sha256=zc6-nmvzz9jNSkydc78cBM25_pGYlpB8a_8aEXsehcE,7570
+ssr/engine.py,sha256=9sUk7ZcWMsujm30kBog64BlinCl2HpBKTNDEnC7nRSg,1157
+ssr/server.py,sha256=T2fS8XTXmW26yhc4xAISoUY2V3aq7fG6sB_HcS82e_M,2164
+ssr/utils.py,sha256=1PCCnBzxM3LHq_tV9UCIuTYaQ9NRy0MCShA0xwYUqZs,591
+ssr/scripts/bundler.mjs,sha256=EbUUufNEWDXk3Iu5Oa3q5_i1Opt9PBWlm6TD2AzZpbk,1430
+ssr/scripts/server.mjs,sha256=58URiBJBvdVFePWvly1-SMXxHRCigkje-81QFlLe_Sw,2136
+ssr/scripts/utils.mjs,sha256=2Qq1f_Hc0XHiwFy6AvrD-BBzVwsynKTuf-yqK-b0aMk,468
+ssr/scripts/entries/client.js,sha256=E7MkXLL8huy16kg04CBrQtRpOPT7wMvylW39O3AU52Y,138
+ssr/scripts/entries/server.js,sha256=tFEykoxHjfqAfcdb2jvSEuh0zGqsFqob764AztMdt3c,177
+ssr/scripts/react/client.js,sha256=I-KxqXHFyfBVptEQtxQAVeDhEu3Ch2ueraZrZ4Dr_lg,455
+ssr/scripts/react/server.js,sha256=6eJlWoz3pwGtIvVqQc6lQeCDlXM_UfNRnRr5fZypAyY,1228
+django_parcel_ssr-0.0.1.dist-info/METADATA,sha256=Ss0XJzIJejQr9suhb3tlVxJljpvNlyrDJxtXEMC5I_k,6827
+django_parcel_ssr-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_parcel_ssr-0.0.1.dist-info/top_level.txt,sha256=kwlsEyILzFDFRoESZMEL-_haG971Fz-nWOC0YuM9cO8,4
+django_parcel_ssr-0.0.1.dist-info/RECORD,,
