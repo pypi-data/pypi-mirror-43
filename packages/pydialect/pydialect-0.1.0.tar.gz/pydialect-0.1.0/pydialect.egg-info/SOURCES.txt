@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pydialect
+setup.py
+dialects/__init__.py
+dialects/activate.py
+dialects/importer.py
+dialects/util.py
+lispython/__init__.py
+pydialect.egg-info/PKG-INFO
+pydialect.egg-info/SOURCES.txt
+pydialect.egg-info/dependency_links.txt
+pydialect.egg-info/not-zip-safe
+pydialect.egg-info/top_level.txt
