@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ss-py
+Version: 2019.3.18.4
+Summary: SS Tool
+Home-page: UNKNOWN
+Author: YaronH
+Author-email: yaronhuang@qq.com
+License: MIT Licence
+Platform: any
+Requires-Dist: aigpy (>=1.0.39)
+
+UNKNOWN
+
+
