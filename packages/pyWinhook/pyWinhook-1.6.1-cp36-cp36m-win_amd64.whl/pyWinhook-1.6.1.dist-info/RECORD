@@ -1,0 +1,15 @@
+pyWinhook/HookManager.py,sha256=OLl2xqJ91tVw8Pzi5kzdT4Q9Ha-NCz31jfIxshPRRyM,23123
+pyWinhook/__init__.py,sha256=gGmVaBNZQ4BFCA0NO5yiALX5CXi_TQ7b0ON2deqrf3I,26
+pyWinhook/_cpyHook.cp36-win_amd64.pyd,sha256=GxnqhRJSkXu3mA5-C-NBXmuW-hVuJ0MHE6paU6rjhmk,32256
+pyWinhook/aa hook.py,sha256=NFLv5ueDFTg6wwFOoxMC8lfffL9iqwqmwc0ywo8EdJI,1801
+pyWinhook/doc.py,sha256=GlrXVqEW4OoEmSgyAwlkRzMgtDrkxhAQlUqtowptmZk,302
+pyWinhook/example.py,sha256=-qUgiz_vbuDW3jM5T_PlORk9A14QgHvkgV5DDCvBPfM,1533
+pyWinhook-1.6.1.data/data/Lib/site-packages/pyWinhook/CHANGELOG.txt,sha256=ZvfCpXDCYciJGrAFAJK1R-0bVTsCWwxzurAYiiqHFX4,2125
+pyWinhook-1.6.1.data/data/Lib/site-packages/pyWinhook/LICENSE.txt,sha256=DqIOxWHJAYDgofW2Xbvvb6U8oBfrHAcQT6yD8m82jY4,2149
+pyWinhook-1.6.1.data/data/Lib/site-packages/pyWinhook/README.txt,sha256=yXp_2KHm8neWEW37AE1TtPI_WG67-QaXn3BFNytrbrk,694
+pyWinhook-1.6.1.data/data/Lib/site-packages/pyWinhook/cpyHook.py,sha256=cKVv9lNkFPAVASBRctRmnwSfsHY6RuhtDVq6xU_aXiI,3350
+pyWinhook-1.6.1.dist-info/LICENSE.txt,sha256=DqIOxWHJAYDgofW2Xbvvb6U8oBfrHAcQT6yD8m82jY4,2149
+pyWinhook-1.6.1.dist-info/METADATA,sha256=NLLLMQs3WG_0qWUupG_AueI0srJMbHr1-7DxR56-TnI,1432
+pyWinhook-1.6.1.dist-info/WHEEL,sha256=NGBd8VpwAMkmGKuUIURJaMXNI6PaAo_v5wy1RzFtRN4,106
+pyWinhook-1.6.1.dist-info/top_level.txt,sha256=M3LnvQxetGdaNu3Kdz9atGxj5S8lRklBs1FmwmfMGIg,10
+pyWinhook-1.6.1.dist-info/RECORD,,
