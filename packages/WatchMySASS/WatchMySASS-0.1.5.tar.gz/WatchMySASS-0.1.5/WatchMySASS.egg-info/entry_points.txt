@@ -1,0 +1,3 @@
+[console_scripts]
+WatchMySASS = WatchMySASS.__init__:main
+
