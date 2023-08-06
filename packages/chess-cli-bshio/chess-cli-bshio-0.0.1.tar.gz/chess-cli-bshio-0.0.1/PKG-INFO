@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: chess-cli-bshio
+Version: 0.0.1
+Summary: Cli game of chess
+Home-page: https://github.com/shimanekb/chess
+Author: Brandon Shimanek
+Author-email: brandon.j.shimanek@gmail.com
+License: UNKNOWN
+Description: # Chess
+        
+        [![Build Status](https://travis-ci.com/shimanekb/chess.svg?branch=master)](https://travis-ci.com/shimanekb/chess)
+        [![codecov](https://codecov.io/gh/shimanekb/chess/branch/master/graph/badge.svg)](https://codecov.io/gh/shimanekb/chess)
+        
+        Chess program in python.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent

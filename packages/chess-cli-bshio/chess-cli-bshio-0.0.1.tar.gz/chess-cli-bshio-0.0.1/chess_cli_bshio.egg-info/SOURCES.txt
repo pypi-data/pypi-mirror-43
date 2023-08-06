@@ -1,0 +1,16 @@
+README.md
+setup.py
+chess/__init__.py
+chess/board.py
+chess/piece.py
+chess/app/__init__.py
+chess/app/__main__.py
+chess/app/controller/__init__.py
+chess/app/controller/game_controller.py
+chess/app/view/__init__.py
+chess/app/view/board_view.py
+chess_cli_bshio.egg-info/PKG-INFO
+chess_cli_bshio.egg-info/SOURCES.txt
+chess_cli_bshio.egg-info/dependency_links.txt
+chess_cli_bshio.egg-info/entry_points.txt
+chess_cli_bshio.egg-info/top_level.txt
