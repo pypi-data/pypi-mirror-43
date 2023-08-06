@@ -1,0 +1,6 @@
+[console_scripts]
+passtorage-cli = passtorage.__main2__:main
+
+[gui_scripts]
+passtorage = passtorage.__main__:main
+
