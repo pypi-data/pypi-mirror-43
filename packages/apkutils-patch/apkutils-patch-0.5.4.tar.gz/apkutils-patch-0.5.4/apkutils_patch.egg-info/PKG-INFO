@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: apkutils-patch
+Version: 0.5.4
+Summary: Utils for parsing apk.
+Home-page: https://github.com/codeskyblue/apkutils
+Author: mikusjelly, codeskyblue
+Author-email: mikusjelly@gmail.com, codeskyblue@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: apk dex axml
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
