@@ -1,0 +1,9 @@
+click
+boto3
+botocore
+six
+pip<=18,>=9
+attrs
+importreqs
+kombu
+blinker

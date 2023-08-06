@@ -1,0 +1,3 @@
+[console_scripts]
+sls = aws_lambda_sls.cli:main
+
