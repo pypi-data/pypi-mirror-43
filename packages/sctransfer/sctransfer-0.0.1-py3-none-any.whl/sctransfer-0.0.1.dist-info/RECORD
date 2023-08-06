@@ -1,0 +1,16 @@
+sctransfer/__init__.py,sha256=Qfp1UgOMzA9YJ-9a2n6nhW6XVdrobni9SGIg013ZskQ,106
+sctransfer/api.py,sha256=GUrvAckt9yQmlLjqEbMVfvyQgda5gL6XAI2jeRpN4AM,3739
+sctransfer/api_pretrain.py,sha256=tq-r7TJZ44w-GCriRFTNt8PwtsFAvZF5sX8upkFqUdM,4946
+sctransfer/io.py,sha256=PNyfvLr5j3h2tcKaEZdEGeWxClZNPF2Gj5P1hMm_3DA,3201
+sctransfer/layers.py,sha256=PwFTDYY6INZy3oVy_l-0hwA_4Dcx69ty7CT8oCohhPk,3243
+sctransfer/loss.py,sha256=2QeXAjETfexBV1va3uDhBQddk7sQnWNc4B7G28NIbjY,5874
+sctransfer/network.py,sha256=U7F-v85d9fu3BbWWj_rrGUXUvZ0z7J8Mu3sox3HD8I0,5378
+sctransfer/network_joint.py,sha256=67VRTVmhNJe4pc-wY7q0UXOM3NQmrCYvi4fv0xcAS4c,12720
+sctransfer/saverx_train.py,sha256=2sHxF7bVbC4YY4ALl4Q3OyIQN1g7WP3xY_0s0QmpLx0,5109
+sctransfer/train.py,sha256=Wl24bqZcyVZ6taGzCKBUmfFipI0oOXLHnd8T4NP5L18,3376
+sctransfer/train_joint.py,sha256=zB8SjG9zUgc495vTT5CX0B0yyHYyTdtxa-betSJIL2M,9202
+sctransfer-0.0.1.dist-info/LICENSE,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+sctransfer-0.0.1.dist-info/METADATA,sha256=1THjvpzDK_9g9R-vQhCXKK34v93fo_KaB18b94rQz0M,960
+sctransfer-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+sctransfer-0.0.1.dist-info/top_level.txt,sha256=ao2FJN7S9HZ4O6YmZPGw8uvjRuHHGwU5xtqH-l3ArfU,11
+sctransfer-0.0.1.dist-info/RECORD,,
