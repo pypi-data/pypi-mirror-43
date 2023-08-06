@@ -1,0 +1,6 @@
+#!/Users/olegyatskiv/development/repos/vgs-cli/env/bin/python3
+from vgscli import main, parser
+
+if __name__ == '__main__':
+    parser = parser.get_args_parser()
+    main(parser.parse_args())
