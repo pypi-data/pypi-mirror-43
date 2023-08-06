@@ -1,0 +1,13 @@
+virtuinbridge/__init__.py,sha256=_EsxmdVzK8_Y1aAUtwPkzRV06C6MrZh-WmgC3TJ4OiA,269
+virtuinbridge/anduinrestserver.py,sha256=FXuAD43qVWlvd_FzRSRHenrvyD4JwGvBaUuhH5WN-sA,9669
+virtuinbridge/anduinxmlserver.py,sha256=cNNbrf25FgFCuo8E8RBJbBDCIV0sXnKdIpGN4HBfvjk,6093
+virtuinbridge/balenabridge.py,sha256=AD2mySwvS1dcn5-_s1GD3xrJO-BEntFD9lsysI0wTvU,2997
+virtuinbridge/helper.py,sha256=E9QdZG4jPdhLeqTUQ8-EgsXf149waKq1ofKGmcnhjM0,5499
+virtuinbridge/virtuinbridge.py,sha256=m35MXbyc2kKsVT2eNwUkiSn3AFFpOispZs-nmwH_oxA,4207
+virtuinbridge/virtuinglobalstubs.py,sha256=IoevDcoNNNABLUmnVU4fuDHd-Xhw0EhTYhKP-SjmD_o,9421
+VirtuinBridge-1.0.0.dist-info/LICENSE.md,sha256=J7SEmx93UcMgBXwUT6LjmJD3b8bXSrFvKfCey8fYCto,1068
+VirtuinBridge-1.0.0.dist-info/METADATA,sha256=ckTX3wiVwxKvyV8UW4D4IzI0XAD24cmACQw2zqDJw0E,1054
+VirtuinBridge-1.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+VirtuinBridge-1.0.0.dist-info/top_level.txt,sha256=OLCkSARa0gBcWntnRa9OSfnDuDQ8C-mSD7Ktrgi3te8,14
+VirtuinBridge-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+VirtuinBridge-1.0.0.dist-info/RECORD,,
