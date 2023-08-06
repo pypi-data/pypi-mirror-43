@@ -1,0 +1,13 @@
+haip/__init__.py,sha256=h-QyvMVzDNpT3jyVskcSbUVFXxGCRxieFPrvTveZG9k,64
+haip/database/__init__.py,sha256=8DBJccrwO8K30CcI1HAX10sknq5pNQ0W9etHYt9esmE,1359
+haip/database/driver.py,sha256=dV8oj0abrSH_c1-FoOgUIU4ze1RzPI5A_znlhFKJtrg,2642
+haip/database/pool.py,sha256=bopd-5JcbSFH55xumCWalScGmAoC7785aQggTQCydAM,2035
+haip/database/drivers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+haip/database/drivers/mssql.py,sha256=I7uiOva2sdCmeS6CoQEnpz8s7CcVJttI2vqAMm9GuII,1231
+haip/database/drivers/mysql.py,sha256=TECSmySVfeF95g6-j8v_YLL4zwWIu2ceAPLH4FrXKhs,1282
+haip/database/drivers/oracle.py,sha256=vXspRAokGYfWvCg0_FOu-AaVG4xHd-IgniSBYqiIN6g,1202
+haip_database-0.1.4.dist-info/LICENSE,sha256=BOYAD8w4YLC5Snwnt6k4Qke_4r9uGqb1QK44DISDsqw,1092
+haip_database-0.1.4.dist-info/METADATA,sha256=sjA10dDgFsrObUCjm_2-HTml5OjrKKCjIroMQXLV0Hk,6142
+haip_database-0.1.4.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+haip_database-0.1.4.dist-info/top_level.txt,sha256=o32AOIRCfoKQ1Bgp4284pai2bxwjKbW87agB4t52_kc,5
+haip_database-0.1.4.dist-info/RECORD,,
