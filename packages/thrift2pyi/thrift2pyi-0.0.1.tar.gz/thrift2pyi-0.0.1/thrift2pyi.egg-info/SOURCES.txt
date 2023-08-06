@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+thrift2pyi/__init__.py
+thrift2pyi/__main__.py
+thrift2pyi/__version__.py
+thrift2pyi/convert.py
+thrift2pyi/main.py
+thrift2pyi/peg.py
+thrift2pyi.egg-info/PKG-INFO
+thrift2pyi.egg-info/SOURCES.txt
+thrift2pyi.egg-info/dependency_links.txt
+thrift2pyi.egg-info/entry_points.txt
+thrift2pyi.egg-info/requires.txt
+thrift2pyi.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: thrift2pyi
+Version: 0.0.1
+Summary: convert thrift to pyi
+Home-page: https://github.com/nhywieza/thrift2pyi
+Author: yannweizhi
+Author-email: yannweizhi@bytedance.com
+License: UNKNOWN
+Description: 
+        # thrift2pyi
+        convert thrift to pyi
+        
+Keywords: thrift2pyi
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Provides-Extra: dev
