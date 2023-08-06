@@ -1,0 +1,10 @@
+README.md
+setup.py
+multiprocess/__init__.py
+multiprocess/multiprocessClass.py
+multiprocess/multiprocessFunc.py
+multiprocessing_wrap.egg-info/PKG-INFO
+multiprocessing_wrap.egg-info/SOURCES.txt
+multiprocessing_wrap.egg-info/dependency_links.txt
+multiprocessing_wrap.egg-info/requires.txt
+multiprocessing_wrap.egg-info/top_level.txt
