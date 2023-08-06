@@ -1,0 +1,2 @@
+django-appconf>=1.0.2
+django-model-utils>=3.0.0
