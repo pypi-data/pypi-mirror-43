@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rundoozer
+Version: 0.4.0
+Summary: CLI tool for managing and automating Red Hat software releases
+Home-page: https://github.com/openshift/doozer
+Author: AOS ART Team
+Author-email: aos-team-art@redhat.com
+License: Red Hat Internal
+Platform: UNKNOWN
+Requires-Dist: pydotconfig
+
+UNKNOWN
+
+
