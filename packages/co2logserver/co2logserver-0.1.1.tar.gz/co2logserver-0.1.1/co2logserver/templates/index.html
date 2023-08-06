@@ -1,0 +1,36 @@
+<html>
+  <head>
+      <title>{{server.name}}</title>
+  </head>
+  <body>
+    <h1>{{server.name}}</h1>
+    <p>
+    Hello!
+    <p>
+    You reached a <a
+    target="_blank"
+    href="https://gitlab.com/tue-umphy/co2mofetten/python3-co2logserver">
+    co2logserver</a>
+    called <strong>{{server.name}}</strong>.
+    <h2>Data</h2>
+    <h3>Download</h3>
+    You can find the data <a href="/download">here</a>.
+    {% if config.CO2LOGSERVER_UPLOAD_HELP %}
+    <h3>Upload</h3>
+    You can find instructions on how to upload data
+    <a href="/uploadhelp">here</a>.
+    {% endif %}
+    <h3>Stats</h3>
+    {% if database.count > 0 %}
+      Currently ({{date}}) there
+        {% if database.count > 1 %}
+        are <strong>{{database.count}}</strong> rows of data
+        {% else %}
+        is <strong>{{database.count}}</strong> record row
+        {% endif %}
+       in the database.
+    {% else %}
+      The database is currently empty.
+    {% endif %}
+  </body>
+</html>

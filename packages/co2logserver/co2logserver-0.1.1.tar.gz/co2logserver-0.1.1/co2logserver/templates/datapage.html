@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>{{server.name}}</title>
+        <style>
+           thead {font-weight:bold;}
+           table, th, td {border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <h1>{{server.name}} Data</h1>
+        <a href="/">Home Page</a>
+        <p>
+        <a href="/download?{{args.withoutformat}}&format=csv">Download data as CSV</a>
+        <p>
+        {{datatable|safe}}
+    </body>
+</html>
