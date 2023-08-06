@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: node-enigma
+Version: 0.0.9
+Summary: Python Command Line to encrypt and decrypt messages
+Home-page: https://github.com/dyeboah/enigma.py
+Author: David Yeboah
+Author-email: dyeboah@oswego.edu
+License: ['MIT']
+Description: # enigma.py
+        Python Command Line to encrypt and decrypt messages . This is for an easier demonstration of node-enigma and also for Python users.
+        
+        > enigma.py is built with Heroku, so it might take awhile to start up.
+        
+        Contact me [@dyeboah](mailto:dyeboah@oswego.edu) with any questions, feedback or bugs.
+        
+        # Usage
+        
+        ```
+        pip3 install node-enigma
+        ```
+        
+        ### verbosity
+        
+        ```
+        enigma -e scarce -v
+        ```
+        
+        ### encrypt
+        
+        ```
+        enigma -e "i need help"
+        ```
+        
+        ### input / output
+        
+        ```
+        enigma -f input.txt -o output.txt
+        ```
+        
+        ### type
+        
+        ```
+        enigma -e rake -t m3
+        ```
+        
+        --type argument takes either m3 or m4 . 
+        
+        ### settings
+        
+        ```
+        enigma -e fish -s i,iv,iii,ukw-b
+        ```
+        
+        Depending on the type of machine that you want , the --settings argument takes (i,iv,iii,ukw-b) for m3 or 
+        (beta,i,iv,iii,ukw-b) for m4
+        
+        ### key/code
+        ```
+        enigma -e cheese -k a,c,e
+        ```
+        
+        ### plug
+        ```
+        enigma -e loutish -p ks,aw,cq,eb
+        ```
+        
+        # Contribute
+        
+        Clone this repo to make changes. Any fixes, cleanup or new features are always appreciated.
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

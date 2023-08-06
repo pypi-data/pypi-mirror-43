@@ -1,0 +1,10 @@
+README.md
+setup.py
+node_enigma.egg-info/PKG-INFO
+node_enigma.egg-info/SOURCES.txt
+node_enigma.egg-info/dependency_links.txt
+node_enigma.egg-info/entry_points.txt
+node_enigma.egg-info/requires.txt
+node_enigma.egg-info/top_level.txt
+script/__init__.py
+script/enigma.py
