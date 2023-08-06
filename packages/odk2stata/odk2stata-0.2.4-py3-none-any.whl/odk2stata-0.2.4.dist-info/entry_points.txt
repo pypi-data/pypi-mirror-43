@@ -1,0 +1,3 @@
+[console_scripts]
+odk2stata = odk2stata.__main__
+
