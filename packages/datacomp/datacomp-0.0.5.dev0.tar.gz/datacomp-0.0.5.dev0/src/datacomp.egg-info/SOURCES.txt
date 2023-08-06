@@ -1,0 +1,14 @@
+README.rst
+setup.py
+src/datacomp/__init__.py
+src/datacomp/datacollection.py
+src/datacomp/longitudinal.py
+src/datacomp/prop_matching.py
+src/datacomp/stats.py
+src/datacomp/utils.py
+src/datacomp/visualization.py
+src/datacomp.egg-info/PKG-INFO
+src/datacomp.egg-info/SOURCES.txt
+src/datacomp.egg-info/dependency_links.txt
+src/datacomp.egg-info/requires.txt
+src/datacomp.egg-info/top_level.txt
