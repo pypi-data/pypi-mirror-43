@@ -1,0 +1,11 @@
+README.md
+setup.py
+hopt/__init__.py
+hopt/hopt.py
+hopt/keras.py
+hopt/randoms.py
+hopt.egg-info/PKG-INFO
+hopt.egg-info/SOURCES.txt
+hopt.egg-info/dependency_links.txt
+hopt.egg-info/requires.txt
+hopt.egg-info/top_level.txt
