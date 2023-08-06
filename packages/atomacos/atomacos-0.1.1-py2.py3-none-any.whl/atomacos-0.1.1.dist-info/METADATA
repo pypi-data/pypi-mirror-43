@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: atomacos
+Version: 0.1.1
+Summary: Automated Testing on macOS
+Home-page: https://github.com/davee_nguyen/atomacos
+License: UNKNOWN
+Author: Davee Nguyen
+Author-email: davee@daveenguyen.com
+Classifier: License :: Other/Proprietary License
+Requires-Dist: pyobjc-core
+Requires-Dist: pyobjc-framework-Cocoa
+Requires-Dist: pyobjc-framework-Quartz
+Requires-Dist: pyobjc-framework-ApplicationServices
+Requires-Dist: pyobjc-framework-CoreText
+Requires-Dist: future
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: tox; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: sphinx; extra == "doc"
+Requires-Dist: m2r; extra == "doc"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
