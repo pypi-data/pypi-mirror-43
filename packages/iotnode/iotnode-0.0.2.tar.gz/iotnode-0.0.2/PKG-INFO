@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: iotnode
+Version: 0.0.2
+Summary: Framework for running embedded code with multiple modular sources of data input/output
+Home-page: https://github.com/blip2/iotnode
+Author: Ben Hussey
+Author-email: ben@blip2.net
+License: UNKNOWN
+Description: # IoT Node Framework
+        This code provides a framework for running embedded code with multiple modular sources of data input/output.
+        
+        ## Installation
+        ```pip install iotnode```
+        
+        ## Contributors
+        Ben Hussey (<a href="mailto:ben@blip2.net">ben@blip2.net</a>)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
