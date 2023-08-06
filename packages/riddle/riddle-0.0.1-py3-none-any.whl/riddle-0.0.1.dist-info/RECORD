@@ -1,0 +1,9 @@
+riddle/Riddle.py,sha256=PZeDyed78tQR6Bqat-WD0rcsjbGTn7vUXO79TjZa7xE,1124
+riddle/__init__.py,sha256=cNfhPE2ynw5PQBpbSQRt0-zlKrKLNkgKLFeTovjDtSU,108
+riddle/encrypt.py,sha256=BvAVADabcwaJ6LWb3nWFi5K3EONZ2F3dF1aM95grlaQ,520
+riddle/hash.py,sha256=ZwW7PEfpktqk_xUPG0koNjpFIhQg5FKhLokH2zfZ9Jk,1096
+riddle-0.0.1.dist-info/METADATA,sha256=j1EPeNNmDmXuJ-MjV0vRC1McWApUY8QATnQ5v5mD7Vo,684
+riddle-0.0.1.dist-info/WHEEL,sha256=UpB-bp5SQQdekLv3_zfFAhrQBtaQjJZABvUiavkhjZ0,97
+riddle-0.0.1.dist-info/top_level.txt,sha256=recrMZNqsm_aXfy-YQnFmgaBXHi67I9hIuH_HxohOSE,7
+riddle-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+riddle-0.0.1.dist-info/RECORD,,
