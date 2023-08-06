@@ -1,0 +1,10 @@
+include *.in
+include *.lock
+include *.py
+include LICENSE
+include Pipfile
+include tox.ini
+recursive-include memcache_status *.html
+
+# added by check_manifest.py
+recursive-include memcache_status *.css
