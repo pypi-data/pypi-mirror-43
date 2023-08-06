@@ -1,0 +1,7 @@
+README.md
+setup.py
+django_mogilefs_explorer.egg-info/PKG-INFO
+django_mogilefs_explorer.egg-info/SOURCES.txt
+django_mogilefs_explorer.egg-info/dependency_links.txt
+django_mogilefs_explorer.egg-info/top_level.txt
+mogilefs_explorer/__init__.py
