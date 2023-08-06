@@ -1,0 +1,9 @@
+README.md
+setup.py
+hellogoodbye/__init__.py
+hellogoodbye/__main__.py
+hellogoodbye.egg-info/PKG-INFO
+hellogoodbye.egg-info/SOURCES.txt
+hellogoodbye.egg-info/dependency_links.txt
+hellogoodbye.egg-info/entry_points.txt
+hellogoodbye.egg-info/top_level.txt
