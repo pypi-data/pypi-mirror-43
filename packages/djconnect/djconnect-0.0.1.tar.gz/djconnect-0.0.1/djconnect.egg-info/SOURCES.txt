@@ -1,0 +1,11 @@
+README.md
+setup.py
+djconnect/__init__.py
+djconnect/exceptions.py
+djconnect/models.py
+djconnect/sync.py
+djconnect.egg-info/PKG-INFO
+djconnect.egg-info/SOURCES.txt
+djconnect.egg-info/dependency_links.txt
+djconnect.egg-info/requires.txt
+djconnect.egg-info/top_level.txt

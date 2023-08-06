@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: djconnect
+Version: 0.0.1
+Summary: django connection
+Home-page: https://github.com/Vvegetables/django-project-connect
+Author: Vvegetables
+Author-email: hardwork_fight@163.com
+License: Public domain
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
