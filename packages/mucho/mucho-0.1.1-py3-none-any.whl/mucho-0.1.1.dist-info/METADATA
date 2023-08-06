@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mucho
+Version: 0.1.1
+Summary: A DSL to define matching rules
+Home-page: https://bitbucket.org/sancorva/mucho/
+Author: Santi Cortés
+Author-email: sancorva@gmail.com
+License: Other/Proprietary License
+Download-URL: https://bitbucket.org/sancorva/mucho/get/v0.1.1.zip
+Platform: UNKNOWN
+Requires-Dist: lark-parser (==0.6.6)
+
+UNKNOWN
+
+
