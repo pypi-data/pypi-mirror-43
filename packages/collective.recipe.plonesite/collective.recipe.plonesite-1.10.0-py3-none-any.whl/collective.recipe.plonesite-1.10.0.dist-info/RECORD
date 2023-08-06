@@ -1,0 +1,9 @@
+collective.recipe.plonesite-1.10.0-py3.7-nspkg.pth,sha256=_phX-RYiIoDy4PM1ix9NCxZgooVFx75nxhmrXReF1QE,1768
+collective/recipe/plonesite/__init__.py,sha256=RGH_buK3cEoM7adC3JCuqRkV3Fqh-uqtB8zv8ojEQDU,7034
+collective/recipe/plonesite/plonesite.py,sha256=6rilMbIlh6WKVYoN07UozaQgF4ewpQJ_vrQiPgdIYC8,14128
+collective.recipe.plonesite-1.10.0.dist-info/METADATA,sha256=-FE8WmOmjy53aA6t5WWhFfgJYhWwBPEjI__pZECWA5I,18123
+collective.recipe.plonesite-1.10.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+collective.recipe.plonesite-1.10.0.dist-info/entry_points.txt,sha256=aHmIbj-_5c0irb22cYOq-tqNyt8K_MTwcC4_aL7dSvI,60
+collective.recipe.plonesite-1.10.0.dist-info/namespace_packages.txt,sha256=pCVV9PomhoTiSyPRbz_t4K9gVfTMudHDuLSr_kJTdmw,29
+collective.recipe.plonesite-1.10.0.dist-info/top_level.txt,sha256=FyC0xnd95fkjCaKazR3nfIgNqhWMpB0mYBlzALyXKTg,11
+collective.recipe.plonesite-1.10.0.dist-info/RECORD,,
