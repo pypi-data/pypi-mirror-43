@@ -1,0 +1,17 @@
+accepts/__init__.py,sha256=Z4FzotswYxhL9WJqN5Bd0y8zmegQsyQCpsn1o7M4J4E,1374
+afk_tracker/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+afk_tracker/apps.py,sha256=N_T1pdRUVNL4PTsGTSm6OJ30E_XQit6d0nDYPSlZblg,118
+afk_tracker/classes.py,sha256=ZHlwQLPMbKp6ex0ELF29OwxuSNx1h6uYuAHHQQeWICw,2736
+afk_tracker/models.py,sha256=WMY5yM0Wlc2x6tjtQJaxrKVOO1QbUiwHQ-V4hUgCvcA,660
+afk_tracker/setup.py,sha256=-AKU1i-6_SKJepm7I3oGAnuhfLxfuPeuVekJGOXcUiY,142
+afk_tracker/migrations/0001_initial.py,sha256=-qvwzn4FQ7YCJdlEyqJrRvQmwuWkjgmBz-lTI1g_eeM,647
+afk_tracker/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+applescript/__init__.py,sha256=cZCWtNJO4jnlD2NHVnysCAtaAcFZ5n0QuwzKR1-niAE,444
+applescript/tell.py,sha256=gbeH4afLibXiDQFTiGkzP0AFhmWNNVruK4H-37VxGqo,492
+badge/__init__.py,sha256=oxqe1VyzxxIwHzGYPdc4jeYJWlVSMtzkcZDMHm_b0i0,2245
+cached/__init__.py,sha256=PLK1HAh_yQzymfm2ncCdM5d6VyY9XFXa0kxmcSdc-4Q,670
+stdin/__init__.py,sha256=oTEkACI5Pzdrdd34iEE2Uk3lOo7TMa3s-7zSySuK3aA,452
+cached-2019.3.22.dist-info/METADATA,sha256=vo6rlC8YT0baNc98VrR8PAvEU5ll0CNsW5t_BPo-KAw,1559
+cached-2019.3.22.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+cached-2019.3.22.dist-info/top_level.txt,sha256=A9U5A7V1mUlF_gePIbvs_-xpiYuFxh2JXdfj-HEYxiY,7
+cached-2019.3.22.dist-info/RECORD,,
