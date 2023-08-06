@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: rawor
+Version: 0.1.2
+Summary: Analytic calculation of the DDR, DRR, and RRR terms in the galaxy three point correlation function for uniform periodic cubes.
+Home-page: https://github.com/dpearson1983/rawor
+Author: David W. Pearson
+Author-email: dpearson1983@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
