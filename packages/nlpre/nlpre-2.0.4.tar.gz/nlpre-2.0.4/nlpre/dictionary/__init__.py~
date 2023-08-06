@@ -1,0 +1,3 @@
+import os
+
+MeSH = os.abspath("MeSH_two_word_lexicon.csv")
