@@ -1,0 +1,16 @@
+scmver/__init__.py,sha256=UswDTHOQlAfzci8W0aYYVHXUC0AxJd3ukaHydqaosfs,1345
+scmver/__main__.py,sha256=NdPRXPnmHnn3XQh5ZzeFQJAKtmT7I6CBn1SNKQAgi1s,1207
+scmver/__version__.py,sha256=uMKMOaxuYK0QTTFairvtgQtYwKPQlCKzaGjTxpczQAs,58
+scmver/_compat.py,sha256=GHkrPFSEDkyqyFhsmYfMDaWXoRLc9NGXs0q6C6mBS68,1424
+scmver/cli.py,sha256=dGSujyxDVgkaW_PzN7yH5ka5cWDbnO1tUpTsz1geXt8,6813
+scmver/core.py,sha256=lh0jz4zD4aTMk6iAudNQAOIvVOJHq1j7IqmVeB7baj0,10876
+scmver/git.py,sha256=8rk0bFjJ71WfyHOyxtSW2I9rEbWKjmH86iOEOxbHBgc,2194
+scmver/mercurial.py,sha256=6p926q9pI4-6R2W6-ES-NNsnQTirAq3pPcpt_cAu0II,3247
+scmver/setuptools.py,sha256=vqRq57e4PZjkkhkwx4xxYnyp-dN1KP57JuqZt7REj7o,1435
+scmver/subversion.py,sha256=lsD9mh5M56fAizbxMEqHomAInpBKP9Pcx3ZBGSGNIQA,4532
+scmver/util.py,sha256=zAk1p2RhCQUX6oHK543bd_PY6M9UCasiZ0tFUIPwdQA,2107
+scmver-0.2.dist-info/METADATA,sha256=ldM1-TAU2EtS8Z61VeHLPQOoEE9xumz1MNeDEzjzDN0,4998
+scmver-0.2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+scmver-0.2.dist-info/entry_points.txt,sha256=9xlhZqenZcupUzMkrx_xTsymaFYbgl3YYMC-TaAu71o,253
+scmver-0.2.dist-info/top_level.txt,sha256=rTgxIvgz4DserhaC9JAHUtdyxpaI20MyJ4pDVm1MkCo,7
+scmver-0.2.dist-info/RECORD,,
