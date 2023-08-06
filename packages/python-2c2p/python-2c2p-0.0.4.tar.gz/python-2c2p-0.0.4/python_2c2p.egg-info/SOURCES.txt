@@ -1,0 +1,12 @@
+AUTHORS
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+python2c2p/__init__.py
+python2c2p/redirectapi.py
+python_2c2p.egg-info/PKG-INFO
+python_2c2p.egg-info/SOURCES.txt
+python_2c2p.egg-info/dependency_links.txt
+python_2c2p.egg-info/not-zip-safe
+python_2c2p.egg-info/top_level.txt
