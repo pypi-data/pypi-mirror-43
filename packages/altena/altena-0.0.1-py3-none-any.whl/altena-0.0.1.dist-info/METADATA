@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: altena
+Version: 0.0.1
+Summary: Feature extraction for categorical variables
+Home-page: https://github.com/kishimoto-banana/altena
+Author: Masashi Kishimoto
+Author-email: drehbleistift@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: absl-py
+Requires-Dist: astor
+Requires-Dist: category-encoders
+Requires-Dist: cycler
+Requires-Dist: gast
+Requires-Dist: grpcio
+Requires-Dist: h5py
+Requires-Dist: Keras
+Requires-Dist: Keras-Applications
+Requires-Dist: Keras-Preprocessing
+Requires-Dist: kiwisolver
+Requires-Dist: Markdown
+Requires-Dist: matplotlib
+Requires-Dist: mock
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: patsy
+Requires-Dist: pbr
+Requires-Dist: protobuf
+Requires-Dist: pyparsing
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: statsmodels
+Requires-Dist: tensorboard
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-estimator
+Requires-Dist: termcolor
+Requires-Dist: Werkzeug
+
+# altena: Feature extraction for categorical variables
+Under construction...
+
+

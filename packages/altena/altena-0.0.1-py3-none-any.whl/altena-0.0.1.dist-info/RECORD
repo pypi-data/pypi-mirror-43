@@ -1,0 +1,12 @@
+altena/__init__.py,sha256=1rf-LymwfKIWt53SqSza5wiEsZxmk4ICCs7Z4lVHimA,76
+altena/encoder.py,sha256=jWh22qWDAnsHOpZwJMfVJ80_-sm6K87gld6eXv1uNsE,1650
+altena/entity_embedding.py,sha256=XNN4UKjzVpDgP-QPAGsJ8ODkhEiBk_btNxcs9VI5hSk,9741
+altena/evaluator.py,sha256=NaPFN97vExW59dwmkIpcBpk6HUCHH9K2bnHBSspZsf8,1340
+velvet/__init__.py,sha256=1rf-LymwfKIWt53SqSza5wiEsZxmk4ICCs7Z4lVHimA,76
+velvet/encoder.py,sha256=jWh22qWDAnsHOpZwJMfVJ80_-sm6K87gld6eXv1uNsE,1650
+velvet/entity_embedding.py,sha256=Am64T3y36q049b7rx3UvMmuVCJsO6e_RDI8cVWQP_ts,8539
+velvet/evaluator.py,sha256=NaPFN97vExW59dwmkIpcBpk6HUCHH9K2bnHBSspZsf8,1340
+altena-0.0.1.dist-info/METADATA,sha256=3lfObU7F-oV0rMys5YfrrzFPKFw65ExisRapgCMNwSc,1258
+altena-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+altena-0.0.1.dist-info/top_level.txt,sha256=RIHFfA0f-mU_DYNVmA-Ss7HeRfS3TOGO6Y8ori23UrU,7
+altena-0.0.1.dist-info/RECORD,,
