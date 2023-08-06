@@ -1,0 +1,11 @@
+autoapi/__init__.py,sha256=4uoLALIOCt4ZrJK1mFr7WtCz0iWg7wEEmtGGgbs44_I,189
+autoapi/generators.py,sha256=krhXYbgr5IeiLQJxuv6qmXjsLqHtHpsXYn8jl1_NbGs,2794
+autoapi/settings.py,sha256=YpoPOEW-7dlsoWPn-IJlqXR_1FH7gbjdIcxvYk4Qil4,174
+autoapi/urls.py,sha256=qthUpbU_TIlfSGjLQKLocr3OY8S3Mt8ISMOBHVskpVc,403
+autoapi/utils.py,sha256=h1UiahzsO-AOIhvCxAOSGFdffILZLNwo7MQLwM5R-Ck,721
+autoapi/views.py,sha256=9_aoLw8zGDjcqw426FbIyBgG8e6MFMdcz6VBR9HHNnw,2589
+djangoautoapi-0.0.1.dist-info/LICENSE.md,sha256=h0esWW0I2si6yK1tkCJW6OjyK3V3B6jAnQ7jmSCGaho,1524
+djangoautoapi-0.0.1.dist-info/METADATA,sha256=Rkie0fgaDGYsG4V0kioNgAyKLhiL-tQmdBCu2U4LDV8,882
+djangoautoapi-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+djangoautoapi-0.0.1.dist-info/top_level.txt,sha256=9bV7ktp0V6rlY6aa6UeZUe2pI04bFIePSekzGW-s2y0,8
+djangoautoapi-0.0.1.dist-info/RECORD,,
