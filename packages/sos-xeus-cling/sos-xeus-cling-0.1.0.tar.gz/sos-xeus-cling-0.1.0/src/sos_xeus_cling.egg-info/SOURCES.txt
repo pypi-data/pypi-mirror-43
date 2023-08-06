@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+src/sos_xeus_cling/__init__.py
+src/sos_xeus_cling/_version.py
+src/sos_xeus_cling/kernel.py
+src/sos_xeus_cling/utils.hpp
+src/sos_xeus_cling.egg-info/PKG-INFO
+src/sos_xeus_cling.egg-info/SOURCES.txt
+src/sos_xeus_cling.egg-info/dependency_links.txt
+src/sos_xeus_cling.egg-info/entry_points.txt
+src/sos_xeus_cling.egg-info/requires.txt
+src/sos_xeus_cling.egg-info/top_level.txt
+test/test_cpp_kernel.py

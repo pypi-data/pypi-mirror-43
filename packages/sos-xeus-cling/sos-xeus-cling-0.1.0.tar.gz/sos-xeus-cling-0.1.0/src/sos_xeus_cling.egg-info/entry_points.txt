@@ -1,0 +1,4 @@
+
+[sos_languages]
+C++14 = sos_xeus_cling.kernel:sos_xeus_cling
+C++17 = sos_xeus_cling.kernel:sos_xeus_cling
