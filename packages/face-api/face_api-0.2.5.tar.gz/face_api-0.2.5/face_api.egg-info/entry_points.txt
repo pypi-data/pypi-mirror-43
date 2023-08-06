@@ -1,0 +1,6 @@
+[console_scripts]
+ex_img2fes = face_api.ex_img2fes:main
+ex_imgs2conf_matrix = face_api.ex_imgs2conf_matrix:main
+gen_imgs = face_api.gen_imgs:main
+help_face_api = face_api.helper:main
+
