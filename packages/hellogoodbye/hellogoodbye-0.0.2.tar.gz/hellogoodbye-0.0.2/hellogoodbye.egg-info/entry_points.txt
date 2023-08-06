@@ -1,0 +1,3 @@
+[console_scripts]
+hellogoodbye = hellogoodbye.__main__:main
+
