@@ -1,0 +1,3 @@
+[console_scripts]
+py_lazy_vin = py_lazy_vin.cli:main
+
