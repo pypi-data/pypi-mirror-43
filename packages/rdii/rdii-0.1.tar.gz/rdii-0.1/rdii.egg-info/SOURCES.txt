@@ -1,0 +1,9 @@
+README.md
+setup.py
+rdii/__init__.py
+rdii/rain.py
+rdii/test_rain.py
+rdii.egg-info/PKG-INFO
+rdii.egg-info/SOURCES.txt
+rdii.egg-info/dependency_links.txt
+rdii.egg-info/top_level.txt
