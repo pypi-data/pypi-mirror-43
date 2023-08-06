@@ -1,0 +1,16 @@
+.gitignore
+.travis.yml
+LICENSE
+README.md
+requirements.txt
+setup.py
+tox.ini
+bfilter/__init__.py
+bfilter/bloomfilter.py
+bfilter/tests.py
+bfilter.egg-info/PKG-INFO
+bfilter.egg-info/SOURCES.txt
+bfilter.egg-info/dependency_links.txt
+bfilter.egg-info/requires.txt
+bfilter.egg-info/top_level.txt
+bfilter.egg-info/zip-safe
