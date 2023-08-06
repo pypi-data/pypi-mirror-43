@@ -1,0 +1,4 @@
+[console_scripts]
+m3u8-video-downloader = m3u8_video_downloader.m3u8_video_downloader:main
+m3u8_video_downloader = m3u8_video_downloader.m3u8_video_downloader:main
+
