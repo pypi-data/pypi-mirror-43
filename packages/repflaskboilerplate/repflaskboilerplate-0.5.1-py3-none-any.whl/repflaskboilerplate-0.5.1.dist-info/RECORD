@@ -1,0 +1,11 @@
+repflaskboilerplate/__init__.py,sha256=4_fFiEe7db3O71dbQX3mZqNFk_8cmrlEuD_ZDR-xxa4,39
+repflaskboilerplate/app_global.py,sha256=skaf6Hz1Klaqd-eHpygstSRk_8NiXaMtuzYjLy4a7BM,257
+repflaskboilerplate/db.py,sha256=lhG1wEC6tlDzJhDNv08WV6cBYjA15R7tiWjaAGSDq_8,5422
+repflaskboilerplate-0.5.1.data/scripts/install,sha256=dKjNMXr7DLV_bwolucoAV_fbG0gQLNN60yTLAXqo1nI,43
+repflaskboilerplate-0.5.1.dist-info/METADATA,sha256=FtsqIV_lvBnqgTmvMuBOOWiy3sj-H4vJ434GBgVxbQM,450
+repflaskboilerplate-0.5.1.dist-info/RECORD,,
+repflaskboilerplate-0.5.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+repflaskboilerplate-0.5.1.dist-info/top_level.txt,sha256=KN9E4f6iQPceQFYzDVkLCH--AXhi54j1rYvpnijmIZk,20
+src/__init__.py,sha256=1_4aE_9yg0xtaaRvDm7dKQKJPnXDJLugqDTTnRZOuFA,73
+src/app_global.py,sha256=skaf6Hz1Klaqd-eHpygstSRk_8NiXaMtuzYjLy4a7BM,257
+src/db.py,sha256=lhG1wEC6tlDzJhDNv08WV6cBYjA15R7tiWjaAGSDq_8,5422
