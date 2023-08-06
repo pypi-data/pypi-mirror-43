@@ -1,0 +1,58 @@
+# commented out code
+
+This library can detect both inline or block commented out code.
+
+It sends rpc to the server which uses LSTM model to predict commented out code.
+The server runs on my school data center, and will be migrated to a private machine.
+
+Only support c/c++ now. More language support is about to come
+
+# How to use
+
+## sample code
+
+```
+text =  '''
+    void DropoutLayer::updateB(){
+    
+        int num = this->numUnit;
+        //cout<<"Error!!!!!!!!!!!!!!!!in DropoutLayer!!!!!!!"<<endl;
+        if (this->z == NULL){ // embeddings
+            // gradB += dE_dy, because y = b
+            iXpY( num , this->dE_dy, gradBiases + bidx );
+    
+            return;
+        }
+    
+        if (fprime != dummy){
+    
+            // dy_dz = f', evaluated at y
+            ( * this->fprime)(this->y, this->dy_dz, num);
+            // dE_dz = dE_dy .* dy_dz
+    
+            pointwise_dot(this->dE_dy, this->dy_dz, this->dE_dz, num);
+            //cout<<"dropout backward"<<endl;
+            for( int i = 0; i < num; ++i){
+    
+                this->dE_dz[i] *= this->indicator[i];
+    
+            }
+    
+        }// else if fprime == softmaxprime{
+            // do nothing, because we assume dE_dz is given by softmax
+    
+        //}
+    
+    //		ReLUPrime(float * y, float * dy_dz, int n);
+    }
+'''
+print(client.search(text, 'cpp')) # return OrderedDict object, key is line_number, value is the commented code itself
+
+# output
+# OrderedDict([(4, 'cout<<"Error!!!!!!!!!!!!!!!!in DropoutLayer!!!!!!!"<<endl;'),
+#             (19, 'cout<<"dropout backward"<<endl;'),
+#             (26, 'else if fprime == softmaxprime{'),
+#             (29, '}'),
+#             (31, 'ReLUPrime(float * y, float * dy_dz, int n);')])
+```
+
