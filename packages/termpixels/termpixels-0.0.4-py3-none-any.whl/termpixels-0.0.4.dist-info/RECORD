@@ -1,0 +1,17 @@
+termpixels/__init__.py,sha256=obhlnzC6aA_8VpSObc6inM48fVo6xyrGQkNg9V9TDOw,42
+termpixels/app.py,sha256=JWdPRhrgTxsIcdIrzINXniBUgchzUpyiDKc5tyLEiyY,1464
+termpixels/color.py,sha256=Blci8ISI6Y64vx3n3LwEiku62iz1gAbriaDGKJIi_Gk,1096
+termpixels/detector.py,sha256=fR5wmJ83fQ_GUfoofOZmjK1QgYuD5P8l-VwQb-j4PXA,391
+termpixels/keys.py,sha256=FH2RXtD3BDhREQ03crZ30tllDY5l-RWZ3kTPPoTvs-U,1437
+termpixels/observable.py,sha256=q9oYyBVxct9WyazR9idlOd6XmRdFMIFg5GCe-KTBeHs,413
+termpixels/screen.py,sha256=PaB3g9HvJKmcbunqJswOS0JsFr5UXGt--89cdUOIQKU,7694
+termpixels/terminfo.py,sha256=UZLZyGj3tlpSCvfKt8rjObjyQt4UkULUdCrfHzjaZ0A,824
+termpixels/test.py,sha256=cQZoPj4fbZDqJiga48AbW2ETgt6xGdFKgz7NbTyAgi8,899
+termpixels/unix.py,sha256=i-VStowArSMjt-dv6GIii0YhpQkj6tvW-Kefw8kdAM0,8886
+termpixels/unix_keys.py,sha256=SaiKks0Gkz_aMmDsFnrXoZ4pPHF2h0d8Mhx4a3L-rE8,3029
+termpixels/win32.py,sha256=i-Ekj_yPh9t2vMrTBOoieeSfq2v0W9YS_tN70iI1KWE,10480
+termpixels-0.0.4.dist-info/LICENSE,sha256=vT6D6i8GRlAU5eE-l2XwbN-W9m_0DARh51CkukFW_6I,1057
+termpixels-0.0.4.dist-info/METADATA,sha256=Ww1Ci_kO8tpAcZ4_orsntOXa8LNBrkuzaAIw18d4TUA,2011
+termpixels-0.0.4.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+termpixels-0.0.4.dist-info/top_level.txt,sha256=6gYr435kPy-ce98rincEt7KCDmtFX-ITyljg6546i9g,11
+termpixels-0.0.4.dist-info/RECORD,,
