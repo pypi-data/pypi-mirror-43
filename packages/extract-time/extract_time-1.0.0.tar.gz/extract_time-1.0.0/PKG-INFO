@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: extract_time
+Version: 1.0.0
+Summary: This module helps you extract hour and minutes from a string in python.
+Home-page: https://github.com/yashiksingh9/extract_time
+Author: YASHIK KUMAR SINGH
+Author-email: yashiksingh@gmail.com
+License: MIT
+Description: mygmap
+        ======
+        
+        A simple time extractor from strings to use for any purpose.
+        Use it to get hours and minutes out of a string in int format for making computation of them readly available.
+        
+        The code is Python 3 compatible.
+        
+        Installation
+        ------------
+        
+        Fast install:
+        
+        ::
+        
+            pip install time_extract
+        
+        For a manual install get this package:
+        
+        ::
+        
+            wget https://github.com/yashiksingh9/extract_time
+            cd mygmap-master
+        
+        Install the package:
+        
+        ::
+        
+            python setup.py install    
+        
+        Example
+        --------
+        
+        .. code:: python
+        
+            from extract_time import extract_time
+            text = "Set my alarm at 2:31 jason"
+        
+            # get hour out of text
+            hour = extract_time.hour(text)
+            print(hour)
+        
+            # get minutes out of text
+            minute = extract_time.minute(text)
+            print(minute)
+            
+        
+        Here is the output:
+        
+            2
+            31
+        
+Keywords: extract time hour minutes string text
+Platform: UNKNOWN
+Classifier: Development Status :: 1
+Classifier: Intended Audience :: Developers and Users
+Classifier: Topic :: Extraction
+Classifier: License :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
