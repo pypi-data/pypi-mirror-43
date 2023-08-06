@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: tmscoring
+Version: 0.3
+Summary: Python implementation of the TMscore program
+Home-page: https://github.com/Dapid/tmscoring
+Author: David Menéndez Hurtado
+Author-email: davidmenhur@gmail.com
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Requires: numpy
+Requires: iminuit
+Requires: biopython
