@@ -1,0 +1,185 @@
+|
+
+The GMU PyPi Template
+---------------------
+
+
+.. image:: birdie_logo_64x96.png
+
+
+https://www.thegmu.com/
+
+:Authors: Mybrid Wonderful, Gregg Yearwood
+:Date: 03/19/2019
+:Support: mybrid@thegmu.com
+:Version: 1.1.0
+
+----
+
+Introduction
+------------
+
+The GMU PyPi template is for developers to install a set of files for starting a Python project at The Gregg & Mybrid Upgrade, Inc. This ``README.rst`` is displayed as help for the Makefile in this directory. The utility of this template is to standardize on various Python project tools and configuration files for new Python projects.
+
+If you are not a developer for The GMU then feel free to clone the git repo and salt-and-pepper to your taste.
+
+::
+
+ git clone https://bitbucket.org/thegmu/thegmu-pypi-template
+
+----
+
+'fun_stuff' Sample Instructions
+-------------------------------
+
+::
+
+ # Create /tmp/fun_stuff sample project
+ # 1. Create a Python3 virtualenv.
+ mkdir -p /tmp/venv
+ python3 -m venv /tmp/venv/py3_fun_stuff
+
+
+ # 3. Activate the Python3 virtualenv.
+ . /tmp/venv/py3_fun_stuff/bin/activate
+
+ # 2. Create an empty Python3 project directory.
+ mkdir -p /tmp/git/fun_stuff
+
+ # 5. Change directory into the empty Python3 project directory.
+ cd  /tmp/git/fun_stuff
+
+ # 4. Install thegmu-pypi-template.
+ # TEST: pip install --index-url https://test.pypi.org/simple/ thegmu-pypi-template
+ pip install thegmu-pypi-template
+
+
+ # 6. Run the install script to install the files into the current directory.
+ thegmu-pypi-template
+
+ # 7. Activate the PYPI environment from directory /tmp/fun_stuff
+ . bin/activate-fun-stuff
+
+ # 8. Validate the fun-stuff configuration by running the following make commands. 
+ make init
+ make test
+ make dist
+ make test-dist
+
+ # 9. Repeat the above for your new project configuration your development environment.
+ #     Follow the same steps above but:
+ #     Replace '/tmp/venv/fun_stuff' with your Python development virtualenv root directory and project name, i.e. "$HOME/venv/py3_my_project".
+ #     Replace '/tmp/git/fun_stuff' with your development source code repository root directory, i.e. "$HOME/workspace/git/my_project".
+ #     Create a new activation file and update the environment variables.
+ #     cp bin/activate-fun-stuff bin/activate-my-projectname
+ #     replace '. bin/activate-fun-stuff' with '. bin/activate-my-projectname'
+
+
+----
+
+Requirements
+------------
+
+#. Encourage Python standards are followed for packaging and source.
+#. Pylint for validating PEP8 standards of code.
+#. Sphinx documentation to integrate with readthedocs.org
+#. Test automation in the dedicated tests directory.
+#. PyPi package deployment.
+#. ReadTheDocs documentation deployment.
+
+
+**Tools**:
+
+#. **autopep8**: pep8 code beautifier
+#. **pylint**: coding standards
+#. **pytest**: test source
+#. **readthedocs.org**: public documentation using sphinx
+#. **sphinx**: html documentation
+#. **tox**: test the source as installed package
+#. **twine**: deploy the package to pypi.org, test.pypi.org
+#. **Makefile**: run the tools
+
+
+**Configuration files**:
+
+#. **.gitignore**: ignore pylint, pytest, tox and build files as well .settings, .project, and .pydevproject directories from Eclipse.
+#. **.pylintrc**: The GMU specific PEP8 suppression.
+
+----
+
+Makefile Options
+----------------
+
+make <option>
+
+_default:
+ Same as help.
+
+clean:
+ Removes Python compiled files, pytest files, and tox test files. 
+ See clean-pyc and clean-tox.
+
+clean-dist:
+ Removes Python packaging files.
+
+clean-docs:
+ Removes sphinx documentation build files. Configuration files are not removed. 
+
+clean-pyc:
+ Removes Python compiled files and pytest files. 
+
+clean-tox: 
+ Removes tox test files. 
+
+dist:
+ Creates source and binary Python packages suitable for PyPi. 
+
+docs-init:
+ Creates the configuration files for sphinx.
+
+docs:
+ Build the the HTML documentation files in docs/_build.
+
+help:
+ Displays this file.
+
+init:
+ #. Install Python tools used by this Makefile.
+ #. Run project-init, see project-init.
+
+pep8:
+    Run ``autopep8`` and update all the project and test files in place with white space changes.
+
+project-init:
+ #. setup.py: NAME, AUTHOR, AUTHOR_EMAIL, URL, SCRIPTS all updated.
+ #. tests/sample_test.py: import of project name updated.
+ #. tox.ini: envlist updated
+
+publish:
+ #. Publish the package to production 'pypi.org'.
+ #. User name and password prompt are given.
+
+publish-test:
+ Publish the package to test 'test-pypi.org'.
+ User name and password prompt are given.
+
+pylint:
+ Run ``pylint`` and output results. No other action is taken. See ``pep8`` option to fix white space problems.
+
+requirements:
+ Python 'pip' packages for the tools.
+
+test:
+ Run the tests from source using pytest.
+
+test-dist:
+ Build the packages and then run the test as packages in temporary Python virtualenv environments.
+
+upgrade:
+ Upgrade Python 'pip' packages for the tools. 
+
+----
+
+    The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself.  Therefore all progress depends on the unreasonable man. --George Bernard Shaw
+
+**The End**
