@@ -1,0 +1,10 @@
+menzalib/__init__.py,sha256=6Em0bRpjUbd9t3vffI_icI0K0wBax62uyHtU1ja72zI,238
+menzalib/analisi_errori.py,sha256=RKAEKMpyQscyoPbm3dp19sbn3NtvK4oF7JPnepnovQ4,8049
+menzalib/errori_strumenti.py,sha256=s0iVoAkQuFjFxiHwjP-WOH--XyaqHLXwCIFx1OjbFA8,3888
+menzalib/funzioni_fit.py,sha256=FHv4645g7nRcbt0DVjJy2RrQQhv7EuKdVl0a8bu5jD8,3281
+menzalib/latex.py,sha256=XQNqhnMfrHFB5KcuWflCQm3HIBaf_y5xKwAiZWVy2r4,3933
+menzalib-0.8.1.dist-info/LICENSE.txt,sha256=hcKnmqqgZ9vrjcUnkZHyWNGcRLd-fZzAVCbCdaRz0Mc,1076
+menzalib-0.8.1.dist-info/METADATA,sha256=mWr8xybD9Ape3x1bQ5xROI5t5Hx1W9J6xb8ywF8bkhU,1675
+menzalib-0.8.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+menzalib-0.8.1.dist-info/top_level.txt,sha256=vx68qBP1VddOvklwGY15aIvD8JoUH9Di4Oe1JfU353Y,9
+menzalib-0.8.1.dist-info/RECORD,,
