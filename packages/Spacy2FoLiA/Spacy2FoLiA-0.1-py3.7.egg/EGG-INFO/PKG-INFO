@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: Spacy2FoLiA
+Version: 0.1
+Summary: Library that adds FoLiA (format for linguistic annotation) support to Spacy
+Home-page: https://proycon.github.io/folia
+Author: Maarten van Gompel
+Author-email: proycon@anaproy.nl
+License: GPL
+Description: Spacy-to-FoliA
+        ===================
+        
+        Convert Spacy output to FoLiA XML Documents
+        
+Keywords: nlp computational_linguistics spacy linguistics toolkit folia
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
