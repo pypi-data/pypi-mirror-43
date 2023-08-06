@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: di2008
+Version: 0.0.1
+Summary: Object-oriented API for DATAQ DI-2008
+Home-page: https://github.com/slightlynybbled/di2008
+Author: Jason R. Jones
+Author-email: slightlynybbled@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial (>=3.4)
+
+# Purpose
+
+To provide an easy-to-use, object-oriented instrument interface for the [DATAQ DI-2008](https://www.dataq.com/products/di-2008/) from within any Python environment.
+
+# Installation
+
+The hardware drivers must be installed before this package may be utilized.  Hardware drivers may be downloaded from the [manufacturer's product page](https://www.dataq.com/products/di-2008/).
+
+Once drivers are installed:
+
+    $> pip install di2008
+
+# Project Status and Future
+
+The objects provided are tested and demonstrated to function well, however, there are still lots of features that have not been implemented.
+
+Items marked out have already been completed.  The list is in approximate order of priority and marked out items have been completed.
+
+ * ~~Implement Analog Scan List~~ complete
+ * ~~Read Thermocouples~~ complete
+ * ~~Read Analog Inputs~~ complete
+ * ~~Read Rate Input~~ complete
+ * Read Event Input
+ * Read Counter Input
+ * Read Digital Input(s)
+ * Write to Digital Outputs
+ * Hardware Synchronization
+
+# Usage
+
+Place device into 'COM' mode:
+
+ 1. Disconnect from USB
+ 2. Wait 5 seconds
+ 3. Connect to USB and press button on side rapidly until LED changes
+
+The device setting is persistent and will not need to be changed again.  You should see a COM port in your device manager with the label `DATAQ DI-2008` when the device is in the appropriate mode.
+
+
