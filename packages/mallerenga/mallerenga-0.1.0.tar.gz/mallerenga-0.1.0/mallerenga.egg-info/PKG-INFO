@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: mallerenga
+Version: 0.1.0
+Summary: Handle Twitter accounts
+Home-page: https://github.com/pybcn/mallerenga
+Author: Ignasi Fosch
+Author-email: natx@y10k.ws
+License: MIT
+Description: # mallerenga
+        
+        Mallerenga is a library to help managing Twitter accounts
+        
+        ## Installation
+        
+        You can install it using `pip install` as usual:
+        ```bash
+        pip install mallerenga
+        ```
+        
+        ## Requirements
+        
+        A Twitter account with consumer key and secret and access token and secret is required.
+        These credentials must be provided in the following environment variables:
+        - `TWITTER_CONSUMER_KEY`: Consumer key
+        - `TWITTER_CONSUMER_SECRET`: Consumer secret
+        - `TWITTER_ACCESS_TOKEN`: Access token
+        - `TWITTER_ACCESS_TOKEN_SECRET`: Access token secret
+        
+        ## Usage
+        
+        ### As a module
+        
+        Mallerenga is intended to be user mostly as a module:
+        ```python
+        from mallerenga.twitter.twitter import Twitter
+        
+        
+        twitter = Twitter()
+        status = twitter.tweet(msg)
+        print(status.link)
+        ```
+        
+        ### As a command
+        
+        To update the Twitter status, use the following command:
+        ```
+        mallerenga New status message
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
