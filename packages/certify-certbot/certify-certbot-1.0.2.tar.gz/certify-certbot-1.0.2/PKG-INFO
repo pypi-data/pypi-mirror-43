@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: certify-certbot
+Version: 1.0.2
+Summary: certbot command wrapper
+Home-page: https://github.com/SiLeader/certify
+Author: SiLeader
+Author-email: sileader.dev@gmail.com
+License: Apache License 2.0
+Description: # certify
+        
+        Copyright 2019 SiLeader and Cerussite.
+        
+        ## abstract
+        command line wrapper for Let's encrypt (certbot).
+        
+        ## features
+        + command line wrappers
+          + get new certificates (`certbot certonly`)
+          + renew certificates (`certbot renew`)
+          + delete certificates (`certbot delete`)
+          + list certificates (`certbot certificates`)
+        + python script interfaces
+        
+        ## license
+        Apache License 2.0
+        
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
