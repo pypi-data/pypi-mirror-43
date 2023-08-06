@@ -1,0 +1,17 @@
+# Dirs
+build/
+doc/build/
+.ropeproject/
+.idea
+
+# File types
+*.pyc
+tables/*.c
+tables/*.so
+
+# specific files
+src/version.h
+
+# Build artifacts
+a.out
+tmp/
