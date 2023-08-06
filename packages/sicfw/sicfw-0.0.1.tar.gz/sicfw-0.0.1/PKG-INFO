@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: sicfw
+Version: 0.0.1
+Summary: Framework for simple interactive console.
+Home-page: https://gitlab.com/kegeppa
+Author: kegeppa
+Author-email: 
+Maintainer: kegeppa
+Maintainer-email: 
+License: MIT
+Description: # Simple Interactive Console Framework
+        Framework for interactive console application.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
