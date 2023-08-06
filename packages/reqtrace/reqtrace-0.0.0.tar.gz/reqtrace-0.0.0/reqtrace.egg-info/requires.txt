@@ -1,0 +1,10 @@
+requests
+httplib2
+magicalimport
+
+[docs]
+
+[googleapi]
+google-api-python-client
+
+[testing]

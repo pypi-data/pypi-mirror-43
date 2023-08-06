@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: reqtrace
+Version: 0.0.0
+Summary: tracing request. (don't use this in production)
+Home-page: https://github.com/podhmo/reqtrace
+Author: podhmo
+Author-email: ababjam61@gmail.com
+License: UNKNOWN
+Description: reqtrace
+        ========================================
+        
+        .. image:: https://travis-ci.org/podhmo/reqtrace.svg?branch=master
+            :target: https://travis-ci.org/podhmo/reqtrace
+        
+        support
+        
+        - requests
+        - httplib2
+        
+        
+        
+        
+Keywords: requests,httplib2,urllib
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Provides-Extra: docs
+Provides-Extra: googleapi
+Provides-Extra: testing
