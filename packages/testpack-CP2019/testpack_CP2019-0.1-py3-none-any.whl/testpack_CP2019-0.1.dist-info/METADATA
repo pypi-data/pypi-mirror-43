@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: testpack-CP2019
+Version: 0.1
+Summary: A docker and AWS utility package
+Home-page: https://github.com/javatechy/dokr
+Author: Deepak Kumar
+Author-email: abc@xyz.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## A test package for testing pip
+
+
+
