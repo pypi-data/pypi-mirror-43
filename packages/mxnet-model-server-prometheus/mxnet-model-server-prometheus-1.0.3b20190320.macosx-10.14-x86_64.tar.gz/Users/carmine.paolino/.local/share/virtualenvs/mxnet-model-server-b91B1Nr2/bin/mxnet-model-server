@@ -1,0 +1,12 @@
+#!/Users/carmine.paolino/.local/share/virtualenvs/mxnet-model-server-b91B1Nr2/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mxnet-model-server-prometheus==1.0.3b20190320','console_scripts','mxnet-model-server'
+__requires__ = 'mxnet-model-server-prometheus==1.0.3b20190320'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('mxnet-model-server-prometheus==1.0.3b20190320', 'console_scripts', 'mxnet-model-server')()
+    )
