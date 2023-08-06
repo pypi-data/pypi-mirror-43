@@ -1,0 +1,8 @@
+soong/__init__.py,sha256=WvtV2iFbn88FBTJQ7B7Na0K6QmILZhbQ1y36YHG1WJw,3132
+soong/dml.py,sha256=lJ5Hohhe3ViW5A5HBSp3GV8oQM2rlzEZvm6-LYgeNl0,3369
+soong/query.py,sha256=5NfGEjoMDZE1fjq90jKTuEKxGG2ZWI2VXdh93jRtj0M,5517
+soong-0.4.1.dist-info/LICENSE,sha256=-YOzOrY1jCrExcEnpSLMjQUaxgpi9L8_Vqqts6icCIM,1067
+soong-0.4.1.dist-info/METADATA,sha256=3hAHPXDb502UcemnPEQr4lM6HwnW7WGVkthQkAVBQx0,6710
+soong-0.4.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+soong-0.4.1.dist-info/top_level.txt,sha256=mnMWbjQJD1b_Ar_T7Y3pgUh9tGMz_5_4miBo18yitUM,6
+soong-0.4.1.dist-info/RECORD,,
