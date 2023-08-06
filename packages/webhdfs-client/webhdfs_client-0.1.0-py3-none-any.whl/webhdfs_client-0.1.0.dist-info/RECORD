@@ -1,0 +1,9 @@
+webhdfs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webhdfs/cli.py,sha256=dSY9zNQ0lI1m1I1-k_VUXE1f9HXMTLbCEVfHtRZrJ3Q,6524
+webhdfs/webhdfs.py,sha256=9aoQgmV_wqKpp25k15GhkDJkPpQ3ecdz1eYtYPx2cnQ,5293
+webhdfs_client-0.1.0.dist-info/LICENSE,sha256=gRIECsUObXLyvkKRTWxrxCLoBPRMGt-i3NXJrKiKfVM,1062
+webhdfs_client-0.1.0.dist-info/METADATA,sha256=p0IV_UFpEx0z1WUaIU76dZ0mojwieOfjzss3ITkTB_c,923
+webhdfs_client-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+webhdfs_client-0.1.0.dist-info/entry_points.txt,sha256=eG-DnD3_I4ma0EcytzW0G29BHOr9h-ieDlMkm3hweAA,49
+webhdfs_client-0.1.0.dist-info/top_level.txt,sha256=HxoVOBQ9Aw_lS8prQyOosRfckvJx8yQkhbqYqaqpbIQ,8
+webhdfs_client-0.1.0.dist-info/RECORD,,

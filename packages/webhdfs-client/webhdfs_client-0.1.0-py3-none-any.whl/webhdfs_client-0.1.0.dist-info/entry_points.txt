@@ -1,0 +1,3 @@
+[console_scripts]
+whdfsc = webhdfs.cli:hdfs_cli
+
