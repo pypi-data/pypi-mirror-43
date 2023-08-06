@@ -1,0 +1,11 @@
+AnkiVim-1.5.3.data/scripts/anki-vim,sha256=BcdEBTq6kH9zscz5lORlPKykyE-8234UW8Ofkkneg4Q,3000
+AnkiVim-1.5.3.dist-info/METADATA,sha256=HNliBvavEcDCbq7CZgHwmHn8K8HRqSTWdvQvkAUsPoM,2920
+AnkiVim-1.5.3.dist-info/RECORD,,
+AnkiVim-1.5.3.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+AnkiVim-1.5.3.dist-info/top_level.txt,sha256=WVcGCX0fGRpGzQPf-LXI50NyD-BfwVcUx6qNbQnznIU,8
+ankivim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankivim/cards.py,sha256=J8vUsdlIC0mFzO9gBpGwhLojMfQhVO0ISfXnDCRL6hU,8239
+ankivim/errors.py,sha256=5BZ6f4_9pUA2Gt1FwvJOIZeyQYsCKCDI9lGbhvRbnIo,122
+ankivim/UltiSnips/anki_vim.snippets,sha256=oJmVtkDQ3F6bmgaNHcumRLwrUIo6toJUzWos1jQcZTg,624
+ankivim/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ankivim/tests/test_cards.py,sha256=A82yo48lfOax79fGvGuM6PoqYvqwRWohxXUbxY6mELs,1917
