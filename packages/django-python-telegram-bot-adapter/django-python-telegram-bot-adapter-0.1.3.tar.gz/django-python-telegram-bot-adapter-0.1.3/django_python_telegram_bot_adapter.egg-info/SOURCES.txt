@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bot_adapter/__init__.py
+bot_adapter/apps.py
+bot_adapter/bot.py
+bot_adapter/urls.py
+bot_adapter/views.py
+django_python_telegram_bot_adapter.egg-info/PKG-INFO
+django_python_telegram_bot_adapter.egg-info/SOURCES.txt
+django_python_telegram_bot_adapter.egg-info/dependency_links.txt
+django_python_telegram_bot_adapter.egg-info/requires.txt
+django_python_telegram_bot_adapter.egg-info/top_level.txt
