@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: pingstats
+Version: 0.9.3
+Summary: Simple ping visualization on the CLI
+Home-page: http://pingstats.readthedocs.io
+Author: Ariana Giroux
+Author-email: ariana.giroux@gmail.com
+License: MIT
+Description: Readme
+        ======
+        
+        ====================
+        Software Description
+        ====================
+        
+        This script provides a simple CLI based ping visualization script by utilizing `hipster plot`_ with customize-able UI views.
+        
+        The software aims to remain lightweight and as os-independent as possible while maintaining ex sensibility throughout the software.
+        
+        ----------------------
+        Why should you use it?
+        ----------------------
+        
+        .. *Right, but why would I use it?*
+        
+        The long and short is that ``pingstats`` provides a simple and stable method to visualize average ping over time from the command line. Aside from that, it provides the following features:
+        
+        - Provides a highly modular dynamic UI layout selector, allowing the user to modify the way the software presents data.
+        
+        - Provides a simple API for implementing unique and new UI behaviour
+        
+        - Automatically resizes and stays aware of viewport size
+        
+        - Stays under a megabyte of total size
+        
+        ============
+        Installation
+        ============
+        
+        Installation has been made easy on any system that implements ``pip3``.
+        ::
+        
+          pip3 install pingstats
+        
+        ----
+        
+        ----------------------
+        Installing from source
+        ----------------------
+        
+        Installing from source can be achieved relatively simply by first cloning the
+        repository and moving into the subsequent directory:
+        ::
+        
+          git clone https://gitlab.com/EclectickMediaSolutions/pingstats.git && cd pingstats
+        
+        
+        .. note:: To checkout the newest, experimental changes ensure you are on the
+                  ``rolling-release`` branch with ``git checkout rolling-release``
+        
+        Once the repository is cloned, you can run the ``setup.py`` script to install
+        the local files:
+        ::
+        
+          python3 setup.py install
+        
+        =====
+        Usage
+        =====
+        
+        This software was implemented with simplicity in mind, and only provides one point of access:
+        ::
+        
+          pingstats google.ca
+        
+        
+        ----------------------
+        Command Line Arguments
+        ----------------------
+        
+        The software also has a variety of command line arguments avaialable:
+        ::
+        
+          usage: pingstats [-h] [-l LAYOUT] [--list-widgets] [-V] address
+        
+          positional arguments:
+            address               The address to ping. This could be either a web
+                                  address (i.e, "google.ca") or an IP address.
+        
+          optional arguments:
+            -h, --help            show this help message and exit
+            -l LAYOUT, --layout LAYOUT
+                                  Specify a UI layout by listing ui elements in a comma
+                                  separated list where
+                                  'realtimepane,progstatus,averagepane' displays the
+                                  default layout. See the docs for more information.
+            --list-widgets        Output a list of available widgets for '-l'
+            -V, --version         show program's version number and exit
+        
+        ===========================
+        Examples of software in use
+        ===========================
+        
+        .. image:: http://i64.tinypic.com/33mv6ud.png
+        
+        
+        In this image, we can see two separate outputs. The top display is a display of the most recent actual return times, whereas the bottom display is the average return time for each sequence.
+        
+        This display automatically scales to whatever window you have open, adding more lines and columns as necessary.
+        
+        
+        =================
+        Running the tests
+        =================
+        
+        To run the tests, clone the repository:
+        ::
+        
+          git clone https://gitlab.com/eclectickmediasolutions/pingstats.git
+        
+        Then simply run:
+        ::
+        
+          python3 setup.py test
+        
+        
+        .. include:: CONTRIBUTION.rst
+        
+        
+        .. _`hipster plot`: https://github.com/imh/hipsterplot
+        .. _PingStats: https://github.com/eclectickmedia/pingstats
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
