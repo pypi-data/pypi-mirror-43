@@ -1,0 +1,15 @@
+dup/BSTestRunner.py,sha256=au252vaQfF7W2pL-2yvkBIkRHgNVFmRz1tHMH6jdQHs,22758
+dup/__init__.py,sha256=SUryH8KKReTieGRwfcN-j3G9icVawcsMRayNxzfWl_A,97
+dup/__version__.py,sha256=CGy2ZaetNaw-nyZXqUxdBOldmC-_7bnYzdgnEtJhMiA,63
+dup/base.py,sha256=n9uGObWNe0YVQLsFAUjHc-DCYrBfV5lck1UMOr1n0-c,8771
+dup/case_tag.py,sha256=KXArxOPBvGVkPmfxzcUttJjxveB2QL22G7saKXfXWRk,178
+dup/log.py,sha256=wMNiShFm1l8S2W8Q9zx8BlH2Vj6HT7BySM12M_7-LpY,805
+dup/runner.py,sha256=-osdsa-pbGuCWO8Ybzm9lJaUt9M7eY85jy653xjgbXI,1785
+dup/setting.py,sha256=j4uViTtczTAIzR7Aw9MVzJIip9AZSMclQftVPZXsT6A,770
+dup/templates/template.html,sha256=QI0SsDeuZcrOqu3tzkJeQ-ZLQgmpvNtxEDVXqqfIlTY,186173
+dup-1.1.3.dist-info/DESCRIPTION.rst,sha256=0g75VICgEbUkvjgf5qCh_3xXHgXWXVaMlEh2bCBYwg4,4644
+dup-1.1.3.dist-info/METADATA,sha256=khb3v01apLhQPWU3BW9QzzMDkka1CfZAhEN_QKVgPl0,5119
+dup-1.1.3.dist-info/RECORD,,
+dup-1.1.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dup-1.1.3.dist-info/metadata.json,sha256=-0aMaNqkSVgkbcdTnEWLoto_my0ekhWDR9sRnxgdCYI,707
+dup-1.1.3.dist-info/top_level.txt,sha256=lN2VArCuCbZM1ah04WXqF_AC9xo-bIjpup86SK389EM,4
