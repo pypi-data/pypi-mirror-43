@@ -1,0 +1,12 @@
+petab/__init__.py,sha256=r0Z2e3Lw70L4GBJdatf5EJP7ywaq1bmQslFMBXumo9Q,167
+petab/core.py,sha256=BDn_OfcNgvp9ISwbBBF9sW7P6bHXeZkTM7JxXzklb7I,29694
+petab/lint.py,sha256=yVbq13fF67Q39z2o6mlRhPgzEqeB_JOIzKrNMb4br08,16460
+petab/petablint.py,sha256=sIHWA2Elnn2PV568CuKcUkFrKomAqcEoIUoLHlGb5xI,4499
+petab/sbml.py,sha256=2inHcqPaFSoTFW7WDJ9ghH3jRb4tI-iSS6u-CVjfF-4,10560
+petab/version.py,sha256=jONp-XURxB5rLuelQwTkiUNdBj_NAlzELuTmCX-taOk,25
+petab-0.0.0a12.dist-info/LICENSE,sha256=5ZeLUymzkXCtj5_8vplwvX3Qqkgb3Q421FqoIhiUHnU,1092
+petab-0.0.0a12.dist-info/METADATA,sha256=MOn_NQXSqQiK_Uyy5y0Ct1Ae0MinrA01DZyUmZ-xcBY,4282
+petab-0.0.0a12.dist-info/WHEEL,sha256=-ZFxwj8mZJPIVcZGLrsQ8UGRcxVAOExzPLVBGR7u7bE,92
+petab-0.0.0a12.dist-info/entry_points.txt,sha256=8Zn11MiiHzdN0c8EC3qI6zihTJdzNIt0onEGvxouKSs,52
+petab-0.0.0a12.dist-info/top_level.txt,sha256=0EAsdFm3CnpHnLDHVGAZZQbn4iHuET8-t6xBOAvnJRc,6
+petab-0.0.0a12.dist-info/RECORD,,
