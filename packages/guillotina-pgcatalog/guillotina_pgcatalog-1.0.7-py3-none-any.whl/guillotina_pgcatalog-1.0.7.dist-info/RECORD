@@ -1,0 +1,13 @@
+guillotina_pgcatalog/__init__.py,sha256=kehsNyZLaQ-jszHXuwJm_7bbMudbsG7PBYQAwIz1wZs,372
+guillotina_pgcatalog/api.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guillotina_pgcatalog/schema.py,sha256=PP07KgYki_B0_tQVX3SEaXFtCT-xqYmtMUtkKgXtA5k,5014
+guillotina_pgcatalog/utility.py,sha256=9J6qgR69zFjtsffqMKgdQFFG3bORwUHeKSL_j_Lmnpo,5065
+guillotina_pgcatalog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guillotina_pgcatalog/tests/conftest.py,sha256=qRC0se1bzCCoPN6iJ8fM5eAFv2VuxySHHSvzt-LcJLQ,97
+guillotina_pgcatalog/tests/fixtures.py,sha256=CFetLAisxcxWPV2CVhNaLXzC8h6N8ogbstISwyriKjg,477
+guillotina_pgcatalog/tests/test_search.py,sha256=IfkzR3ck2Kwa-G7EWTSozNbBNb9eJ2EjyAU7jwR5qf0,972
+guillotina_pgcatalog-1.0.7.dist-info/METADATA,sha256=CtJF67IH5vhw3CwB2RKzSSE0d-vjBoXIoFB4CzUhUtc,2141
+guillotina_pgcatalog-1.0.7.dist-info/RECORD,,
+guillotina_pgcatalog-1.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+guillotina_pgcatalog-1.0.7.dist-info/top_level.txt,sha256=p0OxQlMRGlCWY_hMtV9I1BIkeMqYZbDTUVOY-76iWI8,21
+guillotina_pgcatalog-1.0.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
