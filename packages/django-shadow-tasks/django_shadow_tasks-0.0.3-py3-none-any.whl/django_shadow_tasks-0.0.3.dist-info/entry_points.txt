@@ -1,0 +1,3 @@
+[console_scripts]
+shadow-tasks-consumer = shadow_tasks.consuming.cli_start:execute_from_command_line
+
