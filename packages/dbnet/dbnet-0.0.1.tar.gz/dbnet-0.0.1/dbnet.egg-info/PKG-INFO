@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: dbnet
+Version: 0.0.1
+Summary: DbNet.
+Home-page: https://github.com/flarco/dbnet
+Author: Fritz Larco
+Author-email: flarco@live.com
+License: UNKNOWN
+Download-URL: https://github.com/flarco/dbnet/archive/0.0.1.tar.gz
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: dbnet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Utilities
