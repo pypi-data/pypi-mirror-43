@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+twonkie/__init__.py
+twonkie.egg-info/PKG-INFO
+twonkie.egg-info/SOURCES.txt
+twonkie.egg-info/dependency_links.txt
+twonkie.egg-info/top_level.txt

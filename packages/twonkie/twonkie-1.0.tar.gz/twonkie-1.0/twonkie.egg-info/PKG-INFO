@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: twonkie
+Version: 1.0
+Summary: Slinkie but for Python 2.7
+Home-page: https://gitlab.com/h4xrk1m/slinkie
+Author: Kim Hermansson
+Author-email: contact@segfaultsourcery.com
+License: MIT
+Description: UNKNOWN
+Keywords: twonkie,slinkie,functional
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
