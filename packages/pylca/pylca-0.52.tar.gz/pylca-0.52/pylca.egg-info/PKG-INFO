@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pylca
+Version: 0.52
+Summary: a package for the leaky competing accumulator
+Home-page: https://github.com/qihongl/pylca
+Author: Qihong Lu
+Author-email: lvqihong1992@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: cognitive science
+Platform: UNKNOWN

@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+_config.yml
+setup.py
+example/demo_lca.ipynb
+example/demo_lca.py
+pylca/_LCA_numpy.py
+pylca/__init__.py
+pylca.egg-info/PKG-INFO
+pylca.egg-info/SOURCES.txt
+pylca.egg-info/dependency_links.txt
+pylca.egg-info/not-zip-safe
+pylca.egg-info/requires.txt
+pylca.egg-info/top_level.txt
