@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: python-parsetime
+Version: 2.0.7
+Summary: Parse for at time strings.
+Home-page: https://github.com/jimmyngo/python-parsetime
+Author: Jimmy Ngo
+Author-email: jingo@linkedin.com
+License: Apache License 2.0
+Download-URL: https://github.com/jimmyngo/python-parsetime
+Description: Parsetime is a parser for string in the at
+              time format. It is a light Python wrapper around modified version
+              of parsetime from FreeBSD.
+              
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
