@@ -1,0 +1,3 @@
+[flake8.report]
+vyper_filter = vyper_filter:VyperFilterPlugin
+
