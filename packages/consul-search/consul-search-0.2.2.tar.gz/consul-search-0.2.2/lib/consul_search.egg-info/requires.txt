@@ -1,0 +1,4 @@
+hsettings>=0.1
+python-consul
+colorama
+diskcache
