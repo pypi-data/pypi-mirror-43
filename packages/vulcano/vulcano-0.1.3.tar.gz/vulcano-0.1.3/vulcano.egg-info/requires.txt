@@ -1,0 +1,3 @@
+pyparsing
+pygments
+prompt_toolkit
