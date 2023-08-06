@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+autoapi/__init__.py
+autoapi/generators.py
+autoapi/settings.py
+autoapi/urls.py
+autoapi/utils.py
+autoapi/views.py
+djangoautoapi.egg-info/PKG-INFO
+djangoautoapi.egg-info/SOURCES.txt
+djangoautoapi.egg-info/dependency_links.txt
+djangoautoapi.egg-info/not-zip-safe
+djangoautoapi.egg-info/top_level.txt
