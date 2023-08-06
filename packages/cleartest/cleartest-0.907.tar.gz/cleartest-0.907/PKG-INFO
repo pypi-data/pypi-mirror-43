@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cleartest
+Version: 0.907
+Summary: Lightweight testing framework for Python 3.7 & above and Python 2.7
+Home-page: https://github.com/sbarba/cleartest
+Author: Steve Barba
+Author-email: UNKNOWN
+License: MIT
+Description: See the project's GitHub page for docs: https://github.com/sbarba/cleartest
+Platform: UNKNOWN
