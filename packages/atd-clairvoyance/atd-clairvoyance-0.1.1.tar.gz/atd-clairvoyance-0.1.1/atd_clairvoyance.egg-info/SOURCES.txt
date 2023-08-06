@@ -1,0 +1,5 @@
+setup.py
+atd_clairvoyance.egg-info/PKG-INFO
+atd_clairvoyance.egg-info/SOURCES.txt
+atd_clairvoyance.egg-info/dependency_links.txt
+atd_clairvoyance.egg-info/top_level.txt
