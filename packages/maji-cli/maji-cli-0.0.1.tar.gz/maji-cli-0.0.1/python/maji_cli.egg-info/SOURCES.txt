@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+python/maji_cli.egg-info/PKG-INFO
+python/maji_cli.egg-info/SOURCES.txt
+python/maji_cli.egg-info/dependency_links.txt
+python/maji_cli.egg-info/top_level.txt
+python/majicli/__init__.py

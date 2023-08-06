@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: maji-cli
+Version: 0.0.1
+Summary: Something you wouldn't recognise. It's called love.
+Home-page: https://github.com/ylathouris/maji-cli
+Author: Yani Lathouris
+Author-email: ylathouris@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/ylathouris/maji-cli
+Project-URL: Tracker, https://github.com/ylathouris/maji-cli/issues
+Project-URL: Say Thanks!, http://saythanks.io/to/ylathouris
+Description: 
+        [![CircleCI](https://circleci.com/gh/ylathouris/maji.svg?style=shield)](https://circleci.com/gh/ylathouris/maji)  ![Coverage](coverage.svg)
+        
+        ---
+        
+        # Maji Command Line Interface (CLI)
+        
+        To be continued...
+        
+Keywords: io,load,dump,read,write,parse,format,utils
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
