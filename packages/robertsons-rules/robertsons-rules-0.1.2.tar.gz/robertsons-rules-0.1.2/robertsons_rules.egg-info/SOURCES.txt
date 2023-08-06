@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+robertsons_rules/__init__.py
+robertsons_rules/plotting.py
+robertsons_rules.egg-info/PKG-INFO
+robertsons_rules.egg-info/SOURCES.txt
+robertsons_rules.egg-info/dependency_links.txt
+robertsons_rules.egg-info/requires.txt
+robertsons_rules.egg-info/top_level.txt
+robertsons_rules/fonts/LICENSE.txt
+robertsons_rules/fonts/Roboto-Regular.ttf
