@@ -1,0 +1,9 @@
+README.md
+setup.py
+metalic/__init__.py
+metalic/connection.py
+metalic/metalic.py
+metalic.egg-info/PKG-INFO
+metalic.egg-info/SOURCES.txt
+metalic.egg-info/dependency_links.txt
+metalic.egg-info/top_level.txt

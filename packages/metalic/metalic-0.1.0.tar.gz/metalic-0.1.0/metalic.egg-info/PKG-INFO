@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: metalic
+Version: 0.1.0
+Summary: Metalic is a open source library to create reactive web applications in Sanic.
+Home-page: https://github.com/JakeMakesStuff/Metalic
+Author: JakeMakesStuff
+Author-email: jake@gealer.email
+License: BSD-2-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
