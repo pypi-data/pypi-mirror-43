@@ -1,0 +1,11 @@
+packagr/__init__.py,sha256=jdH9LjlLPqv66qBY9O3ny3JMqJyi1dMLzwCe1NVObBY,97
+packagr/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packagr/commands/admin.py,sha256=PMbQA5SYzIk1GHxR6w_Dt9DWjiaSSughUIEf_Zj286w,7525
+packagr/commands/base.py,sha256=OEpu5Rb5R6aQs_fYyu7e50aMk7iUSfZpznDfW_rm3DE,2376
+packagr/commands/packaging.py,sha256=3TxVKizsBZE7Xt6xDEKMOtLnUXxqEYbLAGr6wDH4rek,3191
+packagr/packagr.py,sha256=sExgRrOPK7iCqTxGYOK-jha7c92xAywsM972eW9GvDo,536
+packagr/utilities.py,sha256=_jAq89L4Tb4r0mwE0MUuS5zNFnlX14bYZjjmCrW-N80,431
+packagr_cli-0.1.1.dist-info/entry_points.txt,sha256=jlwIR8LoE5XDfBaNZUWWIFVdmAo3OPmPRD4mpP8Xa2U,39
+packagr_cli-0.1.1.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+packagr_cli-0.1.1.dist-info/METADATA,sha256=HQexDvuNKSTy49exYTPZQCqPpDdqUSLLd_TnQw1zz-s,7490
+packagr_cli-0.1.1.dist-info/RECORD,,
