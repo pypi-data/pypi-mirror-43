@@ -1,0 +1,3 @@
+[console_scripts]
+momoapi = momoapi.cli:main
+
