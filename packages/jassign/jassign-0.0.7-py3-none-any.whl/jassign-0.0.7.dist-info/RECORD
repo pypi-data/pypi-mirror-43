@@ -1,0 +1,16 @@
+jassign/__init__.py,sha256=lWvFZKZwR3anF0rUw8rpdjvWIvLrFPYoT4f1-_DVg1I,20
+jassign/__main__.py,sha256=mcMa-0Z_OB-0VqZwszeyJ_ANQXEmntgzmggBNvnHC4U,614
+jassign/jassign.py,sha256=XvJqHSc2mwad1bNPE-gfkSG5FhkR09i-MS9xooGq_z0,1447
+jassign/jassign_pdf.py,sha256=DXhqnLKjLVnby6ODXlNBz1S_2RH8sOSIPF27MFGIWhs,536
+jassign/test.tplx,sha256=9U1YGA1kk00xhsFDcpV-OkgV-gzgu3S4AUG099ik8qI,749
+jassign/to_ok.py,sha256=4WL991jGAUTmbxQnu5EI8M8iHGEiWQo2WV2y9iEGSbo,13043
+jassign/to_pdf.py,sha256=Gu3eaJF0-8gR1Gem35C5wU2zZ_8PE2kG4VZEp0IWSa4,7240
+tests/__init__.py,sha256=C-XfGd1wNZywgHowvWm45J9_iVWAj4MkCeeQGG5ZMuM,12
+tests/test_export.py,sha256=b_QhpXt74lEJ23LS7bbcMcDprgHEDL7cdB1-JKJAcY4,772
+tests/test_strip.py,sha256=fKfAV1Qjn14j-5-u-GxTKdZJ87a74nVT_0RFsmabJuc,1303
+jassign-0.0.7.dist-info/LICENSE,sha256=7oPYfWWvfIQiT4vBUtdRHNVNI2YTz8gxK14zKAkOehE,1059
+jassign-0.0.7.dist-info/METADATA,sha256=TWeOjcBxHhO08CeNH8ngEsvR87ttguliPprqmLUugsQ,1776
+jassign-0.0.7.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+jassign-0.0.7.dist-info/entry_points.txt,sha256=6li8IaBCHbL6NOA9Nr32Te03OQqsHNG-5ni2BSYu4j8,89
+jassign-0.0.7.dist-info/top_level.txt,sha256=r2ijPh80iqku9YnTZR5NV50UFJXoEtuRgz9Sf9qpbEg,14
+jassign-0.0.7.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+jassign = jassign.jassign:main
+jassign-pdf = jassign.jassign_pdf:main
+
