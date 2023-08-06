@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: mac-app
+Version: 2019.3.22
+Summary: Mac app generator
+Home-page: https://github.com/looking-for-a-job/mac-app.py
+License: UNKNOWN
+Keywords: app appify
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Requires-Dist: elapsed
+Requires-Dist: exit
+Requires-Dist: growlnotify
+Requires-Dist: mac-say
+Requires-Dist: mdfind
+Requires-Dist: mkalias
+Requires-Dist: public
+Requires-Dist: setuptools
+
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
+[![](https://img.shields.io/pypi/pyversions/mac-app.svg?longCache=True)](https://pypi.org/project/mac-app/)
+
+#### Installation
+```bash
+$ [sudo] pip install mac-app
+```
+
+#### Classes
+class|`__doc__`
+-|-
+`mac_app.App` |Mac app generator
+
+#### Examples
+create app from python file
+```python
+>>> mac_app.App(app_script="file.py", app_name="name").appify().mkalias("~/name.app")
+```
+
+create app from class
+```python
+>>> import mac_app
+>>> class MyApp(mac_app.App):
+        def run(self):
+            pass
+
+    if __name__ == "__main__":
+        MyApp().run()
+```
+
+```python
+>>> MyApp().appify().mkalias("~/MyApp.app")
+```
+
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
+
