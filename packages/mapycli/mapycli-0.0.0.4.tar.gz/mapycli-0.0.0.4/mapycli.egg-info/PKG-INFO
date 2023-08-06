@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mapycli
+Version: 0.0.0.4
+Summary: Python module for client queries to OGC standard web services
+Home-page: https://github.com/Gabriel-Desharnais/Mapycli
+Author: Gabriel Desharnais
+Author-email: gabriel.desharnais@hotmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: OWS OGC WMS WPS WFS WGS mapserver geoserver
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
