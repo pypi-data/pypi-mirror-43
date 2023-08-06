@@ -1,0 +1,8 @@
+README.rst
+setup.py
+structdc/__init__.py
+structdc/const.py
+structdc.egg-info/PKG-INFO
+structdc.egg-info/SOURCES.txt
+structdc.egg-info/dependency_links.txt
+structdc.egg-info/top_level.txt
