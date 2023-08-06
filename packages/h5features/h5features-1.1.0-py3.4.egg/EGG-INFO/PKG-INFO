@@ -1,0 +1,34 @@
+Metadata-Version: 1.0
+Name: h5features
+Version: 1.1.0
+Summary: efficient storage of large features data
+Home-page: https://github.com/mmmaat/h5features
+Author: Thomas Schatz, Mathieu Bernard, Roland Thiolliere
+Author-email: mmathieubernardd@gmail.com
+License: GPLv3
+Description: .. image:: https://readthedocs.org/projects/h5features/badge/?version=latest
+           :target: http://h5features.readthedocs.org/en/latest
+           :alt: Documentation Status
+        
+        .. image:: https://travis-ci.org/mmmaat/h5features.svg?branch=master
+            :target: https://travis-ci.org/mmmaat/h5features
+        
+        ==========
+        h5features
+        ==========
+        
+        The h5features **python package** provides **easy to use** and
+        **efficient** storage of **big features data** to/from the HDF5 binary
+        file format.
+        
+        Install it with::
+        
+          $ python setup.py build && python setup.py install
+        
+        See the complete documentation `online
+        <http://h5features.readthedocs.org/en/latest>`_ or build it with::
+        
+          $ python setup.py sphinx_build
+        
+Keywords: HDF5 h5py features read write
+Platform: UNKNOWN
