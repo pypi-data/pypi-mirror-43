@@ -1,0 +1,15 @@
+mudkip/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+mudkip/__main__.py,sha256=_53yjNSBTdXZ0ZhbwPmeR_6t0io-1jviwK-HqMXBVIo,37
+mudkip/application.py,sha256=CEbeevDEWq2f3hDcNGrKxcij--Sr5XEPyvqFemS8Q1E,6085
+mudkip/cli.py,sha256=OJ5Y37iKR__9j6C3Yw8yQcOn-oo_kh9f81xt_4YiQU4,4744
+mudkip/config.py,sha256=J757vAALq4hPI70I2vC-4www163UpI32jHmJRb_MoIw,2251
+mudkip/errors.py,sha256=sZF1PrU9na1uijRw_dvH2BFAaSXUW1YUwbKzuA8bDCU,39
+mudkip/extension.py,sha256=gUfM4t44yqq8-e_RMsRndnXasOy7lKp2_Sf99j8QX2U,563
+mudkip/preset.py,sha256=2Lh5P734-_IWJhhBc__QftfKkdCwyVA-1cK7q0ekifE,711
+mudkip/server.py,sha256=vXsMzCG6kssQ5PADotzOcoyf7Zx5S1Hh-iQa3SAjPGM,714
+mudkip/watch.py,sha256=fXWKodWbnhqsdlPyg0KTGJYIAas2HR7TaMgq60BGsfc,3768
+mudkip-0.1.4.dist-info/entry_points.txt,sha256=OT03Vy9yPBSBtnRVwtRzYW05OMCyJsrRQvkWwDm-PTo,42
+mudkip-0.1.4.dist-info/LICENSE,sha256=V4S0xScfwt554Y7fZKCbrF1RNsEDQOODiSFXWzMkX68,1073
+mudkip-0.1.4.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+mudkip-0.1.4.dist-info/METADATA,sha256=smMPwaBmfaDfZ1x7wPz_3fBctZP2UalNdZlzkPopeso,1157
+mudkip-0.1.4.dist-info/RECORD,,
