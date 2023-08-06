@@ -1,0 +1,24 @@
+winston:
+  in_memory_db: false
+
+  paths:
+    input: /path/to/folder/with/data/
+    output: /path/to/output/folder
+
+  hits_filtering:
+    len_ratio: 70
+    len_minimum: 100
+
+  coverage_ratio:
+    REGULAR: 1.5
+    CLOSE: 0.04
+
+  threads:
+    multithreading:  true
+    count:   8
+
+  tools:
+    blast:
+      threads: 8
+    bowtie2:
+      threads: 8
