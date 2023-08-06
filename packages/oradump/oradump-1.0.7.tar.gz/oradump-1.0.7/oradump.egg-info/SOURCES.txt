@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+oradump/__init__.py
+oradump/main.sqtmpl
+oradump/oradump.py
+oradump/utils.py
+oradump.egg-info/PKG-INFO
+oradump.egg-info/SOURCES.txt
+oradump.egg-info/dependency_links.txt
+oradump.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+set verify off
+set feedback off
+set echo off
+set termout off
+set term off
+set heading off
+set markup csv on delimiter ';' quote off
+
+whenever sqlerror exit failure;
+alter session set nls_date_format = 'dd.mm.yyyy hh24:mi:ss';
+alter session set optimizer_mode=all_rows;
+alter session set nls_numeric_characters = '. ';
+
+
+spool {}
+
+{}
+
+spool off
