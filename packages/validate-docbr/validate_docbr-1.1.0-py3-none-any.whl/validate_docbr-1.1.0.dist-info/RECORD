@@ -1,0 +1,14 @@
+validate_docbr/BaseDoc.py,sha256=jnOuwZjqjs_jPHXXLTB1iSsxmA_cuYf2QKe92vOwKI8,606
+validate_docbr/CNPJ.py,sha256=cP19a3Z1CzzBvCSlmdjWSwNwlMUzQdflaK3lkHUFP9s,2101
+validate_docbr/CNS.py,sha256=6GNQNv8oz1jDexUJA2GTKw8jzhEeMnQPdq_UoAiKoNE,4005
+validate_docbr/CPF.py,sha256=-WBNtT2K_zCQqS61pfgEFOKhdDFsZZmQ_290TzvpSQE,1677
+validate_docbr/__init__.py,sha256=kqC31NyJ3ipFMWOzH-EaBB9dXCwXq02tnR_UgBZHmBc,94
+validate_docbr/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validate_docbr/test/t_CNPJ.py,sha256=I_r1FXq0oTziPHMPAF_PMEGHRHVnprkRK8cprVjUqNA,141
+validate_docbr/test/t_CNS.py,sha256=SCnPPxq-5l47q-F23obZUXYtespwwYQuboYwrpH8pvs,134
+validate_docbr/test/t_CPF.py,sha256=q7FjJK0ZvQJ19yKgUEU3S_t1PHCcvdW1LgF42v8ygiI,134
+validate_docbr-1.1.0.dist-info/LICENSE,sha256=KLEKUxCGXIvT4gFjcpieHqDcqvtwu2mIW061WKUwloM,29
+validate_docbr-1.1.0.dist-info/METADATA,sha256=e6QkvMLVaCpUH5Qe2CtfxCcC6nUkuYs0_2i-zeKCg8I,1832
+validate_docbr-1.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+validate_docbr-1.1.0.dist-info/top_level.txt,sha256=nHknVjsHltJy48aJ4BBYiy3GIsGexm0gRqiggpMlg20,15
+validate_docbr-1.1.0.dist-info/RECORD,,
