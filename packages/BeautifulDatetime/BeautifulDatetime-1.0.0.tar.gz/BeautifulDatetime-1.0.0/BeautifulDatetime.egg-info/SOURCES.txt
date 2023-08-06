@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+BeautifulDatetime/BeautifulDatetime.py
+BeautifulDatetime/__init__.py
+BeautifulDatetime/__version__.py
+BeautifulDatetime.egg-info/PKG-INFO
+BeautifulDatetime.egg-info/SOURCES.txt
+BeautifulDatetime.egg-info/dependency_links.txt
+BeautifulDatetime.egg-info/top_level.txt

@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: BeautifulDatetime
+Version: 1.0.0
+Summary: 日期时间友好处理小工具。
+Home-page: https://github.com/SombreKnight/BeautifulDatetime
+Author: SombreKnight
+Author-email: 517736825@qq.com
+License: MIT
+Description: 
+        BeautifulDatetime
+        =======================
+        
+        This repo is used for provide a easy way to get some info of datetime's operatione.
+        
+        
+        
+        
+        License
+        -------
+        
+        This is free and unencumbered software released into the public domain.
+        
+        Anyone is free to copy, modify, publish, use, compile, sell, or
+        distribute this software, either in source code form or as a compiled
+        binary, for any purpose, commercial or non-commercial, and by any means.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.0.0
+Description-Content-Type: text/markdown
