@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: api-buddy
+Version: 0.2.1
+Summary: Explore APIs from your console with API Buddy
+Home-page: https://github.com/fonsecapeter/api-buddy
+Author: Peter Fonseca
+Author-email: peter.nfonseca@gmail.com
+Keywords: api_buddy,api-buddy,api,apibuddy,cli,oauth2,terminal
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: PyYAML (==4.2b1)
+Requires-Dist: Pygments (>=2.3,<3.0)
+Requires-Dist: beautifulsoup4 (>=4.7.1,<5.0.0)
+Requires-Dist: colorama (>=0.4.1,<0.5.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: requests-oauthlib (>=1.2.0,<2.0.0)
+Requires-Dist: schema (>=0.6.8,<0.7.0)
+Requires-Dist: yaspin (>=0.14.1,<0.15.0)
+Project-URL: Documentation, https://poetry.eustace.io/docs
+Project-URL: Repository, https://github.com/fonsecapeter/api-buddy
