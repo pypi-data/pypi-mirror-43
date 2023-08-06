@@ -1,0 +1,36 @@
+trio-swagger11 (0.11.0-1) unstable; urgency=medium
+
+  * Major fixes
+  * Versioning by git tags
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 18 Mar 2019 11:23:08 +0100
+
+trio-swagger11 (0.10.1-1) unstable; urgency=medium
+
+  * Small fixes
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 04 Mar 2019 18:23:18 +0100
+
+trio-swagger11 (0.10.0-1) unstable; urgency=medium
+
+  * Renamed, renumbered.
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Mon, 04 Mar 2019 11:25:34 +0100
+
+trio-swagger11 (0.9.1-1) unstable; urgency=medium
+
+  * Minor bug fixes
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Thu, 12 Apr 2018 14:11:52 +0200
+
+trio-swagger11 (0.9.0.1-2) smurf; urgency=medium
+
+  * use Unstable
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Thu, 22 Mar 2018 21:44:26 +0100
+
+trio-swagger11 (0.9.0.1-1) smurf; urgency=low
+
+  * source package automatically created by stdeb 0.8.5
+
+ -- Matthias Urlichs <matthias@urlichs.de>  Thu, 22 Mar 2018 21:15:41 +0100
