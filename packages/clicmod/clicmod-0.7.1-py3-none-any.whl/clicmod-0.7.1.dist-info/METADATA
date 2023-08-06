@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: clicmod
+Version: 0.7.1
+Summary: A command line interface for IPsoft 1Desk content management.
+Home-page: UNKNOWN
+Author: Nick Corso-Passaro
+Author-email: ncpassaro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: pyfiglet
+Requires-Dist: tqdm
+
+1desk-impex
+
+
