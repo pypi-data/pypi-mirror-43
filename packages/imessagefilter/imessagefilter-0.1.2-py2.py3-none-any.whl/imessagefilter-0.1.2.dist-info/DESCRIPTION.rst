@@ -1,0 +1,124 @@
+Copyright (c) 2019 Jondy
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: =================
+         IMessageFilter
+        =================
+        
+        A python package implements interface IMessageFilter for COM.
+        
+        The main purpose is to fix 'Application is Busy' and 'Call was Rejected By Callee' errors in a WINDOWS COM/COM+ client.
+        
+        Here is a workaround
+        
+        https://docs.microsoft.com/en-us/previous-versions/ms228772(v=vs.140)
+        
+        But it's written by C#, this package offers both C and Python versions.
+        
+        Usage
+        -----
+        
+        Install it::
+        
+          pip install imessagefilter
+        
+        Import `CMessageFilter` from `imessagefilter`
+        
+        Call static method `register` at the beginning of automation
+        
+        Call static method `revoke` at the end of work
+        
+        Here it's an example:
+        
+        .. code:: python
+        
+            from comtypes.client import CreateObject
+            from imessagefilter import CMessageFilter
+        
+            def iter_excel_sheets(filename):
+                CMessageFilter.register()
+                aobj = CreateObject('Excel.Application', dynamic=True)
+                aobj.Workbooks.Open(filename)
+                for sheet in aobj.ActiveWorkbook.Worksheets:
+                    print('Processing %s' % sheet.Name)
+                CMessageFilter.revoke()
+        
+        
+        .. note::
+        
+           The interface `IMessageFilter` only works in single-threaded
+           apartments, it will not be called in the multithreaded
+           apartments.
+        
+           Refer to
+           https://docs.microsoft.com/en-us/windows/desktop/com/choosing-the-threading-model
+        
+        Build `msgfilter.dll`
+        ---------------------
+        
+        By visual studio command line::
+        
+            cl /LD msgfilter.c ole32.lib
+        
+        By mingw32 in cygwin::
+        
+            i686-pc-mingw32-gcc -shared -o msgfilter.dll msgfilter.c -lole32 -luuid
+        
+        There are 2 export functions, they can be used in any c file.
+        
+        Here it's an exmaple:
+        
+        .. code:: c
+        
+            #include <stdio.h>
+            #include <objbase.h>
+        
+            extern void register_message_filter();
+            extern void revoke_message_filter();
+        
+            int main(int argc, char* argv[])
+            {
+              HRESULT ret;
+              ret = CoInitializeEx(0, COINIT_APARTMENTTHREADED);
+              register_message_filter();
+        
+              // do something for automation
+        
+              revoke_message_filter();
+              CoUninitialize();
+        
+              return 0;
+            }
+        
+        Change Logs
+        -----------
+        
+        0.1.2
+        ~~~~~
+        * Fix typos
+        
+Keywords: COM IMessageFilter
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
