@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pa11ycrawler
+Version: 1.7.3
+Summary: A Scrapy spider for a11y auditing Open edX installations.
+Home-page: https://github.com/edx/pa11ycrawler
+Author: edX
+Author-email: oscm@edx.org
+License: Apache-2.0
+Description: pa11ycrawler is a Scrapy spider that runs a Pa11y check
+        on every page of an Open edX installation,
+        to audit it for accessibility purposes.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
