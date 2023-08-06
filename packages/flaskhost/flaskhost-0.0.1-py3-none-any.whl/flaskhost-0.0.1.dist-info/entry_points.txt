@@ -1,0 +1,3 @@
+[console_scripts]
+flaskhost = flaskhost.cli:main
+

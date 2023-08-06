@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: flaskhost
+Version: 0.0.1
+Summary: Command Line Interface for https://flaskhost.com/
+Home-page: https://github.com/flaskhost/flaskhost-cli
+Author: Terrel Shumway
+Author-email: ghdev@flaskhost.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+
+# Flask Hosting Made Easy
+
+This project implements a command line interface for interacting with flaskhost.com to deploy flask applications.
+
+
+
+
