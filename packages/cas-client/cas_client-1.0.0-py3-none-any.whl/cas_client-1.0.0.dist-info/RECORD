@@ -1,0 +1,8 @@
+cas_client/__init__.py,sha256=HJgd5ImT1amjFB-pYBcfnANhJCCXqNd_bH28awAlJTI,226
+cas_client/_version.py,sha256=SDrpEIAq3_Z5dR7PDwLFYkQjhIByZ8cgU7KL6MflduY,87
+cas_client/cas_client.py,sha256=-AnDWQtauKgsBt9BB4XFcOSTDU4mfKRw7tUGHjkHJxc,20713
+cas_client-1.0.0.dist-info/LICENSE,sha256=PKrNQgANg9HlCc3wAwj5Oums3fHn2tIt4R4nRdEziAs,1074
+cas_client-1.0.0.dist-info/METADATA,sha256=IG1zFabG9E_ljtMdaSVS83Rp5Fa4TLQCH8keutYNxgQ,3217
+cas_client-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+cas_client-1.0.0.dist-info/top_level.txt,sha256=e3BIAWc0mI-JIPNH4UvpD3EYQM3xlrYD9k0jk_kDk8s,11
+cas_client-1.0.0.dist-info/RECORD,,
