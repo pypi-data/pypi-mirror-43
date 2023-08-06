@@ -1,0 +1,5 @@
+bits-progressbar
+google-api-python-client
+google-cloud-bigquery
+google-cloud-datastore
+oauth2client
