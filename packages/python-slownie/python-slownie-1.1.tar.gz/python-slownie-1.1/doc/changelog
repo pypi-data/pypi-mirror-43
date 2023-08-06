@@ -1,0 +1,27 @@
+python-slownie (1.1) unstable; urgency=low
+
+  * Fix the test suite.
+  * Drop support for Python 2.5 and 3.3.
+  * Stop using to 2to3.
+  * Put license into a separate file.
+  * Add README.
+  * Improve the setup script:
+    + Update long description.
+    + Use distutils644 to normalize source tarball permissions etc.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Sat, 23 Mar 2019 21:46:28 +0100
+
+python-slownie (1.0) unstable; urgency=low
+
+  * Drop support for Python 2.4.
+  * Fix Unicode error when running the setup script against Python 3.X and
+    non-UTF-8 locale.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Thu, 02 Jul 2015 20:00:17 +0200
+
+python-slownie (0.20110225) unstable; urgency=low
+
+  * Use 2to3 in the setup script.
+  * Improve the test suite.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Fri, 25 Feb 2011 13:35:42 +0100
