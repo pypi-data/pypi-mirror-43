@@ -1,0 +1,6 @@
+industry11_090319.py
+setup.py
+industry.egg-info/PKG-INFO
+industry.egg-info/SOURCES.txt
+industry.egg-info/dependency_links.txt
+industry.egg-info/top_level.txt
