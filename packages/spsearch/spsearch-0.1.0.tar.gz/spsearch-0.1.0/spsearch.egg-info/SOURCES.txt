@@ -1,0 +1,8 @@
+README.md
+setup.py
+spsearch/classes.py
+spsearch.egg-info/PKG-INFO
+spsearch.egg-info/SOURCES.txt
+spsearch.egg-info/dependency_links.txt
+spsearch.egg-info/requires.txt
+spsearch.egg-info/top_level.txt
