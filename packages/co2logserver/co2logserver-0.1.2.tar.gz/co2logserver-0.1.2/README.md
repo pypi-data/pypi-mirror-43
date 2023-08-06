@@ -1,0 +1,119 @@
+co2logserver Python package
+===========================
+
+[![Build](https://gitlab.com/tue-umphy/co2mofetten/python3-co2logserver/badges/master/build.svg)](https://gitlab.com/tue-umphy/co2mofetten/python3-co2logserver/commits/master)
+[![Documentation](https://img.shields.io/badge/docs-sphinx-brightgreen.svg)](https://tue-umphy.gitlab.io/co2mofetten/python3-co2logserver/)
+[![Coverage](https://gitlab.com/tue-umphy/co2mofetten/python3-co2logserver/badges/master/coverage.svg)](https://tue-umphy.gitlab.io/co2mofetten/python3-co2logserver/coverage-report)
+[![PyPi](https://badge.fury.io/py/co2logserver.svg)](https://badge.fury.io/py/co2logserver)
+
+This package provides a simple server for logging data.
+
+Documentation
+-------------
+
+You can find detailed documentation of this package [here on on
+Gitlab](https://tue-umphy.gitlab.io/co2mofetten/python3-co2logserver/).
+
+### Local installation
+
+Install this module from the repository root via `pip`:
+
+```bash
+# local user library under ~/.local
+pip3 install --user .
+# also install msgpack support
+pip3 install --user '.[msgpack]'
+# also install OpenSenseMap support
+pip3 install --user '.[opensensemap]'
+```
+
+### Running
+
+#### Development
+
+To run the server in development mode, run after the installation:
+
+```bash
+python3 -m co2logserver
+```
+
+You might want to add the options `-v -t -d`.
+
+#### Production
+
+To run the server in a production environment, use the `gunicorn`
+WSGI-server for example:
+
+```bash
+pip3 install --user gunicon
+```
+
+```bash
+gunicorn co2logserver
+```
+
+#### Configuration
+
+You can always specify the path to a configuration file via the
+`CO2LOGSERVER_CONFIG` environment variable. See the file
+`co2logserver/config_default.py` for default settings.
+
+#### Data Management
+
+To upload data to the server, you may send `POST` requests to the
+`/upload` path:
+
+| Type                           | ``Content-Type``                      | data example                                               |
+|--------------------------------|---------------------------------------|------------------------------------------------------------|
+| JSON                           | ``application/json``                  | ``{"time_utc":[43,23],"co2":[1223,2351]}``                 |
+| CSV                            | ``text/csv``                          | ``time_utc,co2\n43,1223\n23,2351``                         |
+| FORM                           | ``application/x-www-form-urlencoded`` | ``time_utc=43&co2=1223&time_utc=23&co2=2351``              |
+| [MSGPACK](https://msgpack.org) | ``application/msgpack``               | ``82a874696d655f757463922b17a3636f3292cd04c7cd092f`` (HEX) |
+
+
+New data columns are automatically added to the database. Every column
+name is converted to lowercase.
+
+#### Authentication
+
+If you want to control who is allowed to upload data to the server, you
+may use the PSK (pre-shared-key) salting mechanism built into the
+server.
+
+Set `CO2LOGSERVER_UPLOAD_REQUIRES_AUTH=True` and specify one or more PSK salt
+strings, e.g.  `CO2LOGSERVER_CHECKSUM_SALTS = ["my-super-secret-psk"]`.
+
+By default, the server then only accepts requests including at least one header
+field `Content-HASHALGORITHM-Salted` containing the hexadecimal hash of the
+sent payload with the salt appended calculated with HASHALGORITHM (e.g. MD5,
+SHA1, SHA256, etc...).
+
+For example, if you want to upload the JSON data
+`{"time_utc":[43,23],"co2":[1223,2351]}` and your salt string is
+`my-super-secret-psk`, your header field `Content-MD5-Salted` would be
+`b71e91feb2be18ccca019914a1da5b1d` which is the MD5-sum of
+`{"time_utc":[43,23],"co2":[1223,2351]}my-super-secret-psk`.
+
+This is a simple yet effective way of preventing spam uploads.
+
+> #### Security Note
+>
+> Note, however, that communication to the server is still unencrypted (only
+> HTTP, not HTTPS). The reason for this is that embedded devices like Arduinos
+> do not have the capabilities for encrypted web traffic. Thus, the sent data
+> including the checksums can theoretically be intercepted and reused to
+> *reupload the exact same dataset*.
+
+#### OpenSenseMap upload
+
+Using the [sensemapi package](https://pypi.org/project/sensemapi/),
+`co2logserver` is able to redirect uploaded data to the
+[OpenSenseMap](https://opensensemap.org). For this to work, an OpenSenseMap
+account is necessary whose login credentials are set in the `co2logserver`
+configuration. The default configuration takes the credentials from the
+environment variables `SENSEMAP_EMAIL`, `SENSEMAP_USERNAME` and
+`SENSEMAP_PASSWORD`. Also setting `CO2LOGSERVER_OSEM_UPLOAD` to `True` in the
+configuration enables uploaded data to also be redirected to the OpenSenseMap.
+The `config_default.py` contains explanations for further customization
+options.
+
