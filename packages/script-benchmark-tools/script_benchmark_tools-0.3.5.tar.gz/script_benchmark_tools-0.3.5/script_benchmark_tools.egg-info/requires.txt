@@ -1,0 +1,10 @@
+ansi_colours
+terminal_table
+matplotlib
+numpy
+
+[dev]
+check-manifest
+
+[test]
+coverage
