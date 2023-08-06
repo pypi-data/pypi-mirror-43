@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: bibsubset
+Version: 0.0.1
+Summary: Extract bibtex subset
+Home-page: https://hydra.ecd.space/eduard/bibsubset/
+Author: Eduard Christian Dumitrescu
+Author-email: UNKNOWN
+License: LGPLv3
+Description: Have a large bibtex library but you only want to extract the subsets of entries that are needed for a particular paper or project? Then this package is for you!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only

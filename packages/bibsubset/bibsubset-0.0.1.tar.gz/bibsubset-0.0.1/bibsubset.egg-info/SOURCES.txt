@@ -1,0 +1,10 @@
+setup.py
+bibsubset/__init__.py
+bibsubset/bibsubset.py
+bibsubset/version.py
+bibsubset.egg-info/PKG-INFO
+bibsubset.egg-info/SOURCES.txt
+bibsubset.egg-info/dependency_links.txt
+bibsubset.egg-info/entry_points.txt
+bibsubset.egg-info/requires.txt
+bibsubset.egg-info/top_level.txt
