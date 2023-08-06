@@ -1,0 +1,10 @@
+dask_cuda/__init__.py,sha256=dOGwEf_3oEnof0_RFwdXY_rpGAoS0vGdZj0Htp6k50I,49
+dask_cuda/dask_cuda_worker.py,sha256=ZYIM89Ec2lyBYuLX1QbivJ6Jfk6ekmJ267lUKZKrbRA,7730
+dask_cuda/local_cuda_cluster.py,sha256=d9tu4WV7P5oxsKJ4PhyfmIJxrkkS8_y-j1mI4FM1CEY,2395
+dask_cuda/utils.py,sha256=MabSwI0nxRPs22JUJnh9uOKiTaOgsQ4j0SC93pfmNjQ,297
+dask_cuda-0.6.0.dist-info/LICENSE,sha256=MjI3I-EgxfEvZlgjk82rgiFsZqSDXHFETd2QJ89UwDA,11348
+dask_cuda-0.6.0.dist-info/METADATA,sha256=qAik82QSpj3o17VUGT7n4voqCmGQ3IcgT6f6zX5b4O4,1211
+dask_cuda-0.6.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dask_cuda-0.6.0.dist-info/entry_points.txt,sha256=SZtjILulV16fnwZk2to0C-BaSk7r-dy3KdUfQEes4E8,88
+dask_cuda-0.6.0.dist-info/top_level.txt,sha256=YCdoa9Sipe238LFw17vyEP1pbwAI6d9HXYKCZrcn_TU,10
+dask_cuda-0.6.0.dist-info/RECORD,,

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dask-cuda
+Version: 0.6.0
+Summary: Utilities for Dask and CUDA interactions
+Home-page: https://github.com/rapidsai/dask-cuda
+Author: RAPIDS development team
+Author-email: mrocklin@nvidia.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: dask (>=1.1.4)
+Requires-Dist: distributed (>=1.25.2)
+
+Dask CUDA
+=========
+
+Various utilities to improve interoperation between Dask and CUDA-enabled
+systems.
+
+This repository is designed to be a catch-all for Dask and CUDA utilities.
+It is experimental and should not be relied upon.
+
+Currently Includes
+------------------
+
+-   `LocalCUDACluster`: a subclass of `dask.distributed.LocalCluster` that
+    eases deployment on single-node multi-GPU systems.
+
+
+Example
+-------
+
+```python
+from dask_cuda import LocalCUDACluster
+from dask.distributed import Client
+
+cluster = LocalCUDACluster()
+client = Client(cluster)
+```
+
+
