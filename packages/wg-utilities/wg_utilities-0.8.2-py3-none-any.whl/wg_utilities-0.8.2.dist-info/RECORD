@@ -1,0 +1,17 @@
+wg_utilities/__init__.py,sha256=NjultGP--_HYkXKuPg7rdMjwsrFmxhfOnh_KsK29yt4,23
+wg_utilities/database/__init__.py,sha256=Fc4DryaZQbPPHtE2UGkanV8JCob5djfl0y5TbRv5i5Q,51
+wg_utilities/database/_database.py,sha256=V6MiB27x6THG3-8s2Pi8qV2bQnBQwgc5n_APHKGR0wA,9430
+wg_utilities/database/postgresql_manager.py,sha256=3sTEqiD9Yc_iNF5mTIzeYPbLnd2r7X6627otWcwIw8c,1088
+wg_utilities/database/rds_manager.py,sha256=S2m8PHxKY2trGYksrsfd9e1F3e2Gxs5E4Q0FxRerJ2s,4564
+wg_utilities/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wg_utilities/helpers/dict_to_object.py,sha256=FldAI9nZla_XULF3tv4ove_wnQT3LWi-ybp43g32MFw,329
+wg_utilities/helpers/functions.py,sha256=m6DRr2vpaev087EtRICIfQ8EcPHdONCztug1xiVNk3k,3971
+wg_utilities/references/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wg_utilities/references/constants.py,sha256=fySYvGXLnVxbPcs7q1Y5mDs8s_7RCCT0mRu86WjdkUw,850
+wg_utilities/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wg_utilities/services/services.py,sha256=x1umgqiZ3YjBApznGFreNhP_QgprluCucR6IBiDH3Fs,976
+wg_utilities-0.8.2.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+wg_utilities-0.8.2.dist-info/METADATA,sha256=X7ITpoU_HIE2kHq9-fO8Dk5WyfAJF9fpe2oRcls20is,680
+wg_utilities-0.8.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+wg_utilities-0.8.2.dist-info/top_level.txt,sha256=zmTYexWa1UEZnQIsDCiYAQNiSWONJjetKf5IojX1KmY,13
+wg_utilities-0.8.2.dist-info/RECORD,,
