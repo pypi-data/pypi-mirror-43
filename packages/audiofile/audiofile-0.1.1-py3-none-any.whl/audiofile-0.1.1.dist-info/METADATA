@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: audiofile
+Version: 0.1.1
+Summary: audiofile
+Home-page: UNKNOWN
+Author: Hagen Wierstorf
+Author-email: hwierstorf@audeering.com
+License: MIT
+Keywords: audio tools
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy
+Requires-Dist: soundfile
+Requires-Dist: sox
+
+UNKNOWN
+
+
