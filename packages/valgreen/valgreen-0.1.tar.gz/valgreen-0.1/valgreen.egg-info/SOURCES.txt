@@ -1,0 +1,8 @@
+README.rst
+setup.py
+valgreen
+valgreen.egg-info/PKG-INFO
+valgreen.egg-info/SOURCES.txt
+valgreen.egg-info/dependency_links.txt
+valgreen.egg-info/requires.txt
+valgreen.egg-info/top_level.txt
