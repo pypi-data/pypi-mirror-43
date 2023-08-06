@@ -1,0 +1,13 @@
+lettria/__init__.py,sha256=Mht-zY0LBK674LwiMLCmu_Fma-zjGQOpIk44HTMSj4E,119
+lettria/client.py,sha256=Qmq_rfXQrD1xbcnKaxpnWlAYsRpKRbCjg90LG6yO7Bo,1409
+lettria/data.py,sha256=vi-4HwPQdZvLa8-sK2kj0JCzMceg8139YaWDgHwibKQ,423
+lettria/extractClass.py,sha256=x4prVc5UVc0NpsewNXnlsWwOY_tvOs2ljC2N3qzU4Xg,2998
+lettria/sentence.py,sha256=1i8c8xR7YIJ_f8QOfPAzKxhCpJ0WerPOrV7n0nEJ9Tk,1444
+lettria/sharedClass.py,sha256=krENZc1SMKhxuIsSJK-g9pd4SgTTjKtd_wdJnjgo-XU,1110
+lettria/subClasses.py,sha256=SQN1ybCYjN1QMDD8XxjR16oGEF7wppWAH-rh4d6w32Y,1888
+lettria-2.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+lettria-2.0.0.dist-info/METADATA,sha256=RF5BQE52tXF1TvXA46wqBZM8YOp4L6D_VQu9pZI6j7A,362
+lettria-2.0.0.dist-info/RECORD,,
+lettria-2.0.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+lettria-2.0.0.dist-info/metadata.json,sha256=QeOqDBWLX_JF2MNqqcu8_cfjvGTutx3eaz0nhp3bAig,607
+lettria-2.0.0.dist-info/top_level.txt,sha256=PZ-kqX82-rTZ_h_ZKfVTX5__2qawDRc1-8M8EfQgGXY,8
