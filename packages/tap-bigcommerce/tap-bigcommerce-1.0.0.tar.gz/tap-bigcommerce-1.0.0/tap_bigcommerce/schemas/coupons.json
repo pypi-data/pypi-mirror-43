@@ -1,0 +1,81 @@
+{
+  "type": "object",
+  "name": "coupons",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "$ref": "shared/type-integer.json#/"
+    },
+    "name": {
+      "$ref": "shared/type-string.json#/"
+    },
+    "type": {
+      "$ref": "shared/type-string.json#/"
+    },
+    "amount": {
+      "$ref": "shared/type-number.json#/"
+    },
+    "min_purchase": {
+      "$ref": "shared/type-number.json#/"
+    },
+    "expires": {
+      "$ref": "shared/type-datetime.json#/"
+    },
+    "enabled": {
+      "$ref": "shared/type-boolean.json#/"
+    },
+    "code": {
+      "$ref": "shared/type-string.json#/"
+    },
+    "applies_to": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "entity": {
+          "$ref": "shared/type-string.json#/"
+        },
+        "ids": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "shared/type-integer.json#/"
+          }
+        }
+      }
+    },
+    "num_uses": {
+      "$ref": "shared/type-integer.json#/"
+    },
+    "max_uses": {
+      "$ref": "shared/type-integer.json#/"
+    },
+    "max_uses_per_customer": {
+      "$ref": "shared/type-integer.json#/"
+    },
+    "restricted_to": {
+      "type": ["array", "null"],
+      "items": {
+        "type": ["object", "null"],
+        "properties": {
+          "countries": {
+            "type": ["array", "null"],
+            "items": {
+              "$ref": "shared/type-string.json#/"
+            }
+          }
+        }
+      }
+    },
+    "shipping_methods": {
+      "type": ["array", "null"],
+      "items": {
+        "$ref": "shared/type-string.json#/"
+      }
+    },
+    "date_created": {
+      "$ref": "shared/type-datetime.json#/"
+    }
+  }
+}
