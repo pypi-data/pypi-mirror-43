@@ -1,0 +1,11 @@
+rest_framework_friendly_errors/__init__.py,sha256=jsm8nhz6QpnSAfoGEUNB497HIP45qDoZODyTSO-MXLo,222
+rest_framework_friendly_errors/field_map.py,sha256=5TYcfvUiExo_5cw4YgG1KUfSf85bbnPhTkcErEWDSGw,1445
+rest_framework_friendly_errors/handlers.py,sha256=A3lgbz5BqgD6_iFJKzMuN10BA6-54I_Xx9raNGkoLK0,903
+rest_framework_friendly_errors/mixins.py,sha256=sOVGujx7Z9h5TUnYby3jc8yMRN3qhAecTLbWqSKbN6g,11115
+rest_framework_friendly_errors/settings.py,sha256=vgtGYvmPbaLzzpDmL7YskM9BlT01XF67MWvnr_-oIrA,6601
+rest_framework_friendly_errors/utils.py,sha256=CoEWIn-6GqSQ8ukiSyUnC8DTxlyoojdJ7WpS_KdqGKQ,553
+drf_friendly_errors_mod-0.13.4.dist-info/LICENSE,sha256=21nQRjA435pt0rIPUBnS5cYtWcNCTc0U2pwjS2zWN1k,1083
+drf_friendly_errors_mod-0.13.4.dist-info/METADATA,sha256=z6fUwOQDDJfWyUPBIgbVHB0Mlrr48m2IIck-I4D_800,9715
+drf_friendly_errors_mod-0.13.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+drf_friendly_errors_mod-0.13.4.dist-info/top_level.txt,sha256=_l7D9BtFGDw7_laAsmasvkIBYH7tGYQZn3EdlRW__h4,31
+drf_friendly_errors_mod-0.13.4.dist-info/RECORD,,
