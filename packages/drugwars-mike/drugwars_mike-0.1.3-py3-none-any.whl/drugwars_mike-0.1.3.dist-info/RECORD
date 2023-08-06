@@ -1,0 +1,14 @@
+mike/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mike/battle_listener.py,sha256=QvYI0pZZTs0nOtbBFI1vEw1XLb1PFEl3HLKEPbMk8_c,2677
+mike/bot.py,sha256=iAA7SGzbIDm4Q-hbsPGE0N7l4-AZF0H5f7EvHmHRjJs,3679
+mike/client.py,sha256=0Ja2X-qSRcif7-2QtOwxu0vGb1Mg8vYhrOKk_ncqzuw,862
+mike/constants.py,sha256=T_yiXBa8tFtc44T3_cENFCb11eoLvA9WGtzlSOoJ8dI,68
+mike/db.py,sha256=z9GS_qPVHzs9GfNnpTYUprirRFmY4PWy54Dc-sezK1E,2910
+mike/embeds.py,sha256=mFJ6EE2GeGz9xZeMhfe-cmCAhEvggfdHRLHT-ToEQvg,3026
+mike/units.py,sha256=qOXCp9qvVndGMjGTb1ZuifPhrFzk4snPAaLP9j6LTrc,4292
+drugwars_mike-0.1.3.dist-info/LICENSE,sha256=2AkR8d-2DV-jWaEc84GFK7V0N6XpoKAUt87GajW52kE,1069
+drugwars_mike-0.1.3.dist-info/METADATA,sha256=nFsW6zQKydkb3UUzJaHQurZSjOFYh2p3zK8cYrGY0a8,326
+drugwars_mike-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+drugwars_mike-0.1.3.dist-info/entry_points.txt,sha256=BSMdicu5kV5rxRhBJdvaCBhIOitUwxu6XRlJeT0kIWk,40
+drugwars_mike-0.1.3.dist-info/top_level.txt,sha256=HBfQeidi9rqrQQBLV-7BE3dLw_dF1MHWTA_kZHIKISY,5
+drugwars_mike-0.1.3.dist-info/RECORD,,

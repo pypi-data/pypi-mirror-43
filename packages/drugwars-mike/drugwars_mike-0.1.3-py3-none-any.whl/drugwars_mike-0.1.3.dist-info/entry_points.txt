@@ -1,0 +1,3 @@
+[console_scripts]
+mike = mike.bot:main
+
