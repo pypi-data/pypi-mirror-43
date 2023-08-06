@@ -1,0 +1,44 @@
+#!/usr/bin/env python3
+
+import os
+import datetime
+
+from utils import menuConverter
+from utils import menuDownloader
+from utils import menuLinkScraper
+from utils import menuParser
+from utils import menuPrinter
+from utils.exceptions import InvalidDateException
+
+
+tmp_path = '/tmp'
+pdf_path = tmp_path + '/menu.pdf'
+flattened_pdf_path = tmp_path + '/menu_flattened.pdf'
+txt_path = tmp_path + '/menu.txt'
+current_date = datetime.date.today()
+
+
+def prepare_menu():
+    # Scrape link to current menu pdf from meyle website
+    menu_url = menuLinkScraper.get_menu_link()
+
+    # Download menu and get file name
+    menuDownloader.download_menu(menu_url, pdf_path)
+
+    # Convert pdf to txt
+    menuConverter.convert_menu(pdf_path, flattened_pdf_path, txt_path)
+
+    # Return menu
+    return menuParser.parse_menu(txt_path)
+
+
+if __name__ == '__main__':
+    try:
+        menu = menuParser.parse_menu(txt_path)
+        if current_date < menu.valid_from.date or current_date > menu.valid_to.date:
+            raise InvalidDateException
+    except (FileNotFoundError, InvalidDateException):
+        menu = prepare_menu()
+
+    # Print today's menu
+    menuPrinter.print_menu(menu, current_date)
