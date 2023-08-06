@@ -1,0 +1,10 @@
+pyrugga/__init__.py,sha256=A3jR5775MnfTeOVIU8bXxhMv9md56jqLrKhpGIufBqs,223
+pyrugga/lookup.py,sha256=yGGpAqdY_HNGfFPqEGvrGfNm4aWqNdT2hnjaMslUs-s,7484
+pyrugga/match.py,sha256=Hw44WumdzDTRcPY-84SAnh4KAkw3xQA6lmfC1ApQ37Q,28936
+pyrugga/parse_xml.py,sha256=Kgkv5hvttWTlQEYxC3HaEcqlkTGbqPQDV8mroBK5GSA,9862
+pyrugga/profile_team.py,sha256=wTmO7Y4PfIlJKC7uJgNumvBHbzv0RvOlHo_rYzF2PqU,151
+pyrugga-1.0.1.dist-info/LICENSE,sha256=f49I5CZqqP0wM9-qS7f26DpgxuCZ-C1JWbgd6Q5nzY8,34503
+pyrugga-1.0.1.dist-info/METADATA,sha256=UI5rRbX19MA7rmRzpGvYWnbbnDOtrtzKIhqQeYbcyPo,436
+pyrugga-1.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pyrugga-1.0.1.dist-info/top_level.txt,sha256=zRA1AcL2FpNfdRY22bhWsL38yTlH-kRd91c9zfPSn70,8
+pyrugga-1.0.1.dist-info/RECORD,,
