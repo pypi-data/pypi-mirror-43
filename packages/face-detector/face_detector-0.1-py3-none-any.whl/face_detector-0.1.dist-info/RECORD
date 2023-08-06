@@ -1,0 +1,8 @@
+detector_dlib/__init__.py,sha256=jBCxFMI4SW43_oDFLL5u32mMV9VmWQ2f4y9eWn4HtG4,928
+detector_mtcnn/__init__.py,sha256=-YLimtsFx6876Ylgk24TeViNtBdJz7hNNRd82DfG9eE,1823
+detector_mtcnn/mtcnn_aux.py,sha256=aLGUjxo0tcsBcfKFTuXQuhSU2GmQd6F9k8s7C00rXMc,32655
+face_detector-0.1.data/scripts/zlib_install,sha256=EOGVwI1uBUgg2X_w-K0JWAtzEmZklm4a_5QWzXkij34,176
+face_detector-0.1.dist-info/METADATA,sha256=-anFkdn2X770KPFTBL6Q79PhYdWNe9hD4yEBbmG5MeA,2066
+face_detector-0.1.dist-info/RECORD,,
+face_detector-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+face_detector-0.1.dist-info/top_level.txt,sha256=y_GISTFGUMoTvSLKiO0I6wDJkb8EkmwOol-lxxf66eQ,29
