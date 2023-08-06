@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+
+import os
+import readline
+
+from botz.shell import Shell, startup, reset
+from botz.base import cfg
+from botz.kernel import kernel
+
+from koning import __version__
+
+startup()
+
+try:
+    shell = Shell()
+    kernel.start("koning", [shell,], version=__version__)
+    kernel.wait()
+except (KeyboardInterrupt, EOFError):
+    print("")
+
+reset()
+os._exit(0)
