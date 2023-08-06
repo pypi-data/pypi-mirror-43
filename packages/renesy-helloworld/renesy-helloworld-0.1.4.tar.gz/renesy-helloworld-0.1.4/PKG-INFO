@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: renesy-helloworld
+Version: 0.1.4
+Summary: An example program in Python with a multi-stage Docker build
+Home-page: https://github.com/renesy/python-docker-multistage-helloworld
+Author: Robert Sprunk
+Author-email: renesy@users.noreply.github.com
+License: GPLv3
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN

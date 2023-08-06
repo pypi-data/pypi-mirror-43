@@ -1,0 +1,6 @@
+[console_scripts]
+helloworld_in_python = helloworld.main:main
+
+[gui_scripts]
+
+
