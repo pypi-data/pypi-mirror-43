@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: MorphIO
+Version: 2.0.7
+Summary: A neuron morphology IO library
+Home-page: https://github.com/BlueBrain/MorphIO/
+Author: NSE Team - Blue Brain Project
+Author-email: bbp-ou-nse@groupes.epfl.ch
+License: BBP-internal-confidential
+Description: UNKNOWN
+Keywords: computational neuroscience,morphology,neuronneurolucidaneuromorphology
+Platform: UNKNOWN
