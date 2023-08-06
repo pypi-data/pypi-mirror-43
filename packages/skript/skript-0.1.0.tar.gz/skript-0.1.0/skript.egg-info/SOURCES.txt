@@ -1,0 +1,13 @@
+README.md
+setup.py
+scripts/skript
+skript/__init__.py
+skript/audio.py
+skript/markdown.py
+skript/output.py
+skript/script.py
+skript.egg-info/PKG-INFO
+skript.egg-info/SOURCES.txt
+skript.egg-info/dependency_links.txt
+skript.egg-info/requires.txt
+skript.egg-info/top_level.txt

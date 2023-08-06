@@ -1,0 +1,100 @@
+#!/usr/bin/python3
+import argparse
+import hashlib
+import os
+import shutil
+
+from skript.audio import (convert_string_to_wav, export_audio_files,
+                          format_duration, get_duration, merge_audio_files)
+from skript.markdown import extract_script
+from skript.output import print_text, print_title
+from skript.script import export_script
+
+__version__ = '0.1.0'
+__program__ = 'skript'
+
+BUILD_DIRECTORY = '.skript'
+
+
+def main(args):
+    print_title('{} {}'.format(__program__, __version__), '=')
+
+    if args.clean_cache:
+        shutil.rmtree(BUILD_DIRECTORY)
+
+    if not os.path.exists(BUILD_DIRECTORY):
+        os.makedirs(BUILD_DIRECTORY)
+
+    script_file_output = ''
+    audio_files = []
+    duration_total = 0
+
+    content = args.markdown.read()
+    script_parts = extract_script(content)
+
+    for script_part in script_parts:
+
+        h = hashlib.sha256()
+        h.update(script_part.encode('utf-8'))
+        h.update(args.language.encode('utf-8'))
+        audio_file_name = '{}/{}.wav'.format(BUILD_DIRECTORY, h.hexdigest())
+        audio_files.append(audio_file_name)
+
+        if not os.path.isfile(audio_file_name):
+            convert_string_to_wav(
+                script_part,
+                audio_file_name,
+                lang=args.language,
+                tempo=args.tempo)
+
+        duration = get_duration(audio_file_name)
+        duration_total += duration
+        print_text(script_part)
+        print_title(
+            '{} ({})'.format(
+                format_duration(duration), format_duration(duration_total)),
+            before='[',
+            after=']')
+
+        script_file_output += script_part
+
+    audio_file_output = merge_audio_files(audio_files)
+
+    script_output = '{}.txt'.format(args.output)
+    export_script(script_output, script_file_output)
+    print_text('Script file saved in \'{}\''.format(script_output))
+
+    audio_output = '{}.wav'.format(args.output)
+    export_audio_files(audio_output, audio_file_output)
+    print_text('Audio file saved in \'{}\''.format(audio_output))
+
+
+if __name__ == '__main__':
+
+    try:
+        parser = argparse.ArgumentParser(prog='grammalecte', add_help=False)
+        parser.add_argument(
+            'markdown', help='File', type=argparse.FileType('r'))
+        parser.add_argument(
+            '-h',
+            '--help',
+            action='help',
+            default=argparse.SUPPRESS,
+            help='Show this help message and exit.')
+        parser.add_argument(
+            '-l',
+            '--language',
+            help='Language selected',
+            default='fr',
+            type=str)
+        parser.add_argument(
+            '-o', '--output', help='Output file', default='output', type=str)
+        parser.add_argument(
+            '-t', '--tempo', help='Tempo selected', default=1.35, type=float)
+        parser.add_argument(
+            '--clean-cache', help='Clean the cache', action='store_true')
+        args = parser.parse_args()
+        main(args)
+
+    except (KeyboardInterrupt, SystemExit):
+        pass
