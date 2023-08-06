@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: pump.model.JDRX
+Version: 0.0.2
+Summary: Pump package
+Home-page: https://github.com/pypa/sampleproject
+Author: JDRX_LiYuBao
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a pump package.
+
