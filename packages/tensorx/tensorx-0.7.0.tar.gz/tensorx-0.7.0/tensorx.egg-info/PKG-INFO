@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: tensorx
+Version: 0.7.0
+Summary: TensorX is a minimalistic utility library to build neural network models in TensorFlow
+Home-page: https://github.com/davidenunes/tensorx
+Author: Davide Nunes
+Author-email: mail@davidenunes.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
