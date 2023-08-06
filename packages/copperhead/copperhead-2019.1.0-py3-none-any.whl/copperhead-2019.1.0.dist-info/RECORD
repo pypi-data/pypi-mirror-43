@@ -1,0 +1,14 @@
+copperhead/__init__.py,sha256=hYpK6rHfQxpjkHDPrZuBSgL_mXjyN2bSyn2l3HFvyrs,59
+copperhead/__version__.py,sha256=F2TbqlO6ChsHQOLLieI2TPKR5Wjj8jUga8XEW0HRcs8,210
+copperhead/codewrapper.py,sha256=oQ6-avAb3IgCHCQ4EAuKc2j7MorN8nA9tMmrFLjFaeg,9801
+copperhead/copperhead.py,sha256=PpvUNbUkYTkl5xO4Lba7Ebl3PGaR1ci4msJXMIngbUA,2195
+copperhead/default_config.py,sha256=D3KgvyfRHKlp8CSPvsajLnosXal6hEH3Au-PnXAcoUw,62
+copperhead/setupgenerator.py,sha256=1D64HWqLhKUEaJXH2AbbKf6gccz0VHxv11ZjkdSHMxw,289
+copperhead/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copperhead/templates/basic_setup.py,sha256=Uj2IhVw0mtwrFJJ7n6O26yG5O6xCqyYN5hWBoM7BFUk,376
+copperhead/templates/basic_wrapper.py,sha256=tGt2zEujsVu9t6KJQ_vY3tJNI6EJHFH79l6TCZxassI,1475
+copperhead-2019.1.0.dist-info/LICENSE.md,sha256=ImgpU6KYqjT3fIkzJd2napNnsG4XDuHsLZQ6_MUvO1A,1070
+copperhead-2019.1.0.dist-info/METADATA,sha256=9f4rJjufBhZzHOY1HuwVJ1sGMns_ZyO8dXWAnRwPDcg,243
+copperhead-2019.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+copperhead-2019.1.0.dist-info/top_level.txt,sha256=-5cCbYmR-XPTuftJUbsBcoMjyoQYG8cQRxEVNEAT3Is,11
+copperhead-2019.1.0.dist-info/RECORD,,
