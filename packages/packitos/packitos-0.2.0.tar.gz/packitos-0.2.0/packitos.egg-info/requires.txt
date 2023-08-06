@@ -1,0 +1,13 @@
+GitPython
+PyGithub
+fedmsg
+libpagure
+click
+anymarkup
+jsonschema
+ogr
+rebasehelper
+munch
+
+[testing]
+pytest
