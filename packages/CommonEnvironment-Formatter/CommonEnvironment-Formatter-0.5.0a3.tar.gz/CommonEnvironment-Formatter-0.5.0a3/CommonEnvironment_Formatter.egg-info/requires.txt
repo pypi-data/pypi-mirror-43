@@ -1,0 +1,2 @@
+CommonEnvironment>=1.0.5
+black>=18.9.b0

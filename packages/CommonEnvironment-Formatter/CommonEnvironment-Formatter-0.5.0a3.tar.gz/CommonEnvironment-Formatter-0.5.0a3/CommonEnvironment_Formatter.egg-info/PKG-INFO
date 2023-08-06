@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: CommonEnvironment-Formatter
+Version: 0.5.0a3
+Summary: Formats Python code using Black (https://github.com/ambv/black) plus enhancements.
+Home-page: https://github.com/davidbrownell/Common_Environment_v3
+Author: David Brownell
+Author-email: pypi@DavidBrownell.com
+License: Boost Software License
+Project-URL: Bug Tracker, https://github.com/davidbrownell/Common_Environment_v3/issues
+Description: Formats Python code using Black (https://github.com/ambv/black) plus enhancements:
+        
+        - Aligns assignments within a block
+        - Aligns trailing comments within a block
+        - Ensures that all line-delimied parameters and arguments include a trailing comma
+        - Reverts splits for empty parens
+        - Fine-grained control over line splitting for:
+            * parameters
+            * arguments
+            * list items
+            * dict items
+            * tuple items
+        - Fixes inconsitencies with textwrap.dedent and multiline strings
+        
+Keywords: Python,Library,Development,Foundation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

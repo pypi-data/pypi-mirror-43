@@ -1,0 +1,3 @@
+[console_scripts]
+Formatter = CommonEnvironment_Formatter
+
