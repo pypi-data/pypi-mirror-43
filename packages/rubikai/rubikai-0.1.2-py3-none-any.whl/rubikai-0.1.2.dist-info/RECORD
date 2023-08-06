@@ -1,0 +1,12 @@
+rubikai/__init__.py,sha256=ilCK7VOmck3VCvf2zsBJsjEcvZQz6LQPRb2bbjVPb6M,336
+rubikai/cube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rubikai/cube/cube.py,sha256=OTR10N87fLw5VwRHqUTo-ahnXoyNZfYXrIqOrIyFS6k,11779
+rubikai/solver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rubikai/solver/learning.py,sha256=FI297rqF9VeWoI3vqN_RfIvCh1V307wD22H6ThYTy8s,2176
+rubikai/solver/search.py,sha256=Rj-TLdoaz_y8RSwwtYQ7IlMaz5CFg5NMijoerVVAO-w,5269
+rubikai/solver/solver.py,sha256=ND0QFUiRZDv_xBleKnxLUaYJ2YvgPqvRNO-y5Yi8geo,7980
+rubikai/solver/util.py,sha256=kd9tgvA7KC9QGdw0t6byxiAlUO0PNtJccm7xBOkjHN8,3415
+rubikai-0.1.2.dist-info/METADATA,sha256=RBzIAab7lUGZcTDWOIuo1jxJXCVsAjIfIp5ikXVMq-s,465
+rubikai-0.1.2.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+rubikai-0.1.2.dist-info/top_level.txt,sha256=z4Dd5BYoNjH1Kwxdw5Rl7IlcWgWj6robCDab-m9V6ZQ,8
+rubikai-0.1.2.dist-info/RECORD,,
