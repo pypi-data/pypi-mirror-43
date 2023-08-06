@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: textle
+Version: 0.1
+Summary: A build tool to assist in managing document creation pipelines.
+Home-page: https://github.com/mincrmatt12/textle
+Author: Matthew Mirvish
+Author-email: matthew@mm12.xyz
+License: MIT
+Project-URL: Bug Tracker, https://github.com/mincrmatt12/textle/issues
+Project-URL: Source Code, https://github.com/mincrmatt12/textle
+Project-URL: Documentation, https://textle.readthedocs.io
+Description: UNKNOWN
+Keywords: latex pandoc automation tool cli click pipeline
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Environment :: Console

@@ -1,0 +1,6 @@
+click
+colorama
+mkdocs==1.0.4
+setuptools
+lark-parser
+watchdog
