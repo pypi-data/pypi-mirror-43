@@ -1,0 +1,13 @@
+parallelic/__init__.py,sha256=1Yp-4f8TSnhzDz65vTYgrf5JER9lT0vSt3o2RwOPpvs,432
+parallelic/__main__.py,sha256=09vApNmNJn4Mv3mmhu1tT38xiR170pLjdkP75IEM2HU,36
+parallelic/manager/__init__.py,sha256=YWwWlGoUc6eMyDJtvhYXOpsPR7S26vOo3s8V-XBoW8g,61
+parallelic/manager/distrib.py,sha256=tiAjlCJcOkDKapWCcJSZp3KaZT1-QBjnt0EUaaOsuBA,742
+parallelic/runner/__init__.py,sha256=YWwWlGoUc6eMyDJtvhYXOpsPR7S26vOo3s8V-XBoW8g,61
+parallelic/runner/recv.py,sha256=nHU72mXQpltwqgr6ip9nWJEwlAR9YAC94cYbwHjIDZU,371
+parallelic/util/parser.py,sha256=C65Mycrr0RiZPlkW27D8xQkI42LTqp30Mm25IbjTcGk,265
+parallelic/util/utils.py,sha256=8NdYUj6MZmvE9xNEhyB_bEctuKTpi_LkKDl-xKQ3zA8,141
+parallelic-0.1.3.dist-info/entry_points.txt,sha256=Xbn7h_CO4q-_c5YZ7EO5S9_Kegty71IJsD8m3V-0FQY,46
+parallelic-0.1.3.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+parallelic-0.1.3.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+parallelic-0.1.3.dist-info/METADATA,sha256=bY-S-W0ps_WF7effd6YbgaaRAxLTQLmQ5YhlLXN8s6E,3176
+parallelic-0.1.3.dist-info/RECORD,,
