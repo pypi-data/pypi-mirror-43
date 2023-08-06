@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyabst
+Version: 0.0.2
+Summary: A library which generates text summaries allowing users to weight significant or insignificant target words.
+Home-page: https://github.com/joshuadavidwood
+Author: Joshua David Wood
+Author-email: pyaugment@gmail.com
+License: UNKNOWN
+Description: # PyAbst
+        
+        
+        PyAbst is a library developed to summarise text. The PyAbst algorithm ranks words according by word frequency. Each sentence is scored through summing associated word frequencies across the sentence. PyAbst allows users to amplify or suppress the weighting for specific target words. If the target word weighting is defined sufficiantly high (or low), sentences containing the target words will always be present (or absent). An interactive An interactive web-application is currently being developed and will be available shortly at [www.pyabst.com](www.pyabst.com).
+        <br>
+        
+        #### Contact Details
+        [pyaugment@gmail.com](pyaugment@gmail.com)
+        
+        #### Installation
+        You can install, upgrade, uninstall PyAbs using these commands:
+        
+        1. `$ sudo pip install pyabst`
+        2. `$ sudo pip install --upgrade pyabst`
+        3. `$ sudo pip uninstall pyabst`
+        
+        #### Example Usage
+        Work in progress.
+        
+        #### Frequently Asked Questions
+        Work in progress.
+        
+        #### Troubleshooting
+        Work in progress.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
