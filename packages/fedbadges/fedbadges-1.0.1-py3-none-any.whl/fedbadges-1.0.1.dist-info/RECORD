@@ -1,0 +1,11 @@
+fedbadges/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fedbadges/commands.py,sha256=ReZhcwbYgNfBfpa9Ce_sV3aMPLFcbVzxs4JNvAKdhPA,1028
+fedbadges/consumers.py,sha256=RY2INoshEl91aA7pLVVS08YF-UnsNCFp54ISgGtpNtQ,9090
+fedbadges/rules.py,sha256=Hj_jG0E-iI_vTg78L_1htoODushzkkpuDiN-xjAWjEg,17525
+fedbadges/utils.py,sha256=98fKgZ6Et_sdhclZ_vY-q_4KBZOHDsZg-SSdUK8TgN8,3534
+fedbadges-1.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+fedbadges-1.0.1.dist-info/METADATA,sha256=vF3gc64cmv8LMmu9ne8hvI9Sr9CJD2wr9FYjHL-sVdU,11691
+fedbadges-1.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fedbadges-1.0.1.dist-info/entry_points.txt,sha256=FZVi285Ox3EU0C0PJuu5fMZKi11FFwawDVKPDNtKV8w,137
+fedbadges-1.0.1.dist-info/top_level.txt,sha256=BXzq5xPeIGdKfwcNNGcWg6kzTm_8qRbbnmHROcM1P4c,10
+fedbadges-1.0.1.dist-info/RECORD,,
