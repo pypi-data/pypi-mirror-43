@@ -1,0 +1,2 @@
+class ContextKeyMissing(Exception):
+    pass
