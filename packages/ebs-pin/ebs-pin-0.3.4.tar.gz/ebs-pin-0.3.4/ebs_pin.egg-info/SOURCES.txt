@@ -1,0 +1,11 @@
+ebs-pin
+setup.py
+ebs_pin.egg-info/PKG-INFO
+ebs_pin.egg-info/SOURCES.txt
+ebs_pin.egg-info/dependency_links.txt
+ebs_pin.egg-info/requires.txt
+ebs_pin.egg-info/top_level.txt
+ebspin/__init__.py
+ebspin/base.py
+ebspin/configuration.py
+ebspin/ec2.py
