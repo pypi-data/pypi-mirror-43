@@ -1,0 +1,6 @@
+openpifpaf>=0.2.2
+databench
+
+[test]
+pylint
+pytest
