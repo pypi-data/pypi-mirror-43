@@ -1,0 +1,12 @@
+dialects/__init__.py,sha256=sEGL-0GMfJaAyfSGV0BZjFUKCGOhfES_Gmq6aWDMN4c,136
+dialects/activate.py,sha256=Fe27zxpcU4HKAZIfS321Dt9vDFpr4pYtGt-vqx62OPI,535
+dialects/importer.py,sha256=VFf4t60OeBPllgrf1CnWkppqsNmzL7qjuoqUqQcm2WQ,10536
+dialects/util.py,sha256=d-VNcUD0-aHIewYEuvAruBM-dqXhGX9RgR-ONYVqVOY,3903
+lispython/__init__.py,sha256=3fqH3fPI51eMaXwxqVBsAo2fPU4z8QIscl7ofyA6Mic,1536
+pydialect-0.1.0.data/data/LICENSE.md,sha256=Dvz1XV97NNv-gzxi5ss-5oRF9WCC6zIE7fdk1wMQAgY,1329
+pydialect-0.1.0.data/data/README.md,sha256=E4-eHhZ-CT5n9epHffEG3ex592vD6Pi6NiURS4pq1Xk,14705
+pydialect-0.1.0.data/scripts/pydialect,sha256=4jqgfc11GBiJYXY5SGLZWrTeBTy2XpvPC0WBfPj-MG0,8666
+pydialect-0.1.0.dist-info/METADATA,sha256=-DfVoe2GgbiVi8hQBYMynXmZxEF36ub4sHFah1zJ5N8,3409
+pydialect-0.1.0.dist-info/RECORD,,
+pydialect-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pydialect-0.1.0.dist-info/top_level.txt,sha256=TJAlOUn3S5XuzWDgGYneyx-YII_122P6UPwWkOgPjmc,19
