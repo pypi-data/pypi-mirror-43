@@ -1,0 +1,11 @@
+CHANGELOG.txt
+COPYING.txt
+MANIFEST.in
+README.txt
+setup.py
+RPiMCP23S17/MCP23S17.py
+RPiMCP23S17/__init__.py
+RPiMCP23S17.egg-info/PKG-INFO
+RPiMCP23S17.egg-info/SOURCES.txt
+RPiMCP23S17.egg-info/dependency_links.txt
+RPiMCP23S17.egg-info/top_level.txt
