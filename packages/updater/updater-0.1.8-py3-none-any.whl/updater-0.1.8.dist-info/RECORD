@@ -1,0 +1,8 @@
+check_version.py,sha256=l1oxrn2R9WadCCa05xmmIMxpTBXP0r_5Axe8RGOxrd0,4977
+updater/__init__.py,sha256=y9KsTfcJ4MYXFeiWRizY6DPbrNrGQQam6DLHC5uXHTk,290
+updater/components.py,sha256=9chBi6VSsDSDqPR3lVkAgTSAQD1sYuWQrmqNwoFzP_M,14091
+updater-0.1.8.dist-info/METADATA,sha256=DoFcMQjRqTZp8Phz3CNEO7QxM1nZdeXhn-ecAtYVycM,3603
+updater-0.1.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+updater-0.1.8.dist-info/entry_points.txt,sha256=7NxOgQMa_BmJ7RhJ8xcURQY8URLYCDKsjt-M-j9VOJ4,65
+updater-0.1.8.dist-info/top_level.txt,sha256=jfTPc75_sDp-f2E72vs5uAlDZ0AyB3QaYvleMkDbBV8,22
+updater-0.1.8.dist-info/RECORD,,
