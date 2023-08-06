@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+scrapy_mongoengine_item/__init__.py
+scrapy_mongoengine_item.egg-info/PKG-INFO
+scrapy_mongoengine_item.egg-info/SOURCES.txt
+scrapy_mongoengine_item.egg-info/dependency_links.txt
+scrapy_mongoengine_item.egg-info/not-zip-safe
+scrapy_mongoengine_item.egg-info/requires.txt
+scrapy_mongoengine_item.egg-info/top_level.txt
