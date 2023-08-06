@@ -1,0 +1,5 @@
+Django<=2.1
+django-settings-toml>=0.0.3
+postorius
+hyperkitty
+whoosh

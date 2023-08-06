@@ -1,0 +1,27 @@
+# mailman-web.toml
+
+BASE_DIR = '/var/lib/mailman3'
+
+SECRET_KEY = 'This a very secrety key that should be changed.'
+
+ADMINS = [
+['Mailman Suite Admin', 'root@localhost'],
+]
+
+# Application definition
+INSTALLED_APPS = [
+'django.contrib.admin',
+'django.contrib.auth',
+'django.contrib.contenttypes',
+'django.contrib.sessions',
+'django.contrib.sites',
+'django.contrib.messages',
+'django.contrib.staticfiles',
+'rest_framework',
+'django_q',
+'allauth',
+]
+
+[DATABASES.default]
+ENGINE = 'django.db.backends.sqlite3'
+NAME = 'mailmanweb.db'
