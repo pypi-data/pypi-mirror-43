@@ -1,0 +1,9 @@
+README.md
+setup.py
+chrisvis/__init__.py
+chrisvis/chrisvis.py
+chrisvis.egg-info/PKG-INFO
+chrisvis.egg-info/SOURCES.txt
+chrisvis.egg-info/dependency_links.txt
+chrisvis.egg-info/not-zip-safe
+chrisvis.egg-info/top_level.txt
