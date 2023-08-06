@@ -1,0 +1,7 @@
+README.md
+setup.py
+NuEdit.egg-info/PKG-INFO
+NuEdit.egg-info/SOURCES.txt
+NuEdit.egg-info/dependency_links.txt
+NuEdit.egg-info/top_level.txt
+nuedit/__init__.py

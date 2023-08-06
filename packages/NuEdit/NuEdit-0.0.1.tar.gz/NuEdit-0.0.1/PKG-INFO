@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: NuEdit
+Version: 0.0.1
+Summary: NuEdit a TUI ontop of Xi
+Home-page: https://github.com/NicolaiSoeborg/pyxit
+Author: Nicolai Søborg
+Author-email: nuedit-pip@xn--sb-lka.org
+License: UNKNOWN
+Description: Coming soon
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Editors
+Description-Content-Type: text/markdown
