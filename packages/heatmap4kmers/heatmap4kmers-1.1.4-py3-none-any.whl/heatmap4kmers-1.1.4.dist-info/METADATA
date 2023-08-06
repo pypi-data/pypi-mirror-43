@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: heatmap4kmers
+Version: 1.1.4
+Summary: Visualization package dedicated to kmeRs similarity score matrix
+Home-page: https://github.com/RafalUrniaz/HeatMap4kmeRs
+Author: Rafal Urniaz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+[![Build Status](https://travis-ci.com/RafalUrniaz/HeatMap4kmeRs.svg?branch=master)](https://travis-ci.com/RafalUrniaz/HeatMap4kmeRs)
+![PyPI - License](https://img.shields.io/pypi/l/heatmap4kmers.svg?color=green)
+![PyPI](https://img.shields.io/pypi/v/heatmap4kmers.svg?color=green)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6b812f650f264b9ca7e720d80e2f5b28)](https://www.codacy.com/app/RafalUrniaz/HeatMap4kmeRs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RafalUrniaz/HeatMap4kmeRs&amp;utm_campaign=Badge_Grade)
+
+# HeatMap4kmeRs
+
+Visualization package dedicated to kmeRs similarity score matrix
+
+## Installation
+
+```python
+# Install from PyPI 
+
+pip install heatmap4kmers
+
+```
+
+## Quick demo 
+
+```python
+
+```
+## Example output
+
+![Figure_2.png](Examples/Figure_2.png)
+
+
+## Documentation and tutorials 
+
+The documentation is included in the package.
+
+
