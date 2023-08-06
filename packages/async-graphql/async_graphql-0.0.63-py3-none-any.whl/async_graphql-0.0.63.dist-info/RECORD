@@ -1,0 +1,7 @@
+async_graphql/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+async_graphql/client.py,sha256=dxuRRIhU-fcJyHpueuwdXOhrUKugciCKPU_2Mmtp8FI,1049
+async_graphql/errors.py,sha256=is2-DeWJGFAwD713KcCeva2fmmNWw4aa-RbxiAw_Ob8,113
+async_graphql-0.0.63.dist-info/METADATA,sha256=e31IiW_pmFXZ5SSFrWD5tdh6OZYYxj84P0UdeybZC9A,1140
+async_graphql-0.0.63.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+async_graphql-0.0.63.dist-info/top_level.txt,sha256=nGgdnrVEbMGxiY5s9PY205iuWcHQ3-F4XhqLT6qqvAs,14
+async_graphql-0.0.63.dist-info/RECORD,,
