@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: photo-import
+Version: 0.0.2
+Summary: Application to import photos into a hierarchical structure based on the EXIF data of the photos.
+Home-page: https://gitlab.com/eddarmitage/photo-import
+Author: Edd Armitage
+Author-email: edward.armitage@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: exif
+Requires-Dist: docopt
+Provides-Extra: python_version_3.7
+Requires-Dist: backports-datetime-fromisoformat (==1.0.0) ; extra == 'python_version_3.7'
+
+Photo Import
+============
+
+Application to import photos from one directory into a hierarchical directory
+structure in another directory based on the EXIF data of the photos.
+
+Tests
+-----
+To run the test suite locally, use `pytest`:
+
+```bash
+➜ pip install -r requirements.txt
+➜ pytest
+```
+
+
