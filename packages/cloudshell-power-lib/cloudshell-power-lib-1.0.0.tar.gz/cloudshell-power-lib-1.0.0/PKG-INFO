@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cloudshell-power-lib
+Version: 1.0.0
+Summary: Quali Power Management support library
+Home-page: https://github.com/QualiSystemsLab/Power-Management
+Author: Quali Customer Success
+Author-email: tim.s@quali.com
+License: UNKNOWN
+Description: # CloudShell-power-lib
+        
+        CloudShell power management common support library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
