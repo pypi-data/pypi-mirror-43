@@ -1,0 +1,7 @@
+include LICENSE.txt NOTICE.txt README.txt MANIFEST.in
+include setup.py Ontap.py
+exclude netapp/__pycache__
+recursive-include netapp *
+recursive-include examples *
+global-exclude __pycache__
+global-exclude *.py[co]

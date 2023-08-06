@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: ontap-api-wrapper
+Version: 0.5.2
+Summary: Python wrapper for NetApp Manageability SDK
+Home-page: https://github.com/machalekj/ontap-api-wrapper
+Author: Andrew Leonard
+Author-email: andy.leonard@sbri.org
+Maintainer: Jiri Machalek
+Maintainer-email: machalekj@gmail.com
+License: Apache License
+Download-URL: https://github.com/machalekj/ontap-api-wrapper/archive/v0.5.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,76 @@
+--- NaServer.py.orig	2019-03-13 12:30:22.260650346 +0200
++++ NaServer.py	2019-03-13 14:51:36.252553143 +0200
+@@ -13,11 +13,12 @@
+ 
+ __version__ = "1.0"
+ 
+-from NaElement import *
++from .NaElement import *
+ 
+ import base64
+ import xml.parsers.expat
+ import socket
++import inspect
+ from distutils.version import StrictVersion
+ ssl_import = True
+ try:
+@@ -107,6 +108,8 @@
+         self.dtd = FILER_dtd
+         self.ZAPI_stack = []
+         self.ZAPI_atts = {}
++        # enable SSL verification by default when 'ssl' module is imported
++        self.ssl_verification = ssl_import
+ 
+ 
+ 
+@@ -425,12 +428,17 @@
+                                 connection.close()
+                                 return self.fail_response(13001, cert_err)
+                     else :
+-                        if(python_version < 2.6): # python versions prior to 2.6 do not support 'timeout'
+-                            connection = httplib.HTTPSConnection(server, port=self.port)
+-                        elif(python_version == 3.1 or python_version == 3.2 or (python_version >= 2.6 and StrictVersion(python_version_extended) < StrictVersion("2.7.9"))): # python versions prior to 2.7.9 do not support 'context'
+-                            connection = httplib.HTTPSConnection(server, port=self.port, timeout=self.timeout)
+-                        else :
+-                            connection = httplib.HTTPSConnection(server, port=self.port, timeout=self.timeout,context=ssl._create_unverified_context())
++                        kwargs = {}
++                        if(python_version >= 2.6): # python versions prior to 2.6 do not support 'timeout'
++                            kwargs['timeout'] = self.timeout
++                        if not self.ssl_verification:
++                            try: # PY3
++                                context_supported = 'context' in inspect.getfullargspec(httplib.HTTPSConnection.__init__).kwonlyargs
++                            except AttributeError: # PY2
++                                context_supported = 'context' in inspect.getargspec(httplib.HTTPSConnection.__init__).args
++                            if context_supported:
++                                kwargs['context'] = ssl._create_unverified_context()
++                        connection = httplib.HTTPSConnection(server, port=self.port, **kwargs)
+ 
+             connection.putrequest("POST", self.url)
+             connection.putheader("Content-type", "text/xml; charset=\"UTF-8\"")
+@@ -595,6 +603,26 @@
+ 
+         self.ca_file = ca_file
+ 
++    def set_ssl_verification(self, enable):
++        """ Enables or disables SSL verification by the client.
++        """
++
++        if (enable != True and enable != False):
++            return self.fail_response(13001, "NaServer::set_ssl_verification: invalid argument " + str(enable) + " specified");
++        if (not self.use_https()):
++            return self.fail_response(13001,"in NaServer::set_ssl_verification: SSL verification can only be enabled or disabled for HTTPS transport")
++        if (enable == True and ssl_import == False):
++            return self.fail_response(13001,"in NaServer::set_ssl_verification: SSL verification cannot be used as 'ssl' module is not imported.")
++        self.ssl_verification = enable
++        return None
++
++    def is_ssl_verification_enabled(self):
++        """ Determines whether SSL verification is enabled or not.
++        Returns True if it is enabled, else returns False
++        """
++
++        return self.ssl_verification
++
+     def set_server_cert_verification(self, enable):
+         """ Enables or disables server certificate verification by the client.
+         Server certificate verification is enabled by default when style 
