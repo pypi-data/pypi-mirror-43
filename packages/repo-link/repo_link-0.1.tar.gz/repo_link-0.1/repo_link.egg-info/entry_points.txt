@@ -1,0 +1,3 @@
+[console_scripts]
+repo_link = repo_link:main
+
