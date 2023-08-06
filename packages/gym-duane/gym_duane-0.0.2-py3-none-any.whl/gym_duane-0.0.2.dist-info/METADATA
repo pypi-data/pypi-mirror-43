@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gym-duane
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gym (>=0.2.3)
+Requires-Dist: pymunk
+Requires-Dist: pygame
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: unittest2 ; extra == 'dev'
+
+UNKNOWN
+
+
