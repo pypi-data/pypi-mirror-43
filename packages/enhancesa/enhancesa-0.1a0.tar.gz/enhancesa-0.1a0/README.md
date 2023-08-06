@@ -1,0 +1,66 @@
+# enhancesa
+
+[![Build Status](https://travis-ci.org/alisiina/enhancesa.svg?branch=master)](https://travis-ci.org/alisiina/enhancesa)
+[![codecov](https://codecov.io/gh/alisiina/enhancesa/branch/master/graph/badge.svg)](https://codecov.io/gh/alisiina/enhancesa)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/alisiina/enhancesa.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alisiina/enhancesa/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/alisiina/enhancesa.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/alisiina/enhancesa/context:python)
+[![Documentation Status](https://readthedocs.org/projects/enhancesa/badge/?version=latest)](https://enhancesa.readthedocs.io/en/latest/?badge=latest)
+![repo size](https://img.shields.io/github/repo-size/alisiina/enhancesa.svg?color=9cf)
+[![license](https://img.shields.io/github/license/alisiina/enhancesa.svg?color=blueviolet)](https://opensource.org/licenses/MIT)
+
+
+Enhancesa is a collection of tools for a better and more simplified statistical analysis in Python. It primarily aids in manual analysis and prediction tasks that use packages like [Statsmodels](https://www.statsmodels.org/stable/index.html) and [Scikit-learn](https://scikit-learn.org/stable/index.html) in their workflow. 
+
+For example, Enhancesa provides answers to questions like: Which subset of features gives me the lowest error rate in an ordinary least squares model? What are estimates of population mean and standard deviation using bootstrap resampling? And etc.
+
+
+#### Upcoming features
+
+* Partial least squares (PLS) regression
+* Principal components regression (PCR)
+* Subset selection plots
+* Additional test statistics in bootstrap resampling
+
+
+### Motivation
+
+Enhancesa is a result of solutions to exercises in the book [Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/) by the Tibshirani et al. When going through the exercises, I found Python, unlike R, lacking in providing convenient functionalities. *At this stage*, this package is simply a collection of functions I used in my solutions to exercises in the book.
+
+
+### Installation
+
+Enhancesa can be installed from the [PyPI](https://pypi.org/project/enhancesa/) package repository.
+
+```
+$ pip install enhancesa
+```
+
+
+### Quick glimpse
+
+```python
+>>> import numpy as np
+>>> import enhancesa as esa
+>>> # Create some dummy data
+>>> x = np.random.normal(size=100)
+>>> # Compute test statistics with bootstrap resampling
+>>> esa.bootstrap(x, iters=1000)
+Estimated mean: -0.025309
+Estimated SE: 0.095531
+dtype: float64
+```
+Find out more about the full set of features in the [documentation](https://enhancesa.readthedocs.io/en/latest/?badge=latest).
+
+
+### Issues & improvements
+
+* Possible to further reduce dependencies.
+* `boostrap` method can be improved by adding estimates of more test statistics of interest.
+* Use [Poetry](https://poetry.eustace.io/) for package and dependency management, which uses
+`pyproject.toml` recommended by [PEP 518](https://www.python.org/dev/peps/pep-0518/).
+* `enhancesa.SubsetSelect` will give `NotImplemented` error if `X` input is a Numpy array.
+
+
+### License
+
+This package is licensed under an [MIT](https://github.com/alisiina/enhancesa/blob/master/LICENSE.txt) license.

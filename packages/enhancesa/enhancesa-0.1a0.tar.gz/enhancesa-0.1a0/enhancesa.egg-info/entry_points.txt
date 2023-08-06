@@ -1,0 +1,3 @@
+[console_scripts]
+enhancesa = enhancesa.command_line:main
+
