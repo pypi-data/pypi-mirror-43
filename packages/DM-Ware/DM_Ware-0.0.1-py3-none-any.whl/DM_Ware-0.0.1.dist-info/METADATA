@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: DM-Ware
+Version: 0.0.1
+Summary: A package for DM Devices
+Home-page: https://github.com
+Author: David Metcalf
+Author-email: kup1977@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# DM-Ware Package
+
+This is a DM-Ware package. You can not use with out explicit permission from 
+David Metcalf or DM Devicer use [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
