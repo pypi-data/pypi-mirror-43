@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: cwmi
+Version: 0.1.0
+Summary: ctypes wrapper for WMI
+Home-page: https://github.com/fireeye/cwmi
+Author: Anthony Berglund
+Author-email: anthony.berglund@fireeye.com
+License: Apache
+Download-URL: https://github.com/fireeye/cwmi/archive/v0.0.1.tar.gz
+Description: UNKNOWN
+Platform: Windows
+Classifier: Environment :: Console
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries

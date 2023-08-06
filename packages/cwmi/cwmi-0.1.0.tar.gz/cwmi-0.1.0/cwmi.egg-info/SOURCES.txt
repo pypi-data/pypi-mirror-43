@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+cwmi/__init__.py
+cwmi/com.py
+cwmi/winapi.py
+cwmi/wintype.py
+cwmi/wmi.py
+cwmi.egg-info/PKG-INFO
+cwmi.egg-info/SOURCES.txt
+cwmi.egg-info/dependency_links.txt
+cwmi.egg-info/top_level.txt
+utils/i_to_m.py
