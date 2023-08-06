@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: lem
+Version: 0.3.1
+Summary: Linux Exploit Mapper correlates CVEs local to a Linux system with known exploits
+Home-page: https://github.com/redteam-project/lem
+Author: Kenneth Evensen
+Author-email: kdevensen@google.com
+License: GPLv3
+Download-URL: https://github.com/redteam-project/lem/archive/0.3.1.tar.gz
+Description: UNKNOWN
+Keywords: cve,exploit,linux
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
