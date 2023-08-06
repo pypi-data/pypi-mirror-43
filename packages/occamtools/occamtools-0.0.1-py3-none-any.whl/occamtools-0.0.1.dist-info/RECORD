@@ -1,0 +1,13 @@
+occamtools/__init__.py,sha256=3fvRJIEc7RYGGgjK8Aha8NL7hW05u6CeBhGzp6zirD8,170
+occamtools/fort5_to_xyz.py,sha256=X5D3db8-FBF4mso21CEfdctO5PNSR0K3LRFDmUbA9W0,1604
+occamtools/generate_fort5.py,sha256=Zedac9ubQjoHsREwsGp9MdyzbS1fOZ_OZCBQUWxoBSY,3344
+occamtools/occam_data.py,sha256=zkSdTc5rcKgOUht7UM4kWI2Shiqxf05dQzFTA83cw60,9029
+occamtools/read_fort1.py,sha256=Hn_lWLX57G6hZQhI0PFlHdoZbrtEf5PThxfIetAfVio,4283
+occamtools/read_fort7.py,sha256=SmFaMOvwpcZRiW0NWnoVVeqhMhsnvgZZPaFdWQQrwyQ,4458
+occamtools/read_xyz.py,sha256=uyZ-oUM3389_951KbQYm0QscTrOm1TNfb2lyqYIBnj0,3347
+occamtools/xyz_to_fort5.py,sha256=orWw41kIKdwHtqu6AqMfOLbvUUkakL2hgxZve6BipJc,3438
+occamtools-0.0.1.dist-info/LICENCE,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+occamtools-0.0.1.dist-info/METADATA,sha256=KZtD4Y93I4pgJAMJlTwovcx1LZjfW8FPcbSmZmIB3FM,6386
+occamtools-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+occamtools-0.0.1.dist-info/top_level.txt,sha256=bZePszxoP_k8odPLFsB0_7AHnR71GMlcDTokwCETljM,11
+occamtools-0.0.1.dist-info/RECORD,,
