@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: PySqliteQueue
+Version: 1.0.0
+Summary: Sqlite based queue
+Home-page: UNKNOWN
+Author: Mark Andreev
+Author-email: mark.andreev@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

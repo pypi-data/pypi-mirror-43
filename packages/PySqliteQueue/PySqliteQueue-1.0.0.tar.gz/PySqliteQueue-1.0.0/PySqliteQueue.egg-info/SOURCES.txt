@@ -1,0 +1,8 @@
+README.md
+setup.py
+PySqliteQueue.egg-info/PKG-INFO
+PySqliteQueue.egg-info/SOURCES.txt
+PySqliteQueue.egg-info/dependency_links.txt
+PySqliteQueue.egg-info/top_level.txt
+pysqlitequeue/__init__.py
+pysqlitequeue/queue.py
