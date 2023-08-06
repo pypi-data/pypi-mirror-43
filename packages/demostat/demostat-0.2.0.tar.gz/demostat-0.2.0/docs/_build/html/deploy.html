@@ -1,0 +1,282 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Installieren &#8212; Demostat 0.1.1-dev Dokumentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/translations.js"></script>
+    <link rel="index" title="Stichwortverzeichnis" href="genindex.html" />
+    <link rel="search" title="Suche" href="search.html" />
+    <link rel="next" title="Konfiguration" href="conf.html" />
+    <link rel="prev" title="Willkommen zu Demostat!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="installieren">
+<h1>Installieren<a class="headerlink" href="#installieren" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<div class="section" id="produktivsystem">
+<h2>Produktivsystem<a class="headerlink" href="#produktivsystem" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Um MySQL als Datenbank zu nutzen muss folgendes Paket installiert werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">install</span> <span class="n">default</span><span class="o">-</span><span class="n">libmysqlclient</span><span class="o">-</span><span class="n">dev</span>
+</pre></div>
+</div>
+<p>In dem Ordner welcher genutzt werden soll folgende Befehle ausführen</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">demostat</span><span class="o">/</span><span class="n">demostat</span><span class="o">.</span><span class="n">git</span>
+<span class="n">pip3</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">demostat</span><span class="o">/</span><span class="n">requirements</span><span class="o">.</span><span class="n">txt</span> <span class="c1"># Abhängigkeiten installieren</span>
+<span class="n">django</span><span class="o">-</span><span class="n">admin</span> <span class="n">startproject</span> <span class="n">mysite</span> <span class="c1"># Hierfür muss vorher(!) pip3 install django als **root** ausgeführt werden damit der Befehl global verfügbar ist</span>
+<span class="n">cd</span> <span class="n">mysite</span>
+<span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">../</span><span class="n">demostat</span><span class="o">/</span><span class="n">demostat</span>
+</pre></div>
+</div>
+<p>In der <cite>mysite/settings.py</cite> müsen folgende Zeilen zu <cite>INSTALLED_APPS</cite> hinzugefügt werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="s1">&#39;demostat&#39;</span><span class="p">,</span>
+  <span class="o">...</span>
+  <span class="p">]</span>
+</pre></div>
+</div>
+<p>In der <cite>mysite/settings.py</cite> müsen nun die demostat Routen geladen werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">django.urls</span> <span class="k">import</span> <span class="n">include</span>
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">path</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s1">&#39;demostat.urls&#39;</span><span class="p">)),</span>
+  <span class="o">...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Wenn MySQL als Datenbank genutzt werden soll müssen folgende änderungen in der <cite>mysite/settings.py</cite> vorgenommen werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">DATABASES</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;default&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;ENGINE&#39;</span><span class="p">:</span> <span class="s1">&#39;django.db.backends.mysql&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;NAME&#39;</span><span class="p">:</span> <span class="s1">&#39;demostat&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;USER&#39;</span><span class="p">:</span> <span class="s1">&#39;demostat&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;PASSWORD&#39;</span><span class="p">:</span> <span class="s1">&#39;&lt;password&gt;&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;HOST&#39;</span><span class="p">:</span> <span class="s1">&#39;localhost&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;PORT&#39;</span><span class="p">:</span> <span class="s1">&#39;3306&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;OPTIONS&#39;</span><span class="p">:</span>  <span class="p">{</span>
+          <span class="s1">&#39;init_command&#39;</span><span class="p">:</span> <span class="s2">&quot;SET sql_mode=&#39;STRICT_TRANS_TABLES&#39;&quot;</span><span class="p">,</span> <span class="c1"># Sicherheitsmaßnahme um das Schreiben von Fehlerhaften Daten zu verhindern https://docs.djangoproject.com/en/2.1/ref/databases/#mysql-sql-mode</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p># Falls MySQL genutzt werden soll
+# Dies ist ein Workarround um Probleme mit dem Filtern nach dem Datum zu beheben. Siehe <a class="reference external" href="https://stackoverflow.com/a/22043578/7142167">https://stackoverflow.com/a/22043578/7142167</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">USE_TZ</span> <span class="o">=</span> <span class="kc">False</span>
+</pre></div>
+</div>
+<p># Damit statische files ordentlich ausgelagert werden</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">STATIC_URL</span> <span class="o">=</span> <span class="s1">&#39;/static/&#39;</span>
+<span class="n">PROJECT_DIR</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+<span class="n">STATIC_ROOT</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">PROJECT_DIR</span><span class="p">,</span> <span class="s1">&#39;../static&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Nun müssen die migrations ausgeführt werden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">migrate</span>
+</pre></div>
+</div>
+<p>Statische Dateien auslagern:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">collectstatic</span>
+</pre></div>
+</div>
+<p>Superuser werden über folgenden Befehl angelegt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">createsuperuser</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="unter-apache-zum-laufen-bringen">
+<h2>Unter Apache zum Laufen bringen<a class="headerlink" href="#unter-apache-zum-laufen-bringen" title="Link zu dieser Überschrift">¶</a></h2>
+<p>_Diese sektion orrientiert basiert mehr oder weniger auf Justin Ellingwood’s [How To Serve Django Applications with Apache and mod_wsgi on Ubuntu 14.04 ](<a class="reference external" href="https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-14-04)_">https://www.digitalocean.com/community/tutorials/how-to-serve-django-applications-with-apache-and-mod_wsgi-on-ubuntu-14-04)_</a></p>
+<p>Vorrausgesetzt ist dabei, dass bereits apache2 installiert ist.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">install</span> <span class="n">libapache2</span><span class="o">-</span><span class="n">mod</span><span class="o">-</span><span class="n">wsgi</span><span class="o">-</span><span class="n">py3</span>
+</pre></div>
+</div>
+<p>Virtual host für Apache:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">VirtualHost</span> <span class="o">*</span><span class="p">:</span><span class="mi">80</span><span class="o">&gt;</span>
+    <span class="o">.</span> <span class="o">.</span> <span class="o">.</span>
+
+    <span class="n">Alias</span> <span class="o">/</span><span class="n">static</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span><span class="o">/</span><span class="n">static</span>
+    <span class="o">&lt;</span><span class="n">Directory</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span><span class="o">/</span><span class="n">static</span><span class="o">&gt;</span>
+        <span class="n">Require</span> <span class="nb">all</span> <span class="n">granted</span>
+    <span class="o">&lt;/</span><span class="n">Directory</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;</span><span class="n">Directory</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span><span class="o">/</span><span class="n">mysite</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">Files</span> <span class="n">wsgi</span><span class="o">.</span><span class="n">py</span><span class="o">&gt;</span>
+            <span class="n">Require</span> <span class="nb">all</span> <span class="n">granted</span>
+        <span class="o">&lt;/</span><span class="n">Files</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">Directory</span><span class="o">&gt;</span>
+
+    <span class="n">WSGIDaemonProcess</span> <span class="n">myproject</span> <span class="n">python</span><span class="o">-</span><span class="n">path</span><span class="o">=/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span> <span class="n">python</span><span class="o">-</span><span class="n">home</span><span class="o">=/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">myproject</span><span class="o">/</span><span class="n">myprojectenv</span> <span class="c1">## auskommentieren wenn ein virtual env verwendet werden soll</span>
+    <span class="n">WSGIDaemonProcess</span> <span class="n">myproject</span> <span class="n">python</span><span class="o">-</span><span class="n">path</span><span class="o">=/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span>
+    <span class="n">WSGIProcessGroup</span> <span class="n">mysite</span>
+    <span class="n">WSGIScriptAlias</span> <span class="o">/</span> <span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">mysite</span><span class="o">/</span><span class="n">mysite</span><span class="o">/</span><span class="n">wsgi</span><span class="o">.</span><span class="n">py</span>
+<span class="o">&lt;/</span><span class="n">VirtualHost</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">a2ensite</span> <span class="n">mysite</span><span class="o">.</span><span class="n">conf</span>
+<span class="n">systemctl</span> <span class="n">reload</span> <span class="n">apache2</span>
+</pre></div>
+</div>
+<p><strong>Wenn änderungen in der `mysite/settings.py` vorgenommen werden, muss apache neu geladen werden!</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">systemctl</span> <span class="n">reload</span> <span class="n">apache2</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="eigenstandige-entwicklungsversion">
+<h2>Eigenständige Entwicklungsversion<a class="headerlink" href="#eigenstandige-entwicklungsversion" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Demostat Entwicklungsversion herunterladen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="o">-</span><span class="n">b</span> <span class="n">dev</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">demostat</span><span class="o">/</span><span class="n">demostat</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+<p>Abhängigkeiten installieren:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip3</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">demostat</span><span class="o">/</span><span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>Neues Django Projekt starten:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">django</span><span class="o">-</span><span class="n">admin</span> <span class="n">startproject</span> <span class="n">mysite</span>
+<span class="n">cd</span> <span class="n">mysite</span>
+</pre></div>
+</div>
+<p>Demostat einbinden:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ln</span> <span class="o">-</span><span class="n">s</span> <span class="o">../</span><span class="n">demostat</span><span class="o">/</span><span class="n">demostat</span>
+</pre></div>
+</div>
+<p>Füge in <cite>mysite/settings.py</cite> Demostat zu <cite>INSTALLED_APPS</cite> hinzu:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="s1">&#39;demostat&#39;</span><span class="p">,</span>
+<span class="o">...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Beachte, dass Django-Admin ebenfalls geladen wird. (In der Standartinstallation sollte das schon geschehen sein)</p>
+<p>Binde in <cite>mysite/urls.py</cite> Demostat-Urls ein:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">django.urls</span> <span class="k">import</span> <span class="n">include</span>
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+  <span class="n">path</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="s1">&#39;demostat.urls&#39;</span><span class="p">)),</span>
+  <span class="o">...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Datenbank-Migrieren:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">migrate</span>
+</pre></div>
+</div>
+<p>Erstelle Administrationsaccount:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">createsuperuser</span>
+</pre></div>
+</div>
+<p>Starte Webserver:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python3</span> <span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">runserver</span>
+</pre></div>
+</div>
+<p>Website ist erreichbar über:
+<a class="reference external" href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a></p>
+<p>Administration über:
+<a class="reference external" href="http://127.0.0.1:8000/admin/">http://127.0.0.1:8000/admin/</a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Demostat</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installieren</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#produktivsystem">Produktivsystem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#unter-apache-zum-laufen-bringen">Unter Apache zum Laufen bringen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#eigenstandige-entwicklungsversion">Eigenständige Entwicklungsversion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="conf.html">Konfiguration</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="vorheriges Kapitel">Willkommen zu Demostat!</a></li>
+      <li>Next: <a href="conf.html" title="nächstes Kapitel">Konfiguration</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Schnellsuche</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Los" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019 Clemens Riese & Moritz Fromm.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/deploy.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
