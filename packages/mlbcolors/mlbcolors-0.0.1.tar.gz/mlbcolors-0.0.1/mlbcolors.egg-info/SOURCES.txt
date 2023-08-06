@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mlbcolors/__init__.py
+mlbcolors/data.json
+mlbcolors.egg-info/PKG-INFO
+mlbcolors.egg-info/SOURCES.txt
+mlbcolors.egg-info/dependency_links.txt
+mlbcolors.egg-info/not-zip-safe
+mlbcolors.egg-info/top_level.txt
