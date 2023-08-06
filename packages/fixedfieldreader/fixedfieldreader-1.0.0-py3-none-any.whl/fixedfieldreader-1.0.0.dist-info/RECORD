@@ -1,0 +1,8 @@
+fixedfieldreader/__init__.py,sha256=t7aYR4flvEPMFbbuEOTZ0cJhOJhoCTXRv3db2LFNsMQ,214
+fixedfieldreader/error.py,sha256=CXYU--3Veu7BR7bEl7zXq5hQthiXBs6pcQK04w8vA7w,575
+fixedfieldreader/fixedfieldreader.py,sha256=Ldz6RDTwldmTVqtxBtfEnALthpnuNxQqS6X4h9C_4aM,6690
+fixedfieldreader/fixedfieldreader_test.py,sha256=GSEcajHsPTZukKkipenw9WdxD2JvtP2cA0MzNIpcm-o,3657
+fixedfieldreader-1.0.0.dist-info/METADATA,sha256=I1xoI_WSaJmRrWil24XoAVqIHvgK45ptx8_OL4lgnhM,784
+fixedfieldreader-1.0.0.dist-info/RECORD,,
+fixedfieldreader-1.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+fixedfieldreader-1.0.0.dist-info/top_level.txt,sha256=ZCYYUAFW_FRAQLLJZfARBVM7NXja-fr50YkBU_GGxJc,17

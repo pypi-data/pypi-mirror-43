@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fixedfieldreader
+Version: 1.0.0
+Summary: Reader for lines with fixed-width fields
+Home-page: https://github.com/nkrishnaswami/fixed-field-reader
+Author: Natarajan Krishnaswami
+Author-email: nkrish@acm.org
+License: Apache Software License 2.0
+Keywords: fixed-width file-format reader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+This module provides classes to read and split files whose lines contain fixed-width fields, such as the FHFA PUDB or CDC WONDER mortality datasets.
+
+
