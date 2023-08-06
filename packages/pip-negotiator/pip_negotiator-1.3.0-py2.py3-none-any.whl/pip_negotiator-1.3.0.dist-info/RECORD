@@ -1,0 +1,15 @@
+pip_negotiator/__init__.py,sha256=mI9RTFwzf22vi39b58GQn3acdYAbJPwf6vQp4f6PMt8,193
+pip_negotiator/pip_negotiator.py,sha256=rT6f1yDhj5ySmBMZfkaNR7uWoHSdbNILszd2rcPuSQY,3385
+pip_negotiator/commands/__init__.py,sha256=DrpYhvFw6aoavFih9FXdgE7kXWvAC6JrbHxWTGA5Ayg,371
+pip_negotiator/commands/base.py,sha256=Q756Qk6ACTuuSrVwTftS2uNUFkqvVQgpxYbX5rUMpKk,1266
+pip_negotiator/commands/pip.py,sha256=YJArj-JVJAZibO9PArp3JbewfsO35nXKKd36trNybDQ,2353
+pip_negotiator/commands/pipcompile.py,sha256=-fFIIZTxpHJGjNwDeBY46G5bfALI06zeGomJj__kC3w,1733
+pip_negotiator/requirements/__init__.py,sha256=jBrfM2PCj_q0LYNip3Iur0hmj98UyN82T5mr7UfJf3E,314
+pip_negotiator/requirements/requirements.py,sha256=W09e61vM6FZ9K_85Dw4FQO-NJl9OMqq8E1ViBSfawyA,720
+pip_negotiator-1.3.0.dist-info/AUTHORS.rst,sha256=YlcIeYlchfBZTqEr66TuZ4OsgoWSXQK-VtfUqd2hZho,163
+pip_negotiator-1.3.0.dist-info/LICENSE,sha256=sBHiK1O_lJBgi4ts2F-jMGV7uq1AYJ-DmHsClfNw0Aw,1509
+pip_negotiator-1.3.0.dist-info/METADATA,sha256=9w6IAqcq297Is7njXVfWydEMNPzMESBDmsU4dnDjZ54,2586
+pip_negotiator-1.3.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+pip_negotiator-1.3.0.dist-info/entry_points.txt,sha256=bU3-Y0e9i5Xn3BSucbRS01TqSh9CFihzWB86FjbSPzw,123
+pip_negotiator-1.3.0.dist-info/top_level.txt,sha256=KGCF32utm5Em0Ok68WLM9yM8-c6BqkRJtZImLJpx3b8,15
+pip_negotiator-1.3.0.dist-info/RECORD,,
