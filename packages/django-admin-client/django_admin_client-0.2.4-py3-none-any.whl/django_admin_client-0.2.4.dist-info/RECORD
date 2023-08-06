@@ -1,0 +1,12 @@
+django_admin_client/__init__.py,sha256=x0KkCL9yxw0Lz9AyGaWYPCOw0pmu8sJ6Ovzkcll1li0,92
+django_admin_client/base.py,sha256=1r-OJEzvH8ihW7GLxfiF19Vrmuh-S9XDDC4lC5ioUkQ,16201
+django_admin_client/exceptions.py,sha256=y3WTgW4j1zgGiznIaY7q3m3BckPlGc-IwM1volOTMdw,675
+django_admin_client/helpers.py,sha256=3EbAMPG6zJcSwA89C-LLS-12-2EhdMUh9hpTyKpJxqM,1295
+django_admin_client/settings.py,sha256=tcrdVM4rWEcjKZhCx2tCYGKGjO--B6B1W8JgQ_6FVVo,309
+django_admin_client/templates.py,sha256=zZFp5kpuGqhejYfV0rB2xuDiBzPQOHwBKb7Vnd78r00,406
+django_admin_client-0.2.4.dist-info/LICENSE,sha256=n8sIA_q2Wgx1mXfCAgCyH7s6QtvgYUqcsBKAMrL4-Ds,1074
+django_admin_client-0.2.4.dist-info/METADATA,sha256=AJz6ZrxMls40NCEEJDsLsqGpGpH0mBYyKB1e6LReAnA,11275
+django_admin_client-0.2.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_admin_client-0.2.4.dist-info/entry_points.txt,sha256=7IcAUjQYm8eLhbKWokZVH5s3HyKPbvEwXdPC8ZfAo3I,161
+django_admin_client-0.2.4.dist-info/top_level.txt,sha256=AD5c3kkfNJrGhbofYokIbE1PFdBAZJ-m1uES41jk85w,20
+django_admin_client-0.2.4.dist-info/RECORD,,
