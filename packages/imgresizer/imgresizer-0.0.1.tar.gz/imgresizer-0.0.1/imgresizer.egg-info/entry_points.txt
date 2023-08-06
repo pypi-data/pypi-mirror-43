@@ -1,0 +1,3 @@
+[console_scripts]
+imgresizer = imgresizer.__main__:main
+

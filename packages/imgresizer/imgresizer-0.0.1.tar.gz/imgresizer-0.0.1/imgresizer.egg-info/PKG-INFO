@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: imgresizer
+Version: 0.0.1
+Summary: A package to re-size images
+Home-page: https://github.com/UnboxingMinds/ImgReSizer
+Author: Tumurtogtokh Davaakhuu
+Author-email: tumurtogtokh@gmail.com
+License: MIT
+Description: # ImageThumbProcessor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

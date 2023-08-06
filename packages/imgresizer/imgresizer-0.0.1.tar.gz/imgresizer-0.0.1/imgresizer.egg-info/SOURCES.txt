@@ -1,0 +1,16 @@
+README.md
+setup.py
+imgresizer/__init__.py
+imgresizer/__main__.py
+imgresizer.egg-info/PKG-INFO
+imgresizer.egg-info/SOURCES.txt
+imgresizer.egg-info/dependency_links.txt
+imgresizer.egg-info/entry_points.txt
+imgresizer.egg-info/requires.txt
+imgresizer.egg-info/top_level.txt
+imgresizer/controller/__init__.py
+imgresizer/controller/image_sizer_controller.py
+imgresizer/model/__init__.py
+imgresizer/model/image.py
+imgresizer/view/__init__.py
+imgresizer/view/cli_image_resizer.py
