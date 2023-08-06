@@ -1,0 +1,9 @@
+README.md
+setup.py
+flask_blacklist/__init__.py
+flask_blacklist/base.py
+flask_blacklist/utilities.py
+flask_blacklist.egg-info/PKG-INFO
+flask_blacklist.egg-info/SOURCES.txt
+flask_blacklist.egg-info/dependency_links.txt
+flask_blacklist.egg-info/top_level.txt
