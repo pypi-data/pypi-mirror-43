@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+fit9133/__init__.py
+fit9133/letter_price_info.json
+fit9133/parcel_price_info.json
+fit9133/stamp.py
+fit9133/zone_country_info.json
+gdds_fit9133.egg-info/PKG-INFO
+gdds_fit9133.egg-info/SOURCES.txt
+gdds_fit9133.egg-info/dependency_links.txt
+gdds_fit9133.egg-info/top_level.txt
