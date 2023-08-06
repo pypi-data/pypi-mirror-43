@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+python_firebase_url_shortener/__init__.py
+python_firebase_url_shortener/test_url_shortener.py
+python_firebase_url_shortener/url_shortener.py
+python_firebase_url_shortener.egg-info/PKG-INFO
+python_firebase_url_shortener.egg-info/SOURCES.txt
+python_firebase_url_shortener.egg-info/dependency_links.txt
+python_firebase_url_shortener.egg-info/requires.txt
+python_firebase_url_shortener.egg-info/top_level.txt
