@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: bubka
+Version: 1.1.0
+Summary: Command line client for REST APIs
+Home-page: https://github.com/hile/bubka/
+Author: Ilkka Tuohela
+Author-email: hile@iki.fi
+License: PSF
+Description: UNKNOWN
+Keywords: rest api python client
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System
+Classifier: Topic :: System :: Systems Administration

@@ -1,0 +1,3 @@
+[console_scripts]
+bubka = bubka.bin.bubka:main
+
