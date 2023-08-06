@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: packt-calc
+Version: 0.2.0
+Summary: My cool python project
+Home-page: https://github.com/PacktPublishing/Migrating-from-Python-2-to-Python-3/chapter08/packt-calc
+Author: Ada Lovelace
+Author-email: myself@mail.com
+License: MIT license
+Description: 
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
