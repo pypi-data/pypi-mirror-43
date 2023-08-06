@@ -1,0 +1,11 @@
+README.md
+setup.py
+webhdfs/__init__.py
+webhdfs/cli.py
+webhdfs/webhdfs.py
+webhdfs_client.egg-info/PKG-INFO
+webhdfs_client.egg-info/SOURCES.txt
+webhdfs_client.egg-info/dependency_links.txt
+webhdfs_client.egg-info/entry_points.txt
+webhdfs_client.egg-info/requires.txt
+webhdfs_client.egg-info/top_level.txt
