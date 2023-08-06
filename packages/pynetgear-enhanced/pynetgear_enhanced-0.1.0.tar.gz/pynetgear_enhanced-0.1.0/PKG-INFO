@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pynetgear_enhanced
+Version: 0.1.0
+Summary: Access Netgear routers using their SOAP API
+Home-page: http://github.com/roblandry/pynetgear_enhanced
+Author: Rob Landry
+Author-email: rob@landry.me
+License: MIT
+Download-URL: http://github.com/roblandry/pynetgear_enhanced/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
