@@ -1,0 +1,11 @@
+biobb_structure_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biobb_structure_manager/data_lib_manager.py,sha256=4sM3ozxz8AXC-zBjCLqahHV7RFGjhEjlmzrrWse4aJA,3590
+biobb_structure_manager/mmb_server.py,sha256=DrEhyz11y9CgG0JI51d0c3nfGJCMaZyD-NpZ-JOIVdE,2808
+biobb_structure_manager/model_utils.py,sha256=ln0m7-Ntr9GSt-4RNrqDKXOCSjNU6C8FlfwNQ6_lYGM,22896
+biobb_structure_manager/mutation_manager.py,sha256=Mv-5IRMA0UnAqqdsEiK7g5DrqXN0bxdbnJ-w1WzXBr4,6452
+biobb_structure_manager/residue_lib_manager.py,sha256=Tzp3TRq09BXPcY5pgiQdg83PhGgY0wHERx7EWHBSo1U,2681
+biobb_structure_manager/structure_manager.py,sha256=UkNWlGOjFnvmRzrHpYJhEh-22vP5pmS0T8Og7PiIB2o,32317
+biobb_structure_manager-0.0.5.dist-info/METADATA,sha256=wM3EeHzxcnPFfrJx3rWzw1oSXsxPdrq1Se8dbzx6Eh4,1307
+biobb_structure_manager-0.0.5.dist-info/RECORD,,
+biobb_structure_manager-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+biobb_structure_manager-0.0.5.dist-info/top_level.txt,sha256=klWTof-4sxu1SAECwNovh1kSlGhGNVb8SH7_9_tVcuY,24
