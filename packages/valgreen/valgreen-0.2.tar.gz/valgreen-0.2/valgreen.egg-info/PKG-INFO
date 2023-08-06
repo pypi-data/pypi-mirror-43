@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: valgreen
+Version: 0.2
+Summary: Valgrind output readable for human beings 
+Home-page: https://github.com/tomasaccini/valgreen/
+Author: TomasAccini, FdelMazo
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: ==================
+        Valgreen
+        ==================
+        
+        Valgrind output readable for human beings 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
