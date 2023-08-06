@@ -1,0 +1,7 @@
+defusedxml
+lxml
+
+[test]
+pytest
+pytest-cov
+pytest-flake8
