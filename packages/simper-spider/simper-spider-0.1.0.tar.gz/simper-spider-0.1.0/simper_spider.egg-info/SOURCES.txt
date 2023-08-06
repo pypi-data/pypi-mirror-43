@@ -1,0 +1,12 @@
+README.md
+setup.py
+simper_spider.egg-info/PKG-INFO
+simper_spider.egg-info/SOURCES.txt
+simper_spider.egg-info/dependency_links.txt
+simper_spider.egg-info/requires.txt
+simper_spider.egg-info/top_level.txt
+simspider/__init__.py
+simspider/field.py
+simspider/item.py
+simspider/request.py
+simspider/spider.py
