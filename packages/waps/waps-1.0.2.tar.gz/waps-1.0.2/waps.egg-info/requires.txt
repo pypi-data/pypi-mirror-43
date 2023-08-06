@@ -1,0 +1,4 @@
+numpy
+pydot
+gmpy2
+pyparsing
