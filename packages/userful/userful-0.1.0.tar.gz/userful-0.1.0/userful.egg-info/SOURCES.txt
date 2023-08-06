@@ -1,0 +1,10 @@
+README.md
+setup.py
+userful/__init__.py
+userful/client.py
+userful.egg-info/PKG-INFO
+userful.egg-info/SOURCES.txt
+userful.egg-info/dependency_links.txt
+userful.egg-info/not-zip-safe
+userful.egg-info/requires.txt
+userful.egg-info/top_level.txt
