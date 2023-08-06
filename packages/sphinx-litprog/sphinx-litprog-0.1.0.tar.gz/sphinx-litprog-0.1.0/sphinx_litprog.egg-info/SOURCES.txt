@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sphinx_litprog/__init__.py
+sphinx_litprog.egg-info/PKG-INFO
+sphinx_litprog.egg-info/SOURCES.txt
+sphinx_litprog.egg-info/dependency_links.txt
+sphinx_litprog.egg-info/requires.txt
+sphinx_litprog.egg-info/top_level.txt
