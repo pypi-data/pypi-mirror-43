@@ -1,0 +1,10 @@
+README.md
+setup.py
+picot/__init__.py
+picot/entry.py
+picot/feed.py
+picot.egg-info/PKG-INFO
+picot.egg-info/SOURCES.txt
+picot.egg-info/dependency_links.txt
+picot.egg-info/requires.txt
+picot.egg-info/top_level.txt
