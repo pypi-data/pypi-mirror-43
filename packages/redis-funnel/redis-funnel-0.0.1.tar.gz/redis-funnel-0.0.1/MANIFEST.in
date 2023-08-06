@@ -1,0 +1,2 @@
+include redis_funnel/funnel.lua
+include README.md
