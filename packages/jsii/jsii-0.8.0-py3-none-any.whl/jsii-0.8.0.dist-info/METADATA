@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jsii
+Version: 0.8.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: attrs
+Requires-Dist: cattrs
+Requires-Dist: python-dateutil
+Requires-Dist: typing-extensions (>=3.6.4)
+Requires-Dist: mypy-extensions (>=0.4.0)
+Requires-Dist: importlib-resources ; python_version < "3.7"
+
+UNKNOWN
+
+
