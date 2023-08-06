@@ -1,0 +1,13 @@
+options/__init__.py,sha256=3BcV3-mglrwZqNPKgVhsufX4D8RgxkG6TT4DhMyEyGI,160
+options/callattr.py,sha256=NZW2Oz1Bk5bimxDnFHU-E7JL7OCgulCsDLGcDoSu0jQ,710
+options/chainstuf.py,sha256=Ue1nV8x1_a2BmA10AYYfiCXNj1gnLc3KBoR2QuxiHMY,1019
+options/config.py,sha256=7_Jb4B-RR64QR7QPTLqvXUBWWEZYfIinMH_FNWM3tks,681
+options/core.py,sha256=wpwKUdjF2LOJb8JDvwIxIXc4Q7sKJ3t-j2uzebxOR9E,13046
+options/funclike.py,sha256=F8BR4gPxBxqtHukGkotzPY_lyBOleA0zjHYu_LRCRj4,1336
+options/methset.py,sha256=UblV4sadQJA1ZRpKse8MXDka2mUMuxBK5ioei9RDUtE,2932
+options/version.py,sha256=R2QsHIT7U23aozybynLQO-UhttRAfr5GP2K-fNC2B9M,22
+options-1.4.9.dist-info/LICENSE.txt,sha256=gIJmhEXG6M49cbFANyPVfMp4HGklr3bndPKDnnDVRRQ,11325
+options-1.4.9.dist-info/METADATA,sha256=AwEPDi3c5SjXE6F1p8nUCBbS3pBsdzi1HovM6Bqyd0c,4563
+options-1.4.9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+options-1.4.9.dist-info/top_level.txt,sha256=2vpXu0LnJ0uD5WDiw_PP0kVv91h0wldECQxHcviIZGE,8
+options-1.4.9.dist-info/RECORD,,
