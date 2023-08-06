@@ -1,0 +1,12 @@
+chipseqpeaks/ENCFF001TDO.bed.gz,sha256=A1MAf0-LEqyM9IIBTiiYvHtp6nK0sZ7nYbFxgqOKEpk,4731
+chipseqpeaks/ENCFF419RSJ.bed.gz,sha256=iweSekpCbbSHHadKSSaFpKagxvqDiyNFe_531CWQ96M,310
+chipseqpeaks/ENCFF547MET.bed.gz,sha256=jMihs76hdBAw6RRHhdY91YrLOfctcaxHKYwLeDKKysk,1263
+chipseqpeaks/__init__.py,sha256=4zU0dF10WhDQWVbtNmYN43u0w57UG3IoNMIFrIAbf6w,514
+chipseqpeaks/call_peaks.py,sha256=mxT-7ox5FSpx23ir4Zx3LNTR5SiIwKtMcL3D6C3Is3E,4362
+chipseqpeaks/chip_seq_peaks.py,sha256=jYgF7REJDswrg5iWvxUQ9njKqWoz7bki_mXAujSVFGo,12385
+chipseqpeaks-0.0.9.dist-info/LICENSE,sha256=yfqvO0RW60DUufskNDvyF_F4idVdjgY3M4BlvSd91Ls,1059
+chipseqpeaks-0.0.9.dist-info/METADATA,sha256=PObZrji8kZ2N28bnx90oNMtx-SIZcE_aaBLSHHdOLKQ,1133
+chipseqpeaks-0.0.9.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+chipseqpeaks-0.0.9.dist-info/entry_points.txt,sha256=aJsq44H7i41WxKLmELj2jWz1GM-1qCUM_GDUCN6r-YE,68
+chipseqpeaks-0.0.9.dist-info/top_level.txt,sha256=ywZCWlBxA24ZDSakLLjyUeK7PBn2TeBYEAbgNSs7hts,13
+chipseqpeaks-0.0.9.dist-info/RECORD,,
