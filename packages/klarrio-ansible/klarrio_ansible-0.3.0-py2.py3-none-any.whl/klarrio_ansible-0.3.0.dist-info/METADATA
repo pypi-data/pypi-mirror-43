@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: klarrio-ansible
+Version: 0.3.0
+Summary: Python modules used in Klarrio's Ansible codebases
+Home-page: https://github.com/Klarrio/klarrio-ansible
+Author: Timo Beckers
+Author-email: timo.beckers@klarrio.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ansible (>=2.7.0.0)
+
+UNKNOWN
+
+
