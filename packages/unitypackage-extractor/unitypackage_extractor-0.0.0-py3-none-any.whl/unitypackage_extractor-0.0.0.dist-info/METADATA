@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: unitypackage-extractor
+Version: 0.0.0
+Summary: Extractor for .unitypackage files
+Home-page: https://github.com/Cobertos/unity-package-extractor/
+Author: Cobertos
+Author-email: me@cobertos.com
+License: MIT
+Keywords: untiy unity3d unitypackage extract tar extractor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: System :: Filesystems
+Description-Content-Type: text/markdown
+
+# Unity Package Extractor
+
+Extract your .unitypackage
+
+### Usage
+
+* Clone down the repository
+* Run `python unityPackageExtract.py [XXX.unitypackage]` and it will extract it into the current folder
+
+#### Releasing
+Refer to [the python docs on packaging for clarification](https://packaging.python.org/tutorials/packaging-projects/).
+Make sure you've updated `setup.py`, and have installed `twine`, `setuptools`, and `wheel`
+`python3 setup.py sdist bdist_wheel` - Create a source distribution and a binary wheel distribution into `dist/`
+`twine upload dist/bobskater-x.x.x*` - Upload all `dist/` files to PyPI of a given version
+Make sure to tag the commit you released
+
