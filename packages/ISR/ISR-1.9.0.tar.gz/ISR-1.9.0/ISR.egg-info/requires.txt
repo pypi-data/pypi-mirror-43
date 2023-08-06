@@ -1,0 +1,8 @@
+imageio
+Keras==2.2.4
+numpy==1.16.2
+tensorflow==1.13.1
+tqdm
+
+[tests]
+pytest
