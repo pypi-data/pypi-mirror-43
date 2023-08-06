@@ -1,0 +1,7 @@
+pytools
+numpy>=1.12
+matplotlib
+parsimonious
+
+[cuda]
+pycuda
