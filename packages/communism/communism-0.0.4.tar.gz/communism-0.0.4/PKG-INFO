@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: communism
+Version: 0.0.4
+Summary: The best package on PyPi
+Home-page: UNKNOWN
+Author: Karl Marx
+Author-email: dacurse0@gmail.com
+License: UNKNOWN
+Description: # Communism.py
+        *Seize the memes of production*
+        
+        **Usage:**
+        ```
+        from communism import communism
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+communism/__init__.py
+communism/communism.py
+communism.egg-info/PKG-INFO
+communism.egg-info/SOURCES.txt
+communism.egg-info/dependency_links.txt
+communism.egg-info/top_level.txt
