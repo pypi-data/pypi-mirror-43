@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+src/sos_java/__init__.py
+src/sos_java/_version.py
+src/sos_java/helper.jar
+src/sos_java/kernel.py
+src/sos_java.egg-info/PKG-INFO
+src/sos_java.egg-info/SOURCES.txt
+src/sos_java.egg-info/dependency_links.txt
+src/sos_java.egg-info/entry_points.txt
+src/sos_java.egg-info/requires.txt
+src/sos_java.egg-info/top_level.txt
+test/test_java_kernel.py
