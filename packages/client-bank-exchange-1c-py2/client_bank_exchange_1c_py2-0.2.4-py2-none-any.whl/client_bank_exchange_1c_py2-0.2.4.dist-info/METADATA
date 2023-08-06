@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: client-bank-exchange-1c-py2
+Version: 0.2.4
+Summary: Handling of 1CClientBankExchange format
+Home-page: https://git.kim.aero/taxist.info/client_bank_exchange_1c
+Author: Denis Kim
+Author-email: denis@kim.aero
+License: GNU General Public License v3
+Keywords: client_bank_exchange_1c
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 2 :: Only
+Requires-Dist: aenum
+
+UNKNOWN
+
+
