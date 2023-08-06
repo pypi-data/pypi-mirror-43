@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: crtime
+Version: 0.0.2
+Summary: crtime: get creation time of files for any platform and no external dependencies.
+Home-page: https://github.com/kootenpv/crtime
+Author: Pascal van Kooten
+Author-email: kootenpv@gmail.com
+License: MIT
+Description: ## crtime
+        
+        [![PyPI](https://img.shields.io/pypi/v/crtime.svg?style=flat-square)](https://pypi.python.org/pypi/crtime/)
+        [![PyPI](https://img.shields.io/pypi/pyversions/crtime.svg?style=flat-square)](https://pypi.python.org/pypi/crtime/)
+        
+        Get creation time of files for any platform and no external dependencies.
+        
+        ### Caveat
+        
+        Linux requires sudo! There is no way to avoid this, as creation time is not exposed by the kernel.
+        
+        It uses debugfs to mount the filesystem, as the information is actually contained on most linux platforms.
+        
+        Speed: because it does one query for a whole directory, it is roughly 1000x faster than any other method (such as the `xstat` utility that can be found online).
+        
+        ### Installation
+        
+            pip install crtime
+        
+        ### Usage
+        
+        In a shell:
+        
+        ```bash
+        crtime .
+        # 1552938709\tfile_a.py
+        ```
+        
+        In Python
+        
+        ```python
+        from crtime import get_crtimes_in_dir
+        
+        for fname, date in get_crtimes_in_dir(".", raise_on_error=True, as_epoch=False):
+            print(fname, date)
+        # file_a.py Mon Mar 18 20:51:18 CET 2019
+        ```
+        
+Platform: any
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
