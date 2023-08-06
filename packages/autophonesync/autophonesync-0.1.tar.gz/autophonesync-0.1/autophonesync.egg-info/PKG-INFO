@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autophonesync
+Version: 0.1
+Summary: Automatically backup phone on plug in
+Home-page: https://gitlab.com/astronouth7303/phonesync
+Author: Jamie Bliss
+Author-email: jamie@ivyleav.es
+License: UNKNOWN
+Project-URL: Bug Reports, https://gitlab.com/astronouth7303/phonesync/issues
+Project-URL: Tips, https://ko-fi.com/astraluma
+Description: UNKNOWN
+Keywords: android backup udev systemd
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
