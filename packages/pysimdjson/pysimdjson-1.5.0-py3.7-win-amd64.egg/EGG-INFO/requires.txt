@@ -1,0 +1,10 @@
+
+[cli]
+click
+
+[dev]
+Cython
+m2r
+sphinx
+ghp-import
+bumpversion
