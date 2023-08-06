@@ -1,0 +1,4 @@
+[console_scripts]
+devtracker = devtracker.__main__:main
+dt = devtracker.__main__:main
+
