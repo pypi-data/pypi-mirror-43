@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: MetaboDistTrees
+Version: 0.0.5
+Summary: A python implementation for building chemically informed distance trees
+Home-page: https://github.com/madeleineernst/MetaboDistTrees
+Author: Madeleine Ernst
+Author-email: mernst@ucsd.edu
+License: UNKNOWN
+Description: # MetaboDistTrees
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
