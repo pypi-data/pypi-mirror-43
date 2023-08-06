@@ -1,0 +1,5 @@
+aioserf >= 0.3.3
+anyio
+attrs
+range_set >= 0.2
+trio_click
