@@ -1,0 +1,9 @@
+README.md
+setup.py
+globconf/__init__.py
+klang_globconf.egg-info/PKG-INFO
+klang_globconf.egg-info/SOURCES.txt
+klang_globconf.egg-info/dependency_links.txt
+klang_globconf.egg-info/top_level.txt
+test/__init__.py
+test/test_verify_required_options.py
