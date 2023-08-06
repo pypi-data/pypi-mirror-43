@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gansdojo
+Version: 0.1.1
+Summary: Simple framework for training Generative Adversarial Networks.
+Home-page: https://github.com/nova-zl504/gansdojo
+Author: Oliver
+Author-email: elvewyn@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
