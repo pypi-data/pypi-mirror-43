@@ -1,0 +1,12 @@
+WikiWho/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WikiWho/structures.py,sha256=fTX0xKrqQ-qcGbYKw1e-ZT6JSNkBhPTFGlgvcN-EEKA,3805
+WikiWho/utils.py,sha256=N0yMwM4VCKJGIgo07zeQBXGyM9suF4VnZKuO-6Wk1eA,6002
+WikiWho/wikiwho.py,sha256=i6civ41zuHnUPyZiOOI4dyGBCqw2jLL_RDU4tDEQgr0,34803
+WikiWho/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+WikiWho/examples/process_api_output.py,sha256=fvoT4AivyNKFrM_Ir7TX0rcY2eVv4Nl-WD9pHYqqTpQ,1771
+WikiWho/examples/process_xml_dump.py,sha256=0fJGe5QrinmiTlRIVr6d4rwilE4cJP8PuH-Z7Oh6V3w,884
+WikiWho-1.0.3.dist-info/LICENSE.txt,sha256=cho-8nnJsI2NkwHae2-LZu83Ftx39fPFLvmgBIJI9tU,1096
+WikiWho-1.0.3.dist-info/METADATA,sha256=XznRInnNtuGorQh3c_GtxWVcv2QA_AnetG3RaZhMlyo,2036
+WikiWho-1.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+WikiWho-1.0.3.dist-info/top_level.txt,sha256=KlL8JvM_NuDMONIUaNOke2f6ombmZzsNC3xP1IP9zAY,8
+WikiWho-1.0.3.dist-info/RECORD,,
