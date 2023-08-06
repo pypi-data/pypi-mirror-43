@@ -1,0 +1,8 @@
+hafapiserver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hafapiserver/app.py,sha256=nm_fsXKx2uUglknAiHEVVEaoFLwloMh9suO_GnPAN-k,1492
+hafapiserver/resources.py,sha256=WSVP48cHBjCrcfgWwVZRbaseJBM51q8MFLM8XvHkGDY,1990
+hafapiserver-0.0.8.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+hafapiserver-0.0.8.dist-info/METADATA,sha256=C5U1gDNQbnOFtvXa0VWATcSfRu2nwbPbrX06evuqNzA,1643
+hafapiserver-0.0.8.dist-info/WHEEL,sha256=aEiWNTQcG6AiGGAYQ9qHTifyKRnmFJvDeTI0hP5aohY,116
+hafapiserver-0.0.8.dist-info/top_level.txt,sha256=YtV6Tni5gdi_ezuDVbRk9OI_mqPh4L4kInqJrZbdWjM,13
+hafapiserver-0.0.8.dist-info/RECORD,,
