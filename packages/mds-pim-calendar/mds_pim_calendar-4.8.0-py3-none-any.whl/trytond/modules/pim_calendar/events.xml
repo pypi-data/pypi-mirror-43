@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- forms -->
+        <record model="ir.ui.view" id="event_view_form">
+            <field name="model">pim_calendar.event</field>
+            <field name="type">form</field>
+            <field name="name">event_form</field>
+        </record>
+        <record model="ir.ui.view" id="event_view_tree">
+            <field name="model">pim_calendar.event</field>
+            <field name="type">tree</field>
+            <field name="name">event_tree</field>
+        </record>
+        <record model="ir.ui.view" id="event_view_calendar">
+            <field name="model">pim_calendar.event</field>
+            <field name="type">calendar</field>
+            <field name="name">event_calendar</field>
+        </record>
+        <record model="ir.ui.view" id="event_view_calendar_allday">
+            <field name="model">pim_calendar.event</field>
+            <field name="type">calendar</field>
+            <field name="name">event_calendar_allday</field>
+        </record>
+
+        <!-- action view - events list -->
+        <record model="ir.action.act_window" id="act_event_form">
+            <field name="name">Events (list)</field>
+            <field name="res_model">pim_calendar.event</field>
+            <field name="domain" eval="[('calendar.cal_visible', '=', True)]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_form1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="event_view_tree"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_form2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="event_view_form"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+
+        <!-- action view - event week/month-view -->
+        <record model="ir.action.act_window" id="act_event_calendar_allday">
+            <field name="name">Events (all-day)</field>
+            <field name="res_model">pim_calendar.event</field>
+            <field name="domain" eval="[
+                    ('calendar.cal_visible', '=', True), ('wholeday', '=', True),
+                ]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_calendar_allday1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="event_view_calendar_allday"/>
+            <field name="act_window" ref="act_event_calendar_allday"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_calendar_allday2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="event_view_form"/>
+            <field name="act_window" ref="act_event_calendar_allday"/>
+        </record>
+
+        <!-- action view - all-day-events week/month-view-->
+        <record model="ir.action.act_window" id="act_event_calendar">
+            <field name="name">Events</field>
+            <field name="res_model">pim_calendar.event</field>
+            <field name="domain" eval="[
+                    ('calendar.cal_visible', '=', True), ('wholeday', '=', False),
+                ]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_calendar1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="event_view_calendar"/>
+            <field name="act_window" ref="act_event_calendar"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_event_calendar2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="event_view_form"/>
+            <field name="act_window" ref="act_event_calendar"/>
+        </record>
+
+        <!-- menu -->
+        <menuitem  action="act_event_calendar" id="menu_calendar1" 
+            icon="mds-calendar-day"/>
+        <menuitem  action="act_event_calendar_allday" id="menu_eventallday" 
+            parent="menu_calendar1" icon="mds-calendar-day" sequence="10"/>
+        <menuitem  action="act_event_form" id="menu_eventlist" 
+            parent="menu_calendar1" icon="mds-calendar-day" sequence="20"/>
+
+        <!-- filter for [next 7 days/next four weeks/all] -->
+        <record model="ir.action.act_window.domain" id="act_event_form_7days">
+            <field name="name">next 7 days</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="['OR',
+                    [('dayss', '&gt;=', 0), ('dayss', '&lt;=', 7)],
+                    [('dayse', '&gt;=', 0), ('dayse', '&lt;=', 7)],
+                ]" pyson="1"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_event_form_30days">
+            <field name="name">next 30 days</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="['OR',
+                    [('dayss', '&gt;=', 0), ('dayss', '&lt;=', 30)],
+                    [('dayse', '&gt;=', 0), ('dayse', '&lt;=', 30)],
+                ]" pyson="1"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_event_form_future">
+            <field name="name">future events</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="['OR', ('dayss', '&gt;=', 0), ('dayse', '&gt;=', 0)]" pyson="1"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_event_form_past">
+            <field name="name">past events</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain" eval="[('dayss', '&lt;', 0), ('dayse', '&lt;', 0)]" pyson="1"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_event_form_all">
+            <field name="name">all</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_event_form"/>
+        </record>
+
+        <!-- access: deny all -->
+        <record model="ir.model.access" id="access_event_anon">
+            <field name="model" search="[('model', '=', 'pim_calendar.event')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <!-- rule group -->
+        <record model="ir.rule.group" id="rule_group_event_anon">
+            <field name="model" search="[('model', '=', 'pim_calendar.event')]"/>
+            <field name="global_p" eval="False"/>
+            <field name="default_p" eval="True"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.rule" id="rule_group_event_anon_line1">
+            <field name="domain" pyson="1" eval="[]" />
+            <field name="rule_group" ref="rule_group_event_anon"/>
+        </record>
+
+    </data>
+</tryton>

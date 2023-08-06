@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="4">
+    <label name="calendar"/>
+    <field name="calendar"/>
+    <label name="visitor"/>
+    <field name="visitor"/>
+    <group string="Permissions" id="grpperm" col="6" colspan="4">
+        <label name="accchange"/>
+        <field name="accchange"/>
+        <label name="acccreate"/>
+        <field name="acccreate"/>
+        <label name="accdelete"/>
+        <field name="accdelete"/>
+    </group>
+    <field name="visitors"/>
+</form>
