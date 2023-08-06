@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: webclrs
+Version: 0.0.1
+Summary: A nicer color palette for the web in Python. (https://clrs.cc/).
+Home-page: https://github.com/suzil/webclrs
+License: MIT
+Description: 
+        # webclrs
+        A nicer color palette for the web in Python. (https://clrs.cc/)
+        
+        ## Installation
+        
+        ```shell
+        $ pip install webclrs
+        ```
+        
+        ## Usage
+        
+        ```python
+        >>> import webclrs
+        >>> webclrs.NAVY
+        '#001f3f'
+        ```
+        
+        ## Available colors
+        <a href="https://clrs.cc/">![colors](colors.png)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

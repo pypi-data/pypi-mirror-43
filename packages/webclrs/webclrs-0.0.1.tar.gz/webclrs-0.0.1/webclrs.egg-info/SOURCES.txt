@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+webclrs/__init__.py
+webclrs.egg-info/PKG-INFO
+webclrs.egg-info/SOURCES.txt
+webclrs.egg-info/dependency_links.txt
+webclrs.egg-info/top_level.txt
