@@ -1,0 +1,6 @@
+setup.py
+zouss/__init__.py
+zouss.egg-info/PKG-INFO
+zouss.egg-info/SOURCES.txt
+zouss.egg-info/dependency_links.txt
+zouss.egg-info/top_level.txt
