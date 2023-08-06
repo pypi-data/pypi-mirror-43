@@ -1,0 +1,56 @@
+[
+{
+    "pk": 1, 
+    "model": "accounts.user", 
+    "fields": 
+    {
+        "username": "admin", 
+        "first_name": "Admin", 
+        "last_name": "User", 
+        "email": "admin@example.com", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "password": "pbkdf2_sha256$120000$PBHnV3HgGalx$9T2sOX1Y4UHmkFPBEo18lVouC60NL8pZuQ4BYEl6qXc=",
+        "last_login": "2019-01-01T00:00:00Z", 
+        "date_joined": "2019-01-01T00:00:00Z",
+        "activation_key": "ALREADY_ACTIVATED"
+    }
+},
+{
+    "pk": 2, 
+    "model": "accounts.user", 
+    "fields": 
+    {
+        "username": "test", 
+        "first_name": "Test", 
+        "last_name": "User", 
+        "email": "test@example.com",
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": false, 
+        "password": "pbkdf2_sha256$120000$dcIFqVyUosrA$wyz+LyIk6Kgu3sylTOXX5vdpPz3UwapgN1xT4iunp3o=",
+        "last_login": "2019-01-01T00:00:00Z", 
+        "date_joined": "2019-01-01T00:00:00Z",
+        "activation_key": "ALREADY_ACTIVATED"
+    }
+},
+{
+    "pk": 3, 
+    "model": "accounts.user", 
+    "fields": 
+    {
+        "username": "demo", 
+        "first_name": "Demo", 
+        "last_name": "User", 
+        "email": "demo@example.com",
+        "is_active": true, 
+        "is_superuser": false, 
+        "is_staff": false, 
+        "password": "pbkdf2_sha256$120000$YKPqbtJ77Txe$Q9s/Qh6gLtV53h2I80acQj4AulFBjkkFtTVuSlWQHUA=",
+        "last_login": "2019-01-01T00:00:00Z", 
+        "date_joined": "2019-01-01T00:00:00Z",
+        "activation_key": "ALREADY_ACTIVATED"
+    }
+}
+]

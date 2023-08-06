@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: django-manifest
+Version: 0.2
+Summary: A kickstarter for Django Web Framework projects.
+Home-page: http://github.com/ozgurgunes/django-manifest/
+Author: Ozgur Gunes
+Author-email: o.gunes@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Framework :: Django
+
+| WARNING: This project is not maintained anymore. |
+| --- |
+
+# Django Manifest
+
+A kickstarter for Django Web Framework projects.
+
+Tested with Django 2.1.7
+
+## Quick Start
+
+Run in shell:
+
+```
+$ virtualenv my_env
+$ source my_env/bin/activate
+(my_env)$ pip install django-manifest
+(my_env)$ django-admin startproject my_site . --template=path/to/manifest/project/template
+(my_env)$ pip install --upgrade -r my_site/requirements.txt
+(my_env)$ python manage.py migrate
+(my_env)$ python manage.py runserver
+```
+
