@@ -1,0 +1,9 @@
+tspex/__init__.py,sha256=A8AjOZfbca1dXZjOAZPsZN9AYIgJHjmchzWVFTb6ybw,910
+tspex/core/__init__.py,sha256=lI00BmV-Sdt5BzTpE2gI70D0G-uZ5RUu8yjKtycuWwc,814
+tspex/core/auxiliary_functions.py,sha256=PQbZh2FsA_7KlsA79kyfoD3Fe7UO3dVv3m040wH4J3w,4187
+tspex/core/specificity_class.py,sha256=217QXczIYBU2kt1zCnR_2LzLt226XIeUyvgRZ7tl83A,9115
+tspex/core/specificity_functions.py,sha256=zz4_d2UzYrYLUmF4JVyh8TgodZatLXqP0_xKJdCNY_g,15009
+tspex-0.3.0.dist-info/METADATA,sha256=Fo-1uSjMj5jnp093RIU2VGrfXFkpBwNV_yQNnWuLmbs,1333
+tspex-0.3.0.dist-info/RECORD,,
+tspex-0.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tspex-0.3.0.dist-info/top_level.txt,sha256=qFZpyE8ghbNRGzz2dAI0crsv8gL_w3eIuRnQTBOV3Hs,6
