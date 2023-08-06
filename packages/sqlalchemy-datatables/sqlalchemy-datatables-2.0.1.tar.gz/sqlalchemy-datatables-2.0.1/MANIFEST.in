@@ -1,0 +1,4 @@
+include *.in
+include LICENSE
+recursive-include tests *.py
+prune examples
