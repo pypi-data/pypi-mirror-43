@@ -1,0 +1,10 @@
+README.md
+setup.py
+s3_streaming.egg-info/PKG-INFO
+s3_streaming.egg-info/SOURCES.txt
+s3_streaming.egg-info/dependency_links.txt
+s3_streaming.egg-info/top_level.txt
+s3streaming/__init__.py
+s3streaming/opener.py
+s3streaming/stream.py
+tests/__init__.py
