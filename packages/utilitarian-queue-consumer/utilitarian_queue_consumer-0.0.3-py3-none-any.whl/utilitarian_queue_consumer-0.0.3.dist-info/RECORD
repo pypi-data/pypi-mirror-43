@@ -1,0 +1,13 @@
+utilitarian_queue_consumer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utilitarian_queue_consumer/management.py,sha256=GrUdZmiXuEQXMqKQgmuvrC6tG3K24Ur8gZ_q1Iz0MP8,1706
+utilitarian_queue_consumer/workers.py,sha256=tjBlQY4GTssGqWQYRUi2LjAvHIpEHkqbh_HL9jNmitA,2477
+utilitarian_queue_consumer/conf/__init__.py,sha256=M1RpyZXi37Voii9rHGx8JtxhKFdDzUiFOFn1igUirHM,1526
+utilitarian_queue_consumer/conf/global_settings.py,sha256=e5xkJIZndscy8tUtlPmShapjgADROwj5UoDHYi2Cvvs,430
+utilitarian_queue_consumer/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utilitarian_queue_consumer/utils/log.py,sha256=hEtHcoGV8Z33w4t2qcroFqEaB2rk-MpPc-IpzUqEm_w,1492
+utilitarian_queue_consumer/utils/module_loading.py,sha256=JDv3s4HVCV5bOX2rsfrczQenZyJwvF1bSqtNcBx05yM,759
+utilitarian_queue_consumer-0.0.3.dist-info/LICENSE.txt,sha256=DrRC-PfZnplB2VrIAySNParGrsnH9wf4zqfzpR37SbA,1542
+utilitarian_queue_consumer-0.0.3.dist-info/METADATA,sha256=u2S7XUzTgrLPeG010_GUuXIiOz6YvxaqEGDkCgkFnXI,1277
+utilitarian_queue_consumer-0.0.3.dist-info/RECORD,,
+utilitarian_queue_consumer-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+utilitarian_queue_consumer-0.0.3.dist-info/top_level.txt,sha256=_O97A9rIbQifIdjgt9MowGcS7FGToFaWE9E19rHMF_w,27
