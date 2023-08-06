@@ -1,0 +1,8 @@
+selenium
+jsbeautifier
+python-mpv
+tqdm
+autochromedriver
+requests
+inquirer==2.5.1
+prompt-toolkit==2.0.9
