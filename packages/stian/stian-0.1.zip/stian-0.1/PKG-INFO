@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: stian
+Version: 0.1
+Summary: Fetches weather info from darksky.net.
+Home-page: https://github.com/TheStill/stian
+Author: Darren Duncan
+Author-email: darren907@hotmail.co.uk
+License: MIT License
+Download-URL: https://github.com/TheStill/stian/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: Weather,darksky,sun
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
