@@ -1,0 +1,450 @@
+# RNG: Random Number Generator
+## Provides low-level access to the C++ Random library.
+
+### Random Engine: Mersenne Twister 64. 
+More info: https://en.wikipedia.org/wiki/Mersenne_Twister.
+
+
+#### Random Bool
+- `random_bool(ratio: float) -> bool`
+
+
+#### Random Integer
+- `random_int(lo_limit: int, hi_limit: int) -> int`
+- `random_binomial(number_of_trials: int, probability: float) -> int`
+- `random_negative_binomial(number_of_trials: int, probability: float) -> int`
+- `random_geometric(probability: float) -> int`
+- `random_poisson(average: float) -> int`
+- `random_discrete(count: int, xmin: int, xmax: int) -> int`
+
+
+#### Random Floating Point
+- `random_floating_point(lo_limit: float, hi_limit: float) -> float`
+- `random_exponential(lambda_rate: float) -> float`
+- `random_gamma(shape: float, scale: float) -> float`
+- `random_weibull(shape: float, scale: float) -> float`
+- `random_extreme_value(shape: float, scale: float) -> float`
+- `random_normal(average: float, std_dev: float) -> float`
+- `random_log_normal(log_mean: float, log_deviation: float) -> float`
+- `random_chi_squared(degrees_of_freedom: float) -> float`
+- `random_cauchy(location: float, scale: float) -> float`
+- `random_fisher_f(degrees_of_freedom_1: float, degrees_of_freedom_2: float) -> float`
+- `random_student_t(degrees_of_freedom: float) -> float`
+
+
+#### C-style Random
+- `c_rand() -> int`
+
+
+## Distribution and Performance Test Suite
+```
+Binary RNG Tests
+
+Function: random_bool(0.3333)
+Time: min: 31ns, mode: 62ns, mean: 63ns, max: 218ns
+Distribution:
+False: 66.6507%
+True: 33.3493%
+
+
+Integer RNG Tests
+
+Function: random_int(1, 6)
+Time: min: 62ns, mode: 62ns, mean: 85ns, max: 343ns
+Distribution:
+1: 16.698%
+2: 16.6572%
+3: 16.6128%
+4: 16.7057%
+5: 16.711%
+6: 16.6153%
+
+Function: random_binomial(4, 0.5)
+Time: min: 156ns, mode: 156ns, mean: 188ns, max: 718ns
+Distribution:
+0: 6.2078%
+1: 24.9412%
+2: 37.539%
+3: 25.0835%
+4: 6.2285%
+
+Function: random_negative_binomial(5, 0.75)
+Time: min: 125ns, mode: 125ns, mean: 134ns, max: 187ns
+Distribution:
+0: 23.7542%
+1: 29.7228%
+2: 22.2209%
+3: 12.9664%
+4: 6.486%
+5: 2.8932%
+6: 1.2104%
+7: 0.473%
+8: 0.1769%
+9: 0.0645%
+10: 0.022%
+11: 0.0066%
+12: 0.002%
+13: 0.0009%
+15: 0.0001%
+17: 0.0001%
+
+Function: random_geometric(0.75)
+Time: min: 31ns, mode: 62ns, mean: 56ns, max: 93ns
+Distribution:
+0: 74.9651%
+1: 18.7735%
+2: 4.716%
+3: 1.1644%
+4: 0.2874%
+5: 0.068%
+6: 0.0199%
+7: 0.0042%
+8: 0.0008%
+9: 0.0006%
+10: 0.0001%
+
+Function: random_poisson(4.5)
+Time: min: 93ns, mode: 125ns, mean: 121ns, max: 437ns
+Distribution:
+0: 1.1284%
+1: 4.9802%
+2: 11.2596%
+3: 16.8643%
+4: 18.9139%
+5: 17.1252%
+6: 12.8555%
+7: 8.2521%
+8: 4.6164%
+9: 2.2961%
+10: 1.0518%
+11: 0.4202%
+12: 0.1578%
+13: 0.0539%
+14: 0.0185%
+15: 0.0039%
+16: 0.0018%
+17: 0.0003%
+19: 0.0001%
+
+Function: random_discrete(5, 1, 5)
+Time: min: 406ns, mode: 406ns, mean: 417ns, max: 562ns
+Distribution:
+0: 12.0356%
+1: 16.005%
+2: 19.9592%
+3: 23.9771%
+4: 28.0231%
+
+
+Floating Point RNG Tests
+
+Function: random_floating_point(0, 10)
+Time: min: 62ns, mode: 62ns, mean: 73ns, max: 125ns
+Floored Distribution:
+0: 9.9679%
+1: 10.0064%
+2: 9.9984%
+3: 9.9833%
+4: 10.0267%
+5: 10.0031%
+6: 10.0157%
+7: 10.0111%
+8: 9.9659%
+9: 10.0215%
+
+Function: random_exponential(1.0)
+Time: min: 62ns, mode: 62ns, mean: 78ns, max: 125ns
+Floored Distribution:
+0: 63.2954%
+1: 23.1848%
+2: 8.5824%
+3: 3.1309%
+4: 1.1421%
+5: 0.4158%
+6: 0.1541%
+7: 0.0619%
+8: 0.0211%
+9: 0.0076%
+10: 0.0032%
+11: 0.0004%
+12: 0.0001%
+13: 0.0002%
+
+Function: random_gamma(1.0, 1.0)
+Time: min: 62ns, mode: 93ns, mean: 80ns, max: 125ns
+Floored Distribution:
+0: 63.1506%
+1: 23.2629%
+2: 8.5489%
+3: 3.1741%
+4: 1.1709%
+5: 0.4392%
+6: 0.1572%
+7: 0.0626%
+8: 0.023%
+9: 0.0062%
+10: 0.0035%
+11: 0.0003%
+12: 0.0005%
+13: 0.0001%
+
+Function: random_weibull(1.0, 1.0)
+Time: min: 125ns, mode: 125ns, mean: 132ns, max: 375ns
+Floored Distribution:
+0: 63.2818%
+1: 23.1514%
+2: 8.5913%
+3: 3.153%
+4: 1.1537%
+5: 0.423%
+6: 0.1571%
+7: 0.0562%
+8: 0.0205%
+9: 0.0081%
+10: 0.0031%
+11: 0.0007%
+13: 0.0001%
+
+Function: random_extreme_value(0.0, 1.0)
+Time: min: 93ns, mode: 93ns, mean: 100ns, max: 125ns
+Rounded Distribution:
+-3: 0.0003%
+-2: 1.1218%
+-1: 18.1563%
+0: 35.2462%
+1: 25.4654%
+2: 12.1703%
+3: 4.8777%
+4: 1.8614%
+5: 0.7011%
+6: 0.2571%
+7: 0.089%
+8: 0.0334%
+9: 0.0138%
+10: 0.0038%
+11: 0.0014%
+12: 0.0006%
+13: 0.0004%
+
+Function: random_normal(5, 2)
+Time: min: 125ns, mode: 125ns, mean: 140ns, max: 187ns
+Rounded Distribution:
+-6: 0.0001%
+-4: 0.0007%
+-3: 0.0083%
+-2: 0.0478%
+-1: 0.2389%
+0: 0.9091%
+1: 2.8127%
+2: 6.5272%
+3: 12.108%
+4: 17.4766%
+5: 19.6871%
+6: 17.4814%
+7: 12.0896%
+8: 6.5874%
+9: 2.8163%
+10: 0.9097%
+11: 0.243%
+12: 0.0475%
+13: 0.0074%
+14: 0.0012%
+
+Function: random_log_normal(1.6, 0.25)
+Time: min: 156ns, mode: 156ns, mean: 157ns, max: 218ns
+Floored Distribution:
+1: 0.0146%
+2: 2.2307%
+3: 17.3887%
+4: 31.8718%
+5: 26.3727%
+6: 13.8204%
+7: 5.5586%
+8: 1.9049%
+9: 0.5938%
+10: 0.1756%
+11: 0.0492%
+12: 0.0135%
+13: 0.0044%
+14: 0.0009%
+15: 0.0001%
+16: 0.0001%
+
+Function: random_chi_squared(1.0)
+Time: min: 156ns, mode: 187ns, mean: 175ns, max: 250ns
+Floored Distribution:
+0: 68.2917%
+1: 15.991%
+2: 7.42%
+3: 3.7794%
+4: 1.9956%
+5: 1.0965%
+6: 0.6021%
+7: 0.3572%
+8: 0.1958%
+9: 0.1119%
+10: 0.0661%
+11: 0.0373%
+12: 0.0249%
+13: 0.0114%
+14: 0.007%
+15: 0.0049%
+16: 0.0028%
+17: 0.0015%
+18: 0.001%
+19: 0.0008%
+20: 0.0006%
+21: 0.0004%
+22: 0.0001%
+
+Function: random_cauchy(0.0, 0.0005)
+Time: min: 93ns, mode: 93ns, mean: 101ns, max: 156ns
+Rounded Distribution:
+-2908: 0.0001%
+-458: 0.0001%
+-139: 0.0001%
+-31: 0.0001%
+-29: 0.0001%
+-25: 0.0002%
+-22: 0.0001%
+-17: 0.0001%
+-15: 0.0001%
+-13: 0.0001%
+-12: 0.0003%
+-11: 0.0004%
+-10: 0.0001%
+-8: 0.0001%
+-7: 0.0007%
+-6: 0.0002%
+-5: 0.0005%
+-4: 0.0009%
+-3: 0.0021%
+-2: 0.0037%
+-1: 0.0212%
+0: 99.9331%
+1: 0.0231%
+2: 0.0051%
+3: 0.0026%
+4: 0.0007%
+5: 0.0012%
+6: 0.0003%
+7: 0.0001%
+8: 0.0005%
+9: 0.0002%
+10: 0.0003%
+11: 0.0001%
+13: 0.0002%
+14: 0.0003%
+15: 0.0002%
+31: 0.0001%
+34: 0.0001%
+35: 0.0001%
+43: 0.0001%
+48: 0.0001%
+64: 0.0001%
+71: 0.0001%
+
+Function: random_fisher_f(8.0, 8.0)
+Time: min: 250ns, mode: 281ns, mean: 285ns, max: 375ns
+Floored Distribution:
+0: 50.0217%
+1: 32.6889%
+2: 10.2521%
+3: 3.6864%
+4: 1.569%
+5: 0.7592%
+6: 0.3928%
+7: 0.2326%
+8: 0.126%
+9: 0.0825%
+10: 0.052%
+11: 0.0336%
+12: 0.0227%
+13: 0.0174%
+14: 0.0126%
+15: 0.0104%
+16: 0.0077%
+17: 0.0061%
+18: 0.0054%
+19: 0.0033%
+20: 0.0025%
+21: 0.0025%
+22: 0.0009%
+23: 0.0017%
+24: 0.0014%
+25: 0.001%
+26: 0.001%
+27: 0.0007%
+28: 0.0002%
+29: 0.0009%
+30: 0.0004%
+31: 0.0004%
+32: 0.0002%
+33: 0.0005%
+34: 0.0001%
+35: 0.0002%
+36: 0.0006%
+37: 0.0004%
+38: 0.0004%
+40: 0.0003%
+41: 0.0001%
+42: 0.0001%
+43: 0.0001%
+46: 0.0002%
+47: 0.0001%
+48: 0.0001%
+50: 0.0001%
+55: 0.0001%
+61: 0.0001%
+68: 0.0001%
+70: 0.0001%
+73: 0.0001%
+
+Function: random_student_t(8.0)
+Time: min: 218ns, mode: 250ns, mean: 243ns, max: 312ns
+Rounded Distribution:
+-13: 0.0001%
+-12: 0.0002%
+-10: 0.0002%
+-9: 0.0007%
+-8: 0.0029%
+-7: 0.006%
+-6: 0.018%
+-5: 0.0747%
+-4: 0.3087%
+-3: 1.4298%
+-2: 6.748%
+-1: 22.8909%
+0: 36.8936%
+1: 22.9941%
+2: 6.7838%
+3: 1.4525%
+4: 0.2975%
+5: 0.0713%
+6: 0.0182%
+7: 0.005%
+8: 0.0028%
+9: 0.0005%
+10: 0.0002%
+11: 0.0003%
+
+
+C-style RNG Tests
+
+Function: c_rand()
+Time: min: 31ns, mode: 62ns, mean: 57ns, max: 93ns
+Modulo 10 Distribution:
+0: 10.0003%
+1: 10.0206%
+2: 9.9862%
+3: 9.9965%
+4: 9.9771%
+5: 9.9823%
+6: 10.0342%
+7: 10.0239%
+8: 9.9888%
+9: 9.9901%
+
+
+All tests passed!
+```
