@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ezbloom
+Version: 0.0.1
+Summary: Easy bloom filter
+Home-page: https://github.com/watermelo/ezbloom
+Author: melo
+Author-email: watermelo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: bitarray
+
+UNKNOWN
+
+
