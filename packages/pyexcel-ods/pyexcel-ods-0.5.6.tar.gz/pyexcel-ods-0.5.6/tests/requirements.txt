@@ -1,0 +1,11 @@
+nose
+mock;python_version<"3"
+codecov
+coverage
+flake8
+moban
+black;python_version>="3.6"
+isort;python_version>="3.6"
+psutil
+pyexcel
+pyexcel-xls
