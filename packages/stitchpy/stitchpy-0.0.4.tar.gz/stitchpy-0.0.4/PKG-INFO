@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: stitchpy
+Version: 0.0.4
+Summary: Python Binding for Pano Tools
+Home-page: https://autoai.org
+Author: Xiaozhe Yao
+Author-email: xiaozhe.yaoi@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/xzyaoi/pystitch/issues
+Project-URL: Documentation, https://cvpm.autoai.org
+Project-URL: Source Code, https://github.com/xzyaoi/pystitch
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development

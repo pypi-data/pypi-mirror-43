@@ -1,0 +1,11 @@
+README.md
+setup.py
+pystitch/__init__.py
+pystitch/cli.py
+pystitch/process.py
+pystitch/pystitch.py
+pystitch/tests.py
+stitchpy.egg-info/PKG-INFO
+stitchpy.egg-info/SOURCES.txt
+stitchpy.egg-info/dependency_links.txt
+stitchpy.egg-info/top_level.txt
