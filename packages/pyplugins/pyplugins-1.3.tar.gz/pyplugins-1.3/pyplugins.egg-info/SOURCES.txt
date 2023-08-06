@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyplugins/__init__.py
+pyplugins/loader.py
+pyplugins/plugin.py
+pyplugins.egg-info/PKG-INFO
+pyplugins.egg-info/SOURCES.txt
+pyplugins.egg-info/dependency_links.txt
+pyplugins.egg-info/top_level.txt
