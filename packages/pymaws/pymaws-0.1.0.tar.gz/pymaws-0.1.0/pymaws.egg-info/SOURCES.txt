@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pymaws/__init__.py
+pymaws/pymaws.py
+pymaws/test_pymaws.py
+pymaws.egg-info/PKG-INFO
+pymaws.egg-info/SOURCES.txt
+pymaws.egg-info/dependency_links.txt
+pymaws.egg-info/top_level.txt
