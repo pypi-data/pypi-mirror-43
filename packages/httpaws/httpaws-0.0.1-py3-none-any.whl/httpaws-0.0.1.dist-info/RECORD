@@ -1,0 +1,9 @@
+httpaws/__init__.py,sha256=qVSAY_P8-1yazPfdH0tMsKKKaO9sR63tXwoAbcAOxrM,1322
+httpaws/__main__.py,sha256=RMV2IJuVminY1zMkt9-yaxRAK_S-dzw5QxVE657XNL0,329
+httpaws/core.py,sha256=oGTyaeCF75GcjHMSpS4V40-s84YUmNLES9ah-QvB5b8,9497
+httpaws-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+httpaws-0.0.1.dist-info/METADATA,sha256=nspRIji7LtdAxJ7pmxUknJd4MI3gkkB79d28ns690Ec,6839
+httpaws-0.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+httpaws-0.0.1.dist-info/entry_points.txt,sha256=VZLxmiVMLtJSy72W4nGlU3_w8r0g8pqeVU04YIcMqD4,51
+httpaws-0.0.1.dist-info/top_level.txt,sha256=lUvky8L0R6jL_9uH7GvFbWLhCq8t41cvP5OXG4yoNz8,8
+httpaws-0.0.1.dist-info/RECORD,,
