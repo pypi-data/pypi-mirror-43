@@ -1,0 +1,10 @@
+Rofi_MPD-1.0.0.data/scripts/rofi-mpd,sha256=0Z87OHW-9S32_8XLVTSq5hmp2PnpgoTl9WnAt-Pmh0g,32
+main/__init__.py,sha256=ymq1CTgbagltwFaUQyAB2Bi-vzC8TtcN1kE2_BOIWqU,24
+main/rofi_mpd.py,sha256=fsMGMtPt3-sMDL5vgh7fkYYrKrpWATlI1aZv3WPfT8E,11095
+rofi/__init__.py,sha256=Uoew8EM1YSiiV3LidCH2zbmtm9G5TdSewUlwt-5kkD4,19
+rofi/rofi.py,sha256=yaW7x1RKPZ2SK9GBV1rDhhRwiPpDTIYo48soDhZUkYQ,29719
+Rofi_MPD-1.0.0.dist-info/LICENSE,sha256=eqDIrx3yu5Jobmv-o5tdSyM3pfKQK1YZh4Ca9QyDqo8,1069
+Rofi_MPD-1.0.0.dist-info/METADATA,sha256=h2cBMHdz5-QnepspTm_XtNQtO7lKZ6rirap8KuMeFmo,276
+Rofi_MPD-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+Rofi_MPD-1.0.0.dist-info/top_level.txt,sha256=DVR59KYqJjDSXZ1IhxRjuhGabBKS-lWw7IKTCzpGBQ8,10
+Rofi_MPD-1.0.0.dist-info/RECORD,,
