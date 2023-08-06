@@ -1,0 +1,19 @@
+#!/bin/bash
+[ "$UID" -eq 0 ] || exec sudo "$0" "$@"
+if [ ! -d "/usr/share/vpnkit" ]; then
+   mkdir /usr/share/vpnkit
+   touch /usr/share/vpnkit/pids.txt
+fi
+
+function finish {
+filename='/usr/share/vpnkit/pids.txt'
+n=1
+while read line; do
+# reading each line
+kill -9 $line
+n=$((n+1))
+done < $filename
+}
+
+trap finish EXIT
+/usr/local/bin/vpnkit.py
