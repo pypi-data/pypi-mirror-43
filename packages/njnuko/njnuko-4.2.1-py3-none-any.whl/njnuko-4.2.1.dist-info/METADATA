@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: njnuko
+Version: 4.2.1
+Summary: file sorting
+Home-page: https://github.com/njnuko/njnuko
+Author: njnuko
+Author-email: njnuko@163.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: psycopg2
+Requires-Dist: pymysql
+Requires-Dist: filetype
+
+UNKNOWN
+
+
