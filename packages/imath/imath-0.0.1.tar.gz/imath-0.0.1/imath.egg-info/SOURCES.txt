@@ -1,0 +1,7 @@
+README.md
+setup.py
+imath/__init__.py
+imath.egg-info/PKG-INFO
+imath.egg-info/SOURCES.txt
+imath.egg-info/dependency_links.txt
+imath.egg-info/top_level.txt
