@@ -1,0 +1,7 @@
+numpy
+scipy
+rasterio[s3,test]
+utm
+pyproj
+bs4
+requests
