@@ -1,0 +1,12 @@
+Cogs-0.4.4-py2.7-nspkg.pth,sha256=GBnphvP8YurbwJkyLJvqpR1ucYtEHOhC7TKNVhIsgPc,529
+Cogs-0.4.4.dist-info/METADATA,sha256=LL6qF4C2ByIxhb-3vqnJ2hci_dfxuyjG0NYzm41rmWI,825
+Cogs-0.4.4.dist-info/RECORD,,
+Cogs-0.4.4.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+Cogs-0.4.4.dist-info/entry_points.txt,sha256=QaY15zyffp_cNlgdsTezT67uELv_rLr6A6m2HBqC3DY,60
+Cogs-0.4.4.dist-info/namespace_packages.txt,sha256=dAAGN-CjbvExcfrvs57gYU2Xu8vbBHpPph7DrAiPNRY,5
+Cogs-0.4.4.dist-info/top_level.txt,sha256=dAAGN-CjbvExcfrvs57gYU2Xu8vbBHpPph7DrAiPNRY,5
+cogs/core.py,sha256=1Knyw6oGhnewiEMKBha3I_CCPLwj4_unnhmBdxxzjxQ,12036
+cogs/fs.py,sha256=TyxYyxJ9g-FBYLOxWEriBrZNnu4_6wvjh8xEySaO7e0,3287
+cogs/log.py,sha256=cwKiDooa5WDQ01-95Rm5H39lZcBc4ygYz4WDgDFVPXY,2439
+cogs/run.py,sha256=Un_qIdkr3T7BVaEjUp1CZSZuBG4IaOAND1fmkyACY0g,13749
+cogs/std.py,sha256=LO4NLVT0AMrCC4zuZ5AGrsAXgs7t_j92uGUFKFSfjJE,7249
