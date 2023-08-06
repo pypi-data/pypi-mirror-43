@@ -1,0 +1,11 @@
+bidict
+click
+colorlog
+google-api-python-client
+mypy
+oauth2client
+rfc3339
+sh
+taskw
+pyyaml
+typing
