@@ -1,0 +1,7 @@
+README.md
+setup.py
+pantheios/__init__.py
+pantheios.egg-info/PKG-INFO
+pantheios.egg-info/SOURCES.txt
+pantheios.egg-info/dependency_links.txt
+pantheios.egg-info/top_level.txt
