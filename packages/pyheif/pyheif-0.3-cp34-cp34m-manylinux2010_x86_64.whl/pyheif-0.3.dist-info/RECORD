@@ -1,0 +1,13 @@
+_libheif_cffi.abi3.so,sha256=6OvCDd2Dz2nMcD6QBA7LkHUYQbKzor_egyp3RoN5iNM,51280
+pyheif/__init__.py,sha256=srW6fCaQZCZejKolzt9OxIWvhCYV3nEmMI2cbh_QlYs,62
+pyheif/constants.py,sha256=G-nr-af5JuERTCak7R6DjpzIMwwRnKnByr9U770qlSo,443
+pyheif/error.py,sha256=jTIfm5snCPxPkQsv3bcRAkkZGTsqtkXTJm2t66I8qJc,389
+pyheif/reader.py,sha256=wyV1iXgGiH67HvPAc8LRkd5QuqquhLcB9YUycXN6TAg,2740
+pyheif/writer.py,sha256=SmyZXkKJKN2-Q6P0lg6a6po-6y8WxXtCcOcmo_WaFKQ,28
+pyheif-0.3.dist-info/top_level.txt,sha256=3lyZLCLbAOPPv0umi9gsb8OeN94AhSw3x-8hcIVMbBM,21
+pyheif-0.3.dist-info/WHEEL,sha256=ESNPYxsyn1zCRbcJYojqbYw9juB5zrokVxSdJBm_mI0,112
+pyheif-0.3.dist-info/METADATA,sha256=qIS1E0LQRH7V6xIHx8iZZi2vPzjP6sNlxVNhSCd-QFs,647
+pyheif-0.3.dist-info/RECORD,,
+.libs_libheif_cffi/libx265-53a7875b.so.169,sha256=2AGJH55--wZad4WIg8HuMJ1SWK0QTXd4_Lr0zZz50lo,5896152
+.libs_libheif_cffi/libheif-ec775633.so.1.4.0,sha256=Btc61WTpHEaGDTNps9UkA_XfYlBkMjpMMrSI_RI5LLA,6300264
+.libs_libheif_cffi/libde265-e59ec625.so.1.0.0,sha256=kQ8Sd8xl4WMq2xHDhUo-lE4vlDCp4CpJBF02L2UuMBk,24480088
