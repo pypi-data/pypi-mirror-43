@@ -1,0 +1,12 @@
+README.md
+setup.py
+django_mdbsessions.egg-info/PKG-INFO
+django_mdbsessions.egg-info/SOURCES.txt
+django_mdbsessions.egg-info/dependency_links.txt
+django_mdbsessions.egg-info/not-zip-safe
+django_mdbsessions.egg-info/requires.txt
+django_mdbsessions.egg-info/top_level.txt
+mdbsession/__init__.py
+mdbsession/session.py
+t/__init__.py
+t/test_session.py
