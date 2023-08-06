@@ -1,0 +1,10 @@
+MatricesM/__init__.py,sha256=mvDlEOjvouRrit2b025xnEt5GUn4AK0S2bHPVlVyXe8,42
+MatricesM/exampleMatrices.py,sha256=75mv_Qwua3qBgChRngbGolPR81XoT7QrP404KNS3aQc,36386
+MatricesM/matrices.py,sha256=xC7vWmych9fmsK3_g530ebXYUjhf6TuB8a6MjD2H4Rw,83877
+MatricesM/randgen_source/randgen.c,sha256=7VSW-9nXm_kxgW9Mhim5kFZgijPIDrUfQE3I8CBBlWE,180700
+MatricesM/randgen_source/randgen.pyx,sha256=sFsaIDJxj0HTQ7lBHYmQ1P7wIbZ4ailTuoUn0lsfBkU,1026
+MatricesM/randgen_source/setup.py,sha256=lerDVM1oitfveNgvrpZoKeXCwXxSF7V-F-aeMTJioCo,166
+MatricesM-0.9a6.post2.dist-info/METADATA,sha256=dHuhuGJ668y_FKeT6IcTnE0i1zAj4_0EZRI-RhOkTZg,12035
+MatricesM-0.9a6.post2.dist-info/RECORD,,
+MatricesM-0.9a6.post2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+MatricesM-0.9a6.post2.dist-info/top_level.txt,sha256=LLLEISc4CR6lqg5Mmk53txAr5XwgxbfI0i9xsWblCH0,10
