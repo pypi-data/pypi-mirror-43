@@ -1,0 +1,3 @@
+[console_scripts]
+spookify = spookify.__main__:main
+
