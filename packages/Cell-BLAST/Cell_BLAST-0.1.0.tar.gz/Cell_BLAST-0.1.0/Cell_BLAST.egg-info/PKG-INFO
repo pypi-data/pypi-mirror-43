@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Cell-BLAST
+Version: 0.1.0
+Summary: Single-cell transcriptome querying tool
+Home-page: https://github.com/gao-lab/Cell_BLAST
+Author: Zhijie Cao
+Author-email: caozj@mail.cbi.pku.edu.cn
+License: UNKNOWN
+Description: # Cell BLAST
+        
+        An accurate and robust solution to large-scale cell querying
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
