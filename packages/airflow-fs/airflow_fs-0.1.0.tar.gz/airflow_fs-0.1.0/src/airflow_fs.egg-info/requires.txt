@@ -1,0 +1,45 @@
+apache-airflow
+future
+
+[all]
+ftputil
+s3fs
+pysftp
+
+[all:python_version < "3"]
+pyarrow<0.12
+
+[all:python_version >= "3"]
+pyarrow
+
+[dev]
+moto
+pylint
+sphinx
+sphinx_rtd_theme
+watchdog
+pytest-helpers-namespace
+bump2version
+pytest
+pytest-mock
+pytest-cov
+
+[dev:python_version > "3"]
+black
+
+[ftp]
+ftputil
+
+[hdfs]
+
+[hdfs:python_version < "3"]
+pyarrow<0.12
+
+[hdfs:python_version >= "3"]
+pyarrow
+
+[s3]
+s3fs
+
+[sftp]
+pysftp
