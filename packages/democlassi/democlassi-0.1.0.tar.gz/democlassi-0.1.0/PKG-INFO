@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: democlassi
+Version: 0.1.0
+Summary: Collection of my python functions for training pytorch models to classify emotion, age, race, gender
+Home-page: https://github.com/AlkaSaliss/DEmoClassi
+Author: A. Alka M. Salissou
+Author-email: alkasalissou@hotmail.com
+License: LICENSE
+Description: # DEmoClassi
+        DEmoClassi stands for Demographic (age, gender, race) and Emotions (happy, sad, angry, ...) Classification from face images, using deep learning.
+        
+Platform: UNKNOWN
