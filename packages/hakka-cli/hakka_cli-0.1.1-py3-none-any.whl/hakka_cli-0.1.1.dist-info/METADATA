@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hakka-cli
+Version: 0.1.1
+Summary: Simple CLI for creating akka project
+Home-page: https://github.com/heesuk-ahn/hakka-cli
+Author: AHN HEESUK
+Author-email: heesuk.dev@gmail.com
+License: MIT
+Keywords: akka-http,akka template,akka cli
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: Click (==7.0)
+
+UNKNOWN
+
+
