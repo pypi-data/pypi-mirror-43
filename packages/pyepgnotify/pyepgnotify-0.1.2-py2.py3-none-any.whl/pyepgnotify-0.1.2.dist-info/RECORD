@@ -1,0 +1,9 @@
+pyepgnotify/__init__.py,sha256=YuPXOLcd5DyQynLRbEzzSHueQ8bQcldvhJ-320SByng,21
+pyepgnotify/epgnotify.py,sha256=YV7tlGKcXugSeB4AkP1nkBBtVYqKLzj-j91lcZ9sieU,11355
+pyepgnotify-0.1.2.data/data/pyepgnotify/epgnotify.yml,sha256=OIv6Lx-r2hstKjy-_v7LSfHU1KVIM8WcapuqChy_VBE,518
+pyepgnotify-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyepgnotify-0.1.2.dist-info/METADATA,sha256=4ZzpsdT7l4nKFqlCZTCeJr8h4Xauzv8PybNRXtoNbss,1361
+pyepgnotify-0.1.2.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+pyepgnotify-0.1.2.dist-info/entry_points.txt,sha256=HwsNQr7BzKZ2Hkcl4iAUPcidwZWc2s-NO1FZ4pJuDHY,60
+pyepgnotify-0.1.2.dist-info/top_level.txt,sha256=Dl6SV0EXY0-oP-VMy0P-Cq0IEDAXDAPRixkLsixlwlk,12
+pyepgnotify-0.1.2.dist-info/RECORD,,
