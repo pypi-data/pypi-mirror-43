@@ -1,0 +1,4 @@
+include README.md
+include COPYRIGHT.txt
+include LICENSE.txt
+exclude .gitignore

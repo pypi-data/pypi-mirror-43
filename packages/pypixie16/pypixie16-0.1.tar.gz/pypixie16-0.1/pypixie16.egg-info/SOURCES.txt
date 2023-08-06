@@ -1,0 +1,17 @@
+COPYRIGHT.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pixie16/__init__.py
+pixie16/analyze.py
+pixie16/control.py
+pixie16/create_variable_list.py
+pixie16/read.py
+pixie16/variables.py
+pypixie16.egg-info/PKG-INFO
+pypixie16.egg-info/SOURCES.txt
+pypixie16.egg-info/dependency_links.txt
+pypixie16.egg-info/not-zip-safe
+pypixie16.egg-info/requires.txt
+pypixie16.egg-info/top_level.txt
