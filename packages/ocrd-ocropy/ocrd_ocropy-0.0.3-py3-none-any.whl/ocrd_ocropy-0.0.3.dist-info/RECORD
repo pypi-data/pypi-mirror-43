@@ -1,0 +1,11 @@
+ocrd_ocropy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocrd_ocropy/cli.py,sha256=8FgXU9AMQakJE0s6R536seeAxRgAeNlMjqUYJZ9_ySU,276
+ocrd_ocropy/config.py,sha256=ls_iLVgmSWyBt64COm5ysMmdSh3rUCJ8RyeeVQmrauI,140
+ocrd_ocropy/ocrd-tool.json,sha256=VQUKjg3kbrXeTSHlHWyQlXPpdOHbQTnG63nTAO3K-zU,1593
+ocrd_ocropy/segment.py,sha256=pldynfBM4iXmZUoPS9wuS9SXpiRoaDrWwb2GkMalpmo,11756
+ocrd_ocropy-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ocrd_ocropy-0.0.3.dist-info/METADATA,sha256=d7Q_C2mU7WX1vrOkWrCL7Eax-2CSqQwfE7PUn5FO048,687
+ocrd_ocropy-0.0.3.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+ocrd_ocropy-0.0.3.dist-info/entry_points.txt,sha256=lPiOgQrRYTC6s2_Vg08RKTfuO9WPpxUXgExNyqt6yVo,77
+ocrd_ocropy-0.0.3.dist-info/top_level.txt,sha256=RxS8Fv235wrHdo4lA5BvELvCt_SMpCb6_Y_QKsSj0UY,12
+ocrd_ocropy-0.0.3.dist-info/RECORD,,
