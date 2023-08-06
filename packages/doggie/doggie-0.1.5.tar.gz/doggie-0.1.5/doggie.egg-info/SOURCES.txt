@@ -1,0 +1,7 @@
+README
+setup.py
+doggie.egg-info/PKG-INFO
+doggie.egg-info/SOURCES.txt
+doggie.egg-info/dependency_links.txt
+doggie.egg-info/requires.txt
+doggie.egg-info/top_level.txt
