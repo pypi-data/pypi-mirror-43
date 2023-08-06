@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: timerpy
+Version: 1.0.2
+Summary: Measure execution time of code sections.
+Home-page: https://github.com/ChsHub/timerpy
+Author: ChsHub
+Author-email: christian1193@web.com
+License: MIT License
+Description: # timerpy
+        Measure execution time of code sections.
+        
+        ## Installation
+        `python3 -m pip install timerpy`
+        
+        ## Usage Example
+        
+        ```python
+        
+        from timerpy import Timer
+        
+        with Timer():
+            # Some code
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
