@@ -1,0 +1,4 @@
+[console_scripts]
+autophonesync = autophonesync.cli:phonesync
+autophonesync-udev-handler = autophonesync.udev_handler:main
+
