@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_convert.py
+tests/test_validate.py
+type_checker/__init__.py
+type_checker/convert.py
+type_checker/converters.py
+type_checker/validate.py
+type_checker.egg-info/PKG-INFO
+type_checker.egg-info/SOURCES.txt
+type_checker.egg-info/dependency_links.txt
+type_checker.egg-info/requires.txt
+type_checker.egg-info/top_level.txt

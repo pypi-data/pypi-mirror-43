@@ -1,0 +1,7 @@
+typing_inspect
+
+[dev]
+flake8
+pytest
+pytest-cov
+coverage
