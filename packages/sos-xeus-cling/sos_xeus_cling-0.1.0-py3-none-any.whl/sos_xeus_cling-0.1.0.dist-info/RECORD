@@ -1,0 +1,10 @@
+sos_xeus_cling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sos_xeus_cling/_version.py,sha256=PEFlqpHCZZJoSUu0FFKIpHMxJv_s9vKy-dWDMHbbcIQ,515
+sos_xeus_cling/kernel.py,sha256=An10rFFExaHfB_I4PqTjvdQsU88K612wBxR38xa2ep8,11967
+sos_xeus_cling/utils.hpp,sha256=-Hz6KUo-y75yzlbxR4NHTJ-eGt_-nNorlptHXCBZVAQ,2103
+sos_xeus_cling-0.1.0.dist-info/LICENSE,sha256=aaXu23RLKNjIAuRO3Ne467nfI1cDfvUAfZDBA646f6A,1065
+sos_xeus_cling-0.1.0.dist-info/METADATA,sha256=8u_NMyS08umYFHjEPYk8zPZmhJeBvyP9ezy8arXZEPM,962
+sos_xeus_cling-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+sos_xeus_cling-0.1.0.dist-info/entry_points.txt,sha256=M5aq_WIExaQYpVVWwuBi0iBHpxmTG84ynv4oWFa85mY,107
+sos_xeus_cling-0.1.0.dist-info/top_level.txt,sha256=FMW53bbH8spTf4feKtJ7OULFC_7hlNhR3JDNn21BvIY,15
+sos_xeus_cling-0.1.0.dist-info/RECORD,,
