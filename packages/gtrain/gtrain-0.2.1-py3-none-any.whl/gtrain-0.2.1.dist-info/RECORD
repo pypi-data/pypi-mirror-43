@@ -1,0 +1,10 @@
+gtrain/__init__.py,sha256=QMafT0_VSHXUwjqgVhnbsraR1TPKXNInm0zI2yGsU1M,121
+gtrain/core.py,sha256=6MN_1ny30jSXa-JjV4IDjpZM69yMFpMCsXD0gfiH3V0,11362
+gtrain/data.py,sha256=w9XhbzzzgeELX3V_3NJ1ujWSwoaJlMOflm9PxTp8IhE,3777
+gtrain/model.py,sha256=Lsh1mId36OZ0RcNcN4oSXNHOQhQhbSGi_M3gmiVUFrQ,3294
+gtrain/utils.py,sha256=CS_ngQfwuYKktyQ39V9pDsEBCwVIYRwXBRvZZtYwljM,5017
+gtrain-0.2.1.dist-info/LICENCE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+gtrain-0.2.1.dist-info/METADATA,sha256=V238ABJ0dzq3lrDTbCF1_7k6Rhb4myCat-HXXOe8diY,1195
+gtrain-0.2.1.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+gtrain-0.2.1.dist-info/top_level.txt,sha256=dySpTLPm9rzFrWUGYsQlDnhUSAUq-jQ5413Rw-5Ov6g,7
+gtrain-0.2.1.dist-info/RECORD,,
