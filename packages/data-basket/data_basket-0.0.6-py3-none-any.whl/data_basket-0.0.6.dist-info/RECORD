@@ -1,0 +1,15 @@
+data_basket/__init__.py,sha256=TyrNJ0ur6i4u_OpzR7K-d0Rhj1WS6YZicOHYFwg9wCo,92
+data_basket/basket.py,sha256=a3HCrsaBAhAqP3t3xQHzpPmHxM85W__uVnKCr6g4oqY,7998
+data_basket/exceptions.py,sha256=4rdy8cS4I0Y1vEHEGKDKrWTB1d0K1AWPhJKZ5AFA6qs,132
+data_basket/shortcuts.py,sha256=lb-wbgmzEuYDS-09KbEo77cG3j0tfcyCNUDSM0I4TTA,610
+data_basket/serializers/__init__.py,sha256=E5PHZzZJ_pGWpQOkU9CocagRKkpswVdr5sD47IpNGy4,119
+data_basket/serializers/base.py,sha256=S9Kmr66-Fe7_sWhsc1yDDFOscFTeX7ILIIV1AbajOrQ,1326
+data_basket/serializers/builtin_types.py,sha256=3GYaSMYGMpt1g4kux6Vt9XEDlv1Zc4EPVOD1Tqyppiw,3661
+data_basket/serializers/numpy_types.py,sha256=v7QR3UXmnqzPmnK6Lr7wrkF_5OJj9SV_G-yb3sBZS2A,1116
+data_basket/serializers/pandas_types.py,sha256=o3aZrKY3DCa1_-c5h2eU9wnrNR8_s1WUZ0Q5cP2iz4Y,1968
+data_basket-0.0.6.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+data_basket-0.0.6.dist-info/METADATA,sha256=zP8s7RA2gs-1vp7p8EPSWPh6wrUi9lsvQNsRGWhOGJo,410
+data_basket-0.0.6.dist-info/RECORD,,
+data_basket-0.0.6.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+data_basket-0.0.6.dist-info/metadata.json,sha256=79n62zAoGCTQgSg8K1qw-ZVZ4t_y7YK6TT0XACwoltg,554
+data_basket-0.0.6.dist-info/top_level.txt,sha256=9MalJh7BcQuDalz9_yCeLDHfTlANWNkre6eklcrFPWc,12
