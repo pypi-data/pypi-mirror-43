@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: git-gone
+Version: 0.1.5
+Summary: A simple tool to track visited Git repositories, and check them for unpushed/committed changes
+Home-page: https://github.com/agoose77/git-gone
+Author: Angus Hollands
+Author-email: goosey15@gmail.com
+Requires-Python: >=3.6.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: plumbum (>=1.6,<2.0)
+Project-URL: Repository, https://github.com/agoose77/git-gone
