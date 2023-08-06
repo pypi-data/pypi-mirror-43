@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{% block header_title %}Main Skeleton{% endblock %}</title>
+    <style>
+        @font-face {
+            font-family: "FuturaPT-Light";src: url("{{ data.get('static_path') }}/font/2F2EF3_0_0.eot");src: url("{{ data.get('static_path') }}/font/2F2EF3_0_0.eot?iefix") format("embedded-opentype"),url("{{ data.get('static_path') }}/font/2F2EF3_0_0.woff2") format("woff2"),url("{{ data.get('static_path') }}/font/2F2EF3_0_0.woff") format("woff"),url("{{ data.get('static_path') }}/font/2F2EF3_0_0.ttf") format("truetype");
+        }
+
+
+        @font-face {
+            font-family: "FuturaPT-Medium";src: url("{{ data.get('static_path') }}/font/2F2EF3_1_0.eot");src: url("{{ data.get('static_path') }}/font/2F2EF3_1_0.eot?iefix") format("embedded-opentype"),url("{{ data.get('static_path') }}/font/2F2EF3_1_0.woff2") format("woff2"),url("{{ data.get('static_path') }}/font/2F2EF3_1_0.woff") format("woff"),url("{{ data.get('static_path') }}/font/2F2EF3_1_0.ttf") format("truetype");
+        }
+
+
+        @font-face {
+            font-family: "FuturaPT-Bold";src: url("{{ data.get('static_path') }}/font/2F2EF3_2_0.eot");src: url("{{ data.get('static_path') }}/font/2F2EF3_2_0.eot?iefix") format("embedded-opentype"),url("{{ data.get('static_path') }}/font/2F2EF3_2_0.woff2") format("woff2"),url("{{ data.get('static_path') }}/font/2F2EF3_2_0.woff") format("woff"),url("{{ data.get('static_path') }}/font/2F2EF3_2_0.ttf") format("truetype");
+        }
+    </style>
+    <link rel="stylesheet" href="{{ data.get('static_path') }}/css/paper.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ data.get('static_path') }}/css/tray_labels.css">
+    <!-- Set page size here: A5, A4 or A3 -->
+    <!-- Set also "landscape" if you need -->
+    <style>
+        @page { size: A4 }
+    </style>
+</head>
+<!-- Set "A5", "A4" or "A3" for class name -->
+<!-- Set also "landscape" if you need -->
+<body class="A4">
+{% block main_content %}
+    <!-- Each sheet element should have the class "sheet" -->
+    <!-- "padding-**mm" is optional: you can set 10, 15, 20 or 25 -->
+    <!-- Write HTML just like a web page -->
+    {% set ns = namespace(count=0) %}
+    <section class="sheet">
+    {% for p in data.get('data') %}
+        {% set props = p['properties'] %}
+        {% set inputs = props['inputs'] %}
+        {% if ns.count%5 %}
+        <hr>
+        {% endif %}
+        {% set ns.count = ns.count + 1 %}
+        {% if (ns.count-1)%5 == 0 and ns.count-1 != 0 %}
+    </section>
+    <section class="sheet">
+        {% endif %}
+        <div class="label">
+            <div class="label_header">
+                <div class="label_left">{{ inputs['frame_item'] }} (D/05/03/03)</div>
+                <div class="label_right">{{ props['reason'] }} | SHO-PAR-RAM</div>
+            </div>
+            <div class="label_content">
+                <div class="label_left">
+                    <table class="label_info">
+                        <thead>
+                        <th>
+                            <!-- UNI VL, UNI VI, UNI VP, PROG, DEGR -->
+                            UNI VL
+                        </th>
+                        <th>OD</th>
+                        <th>OG</th>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>Type</th>
+                            <td>{{ inputs['right_lens_template'] }}</td>
+                            <td>{{ inputs['left_lens_template'] }}</td>
+                        </tr>
+                        <tr>
+                            <th>Sphère</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Cylindre</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Axe</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Addition</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>EP VL / VP</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>H</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th>Emplacement</th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="label_right">
+                    <svg class="barcode" jsbarcode-value="{{ p['fo_code'] }}"></svg>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock%}
+</body>
+<script src="{{ data.get('static_path') }}/js/JsBarcode.all.min.js"></script>
+<script>
+   JsBarcode(".barcode").options({
+     format: "code128",
+     fontSize: 25,
+     fontOptions: "normal",
+     font: "FuturaPT-Light",
+     margin: 10,
+     width: 1.5,
+   }).init();
+</script>
+</html>
