@@ -1,0 +1,36 @@
+Metadata-Version: 1.2
+Name: pycmdparse
+Version: 1.0.0
+Summary: A Python command line arg parser, and usage instructions generator
+Home-page: https://github.com/aceeric/pycmdparse
+Author: Eric Ace
+Author-email: ericace@protonmail.com
+License: Public Domain
+Description: For authors of command-line utilities. Simplifies: 1) Defining command-line options
+        and parameters, 2) Parsing the command line, and 3) Displaying usage instructions
+        to the console.
+        
+        Utility developers will 1) Subclass a module-defined class, 2) Include a YAML spec
+        in the subclass to define the utility's options and usage, and 3) Invoke the module
+        arg parser. When the utility is run, if the command line is valid according to 
+        the YAML schema, then the supplied args are injected into the subclass by the
+        parser. Otherwise errors are automatically displayed to the console.
+        
+        If the user specifies '-h' or '--help' on the command line, then usage instructions
+        are displayed as defined in the YAML, in a form generally recognizable to users
+        of console utilities. Specifically, displays summary usage, detailed options and
+        params (including categorized options), positional params, and examples.
+        
+Keywords: arg argument parse command line usage instructions console utility
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: ~=3.6
