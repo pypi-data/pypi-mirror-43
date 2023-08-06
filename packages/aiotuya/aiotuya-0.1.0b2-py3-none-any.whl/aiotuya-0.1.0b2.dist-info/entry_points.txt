@@ -1,0 +1,3 @@
+[console_scripts]
+aiotuya = aiotuya.__main__:main
+
