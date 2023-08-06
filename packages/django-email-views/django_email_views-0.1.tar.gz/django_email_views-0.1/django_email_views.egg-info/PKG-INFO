@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django-email-views
+Version: 0.1
+Summary: Usage ideology Django views for e-mails
+Home-page: http://localhost:8000
+Author: Anatoly Gusev
+Author-email: gusev.tolia@yandex.ru
+License: UNKNOWN
+Description: # django-email-views
+        
+        Usage ideology Django views for e-mails.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
