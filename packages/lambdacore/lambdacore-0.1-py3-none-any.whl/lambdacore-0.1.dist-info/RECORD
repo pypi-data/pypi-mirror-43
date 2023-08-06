@@ -1,0 +1,13 @@
+lambdacore/__init__.py,sha256=Td-SuxiuHInGlWLNTu4D42jr61dPxHUieo9ynPu7TP8,150
+lambdacore/cloud.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lambdacore/environment.py,sha256=4IKAt3bCrsFs0LSlgDDcLQ5Fr4Dc-HIf4Ssfhw5q_Q8,3451
+lambdacore/example_function.py,sha256=TNJIQ5dU4OgJ6kYc0QMBvzmqgX0vdX4gAKGfiZL4cyU,163
+lambdacore/generic_function.py,sha256=DrfTeApo8wIhhdRs2Zfv2VRDMv7x2Sk4_WeE2-Aqi3Q,264
+lambdacore/logger.py,sha256=NIZLAtJHWRSAZBHg7womnxkR9p7gtE3vFwJ1edwAgCk,2128
+lambdacore/run.py,sha256=RmPLldxXErXuFXpKLjU_LrfRPYLI29chtZCNEgVxz88,568
+lambdacore-0.1.dist-info/DESCRIPTION.rst,sha256=9oiYr8MQyW1MQnJWUtC2ozQaJIhQeYU3EPMTO5jlbs8,68
+lambdacore-0.1.dist-info/METADATA,sha256=-HJNevnzwKHYaVcxoD7FW74pXYm6PEvvY4OCCdWgQKM,662
+lambdacore-0.1.dist-info/RECORD,,
+lambdacore-0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+lambdacore-0.1.dist-info/metadata.json,sha256=yRG2VMgOc6jWAe2m3MI5XxqnkYM5bqgFqjrUaFIMMyI,757
+lambdacore-0.1.dist-info/top_level.txt,sha256=4X0lItTH02xGqGcjB52fpdWcX2k1xgAbUF-57kqqBPY,11
