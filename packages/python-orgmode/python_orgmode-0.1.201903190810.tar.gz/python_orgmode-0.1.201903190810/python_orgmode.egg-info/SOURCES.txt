@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+python_orgmode/__init__.py
+python_orgmode.egg-info/PKG-INFO
+python_orgmode.egg-info/SOURCES.txt
+python_orgmode.egg-info/dependency_links.txt
+python_orgmode.egg-info/requires.txt
+python_orgmode.egg-info/top_level.txt
