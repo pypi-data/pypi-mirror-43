@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+<head>
+<title>{{msg|default(service)}}</title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+  {{nav.top.render(id='top-navbar')}}
+  <break>
+   <h1>Control: {{ title }}</h1>
+
+<div class=page>
+   <h1>Failing Items</h1>
+    {{ table|safe }} 
+    {{ error_str }}
+    Most recent table data being shown for <strong> {{ date }} </strong>
+
+</div>
+ {% if items_checked > 0 %}
+ <img src="/graphs/{{ service.replace(' ', '%20') }}/{{ finding.replace(' ', '%20') }}.png", alt="{{ finding }}">
+ {% endif %}
+ Solid lines are measured data, dashed lines are interpolated values.
+</body>
+
+</html>
