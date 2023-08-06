@@ -1,0 +1,3 @@
+[console_scripts]
+checkMyApp = checkMyApp.checkMyApp:main
+
