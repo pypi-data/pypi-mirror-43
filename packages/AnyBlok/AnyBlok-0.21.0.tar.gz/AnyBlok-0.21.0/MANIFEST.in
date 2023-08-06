@@ -1,0 +1,5 @@
+include doc/source/*.rst
+recursive-include doc/source */*.rst
+recursive-include doc/source */*/*.rst
+recursive-include toolsapi/toolsapiblok/static *
+recursive-include toolsapi/toolsapiblok/templates *

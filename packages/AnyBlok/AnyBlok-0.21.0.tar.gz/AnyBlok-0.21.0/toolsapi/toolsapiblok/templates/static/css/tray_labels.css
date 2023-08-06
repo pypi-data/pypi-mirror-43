@@ -1,0 +1,39 @@
+.label {
+    width: 100%;
+    height: 56mm;
+    overflow: hidden;
+    font-size: 9pt;
+    font-family: FuturaPT-Medium;
+    font-weight: normal;
+    font-style: normal;
+}
+.label_header {
+    text-align: center;
+}
+.label_content {
+}
+.label_left {
+    width: 158mm;
+    position: relative;
+    float: left;
+}
+.label_right {
+    width: 52mm;
+    position: relative;
+    float: right;
+}
+table.label_info th {
+    text-align: center;
+    border: 1px solid black !important;
+    background-color: lightgray;
+}
+table.label_info {
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    border-collapse: collapse;
+}
+table.label_info tr {
+    border: 1px solid black;
+    line-height: 4mm;
+}
