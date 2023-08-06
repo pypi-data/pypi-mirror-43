@@ -1,0 +1,10 @@
+README.md
+setup.py
+space_translation_util/__init__.py
+space_translation_util/__main__.py
+space_translation_util.egg-info/PKG-INFO
+space_translation_util.egg-info/SOURCES.txt
+space_translation_util.egg-info/dependency_links.txt
+space_translation_util.egg-info/entry_points.txt
+space_translation_util.egg-info/requires.txt
+space_translation_util.egg-info/top_level.txt
