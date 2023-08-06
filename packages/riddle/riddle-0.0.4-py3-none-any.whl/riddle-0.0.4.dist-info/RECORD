@@ -1,0 +1,12 @@
+riddle/Box.py,sha256=lkvwGlagod2NDV1B7eAQcXIAZiqA-vggRXHgzzfXtdk,2736
+riddle/Locket.py,sha256=PEjzgPyohnM98kKUvkYywePbn3VflukFyS49QUhuANg,1007
+riddle/Riddle.py,sha256=sPfeGm1nbHfjN82mKMTLbFaz_nPXqsmkSxZPLNI5drc,2495
+riddle/__init__.py,sha256=M_cBrlLCGsc1n2ltK6DEzFMeG7KrQvv-SpLUxQxhcV0,141
+riddle/encrypt.py,sha256=BvAVADabcwaJ6LWb3nWFi5K3EONZ2F3dF1aM95grlaQ,520
+riddle/hash.py,sha256=fcS_LdbwXA8wsDeYRwjBhJuSiQ9Dw7z8hiF9ETQJlks,1112
+riddle-0.0.4.dist-info/LICENSE,sha256=Frl2OfV8cK9MDRajOUCKJm5BUggbWjkzZlonGrKympg,1082
+riddle-0.0.4.dist-info/METADATA,sha256=PkgnGOPjBCMdR44zdqIFdJOoWY0_HpTp5wzlh0obCOk,1311
+riddle-0.0.4.dist-info/WHEEL,sha256=UpB-bp5SQQdekLv3_zfFAhrQBtaQjJZABvUiavkhjZ0,97
+riddle-0.0.4.dist-info/top_level.txt,sha256=recrMZNqsm_aXfy-YQnFmgaBXHi67I9hIuH_HxohOSE,7
+riddle-0.0.4.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+riddle-0.0.4.dist-info/RECORD,,
