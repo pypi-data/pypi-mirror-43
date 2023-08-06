@@ -1,0 +1,11 @@
+README.md
+setup.py
+client_scaledinference.egg-info/PKG-INFO
+client_scaledinference.egg-info/SOURCES.txt
+client_scaledinference.egg-info/dependency_links.txt
+client_scaledinference.egg-info/top_level.txt
+si/__init__.py
+si/amp.py
+si/no_op_amp.py
+si/session.py
+si/smart_conn.py
