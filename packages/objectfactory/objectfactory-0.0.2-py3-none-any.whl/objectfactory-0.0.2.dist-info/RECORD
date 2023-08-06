@@ -1,0 +1,15 @@
+object_factory/__init__.py,sha256=OmrihXiUWYUVyKadWtOUpYdTTyYAlbq_BKVboyVXE0E,117
+object_factory/serializable.py,sha256=miI72K0ee32FhBF_yln4oS9QDEv1aqNxHoLxkNXiK8g,6096
+objectfactory/__init__.py,sha256=knMGELeOM4hNdT9TJ8-qfxZrO5sm0s73QJUQeJfrVRM,153
+objectfactory/factory.py,sha256=Vj6pCSssFgMTc3Qcu89YtzLUkC3Rqy20fDKZQPKHS1E,808
+objectfactory/field.py,sha256=ZRUAbu5uPfGx0q68v_Sid25o7KTov33oeNS2y7itge0,2140
+objectfactory/serializable.py,sha256=mR2YKwO5rTqg12o7PkHvHzBHRoyrSiN_oreStMjsooo,3501
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_factory.py,sha256=eSoge8Zl6GL6RluHQfxZ6Lo8ujf3T-ZaxnDk92stUAs,863
+test/test_fields.py,sha256=kFVXFUlWbKpyC1YH3RuQzpw5V5N1vGx17il8IgozoyU,9130
+test/test_serializable.py,sha256=_gomEtdBMseUY1wacuBJct8QLWayZ0gEj1ACZynmrps,4095
+objectfactory-0.0.2.dist-info/LICENSE,sha256=2lM9BD8Y5EZaHL_qW6I5wy8-DdoSUNrqDH-4tCqGPIE,1072
+objectfactory-0.0.2.dist-info/METADATA,sha256=S41D_ucATkT2K2Uj5Y0sdNBavI_sa76hVvXEgfCxvEk,2229
+objectfactory-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+objectfactory-0.0.2.dist-info/top_level.txt,sha256=gEKh2sPKIQljkb7ls8OmOD747qXv6HhSlJclQQcsZJY,19
+objectfactory-0.0.2.dist-info/RECORD,,
