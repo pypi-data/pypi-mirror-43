@@ -1,0 +1,10 @@
+upstox
+python-dotenv
+Flask
+influxdb
+crayons
+nsepy
+pandas
+requests
+lxml
+loguru
