@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: aiida-kkr
+Version: 1.1.4.dev0
+Summary: AiiDA plugin for the KKR code
+Home-page: https://github.com/JuDFTteam/aiida-kkr
+Author: Philipp Ruessmann, Jens Broeder, Fabian Bertoldo
+Author-email: p.ruessmann@fz-juelich.de
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Natural Language :: English
