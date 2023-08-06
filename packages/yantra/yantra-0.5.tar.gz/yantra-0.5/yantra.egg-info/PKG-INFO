@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: yantra
+Version: 0.5
+Summary: A plugin framework
+Home-page: UNKNOWN
+Author: Hanif Virani
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
