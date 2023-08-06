@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: astrodatapy
+Version: 0.0.dev55
+Summary: astrodatapy
+Home-page: http://astrodatapy.readthedocs.io
+Author: Yuxiang Qin
+Author-email: yuxiang.l.qin@gmail.com
+License: BSD 3-Clause
+Description-Content-Type: UNKNOWN
+Description: A collective framework of astronomical data.
+Platform: UNKNOWN
+Requires-Python: >=2.7
