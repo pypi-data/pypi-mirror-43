@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+./djbeat/requirements.txt
+./djbeat/template.xml
+dj_beat.egg-info/PKG-INFO
+dj_beat.egg-info/SOURCES.txt
+dj_beat.egg-info/dependency_links.txt
+dj_beat.egg-info/entry_points.txt
+dj_beat.egg-info/requires.txt
+dj_beat.egg-info/top_level.txt
+djbeat/__init__.py
+djbeat/__main__.py
+djbeat/djbeat.py
+djbeat/requirements.txt
+djbeat/template.xml
