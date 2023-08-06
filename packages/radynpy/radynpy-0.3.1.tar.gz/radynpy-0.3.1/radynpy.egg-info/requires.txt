@@ -1,0 +1,7 @@
+spacepy
+numpy
+scikit-image
+skimage
+scipy
+colour
+palettable
