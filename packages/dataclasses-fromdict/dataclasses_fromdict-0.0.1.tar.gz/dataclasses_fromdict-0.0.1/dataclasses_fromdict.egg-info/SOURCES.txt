@@ -1,0 +1,8 @@
+README.md
+setup.py
+dataclasses_fromdict/__init__.py
+dataclasses_fromdict.egg-info/PKG-INFO
+dataclasses_fromdict.egg-info/SOURCES.txt
+dataclasses_fromdict.egg-info/dependency_links.txt
+dataclasses_fromdict.egg-info/not-zip-safe
+dataclasses_fromdict.egg-info/top_level.txt

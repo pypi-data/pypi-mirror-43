@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dataclasses_fromdict
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Cologler/dataclasses_fromdict-python
+Author: cologler
+Author-email: skyoflw@gmail.com
+License: MIT
+Description: # dataclasses_fromdict
+        
+        ## Usage
+        
+        ``` py
+        from dataclasses import dataclass, asdict
+        from dataclasses_fromdict import from_dict
+        
+        @dataclass
+        class Point:
+            x: int
+            y: int
+        
+        assert from_dict(asdict(Point(10, 20)), Point) == Point(10, 20)
+        ```
+        
+        ## Support
+        
+        * generic list
+        * generic tuple
+        * generic var tuple
+        
+Keywords: python,dataclass,fromdict
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
