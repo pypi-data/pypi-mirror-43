@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: forkpy
+Version: 0.0.1
+Summary: Multiprocessing framework.
+Home-page: http://pypi.python.org/pypi/forkpy/
+Author: Yohan Chalier
+Author-email: yohan.chalier@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+
+===========
+forkpy
+===========
+
+Forkpy provides a framework for multiprocessing in Python. Typical usage
+often looks like this:
+
+    from forkpy import Factory, Task
+
+    factory = Factory()
+    for _ in range(100):
+        factory.assign(Task())
+
+    factory.start()
+    factory.join()
+
+    print(factory.results)
+
+
