@@ -1,0 +1,6 @@
+
+[crypt]
+pycrypto
+
+[yaml]
+pyyaml
