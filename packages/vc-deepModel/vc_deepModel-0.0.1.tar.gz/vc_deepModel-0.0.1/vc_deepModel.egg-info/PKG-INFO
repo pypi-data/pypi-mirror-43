@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vc-deepModel
+Version: 0.0.1
+Summary: Version Control of Computational Graph
+Home-page: https://github.com/Kundjanasith/vc-deepModel
+Author: Kundjanasith Thonglek
+Author-email: thonglek.kundjanasith.ti7@is.naist.jp
+License: UNKNOWN
+Description: Version COntrol of COmputational Graph (Neural Network)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

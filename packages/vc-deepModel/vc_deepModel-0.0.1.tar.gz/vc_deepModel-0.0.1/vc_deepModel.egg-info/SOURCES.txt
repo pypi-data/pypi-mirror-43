@@ -1,0 +1,6 @@
+README.md
+setup.py
+vc_deepModel.egg-info/PKG-INFO
+vc_deepModel.egg-info/SOURCES.txt
+vc_deepModel.egg-info/dependency_links.txt
+vc_deepModel.egg-info/top_level.txt
