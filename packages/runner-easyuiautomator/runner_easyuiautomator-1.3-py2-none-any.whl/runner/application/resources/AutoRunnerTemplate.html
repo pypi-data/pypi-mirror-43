@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html lang="en">
+<head>
+    <title>
+        MTBF_TestResult
+    </title>
+    <style type="text/css">
+        body{font-family:arial,sans-serif;width:100%;margin:0 auto;}
+        #main{width:85%;margin:0 auto;}
+        #report{margin-top:5px;width:100%;background-color:green;}
+        #report p{font-weight:900;color:#FFFFFF;text-align:center;font-size:30px;margin:0;padding:0;}
+        .normal{width:100%;padding:5px 5px;border:2px ridge green;margin:5px 0;}
+        .table_title{background-color:#7FFFD4;}
+        .normalTable{}
+        #detail{margin-left:auto;margin-right:auto;border: solid 1px
+        black;border-collapse:collapse;cellspacing:1px;cellpadding:1px;}
+        .detailTable{margin-left:auto;margin-right:auto;border: solid 1px
+        black;border-collapse:collapse;cellspacing:1px;cellpadding:1px;}
+        .detailTable tr td{width:auto;align:center;}
+        .caseDetailTable{width:100%;border: solid 1px
+        black;border-collapse:collapse;cellspacing:1px;cellpadding:1px;}
+        .caseDetailTable tr td{width:auto;align:center;}
+        .odd{background-color:#CEA;}
+        footer{width:85%;margin:0 auto;}
+        .picture{height:400px}
+		pre{font-family:arial,sans-serif;white-space: pre-wrap;}
+    </style>
+    <script type="text/javascript">
+			function table_hiddenByName(className){
+				var tableElements = document.getElementsByClassName(className);
+				for (var i=0; i<tableElements.length; i++) {
+					tableElements[i].style.display = (tableElements[i].style.display == 'none')?'':'none';
+				}
+			}
+			function togsuite(id){
+				var totalTableElement = document.getElementById(id);
+				totalTableElement.style.display = (totalTableElement.style.display =="none")?'':'none';
+			}
+			function togtest(id){
+				var totalTableElement = document.getElementById(id);
+				totalTableElement.style.display = (totalTableElement.style.display =="none")? '':'none';
+			}
+
+    </script>
+</head>
+<body>
+
+<div id="main">
+    <div id="report">
+        <p>Test Report</p>
+    </div>
+    <!--Project Detials-->
+    <div class="normal">
+        <table>
+            <tr>
+                <td><b>Project Detials</b></td>
+            </tr>
+            <tr>
+                <td width=85%>
+                    <table>
+                        <tr>
+                            <td>Customer:</td>
+                            <td>${customer}</td>
+                            <!--<td>Acer</td>    //�ͻ��Զ���ȡ-->
+                        </tr>
+                        <tr>
+                            <td>Model:</td>
+                            <!--<td>QW620</td>   //��Ŀ�Զ���ȡ-->
+                            <td>${project}</td>
+                        </tr>
+                        <tr>
+                            <td>SW Version:</td>
+                            <!--<td>Acer_AV0L0_T012_0.006.00</td>   //�汾���Զ���ȡ-->
+                            <td>${version}</td>
+                        </tr>
+                        <tr>
+                            <td>MEID IMEI:</td>
+                            <!--<td>8eeff73</td>     //�ֻ���Ϣ-->
+                            <td>${imei}</td>
+                        </tr>
+                    </table>
+                </td>
+                <!--<td width=15% align="center"><img src=${projectImage} alt=''/></td>-->
+                <!--<td width=15% align="center"><img src=".\Default.png" alt='Project Image'/></td>-->
+            </tr>
+        </table>
+    </div>
+    <!--test summary-->
+    <div class="normal">
+        <table>
+            <tr>
+                <td><b>Test summary</b></td>
+            </tr>
+            <tr>
+                <td>Start time:</td>
+                <td>${starttime}</td>
+            </tr>
+            <tr>
+                <td>Finished time:</td>
+                <td>${endtime}</td>
+            </tr>
+            <tr>
+                <td>Duration:</td>
+                <td>${costtime}</td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td>${total}</td>
+            </tr>
+            <tr>
+                <td>Runned:</td>
+                <td>${runned}</td>
+            </tr>
+            <tr>
+                <td>Pass:</td>
+                <td>${pass}</td>
+            </tr>
+            <tr>
+                <td>Fail:</td>
+                <td>${failure}</td>
+            </tr>
+            <tr>
+                <td>Pass Rate(%):</td>
+                <td>${rate}</td>
+            </tr>
+            <tr>
+                <td>Result:</td>
+                <td>${result}</td>
+            </tr>
+        </table>
+    </div>
+    <!--test Details-->
+    <div class="normal">
+        <div>
+            <b>Test Details</b>
+            <table style="float:right">
+                <tr>
+                    <td>
+                        <b>All Show</b>
+                    </td>
+                    <td>
+                        <b>Fail Show</b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        ${content}
+    </div>
+</div>
+
+<!--<footer><p><a style="text-align:center" href="http://www.yeptelecom.com/autorunner">yeptelecom</a></p></footer>-->
+</body>
+</html>

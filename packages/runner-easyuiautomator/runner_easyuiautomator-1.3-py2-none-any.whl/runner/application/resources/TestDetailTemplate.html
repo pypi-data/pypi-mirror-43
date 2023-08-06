@@ -1,0 +1,35 @@
+<tr>
+    <td><a href="javascript:void(0)"
+           onclick="togtest('${casename2order}')">${order}</a></td>
+    <td>${result}</td>
+    <td>${starttime}</td>
+    <td>${endtime}</td>
+    <td>${costtime}</td>
+    <td>${acterror}</td>
+</tr>
+<tr id="${casename2order}" class="caseDetailTable" style="display:none">
+    <td colspan="5">
+        <table>
+            <div class="caseDetailDiv">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td width="80%">
+                                    <div><pre>${runninglog}</pre></div>
+                                    <div><pre>${traceback}</pre></div>
+                                </td>
+                                <td width="20%">
+                                    <div>${screenshot}</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>${logpath}</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </td>
+</tr>
