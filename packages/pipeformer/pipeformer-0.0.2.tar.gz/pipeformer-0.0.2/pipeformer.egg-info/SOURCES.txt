@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+pipeformer.egg-info/PKG-INFO
+pipeformer.egg-info/SOURCES.txt
+pipeformer.egg-info/dependency_links.txt
+pipeformer.egg-info/top_level.txt

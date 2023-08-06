@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pipeformer
+Version: 0.0.2
+Summary: Placeholder for pipeformer
+Home-page: https://github.com/awslabs/pipeformer
+Author: Amazon Web Services
+Author-email: aws-cryptools@amazon.com
+License: UNKNOWN
+Description: 
+        This is a placeholder to hold the pypi name for pipeformer.
+        https://github.com/awslabs/pipeformer
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
