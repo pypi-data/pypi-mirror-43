@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: asonic
+Version: 0.1.0
+Summary: Async python client for Sonic database
+Home-page: https://github.com/moshe/asonic
+Author: Moshe Zada
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: asonic
+        ======
+        
+Keywords: asonic,sonic,search,asyncio,async,text
+Platform: UNKNOWN
