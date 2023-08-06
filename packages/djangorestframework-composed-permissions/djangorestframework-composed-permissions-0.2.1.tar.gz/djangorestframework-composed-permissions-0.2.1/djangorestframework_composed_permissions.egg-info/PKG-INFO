@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: djangorestframework-composed-permissions
+Version: 0.2.1
+Summary: Composed permissions for django-rest-framework
+Home-page: https://github.com/niwibe/djangorestframework-composed-permissions
+Author: Andrey Antukh
+Author-email: niwi@niwi.be
+License: BSD
+Description: Composed permissions for django-rest-framework
+        ----------------------------------------------
+        
+        A simple way to define complex permissions for django-rest-framework.
+        
+        - **Documentation:** https://djangorestframework-composed-permissions.readthedocs.org/en/latest/
+        
+        Development
+        -----------
+        
+        Run tests with our settings using the following command:
+        
+        ``django-admin test restfw_composed_permissions --settings=restfw_composed_permissions.tests.settings_sqlite``
+        
+        License
+        -------
+        
+        New BSD License
+        
+Keywords: django,rest,restframework,permissions
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
