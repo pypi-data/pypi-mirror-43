@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MLMetrics
+Version: 0.2
+Summary: Simple metrics for general machine learning application like Resys and Search Ranking
+Home-page: UNKNOWN
+Author: Jinyang Zhou
+Author-email: jinyang.zhou@guokr.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
