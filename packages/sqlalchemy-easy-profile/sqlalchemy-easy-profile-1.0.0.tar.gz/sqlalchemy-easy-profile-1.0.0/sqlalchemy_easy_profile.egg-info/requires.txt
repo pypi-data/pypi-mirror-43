@@ -1,0 +1,5 @@
+sqlalchemy<1.4,>=1.1
+
+[dev]
+tox
+bumpversion
