@@ -1,0 +1,16 @@
+vredis/__init__.py,sha256=zbyn6VM-uZiEGothLWOGFJ4SlT15FNyUkiKQ2NJMR78,14976
+vredis/cmdline.py,sha256=xyIMwIfQ0mfwNat3eE-RHnpph6yGVVsypYt-4avo1Rk,22728
+vredis/common.py,sha256=ldCN3SAA4Q2X2oN22i9lgaNtaBGOJu_Lng9uLl87jps,1809
+vredis/defaults.py,sha256=foA25vVBP9QcaFmnDKUF5UDBgQoReiuwWdo80Fa-taY,4463
+vredis/error.py,sha256=orbvvz8cVAIJc8HKOtd2wDaUuQtT6t7cXsspoFdggoU,473
+vredis/order.py,sha256=B44IkDxZqtfP0BFalxd8jButqZ1DkksCJr8Zx4iRKJU,2459
+vredis/pipeline.py,sha256=JQwdpl4LalJ-M544ty12RcUmCh4Ji_9GMtXB8DeO5xU,8441
+vredis/sender.py,sha256=d-ZxEqjxoyidN2ky8ZqIGx8r_dODm7hhKMQqC4oivHM,10116
+vredis/utils.py,sha256=VY-RDk6FPGGfDEHnonjko5Qde-1Gll7wEPt-9qmm6Kw,19600
+vredis/worker.py,sha256=hUrQZ4C5H4Ul4dZBNmXJb2ZAFTsBlOJnoyk9Aupx58c,13341
+vredis.py-1.1.6.dist-info/LICENSE,sha256=5XnDt-r38EBnRfkUhkFiPzKfaSzr22viO8rzlx8ZUvg,1084
+vredis.py-1.1.6.dist-info/METADATA,sha256=hGqvoLxJmCCkHYzBD8vCadPuy6L5EozrAslUJCcfCx4,2872
+vredis.py-1.1.6.dist-info/WHEEL,sha256=NvLheO0f8_uAcwoMijaCN7IVIIaldpzEnN1plXS6P6E,97
+vredis.py-1.1.6.dist-info/entry_points.txt,sha256=_QAFWnNGpJi4Z94fVEAy4Yog0tAvOdiJLpLkqSGWRuw,51
+vredis.py-1.1.6.dist-info/top_level.txt,sha256=MkqDRzsqhlET59cDaBeAK3fT9h275WsK5SzoAtuu5tE,7
+vredis.py-1.1.6.dist-info/RECORD,,
