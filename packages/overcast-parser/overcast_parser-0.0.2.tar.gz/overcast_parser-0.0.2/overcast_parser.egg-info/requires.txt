@@ -1,0 +1,6 @@
+podcastparser
+requests
+
+[dev]
+black
+pythonista-stubs
