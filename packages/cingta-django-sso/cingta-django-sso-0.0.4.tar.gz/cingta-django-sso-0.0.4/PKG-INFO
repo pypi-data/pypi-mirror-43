@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cingta-django-sso
+Version: 0.0.4
+Summary: cingta simple sso
+Home-page: https://github.com/Vvegetables/cingta-django-sso
+Author: Vvegetables
+Author-email: hardwork_fight@163.com
+License: Public domain
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
