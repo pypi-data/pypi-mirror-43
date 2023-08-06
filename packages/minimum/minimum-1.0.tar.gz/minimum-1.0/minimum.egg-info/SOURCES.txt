@@ -1,0 +1,8 @@
+README.md
+setup.py
+minimum/__init__.py
+minimum/findmin.py
+minimum.egg-info/PKG-INFO
+minimum.egg-info/SOURCES.txt
+minimum.egg-info/dependency_links.txt
+minimum.egg-info/top_level.txt
