@@ -1,0 +1,7 @@
+README.md
+setup.py
+libclimate/__init__.py
+libclimate.egg-info/PKG-INFO
+libclimate.egg-info/SOURCES.txt
+libclimate.egg-info/dependency_links.txt
+libclimate.egg-info/top_level.txt
