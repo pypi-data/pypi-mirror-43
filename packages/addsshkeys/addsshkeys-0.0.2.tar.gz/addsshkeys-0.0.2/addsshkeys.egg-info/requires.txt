@@ -1,0 +1,4 @@
+appdirs
+avendesora>=1.12
+docopt
+inform>=1.14
