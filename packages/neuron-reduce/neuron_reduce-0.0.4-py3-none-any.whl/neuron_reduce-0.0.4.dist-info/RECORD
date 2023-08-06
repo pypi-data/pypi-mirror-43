@@ -1,0 +1,8 @@
+neuron_reduce/__init__.py,sha256=ku52fF3IYtXTG89aVOoWMRs6BPJPQuWPJfdDHnAfwPM,213
+neuron_reduce/reducing_methods.py,sha256=AEfohRx-Yg2JbCO79LOyE2tWs_XBg2JDGFvo7Cp-FKc,15984
+neuron_reduce/subtree_reductor_func.py,sha256=UsyJJsbYXuiCESNbtFQArorRlRKjst6uahyhERuSkyc,40752
+neuron_reduce-0.0.4.dist-info/LICENSE,sha256=LveK7S_LBIG0nwa5D0RwNUcEaNbqy8jznE3eGAQlE_s,1075
+neuron_reduce-0.0.4.dist-info/METADATA,sha256=RvdnlBJTcVYEQPL7nLjBZC56zDuZGneYGFpFX2MOLXE,4406
+neuron_reduce-0.0.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+neuron_reduce-0.0.4.dist-info/top_level.txt,sha256=y94tQugcAd1SGDm3DheB2zFhgBseuJz8NN9keE7OTRM,14
+neuron_reduce-0.0.4.dist-info/RECORD,,
