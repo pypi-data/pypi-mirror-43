@@ -1,0 +1,12 @@
+monopyly/core/creditcards.py,sha256=MUz_apqI8zUMA8Ux6EP2fqC_PDTnr_CjTfIOOq2fJZ8,5438
+monopyly/core/database.py,sha256=C6VIQfq8oP9yCFBbwXpAMxdkJWQzsUB5SoovvXu5A_8,3546
+monopyly/core/utils.py,sha256=DxmYGUkCxhm2Lnpmx8Iln3Gmr3DUzM3qUZ3VjabCUS4,2224
+monopyly/gui/app.py,sha256=l7nMoBN0uQlsZom7q2j-MqrNKyGLGDCHtubHv4NCHNA,3571
+monopyly/gui/custom_widgets.py,sha256=Mx128B5HB1ScgIaiymEG9-scqeLYxRWvEPRy5q3yGxQ,7464
+monopyly-0.1.dev0.data/scripts/monopyly,sha256=fkZPuZ3kg3gD1Do82MgEtc4-T1h7i3bmRN6hu_LTxvE,303
+monopyly-0.1.dev0.dist-info/DESCRIPTION.rst,sha256=yn3E7w0ipxkpZgusT6jcT2inkZ9L-VsM-kUmnrHnRwY,13
+monopyly-0.1.dev0.dist-info/METADATA,sha256=refsJnxenVhZxBZz_QoSGuY-AfWrangBQDn3zWiq05I,234
+monopyly-0.1.dev0.dist-info/RECORD,,
+monopyly-0.1.dev0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+monopyly-0.1.dev0.dist-info/metadata.json,sha256=oU9H8gB7Stz-T1QKPfOU-23Ovj7_7S4E-eXZ6jnKGZ8,370
+monopyly-0.1.dev0.dist-info/top_level.txt,sha256=3zxJxAK7RKntJQqUa8ttopbnFDAHDEzNynBO9xDtbkA,9

@@ -1,0 +1,1 @@
+{"extensions": {"python.details": {"contacts": [{"email": "mitchell.negus.17@gmail.com", "name": "Mitch Negus", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}, "generator": "bdist_wheel (0.29.0)", "license": "GNU GPLv3", "metadata_version": "2.0", "name": "monopyly", "summary": "My pet project for tracking finances.", "version": "0.1.dev0"}
