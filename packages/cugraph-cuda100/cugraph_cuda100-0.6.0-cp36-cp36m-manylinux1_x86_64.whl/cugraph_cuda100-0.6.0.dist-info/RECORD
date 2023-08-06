@@ -1,0 +1,9 @@
+cugraph.cpython-36m-x86_64-linux-gnu.so,sha256=bhTedgJNppD43Wh6Y70M-MWmqahn6Vy6og_Ui6gYkEc,1498768
+libcugraph.so,sha256=OAlOxuxZRfquB-uPHju_Onhrx3_E6YG7pzFPyKClLN8,18525584
+cugraph/__init__.py,sha256=wYokm9kf3YT_Mpj9mtdWG1Nk5x8p0RwXYuFrITEe1O4,163
+cugraph/_version.py,sha256=erru0SS4lehXJ6JmLnmhy7cLelRLdV-_WdskThQgdHU,18453
+cugraph_cuda100-0.6.0.dist-info/LICENSE,sha256=BjZyyvRMPbQJAbO65h8-cXT-V3f7tVDtySraKtjWKHc,11348
+cugraph_cuda100-0.6.0.dist-info/METADATA,sha256=U8jBtSjktMgst9R7NSnYiESQwB7RPcdEp_sQVSgj8Q0,10705
+cugraph_cuda100-0.6.0.dist-info/WHEEL,sha256=20VbULKYZkloMiRGGyn6pQ1txWjC-O4LG0yqCWoWyRc,109
+cugraph_cuda100-0.6.0.dist-info/top_level.txt,sha256=NSW_B85ILDAh0kU69ieXVtVykNj2UAJN8mxacilbvog,8
+cugraph_cuda100-0.6.0.dist-info/RECORD,,
