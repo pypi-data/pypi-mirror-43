@@ -1,0 +1,231 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SlackLog models &#8212; slacklog 0.9.6 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="SlackLog parsers" href="parsers.html" />
+    <link rel="prev" title="API documentation" href="api.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="parsers.html" title="SlackLog parsers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="api.html" title="API documentation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="api.html" accesskey="U">API documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="module-slacklog.models"></span><div class="section" id="slacklog-models">
+<h1>SlackLog models<a class="headerlink" href="#slacklog-models" title="Permalink to this headline">¶</a></h1>
+<p>SlackLog models represent the ChangeLog.txt after parsing.</p>
+<dl class="class">
+<dt id="slacklog.models.SlackLog">
+<em class="property">class </em><code class="descclassname">slacklog.models.</code><code class="descname">SlackLog</code><a class="reference internal" href="_modules/slacklog/models.html#SlackLog"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.models.SlackLog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Little more than a list of <a class="reference internal" href="#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> objects.</p>
+<dl class="attribute">
+<dt id="slacklog.models.SlackLog.entries">
+<code class="descname">entries</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLog.entries" title="Permalink to this definition">¶</a></dt>
+<dd><p>The list of <a class="reference internal" href="#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> objects. Empty by default.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLog.startsWithSeparator">
+<code class="descname">startsWithSeparator</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLog.startsWithSeparator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether the log started with entry separator.</p>
+<p>If this is <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, it implies that the empty element preceding that separator
+was dropped.</p>
+<p>This defaults to <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLog.endsWithSeparator">
+<code class="descname">endsWithSeparator</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLog.endsWithSeparator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Whether the log ended with entry separator.</p>
+<p>If this is <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, it implies that the empty element following that separator
+was dropped.</p>
+<p>This defaults to <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code>.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.models.SlackLogEntry">
+<em class="property">class </em><code class="descclassname">slacklog.models.</code><code class="descname">SlackLogEntry</code><span class="sig-paren">(</span><em>timestamp</em>, <em>description</em>, <em>log</em>, <em>checksum=None</em>, <em>identifier=None</em>, <em>parent=None</em>, <em>timezone=None</em>, <em>twelveHourFormat=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/models.html#SlackLogEntry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.models.SlackLogEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>An entry in a <a class="reference internal" href="#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a>.</p>
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.timestamp">
+<code class="descname">timestamp</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.timestamp" title="Permalink to this definition">¶</a></dt>
+<dd><p>A <code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.datetime</span></code> timestamp in UTC.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.description">
+<code class="descname">description</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.description" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode description which may be empty.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.log">
+<code class="descname">log</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.log" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reference to the <a class="reference internal" href="#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> that contains this entry.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.checksum">
+<code class="descname">checksum</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.checksum" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode checksum or <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<p>This should identify the entry by content.  Two different logs may have the same entry,
+but those entries have different parent.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.identifier">
+<code class="descname">identifier</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.identifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode identifier or <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>.</p>
+<p>This should identify the entry by content and parent.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.parent">
+<code class="descname">parent</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.parent" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode parent identifier or <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.timezone">
+<code class="descname">timezone</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.timezone" title="Permalink to this definition">¶</a></dt>
+<dd><p>The original timezone of the entry as <code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.tzinfo</span></code> or <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.twelveHourFormat">
+<code class="descname">twelveHourFormat</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.twelveHourFormat" title="Permalink to this definition">¶</a></dt>
+<dd><p>If this is <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, the original timestamp was in twelve hour format.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogEntry.pkgs">
+<code class="descname">pkgs</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogEntry.pkgs" title="Permalink to this definition">¶</a></dt>
+<dd><p>The list of <a class="reference internal" href="#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> objects. Empty by default.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.models.SlackLogPkg">
+<em class="property">class </em><code class="descclassname">slacklog.models.</code><code class="descname">SlackLogPkg</code><span class="sig-paren">(</span><em>pkg</em>, <em>description</em>, <em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/models.html#SlackLogPkg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.models.SlackLogPkg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>An entry in a <a class="reference internal" href="#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a>.</p>
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogPkg.pkg">
+<code class="descname">pkg</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogPkg.pkg" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode package identifier.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogPkg.description">
+<code class="descname">description</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogPkg.description" title="Permalink to this definition">¶</a></dt>
+<dd><p>A unicode description.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.models.SlackLogPkg.entry">
+<code class="descname">entry</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.models.SlackLogPkg.entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reference to the <a class="reference internal" href="#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> that contains this package.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="api.html"
+                        title="previous chapter">API documentation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="parsers.html"
+                        title="next chapter">SlackLog parsers</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/models.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="parsers.html" title="SlackLog parsers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="api.html" title="API documentation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="api.html" >API documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Mikko Värri.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

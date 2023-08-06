@@ -1,0 +1,219 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Release history &#8212; slacklog 0.9.6 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Commands" href="cmd.html" />
+    <link rel="prev" title="slacklog – Convert Slackware Changelog to various formats" href="README.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="cmd.html" title="Commands"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="README.html" title="slacklog – Convert Slackware Changelog to various formats"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="release-history">
+<h1>Release history<a class="headerlink" href="#release-history" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="version-0-9-6-2019-03-14">
+<h2>Version 0.9.6 (2019-03-14)<a class="headerlink" href="#version-0-9-6-2019-03-14" title="Permalink to this headline">¶</a></h2>
+<p>Fixed a bug in text formatter when the original timestamp is in 12-hour format.</p>
+<p>Added Python 3.7 and dateutil 2.8 into test matrix.</p>
+<p>Deprecated PyBlosxom formatter.</p>
+</div>
+<div class="section" id="version-0-9-5-2018-10-02">
+<h2>Version 0.9.5 (2018-10-02)<a class="headerlink" href="#version-0-9-5-2018-10-02" title="Permalink to this headline">¶</a></h2>
+<p>This release adds the JSON formatter.</p>
+<p>As for dependencies, support for Python 3.3 was dropped since it had it’s end-of-life a year ago. Also, dateutil 2.7 is
+tested to be good.</p>
+</div>
+<div class="section" id="version-0-9-4-2017-09-03">
+<h2>Version 0.9.4 (2017-09-03)<a class="headerlink" href="#version-0-9-4-2017-09-03" title="Permalink to this headline">¶</a></h2>
+<p>The parser subclass can now overwrite the generation of entry identifier and/or checksum.</p>
+<p>Other than that, tests were updated to use python-dateutil 2.6.1, and documentation was fixed.</p>
+</div>
+<div class="section" id="version-0-9-3-2017-08-23">
+<h2>Version 0.9.3 (2017-08-23)<a class="headerlink" href="#version-0-9-3-2017-08-23" title="Permalink to this headline">¶</a></h2>
+<p>This release is mainly bug fixing.  RSS and atom formatters learnt to take
+the feed build time (optionally) as an argument, which makes them more testable.</p>
+</div>
+<div class="section" id="version-0-9-2-2017-05-25">
+<h2>Version 0.9.2 (2017-05-25)<a class="headerlink" href="#version-0-9-2-2017-05-25" title="Permalink to this headline">¶</a></h2>
+<p>This release is backwards incompatible with the previous releases:
+SlackLogParser and SlackLogFormatter (and subclasses) have to be instantiated,
+and instead of using class methods, instance methods and properties have to be used.</p>
+</div>
+<div class="section" id="version-0-9-1-2017-05-24">
+<h2>Version 0.9.1 (2017-05-24)<a class="headerlink" href="#version-0-9-1-2017-05-24" title="Permalink to this headline">¶</a></h2>
+<p>This release adds checksum, identifier, and parent fields to SlackLogEntry.
+Also, a couple of bugs with recognizing package names was resolved.</p>
+</div>
+<div class="section" id="verions-0-9-0-2017-04-05">
+<h2>Verions 0.9.0 (2017-04-05)<a class="headerlink" href="#verions-0-9-0-2017-04-05" title="Permalink to this headline">¶</a></h2>
+<p>After almost six years with only maintenance releases, it’s time to move to beta.</p>
+<p>This release switches from distutils to setuptools, and contains some refactoring to scripts (pure refactoring, no
+changes in the CLI).</p>
+</div>
+<div class="section" id="version-0-0-9-2017-04-04">
+<h2>Version 0.0.9 (2017-04-04)<a class="headerlink" href="#version-0-0-9-2017-04-04" title="Permalink to this headline">¶</a></h2>
+<p>This release does not add any new functionality.</p>
+<p>The dependencies were updated: Python 2.7, 3.3 - 3.6, and python-dateutil 2.1 - 2.6.
+Support for Python 2.6 was dropped, not because it doesn’t work but because Python core team doesn’t support it.</p>
+<p>The code was formatted according to PEP-8, and the example script was updated to include Slackware versions 14.0 and
+14.2.</p>
+</div>
+<div class="section" id="version-0-0-8-2014-09-28">
+<h2>Version 0.0.8 (2014-09-28)<a class="headerlink" href="#version-0-0-8-2014-09-28" title="Permalink to this headline">¶</a></h2>
+<p>This release does not add any new functionality, but includes support
+for Python 3.</p>
+<p>In addition, Slackware{,64} 14.1 was added to the example script, and
+Travis CI and ReadTheDocs were integrated (see the links at the top of
+the README).</p>
+</div>
+<div class="section" id="version-0-0-7-2011-06-16">
+<h2>Version 0.0.7 (2011-06-16)<a class="headerlink" href="#version-0-0-7-2011-06-16" title="Permalink to this headline">¶</a></h2>
+<p>This release adds Atom feed formatter, and fixes compatibility issue
+with recent ChangeLog.txt format change which caused empty entries to
+be generated.  Also, Slackware{,64} 13.37 was added to the example
+script.</p>
+</div>
+<div class="section" id="version-0-0-6-2011-03-18">
+<h2>Version 0.0.6 (2011-03-18)<a class="headerlink" href="#version-0-0-6-2011-03-18" title="Permalink to this headline">¶</a></h2>
+<p>This release adds documentation.</p>
+</div>
+<div class="section" id="version-0-0-5-2011-03-17">
+<h2>Version 0.0.5 (2011-03-17)<a class="headerlink" href="#version-0-0-5-2011-03-17" title="Permalink to this headline">¶</a></h2>
+<p>This release adds the example script in source distribution, too.</p>
+</div>
+<div class="section" id="version-0-0-4-2011-03-17">
+<h2>Version 0.0.4 (2011-03-17)<a class="headerlink" href="#version-0-0-4-2011-03-17" title="Permalink to this headline">¶</a></h2>
+<p>This release contains better error handling, better compatibility with
+more feed readers, better support for timezones other that UTC, and an
+example script suitable for a cron job to update RSS feeds.</p>
+</div>
+<div class="section" id="version-0-0-3-2011-02-21">
+<h2>Version 0.0.3 (2011-02-21)<a class="headerlink" href="#version-0-0-3-2011-02-21" title="Permalink to this headline">¶</a></h2>
+<p>Added PyBlosxom formatter and fixed a couple of issues.</p>
+</div>
+<div class="section" id="version-0-0-2-2011-01-29">
+<h2>Version 0.0.2 (2011-01-29)<a class="headerlink" href="#version-0-0-2-2011-01-29" title="Permalink to this headline">¶</a></h2>
+<p>Packaging cleanups.</p>
+</div>
+<div class="section" id="version-0-0-1-2011-01-28">
+<h2>Version 0.0.1 (2011-01-28)<a class="headerlink" href="#version-0-0-1-2011-01-28" title="Permalink to this headline">¶</a></h2>
+<p>Initial release.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="contents.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Release history</a><ul>
+<li><a class="reference internal" href="#version-0-9-6-2019-03-14">Version 0.9.6 (2019-03-14)</a></li>
+<li><a class="reference internal" href="#version-0-9-5-2018-10-02">Version 0.9.5 (2018-10-02)</a></li>
+<li><a class="reference internal" href="#version-0-9-4-2017-09-03">Version 0.9.4 (2017-09-03)</a></li>
+<li><a class="reference internal" href="#version-0-9-3-2017-08-23">Version 0.9.3 (2017-08-23)</a></li>
+<li><a class="reference internal" href="#version-0-9-2-2017-05-25">Version 0.9.2 (2017-05-25)</a></li>
+<li><a class="reference internal" href="#version-0-9-1-2017-05-24">Version 0.9.1 (2017-05-24)</a></li>
+<li><a class="reference internal" href="#verions-0-9-0-2017-04-05">Verions 0.9.0 (2017-04-05)</a></li>
+<li><a class="reference internal" href="#version-0-0-9-2017-04-04">Version 0.0.9 (2017-04-04)</a></li>
+<li><a class="reference internal" href="#version-0-0-8-2014-09-28">Version 0.0.8 (2014-09-28)</a></li>
+<li><a class="reference internal" href="#version-0-0-7-2011-06-16">Version 0.0.7 (2011-06-16)</a></li>
+<li><a class="reference internal" href="#version-0-0-6-2011-03-18">Version 0.0.6 (2011-03-18)</a></li>
+<li><a class="reference internal" href="#version-0-0-5-2011-03-17">Version 0.0.5 (2011-03-17)</a></li>
+<li><a class="reference internal" href="#version-0-0-4-2011-03-17">Version 0.0.4 (2011-03-17)</a></li>
+<li><a class="reference internal" href="#version-0-0-3-2011-02-21">Version 0.0.3 (2011-02-21)</a></li>
+<li><a class="reference internal" href="#version-0-0-2-2011-01-29">Version 0.0.2 (2011-01-29)</a></li>
+<li><a class="reference internal" href="#version-0-0-1-2011-01-28">Version 0.0.1 (2011-01-28)</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="README.html"
+                        title="previous chapter">slacklog – Convert Slackware Changelog to various formats</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="cmd.html"
+                        title="next chapter">Commands</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/CHANGES.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="cmd.html" title="Commands"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="README.html" title="slacklog – Convert Slackware Changelog to various formats"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Mikko Värri.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1040 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SlackLog formatters &#8212; slacklog 0.9.6 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="SlackLog parsers" href="parsers.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="parsers.html" title="SlackLog parsers"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="api.html" accesskey="U">API documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <span class="target" id="module-slacklog.formatters"></span><div class="section" id="slacklog-formatters">
+<h1>SlackLog formatters<a class="headerlink" href="#slacklog-formatters" title="Permalink to this headline">¶</a></h1>
+<p>SlackLog formatter takes an in-memory representation of a Slackware ChangeLog.txt and produces a different
+representation of it.</p>
+<p>The in-memory representation is an instance of <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a>.</p>
+<p>Currently, the following formatters are provided:</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference internal" href="#slacklog.formatters.SlackLogTxtFormatter" title="slacklog.formatters.SlackLogTxtFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogTxtFormatter</span></code></a> tries to reproduce the original ChangeLog.txt.</li>
+<li><a class="reference internal" href="#slacklog.formatters.SlackLogRssFormatter" title="slacklog.formatters.SlackLogRssFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogRssFormatter</span></code></a> produces an RSS feed.</li>
+<li><a class="reference internal" href="#slacklog.formatters.SlackLogAtomFormatter" title="slacklog.formatters.SlackLogAtomFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogAtomFormatter</span></code></a> produces an Atom feed.</li>
+<li><a class="reference internal" href="#slacklog.formatters.SlackLogJsonFormatter" title="slacklog.formatters.SlackLogJsonFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogJsonFormatter</span></code></a> produces a JSON representation.</li>
+<li><a class="reference internal" href="#slacklog.formatters.SlackLogPyblosxomFormatter" title="slacklog.formatters.SlackLogPyblosxomFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogPyblosxomFormatter</span></code></a> writes the log entries to PyBlosxom HTML entries.</li>
+</ul>
+</div></blockquote>
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Base class for SlackLog formatters.</p>
+<p>This class is meant for subclassing.</p>
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogFormatter.max_entries">
+<code class="descname">max_entries</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.max_entries" title="Permalink to this definition">¶</a></dt>
+<dd><p>If not <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>, must be an <code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>
+representing how many entries are formatted from the beginning of
+the log.  Rest of the entries are ignored.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogFormatter.max_pkgs">
+<code class="descname">max_pkgs</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.max_pkgs" title="Permalink to this definition">¶</a></dt>
+<dd><p>If not <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>, must be an <code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>
+representing how many packages are formatted from the beginning of
+each entry.  Rest of the packages are ignored.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format">
+<code class="descname">format</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the in-memory representation of the log.</p>
+<p>Default implementation calls <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_preamble" title="slacklog.formatters.SlackLogFormatter.format_log_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_log_preamble()</span></code></a>,
+followed by a call to <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry" title="slacklog.formatters.SlackLogFormatter.format_entry"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_entry()</span></code></a> for each log
+entry, and finally calls <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_postamble" title="slacklog.formatters.SlackLogFormatter.format_log_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_log_postamble()</span></code></a>.</p>
+<p>The return value is the concatenation of the return values of
+the mentioned functions.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of the log.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_log_preamble">
+<code class="descname">format_log_preamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_log_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_log_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log preamble, the part
+before entries.</p>
+<p>Default implementation returns empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_log_postamble">
+<code class="descname">format_log_postamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_log_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_log_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log postamble, the part
+after all entries.</p>
+<p>Default implementation returns empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_entry">
+<code class="descname">format_entry</code><span class="sig-paren">(</span><em>entry</em>, <em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_entry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of a single log entry.</p>
+<p>Default implementation calls <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_separator" title="slacklog.formatters.SlackLogFormatter.format_entry_separator"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_entry_separator()</span></code></a>
+with arguments <cite>is_first</cite> and <cite>is_last</cite>, followed by a call to
+<a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="slacklog.formatters.SlackLogFormatter.format_entry_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_entry_preamble()</span></code></a>, followed by a call to
+<a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg" title="slacklog.formatters.SlackLogFormatter.format_pkg"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_pkg()</span></code></a> for each package in this log entry,
+finally followed by a call to
+<a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_postamble" title="slacklog.formatters.SlackLogFormatter.format_entry_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_entry_postamble()</span></code></a>.</p>
+<p>The return value is the concatenation of the return values of
+the mentioned functions.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</li>
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_entry_separator">
+<code class="descname">format_entry_separator</code><span class="sig-paren">(</span><em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_entry_separator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_entry_separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry separator.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry separator.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_entry_preamble">
+<code class="descname">format_entry_preamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_entry_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry preamble, the
+part before packages.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_entry_postamble">
+<code class="descname">format_entry_postamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_entry_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_entry_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry postamble, the
+part after packages.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_pkg">
+<code class="descname">format_pkg</code><span class="sig-paren">(</span><em>pkg</em>, <em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_pkg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_pkg" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of a single log entry package.</p>
+<p>Default implementation calls <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_separator" title="slacklog.formatters.SlackLogFormatter.format_pkg_separator"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_pkg_separator()</span></code></a>,
+followed by a call to <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_pkg_preamble()</span></code></a>, and
+finally calls <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_postamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">format_pkg_postamble()</span></code></a>.</p>
+<p>The return value is the concatenation of the return values of
+the mentioned functions.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>pkg</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code> – in-memory representation of the log entry package</li>
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first package, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last package, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_pkg_separator">
+<code class="descname">format_pkg_separator</code><span class="sig-paren">(</span><em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_pkg_separator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_pkg_separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry package
+separator.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first package, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last package, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package separator.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_pkg_preamble">
+<code class="descname">format_pkg_preamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_pkg_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry package
+preamble.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_pkg_postamble">
+<code class="descname">format_pkg_postamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_pkg_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_pkg_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the log entry package
+postamble.</p>
+<p>Default implementation returns an empty string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogFormatter.format_list">
+<code class="descname">format_list</code><span class="sig-paren">(</span><em>list_of_items</em>, <em>item_formatter</em>, <em>max_items=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogFormatter.format_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogFormatter.format_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of a list of objects.</p>
+<p>This method is not meant for subclassing.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>list_of_items</strong> (<em>list</em>) – List of items to format.</li>
+<li><strong>item_formatter</strong> – Function that formats one item.
+A callable that takes one item as the first positional
+argument, two booleans <cite>is_first</cite> and <cite>is_last</cite> as
+second and third positional arguments, and returns a
+<code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> string.</li>
+<li><strong>max_items</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code> or falsy – Maximum number of items to format.
+If falsy, all items are formatted.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Formatted data.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogTxtFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogTxtFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter" title="slacklog.formatters.SlackLogFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">slacklog.formatters.SlackLogFormatter</span></code></a></p>
+<p>Concrete SlackLog formatter that tries to regenerate the original
+ChangeLog.txt.</p>
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogTxtFormatter.format_log_preamble">
+<code class="descname">format_log_preamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter.format_log_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter.format_log_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_separator" title="slacklog.formatters.SlackLogFormatter.format_entry_separator"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_separator()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogTxtFormatter.format_log_postamble">
+<code class="descname">format_log_postamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter.format_log_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter.format_log_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_separator" title="slacklog.formatters.SlackLogFormatter.format_entry_separator"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_separator()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogTxtFormatter.format_entry_separator">
+<code class="descname">format_entry_separator</code><span class="sig-paren">(</span><em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter.format_entry_separator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter.format_entry_separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_separator" title="slacklog.formatters.SlackLogFormatter.format_entry_separator"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_separator()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry separator.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogTxtFormatter.format_entry_preamble">
+<code class="descname">format_entry_preamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter.format_entry_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter.format_entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="slacklog.formatters.SlackLogFormatter.format_entry_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogTxtFormatter.format_pkg_preamble">
+<code class="descname">format_pkg_preamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogTxtFormatter.format_pkg_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogTxtFormatter.format_pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_pkg_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogRssFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogRssFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter" title="slacklog.formatters.SlackLogFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">slacklog.formatters.SlackLogFormatter</span></code></a></p>
+<p>Concrete SlackLog formatter that generates an RSS feed.</p>
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.slackware">
+<code class="descname">slackware</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.slackware" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> description of the distro version.
+E.g. ‘Slackware 13.37’ or ‘Slackware64 current’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.rssLink">
+<code class="descname">rssLink</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.rssLink" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Full URL of the RSS feed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.webLink">
+<code class="descname">webLink</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.webLink" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Full URL of the WWW version of the
+feed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.description">
+<code class="descname">description</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.description" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> description of the feed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.language">
+<code class="descname">language</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.language" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> language identifier.  E.g. ‘en’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.managingEditor">
+<code class="descname">managingEditor</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.managingEditor" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Email, and possibly name, of the feed
+manager.  E.g. <a class="reference external" href="mailto:'jane&#37;&#52;&#48;doe&#46;net">‘jane<span>&#64;</span>doe<span>&#46;</span>net</a> (Jane Doe)’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.webMaster">
+<code class="descname">webMaster</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.webMaster" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Email, and possibly name, of the
+webmaster.  E.g. <a class="reference external" href="mailto:'john&#37;&#52;&#48;doe&#46;net">‘john<span>&#64;</span>doe<span>&#46;</span>net</a> (John Doe)’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogRssFormatter.lastBuildDate">
+<code class="descname">lastBuildDate</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.lastBuildDate" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.datetime</span></code>.  Timestamp when this feed was last generated.  UTC assumed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogRssFormatter.format_log_preamble">
+<code class="descname">format_log_preamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter.format_log_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.format_log_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_preamble" title="slacklog.formatters.SlackLogFormatter.format_log_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_log_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogRssFormatter.format_log_postamble">
+<code class="descname">format_log_postamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter.format_log_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.format_log_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_postamble" title="slacklog.formatters.SlackLogFormatter.format_log_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_log_postamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogRssFormatter.format_entry_preamble">
+<code class="descname">format_entry_preamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter.format_entry_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.format_entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="slacklog.formatters.SlackLogFormatter.format_entry_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogRssFormatter.format_entry_postamble">
+<code class="descname">format_entry_postamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter.format_entry_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.format_entry_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_postamble" title="slacklog.formatters.SlackLogFormatter.format_entry_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_postamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogRssFormatter.format_pkg_preamble">
+<code class="descname">format_pkg_preamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogRssFormatter.format_pkg_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogRssFormatter.format_pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_pkg_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogAtomFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogAtomFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter" title="slacklog.formatters.SlackLogFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">slacklog.formatters.SlackLogFormatter</span></code></a></p>
+<p>Concrete SlackLog formatter that generates an Atom feed.</p>
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.slackware">
+<code class="descname">slackware</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.slackware" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> description of the distro version.
+E.g. ‘Slackware 13.37’ or ‘Slackware64 current’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.link">
+<code class="descname">link</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.link" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Full URL of the Atom feed.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.webLink">
+<code class="descname">webLink</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.webLink" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Full URL of the HTML version.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.name">
+<code class="descname">name</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.name" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Name of the feed author.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.email">
+<code class="descname">email</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.email" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  Email of the feed author.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.updated">
+<code class="descname">updated</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.updated" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">datetime.datetime</span></code>.  Timestamp when this feed was last generated.  UTC assumed.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.format_log_preamble">
+<code class="descname">format_log_preamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter.format_log_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.format_log_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_preamble" title="slacklog.formatters.SlackLogFormatter.format_log_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_log_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.format_log_postamble">
+<code class="descname">format_log_postamble</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter.format_log_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.format_log_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_log_postamble" title="slacklog.formatters.SlackLogFormatter.format_log_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_log_postamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.format_entry_preamble">
+<code class="descname">format_entry_preamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter.format_entry_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.format_entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="slacklog.formatters.SlackLogFormatter.format_entry_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.format_entry_postamble">
+<code class="descname">format_entry_postamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter.format_entry_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.format_entry_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_postamble" title="slacklog.formatters.SlackLogFormatter.format_entry_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_postamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogAtomFormatter.format_pkg_preamble">
+<code class="descname">format_pkg_preamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogAtomFormatter.format_pkg_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogAtomFormatter.format_pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_pkg_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogPyblosxomFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter" title="slacklog.formatters.SlackLogFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">slacklog.formatters.SlackLogFormatter</span></code></a></p>
+<p>Concrete SlackLog formatter that generates Pyblosxom blog entries.</p>
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.quiet">
+<code class="descname">quiet</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.quiet" title="Permalink to this definition">¶</a></dt>
+<dd><p>If <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>,</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.slackware">
+<code class="descname">slackware</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.slackware" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> description of the distro version.
+E.g. ‘Slackware 13.37’ or ‘Slackware64 current’.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.datadir">
+<code class="descname">datadir</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.datadir" title="Permalink to this definition">¶</a></dt>
+<dd><p>Blog entry directory.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.extension">
+<code class="descname">extension</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.extension" title="Permalink to this definition">¶</a></dt>
+<dd><p>Blog entry filename extension.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.encoding">
+<code class="descname">encoding</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.encoding" title="Permalink to this definition">¶</a></dt>
+<dd><p>Blog entry file encoding.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.tags_separator">
+<code class="descname">tags_separator</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.tags_separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Separator for tags.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_separator">
+<code class="descname">pkg_separator</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_separator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Separator for packages.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pyfilemtime">
+<code class="descname">pyfilemtime</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pyfilemtime" title="Permalink to this definition">¶</a></dt>
+<dd><p>If <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, a pyfilemtime compatible filenames are generated.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.overwrite">
+<code class="descname">overwrite</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.overwrite" title="Permalink to this definition">¶</a></dt>
+<dd><p>If <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, already existing blog entries are overwritten.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.backup">
+<code class="descname">backup</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.backup" title="Permalink to this definition">¶</a></dt>
+<dd><p>If <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code>, already existing blog entries are copied to backups before overwriting.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_preamble">
+<code class="descname">entry_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before the entry.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_postamble">
+<code class="descname">entry_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after the entry.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_desc_preamble">
+<code class="descname">entry_desc_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_desc_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before the entry description.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_desc_postamble">
+<code class="descname">entry_desc_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_desc_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after the entry description.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_pkgs_preamble">
+<code class="descname">entry_pkgs_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_pkgs_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before the list of packages.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.entry_pkgs_postamble">
+<code class="descname">entry_pkgs_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.entry_pkgs_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after the list of packages.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_preamble">
+<code class="descname">pkg_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before a package.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_postamble">
+<code class="descname">pkg_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after a package.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_name_preamble">
+<code class="descname">pkg_name_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_name_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before package name.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_name_postamble">
+<code class="descname">pkg_name_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_name_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after package name.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_desc_preamble">
+<code class="descname">pkg_desc_preamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_desc_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert before package description.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.pkg_desc_postamble">
+<code class="descname">pkg_desc_postamble</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.pkg_desc_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code>.  HTML to insert after package description.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry">
+<code class="descname">format_entry</code><span class="sig-paren">(</span><em>entry</em>, <em>is_first</em>, <em>is_last</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry" title="slacklog.formatters.SlackLogFormatter.format_entry"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</li>
+<li><strong>is_first</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is first entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+<li><strong>is_last</strong> – <code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code> – <code class="xref py py-const docutils literal notranslate"><span class="pre">True</span></code> if this is last entry, <code class="xref py py-const docutils literal notranslate"><span class="pre">False</span></code> otherwise.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_preamble">
+<code class="descname">format_entry_preamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_preamble" title="slacklog.formatters.SlackLogFormatter.format_entry_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_postamble">
+<code class="descname">format_entry_postamble</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry_postamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_postamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_entry_postamble" title="slacklog.formatters.SlackLogFormatter.format_entry_postamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_entry_postamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry postamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_pkg_preamble">
+<code class="descname">format_pkg_preamble</code><span class="sig-paren">(</span><em>pkg</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_pkg_preamble"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_pkg_preamble" title="Permalink to this definition">¶</a></dt>
+<dd><p>Overrides <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter.format_pkg_preamble" title="slacklog.formatters.SlackLogFormatter.format_pkg_preamble"><code class="xref py py-meth docutils literal notranslate"><span class="pre">SlackLogFormatter.format_pkg_preamble()</span></code></a>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>pkg</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogPkg" title="slacklog.models.SlackLogPkg"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogPkg</span></code></a> – in-memory representation of the log entry package</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry package preamble.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_basename">
+<code class="descname">format_entry_basename</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry_basename"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_basename" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return basename for the log entry.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry name</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_title">
+<code class="descname">format_entry_title</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry_title"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_title" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return log entry title.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry title</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_tags">
+<code class="descname">format_entry_tags</code><span class="sig-paren">(</span><em>entry</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogPyblosxomFormatter.format_entry_tags"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogPyblosxomFormatter.format_entry_tags" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return log entry tags.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>entry</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLogEntry" title="slacklog.models.SlackLogEntry"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLogEntry</span></code></a> – in-memory representation of the log entry.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of log entry tags</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="slacklog.formatters.SlackLogJsonFormatter">
+<em class="property">class </em><code class="descclassname">slacklog.formatters.</code><code class="descname">SlackLogJsonFormatter</code><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogJsonFormatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogJsonFormatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#slacklog.formatters.SlackLogFormatter" title="slacklog.formatters.SlackLogFormatter"><code class="xref py py-class docutils literal notranslate"><span class="pre">slacklog.formatters.SlackLogFormatter</span></code></a></p>
+<p>Concrete SlackLog formatter that generates JSON dump.</p>
+<dl class="attribute">
+<dt id="slacklog.formatters.SlackLogJsonFormatter.indent">
+<code class="descname">indent</code><em class="property"> = None</em><a class="headerlink" href="#slacklog.formatters.SlackLogJsonFormatter.indent" title="Permalink to this definition">¶</a></dt>
+<dd><p>If not <code class="xref py py-const docutils literal notranslate"><span class="pre">None</span></code>, must be an <code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>
+representing how many spaces to indent the array elements and object keys.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="slacklog.formatters.SlackLogJsonFormatter.format">
+<code class="descname">format</code><span class="sig-paren">(</span><em>log</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/slacklog/formatters.html#SlackLogJsonFormatter.format"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#slacklog.formatters.SlackLogJsonFormatter.format" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return unicode representation of the in-memory representation of the log.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>log</strong> – <a class="reference internal" href="models.html#slacklog.models.SlackLog" title="slacklog.models.SlackLog"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlackLog</span></code></a> – in-memory representation of the log.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">unicode</span></code> – Unicode representation of the log.</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="parsers.html"
+                        title="previous chapter">SlackLog parsers</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/formatters.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="parsers.html" title="SlackLog parsers"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="contents.html">slacklog 0.9.6 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="api.html" >API documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, Mikko Värri.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
+    </div>
+  </body>
+</html>
