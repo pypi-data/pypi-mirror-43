@@ -1,0 +1,9 @@
+py-buzz
+flask
+
+[dev]
+flask-restplus
+flake8
+pytest>=3.6
+pytest-flask
+sphinx
