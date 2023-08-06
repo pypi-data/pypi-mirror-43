@@ -1,0 +1,36 @@
+Metadata-Version: 1.2
+Name: bih
+Version: 1.0.1
+Summary: Bounded Interval Hierarchy.
+Home-page: https://github.com/flow123d/bih
+Author: Jan Brezina
+Author-email: jan.brezina@tul.cz
+License: GPL 3.0
+Description: # BIH
+        Bounded Interval Hierachy of Axes Aligned Bounding Boxes
+        
+        ## Python install
+            python setup.py install
+        
+        test:
+            tox
+        
+        ## C++ build
+        
+            mkdir build
+            cd build
+            cmake ..
+            make
+        
+        test binary:
+            ./test_bih_tree
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
