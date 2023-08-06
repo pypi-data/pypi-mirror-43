@@ -1,0 +1,10 @@
+understat/__init__.py,sha256=bDSODpa-mfSJVaaPNhy0RnQEsCoE1OhrtRVMreQHWK0,33
+understat/constants.py,sha256=SmwSsQ7SLElwRUCKZ6uinNCm2W7nVQGtve9I6sL7tnY,225
+understat/understat.py,sha256=_gzTJdygkd_KIDu4RNe8ZJDiKX2y4Cdp6T4KHqEaqSA,10037
+understat/utils.py,sha256=N1wW-SvUrr-zGkm11y4AQPAv8WeAFa7ooXfj-TBw0Qo,2043
+understat-0.1.1.dist-info/AUTHORS.rst,sha256=sZHlARRT-rkeYQ_Iwlx-ViHoxngWOhHNFnyW5-i0B4A,142
+understat-0.1.1.dist-info/LICENSE,sha256=kDsVFWWJ9jxEDRvOH9ZFgSK6S6cX_jEPkN49lqGIiyg,1069
+understat-0.1.1.dist-info/METADATA,sha256=h9VT33W8ooPCpHO0azgaUUnVkBwsb3G1TzjMnreL3yo,3666
+understat-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+understat-0.1.1.dist-info/top_level.txt,sha256=F_2SGF2FDijJ1yppN4LH4POGXWcibb8xl6NrYN1H0OE,10
+understat-0.1.1.dist-info/RECORD,,
