@@ -1,0 +1,7 @@
+#!python
+
+import hy
+import brainfuckmachine
+bfm=brainfuckmachine.BrainFuckMachine()
+bfm.input=[chr(5),chr(3)];
+print(bfm.execute(",>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>.",input=[2,3],mode="int"))
