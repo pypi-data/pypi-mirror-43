@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: script-benchmark-tools
+Version: 0.3.0
+Summary: Benchmark Python Scripts
+Home-page: https://github.com/sarcoma/python-scrhttps://github.com/sarcoma/python-script-benchmark-tools
+Author-email: sean@orderandchaoscreative.com
+License: UNKNOWN
+Project-URL: Order & Chaos Creative, https://orderandchaoscreative.com
+Project-URL: Bug Reports, https://github.com/sarcoma/python-script-benchmark-tools/issues
+Project-URL: Source, https://github.com/sarcoma/python-script-benchmark-tools
+Keywords: table print development display terminal command-line-tools
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: ansi-colours
+Requires-Dist: terminal-table
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Python Script Benchmark Tools
+
+Benchmark script run times, print tables of results and display plots.
+
+
