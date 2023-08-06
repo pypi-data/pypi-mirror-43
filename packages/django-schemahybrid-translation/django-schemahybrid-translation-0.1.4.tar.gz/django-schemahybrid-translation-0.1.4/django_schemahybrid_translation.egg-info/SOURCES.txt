@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_schemahybrid_translation.egg-info/PKG-INFO
+django_schemahybrid_translation.egg-info/SOURCES.txt
+django_schemahybrid_translation.egg-info/dependency_links.txt
+django_schemahybrid_translation.egg-info/requires.txt
+django_schemahybrid_translation.egg-info/top_level.txt
+schemahybrid_translation/__init__.py
+schemahybrid_translation/api.py
+schemahybrid_translation/fields.py
+schemahybrid_translation/tests.py

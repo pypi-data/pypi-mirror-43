@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: django-schemahybrid-translation
+Version: 0.1.4
+Summary: Translations stored as a JSONField (postgres only)
+Home-page: UNKNOWN
+Author: Unicstay
+Author-email: dev@unicstay.com
+License: WTFPL
+Description: DJANGO-SCHEMAHYBRID-TRANSLATION
+        ===============================
+        
+        Translations stored as a JSONField (postgres only)
+        
+        Don't use this package in production.
+        
+        BUILD & PUBLISH
+        =====
+        
+        ``  python setup.py sdist && python setup.py bdist_wheel --universal && twine upload dist/*
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
