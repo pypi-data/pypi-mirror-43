@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+command/__init__.py
+command/main.py
+command/runner.py
+dj_cref.egg-info/PKG-INFO
+dj_cref.egg-info/SOURCES.txt
+dj_cref.egg-info/dependency_links.txt
+dj_cref.egg-info/entry_points.txt
+dj_cref.egg-info/top_level.txt
