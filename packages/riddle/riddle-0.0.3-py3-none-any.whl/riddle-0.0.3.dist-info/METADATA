@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: riddle
+Version: 0.0.3
+Summary: Python library for encryption
+Home-page: https://github.com/idin/riddle
+Author: Idin
+Author-email: py@idin.ca
+License: MIT
+Keywords: encryption decryption
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: dill
+Requires-Dist: base32hex
+Requires-Dist: route
+Requires-Dist: chronology
+
+# Riddle
+
+Riddle is a Python library for encryption.
+
+## Installation
+
+```bash
+pip install riddle
+```
+
+## Usage
+
+```python
+from riddle import Riddle
+riddle = Riddle(key=1245)
+encrypted = riddle.encrypt(obj=['Hello World!', 123])
+print('Encrypted:\n\n', encrypted, '\n\n')
+decrypted = riddle.decrypt(encrypted)
+print('Decrypted:\n\n', decrypted)
+```
+
+**produces:** 
+> Encrypted:
+>
+> wpLCr8OCfFjDjcKowqnDqcOFbcKYwrXDmcOXeMK6woZuwpVbw47DpMKiQ8OHwpnCr8Khw5XDpcKVw43Dm8Kdwr_Cq3N5wrrCokDCpsKJwpt1woXCmFjDmMOFwo7Cp8KIwoHCgcKNwprCocKhf8KKwpdobMKSwqTCpG_CosKGVMKWwpc= 
+>
+> Decrypted:
+>
+> ['Hello World!', 123]
+>
+
+
+
