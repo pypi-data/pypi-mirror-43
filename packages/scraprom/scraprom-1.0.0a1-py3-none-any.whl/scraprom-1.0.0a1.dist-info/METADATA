@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: scraprom
+Version: 1.0.0a1
+Summary: Scrapy stats collector for prometheus
+Home-page: https://github.com/netflame/scraprom
+Author: ilpan
+Author-email: pna.dev@outlook.com
+License: MIT
+Keywords: scrapy prometheus exporter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Scrapy
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: prometheus-client
+Requires-Dist: scrapy
+
+# scraprom
+
+scrapy stats exporter for prometheus
+
+### how to use
+0. pip3 install -U scraprom
+1. STATS_CLASS = 'scraprom.exporter.PromStatsCollector'
+2. SCRAPROM_BIND_HOST = string      # default is '0.0.0.0'
+3. SCRAPROM_BIND_PORT = int         # default is 3590
+

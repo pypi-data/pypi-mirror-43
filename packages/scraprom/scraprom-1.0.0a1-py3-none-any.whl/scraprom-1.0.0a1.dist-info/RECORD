@@ -1,0 +1,9 @@
+scraprom/__init__.py,sha256=IXldVr8PTH1SNcim--uE5E9mzMeBErYvT5Or-2TdEVU,248
+scraprom/defaults.py,sha256=t0YVWRm0954yTTPIJIcDLYalVfUWtycqXjXRAwX9f6U,177
+scraprom/exporter.py,sha256=FZ-Yugi3bzgakI9ox6L2yZB-HN353s6flsSZfXoxyZ8,6158
+scraprom/myapp.py,sha256=ZQ1dszxybPpa9ZhSuFZvBCWVEtkdTB0RcFaAquUOsxk,839
+scraprom-1.0.0a1.dist-info/LICENSE,sha256=BfXOtvQyjXFSCAKscnwhhe0JoPezWLLIjeefj4tS8ms,1065
+scraprom-1.0.0a1.dist-info/METADATA,sha256=b9XGe4y9ikh6-NMqPyjIeUD9oHKLIpJNbigZlhv9H6Y,1046
+scraprom-1.0.0a1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+scraprom-1.0.0a1.dist-info/top_level.txt,sha256=5uGH8bmUpP7lmcDA4L56432GvL2lE0m0srC7TFEhO68,9
+scraprom-1.0.0a1.dist-info/RECORD,,
