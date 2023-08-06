@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: instaviz
+Version: 0.4.0
+Summary: InstaViz - a tool for visualizing ASTs and CPython code objects in a web server.
+Home-page: https://github.com/tonybaloney/instaviz
+Author: Anthony Shaw
+Author-email: anthonyshaw@apache.org
