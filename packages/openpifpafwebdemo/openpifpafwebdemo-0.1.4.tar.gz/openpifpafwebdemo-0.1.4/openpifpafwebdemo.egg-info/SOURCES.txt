@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+openpifpafwebdemo/__init__.py
+openpifpafwebdemo/analysis.js
+openpifpafwebdemo/index.html
+openpifpafwebdemo/server.py
+openpifpafwebdemo.egg-info/PKG-INFO
+openpifpafwebdemo.egg-info/SOURCES.txt
+openpifpafwebdemo.egg-info/dependency_links.txt
+openpifpafwebdemo.egg-info/requires.txt
+openpifpafwebdemo.egg-info/top_level.txt
