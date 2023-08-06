@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fopenmp   -Wl,-z,origin -shared -Wl,-soname,_GMLS_Module.so -o _GMLS_Module.so CMakeFiles/gmls_module.dir/GMLS_Module_wrap.cxx.o -Wl,-rpath,"/home/paul/code/compadre_pypi/python_src/KokkosCore-install/lib:\$ORIGIN/:/home/paul/code/compadre_pypi/python_src/src:" ../src/libcompadre.so ../KokkosCore-install/lib/libkokkos.a -llapack 

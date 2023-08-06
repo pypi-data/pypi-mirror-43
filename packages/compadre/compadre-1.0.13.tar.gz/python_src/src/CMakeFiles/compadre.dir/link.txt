@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fopenmp   -Wl,-z,origin -shared -Wl,-soname,libcompadre.so -o libcompadre.so CMakeFiles/compadre.dir/Compadre_GMLS.cpp.o CMakeFiles/compadre.dir/Compadre_LinearAlgebra.cpp.o -Wl,-rpath,"/home/paul/code/compadre_pypi/python_src/KokkosCore-install/lib:\$ORIGIN/:::::::::::::::" ../KokkosCore-install/lib/libkokkos.a -llapack 
