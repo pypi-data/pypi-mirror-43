@@ -1,0 +1,11 @@
+ImageAlgoKD/DataStructure.py,sha256=4dSYadXopDqkF2dkT3Id5mHruaggGDEgWbAsEpTajSE,5099
+ImageAlgoKD/ImageAlgoKD.py,sha256=y72wQDwBkYroT_j_ePcHrRf82wmpCGeUbDVCl_iqo-0,21112
+ImageAlgoKD/ImageAlgoKD_kernel_cuda.py,sha256=tZrdJrEK6y-pQwx0-TSo3qZRYQfPy6O6Yaz6Gpf_J-c,6126
+ImageAlgoKD/ImageAlgoKD_kernel_opencl.py,sha256=Blhwr7EYXWmOUfZ0YAp9kIP4pmgGlkkntVP-s43slEI,6662
+ImageAlgoKD/Utilities.py,sha256=7v-SCpxuSxQA858c1dO9m_VWPiccphGUO7a4HAwSS3s,2750
+ImageAlgoKD/__init__.py,sha256=0zwqyfsCM4n7dW8BAPhCcFYrlKfyIQMXGlaK98Aque8,20
+ImageAlgoKD-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ImageAlgoKD-0.0.4.dist-info/METADATA,sha256=vvOoHvwfsvx9sdIaUZcaP7x6jWPO6LrKno96H0aem2c,6589
+ImageAlgoKD-0.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+ImageAlgoKD-0.0.4.dist-info/top_level.txt,sha256=AA813kagYMh3SIrECibgzLL4WHPq3QEwYRrNiRDgMsU,12
+ImageAlgoKD-0.0.4.dist-info/RECORD,,
