@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: ibis-framework
+Version: 1.0.0
+Summary: Productivity-centric Python Big Data Framework
+Home-page: https://github.com/ibis-project/ibis
+Maintainer: Phillip Cloud
+Maintainer-email: phillip.cloud@twosigma.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5
+Requires-Dist: multipledispatch (>=0.6.0)
+Requires-Dist: numpy (>=1.11)
+Requires-Dist: pandas (>=0.21)
+Requires-Dist: pytz
+Requires-Dist: regex
+Requires-Dist: toolz
+Provides-Extra: all
+Requires-Dist: hdfs (>=2.0.16) ; extra == 'all'
+Requires-Dist: impyla (>=0.14.0) ; extra == 'all'
+Requires-Dist: sqlalchemy ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Requires-Dist: psycopg2 ; extra == 'all'
+Requires-Dist: pymapd (>=0.8.2) ; extra == 'all'
+Requires-Dist: pymysql ; extra == 'all'
+Requires-Dist: requests-kerberos ; extra == 'all'
+Requires-Dist: graphviz ; extra == 'all'
+Requires-Dist: clickhouse-driver (>=0.0.8) ; extra == 'all'
+Requires-Dist: clickhouse-cityhash ; extra == 'all'
+Requires-Dist: google-cloud-bigquery (>=1.0.0) ; extra == 'all'
+Requires-Dist: pydata-google-auth ; extra == 'all'
+Requires-Dist: tables (>=3.0.0) ; extra == 'all'
+Requires-Dist: pyarrow (>=0.6.0) ; extra == 'all'
+Provides-Extra: bigquery
+Requires-Dist: google-cloud-bigquery (>=1.0.0) ; extra == 'bigquery'
+Requires-Dist: pydata-google-auth ; extra == 'bigquery'
+Provides-Extra: clickhouse
+Requires-Dist: clickhouse-driver (>=0.0.8) ; extra == 'clickhouse'
+Requires-Dist: clickhouse-cityhash ; extra == 'clickhouse'
+Provides-Extra: develop
+Requires-Dist: hdfs (>=2.0.16) ; extra == 'develop'
+Requires-Dist: impyla (>=0.14.0) ; extra == 'develop'
+Requires-Dist: sqlalchemy ; extra == 'develop'
+Requires-Dist: requests ; extra == 'develop'
+Requires-Dist: psycopg2 ; extra == 'develop'
+Requires-Dist: pymapd (>=0.8.2) ; extra == 'develop'
+Requires-Dist: pymysql ; extra == 'develop'
+Requires-Dist: requests-kerberos ; extra == 'develop'
+Requires-Dist: graphviz ; extra == 'develop'
+Requires-Dist: clickhouse-driver (>=0.0.8) ; extra == 'develop'
+Requires-Dist: clickhouse-cityhash ; extra == 'develop'
+Requires-Dist: google-cloud-bigquery (>=1.0.0) ; extra == 'develop'
+Requires-Dist: pydata-google-auth ; extra == 'develop'
+Requires-Dist: tables (>=3.0.0) ; extra == 'develop'
+Requires-Dist: pyarrow (>=0.6.0) ; extra == 'develop'
+Requires-Dist: click ; extra == 'develop'
+Requires-Dist: flake8 ; extra == 'develop'
+Requires-Dist: mypy ; extra == 'develop'
+Requires-Dist: pytest (>=3) ; extra == 'develop'
+Provides-Extra: hdf5
+Requires-Dist: tables (>=3.0.0) ; extra == 'hdf5'
+Provides-Extra: impala
+Requires-Dist: hdfs (>=2.0.16) ; extra == 'impala'
+Requires-Dist: impyla (>=0.14.0) ; extra == 'impala'
+Requires-Dist: sqlalchemy ; extra == 'impala'
+Requires-Dist: requests ; extra == 'impala'
+Provides-Extra: kerberos
+Requires-Dist: requests-kerberos ; extra == 'kerberos'
+Provides-Extra: mapd
+Requires-Dist: pymapd (>=0.8.2) ; extra == 'mapd'
+Provides-Extra: mysql
+Requires-Dist: sqlalchemy ; extra == 'mysql'
+Requires-Dist: pymysql ; extra == 'mysql'
+Provides-Extra: parquet
+Requires-Dist: pyarrow (>=0.6.0) ; extra == 'parquet'
+Provides-Extra: postgres
+Requires-Dist: sqlalchemy ; extra == 'postgres'
+Requires-Dist: psycopg2 ; extra == 'postgres'
+Provides-Extra: sqlite
+Requires-Dist: sqlalchemy ; extra == 'sqlite'
+Provides-Extra: visualization
+Requires-Dist: graphviz ; extra == 'visualization'
+
+
+Ibis is a productivity-centric Python big data framework.
+
+See http://docs.ibis-project.org
+
+
