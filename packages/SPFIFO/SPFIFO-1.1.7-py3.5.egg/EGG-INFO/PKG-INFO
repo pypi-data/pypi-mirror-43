@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: SPFIFO
+Version: 1.1.7
+Summary: FIFO share for multiprocess
+Home-page: https://github.com/
+Author: Nguyen Thanh Son
+Author-email: thanhson.rf@gmail.com
+License: UNKNOWN
+Description: # FFIFO share for multiprocess
+        ## Example
+        ```
+        #!/usr/bin/env python
+        #!/usr/bin/env python
+        import PArray as pa 
+        from  spfifo import *
+        def test():
+            pf1 = SPFIFO()
+            pf1.init(key = "test", number_element = 5, dtype='|S5',  element_perblock=2, reNewFlag = True, timeout = 0, raseOtherDelete = False)
+            pf2 = SPFIFO()
+            pf2.init(key = "test")
+            pf1.push(["aa123456"]);
+            pf1.push(["bb",""]);
+            pf1.push(["cc",""]);
+            pf1.push(["dd",""]);
+            pf1.push(["ee",""]);
+            
+            
+            print("count ", pf2.count(), pf2.pop()[0])
+            print("count ", pf2.count(), pf2.pop())
+            print("count ", pf2.count(), pf2.pop())
+            print("count ", pf2.count(), pf2.pop())
+            print("count ", pf2.count(), pf2.pop())  
+        
+        test()
+        ```
+        
+Keywords: fifo multiprocess
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
