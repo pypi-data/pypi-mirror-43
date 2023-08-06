@@ -1,0 +1,10 @@
+README.md
+setup.py
+jget/__init__.py
+jget/jget.py
+jget.egg-info/PKG-INFO
+jget.egg-info/SOURCES.txt
+jget.egg-info/dependency_links.txt
+jget.egg-info/entry_points.txt
+jget.egg-info/requires.txt
+jget.egg-info/top_level.txt
