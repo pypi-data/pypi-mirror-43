@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-lin
+Version: 0.1.1
+Summary: A library for interfacing with LIN devices using python
+Home-page: https://github.com/richClubb/python-lin
+Author: Richard Clubb
+Author-email: richard.clubb@embeduk.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
