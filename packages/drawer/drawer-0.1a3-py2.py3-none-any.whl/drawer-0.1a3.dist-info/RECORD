@@ -1,0 +1,10 @@
+asp/__init__.py,sha256=R3uDqBbBn2X4eDzp6N6Mc0OWRAHG_hjTfOaOBXNmKsE,225
+asp/advice_builder.py,sha256=KsuqmPcaVptWzj85PRPnJRw1XBJaRwGjaTRwVdqvO4o,3771
+asp/weaver.py,sha256=urjcmJm4L_lcHhNv0NM7IDumetBoWHvmlmoyWMOsssA,7307
+drawer/__init__.py,sha256=R3uDqBbBn2X4eDzp6N6Mc0OWRAHG_hjTfOaOBXNmKsE,225
+drawer/advice_builder.py,sha256=KsuqmPcaVptWzj85PRPnJRw1XBJaRwGjaTRwVdqvO4o,3771
+drawer/weaver.py,sha256=urjcmJm4L_lcHhNv0NM7IDumetBoWHvmlmoyWMOsssA,7307
+drawer-0.1a3.dist-info/METADATA,sha256=RMV3gjsC_MoFSnjufQwLfLVOOfHHzy8uvY1hx50yAqs,1252
+drawer-0.1a3.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+drawer-0.1a3.dist-info/top_level.txt,sha256=XV8cQXFqCQiF-Z-DFjke1nRDkdfTlUakIjPYD3bsc1M,7
+drawer-0.1a3.dist-info/RECORD,,
