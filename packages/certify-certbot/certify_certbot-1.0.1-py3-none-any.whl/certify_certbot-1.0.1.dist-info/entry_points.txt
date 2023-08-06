@@ -1,0 +1,3 @@
+[console_scripts]
+certify = certify.certify.main
+
