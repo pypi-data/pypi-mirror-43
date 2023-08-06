@@ -1,0 +1,3 @@
+azure-cli-core
+six
+azure-mgmt-relay==0.1.0
