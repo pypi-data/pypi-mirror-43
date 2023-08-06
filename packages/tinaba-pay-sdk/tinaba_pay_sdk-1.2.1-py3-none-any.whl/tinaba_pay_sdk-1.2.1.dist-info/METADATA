@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tinaba-pay-sdk
+Version: 1.2.1
+Summary: A Python3 library to easily integrate your eCommerce website with the Tinaba system
+Home-page: https://gitlab.com/tinaba-open/tinaba-pay-sdk-python
+Author: MovEax srls
+Author-email: simone.bronzini@moveax.it
+License: UNKNOWN
+Download-URL: https://gitlab.com/tinaba-open/tinaba-pay-sdk-python/-/archive/1.2/tinaba-pay-sdk-python-1.2.1.tar.gz
+Keywords: tinaba,sdk,ecommerce
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: voluptuous (==0.10.5)
+Requires-Dist: requests (==2.18.4)
+
+UNKNOWN
+
+
