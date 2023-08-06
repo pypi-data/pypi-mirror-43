@@ -1,0 +1,17 @@
+django_memcache_status-2.0.dist-info/METADATA,sha256=jcRSaOymPb6CLI_TKnGtvOdqgZtBi1NDJPrLlWpJ1ng,7345
+django_memcache_status-2.0.dist-info/RECORD,,
+django_memcache_status-2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_memcache_status-2.0.dist-info/top_level.txt,sha256=vL6xcE38u6DRsgLCtq6Mn1HpUjnFKRiwVVbuTBQOtVw,16
+memcache_status/__init__.py,sha256=ihbmSG8IE64hEFQtkimSU8hobbkwgvj5sW4DnYbo9oo,106
+memcache_status/apps.py,sha256=lUyRajnEaEjhWllmgxAGFFIzcmRP3ZJne5IjPgz5PGM,573
+memcache_status/utils.py,sha256=Q25IX3dMmIympzaay1CWdICKnihMekhR8Ffzz0A4E5w,1373
+memcache_status/templates/memcache_status/admin_index.html,sha256=d0g99B4zCww-9IMr3WFKN9EKNgqkxdVrCLQHyJ9aOwQ,445
+memcache_status/templates/memcache_status/memcache_status.html,sha256=-jCB1Ds0aPC2LkfvQspXi39T6k45qUMIjfs8ai_CrAE,2757
+memcache_status/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memcache_status/templatetags/memcache_status_tags.py,sha256=wOnVoCg89VXVQxcIgmIMcUepYQNfDsk1w_FY8CPtpPc,2495
+memcache_status/tests/__init__.py,sha256=vtN7ZFOXOcQmflAM5XhKZ288ll5GPmcR0RJ32JoR8YE,62
+memcache_status/tests/tests.py,sha256=pZ0Q5LyeavNn2lWOpCL1O278pE2Ym4mp9EK-SrfXcR4,1103
+memcache_status/tests/testapp/__init__.py,sha256=wAv2EdTqeuyth671iYjgigOz4rwI-YzyqKi_X2lxTRA,127
+memcache_status/tests/testapp/apps.py,sha256=1zEElLo963Z2-bU7qkpu_t2V9ypxOOp7OBermw9095Q,1635
+memcache_status/tests/testapp/settings.py,sha256=Mj4NkB58hq6_9G5WU7WrH7t0K7ZcxfTcGjRL7nBC2G0,2753
+memcache_status/tests/testapp/urls.py,sha256=hJGHm5p91tuJ33lhUAhVHuHov8JvxfM-iJJkuuks5uU,286
