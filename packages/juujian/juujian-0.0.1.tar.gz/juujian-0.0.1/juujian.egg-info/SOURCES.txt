@@ -1,0 +1,6 @@
+README.md
+setup.py
+juujian.egg-info/PKG-INFO
+juujian.egg-info/SOURCES.txt
+juujian.egg-info/dependency_links.txt
+juujian.egg-info/top_level.txt
