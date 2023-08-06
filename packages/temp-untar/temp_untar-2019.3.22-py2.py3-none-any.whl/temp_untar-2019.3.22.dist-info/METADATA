@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: temp-untar
+Version: 2019.3.22
+Summary: unpack tar archive to a temp directory
+Home-page: https://github.com/looking-for-a-job/temp-untar
+License: UNKNOWN
+Keywords: temp unpack archive
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+#### Installation
+```bash
+$ [sudo] pip install temp-unpack
+```
+
+#### Features
+supported formats: `.tar.gz`, `.tgz`
+
+#### CLI
+```bash
+usage: temp-unpack path
+```
+
+#### Examples
+```bash
+$ temp-unpack file.tar.gz
+/var/folders/t8/6x3s8whx545fr5dx07k81y_r0000gn/T/tmp.SSDkfeva
+```
+
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
+
