@@ -1,0 +1,13 @@
+README.md
+setup.py
+dxl2/__init__.py
+dxl2/connection.py
+dxl2/motor.py
+dxl2/motor_chain.py
+dxl2/register.py
+dxl2/util.py
+dxl2.egg-info/PKG-INFO
+dxl2.egg-info/SOURCES.txt
+dxl2.egg-info/dependency_links.txt
+dxl2.egg-info/requires.txt
+dxl2.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+dynamixel-sdk
+
+[dev]
+pylint
+black
+mypy
