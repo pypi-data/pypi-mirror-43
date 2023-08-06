@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: aiohug_swagger
+Version: 0.2.dev52241141
+Summary: aiohug_swagger
+Home-page: https://github.com/nonamenix/aiohug_swagger
+Author: nonamenix
+Author-email: nonamenix@gmail.com
+License: UNKNOWN
+Description: aiohug_swagger
+        ==============
+        
+        |version| |pipeline status| |coverage report|
+        
+        .. |pipeline status| image:: https://gitlab.com/nonamenix/aiohug_swagger/badges/master/pipeline.svg
+           :target: https://gitlab.com/nonamenix/aiohug_swagger/commits/master
+        .. |coverage report| image:: https://gitlab.com/nonamenix/aiohug_swagger/badges/master/coverage.svg
+           :target: https://gitlab.com/nonamenix/aiohug_swagger/commits/master
+        .. |version| image:: https://badge.fury.io/py/aiohug.svg
+           :target: https://badge.fury.io/py/aiohug_swagger
+        
+        Goal
+        ====
+        
+        Provide swagger annotation for aiohug_ handlers.
+        
+        .. _aiohug: https://github.com/nonamenix/aiohug
+        
+Platform: UNKNOWN
