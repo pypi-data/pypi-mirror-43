@@ -1,0 +1,8 @@
+python-json-logger
+maya
+redis
+kazoo
+mock
+testfixtures
+ujson
+future

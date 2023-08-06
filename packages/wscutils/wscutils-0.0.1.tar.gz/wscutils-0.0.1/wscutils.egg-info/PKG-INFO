@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wscutils
+Version: 0.0.1
+Summary: scrapy cluster utils
+Home-page: https://gitlab.com/jiayunwu/wscutils.git
+Author: jy5
+Author-email: jiayunwu@wisers.com
+License: MIT
+Description: 
+        📦 utils for scrapy-cluster(python3.7.2)
+        =======================
+        1. utils for scrapy cluster
+        2. required python3.7.2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.2
+Description-Content-Type: text/markdown
