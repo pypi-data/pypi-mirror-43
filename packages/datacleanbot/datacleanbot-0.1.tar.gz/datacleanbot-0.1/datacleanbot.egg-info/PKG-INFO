@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: datacleanbot
+Version: 0.1
+Summary: automated data cleaning tool
+Home-page: https://github.com/Ji-Zhang/datacleanbot
+Author: Ji Zhang
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
