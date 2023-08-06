@@ -1,0 +1,35 @@
+python-dime (0.3) unstable; urgency=low
+
+  * Clean up the code.
+  * Simplify docstrings.
+  * Add documentation.
+  * Add another example: tiny DIME producer.
+  * Include MANIFEST.in in the tarball.
+  * Improve the setup script:
+    + Add Python version check.
+    + Use distutils644 to normalize tarball permissions etc.
+    + Remove poorly standardized “platforms” metadata key. (The information
+      about supported platform is available in the “Operating System”
+      classifiers.)
+  * Put license into a separate file.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Fri, 22 Mar 2019 17:39:12 +0100
+
+python-dime (0.2.1) unstable; urgency=low
+
+  * Change the license to the Expat license.
+  * Remove the projxpert.com-svn-dump example; it no longer works.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Sat, 04 Sep 2010 14:17:09 +0200
+
+python-dime (0.2) unstable; urgency=low
+
+  * Clean up the code.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Sun, 17 May 2009 15:59:33 +0200
+
+python-dime (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Jakub Wilk <jwilk@jwilk.net>  Sun, 22 Jul 2007 13:01:40 +0200
