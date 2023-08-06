@@ -1,0 +1,10 @@
+marina/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+marina/build.py,sha256=gKsN464oxIltUQMtOdgO7T7kPi2Odv3RwnmQe5IlLBI,23228
+marina/cli.py,sha256=alUOHpZByA8B7UmPCdethvY43d_rLtJY3MIzRqhe83A,5789
+marina/compat.py,sha256=SZUTM32-drYHkSxzSzmts0o0v8e2pvlEGl4PMn3-_hc,815
+marina/utils.py,sha256=Ms1ty_YrKb_jssCVkkUIRKf8d-Vz0Ws9J0s-M2PLAio,197
+marina-0.4.0.dist-info/METADATA,sha256=uKFP-Dmg06zjcRA-vX9MnfSba5xirppcWsnvl-M_OqQ,4205
+marina-0.4.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+marina-0.4.0.dist-info/entry_points.txt,sha256=qfXiXnKyBV9VA9Qieei2KufdJnFAeEzGOFjPmP6OIq0,52
+marina-0.4.0.dist-info/top_level.txt,sha256=c6HrSIbdsuAAbVcy0EtRpwE33PT1LCYK2lZ3CtwjTzU,7
+marina-0.4.0.dist-info/RECORD,,
