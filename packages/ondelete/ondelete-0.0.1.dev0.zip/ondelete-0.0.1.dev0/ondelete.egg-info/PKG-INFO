@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ondelete
+Version: 0.0.1.dev0
+Summary: UNKNOWN
+Home-page: http://github.com/serwy/ondelete
+Author: Roger D. Serwy
+Author-email: roger.serwy@gmail.com
+License: BSD License
+Description: 
+        # OnDelete
+        
+        Use CPython reference-counted garbage collection
+        to trigger a cleanup function.
+        
+        
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Description-Content-Type: text/markdown

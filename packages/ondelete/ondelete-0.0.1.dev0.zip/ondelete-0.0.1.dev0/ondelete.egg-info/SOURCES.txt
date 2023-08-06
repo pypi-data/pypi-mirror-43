@@ -1,0 +1,8 @@
+README.md
+setup.py
+ondelete/__init__.py
+ondelete/_version.py
+ondelete.egg-info/PKG-INFO
+ondelete.egg-info/SOURCES.txt
+ondelete.egg-info/dependency_links.txt
+ondelete.egg-info/top_level.txt
