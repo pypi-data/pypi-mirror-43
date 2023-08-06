@@ -1,0 +1,3 @@
+[console_scripts]
+check-ip = check_ip:main
+
