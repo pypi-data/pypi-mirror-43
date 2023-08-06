@@ -1,0 +1,4 @@
+web3>=4.8.3
+eth-account
+eth-utils
+logbook

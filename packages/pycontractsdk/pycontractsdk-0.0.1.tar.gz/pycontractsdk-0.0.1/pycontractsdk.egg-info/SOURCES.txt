@@ -1,0 +1,11 @@
+README.md
+setup.py
+pycontractsdk/__init__.py
+pycontractsdk/contract.py
+pycontractsdk.egg-info/PKG-INFO
+pycontractsdk.egg-info/SOURCES.txt
+pycontractsdk.egg-info/dependency_links.txt
+pycontractsdk.egg-info/entry_points.txt
+pycontractsdk.egg-info/not-zip-safe
+pycontractsdk.egg-info/requires.txt
+pycontractsdk.egg-info/top_level.txt
