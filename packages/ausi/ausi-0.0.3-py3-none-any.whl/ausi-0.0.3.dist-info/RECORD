@@ -1,0 +1,15 @@
+ausi/__init__.py,sha256=Yu_UrfYc-iex9ZaxyxG-7azFeGEby2sYsY5pL0L9O_A,13
+ausi/d3.py,sha256=Z02iTMAAOUFPRJPO0T50CTbJAea5xpYsyarv8CGQHbE,8350
+ausi/portfolio.py,sha256=FQ0Bipa4oQp6_tOqZibWnJ3ccpO8Y281VhxjkZq1n0M,1437
+ausi/pygal.py,sha256=EQ3YwF5JBr7bbnLJWxMFnulu2X-PJaRJP6eaxLxX98g,1928
+ausi/scipy.py,sha256=bmCXNX7Eu3oTleTE-u8__EIc1SsrqflGw1qbaZkCQy0,570
+ausi/d3_templates/bundle/template.html,sha256=qGLhFh3QHcADroamGxn5F5oKZRoTv4p4fsdQfQwPPmU,190400
+ausi/d3_templates/d3-force/template.html,sha256=UKCF1fWYhsJ1AdEMkGP2Tv1bi5oWS84X01zutVS2Ins,224105
+ausi/d3_templates/semantic_substrate/template.html,sha256=OetSgdZjo37TXPPYttQvNc3G1aW5oxt7sIGjH3KGD_c,226612
+ausi/d3_templates/zoomable_circle_package/COPYRIGHT.md,sha256=3-X_s-ph3zPN1dDm2LLjZffRI1mDLSqVhpYEZsrYMyI,85
+ausi/d3_templates/zoomable_circle_package/template.html,sha256=XimLrBuPpYBeelBDWkKOuYFNG9OrZ81s80mNLHPzzA4,150144
+ausi-0.0.3.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ausi-0.0.3.dist-info/METADATA,sha256=XH9ll6vURax-HdvhvJKuOGUh4oeVMwTqjHX31wRdsXQ,694
+ausi-0.0.3.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+ausi-0.0.3.dist-info/top_level.txt,sha256=Gwk4OF_FEMI1rQ0rBkcUMK4_hECCJI0gaWZRJDljtEc,5
+ausi-0.0.3.dist-info/RECORD,,
