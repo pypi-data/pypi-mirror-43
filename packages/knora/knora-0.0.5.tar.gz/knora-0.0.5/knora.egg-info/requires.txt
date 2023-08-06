@@ -1,0 +1,6 @@
+rdflib
+lxml
+validators
+requests
+jsonschema
+click
