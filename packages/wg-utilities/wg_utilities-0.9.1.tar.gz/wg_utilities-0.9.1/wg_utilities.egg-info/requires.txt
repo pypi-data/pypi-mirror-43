@@ -1,0 +1,5 @@
+requests
+httplib2
+google-api-python-client
+sqlalchemy
+pandas
