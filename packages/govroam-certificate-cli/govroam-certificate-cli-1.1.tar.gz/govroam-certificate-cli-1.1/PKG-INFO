@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: govroam-certificate-cli
+Version: 1.1
+Summary: CLI certificate generator for Govroam
+Home-page: UNKNOWN
+Author: Mike Richardson
+Author-email: doctor@perpetual.name
+License: UNKNOWN
+Description: CLI interface to certificate generator
+        ======================================
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
