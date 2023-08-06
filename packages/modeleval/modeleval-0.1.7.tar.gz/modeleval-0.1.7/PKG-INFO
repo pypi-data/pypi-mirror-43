@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: modeleval
+Version: 0.1.7
+Summary: A Python 3 library for a easier machine learning model evaluation
+Home-page: https://github.com/tqi2/model-evaluation
+Author: Tian (Luke) Qi
+Author-email: tqi2@dons.usfca.edu
+License: MIT
+Description: UNKNOWN
+Keywords: machine-learning evaluation
+Platform: UNKNOWN
+Requires-Python: >=3.6
