@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aws-works
+Version: 0.0.6
+Summary: A package to access amazon web services in an easy and intuitive way
+Home-page: https://github.com/guivl/aws_works
+Author: Guilherme Lana
+Author-email: guih.lana@gmail.com
+License: UNKNOWN
+Description: # Aws works
+        
+        Aws Works is a package to access amazon web services in an easy and intuitive way
+        
+        ## Table of Content
+        
+        + Getting Start
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
