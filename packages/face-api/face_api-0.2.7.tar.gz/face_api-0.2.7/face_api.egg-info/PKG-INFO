@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: face-api
+Version: 0.2.7
+Summary: Package for Face API
+Home-page: http://www.ai.game.tw
+Author: BIG CHENG
+Author-email: big_cheng.asus@gmail.com
+License: UNKNOWN
+Description: # Face API
+        
+        face api to support face detection & face recognition functions
+        
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
