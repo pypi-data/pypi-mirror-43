@@ -1,0 +1,15 @@
+lang2vec/__init__.py,sha256=nKHQrvslDq8h64OiWO20VgDpbQ5yfkIV6tKA1As_pZY,18
+lang2vec/lang2vec.py,sha256=vBouvIt4i8QxoYx3d89Jjl0YIFI17NeMO80_fbPkRi8,10151
+lang2vec/data/family_features.npz,sha256=6BTgWIwCYyl8dt38nCdEk3pSIzpO1SW6W8hv_FSVj7M,248799
+lang2vec/data/feature_averages.npz,sha256=fz6INxn-q72k9yQzljOLtyfAeR5gw9Of0A-ZKwFfk78,206393
+lang2vec/data/feature_predictions.npz,sha256=DorxvbKeG9cTQ9SV1P1OHNUj6TTm1fpCtyJiyo2BUbg,452078
+lang2vec/data/features.npz,sha256=GoOl_G6jHfstJ-Y0wNYBtHt4SzmMQwXkENude-ct27o,343844
+lang2vec/data/geocoord_features.npz,sha256=1zZL0F7NL3B1dVuDYa_2ps2oJRnBHJjX6IvagXvTU6s,6419609
+lang2vec/data/letter_codes.json,sha256=FVNcGYkFj56tpFukwzz2vfrR1Wcg6pvqD04qFo6L0Hs,2392
+lang2vec-0.1.3.data/scripts/lang2vec.py,sha256=GRwFgK7r-hQcGJsCzLeNtOBKjI8sIXlEHhKOL8RXyU8,10138
+lang2vec-0.1.3.dist-info/LICENSE.txt,sha256=odGt7Dumke9uN3p4u-np4lAfL0oXI9CIV9oaxlZOT-0,20004
+lang2vec-0.1.3.dist-info/METADATA,sha256=zsW0vg6GcfuI61MPQ8ONjvFF79-IDTzHcxuKM2U-8SI,4083
+lang2vec-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+lang2vec-0.1.3.dist-info/top_level.txt,sha256=JpgFXu7e7KZf42mg5Z96ipCH9jzpsZvhNbzoZkQ3fBQ,9
+lang2vec-0.1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+lang2vec-0.1.3.dist-info/RECORD,,
