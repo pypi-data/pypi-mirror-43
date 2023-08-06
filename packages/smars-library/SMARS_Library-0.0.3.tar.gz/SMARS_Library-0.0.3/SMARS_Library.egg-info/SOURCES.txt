@@ -1,0 +1,7 @@
+README.md
+setup.py
+SMARS_Library.egg-info/PKG-INFO
+SMARS_Library.egg-info/SOURCES.txt
+SMARS_Library.egg-info/dependency_links.txt
+SMARS_Library.egg-info/requires.txt
+SMARS_Library.egg-info/top_level.txt
