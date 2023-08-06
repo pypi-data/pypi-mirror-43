@@ -1,0 +1,3 @@
+[console_scripts]
+gb_fcst_val = global_forecast_validation.command_line:main
+
