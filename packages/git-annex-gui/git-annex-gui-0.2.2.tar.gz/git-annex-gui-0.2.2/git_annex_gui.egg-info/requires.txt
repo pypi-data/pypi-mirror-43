@@ -1,0 +1,6 @@
+PySide2
+
+[dev]
+twine
+invoke
+python-language-server
