@@ -1,0 +1,9 @@
+dataclasses_serialization/__init__.py,sha256=Zrv57EzpjdsuSPqsYvFkVsQKKRUOHFG7yURCf7qN-Tk,23
+dataclasses_serialization/bson.py,sha256=jixkFf1gETjvfYPZZyEjJodJ36oDYOgLnrgcFQs24XA,2799
+dataclasses_serialization/json.py,sha256=Ew8mJh6uyJaauDw_WymVl2NsypmgfPaHiB6rJ9w_fGM,1703
+dataclasses_serialization/serializer_base.py,sha256=rOuVkXHzALkAi18Ly8GcIEJi_TTbMT80Tj3OAMgNAHk,5338
+dataclasses_serialization-1.1.0.dist-info/LICENSE,sha256=_-8lLITvIgjF6x3i7WiQmq9ug1WosnRDGi3gMad83fw,1078
+dataclasses_serialization-1.1.0.dist-info/METADATA,sha256=O8kAH9Ou-hzposDFd_CiXoypEoXnkshp_Q6wkbmi5bI,8910
+dataclasses_serialization-1.1.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+dataclasses_serialization-1.1.0.dist-info/top_level.txt,sha256=Zy4GKESrg8DTpewXKOr9WKr7Mwuysc2dmt7XdcsYU3o,26
+dataclasses_serialization-1.1.0.dist-info/RECORD,,
