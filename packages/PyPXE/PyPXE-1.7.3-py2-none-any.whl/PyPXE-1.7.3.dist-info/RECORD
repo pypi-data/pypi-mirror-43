@@ -1,0 +1,16 @@
+PyPXE-1.7.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+PyPXE-1.7.3.dist-info/METADATA,sha256=UbABqxb5-5Hh7mf3MkkN7WYuWY3aC1uO3HJumjeSJ50,233
+PyPXE-1.7.3.dist-info/RECORD,,
+PyPXE-1.7.3.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+PyPXE-1.7.3.dist-info/entry_points.txt,sha256=B1je9vnW6fJd2BVRlOHp_qUXYXBpB1KrV5YqnolQ-5U,45
+PyPXE-1.7.3.dist-info/metadata.json,sha256=zP0RIfS-hj5TO2P2-WXnXeKZuN0xLV-WljIaEkFNtkQ,476
+PyPXE-1.7.3.dist-info/top_level.txt,sha256=0OkuLV3rkKUsAZmDq8usq62yhrLAWBECowPHydQop8k,6
+pypxe/__init__.py,sha256=rxF2rvWGVWl1cgau_XRCrddLCDTExywzL5uURAYRIcA,22
+pypxe/dhcp.py,sha256=o78RMfhc8JVHYxdshhF1BuoSB0IjmZ1fmimheoaxZhY,17599
+pypxe/helpers.py,sha256=cEn-LgOhwk7CYxOysjjY9Ndyb3NXCYbsilZv-n68BWM,1422
+pypxe/http.py,sha256=6yaKD-9TqDeCym92bQdqLQMTdIAoL33csLnIIZ0XliU,4556
+pypxe/server.py,sha256=enhDLoZDTh1lY62u05k5IqCtp1jypPEGMqdytSZwQ6c,18209
+pypxe/tftp.py,sha256=Z5vsuoycggbWqohgvxWKFZ_HRIqrlQhfzKoWuMXzcKs,11545
+pypxe/nbd/__init__.py,sha256=fY2Pbu6Fg8oOTa_wl7NjRzA-Ag1NhaD-f8305erWZpU,18
+pypxe/nbd/nbd.py,sha256=h8TMhz3RS2orjsfHbju1M2ppeYkXTtpVqZEZU9w1tG8,7290
+pypxe/nbd/writes.py,sha256=49j1TnHBtLIJiB6BgIJRoZUA5Mx8klSafysYVwrwjXE,5566
