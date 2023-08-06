@@ -1,0 +1,8 @@
+README.md
+brainfuckmachine
+setup.py
+brainfuckmachine/__init__.py
+brainfuckmachine.egg-info/PKG-INFO
+brainfuckmachine.egg-info/SOURCES.txt
+brainfuckmachine.egg-info/dependency_links.txt
+brainfuckmachine.egg-info/top_level.txt

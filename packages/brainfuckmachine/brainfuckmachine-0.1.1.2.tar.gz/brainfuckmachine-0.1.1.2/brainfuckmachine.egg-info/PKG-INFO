@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: brainfuckmachine
+Version: 0.1.1.2
+Summary: Simple Brainfuck compiler for python
+Home-page: https://bitbucket.org/schrodenkatzen/brainfuckmachine/src/master/
+Author: Vlad Havrilov
+Author-email: wladgavrilov@gmail.com
+License: UNKNOWN
+Description: Simple brainfuck language interpreter for python.
+        
+        <a href="https://learnxinyminutes.com/docs/bf/">Learn how to code brainfuck</a>
+        brainfuckmachine.execute("++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.")
+        #"Hello world!"
+        brainfuckmachine.execute(",>,< [ > [ >+ >+ << -] >> [- << + >>] <<< -] >>.",input=[2,3],mode="int")
+        #6
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
