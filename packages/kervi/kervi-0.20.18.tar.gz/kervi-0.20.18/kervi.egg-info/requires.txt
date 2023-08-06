@@ -1,0 +1,10 @@
+kervi-core==0.20.18
+kervi-ui==0.20.18
+kervi-cli==0.20.18
+kervi-hal-generic==0.20.18
+kervi-device-library==0.20.18
+autobahn
+pyzmq
+pillow
+kervi-hal-win==0.20.18
+kervi-hal-rpi==0.20.18
