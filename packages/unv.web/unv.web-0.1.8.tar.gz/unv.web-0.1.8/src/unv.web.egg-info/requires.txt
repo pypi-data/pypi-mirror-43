@@ -1,0 +1,5 @@
+unv.app==0.2.3
+aiohttp
+uvloop
+ujson
+jinja2
