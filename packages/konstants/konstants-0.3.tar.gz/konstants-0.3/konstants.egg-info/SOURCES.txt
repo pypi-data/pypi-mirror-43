@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+konstants/__init__.py
+konstants/math.py
+konstants/misc.py
+konstants/phys.py
+konstants.egg-info/PKG-INFO
+konstants.egg-info/SOURCES.txt
+konstants.egg-info/dependency_links.txt
+konstants.egg-info/top_level.txt
