@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: entrezpy
+Version: 1.0b6
+Summary: Dedicated library to query and retrieve data from Entrez databases at NCBI
+Home-page: https://gitlab.com/ncbipy/entrezpy.git
+Author: Jan P Buchmann
+Author-email: jpb@members.fsf.org
+License: LGPL
+Description: UNKNOWN
+Keywords: bioinformatics NCBI Entrez
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Development Status :: 4 - Beta
