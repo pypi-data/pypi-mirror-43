@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: digipathos
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/bresan/digipathos_plant_pathology
+Author: Rodrigo Bresan
+Author-email: 
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py (==0.6.1)
+Requires-Dist: args (==0.1.0)
+Requires-Dist: astor (==0.7.1)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==18.2.0)
+Requires-Dist: bleach (==1.5.0)
+Requires-Dist: certifi (==2018.11.29)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: Click (==7.0)
+Requires-Dist: clint (==0.5.1)
+Requires-Dist: coverage (==4.5.2)
+Requires-Dist: coveralls (==1.6.0)
+Requires-Dist: docopt (==0.6.2)
+Requires-Dist: docutils (==0.14)
+Requires-Dist: entity-embeddings-categorical (==0.4)
+Requires-Dist: Flask (==1.0.2)
+Requires-Dist: gast (==0.2.1)
+Requires-Dist: grpcio (==1.17.1)
+Requires-Dist: h5py (==2.9.0)
+Requires-Dist: html5lib (==0.9999999)
+Requires-Dist: idna (==2.8)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10)
+Requires-Dist: Keras (==2.2.4)
+Requires-Dist: Keras-Applications (==1.0.6)
+Requires-Dist: Keras-Preprocessing (==1.0.5)
+Requires-Dist: Markdown (==3.0.1)
+Requires-Dist: MarkupSafe (==1.1.0)
+Requires-Dist: more-itertools (==6.0.0)
+Requires-Dist: mypy (==0.670)
+Requires-Dist: mypy-extensions (==0.4.1)
+Requires-Dist: mysql-connector (==2.1.6)
+Requires-Dist: numpy (==1.15.4)
+Requires-Dist: pandas (==0.23.4)
+Requires-Dist: pkginfo (==1.4.2)
+Requires-Dist: pluggy (==0.8.1)
+Requires-Dist: protobuf (==3.6.1)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: Pygments (==2.3.1)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: pytest (==4.3.0)
+Requires-Dist: pytest-cov (==2.6.1)
+Requires-Dist: python-dateutil (==2.7.5)
+Requires-Dist: pytz (==2018.7)
+Requires-Dist: PyYAML (==3.13)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: requests-toolbelt (==0.8.0)
+Requires-Dist: scikit-learn (==0.20.2)
+Requires-Dist: scipy (==1.2.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: tensorboard (==1.6.0)
+Requires-Dist: tensorflow (==1.5.0)
+Requires-Dist: tensorflow-tensorboard (==1.5.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: terminaltables (==3.1.0)
+Requires-Dist: tqdm (==4.28.1)
+Requires-Dist: twine (==1.12.1)
+Requires-Dist: typed-ast (==1.3.1)
+Requires-Dist: uplink (==0.8.0.post2)
+Requires-Dist: uritemplate (==3.0.0)
+Requires-Dist: urllib3 (==1.24.1)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==0.14.1)
+
+<p align="center"><img width=75% src="docs/figs/logo.png"></p>
+
+[![PyPI version](https://badge.fury.io/py/digipathos.svg)](https://pypi.org/project/digipathos)
+[![Build Status](https://travis-ci.org/bresan/digipathos_plant_pathology.svg?branch=master)](https://travis-ci.org/bresan/digipathos_plant_pathology)
+[![Coverage Status](https://coveralls.io/repos/github/bresan/digipathos_plant_pathology/badge.svg?branch=master)](https://coveralls.io/github/bresan/digipathos_plant_pathology?branch=master)
+[![GitHub](https://img.shields.io/github/license/bresan/digipathos_plant_pathology.svg)](https://github.com/bresan/digipathos_plant_pathology/blob/master/LICENSE.md)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e02bc243822c4ce884c4adf87ff6e9f7)](https://www.codacy.com/app/bresan/digipathos_plant_pathology?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bresan/digipathos_plant_pathology&amp;utm_campaign=Badge_Grade)
+
+# Overview
+
+This project is aimed to serve as a wrapper for the Digipathos dataset, in order to list and download public data from plant pathologies provided by Embrapa (Brazilian Agricultural Research Corporation).
+
+# Installation
+
+The installation is pretty simple if you have a virtualenv already installed on your machine. If you don't please rely to [VirtualEnv official documentation](https://virtualenv.pypa.io/en/latest/).
+
+```bash
+pip install digipathos
+```
+
+# Documentation
+
+Besides the docstrings, major details about the documentation can be found [here](https://entity-embeddings-categorical.readthedocs.io/en/latest/).
+
+# Testing
+
+This project is inteded to suit most of the existent needs, so for this reason, testability is a major concern. Most of the code is heavily tested, along with [Travis](https://travis-ci.org/bresan/digipathos_plant_pathology) as Continuous Integration tool to run all the unit tests once there is a new commit.
+
+# Usage
+
+You can use Digipathos in two different ways: via terminal or programatically.
+
+## CLI (Command-Line Interface)
+
+This mode is highly recommended for those who are looking to explore a little bit the dataset. Here you can do the same operations from the programmatic mode, but with the advantage of being able to see all the data that is being retrieved.
+
+
+```bash
+python digipathos.py
+```
+
+And then you're gonna be greeted by our dataset browser :-)
+
+<p align="center"><img width=75% src="docs/figs/browser.png"></p>
+
+An example listing all the datasets:
+
+<p align="center"><img width=75% src="docs/figs/datasets.png"></p>
+
+
+## Programmatically
+
+
+```python
+data_loader = DataLoader()
+
+# list all the datasets
+datasets = data_loader.get_datasets()
+
+# now lets give a look at the crops
+crops = data_loader.get_crops()
+
+# how about getting all the datasets from a crop?
+datasets_from_crop = data_loader.get_datasets_from_crop('Pineapple')
+
+# now let's download a random dataset
+dataset_id = random.choice(list(datasets.keys()))
+data_loader.download_dataset(dataset_id=dataset_id)
+
+# download all from a given crop
+data_loader.download_datasets_from_crop('Pineapple')
+
+# download all the datasets
+data_loader.download_all_datasets()
+```
+
+Pretty simple, huh?
+
+A working example can be found [here as a Python script](https://github.com/bresan/digipathos_plant_pathology/blob/master/example/example.py).
+
+
+# Troubleshooting
+
+In case of any issue with the project, or for further questions, do not hesitate to open an issue here on GitHub.
+
+# Contributions
+
+Contributions are really welcome, so feel free to open a pull request :-)
+
