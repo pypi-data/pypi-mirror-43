@@ -1,0 +1,9 @@
+siphono_notify/__init__.py,sha256=tX8bL1qQ8jK7G1dgsZPtFYtGonpByx2KRqJWZ3ukGPk,199
+siphono_notify/client.py,sha256=vwetSVR4NjNZoeKKZCIkhLjJiBbcnMxoeSP-w7xFl04,1808
+siphono_notify/configs.py,sha256=ctW_HhLlXzbf_M5UBKkJx9O28mAQEiyZx81Wxu3JUD8,74
+siphono_notify/notifier.py,sha256=Nci26ZuCg8craQiLO0-duZGH2jl68U4orEIh0dWyzns,1964
+siphono_notify/progress_bar.py,sha256=VR0P4ifGRdn7o3sLRx_JzvPexwgBsNMrTzpbColMxo4,1444
+siphono_notify/target.py,sha256=Ip5pOz7ZH2fM0VITDDy2DuGL33rWSKyxg2qq5kUIpsw,1054
+siphono_notify-0.1.0.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+siphono_notify-0.1.0.dist-info/METADATA,sha256=SOumvRLknYJ5OjWpWJkVupqNgjC_stNR8hXpiYzeF-o,479
+siphono_notify-0.1.0.dist-info/RECORD,,

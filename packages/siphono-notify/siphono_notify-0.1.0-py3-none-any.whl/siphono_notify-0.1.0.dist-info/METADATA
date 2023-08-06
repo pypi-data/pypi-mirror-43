@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: siphono-notify
+Version: 0.1.0
+Summary: Module for sending notifications through siphono notify.
+Home-page: UNKNOWN
+License: MIT
+Author: Kevin Schiroo
+Author-email: kjschiroo@siphono.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests (>=2.21,<3.0)
