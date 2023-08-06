@@ -1,0 +1,11 @@
+watson/__init__.py,sha256=HAPFSDzYZTcMVQz_7AI3KlmE4Q0sbPgPAfOVkkvqDj4,321
+watson/serialize/__init__.py,sha256=V84e4crK3wzUoff47XnYB5oa6GdIXAtequskw5M3UxE,46
+watson/serialize/decorators.py,sha256=dJ3A2Okw0e7p84xtnC1BnV_o-nXGRr44UpMcMT0RCds,3102
+watson/serialize/errors.py,sha256=JovNZ7ZqDe4v2Azb-L1ib9nPg-Db2Dkvx4DSMyrWey8,1543
+watson/serialize/serializers.py,sha256=G2PqJoj0kINx5Dt4f4KIVqefqIWUGRtN-KNzjpLnkjQ,9009
+watson_serialize-1.1.4.dist-info/AUTHORS,sha256=IS822ZlkZXrW9btkquQgVdmpn92d_O3wZNG9yqAF6WM,87
+watson_serialize-1.1.4.dist-info/LICENSE,sha256=HQM56tNabFTie_ZYnV4eQShT3xyKTi4vsV176sFnAHc,1149
+watson_serialize-1.1.4.dist-info/METADATA,sha256=7fBHJ1t-3N_1wSQoTdRyKsUZvK2K--BOnuNYZwN7WyA,3699
+watson_serialize-1.1.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+watson_serialize-1.1.4.dist-info/top_level.txt,sha256=QQZdZ6AxPCQ1a1p0y2MpAF1x2wkCHy_btt5UXoEjT34,7
+watson_serialize-1.1.4.dist-info/RECORD,,
