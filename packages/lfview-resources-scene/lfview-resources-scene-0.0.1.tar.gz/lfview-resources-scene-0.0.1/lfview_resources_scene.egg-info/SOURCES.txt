@@ -1,0 +1,12 @@
+README.rst
+setup.py
+lfview/__init__.py
+lfview/resources/__init__.py
+lfview/resources/scene/__init__.py
+lfview/resources/scene/scene.py
+lfview/resources/scene/slide.py
+lfview_resources_scene.egg-info/PKG-INFO
+lfview_resources_scene.egg-info/SOURCES.txt
+lfview_resources_scene.egg-info/dependency_links.txt
+lfview_resources_scene.egg-info/requires.txt
+lfview_resources_scene.egg-info/top_level.txt
