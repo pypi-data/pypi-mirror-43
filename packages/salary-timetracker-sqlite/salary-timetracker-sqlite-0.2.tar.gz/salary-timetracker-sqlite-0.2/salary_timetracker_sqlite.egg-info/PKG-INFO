@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: salary-timetracker-sqlite
+Version: 0.2
+Summary: A simple and easy timetracker for loging working hours with sqlite db and automatic wage calculation.
+Home-page: http://github.com/dalay/salary-timetracker-sqlite
+Author: Alexandr Jurow
+Author-email: pythonwayru@gmail.com
+License: GPL
+Download-URL: https://github.com/dalay/salary-timetracker-sqlite/archive/v0.2.tar.gz
+Description: A handy tool with a command line interface for logging time worked. At
+        any time you can see how much you have spent time on a particular
+        project and how much you have earned on it.
+        
+        Installation
+        ------------
+        
+        .. code:: bash
+        
+           pip install salary-timetracker-sqlite
+        
+        Usage
+        -----
+        
+        .. code:: bash
+        
+           tts [OPTIONS]
+        
+           To add a new entry just enter 'tts'. If there are no options, an interactive session is started.
+        
+           Options:
+             -a, --show-all     Show all entries
+             -p, --show-paid    Show paid
+             -u, --show-unpaid  Show unpaid
+             -s, --stats        Show unpaid hours
+             -m, --mark-paid    Mark all hours worked as paid
+             --del-paid         Delete records marked as paid
+             --help             Show this message and exit.
+        
+Keywords: timetracker,salary,freelance,sqlite
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities

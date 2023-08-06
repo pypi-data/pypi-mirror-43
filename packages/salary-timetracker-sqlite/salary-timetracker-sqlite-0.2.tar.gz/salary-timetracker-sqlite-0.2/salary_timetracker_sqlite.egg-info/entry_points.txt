@@ -1,0 +1,4 @@
+[console_scripts]
+timetracker-sqlite = timetracker_sqlite:main
+tts = timetracker_sqlite:main
+
