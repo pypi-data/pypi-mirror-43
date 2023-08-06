@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aioapi
+Version: 0.2.0a0
+Summary: Yet another way to build APIs using AIOHTTP framework
+Home-page: https://github.com/Gr1N/aioapi
+Author: Nikita Grishko
+Author-email: gr1n@protonmail.com
+Keywords: asyncio,aiohttp,api,typing
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.5.4)
+Requires-Dist: pydantic (>=0.20.1)
+Project-URL: Repository, https://github.com/Gr1N/aioapi
