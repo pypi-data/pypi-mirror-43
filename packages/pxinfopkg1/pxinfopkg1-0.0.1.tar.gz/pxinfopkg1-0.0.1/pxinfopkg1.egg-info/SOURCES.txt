@@ -1,0 +1,8 @@
+README.md
+setup.py
+pxinfopkg/__init__.py
+pxinfopkg/pxinfo.py
+pxinfopkg1.egg-info/PKG-INFO
+pxinfopkg1.egg-info/SOURCES.txt
+pxinfopkg1.egg-info/dependency_links.txt
+pxinfopkg1.egg-info/top_level.txt
