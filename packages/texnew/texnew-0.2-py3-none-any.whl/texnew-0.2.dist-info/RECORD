@@ -1,0 +1,12 @@
+texnew/__init__.py,sha256=qgRIkEYWTyKazi1dWMD5ps_kqS2ELYF-cxARq4d_sfQ,283
+texnew/__main__.py,sha256=tkgYiJXdLauQyvGKIlY3GkZcS9okwGAQCwloKyL-y94,1658
+texnew/core.py,sha256=0wwbi9jU2fVh-Yy8lVZ6iFqJlJjeyn6OWUA4AiWIIVo,3440
+texnew/file_mgr.py,sha256=Pljtl5f_FMWPQH10b90mmKCk5dQ3uiy6HFxpd4WNNNo,1887
+texnew/test.py,sha256=0MWM7KnEnr6qr4--7G86Q7tXBhF83eeVhAmb-huGYzk,2147
+texnew/update.py,sha256=j9_37Sr3klibELyoUVIx5szXX005tFEsz8aH23_C29U,937
+texnew-0.2.dist-info/LICENSE,sha256=AmoRt-0Rw-UVUtEW7Q5zdhIrbJg6JuZlUyC3acyqKQI,1068
+texnew-0.2.dist-info/METADATA,sha256=XEfv48AMwfN-japeZNKvHXQLUp2bI-9oEofadDKI2hQ,4559
+texnew-0.2.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+texnew-0.2.dist-info/entry_points.txt,sha256=SjHLW7DsDqCkcb_9Z_Zvlh5mMsa-uDilNasky6pTaOs,49
+texnew-0.2.dist-info/top_level.txt,sha256=FI9hNqxtuXVoHk7pLMsHR_E6U3Cd3VQ1WsTHYQESRmQ,7
+texnew-0.2.dist-info/RECORD,,
