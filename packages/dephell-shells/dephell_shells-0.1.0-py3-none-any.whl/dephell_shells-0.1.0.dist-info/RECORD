@@ -1,0 +1,10 @@
+dephell_shells/__init__.py,sha256=ACVQ9avqxpgsQwFTc5txuhhqkucYEzayRjHPc0eJ5BM,431
+dephell_shells/_base.py,sha256=-QDVt3vBrXBaeO385af79zA3It-aBULLduEXy_p3bAs,1512
+dephell_shells/_manager.py,sha256=qJ7w1Y6toiuxGpX_CXGwMFNNReh1UBJSbpc0EN_vTW8,1455
+dephell_shells/_shells.py,sha256=lx8X-5gZCHhMABlgHSySjtXeNXLCTXe2nAv77Hv_8Qc,1872
+dephell_shells/_utils.py,sha256=Wj6vSF4MrccISYVyy1CClxqPhc0-Ml7vkSerBT7_ht0,835
+dephell_shells-0.1.0.dist-info/LICENSE,sha256=oOV_OJnxc9uQzeaMabB-rqV8Gti-Q1kQXusPgFxoEJI,1049
+dephell_shells-0.1.0.dist-info/METADATA,sha256=0Qm4nX068kzePvFRlLnvuxLp2XKS4KAMB71_m_LS7x4,755
+dephell_shells-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dephell_shells-0.1.0.dist-info/top_level.txt,sha256=u6IylYqCRCC1WJ7gm6hM228xMg4DAP4ALcKYMW93Wgo,15
+dephell_shells-0.1.0.dist-info/RECORD,,
