@@ -1,0 +1,9 @@
+README.md
+setup.py
+tree_sitter/__init__.py
+tree_sitter/binding.c
+tree_sitter.egg-info/PKG-INFO
+tree_sitter.egg-info/SOURCES.txt
+tree_sitter.egg-info/dependency_links.txt
+tree_sitter.egg-info/top_level.txt
+tree_sitter/core/lib/src/lib.c
