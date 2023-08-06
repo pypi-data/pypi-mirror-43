@@ -1,0 +1,50 @@
+check-ip
+========
+
+*Check your public IP address and update DNS records on Cloudflare.*
+
+[![GitHub](https://img.shields.io/github/license/samueljsb/check-ip.svg)](#license)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
+Installation
+------------
+
+check-ip can be installed with pip:
+
+```sh
+pip install check-ip
+```
+
+Usage
+-----
+
+```sh
+check-ip config.yaml
+```
+
+The config file should take the following form:
+
+```yaml
+---
+email: user@example.com
+api_key: <your Cloudflare API key>
+zone: example.com
+records:
+  - www
+  - server
+```
+
+This will update the A records `www.example.com` and `server.example.com` to point to your current public IP address.
+
+check-ip will not output anything if it does not need to update any records.
+To see a message for records which match the current public IP address, use the `-v` or `--verbose` flag:
+
+```sh
+$ check-ip -v config.yaml
+Public IP matches www.example.com (12.34.567.89)
+```
+
+Contributing
+------------
+
+This project is hosted on [GitHub](https://github.com/samueljsb/check-ip)
