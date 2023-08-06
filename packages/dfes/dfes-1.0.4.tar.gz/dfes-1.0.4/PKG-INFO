@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: dfes
+Version: 1.0.4
+Summary: A wrapper around an AWS SSM send-command that can optionally wait for execution success.
+Home-page: UNKNOWN
+Author: Tack Fu
+Author-email: UNKNOWN
+License: MIT
+Description: essupport
+        
+Keywords: aws elasticsearch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
