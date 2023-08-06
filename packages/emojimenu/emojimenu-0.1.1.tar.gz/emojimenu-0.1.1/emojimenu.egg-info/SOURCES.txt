@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+fastentrypoints.py
+setup.py
+emojimenu/__init__.py
+emojimenu/emoji.cfg
+emojimenu/emojimenu.py
+emojimenu.egg-info/PKG-INFO
+emojimenu.egg-info/SOURCES.txt
+emojimenu.egg-info/dependency_links.txt
+emojimenu.egg-info/entry_points.txt
+emojimenu.egg-info/requires.txt
+emojimenu.egg-info/top_level.txt
