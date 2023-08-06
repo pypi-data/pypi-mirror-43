@@ -1,0 +1,10 @@
+mudskipper/__init__.py,sha256=6D59guzMYgiGJvxsT4o0OK6e8_k-sVH18nlx04TJU9k,151
+mudskipper/client.py,sha256=O6qHonA8EBnkri8-VC7cf20HRHuhIP4M6bcBZJY5sMs,1592
+mudskipper/connection.py,sha256=C-n7Yp5P7_bI27zSiKQ6eBKqrn6b5i4RLSxSvIkDTsM,2676
+mudskipper/endpoint.py,sha256=QGZnloisyLqyKO0acn4Hm_q-O_FzJ98j9opcRYK1h0c,4206
+mudskipper/response.py,sha256=9iC9LlaENddXq0atCbtce2m0RbT_5N-_jyjnHnmFiQ8,472
+mudskipper/timekeeper.py,sha256=eBvpiSBGIQfv5WeRtSir-EPLF2wEI0RU00M2CcjJ1OA,592
+mudskipper-1.2.dist-info/METADATA,sha256=X7Nci3BoQXJlAMbBXGmTJCwtLqyNqip97_d3a9-ES3A,395
+mudskipper-1.2.dist-info/RECORD,,
+mudskipper-1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mudskipper-1.2.dist-info/top_level.txt,sha256=4Xz7GChaRsZS0YOpo2e5gShjmCK29x7HXvpzEMIFh-Y,11

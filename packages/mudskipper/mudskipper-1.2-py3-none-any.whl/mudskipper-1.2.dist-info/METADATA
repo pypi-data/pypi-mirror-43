@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mudskipper
+Version: 1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Requires-Dist: requests (<=2.19.1)
+Requires-Dist: zeep (>=2.4.0)
+Requires-Dist: xmltodict (>=0.10.0)
+
+UNKNOWN
+
+
