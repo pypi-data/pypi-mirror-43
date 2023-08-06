@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mmsi
+Version: 0.1.0
+Summary: Python wrapper for Modifiable Multi-Scale Image (MMSI) library.
+Home-page: https://gitlab.com/BioAI/libMI
+Author: Yuxin Dong
+Author-email: gamepiaynmo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+
+The documentation can be found at https://bioai.gitlab.io/libMI-docs/
+
+
