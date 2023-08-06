@@ -1,0 +1,14 @@
+README.md
+setup.py
+megaphone/__init__.py
+megaphone/client.py
+megaphone/errors.py
+megaphone/network.py
+megaphone/organization.py
+megaphone.egg-info/PKG-INFO
+megaphone.egg-info/SOURCES.txt
+megaphone.egg-info/dependency_links.txt
+megaphone.egg-info/requires.txt
+megaphone.egg-info/top_level.txt
+megaphone/test/__init__.py
+megaphone/test/test_linting.py
