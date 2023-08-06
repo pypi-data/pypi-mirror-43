@@ -1,0 +1,834 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+#############
+# group     #
+#############
+msgctxt "model:res.group,name:group_calendar_user"
+msgid "PIM Calendar - User"
+msgstr "PIM Kalender - Nutzer"
+
+msgctxt "model:res.group,name:group_calendar_admin"
+msgid "PIM Calendar - Administrator"
+msgstr "PIM Kalender - Administrator"
+
+
+#############
+# calendar  #
+#############
+msgctxt "model:ir.ui.menu,name:menu_calendarlist"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "model:ir.action,name:act_calendarlist_form"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "model:ir.action.act_window.domain,name:act_calendar_form_own"
+msgid "Own Calendars"
+msgstr "eigene Kalender"
+
+msgctxt "model:ir.action.act_window.domain,name:act_calendar_form_shared"
+msgid "Shared Calendars"
+msgstr "geteilte Kalender"
+
+msgctxt "error:pim_calendar.calendar:"
+msgid "Changing the field '%s' is not allowed."
+msgstr "Die Änderung des Feldes '%s' ist nicht erlaubt."
+
+msgctxt "view:pim_calendar.calendar:"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "error:pim_calendar.calendar:"
+msgid "Error during import (%s)"
+msgstr "Fehler beim Import (%s)"
+
+msgctxt "error:pim_calendar.calendar:"
+msgid "The name is already in use for this owner."
+msgstr "Der Name wird bei diesem Eigentümer bereits verwendet."
+
+msgctxt "field:pim_calendar.calendar,name:"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "help:pim_calendar.calendar,name:"
+msgid "Title of the calendar"
+msgstr "Titel des Kalenders"
+
+msgctxt "field:pim_calendar.calendar,owner:"
+msgid "Owner"
+msgstr "Besitzer"
+
+msgctxt "help:pim_calendar.calendar,owner:"
+msgid "Owner of the calendar"
+msgstr "Besitzer des Kalenders"
+
+msgctxt "field:pim_calendar.calendar,visitors:"
+msgid "Visitors"
+msgstr "Besucher"
+
+msgctxt "help:pim_calendar.calendar,visitors:"
+msgid "Users invited to view or edit the calendar"
+msgstr "Benutzer welche den Kalender sehen oder bearbeiten können"
+
+msgctxt "field:pim_calendar.calendar,events:"
+msgid "Events"
+msgstr "Termine"
+
+msgctxt "field:pim_calendar.calendar,cal_visible:"
+msgid "Visible"
+msgstr "Sichtbar"
+
+msgctxt "help:pim_calendar.calendar,cal_visible:"
+msgid "turns the calendar events visible or invisible"
+msgstr "schaltet die Kalendereinträge sichtbar oder unsichtbar"
+
+msgctxt "field:pim_calendar.calendar,cal_limittext:"
+msgid "Limit text length"
+msgstr "Textlänge begrenzen"
+
+msgctxt "help:pim_calendar.calendar,cal_limittext:"
+msgid "avoids empty events in the calendar view by shortening the visible text"
+msgstr "vermeidet leere Events in der Kalenderansicht durch Verkürzung des sichtbaren Textes"
+
+msgctxt "field:pim_calendar.calendar,cal_limitanz:"
+msgid "Number of characters"
+msgstr "Anzahl Zeichen"
+
+msgctxt "help:pim_calendar.calendar,cal_limitanz:"
+msgid "Number of characters for text length limitation"
+msgstr "Anzahl Zeichen zur Begrenzung der Textlänge"
+
+msgctxt "field:pim_calendar.calendar,cal_color:"
+msgid "Color"
+msgstr "Farbe"
+
+msgctxt "help:pim_calendar.calendar,cal_color:"
+msgid "Background color of the calendar events."
+msgstr "Hintergrundfarbe der Kalendereinträge."
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Black"
+msgstr "Schwarz"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Dark 4"
+msgstr "Grau - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Dark 3"
+msgstr "Grau - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Dark 2"
+msgstr "Grau - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Dark 1"
+msgstr "Grau - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray"
+msgstr "Grau"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Light 1"
+msgstr "Grau - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Light 2"
+msgstr "Grau - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Light 3"
+msgstr "Grau - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Light 4"
+msgstr "Grau - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gray - Light 5"
+msgstr "Grau - Hell 5"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "White"
+msgstr "Weiss"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow"
+msgstr "Gelb"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Light 4"
+msgstr "Gelb - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Light 3"
+msgstr "Gelb - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Light 2"
+msgstr "Gelb - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Light 1"
+msgstr "Gelb - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Dark 1"
+msgstr "Gelb - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Dark 2"
+msgstr "Gelb - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Dark 3"
+msgstr "Gelb - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Yellow - Dark 4"
+msgstr "Gelb - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold"
+msgstr "Gold"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Light 4"
+msgstr "Gold - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Light 3"
+msgstr "Gold - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Light 2"
+msgstr "Gold - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Light 1"
+msgstr "Gold - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Dark 1"
+msgstr "Gold - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Dark 2"
+msgstr "Gold - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Dark 3"
+msgstr "Gold - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Gold - Dark 4"
+msgstr "Gold - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange"
+msgstr "Orange"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Light 4"
+msgstr "Orange - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Light 3"
+msgstr "Orange - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Light 2"
+msgstr "Orange - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Light 1"
+msgstr "Orange - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Dark 1"
+msgstr "Orange - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Dark 2"
+msgstr "Orange - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Dark 3"
+msgstr "Orange - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Orange - Dark 4"
+msgstr "Orange - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick"
+msgstr "Ziegel"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Light 4"
+msgstr "Ziegel - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Light 3"
+msgstr "Ziegel - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Light 2"
+msgstr "Ziegel - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Light 1"
+msgstr "Ziegel - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Dark 1"
+msgstr "Ziegel - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Dark 2"
+msgstr "Ziegel - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Dark 3"
+msgstr "Ziegel - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Brick - Dark 4"
+msgstr "Ziegel - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red"
+msgstr "Rot"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Light 4"
+msgstr "Rot - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Light 3"
+msgstr "Rot - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Light 2"
+msgstr "Rot - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Light 1"
+msgstr "Rot - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Dark 1"
+msgstr "Rot - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Dark 2"
+msgstr "Rot - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Dark 3"
+msgstr "Rot - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Red - Dark 4"
+msgstr "Rot - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet"
+msgstr "Violett"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Light 4"
+msgstr "Violett - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Light 3"
+msgstr "Violett - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Light 2"
+msgstr "Violett - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Light 1"
+msgstr "Violett - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Dark 1"
+msgstr "Violett - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Dark 2"
+msgstr "Violett - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Dark 3"
+msgstr "Violett - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Violet - Dark 4"
+msgstr "Violett - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple"
+msgstr "Purpur"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Light 4"
+msgstr "Purpur - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Light 3"
+msgstr "Purpur - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Light 2"
+msgstr "Purpur - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Light 1"
+msgstr "Purpur - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Dark 1"
+msgstr "Purpur - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Dark 2"
+msgstr "Purpur - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Dark 3"
+msgstr "Purpur - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Purple - Dark 4"
+msgstr "Purpur - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo"
+msgstr "Indigo"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Light 1"
+msgstr "Indigo - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Light 2"
+msgstr "Indigo - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Light 3"
+msgstr "Indigo - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Light 4"
+msgstr "Indigo - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Dark 1"
+msgstr "Indigo - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Dark 2"
+msgstr "Indigo - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Dark 3"
+msgstr "Indigo - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Indigo - Dark 4"
+msgstr "Indigo - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue"
+msgstr "Blau"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Light 4"
+msgstr "Blau - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Light 3"
+msgstr "Blau - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Light 2"
+msgstr "Blau - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Light 1"
+msgstr "Blau - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Dark 1"
+msgstr "Blau - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Dark 2"
+msgstr "Blau - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Dark 3"
+msgstr "Blau - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Blue - Dark 4"
+msgstr "Blau - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal"
+msgstr "Türkis"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Light 4"
+msgstr "Türkis - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Light 3"
+msgstr "Türkis - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Light 2"
+msgstr "Türkis - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Light 1"
+msgstr "Türkis - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Dark 1"
+msgstr "Türkis - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Dark 2"
+msgstr "Türkis - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Dark 3"
+msgstr "Türkis - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Teal - Dark 4"
+msgstr "Türkis - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green"
+msgstr "Grün"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Light 4"
+msgstr "Grün - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Light 3"
+msgstr "Grün - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Light 2"
+msgstr "Grün - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Light 1"
+msgstr "Grün - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Dark 1"
+msgstr "Grün - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Dark 2"
+msgstr "Grün - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Dark 3"
+msgstr "Grün - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Green - Dark 4"
+msgstr "Grün - Dunkel 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime"
+msgstr "Limette"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Light 4"
+msgstr "Limette - Hell 4"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Light 3"
+msgstr "Limette - Hell 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Light 2"
+msgstr "Limette - Hell 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Light 1"
+msgstr "Limette - Hell 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Dark 1"
+msgstr "Limette - Dunkel 1"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Dark 2"
+msgstr "Limette - Dunkel 2"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Dark 3"
+msgstr "Limette - Dunkel 3"
+
+msgctxt "selection:pim_calendar.calendar,cal_color:"
+msgid "Lime - Dark 4"
+msgstr "Limette - Dunkel 4"
+
+
+######################
+# calendar settings  #
+######################
+msgctxt "field:pim_calendar.calendar_setting,cal_visible:"
+msgid "Visible"
+msgstr "Sichtbar"
+
+msgctxt "help:pim_calendar.calendar_setting,cal_visible:"
+msgid "turns the calendar events visible or invisible"
+msgstr "schaltet die Kalendereinträge sichtbar oder unsichtbar"
+
+msgctxt "field:pim_calendar.calendar_setting,cal_color:"
+msgid "Color"
+msgstr "Farbe"
+
+msgctxt "help:pim_calendar.calendar_setting,cal_color:"
+msgid "Background color of the calendar events."
+msgstr "Hintergrundfarbe der Kalendereinträge."
+
+
+#############
+# event     #
+#############
+msgctxt "model:ir.ui.menu,name:menu_calendar1"
+msgid "Events"
+msgstr "Termine"
+
+msgctxt "model:ir.action,name:act_event_calendar"
+msgid "Events"
+msgstr "Termine"
+
+msgctxt "model:ir.ui.menu,name:menu_eventallday"
+msgid "Events (all-day)"
+msgstr "Termine (ganztags)"
+
+msgctxt "model:ir.action,name:act_event_calendar_allday"
+msgid "Events (all-day)"
+msgstr "Termine (ganztags)"
+
+msgctxt "model:ir.ui.menu,name:menu_eventlist"
+msgid "Events (list)"
+msgstr "Termine (Liste)"
+
+msgctxt "model:ir.action,name:act_event_form"
+msgid "Events (list)"
+msgstr "Termine (Liste)"
+
+msgctxt "error:pim_calendar.event:"
+msgid "The end must be after the beginning."
+msgstr "Das Ende muß nach dem Beginn sein."
+
+msgctxt "error:pim_calendar.event:"
+msgid "The event '%s' has no valid end time and was not imported."
+msgstr "Der Termin '%s' hat keinen gültigen Endzeitpunkt und wurde nicht importiert."
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_form_7days"
+msgid "next 7 days"
+msgstr "nächste 7 Tage"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_form_30days"
+msgid "next 30 days"
+msgstr "nächste 30 Tage"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_form_future"
+msgid "future events"
+msgstr "zukünftige Termine"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_form_past"
+msgid "past events"
+msgstr "vergangene Termine"
+
+msgctxt "model:ir.action.act_window.domain,name:act_event_form_all"
+msgid "all"
+msgstr "alle"
+
+msgctxt "field:pim_calendar.event,wholeday:"
+msgid "Whole Day"
+msgstr "Ganzer Tag"
+
+msgctxt "field:pim_calendar.event,calendar:"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "help:pim_calendar.event,calendar:"
+msgid "Calendar to which the event belongs"
+msgstr "Kalender, zu welchem der Termin gehört"
+
+msgctxt "field:pim_calendar.event,name:"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "field:pim_calendar.event,location:"
+msgid "Location"
+msgstr "Ort"
+
+msgctxt "field:pim_calendar.event,note:"
+msgid "Note"
+msgstr "Notiz"
+
+msgctxt "field:pim_calendar.event,startpos:"
+msgid "Begin"
+msgstr "Beginn"
+
+msgctxt "field:pim_calendar.event,endpos:"
+msgid "End"
+msgstr "Ende"
+
+msgctxt "field:pim_calendar.event,permchange:"
+msgid "Permission: Change"
+msgstr "Berechtigung: Ändern"
+
+msgctxt "help:pim_calendar.event,permchange:"
+msgid "Permission: change - for current user"
+msgstr "Berechtigung: Ändern - für den aktuellen Nutzer"
+
+msgctxt "field:pim_calendar.event,permcreate:"
+msgid "Permission: Create"
+msgstr "Berechtigung: Erstellen"
+
+msgctxt "help:pim_calendar.event,permcreate:"
+msgid "Permission: create - for current user"
+msgstr "Berechtigung: Erstellen - für den aktuellen Nutzer"
+
+msgctxt "field:pim_calendar.event,permdelete:"
+msgid "Permission: Delete"
+msgstr "Berechtigung: Löschen"
+
+msgctxt "help:pim_calendar.event,permdelete:"
+msgid "Permission: delete - for current user"
+msgstr "Berechtigung: Löschen - für den aktuellen Nutzer"
+
+
+#############
+# visitor   #
+#############
+msgctxt "model:ir.action,name:act_visitor_form"
+msgid "Visitor"
+msgstr "Besucher"
+
+msgctxt "view:pim_calendar.visitor:"
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+msgctxt "error:pim_calendar.visitor:"
+msgid "This visitor in already on this calendar."
+msgstr "Dieser Besucher ist bereits in diesem Kalender eingetragen."
+
+msgctxt "field:pim_calendar.visitor,calendar:"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "help:pim_calendar.visitor,calendar:"
+msgid "Calendar to which the visitor have permissions"
+msgstr "Kalender, zu welchem der Besucher Berechtigungen hat"
+
+msgctxt "field:pim_calendar.visitor,visitor:"
+msgid "Visitor"
+msgstr "Besucher"
+
+msgctxt "help:pim_calendar.visitor,visitor:"
+msgid "User, who can see or edit the calendar"
+msgstr "Benutzer, welcher den Kalender sehen oder ändern kann"
+
+msgctxt "field:pim_calendar.visitor,accchange:"
+msgid "Change"
+msgstr "Ändern"
+
+msgctxt "help:pim_calendar.visitor,accchange:"
+msgid "The user can change existing appointments."
+msgstr "Der Nutzer kann existierende Termine ändern."
+
+msgctxt "field:pim_calendar.visitor,acccreate:"
+msgid "Create"
+msgstr "Erstellen"
+
+msgctxt "help:pim_calendar.visitor,acccreate:"
+msgid "The user can create appointments."
+msgstr "Der Nutzer kann Termine erstellen."
+
+msgctxt "field:pim_calendar.visitor,accdelete:"
+msgid "Delete"
+msgstr "Löschen"
+
+msgctxt "help:pim_calendar.visitor,accdelete:"
+msgid "The user can delete appointments."
+msgstr "Der Nutzer kann Termine löschen."
+
+
+######################
+# wizard ics import  #
+######################
+msgctxt "model:ir.action,name:act_wiz_import_event"
+msgid "Import ICS-file"
+msgstr "ICS-Datei importieren"
+
+msgctxt "error:pim_calendar.wiz_import_event:"
+msgid "Please use the ics import with a calendar."
+msgstr "Bitte verwenden Sie den ics-Import mit einem Kalender."
+
+msgctxt "error:pim_calendar.wiz_import_event:"
+msgid "Please select (only) a calendar."
+msgstr "Bitte wählen Sie (nur) einen Kalender."
+
+msgctxt "error:pim_calendar.wiz_import_event:"
+msgid "Please select a file to import."
+msgstr "Bitte wählen Sie eine Datei für den Import."
+
+msgctxt "view:pim_calendar.wiz_import_event.start:"
+msgid "Select an ics file to import into the current calendar."
+msgstr "Wählen Sie eine ics-Datei für den Import in den aktuellen Kalender."
+
+msgctxt "wizard_button:pim_calendar.wiz_import_event,start,importevents:"
+msgid "Import"
+msgstr "Import"
+
+msgctxt "wizard_button:pim_calendar.wiz_import_event,start,end:"
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgctxt "field:pim_calendar.wiz_import_event.start,icsfile:"
+msgid "*.ics-File"
+msgstr "*.ics-Datei"
+
+msgctxt "help:pim_calendar.wiz_import_event.start,icsfile:"
+msgid "The iCalendar-records in this *.ics-file are imported into the current calendar."
+msgstr "Die iCalendar-Datensätze in dieser *.ics-Datei werden in den aktuellen Kalender importiert."
+
+msgctxt "field:pim_calendar.wiz_import_event.start,calendar:"
+msgid "Calendar"
+msgstr "Kalender"
+
+msgctxt "help:pim_calendar.wiz_import_event.start,calendar:"
+msgid "The events are imported into this calendar."
+msgstr "Die Termine werden in diesen Kalender importiert."
+
+
+###################
+# export calendar #
+###################
+msgctxt "model:ir.action,name:report_calendar"
+msgid "Export calendar"
+msgstr "Kalender exportieren"

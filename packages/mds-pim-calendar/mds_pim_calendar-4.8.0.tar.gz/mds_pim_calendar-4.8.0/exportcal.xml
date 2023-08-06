@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.action.report" id="report_calendar">
+            <field name="name">Export calendar</field>
+            <field name="model">pim_calendar.calendar</field>
+            <field name="report_name">pim_calendar.export_calendar</field>
+            <field name="report">pim_calendar/report/calendar.txt</field>
+            <field name="extension">txt</field>
+            <field name="template_extension">txt</field>
+        </record>
+        <record model="ir.action.keyword" id="report_calendar_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pim_calendar.calendar,-1</field>
+            <field name="action" ref="report_calendar"/>
+        </record>
+
+    </data>
+</tryton>
