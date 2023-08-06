@@ -1,0 +1,8 @@
+README.md
+setup.py
+sfo/__init__.py
+sfo/utils.py
+sfo.egg-info/PKG-INFO
+sfo.egg-info/SOURCES.txt
+sfo.egg-info/dependency_links.txt
+sfo.egg-info/top_level.txt
