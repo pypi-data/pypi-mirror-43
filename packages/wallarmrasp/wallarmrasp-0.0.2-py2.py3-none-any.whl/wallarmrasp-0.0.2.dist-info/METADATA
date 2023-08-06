@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: wallarmrasp
+Version: 0.0.2
+Summary: Wallarm RASP Python module
+Home-page: https://www.wallarm.com
+Author: Wallarm
+Author-email: support@wallarm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: msgpack
+
+# rasp-middleware-python
+
+Wallarm real time application security middleware (python module)
+
+
