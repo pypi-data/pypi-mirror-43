@@ -1,0 +1,7 @@
+ansi_colours
+
+[dev]
+check-manifest
+
+[test]
+coverage
