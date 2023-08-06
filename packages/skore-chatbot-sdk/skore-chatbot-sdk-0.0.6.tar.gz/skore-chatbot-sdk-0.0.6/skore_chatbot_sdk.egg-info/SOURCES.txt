@@ -1,0 +1,14 @@
+setup.py
+skore/__init__.py
+skore/authentication_service.py
+skore/recommendation_service.py
+skore/skore_knowledge_service.py
+skore/meya/__init__.py
+skore/meya/issue_tracker.py
+skore/meya/user.py
+skore_chatbot_sdk.egg-info/PKG-INFO
+skore_chatbot_sdk.egg-info/SOURCES.txt
+skore_chatbot_sdk.egg-info/dependency_links.txt
+skore_chatbot_sdk.egg-info/not-zip-safe
+skore_chatbot_sdk.egg-info/requires.txt
+skore_chatbot_sdk.egg-info/top_level.txt
