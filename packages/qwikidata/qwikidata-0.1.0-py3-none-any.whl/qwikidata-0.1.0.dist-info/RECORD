@@ -1,0 +1,13 @@
+qwikidata/__init__.py,sha256=l7pMezXYVk9BZcJrkPqnjyWqnaXdANoiM_PVwYuHKc8,130
+qwikidata/claim.py,sha256=th7I5jVNwrLIuDzGK2xRxFVYtRk3IQ18sBQEkjFihQs,9932
+qwikidata/datavalue.py,sha256=fit1NrPsSzc7txauq0t9ex4VQEerDKkhpzslr_q2NP0,12892
+qwikidata/entity.py,sha256=TPiNwUAf8nrRmEApElNgkPwFbRLgj-v5a8SLr6DSr5U,19748
+qwikidata/json_dump.py,sha256=vHPV_i750zxb_aK5KHshZ3JRM6Ie60IPeGkUcSXGUpk,5783
+qwikidata/linked_data_interface.py,sha256=9sDbroduOebPMdPF5SIFNZkHWrCQvj_R8z7GBeNQCJg,2561
+qwikidata/snak.py,sha256=cDT7PHwHjIByS8GBCWXWgPnWwYb-GJbXlwWta7EShkI,4280
+qwikidata/sparql.py,sha256=w1hW0dp8o9OIwE54axVbH_hacHv-bgFod2iAtG6VA2I,2499
+qwikidata/types.py,sha256=--BXGhax_3Oo6XXVEqTQK1iav6UNTFhhdgJ0vTpoZTs,6314
+qwikidata-0.1.0.dist-info/METADATA,sha256=_sTRXEr0KHIejOlNbpfZ5_Nt9-WWwphOu-kU0tSztTY,2894
+qwikidata-0.1.0.dist-info/RECORD,,
+qwikidata-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+qwikidata-0.1.0.dist-info/top_level.txt,sha256=GY3834Qs6cS0RLrblQ-BteJfA4lTDht-sngVHo7Hit8,10
