@@ -1,0 +1,7 @@
+README.rst
+setup.py
+lugger/__init__.py
+lugger.egg-info/PKG-INFO
+lugger.egg-info/SOURCES.txt
+lugger.egg-info/dependency_links.txt
+lugger.egg-info/top_level.txt
