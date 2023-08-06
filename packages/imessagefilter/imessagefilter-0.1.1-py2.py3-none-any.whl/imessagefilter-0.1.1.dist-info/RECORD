@@ -1,0 +1,10 @@
+imessagefilter/LICENSE,sha256=iSW-Tw-5A1cf1cPc9tmcNxQJqQFsJ5xQO7TDxVIzrPo,1062
+imessagefilter/__init__.py,sha256=OOeIotwQL9g0I0uy-rLP9Y8pUPtdLPyQcb85IdaS8Os,684
+imessagefilter/msgfilter.c,sha256=yrfZUXXfAFcVHjd9H-CkYTDaVYfPzUacXYSijtUO2EI,3756
+imessagefilter/msgfilter.dll,sha256=y6A5nTxs-MIbdvt22kOZA_acXikJvmNJOzhVXX4TT3w,56672
+imessagefilter-0.1.1.dist-info/DESCRIPTION.rst,sha256=9ePDCLjXDaVhOz-9KxVQneEHmYH2O67IQryrEsb6ZU8,2021
+imessagefilter-0.1.1.dist-info/METADATA,sha256=eEAIW76S9PNTsHYaRSFvArcouNn_JZ_DT8iCEADwfPk,2607
+imessagefilter-0.1.1.dist-info/RECORD,,
+imessagefilter-0.1.1.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+imessagefilter-0.1.1.dist-info/metadata.json,sha256=cZyhGWuZPAPxcOPV9eCAeYBPSApBjCXkdwk-vHGxUXA,723
+imessagefilter-0.1.1.dist-info/top_level.txt,sha256=1KpicPTP9gl0YPDs0oMoKJci-9IBqtJlN-liieebzIE,15
