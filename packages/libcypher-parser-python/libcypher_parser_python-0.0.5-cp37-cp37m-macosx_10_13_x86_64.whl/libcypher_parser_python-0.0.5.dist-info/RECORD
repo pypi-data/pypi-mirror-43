@@ -1,0 +1,10 @@
+libcypher_parser/__init__.py,sha256=cNyqSegBaNBxJBW-XMvaQb8htObQkuCZEcce4m4pPP0,271
+libcypher_parser/parser.c,sha256=RLpPMaq9klIq00hQIWi5yVA1eWfwoO8AttcJy7YSejE,157415
+libcypher_parser/parser.cpython-37m-darwin.so,sha256=zPr-ENBeD6wzGK3Rfnpf_h2WWFaNZZOQ4WPlMI5QCYM,39164
+libcypher_parser/parser.pxd,sha256=EbA-8fuZ25UlbXGIoxCa3jHZPc2E2xUVrEZFwlA9dWw,1863
+libcypher_parser/parser.pyx,sha256=7fXcNHoX8mxzMXOIPZQ131Ht0pX7xYAzPRC54NL60uw,1955
+libcypher_parser_python-0.0.5.dist-info/LICENSE,sha256=XCcuIGZpt57iD6ifqPqIjVtWGG8WxVpWFHU600EuKuk,9585
+libcypher_parser_python-0.0.5.dist-info/METADATA,sha256=WW6O3F4kx-TTfWM1tZOOtXNmRBxDsAQHw-O0PGGiHfo,761
+libcypher_parser_python-0.0.5.dist-info/WHEEL,sha256=RRvoBjGSBWGSvOG2Ydig-4Us3kL0igx7zdRekTD06oU,111
+libcypher_parser_python-0.0.5.dist-info/top_level.txt,sha256=4xfG2tpv5h6wegXcKp0t01m-JzgT5JgYFNhstmeL9AM,17
+libcypher_parser_python-0.0.5.dist-info/RECORD,,
