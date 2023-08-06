@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: junto-utils
+Version: 0.0.4
+Summary: Utils for Junto projects
+Home-page: https://github.com/junto-team/JuntoUtils
+Author: Timofey Katalnikov
+Author-email: kattimofey@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# Junto Utils
+
+
