@@ -1,0 +1,14 @@
+README.rst
+setup.py
+python_vasp.egg-info/PKG-INFO
+python_vasp.egg-info/SOURCES.txt
+python_vasp.egg-info/dependency_links.txt
+python_vasp.egg-info/top_level.txt
+vasp/__init__.py
+vasp/utils.py
+vasp/parser/__init__.py
+vasp/parser/band_structure.py
+vasp/parser/chgcar.py
+vasp/parser/kpoint.py
+vasp/parser/poscar.py
+vasp/parser/regex.py
