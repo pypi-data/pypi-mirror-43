@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+kanboard/__init__.py
+kanboard/client.py
+kanboard/exceptions.py
+kanboard.egg-info/PKG-INFO
+kanboard.egg-info/SOURCES.txt
+kanboard.egg-info/dependency_links.txt
+kanboard.egg-info/top_level.txt
