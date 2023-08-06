@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odoo-la-borda
+Version: 0.0.1.2
+Summary: Odoo customizations for La Borda
+Home-page: UNKNOWN
+Author: Coopdevs
+License: GPL
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/odoo-la-borda.svg)](https://badge.fury.io/py/odoo-la-borda)
+
+# Odoo La Borda
+Odoo customizations for La Borda.
+
+
