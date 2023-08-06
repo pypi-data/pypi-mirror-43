@@ -1,0 +1,3 @@
+[console_scripts]
+send-notifications = hmr.scripts.send_notifications:main
+
