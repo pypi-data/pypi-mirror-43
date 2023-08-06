@@ -1,0 +1,3 @@
+include cortix/examples/input/*
+include cortix/tests/input/*
+recursive-include allauth *.xml
