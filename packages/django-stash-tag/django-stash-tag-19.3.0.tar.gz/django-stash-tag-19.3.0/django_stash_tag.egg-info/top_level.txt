@@ -1,0 +1,1 @@
+django_stash_tag
