@@ -1,0 +1,3 @@
+[console_scripts]
+ptct = ptct.cli:main
+
