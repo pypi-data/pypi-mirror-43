@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: kyc-sentinel-rest-client
+Version: 0.1.0
+Summary: A simple client for KYC Sentinel REST API.
+Home-page: https://bitbucket.org/edgar_im/kyc-sentinel-rest-client/
+Author: Edgar Ji
+Author-email: edgar.ji@insurancemarket.sg
+License: BSD License
+Description: =====
+        KYC Sentinel REST Client
+        =====
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Import im_api_clients.hyperledger.Client 
+        2. That's it 
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP

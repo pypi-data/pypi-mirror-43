@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+kyc_sentinel_rest_client/__init__.py
+kyc_sentinel_rest_client/client.py
+kyc_sentinel_rest_client/client_helper.py
+kyc_sentinel_rest_client/config.py
+kyc_sentinel_rest_client.egg-info/PKG-INFO
+kyc_sentinel_rest_client.egg-info/SOURCES.txt
+kyc_sentinel_rest_client.egg-info/dependency_links.txt
+kyc_sentinel_rest_client.egg-info/top_level.txt
