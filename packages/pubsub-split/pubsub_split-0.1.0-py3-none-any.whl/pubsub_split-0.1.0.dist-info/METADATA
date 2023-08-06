@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pubsub-split
+Version: 0.1.0
+Summary: GCP Pubsub requires messages to be less than a certain size. This library
+        splits collections of items to ensure that limit is not reached.
+Requires-Dist: google-cloud-pubsub
+
+        Note: Assumes users are commonly sending lists of items, rather than
+        large or complex python data types or dictionaries.
+Home-page: UNKNOWN
+Author: Jon Robison
+Author-email: narfman0@gmail.com
+License: LICENSE
+Description: UNKNOWN
+Keywords: pubsub split
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
