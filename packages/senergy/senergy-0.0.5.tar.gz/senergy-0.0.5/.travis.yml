@@ -1,0 +1,28 @@
+language: python
+python:
+  - "3.6"
+install:
+  - pip install -r requirements.txt
+  - python setup.py install
+  - pip freeze
+before_script:
+- git config --global user.email "sven.eggimann@gmail.com"
+- git config --global user.name "Sven Eggimann"
+script:
+- python -m pytest tests #- python setup.py test #- python -m pytest tests
+#script:
+#  - python -m pytest tests
+#after_success:
+#- if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
+#notifications:
+#  email: false
+deploy:
+  provider: pypi
+  user: eggimasv
+  password:
+    secure: zMg5CLkkHLl806Pw7b6TEbIrN+lOaDVi6BLH3ddffEOqCDgqZKn7S2A+AIHWF7f+MIZCEi1MlBMMbBdnuLx5B/RGgyj+VlTAEQFQKhFLf0Wez5xBVV3WwyBtz1jz00RSgN0s6TO4qpvYVoVDplVyojsPuiPPHn25ZXPex0SWviCfbkdcYw2JERIV0R3sGimBg2aQLFOdfgsNX+ojAbOXSpkn7I2WRcsXXwTjQy//cn8BG/cBrjlH46HAZPDQnD4D6pe9N8F258ifh0r+G3nbkXubJgcYuwxw+s2XfKi8Lygw7t/v4QaH1aXmLrGTu6blPbauzidVUfAPqWP2OX9EeTxWCB3HJugs4LKHUekMZM+JkBe5wEvnC06XcporG6a2eQwUxTJu+iW2pGAQfaWF6KZmOX//chVTuoNvd6WSeE63uQ4BCDMWa0hqHWLR1rje3pZzw1A9eYZVQunZzQAHPW9RA2eS7AtoL6xk2WZEaPS1qrXvut4mOsCxvLdauqFr9vPB4AD97T7vhK8YN8dlFWOwbmgZdKEgT3IiaPQwAo6aXYlLc4EFVA3AZXZW7thAGq2sqXKE3EvNrmxhOM6VT08pRzCKUyGjXjvMWl4xdjuYB47yAvm8ZTfEopNig4TFx0kgCHxZp2HRluIUP9ywESHr1FRRp/mHVKCEyPDlqMc=
+  on:
+    tags: true
+  skip_existing: true
+
+
