@@ -1,0 +1,17 @@
+[run]
+branch = True
+source = ktug_hanyang_pua
+
+[paths]
+source =
+	src/ktug_hanyang_pua
+	.tox/*/lib/python*/site-packages/ktug_hanyang_pua
+	.tox/pypy*/site-packages/ktug_hanyang_pua
+
+
+[html]
+directory = build/htmlcov
+
+
+[xml]
+output = build/coverage.xml
