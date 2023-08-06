@@ -1,0 +1,7 @@
+icalendar
+python-dateutil
+pyinotify
+PyGObject
+toml
+tzlocal
+xdg
