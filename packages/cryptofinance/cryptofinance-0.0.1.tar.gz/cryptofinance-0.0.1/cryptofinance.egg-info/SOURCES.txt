@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+cryptofinance/__init__.py
+cryptofinance/__main__.py
+cryptofinance.egg-info/PKG-INFO
+cryptofinance.egg-info/SOURCES.txt
+cryptofinance.egg-info/dependency_links.txt
+cryptofinance.egg-info/requires.txt
+cryptofinance.egg-info/top_level.txt
