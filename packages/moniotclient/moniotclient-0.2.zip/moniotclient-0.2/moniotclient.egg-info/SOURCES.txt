@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+moniotclient/IotMqttClient.py
+moniotclient/__init__.py
+moniotclient.egg-info/PKG-INFO
+moniotclient.egg-info/SOURCES.txt
+moniotclient.egg-info/dependency_links.txt
+moniotclient.egg-info/not-zip-safe
+moniotclient.egg-info/requires.txt
+moniotclient.egg-info/top_level.txt
