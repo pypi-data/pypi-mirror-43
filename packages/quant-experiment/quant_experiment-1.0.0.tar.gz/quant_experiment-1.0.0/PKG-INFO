@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quant_experiment
+Version: 1.0.0
+Summary: Python module to get stock and option information through Wed Scraping and Alpha Vantage API
+Home-page: https://github.com/liveoncecao/quant_experiment
+Author: Quentin Sun
+Author-email: qsun.career@gmail.com
+License: MIT
+Description: Make it easier for you to experiment with quantitative ideas.
+Keywords: stocks,market,options,pricing,quant,quotes,tickers,symbol
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
