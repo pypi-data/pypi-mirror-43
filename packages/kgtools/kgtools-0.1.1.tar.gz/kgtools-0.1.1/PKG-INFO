@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: kgtools
+Version: 0.1.1
+Summary: The tools for KG Team of Fudan SE LAB
+Home-page: https://github.com/FudanSELab/KG-Tools
+Author: Chong Wang
+Author-email: 18212010030@fudan.edu.cn
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
