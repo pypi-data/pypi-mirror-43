@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: mnlp
+Version: 0.1.1
+Summary: Mongolian Natural Language Processing Module.
+Home-page: http://github.com/byam/mnlp
+Author: Byambasuren Ganbaatar
+Author-email: byambaa.mng@gmail.com
+License: MIT
+Description: # mnlp
+        
+        MNLP: Mongolian Natural Language Processing.
+        
+        ## Install
+        
+        ```bash
+        pip install mnlp
+        ```
+        
+        ## Usage
+        
+        ### Example: Stopwords
+        
+        ```python
+        import mnlp
+        
+        print(mnlp.stopwords.words())
+        # >> ['нь', 'ч', 'л', 'ба']
+        ```
+        
+Keywords: nlp mongolian
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Text Processing :: Linguistic
