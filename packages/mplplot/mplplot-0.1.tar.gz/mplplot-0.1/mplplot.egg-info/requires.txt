@@ -1,0 +1,6 @@
+matplotlib
+numpy
+seaborn
+
+[network]
+networkx

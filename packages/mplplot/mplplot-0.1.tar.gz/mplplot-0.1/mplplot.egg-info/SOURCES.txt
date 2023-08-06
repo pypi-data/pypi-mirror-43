@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+mplplot/__init__.py
+mplplot/importer.py
+mplplot/main.py
+mplplot/meta.py
+mplplot/network.py
+mplplot/plots.py
+mplplot/polar.py
+mplplot/stacked_bar.py
+mplplot/util.py
+mplplot.egg-info/PKG-INFO
+mplplot.egg-info/SOURCES.txt
+mplplot.egg-info/dependency_links.txt
+mplplot.egg-info/requires.txt
+mplplot.egg-info/top_level.txt
