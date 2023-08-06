@@ -1,0 +1,13 @@
+pypi_oldest_requirements/__init__.py,sha256=fV04rrCku4cIzLoL80j_RbUJECYTsVYgdOLYin9zN_4,168
+pypi_oldest_requirements/cli.py,sha256=2ul23pdmZDaYd1EyfueM5oTH8VDU2XQddMeCXsEeexA,1107
+pypi_oldest_requirements/misc.py,sha256=T_JCRJYfuUnBBWkmM4RCr4oDtGlJrLrm-eqJsGNI9X8,248
+pypi_oldest_requirements/pypi.py,sha256=OCWBMEk9KNfUxbVZkeQv5t1EaxmVH1F74rvUGKezzbA,335
+pypi_oldest_requirements/req_parse.py,sha256=9wXfTqjAS2onsUEwLijqRn3N5VC5tjaiXf_9miRaA_g,5357
+pypi_oldest_requirements/req_write.py,sha256=hsFaf1k4Ml557hT6WPn2-qZ8hqtAV4rnezJc3IY9nF8,256
+pypi_oldest_requirements-2019.1.dist-info/AUTHORS.rst,sha256=GruV_swtur_qE-Eimf9zOWmaZssS673Ni4A6YzSvqEQ,156
+pypi_oldest_requirements-2019.1.dist-info/LICENSE,sha256=35iScZiOn1g40MnMTL0krhnVZjVbN4pjKZjO3ioSxlU,1506
+pypi_oldest_requirements-2019.1.dist-info/METADATA,sha256=YUVDR6P_mwN72cPm4SRj7VlSabGhq8D0AE1mps45rIo,1829
+pypi_oldest_requirements-2019.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+pypi_oldest_requirements-2019.1.dist-info/entry_points.txt,sha256=DgbjOtTbueXtRi1XJ5Q3imHlvlzx83C-VBjFvCYw5ts,93
+pypi_oldest_requirements-2019.1.dist-info/top_level.txt,sha256=797IAngPeu_RqHdp6FRg0-xc1iJn5BW8ql97_Melia0,25
+pypi_oldest_requirements-2019.1.dist-info/RECORD,,
