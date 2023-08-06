@@ -1,0 +1,5 @@
+setup.py
+kiwi_booking_plexus_chunker.egg-info/PKG-INFO
+kiwi_booking_plexus_chunker.egg-info/SOURCES.txt
+kiwi_booking_plexus_chunker.egg-info/dependency_links.txt
+kiwi_booking_plexus_chunker.egg-info/top_level.txt
