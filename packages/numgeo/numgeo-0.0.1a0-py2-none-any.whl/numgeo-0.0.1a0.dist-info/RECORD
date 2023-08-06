@@ -1,0 +1,15 @@
+numgeo/__init__.py,sha256=G1QBw9nwKhhJf6a5PDn81RGu6dR-Di4_riuSKWt3TWU,837
+numgeo/geom.py,sha256=Ntq8aejS0XxbwBZZMKUTOEbzQaRP6-UFe0OvF0e4mBk,98839
+numgeo/opt.py,sha256=2m8yPCPg_WZXZ3E8j_2yx6i2lbF03k1dmFOn9Oxprs0,1377
+numgeo/skel.py,sha256=902iO1EK1H0ZPGbpcIzRRUrh9lYi8vQFbMW6HPNnAYc,454369
+numgeo/util.py,sha256=sydcdGsnawQNyk2OpdKr61_sZkD0l80wWzNPl0ChgHQ,79362
+numgeo/vec_io.py,sha256=iwc0e9hyoWKo2uApkpWu6Rn7Iod25XgiFKIXRGhDdpE,171296
+numgeo/scripts/__init__.py,sha256=ywgABEfn-VoAzTC9vHuQF3sXZug53-rBGl3EQlpOF9M,843
+numgeo/scripts/skel/SkeletonScript.py,sha256=7j3BLNUiUbwUp5ZPuXsu9GJS0FbYApS7i3Zcm0LUWFE,48933
+numgeo/scripts/skel/__init__.py,sha256=5U0f8jeBOVKWoCjYr17L4U49ZZ1eWoSHq4ssbsirro4,868
+numgeo-0.0.1a0.data/scripts/SkeletonScript.py,sha256=7j3BLNUiUbwUp5ZPuXsu9GJS0FbYApS7i3Zcm0LUWFE,48933
+numgeo-0.0.1a0.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+numgeo-0.0.1a0.dist-info/METADATA,sha256=fQWXg0UGrb55YRaZiwsvYGpp9Qex618TBlc5W9xWjAY,4319
+numgeo-0.0.1a0.dist-info/WHEEL,sha256=66yg5r67RIT-GjSaJ3M-GBTsHX0QfofnyZ-5OqlTUU0,97
+numgeo-0.0.1a0.dist-info/top_level.txt,sha256=xuPI4Yy2Z-nhOFtAZWD04Xlc2eWIk7d5JpjPQZ_OLpI,7
+numgeo-0.0.1a0.dist-info/RECORD,,
