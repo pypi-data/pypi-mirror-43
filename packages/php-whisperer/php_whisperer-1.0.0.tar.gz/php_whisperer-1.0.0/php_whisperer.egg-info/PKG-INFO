@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: php-whisperer
+Version: 1.0.0
+Summary: Read and write php arrays with python
+Home-page: https://github.com/matthewnicol/php_whisperer
+Author: Matthew Nicol
+Author-email: matthew.b.nicol@gmail.com
+License: UNKNOWN
+Description: # php_whisperer
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
