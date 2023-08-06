@@ -1,0 +1,14 @@
+conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snipskit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snipskit/app_decorators.py,sha256=eSf2IMyrhXHjwVd15MxJTXrdnWjudQMBCk9kuvW4dXk,2342
+snipskit/apps.py,sha256=EkiVrPAEBPF1rF4ZleQNIcrPtpz6JSeiP07a862QgSc,3133
+snipskit/components.py,sha256=G93n6i-KGOIOYro_Hd5OtLAY2_SPQn_YJOPgXp1fF90,5933
+snipskit/config.py,sha256=8Sz0jNyMOgKx2YClDwaFxsJ0c86WsxYUSwi4wjTRUEU,8335
+snipskit/decorators.py,sha256=fqQ--h--mGWx2TeN5JyzxLd7ndcEXRWd46ZkaTBWn9E,2559
+snipskit/exceptions.py,sha256=i7ToVzU_KL8PxkLMIkxYryWquaazZV-FD0tujnShd5I,736
+snipskit/tools.py,sha256=UtQgxwLl9K-vtajmrWOHBnso7YQdY5UquZb1G1nlMWY,927
+snipskit-0.1.0.dist-info/LICENSE,sha256=bvqso2bvUnPhKTJxANPxidSI5jjPeWShIr-adrGj_PE,1072
+snipskit-0.1.0.dist-info/METADATA,sha256=mZATRdwKmt6KHy1P1tPxuRod-mPGzTt2VKdOS3J4PeY,800
+snipskit-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+snipskit-0.1.0.dist-info/top_level.txt,sha256=enh9eVAXGx2Js-pPfIfCaX8uj8ydsBFU_50GsvIT6bg,18
+snipskit-0.1.0.dist-info/RECORD,,
