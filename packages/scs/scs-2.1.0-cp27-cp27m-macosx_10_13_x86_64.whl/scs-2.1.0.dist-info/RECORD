@@ -1,0 +1,9 @@
+_scs_direct.so,sha256=u1L5yqS9grmcMYsWdyMtrRAbtuF8qYevVPBGt-l3ArU,101784
+_scs_indirect.so,sha256=mtMEJbDhfDTdDh_IjtF6W3qYnuD_9DiTB5UPOs6xmGM,73716
+scs/__init__.py,sha256=rod0IiKsoYUGMim6W2tS25bZBK_mJozdYDwJUUyzi-c,2117
+scs-2.1.0.dist-info/DESCRIPTION.rst,sha256=XW4thzHghI4rkm_9ZFbsoAhGIvMEW6Zk3O_7M8ldcyE,320
+scs-2.1.0.dist-info/METADATA,sha256=y1rmckhPDJ4oquFJMyAixsWJ1cKtmCF460NTkXMi4k8,635
+scs-2.1.0.dist-info/RECORD,,
+scs-2.1.0.dist-info/WHEEL,sha256=rlnrpEpmAeeNdGtVSp_6HTLyrf82lJsSY_VumqxCUfQ,111
+scs-2.1.0.dist-info/metadata.json,sha256=SEs0s2NADIOkLGVbBmSGH1CCBDFJdV0DyMVn8tmglto,530
+scs-2.1.0.dist-info/top_level.txt,sha256=cKNLoTCROnlt5KCBLcYerwEqZVfdpxXJnzOreVCfwao,30
