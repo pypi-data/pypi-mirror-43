@@ -1,0 +1,4 @@
+[console_scripts]
+uimg = utools.tools.image:opt
+urepo = utools:urepo
+
