@@ -1,0 +1,43 @@
+rules: rule+
+
+rule: CNAME DESC condor _IMPLIES RESULT
+
+DESC: /:[^\r\n]*/
+
+_IMPLIES: /(=>)|⇒/
+
+RESULT: /match|mismatch|unknown/
+
+condor: condor "or" condand
+| condand
+
+condand: condand "and" cond
+| cond
+
+cond: variable
+| variable opcomp value
+| opnot cond
+| "(" condor ")"
+
+variable: CNAME "." CNAME
+
+opcomp: "="  -> opeq
+| "=="       -> opeq
+| "<"        -> oplt
+| ">"        -> opgt
+| "<="       -> ople
+| ">="       -> opge
+
+opnot: "not"
+
+value: SIGNED_NUMBER
+
+COMMENT: /#.*/
+
+%import common.WS
+%import common.NEWLINE
+%import common.SIGNED_NUMBER
+%import common.CNAME
+
+%ignore WS
+%ignore COMMENT
