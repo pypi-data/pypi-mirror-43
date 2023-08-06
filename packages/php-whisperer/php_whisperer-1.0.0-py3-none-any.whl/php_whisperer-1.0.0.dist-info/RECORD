@@ -1,0 +1,9 @@
+php_code/__init__.py,sha256=N_BbtI5x71Y7tqPoY7sDJZonvdp-TnIQ0_6M58PLdL4,39
+php_code/_php_parser.py,sha256=FuVPswMVpAYyKBO1xwL9xP6jz30ym8jYz1YXgkUV_CM,564
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_read_php.py,sha256=us3gOLG2NZx55R4t2bF57fGIovLIfq2jsv8CdJyoWY4,543
+php_whisperer-1.0.0.dist-info/LICENSE,sha256=kMpRE9fennK-OMiJmXhKeiqDid3kQuRUEpnL7q4S5UI,1070
+php_whisperer-1.0.0.dist-info/METADATA,sha256=3OSf7R2fKtqi8pcIjN-LomE1KA059OIk3Z9lXvjoTu0,463
+php_whisperer-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+php_whisperer-1.0.0.dist-info/top_level.txt,sha256=C_0B7VcexIpT53w2rnjwDR-3WrKpfCmdzY3wMiTDLf8,15
+php_whisperer-1.0.0.dist-info/RECORD,,
