@@ -1,0 +1,150 @@
+#!/bin/env python3
+import argparse
+from gimmethat import app as prototype_app
+from gimmethat.users import add_cred, remove_cred, change_password, load_creds
+from gunicorn.app.base import BaseApplication
+from getpass import getpass
+import os
+import re
+FILESIZE_PATTERN = re.compile('([0-9]+(\.[0-9]+)?)(.?)')
+
+
+class StandaloneApplication(BaseApplication):
+    def __init__(self, app, options=None):
+        self.options = options or {}
+        self.application = app
+        super(StandaloneApplication, self).__init__()
+
+    def load(self):
+        return self.application
+
+    def load_config(self):
+        pass
+
+    def run(self, *args, **kwargs):
+        self.application.warn_user()
+        super(StandaloneApplication, self).run()
+
+
+if __name__ == '__main__':
+    main_parser = argparse.ArgumentParser(description='Upload server tool')
+    subparsers = main_parser.add_subparsers(help='What to do?', dest='branch')
+
+    run_parser = subparsers.add_parser('run', help='Runs server')
+    run_parser.add_argument('--port', '-p', type=int,
+                            help='Server port')
+    run_parser.add_argument('--title', '-t', type=str,
+                            help='Upload page\'s title')
+    run_parser.add_argument('--directory', '-d', type=str,
+                            help='Upload directory')
+    run_parser.add_argument('--max-size', '-M', type=str,
+                            help='Maximum upload size.')
+    run_parser.add_argument('--scan', action='store_true',
+                            help=('Scan uploaded files with clamav and '
+                                  'remove the infected ones'))
+    run_parser.add_argument('--notify', action='store_true',
+                            help='Show notifications via notify-osd')
+    run_parser.add_argument('--auth', action='store_true',
+                            help='Use username and password to authorization')
+
+    add_user_parser = subparsers.add_parser('add', help='Add a user')
+    add_user_parser.add_argument('username', type=str, help='User\'s name')
+
+    remove_user_parser = subparsers.add_parser('remove', help='Remove a user')
+    remove_user_parser.add_argument('username', type=str, help='User\'s name')
+
+    change_user_parser = subparsers.add_parser(
+        'change', help='Change a user\'s password')
+    change_user_parser.add_argument('username', type=str,
+                                    help='User\'s name')
+    show_users_parser = subparsers.add_parser('show', help='Show all users')
+
+    args = main_parser.parse_args()
+
+    if args.branch == 'run':
+        standalone = StandaloneApplication(prototype_app)
+
+        import logging
+        log = logging.getLogger(name='werkzeug')
+        log.setLevel(logging.INFO)
+
+        if args.max_size:
+            num, _, unit = FILESIZE_PATTERN.match(args.max_size).groups()
+            num = float(num)
+            if not unit:
+                pass
+            elif unit == 'K':
+                num = num * 1024
+            elif unit == 'M':
+                num = num * 1024 * 1024
+            elif unit == 'G':
+                num = num * 1024 * 1024 * 1024
+            else:
+                raise Exception('Unidentified unit \'{}\''.format(unit))
+
+            standalone.cfg.set('limit_request_line', int(num))
+            standalone.application.config['MAX_CONTENT_LENGTH'] = int(num)
+        if args.scan:
+            standalone.application.config['SCAN'] = args.scan
+        if args.title:
+            standalone.application.config['TITLE'] = args.title
+        if args.directory:
+            standalone.application.config['UPLOAD_DIR'] = os.path.expanduser(
+                args.directory)
+        standalone.cfg.set('bind', '0.0.0.0:5000')
+        if args.port:
+            standalone.cfg.set('bind', '0.0.0.0:' + str(args.port))
+            standalone.application.config['PORT'] = args.port
+        standalone.application.config['NOTIFY'] = args.notify
+        standalone.application.config['AUTHORIZATION'] = args.auth
+        standalone.cfg.set('loglevel', 'warning')
+        standalone.run()
+
+    elif args.branch == 'add':
+        try:
+            password = getpass()
+            if not password:
+                print('Password cannot be blank.')
+                result = False
+            else:
+                result = add_cred(args.username, password)
+
+        except KeyboardInterrupt:
+            print('User addition cancelled.')
+            result = False
+        if result:
+            print('User added.')
+        else:
+            print('User not added.')
+
+    elif args.branch == 'remove':
+        result = remove_cred(args.username)
+        if result:
+            print('User removed.')
+        else:
+            print('User not found.')
+
+    elif args.branch == 'show':
+        creds = load_creds()
+        if len(creds):
+            print('USERNAMES')
+            print('=========')
+            for u in creds:
+                print('-', u['username'])
+        else:
+            print('No users available. Use "gimme add" to add one.')
+
+    elif args.branch == 'change':
+        try:
+            password = getpass()
+            if not password:
+                print('Password cannot be blank.')
+                result = False
+            else:
+                result = change_password(args.username, password)
+        except KeyboardInterrupt:
+            result = False
+        if result:
+            print('Password is changed.')
+        else:
+            print('Password change failed.')
