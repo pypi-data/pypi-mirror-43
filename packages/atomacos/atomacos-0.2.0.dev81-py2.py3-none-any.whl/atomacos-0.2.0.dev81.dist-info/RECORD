@@ -1,0 +1,15 @@
+atomacos/AXCallbacks.py,sha256=xCa6Vn565_URxUIIswP3badYaUy0YgJaApDNlmo4nAA,1172
+atomacos/AXClasses.py,sha256=iJA6tkhjRLvR-l6BbWCCuP0EoBI0nE-CFQK48mrO8nw,46660
+atomacos/AXKeyCodeConstants.py,sha256=fd_fCPhEoLuuzV_wPplXGD_z1FhQp3FuonD7SUxch9A,4741
+atomacos/AXKeyboard.py,sha256=tErdoBuZUFpUibIkhQhqLATEVbhH9LFFmrMECW2mGJc,1843
+atomacos/Clipboard.py,sha256=1SQTJ4jN7Jd2QfFM6wpEhprR4PVHwUela7uAL3KA2sY,7124
+atomacos/Prefs.py,sha256=cEDb_n2QvxW0mHuGbvSHo2FD78uSF6O_G_ZyIusKGa0,3623
+atomacos/__init__.py,sha256=G4jqw7Vfb0R_ydHR3pdSXT8Mt0RgeyYvuE81ebMX7SY,998
+atomacos/a11y.py,sha256=1dRzV2SqPV7QdWNbagVNBSRuzxh2JOak7FhEyPIA4c4,12420
+atomacos/converter.py,sha256=io1byG5irvhGxY0hlMzhqH4hbOxWfi1P2lwjHFY4aKQ,2213
+atomacos/errors.py,sha256=1MPpYNXc6Ezc1Mv_ibbzfMXXCSqciFdjL0hMcWUClt0,1255
+atomacos/notification.py,sha256=DNp9bSjWVAgabNTpJ-zdFIqppRG2BPJ8PpO0y2aqZiA,3708
+atomacos-0.2.0.dev81.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+atomacos-0.2.0.dev81.dist-info/WHEEL,sha256=RFGpeSWy2MhnOH7MbIZmX9ZR0evWl2eJvsMO-yF-tDc,97
+atomacos-0.2.0.dev81.dist-info/METADATA,sha256=kUS7Q8hYOfVC7K6RCfTM0l3SjYEcEGFfGcLO2Gk0d5M,6583
+atomacos-0.2.0.dev81.dist-info/RECORD,,
