@@ -1,0 +1,4 @@
+[console_scripts]
+har2txt = pcaper.har2txt:main
+pcap2txt = pcaper.pcap2txt:main
+
