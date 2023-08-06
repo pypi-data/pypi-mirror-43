@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: alphaj-krxcralwer
+Version: 0.3.0
+Summary: A KRX Cralwer
+Home-page: https://bitbucket.org/jaeminyx/krxcrawler/src
+Author: Alpha J
+Author-email: jaeminyx@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+A KRX Cralwer
+
+
