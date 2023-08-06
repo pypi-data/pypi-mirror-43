@@ -1,0 +1,4 @@
+[console_scripts]
+nasa_date_to_iso = planetpy.utils:nasa_date_to_iso_command
+planetpy_indices = planetpy.pdstools.cli:greet
+
