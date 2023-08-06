@@ -1,0 +1,6 @@
+pandas
+xlwt
+xlrd
+numpy
+jsonpickle
+click
