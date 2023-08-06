@@ -1,0 +1,11 @@
+scoring/__init__.py,sha256=d6xwgK7NWIuE31iU5gvqsfltVCO4ASd7k-veu1gGnEc,234
+scoring/bivariate.py,sha256=OfI4tk1NqASn4Iwg2l7eZnvoeZ-uc-pZCNko3HWjG04,3328
+scoring/cleanning.py,sha256=YrjHRdUSkQL3ZFZZfOmd8jS56zZTB4IKYNmTJ0iw1c4,2605
+scoring/discretization.py,sha256=apaM5NDc_1rIjcbTxQcfuRAgGBXZMRkCMa2iVbIgJRQ,10031
+scoring/evaluation.py,sha256=AEeZvuR1w2zYthtP2uvlcZwnNKRwwtjSNT9QYcByP-c,2834
+scoring/scoring.py,sha256=orkCsgyeVgXPafcl3_8se1XVSk8yzVyFrGxovN3I740,1432
+scoring-0.0.4.dist-info/LICENSE,sha256=m96qOH_GQNl7Y3YX29Ki7CYkeqFTBWYyajDF1UivAp8,1068
+scoring-0.0.4.dist-info/METADATA,sha256=lQku8RhXL_UHVo_3mAZku7zphCBRUyDQ_isiljRvZtI,434
+scoring-0.0.4.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+scoring-0.0.4.dist-info/top_level.txt,sha256=pdYGlFQPcg_EWT8XW5fqhZs6cQfBt46pFNqFvxMQIec,8
+scoring-0.0.4.dist-info/RECORD,,
