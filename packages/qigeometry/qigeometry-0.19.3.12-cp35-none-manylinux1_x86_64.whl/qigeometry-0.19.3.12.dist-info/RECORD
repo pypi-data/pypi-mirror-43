@@ -1,0 +1,11 @@
+qigeometry/__init__.py,sha256=vbyIls1XjnaJAfZ9uF_UQGzdCNeeg9BihfLQcOP5aB0,1000
+qigeometry/version.py,sha256=6dDMasYTNHE9hV2X23DiYaNXMf664twUqBoqOpwORhk,68
+qigeometry/linux/libalmath.so,sha256=xqW1K5WTzO1XdyTL8QVGNeoaws2WujZcowXaykHTfwg,764984
+qigeometry/linux/libqigeometry.so,sha256=RszhNOYQO9CF35SUtir108PcnRp4aGfJkJUiJU0ObKM,460040
+qigeometry/linux/lib/libgeometry_module.so,sha256=bHj8KS7K_LE1yHB9Q2UB4qm_NdtChywqdt8ATIqerXw,595208
+qigeometry/linux/share/qi/module/geometry_module.mod,sha256=st3_n7dR9Y75QOgD4nJcJed-luRnmOMrSoGkUl0VO1I,4
+qigeometry-0.19.3.12.dist-info/LICENSE.txt,sha256=JzQA36qe9hGYgJxwt2LysExpjUZe8xvERreMYqVJjVo,36
+qigeometry-0.19.3.12.dist-info/METADATA,sha256=ucUoJtOTRdbh0h29dE3WKjDNqNoVqO1qXhGyMZ1EmzI,692
+qigeometry-0.19.3.12.dist-info/WHEEL,sha256=oRYIpiRHUSUAZJFZvUPwoY7mPlhx5Py0nnhdROglOFM,107
+qigeometry-0.19.3.12.dist-info/top_level.txt,sha256=GwWYuszGXAFFoqDfOWyHjXioGvQN9TH5d_-2g610HuY,11
+qigeometry-0.19.3.12.dist-info/RECORD,,
