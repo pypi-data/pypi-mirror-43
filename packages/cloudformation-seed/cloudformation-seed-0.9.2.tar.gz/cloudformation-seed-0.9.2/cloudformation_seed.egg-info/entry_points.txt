@@ -1,0 +1,3 @@
+[console_scripts]
+cloudformation-seed = deploy_stack:main
+
