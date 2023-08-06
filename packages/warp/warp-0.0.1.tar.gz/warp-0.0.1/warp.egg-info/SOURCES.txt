@@ -1,0 +1,5 @@
+setup.py
+warp.egg-info/PKG-INFO
+warp.egg-info/SOURCES.txt
+warp.egg-info/dependency_links.txt
+warp.egg-info/top_level.txt
