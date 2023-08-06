@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: data-class-detection
+Version: 0.0.6
+Summary: A library for data class detection
+Home-page: https://github.com/w2qiao
+Author: qiaowang
+Author-email: adawq0@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-serving-api
+Requires-Dist: antlr4-python3-runtime
+
+# data class detection
+
+TODO
+
