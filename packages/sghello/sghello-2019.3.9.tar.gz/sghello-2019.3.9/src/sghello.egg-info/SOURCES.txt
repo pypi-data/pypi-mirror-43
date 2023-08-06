@@ -1,0 +1,7 @@
+setup.py
+src/sghello/__init__.py
+src/sghello/hello.py
+src/sghello.egg-info/PKG-INFO
+src/sghello.egg-info/SOURCES.txt
+src/sghello.egg-info/dependency_links.txt
+src/sghello.egg-info/top_level.txt
