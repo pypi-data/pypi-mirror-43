@@ -1,0 +1,12 @@
+jptel/__init__.py,sha256=orsVWrBSHvPZ-MNKoLQ9bS-pXeDMPckyAP8GbzK30mY,118
+jptel/exception.py,sha256=xEh86EPeoUAN3s6foGZrdXHgngTDx_5SVM4mEMHn2RQ,141
+jptel/jptel.py,sha256=0PQGg-nOWya5y7GFPbl70XOM27svr83sdYOdnXJeP90,3163
+jptel/data/__init__.py,sha256=_JbMKXsj4qwACKeOipCB8s7XCJGm2Soub-dOe3fXIeU,696
+jptel/data/_generate_master_data.py,sha256=mq99dZVTBlZpL9Os0IPcadNzdrwMVIrYB1kKDa7aXk0,1920
+jptel/data/area_code.py,sha256=rYI3mGPpuV_HPSYnNv5QqxFvucSNnXXpcdp75Ce6Ff8,4719
+jptel/data/defined_code.py,sha256=Gy9hxfU-4bI9UpSka6VvYFGgIrS6gvExf3iE13DNFbM,564
+jptel-0.1.0.dist-info/LICENSE,sha256=RuLyWgtTzoPAQ2Pfe1sXBfZVQ68q4Kt2ToQ3bvb3hDQ,1064
+jptel-0.1.0.dist-info/METADATA,sha256=piHojNvdfstQsDIvbLBs9mYd67XzK6A2znXZH8nmZT0,1358
+jptel-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jptel-0.1.0.dist-info/top_level.txt,sha256=ChR73AIzF0v2mhHFXeh_kAc02UFBTLzbA_rmLPvQEJA,6
+jptel-0.1.0.dist-info/RECORD,,
