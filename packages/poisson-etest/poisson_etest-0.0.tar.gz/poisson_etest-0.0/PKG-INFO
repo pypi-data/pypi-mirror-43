@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: poisson_etest
+Version: 0.0
+Summary: A poisson e-test.
+Home-page: https://github.com/nolanbconaway/poisson-etest
+Author: Nolan Conaway
+Author-email: nolanbconaway@gmail.com
+License: UNKNOWN
+Description: 
+        A numpy binding for the Poisson E-Test, described in this paper:
+        
+        http://www.ucs.louisiana.edu/~kxk4695/JSPI-04.pdf
+        
+        I basically just minimally edited the original fortran code so that numpy f2py
+        could pick it up. The original code can be found in an early commit to this repo
+        or via this link:
+        
+        http://www.ucs.louisiana.edu/~kxk4695/statcalc/pois2pval.for
+        
+Keywords: poisson,hypothesis testing,statistics
+Platform: UNKNOWN
