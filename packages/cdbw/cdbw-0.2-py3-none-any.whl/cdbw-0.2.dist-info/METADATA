@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: cdbw
+Version: 0.2
+Summary: Compute the CDbw validity index
+Home-page: https://github.com/alashkov83/CDbw
+Author: Sergey Rubinsky, Alexander Lashkov, Polina Eistrikh-Heller
+Author-email: alashkov83@gmail.com
+Maintainer: Alexander Lashkov
+License: MIT License
+Keywords: clustering,cluster analysis,cluster validation
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy (>=1.14.2)
+
+# CDbw
+Compute the S_Dbw validity index  
+S_Dbw validity index is defined by equation:
+##### CDbw = compactness\*cohesion*separation
+**Highest value -> better clustering.**
+______________________________________________
+
+#### Installation:
+
+```shell
+pip install --upgrade cdbw
+```
+
+### Usage:
+
+```python
+from cdbw import CDbw
+score = CDbw(X, labels, metric="euclidean", alg_noise='comb', 
+     intra_dens_inf=False, s=3, multipliers=False)
+
+```
+
+### Parameters:
+    X : array-like, shape (n_samples, n_features)
+        List of n_features-dimensional data points. Each row corresponds
+        to a single data point.
+    labels : array-like, shape (n_samples,)
+        Predicted labels for each sample.  (-1 - for noise)
+    metric : str,
+        The distance metric, can be ‘braycurtis’, ‘canberra’, ‘chebyshev’, ‘cityblock’, ‘correlation’,
+        ‘cosine’, ‘dice’, ‘euclidean’, ‘hamming’, ‘jaccard’, ‘kulsinski’, ‘mahalanobis’, ‘matching’, ‘minkowski’,
+        ‘rogerstanimoto’, ‘russellrao’, ‘seuclidean’, ‘sokalmichener’, ‘sokalsneath’, ‘sqeuclidean’, ‘wminkowski’,
+        ‘yule’.
+    alg_noise : str,
+        Algorithm for recording noise points.
+        'comb' - combining all noise points into one cluster (default)
+        'sep' - definition of each noise point as a separate cluster
+        'bind' -  binding of each noise point to the cluster nearest from it
+        'filter' - filtering noise points
+    intra_dens_inf : bool,
+        If False (default) CDbw index = 0 for cohesion or compactness - inf or nan.
+    s : int,
+        Number of art representative points. (>2)
+    multipliers : bool,
+        Format of output. False (default) - only CDbw index, True - tuple (compactness, cohesion, separation, CDbw)
+
+### Returns:
+    cdbw : float,
+        The resulting CDbw validity index.
+
+References:
+-----------
+1. M. Halkidi and M. Vazirgiannis, “A density-based cluster validity approach using multi-representatives”
+        Pattern Recognition Letters 29 (2008) 773–786.
+
+
