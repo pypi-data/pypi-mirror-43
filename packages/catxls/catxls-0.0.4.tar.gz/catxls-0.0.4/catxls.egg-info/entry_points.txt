@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    catxls=app.scripts.catxlsx:_main
+    
