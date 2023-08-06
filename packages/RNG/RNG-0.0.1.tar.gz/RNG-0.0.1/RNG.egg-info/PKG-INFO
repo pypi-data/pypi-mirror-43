@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: RNG
+Version: 0.0.1
+Summary: Random Number Generators
+Home-page: https://sharpdesigndigital.com
+Author: Broken aka Robert Sharp
+Author-email: webmaster@sharpdesigndigital.com
+License: Free for non-commercial use
+Description: Comming Soon
+Keywords: RNG
+Platform: Darwin
+Platform: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C++
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: Cython
+Requires-Python: >=3.7
