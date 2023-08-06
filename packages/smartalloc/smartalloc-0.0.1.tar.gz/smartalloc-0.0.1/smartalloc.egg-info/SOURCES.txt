@@ -1,0 +1,8 @@
+README.md
+setup.py
+smartalloc/__init__.py
+smartalloc.egg-info/PKG-INFO
+smartalloc.egg-info/SOURCES.txt
+smartalloc.egg-info/dependency_links.txt
+smartalloc.egg-info/requires.txt
+smartalloc.egg-info/top_level.txt
