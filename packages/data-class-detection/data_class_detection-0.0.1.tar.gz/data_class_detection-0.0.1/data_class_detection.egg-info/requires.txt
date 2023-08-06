@@ -1,0 +1,6 @@
+grpcio
+numpy
+tensorflow
+tensorflow-serving-api
+pickle
+json
