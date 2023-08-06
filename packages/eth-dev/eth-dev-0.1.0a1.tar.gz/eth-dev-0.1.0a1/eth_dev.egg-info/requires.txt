@@ -1,0 +1,9 @@
+eth-account<0.4.0,>=0.2.1
+web3==5.0.0a3
+IPython
+
+[dev]
+bumpversion
+flake8==3.4.1
+setuptools>=36.2.0
+twine
