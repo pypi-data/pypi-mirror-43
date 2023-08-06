@@ -1,0 +1,11 @@
+django_json_ld/__init__.py,sha256=W18Pr_n-y1UC8cuhMPUwneKXOP0IAAr6XTAb4p_eo0I,50
+django_json_ld/settings.py,sha256=6uIyxzVvTCuzv3arv9HRUmwlx3EsAPbQJRS3ROA7Xu4,939
+django_json_ld/util.py,sha256=YofOFxcyz3-r4l48D8h1tnGv2LkmPFAvIqhSh2kK2wo,764
+django_json_ld/views.py,sha256=wYK53nmrPlDX09VX0OkAffVXCOnWsDvTIHLM3_6B8Oc,3897
+django_json_ld/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_json_ld/templatetags/json_ld.py,sha256=vOaxodCNrhw69A1Hehet0ElyoVAi4NwPzyNn_XN2oeA,1437
+django_json_ld-0.0.4.dist-info/LICENSE,sha256=UKgrDBxtZnm5Lbc6VjpPDVIseQUvaRFQek604Exi1W0,1069
+django_json_ld-0.0.4.dist-info/METADATA,sha256=LsB5aWRb-Xp5NV9jt6t48di0BCIOxceQ59zgpheB-OY,5242
+django_json_ld-0.0.4.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+django_json_ld-0.0.4.dist-info/top_level.txt,sha256=wLYV3YwU62GF_seaMgdI953iavi0u0-51WMZ2cHY6Z4,15
+django_json_ld-0.0.4.dist-info/RECORD,,
