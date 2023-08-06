@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: TorchCRF
+Version: 1.0.0
+Summary: Implementation of Conditional Random Fields in pytorch
+Home-page: https://github.com/s14t284/TorchCRF
+Author: Ryuya Ikeda
+Author-email: rikeda71@gmail.com
+License: MIT License
+
+Copyright (c) 2018 Ryuya Ikeda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Description: # Torch CRF
+        
+        Implementation of CRF (Conditional Random Fields) in PyTorch 1.0
+        
+        ## Requirements
+        
+        - python3 (>=3.6)
+        - PyTorch 1.0
+        
+        ## Installation
+        
+            $ pip install TorchCRF
+        
+        ## Usage
+        
+        ```python
+        >>> import torch
+        >>> from TorchCRF import CRF
+        >>> batch_size = 2
+        >>> sequence_size = 3
+        >>> num_labels = 5
+        >>> mask = torch.FloatTensor([[1, 1, 1], [1, 1, 0]]) # (batch_size. sequence_size)
+        >>> labels = torch.LongTensor([[0, 2, 3], [1, 4, 1]])  # (batch_size, sequence_size)
+        >>> hidden = torch.randn((batch_size, sequence_size, num_labels), requires_grad=True)
+        >>> crf = CRF(num_labels)
+        ```
+        
+        ### Computing log-likelihood (used where forward)
+        
+        ```python
+        >>> crf.forward(hidden, labels, mask)
+        tensor([-7.6204, -3.6124], grad_fn=<ThSubBackward>)
+        ```
+        
+        ### Decoding (predict labels of sequences)
+        
+        ```python
+        >>> crf.viterbi_decode(hidden, mask)
+        [[0, 2, 2], [4, 0]]
+        ```
+        
+        ## License
+        
+        MIT
+        
+        ## References
+        
+        - [threelittlemonkeys/lstm-crf-pytorch](https://github.com/threelittlemonkeys/lstm-crf-pytorch)
+        - [kmkurn/pytorch-crf](https://github.com/kmkurn/pytorch-crf)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
