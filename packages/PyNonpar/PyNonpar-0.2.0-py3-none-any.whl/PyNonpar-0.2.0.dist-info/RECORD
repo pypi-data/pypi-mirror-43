@@ -1,0 +1,11 @@
+PyNonpar/__init__.py,sha256=2G-9foIRkyV65RLtbOLDxIyIMPJ3LoG4tFVbOZmOhvY,209
+PyNonpar/hettmansperger.py,sha256=93oMgiy_luQGVwDmJjX7EM1JT7qQquqO00s1RXJPaFw,3257
+PyNonpar/multisample.py,sha256=yh4SG1nO79V71RD-2DFJzg4fv_iY5G7NxLxC55jMdp0,4976
+PyNonpar/pseudorank.py,sha256=Bjs5jZDilxTG9X76HV7YE72waMuQXDpBNWywp6uqEF8,4887
+PyNonpar/repeated_measures.py,sha256=POM90Zb03OgrC1XOncReJIWQqgrvrYQnFkYcoO2NU7E,3267
+PyNonpar/twosample.py,sha256=hBbRsz460CWLgle7fZurWVZ9fsvapwzIhtUv5jsb4PU,11896
+PyNonpar/twosample_paired.py,sha256=06FS2gYqYNB5jYwtLTw1F45ZBq2yc0t5tvpZJofnj4w,4734
+PyNonpar-0.2.0.dist-info/METADATA,sha256=mSrKYIU4o3E7qwv0doEl4FhBZM-Lgv7ax_ZlK_PVgsw,8831
+PyNonpar-0.2.0.dist-info/RECORD,,
+PyNonpar-0.2.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+PyNonpar-0.2.0.dist-info/top_level.txt,sha256=O-Jm_-1zeVLhO1-arEuFKJRxq3zx54cFtCwNbWFtTxk,9
