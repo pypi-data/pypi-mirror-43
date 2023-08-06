@@ -1,0 +1,159 @@
+README.md
+setup.py
+PyOKNN/__init__.py
+PyOKNN/core.py
+PyOKNN.egg-info/PKG-INFO
+PyOKNN.egg-info/SOURCES.txt
+PyOKNN.egg-info/dependency_links.txt
+PyOKNN.egg-info/requires.txt
+PyOKNN.egg-info/top_level.txt
+PyOKNN/data/COLUMBUS/columbus.dbf
+PyOKNN/data/COLUMBUS/columbus.html
+PyOKNN/data/COLUMBUS/columbus.png
+PyOKNN/data/COLUMBUS/columbus.shp
+PyOKNN/data/COLUMBUS/columbus.shx
+PyOKNN/data/COLUMBUS/columbus.txt
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-BT(10).ckl
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-BT(100).ckl
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-BT(1000).ckl
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-BT(10000).ckl
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-BT(50).ckl
+PyOKNN/data/COLUMBUS.out/.szd/_ER{0}AR{0}MA{0}-JK.ckl
+PyOKNN/data/COLUMBUS.out/.szd/columbus_DMat_[full].ckl
+PyOKNN/data/COLUMBUS.out/.szd/columbus_SMat_[full].ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o0nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o10nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o11nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o12nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o12nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o13nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o14nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o15nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o16nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o17nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o18nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o19nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o1nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o1nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o20nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o21nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o22nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o22nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o23nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o24nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o25nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o26nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o27nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o28nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o29nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o2nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o2nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o30nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o31nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o32nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o33nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o34nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o35nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o36nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o37nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o38nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o39nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o3nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o3nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o40nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o41nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o42nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o43nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o44nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o45nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o46nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o47nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o47nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o48nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o4nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o4nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o5nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o5nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o6nn_matrix_as_arr.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o6nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o7nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o8nn_matrix_as_psw.ckl
+PyOKNN/data/COLUMBUS.out/.szd/w_o9nn_matrix_as_psw.ckl
+PyOKNN/examples/ER{0}AR{0}MA{0}[RESID][(P)ACF].png
+PyOKNN/examples/ER{0}AR{0}MA{0}[RESID][HULLS].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AIC][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AIC][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AIC][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AICg][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AICg][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][AICg][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BIC][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BIC][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BIC][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's B][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's B][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's B][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's Pr(gt.B)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's Pr(gt.B)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][BP's Pr(gt.B)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][HQC][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][HQC][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][HQC][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's K][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's K][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's K][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's Pr(gt.K)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's Pr(gt.K)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][KB's Pr(gt.K)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W) (pred)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W) (pred)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W) (pred)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's Pr(gt.W)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W (pred)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W (pred)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W (pred)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][Sh's W][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][llik][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][llik][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][llik][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2 (pred)][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2 (pred)][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2 (pred)][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[crt][pr^2][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta0][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta0][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta0][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{HOVAL}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{HOVAL}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{HOVAL}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{INC}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{INC}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][beta{INC}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{1}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{1}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{1}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{2}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{2}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{2}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{4}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{4}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][lambda{4}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2{ML}][dist].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2{ML}][meanconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}(10000)[par][sigma^2{ML}][stdconv].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}[RESID][(P)ACF].png
+PyOKNN/examples/ER{0}AR{0}MA{1,2,4}[RESID][HULLS].png
+PyOKNN/examples/ER{0}AR{1,2,4}MA{0}[RESID][(P)ACF].png
+PyOKNN/examples/ER{0}AR{1,2,4}MA{0}[RESID][HULLS].png
+PyOKNN/examples/ER{1,2,4}AR{0}MA{0}[RESID][(P)ACF].png
+PyOKNN/examples/ER{1,2,4}AR{0}MA{0}[RESID][HULLS].png
+PyOKNN/examples/example.py
