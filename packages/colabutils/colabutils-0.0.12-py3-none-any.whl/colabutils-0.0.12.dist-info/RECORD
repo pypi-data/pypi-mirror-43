@@ -1,0 +1,9 @@
+colabutils/__init__.py,sha256=qt230BN4ritgmlEEPTjeL2ry23HVr3o35ukb44svGGo,22
+colabutils/gcp.py,sha256=iR1msozPJngQMaUtwQj4Q2TdhaD8Np10-CIhBSllksA,385
+colabutils/gdrive.py,sha256=5TagAWkp7lQYCroaKFE62x5XtyGgiCSn_3ejOA5EtLw,1212
+colabutils/webcam.py,sha256=IfyLbtbbaJno7vOTM2iRZ6aaio3BwlQ2g_qx9FDaAiU,1826
+colabutils-0.0.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+colabutils-0.0.12.dist-info/METADATA,sha256=G2reqLIqS-Lam7rjg_HqR8Q8uNyn3cnSTAbuRScKcH8,40004
+colabutils-0.0.12.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+colabutils-0.0.12.dist-info/top_level.txt,sha256=A6sFE0klrPSBYTg9XHyE4l2-BeYzEH7IgadGH74A6CU,11
+colabutils-0.0.12.dist-info/RECORD,,
