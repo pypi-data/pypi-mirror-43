@@ -1,0 +1,3 @@
+[console_scripts]
+tapeterm = tapeterm.tapeterm:main
+

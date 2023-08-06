@@ -1,0 +1,13 @@
+README.md
+setup.py
+tapeterm/__init__.py
+tapeterm/config.py
+tapeterm/lib.py
+tapeterm/misc.py
+tapeterm/tapeterm.py
+tapeterm.egg-info/PKG-INFO
+tapeterm.egg-info/SOURCES.txt
+tapeterm.egg-info/dependency_links.txt
+tapeterm.egg-info/entry_points.txt
+tapeterm.egg-info/requires.txt
+tapeterm.egg-info/top_level.txt
