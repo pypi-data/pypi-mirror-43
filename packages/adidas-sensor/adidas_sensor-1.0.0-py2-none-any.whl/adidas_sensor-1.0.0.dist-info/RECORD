@@ -1,0 +1,10 @@
+adidasSensor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adidasSensor/__main__.py,sha256=YN1E6flHhFs8ghDAz_Svy-2SzqVjZJD5SAc7sRPxlOU,51981
+adidasSensor/boot.py,sha256=VDo3mbGOc8vLsR8kfPbavF2tEkqlQCKaPTyLZACJLeU,11825
+adidasSensor/init.py,sha256=RDgTHcJsrJOKQ7ujUAM1sw394xO62P72J8SIe8ywBFM,965
+adidasSensor/plot.py,sha256=XF5E_7iLut6mVZucQhu0r4Ea1Qlv5TjttTRieWL_Cms,906
+adidas_sensor-1.0.0.dist-info/METADATA,sha256=2gB9dazWwsQlLIZA3IlkC1BWrYClH95wE2d4NRTczzg,202
+adidas_sensor-1.0.0.dist-info/WHEEL,sha256=_eaHuBxOHdDlLnwQU30U16Q6vfvhsEhxIYEpcPcf8n0,92
+adidas_sensor-1.0.0.dist-info/entry_points.txt,sha256=Ba-JSwgaNtuW2E8hlAPAZsAC2PJ6vKueER-RN90osM8,62
+adidas_sensor-1.0.0.dist-info/top_level.txt,sha256=X_dCPr11cBSIL0AeyUdD1UAYU3-wYCHiCOGW4kzOA74,13
+adidas_sensor-1.0.0.dist-info/RECORD,,
