@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+django_log_viewer.egg-info/PKG-INFO
+django_log_viewer.egg-info/SOURCES.txt
+django_log_viewer.egg-info/dependency_links.txt
+django_log_viewer.egg-info/not-zip-safe
+django_log_viewer.egg-info/top_level.txt
+log_viewer/__init__.py
+log_viewer/settings.py
+log_viewer/urls.py
+log_viewer/utils.py
+log_viewer/views.py
