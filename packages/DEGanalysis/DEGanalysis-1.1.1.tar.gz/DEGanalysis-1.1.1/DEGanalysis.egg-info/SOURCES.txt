@@ -1,0 +1,16 @@
+setup.py
+DEGanalysis.egg-info/PKG-INFO
+DEGanalysis.egg-info/SOURCES.txt
+DEGanalysis.egg-info/dependency_links.txt
+DEGanalysis.egg-info/entry_points.txt
+DEGanalysis.egg-info/requires.txt
+DEGanalysis.egg-info/top_level.txt
+src/DEGanalysis.py
+src/__init__.py
+src/deg.py
+src/drawVeen.pl
+src/plot.py
+src/util.py
+src/veen_statistic.pl
+src/venn_stat_draw.pl
+src/version.py
