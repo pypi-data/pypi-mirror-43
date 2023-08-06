@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+bigmpi4py/__init__.py
+bigmpi4py/bigmpi4py.py
+bigmpi4py.egg-info/PKG-INFO
+bigmpi4py.egg-info/SOURCES.txt
+bigmpi4py.egg-info/dependency_links.txt
+bigmpi4py.egg-info/requires.txt
+bigmpi4py.egg-info/top_level.txt
+tests/test_runner.py
+tutorial/tutorial.ipynb

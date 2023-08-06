@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: bigmpi4py
+Version: 1.2.4
+Summary: BigMPI4py: Python module for parallelization of Big Data objects
+Home-page: https://gitlab.com/alexmascension/bigmpi4py
+Author: Alex M. Ascension
+Author-email: alexmascension@gmail.com
+License: LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Operating System :: OS Independent
