@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+asserts/__init__.py
+asserts/__init__.pyi
+asserts/py.typed
+asserts.egg-info/PKG-INFO
+asserts.egg-info/SOURCES.txt
+asserts.egg-info/dependency_links.txt
+asserts.egg-info/top_level.txt
