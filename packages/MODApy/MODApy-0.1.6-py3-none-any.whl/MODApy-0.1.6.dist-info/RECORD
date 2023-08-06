@@ -1,0 +1,16 @@
+MODApy/MODApy-Shiny.R,sha256=M770amocJc-c2S9IlAxAQkWIGE3rBAPLQTZCXPbBXIU,11218
+MODApy/__init__.py,sha256=kd0KekgcjjJUrSlU1ajwfDR-_KKM5bdOCGjuKpgb-Ik,97
+MODApy/cfg.py,sha256=KwFzVLvUUMnc_kOkHfR8f2-G00VZQsPwXweeuGodwVk,3805
+MODApy/cmd_line.py,sha256=tYNgRTmrYhrWLBPIOvJ3EzyonVcPuXbrhrzExtsd9DM,17144
+MODApy/config.ini,sha256=_pPYY3fQB1C6NXBZiwNQtCdkKrJl65eCvSPojvowgjI,909
+MODApy/downloader.py,sha256=gamAXOHIx1VWYjwz0ice6IKO50_K51r7fbiKhW7R42Q,4935
+MODApy/filemgr.py,sha256=WxoaC7ozfPaxmfRa7Udd_3ANd6Jj_xGn9HJh5Wr36Nc,7508
+MODApy/panelmdl.py,sha256=hg0jwI8Yt9u61NDdwYx2LjCz3NEXG7bCKr0PhJTI87k,607
+MODApy/pipeline.py,sha256=Lb4VtedLpzoko7HtQLzscz5IEpZFMgeAdtenZKJLcoE,9553
+MODApy/vcfmgr.py,sha256=3cXc7C59UB-kfjfMLNMG8f1Y460ZJh7L4X4TqDMSxMs,16044
+MODApy/version.py,sha256=gW5NUxwGdPsiQjn0cOuuQT11pfthByI5DITDg_HMhLQ,22
+MODApy-0.1.6.dist-info/METADATA,sha256=wJWqMyQ9Wzj-srwqy8sAdpHtjJvTJUJDWxpTNIAi8cQ,1133
+MODApy-0.1.6.dist-info/RECORD,,
+MODApy-0.1.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+MODApy-0.1.6.dist-info/entry_points.txt,sha256=HHlkwmwtQV5qXGLdBef1vna8Y5z96Y7jAPtD1g9_zYI,49
+MODApy-0.1.6.dist-info/top_level.txt,sha256=AMNHZBNDlqN4YjICah_PND3P2mEms0jevDD7tYB9D94,7
