@@ -1,0 +1,14 @@
+xxkcd/__init__.py,sha256=JLJB6pL4a4jmCCFshauRbA3YrQnY7KtKZYq1CoJlmnc,211
+xxkcd/_cache.py,sha256=KbjzOoffO59irKDTe0quOvh4q1qYCueljTB2AQl3jAo,2317224
+xxkcd/_html_parsing.py,sha256=60Doih4lKca4uWvJG-BW3UVo-pNWExID33Cs7tBgLwg,3659
+xxkcd/_util.py,sha256=dXvcgHydzcYy8Y7VzsaMBWESLSmt2iMXXM5qrGQdJVw,4389
+xxkcd/constants.py,sha256=plqRrRCNpmSdUCB4BI8qI3olG4bTsCGDkZ_alrGTNp0,1688
+xxkcd/metadata.py,sha256=H-AS-E-SYsrElRo4JFqcM_rGB0CcKnh189mq_ba0gNc,386
+xxkcd/what_if.py,sha256=wV1zWHsSxTUJD29gGbahipK3eZEcFc2bPrUY4mC1WiE,8444
+xxkcd/xkcd.py,sha256=BJdYCf0XnZzDmIesNBZcCOKiNYAOUwg6ZGo6zROtpfA,20435
+xxkcd-1.3.4.dist-info/DESCRIPTION.rst,sha256=zMkKkUzWxNMASWe7BC1vanZcpYUwu85ZL4yzirHnFeo,2013
+xxkcd-1.3.4.dist-info/METADATA,sha256=uRMBZb8H98VS1T1UPt7Yo-eXSXxR8urJQT2NLSLnln4,2869
+xxkcd-1.3.4.dist-info/RECORD,,
+xxkcd-1.3.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+xxkcd-1.3.4.dist-info/metadata.json,sha256=TWGOlMsxGTJJUQ5k5icg0eT3F9S8NXr9FFZCDza0YSQ,1035
+xxkcd-1.3.4.dist-info/top_level.txt,sha256=M-aYDPvegh1JfqWJdPxHtUNVJWJnZ28Nx-77YJZksxM,6
