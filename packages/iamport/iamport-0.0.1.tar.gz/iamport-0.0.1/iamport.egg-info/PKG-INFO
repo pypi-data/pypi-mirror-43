@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: iamport
+Version: 0.0.1
+Summary: Iamport payment client library
+Home-page: https://github.com/styleshare/iamport
+Author: styleshare
+Author-email: dev@styleshare.kr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
