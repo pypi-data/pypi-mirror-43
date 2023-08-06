@@ -1,0 +1,3 @@
+[console_scripts]
+tensorspacejs_converter = src.tsp_converters:main
+
