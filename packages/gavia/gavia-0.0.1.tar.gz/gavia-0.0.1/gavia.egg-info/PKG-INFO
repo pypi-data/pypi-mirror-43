@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: gavia
+Version: 0.0.1
+Summary:  Gavia is a Python package built for processing science data from the Gavia Autonomous Underwater Vehicle.
+Home-page: http://github.com/brett-hosking/gavia
+Author: brett hosking
+Author-email: wilski@noc.ac.uk
+License: MIT
+Description:  Gavia is a Python package built for processing science data from the Gavia Autonomous Underwater Vehicle.
+        
+Platform: UNKNOWN
