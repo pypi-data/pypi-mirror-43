@@ -1,0 +1,12 @@
+README.md
+setup.py
+py_snappy/__init__.py
+py_snappy/constants.py
+py_snappy/exceptions.py
+py_snappy/main.py
+py_snappy.egg-info/PKG-INFO
+py_snappy.egg-info/SOURCES.txt
+py_snappy.egg-info/dependency_links.txt
+py_snappy.egg-info/not-zip-safe
+py_snappy.egg-info/requires.txt
+py_snappy.egg-info/top_level.txt
