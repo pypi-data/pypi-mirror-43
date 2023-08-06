@@ -1,0 +1,7 @@
+Click
+awscli
+boto3
+requests
+google-cloud-speech
+audioread
+google-cloud-storage
