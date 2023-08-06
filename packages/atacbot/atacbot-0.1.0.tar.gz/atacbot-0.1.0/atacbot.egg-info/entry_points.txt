@@ -1,0 +1,3 @@
+[console_scripts]
+atacbot_run = atacbot.atacbot:start
+
