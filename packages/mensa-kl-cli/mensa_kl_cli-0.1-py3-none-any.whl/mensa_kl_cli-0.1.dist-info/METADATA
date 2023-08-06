@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mensa-kl-cli
+Version: 0.1
+Summary: UNKNOWN
+Home-page: http://github.com/FHeilmann/mensa-kl-cli
+Author: Florian Heilmann
+Author-email: Florian.Heilmann@gmx.net
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: Click (>=7.0)
+Requires-Dist: setuptools
+Requires-Dist: halo (>=0.0.23)
+Requires-Dist: colorama (>=0.3.9)
+Requires-Dist: beautifulsoup4 (>=4.7.1)
+
+# mensa-kl-cli
+Commandline interface for the Mensa at TUKL
+
+## Usage
+
+From a terminal after installation: `mensa-kl`
+
+## Command line switches
+
+`--week`
+
+Display full week
+
+`--today`
+
+Display only today
+
+`--vegetarian`
+
+Display only vegetarian options
+
+
