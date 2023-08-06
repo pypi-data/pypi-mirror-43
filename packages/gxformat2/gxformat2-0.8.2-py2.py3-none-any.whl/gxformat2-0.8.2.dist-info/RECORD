@@ -1,0 +1,13 @@
+gxformat2/__init__.py,sha256=PPvKc1iSRAeS3Tz26HUVHQ-Zx0mzvhlYHGIoxZo1hxs,690
+gxformat2/_yaml.py,sha256=KpOVbNM49_vQq8rOCXuGbzDEuRdKkl0f1gq8Dc8I6kE,1292
+gxformat2/converter.py,sha256=RLdh58eyVZornJaQur2xl4-Z3Zpzti466FpFvF4V80Y,23662
+gxformat2/export.py,sha256=UI3Rb6R1mhC914iwq5mxGse2x5zRePIgfnVkw5sxhW4,8723
+gxformat2/interface.py,sha256=P_zhvNjJmtdPeeNeAjo7DfkfCHWJosO91v9FnritWUI,2684
+gxformat2/main.py,sha256=MvL48I0nZa2PgFLDGuoN1P-xGLwOvgb9LHcwt2L_Wxg,2165
+gxformat2-0.8.2.dist-info/DESCRIPTION.rst,sha256=emQ4DEUIy1J07KwfuKFcGX4G3Q_lNfSPrYwPtimbtQk,3842
+gxformat2-0.8.2.dist-info/METADATA,sha256=IFR-wa4dvF06Epyz3Th8HtwLYBE4AoiajsQU_yviAt4,4803
+gxformat2-0.8.2.dist-info/RECORD,,
+gxformat2-0.8.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+gxformat2-0.8.2.dist-info/entry_points.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gxformat2-0.8.2.dist-info/metadata.json,sha256=D47PMbBQc786GO6ixEVznyJf8fSgL7EvbRaZABXWXQE,1117
+gxformat2-0.8.2.dist-info/top_level.txt,sha256=DEhYWrUyy0Ib7KLs1LNbFCoQwXK5nWoyq_G3hH_jSbo,10
