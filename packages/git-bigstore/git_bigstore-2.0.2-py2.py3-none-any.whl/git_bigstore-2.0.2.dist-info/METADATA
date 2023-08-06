@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: git-bigstore
+Version: 2.0.2
+Summary: Track big files with Git.
+Home-page: https://github.com/lionheart/git-bigstore
+Author: Dan Loewenherz
+Author-email: dan@lionheartsw.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Utilities
+Requires-Dist: future
+Requires-Dist: gitpython (<3)
+Requires-Dist: boto
+Requires-Dist: boto3
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: python-cloudfiles ; python_version <= "2.7"
+
+UNKNOWN
+
+

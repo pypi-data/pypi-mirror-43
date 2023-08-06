@@ -1,0 +1,15 @@
+bigstore/__init__.py,sha256=r0zU5A8NzldsEyqS1wY5c7C7AryZFgeDo5aCEV1qqq0,1148
+bigstore/bigstore.py,sha256=9K6XpFkL-XV0zBbNfDELDeoXe1vLQfAf1GhioXbrrkc,22711
+bigstore/metadata.py,sha256=I3OXFQnpSBkN5jp7KiI8h9aZkU2DepzTju0Ee_go8o4,798
+bigstore/backends/__init__.py,sha256=igrbcxQw5D4nnR2U-XrfVkTgPubaC5INYZRDtK6HPM8,780
+bigstore/backends/google.py,sha256=WTdzhpLDYut-MsIf_5k2A-cTkL6i94YhJVWLP0CrcYc,1390
+bigstore/backends/rackspace.py,sha256=B0286S19XP-OAioCtPfdVkDl2fbOyGL2y2Bb9a0vkcU,1469
+bigstore/backends/s3.py,sha256=pOvMCuXNm7KX6vqkpW42uLrL3MGm-vgOM2u-fcNxPxM,1846
+git_bigstore-2.0.2.data/scripts/git-bigstore,sha256=G2oymntUr7bwNq-ni_K1-3tW6DkgtUsyayRdM0Na-Cs,4276
+git_bigstore-2.0.2.dist-info/AUTHORS.md,sha256=YXiRK8c467KMv3O2p3dedBCMqFZkr_Xun3nOPRcqX2s,101
+git_bigstore-2.0.2.dist-info/LICENSE,sha256=mGBnO_2HFwXPHYTI0KAhHiBUMd9CX4Qvv7fqN2TCiEc,10176
+git_bigstore-2.0.2.dist-info/METADATA,sha256=OPpCjUSsMJDGswNZzdc-HFBxe9C0Ifx-cuNIwpkza3c,1111
+git_bigstore-2.0.2.dist-info/NOTICE,sha256=ZFmtXQDO1XlNXOiu6kZemV5wpO8mhS5LwTP8qlr7XI4,149
+git_bigstore-2.0.2.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+git_bigstore-2.0.2.dist-info/top_level.txt,sha256=gSxVeXqNUAuIVKBuBR92Dto02520UcSQ4BAApeG20hI,9
+git_bigstore-2.0.2.dist-info/RECORD,,
