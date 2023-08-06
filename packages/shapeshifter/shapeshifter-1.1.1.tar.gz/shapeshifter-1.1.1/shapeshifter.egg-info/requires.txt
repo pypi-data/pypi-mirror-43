@@ -1,0 +1,8 @@
+pandas
+pyarrow
+numpy==1.15.4
+sqlalchemy
+xlsxwriter
+tables
+xlrd
+nbformat
