@@ -1,0 +1,9 @@
+README.md
+setup.py
+sabotage/__init__.py
+sabotage/_disconnected_network.py
+sabotage.egg-info/PKG-INFO
+sabotage.egg-info/SOURCES.txt
+sabotage.egg-info/dependency_links.txt
+sabotage.egg-info/requires.txt
+sabotage.egg-info/top_level.txt
