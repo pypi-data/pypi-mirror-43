@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: example-pkg-your-ashok
+Version: 0.0.1
+Summary: A small example package
+Home-page: UNKNOWN
+Author: ashok
+Author-email: ashokb@prodexnet.com
+License: UNKNOWN
+Description: # Example Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown]()
+        to write your content.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

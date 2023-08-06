@@ -1,0 +1,7 @@
+README.md
+setup.py
+Newpy/__init__.py
+example_pkg_your_ashok.egg-info/PKG-INFO
+example_pkg_your_ashok.egg-info/SOURCES.txt
+example_pkg_your_ashok.egg-info/dependency_links.txt
+example_pkg_your_ashok.egg-info/top_level.txt
