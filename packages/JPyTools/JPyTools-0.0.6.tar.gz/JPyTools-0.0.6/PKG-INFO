@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: JPyTools
+Version: 0.0.6
+Summary: A small collection of fun functions
+Home-page: https://github.com/Jackkillian/JPyTools
+Author: Jack Freund
+Author-email: jackkillian.on.scratch@gmail.com
+License: UNKNOWN
+Description: # JPyTools
+        
+        DISCLAIMER: This is my first module, so I’m sorry if you don’t like it. | Sorry you can’t see the versions below 0.0.5. I had to change a bunch of stuff about the project. |
+        A little collection of functions. Don’t forget, this is only alpha, but when it is finished it will have a lot of functions! So stay up to date! Here’s the GitHub link: [JPyTools on GitHub](https://github.com/Jackkillian/JPyTools) And the command line code: ```pip install jpytools```. Also, check out [JPyLogger](https://github.com/Jackkillian/JPyLogger) - Jack Freund, author of JPyTools
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Development Status :: 2 - Pre-Alpha  
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Other/Nonlisted Topic
+Requires-Python: >=3
+Description-Content-Type: text/markdown
