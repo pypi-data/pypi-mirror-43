@@ -1,0 +1,8 @@
+libmorphio.so,sha256=hLF5rVzuLTcgF55TFI2KgNiATbnKnzO3sKkhXGTbXKA,5315800
+morphio.so,sha256=CNbME5PldyRT5j6jLb1flsSoB0Rf2WO5jGpNO8_bAi4,5922968
+MorphIO-2.0.7.dist-info/WHEEL,sha256=M5Ujap42zjfAFnpJOoFU72TFHuBKh-JF0Rqu5vZhkVE,110
+MorphIO-2.0.7.dist-info/top_level.txt,sha256=BzAG9hbvHB8LPMdmFQVdeNk0G6UfL-Nm7XuVcLmd0c8,8
+MorphIO-2.0.7.dist-info/METADATA,sha256=zAdO_-2uHxTV8jK8boNEWmjq5syWB6FB24jPjW9nmFI,396
+MorphIO-2.0.7.dist-info/RECORD,,
+.libsmorphio/libz-a147dcb0.so.1.2.3,sha256=1IGoOjRpujOMRn7cZ29ERtAxBt6SxTUlRLBkSqa_lsk,87848
+.libslibmorphio/libz-a147dcb0.so.1.2.3,sha256=1IGoOjRpujOMRn7cZ29ERtAxBt6SxTUlRLBkSqa_lsk,87848
