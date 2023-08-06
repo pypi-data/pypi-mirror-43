@@ -1,0 +1,8 @@
+pysimdjson-1.5.0.dist-info/METADATA,sha256=w6JbZT7JjjTjVrs1ms9tX9V45dOlZujtammdWMo1XlI,5908
+pysimdjson-1.5.0.dist-info/top_level.txt,sha256=T7l7dA-oP_yWttVpAyRoVM7c_mq_Tx0QPVx9oeeaWO4,9
+pysimdjson-1.5.0.dist-info/WHEEL,sha256=x7uUT1DITuOWfNQ5Z5nxxiCgay-5C46SfoISIjrweYE,109
+pysimdjson-1.5.0.dist-info/entry_points.txt,sha256=YC5uSp2fM2b8FX1GDaOieh4jEbidnplyKStNiOt9Vwc,67
+pysimdjson-1.5.0.dist-info/RECORD,,
+simdjson/__init__.py,sha256=HuJu0vNgAUmYa_HbpzjIuUyW2fU2dFe-Z8BRoUFdoR8,168
+simdjson/cli.py,sha256=-T39rx8ACw2REwoY69_EeXUiKYrbkR37wSL6PrgkrD8,398
+simdjson/csimdjson.cpython-34m.so,sha256=rUWblnFSSpRkXIRe2D2Z3D75gklGKATygmmofiik1V4,4018076

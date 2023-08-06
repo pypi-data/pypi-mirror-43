@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pysimdjson=simdjson.cli:cli
+    
