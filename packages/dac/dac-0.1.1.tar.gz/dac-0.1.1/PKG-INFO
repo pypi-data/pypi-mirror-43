@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dac
+Version: 0.1.1
+Summary: Atlantean's internal tool for Documentation (as Code)
+Home-page: https://bitbucket.org/atlantean-code/dac
+Author: Dan Sikes
+Author-email: dsikes@atlantean.io
+License: UNKNOWN
+Project-URL: Source, https://bitbucket.org/atlantean-code/dac
+Description: # DAC
+        Documentation as Code
+Keywords: documentation as code
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
