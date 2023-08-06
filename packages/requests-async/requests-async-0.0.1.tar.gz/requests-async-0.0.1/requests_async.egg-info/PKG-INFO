@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: requests-async
+Version: 0.0.1
+Summary: async-await support for `requests`.
+Home-page: https://github.com/encode/requests-async
+Author: Tom Christie
+Author-email: tom@tomchristie.com
+License: BSD
+Description: # requests-async
+        
+        Brings support for `async`/`await` syntax to Python's fabulous `requests` library.
+        
+        **This is just a first-pass right now.**
+        
+        Next set of things to deal with:
+        
+        * https support, and certificate checking.
+        * streaming support for uploads and downloads.
+        * connection pooling.
+        * async redirections.
+        * async cookie persistence, for on-disk cookie stores.
+        * make sure authentication works okay (does it use adapters, is the API broken there now?)
+        
+        Installation:
+        
+        ```shell
+        $ pip install requests-async
+        ```
+        
+        Usage:
+        
+        Just use the standard requests API, but use `await` for making requests.
+        
+        ```python
+        import requests_async as requests
+        
+        
+        response = await requests.get('http://example.org')
+        print(response.status_code)
+        print(response.text)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
