@@ -1,0 +1,15 @@
+click
+docker
+future-fstrings
+maya
+packaging
+tomlkit
+
+[doc]
+numpydoc
+sphinx
+sphinx-bootstrap-theme
+
+[testing]
+pytest
+pytest-cov
