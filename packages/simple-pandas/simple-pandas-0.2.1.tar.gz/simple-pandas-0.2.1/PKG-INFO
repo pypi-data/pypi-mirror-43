@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: simple-pandas
+Version: 0.2.1
+Summary: A much simpler pandas
+Home-page: https://github.com/zhuzilin/simple-pandas
+Author: zhuzilin
+Author-email: zhuzilinallen@gmail.com
+License: MIT
+Download-URL: https://github.com/zhuzilin/simple-pandas/archive/v0.2.0.tar.gz
+Description: UNKNOWN
+Keywords: pandas,data,data-science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
