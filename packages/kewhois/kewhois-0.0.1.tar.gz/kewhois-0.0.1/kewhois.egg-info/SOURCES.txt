@@ -1,0 +1,6 @@
+README.md
+setup.py
+kewhois.egg-info/PKG-INFO
+kewhois.egg-info/SOURCES.txt
+kewhois.egg-info/dependency_links.txt
+kewhois.egg-info/top_level.txt
