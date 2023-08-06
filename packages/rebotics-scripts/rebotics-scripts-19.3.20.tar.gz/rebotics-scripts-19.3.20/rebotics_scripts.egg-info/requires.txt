@@ -1,0 +1,12 @@
+click
+fake_useragent
+ffmpeg-python
+numpy
+ratelimit
+requests
+requests[socks]
+PySocks
+tqdm
+xlrd
+pandas
+six
