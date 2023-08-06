@@ -1,0 +1,3 @@
+[console_scripts]
+x-xml = x_xmlparse_src.cmd:main
+
