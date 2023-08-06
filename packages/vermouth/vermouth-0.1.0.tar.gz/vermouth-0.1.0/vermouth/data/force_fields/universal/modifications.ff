@@ -1,0 +1,62 @@
+[ modification ]
+C-ter
+[ atoms ]
+CA {"element": "C"}
+C {"element": "C"}
+O {"element": "O"}
+OXT {"element": "O", "PTM_atom": true, "replace": {"atomname": null}}
+[ edges ]
+CA C
+C O
+C OXT
+
+[ modification ]
+N-ter
+[ atoms ]
+CA {"element": "CA"}
+N {"element": "N"}
+HN {"element": "H"}
+H {"element": "H", "PTM_atom": true, "replace": {"atomname": null}}
+[ edges ]
+N CA
+N HN
+N H
+
+[ modification ]
+GLU-H
+[ atoms ]
+CD {"element": "C"}
+OE1 {"element": "O"}
+OE2 {"element": "O"}
+HE1 {"element": "H", "PTM_atom": true}
+[ edges ]
+CD OE1
+CD OE2
+OE1 HE1
+
+[ modification ]
+HSD
+[ atoms ]
+ND1 {"resname": "HIS", "element": "N"}
+HD1 {"resname": "HIS", "element": "H", "PTM_atom": true}
+[ edges ]
+ND1 HD1
+
+[ modification ]
+HSE
+[ atoms ]
+NE1 {"resname": "HIS", "element": "N"}
+HE1 {"resname": "HIS", "element": "H", "PTM_atom": true}
+[ edges ]
+NE1 HE1
+
+[ modification ]
+HSP
+[ atoms ]
+NE1 {"resname": "HIS", "element": "N"}
+HE1 {"resname": "HIS", "element": "H", "PTM_atom": true}
+ND1 {"resname": "HIS", "element": "N"}
+HD1 {"resname": "HIS", "element": "H", "PTM_atom": true}
+[ edges ]
+NE1 HE1
+ND1 HD1
