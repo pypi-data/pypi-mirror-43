@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fractals
+Version: 0.0.1
+Summary: A simple fractal generator
+Home-page: https://github.com/Fomys/Fractals
+Author: Fomys
+Author-email: fomys@gmx.us
+License: UNKNOWN
+Description: # Fractals
+        
+        Simple fractal generator
+        
+        # Installation
+        
+            pip install fractals
+           
+        # Usage
+        
+            from PIl import Image
+            import fractals
+            img = Image.new('RGB', (5000, 5000), (0, 0, 0))
+            figures = Figures(im=img)
+            figures.von_koch_curve_flake((2500, 2500), 2000,6)
+            img.save("test.bmp") 
+           
+        # Documentation
+        
+        Complete documentation can be found (here)[]
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

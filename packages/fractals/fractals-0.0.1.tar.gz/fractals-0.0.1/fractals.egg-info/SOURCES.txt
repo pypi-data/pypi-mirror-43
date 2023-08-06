@@ -1,0 +1,8 @@
+README.md
+setup.py
+fractals/__init__.py
+fractals/main.py
+fractals.egg-info/PKG-INFO
+fractals.egg-info/SOURCES.txt
+fractals.egg-info/dependency_links.txt
+fractals.egg-info/top_level.txt
