@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ssh-config
+Version: 0.0.3
+Summary: ssh client config manager
+Home-page: https://github.com/haginara/ssh_config
+Author: Jonghak Choi
+Author-email: haginara@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyparsing
+Requires-Dist: docopt
+
+SSH Config
+==========
+[![PyPI version](https://badge.fury.io/py/ssh-config.svg)](https://badge.fury.io/py/ssh-config)
+[![Build Status](https://travis-ci.org/haginara/ssh-config.svg?branch=master)](https://travis-ci.org/haginara/ssh-config)
+
+SSH client config file manager
+
+Usage
+-----
+```
+ssh_config.
+
+    Usage:
+        ssh_config.py [options] [COMMAND] [ARGS...]
+
+    Options:
+        -h --help           Show this screen.
+        -v --version        Show version.
+        -f --config FILE    Specify an ssh client file [default: ~/.ssh/config]
+
+    Commands:
+        ls          Show list of Hosts in client file
+        add         Add new Host configuration
+        rm          Remove exist Host configuration
+        version     Show version information
+```
+
