@@ -1,0 +1,15 @@
+odoo/addons/product_uom_extra_data/README.rst,sha256=2v7kgtWcENGji_cRqiqNzIhj2t08Np6WaG3Z18AT3xk,1395
+odoo/addons/product_uom_extra_data/__init__.py,sha256=pMXFqbe8YHkxE2tAaDVza8c8XsswWzmuC7BOPi81c0A,64
+odoo/addons/product_uom_extra_data/__manifest__.py,sha256=xxflrNpNV4zodubiLfXEwwwuNiANRy_QgaqgPHTzquw,668
+odoo/addons/product_uom_extra_data/data/product_uom.xml,sha256=_X44jGcE9Ad7f_nvB3dImcAN8lOKGZ7UjH3DsvByx2k,3700
+odoo/addons/product_uom_extra_data/data/product_uom_categ.xml,sha256=GM7phGbtXUVewiVlI__rJcfIS76CvxitFWnES4TGJzM,329
+odoo/addons/product_uom_extra_data/i18n/es.po,sha256=Kb6dHBDTIbY56OIq6NbD7ZIRakrqV8SUeHJMJTKgcgY,2382
+odoo/addons/product_uom_extra_data/i18n/fr.po,sha256=mKLRJkn02Yxu78iNPjQM9B1XKmXVlXyzDxgf58ntDoY,2337
+odoo/addons/product_uom_extra_data/i18n/hr.po,sha256=v9tLXH4yphA_KAQZpE-uwg2cuxNZMSO-L129AcEaIaI,2491
+odoo/addons/product_uom_extra_data/i18n/it.po,sha256=_43GBJFCkQpuAKc5bRhTg1lI8HiTxky7VMv5VtKy6tY,2376
+odoo/addons/product_uom_extra_data/i18n/product_uom.pot,sha256=h28fdJFVRQCixXtycsisado6Eh14sCObniZHsoXzRug,1982
+odoo/addons/product_uom_extra_data/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo11_addon_product_uom_extra_data-11.0.1.0.0.dist-info/METADATA,sha256=qvCk8Y6LkRE9oHUW4pz56tR5yZMCSjPXRHVXxTVthRU,1973
+odoo11_addon_product_uom_extra_data-11.0.1.0.0.dist-info/RECORD,,
+odoo11_addon_product_uom_extra_data-11.0.1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+odoo11_addon_product_uom_extra_data-11.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
