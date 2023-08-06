@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pybgh
+Version: 0.1.1
+Summary: A BGH Smart devices API client
+Home-page: https://github.com/mool/pybgh
+Author: Pablo Gutierrez del Castillo
+Author-email: pablogutierrezdelc@gmail.com
+License: MIT
+Keywords: BGH
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# pybgh
+
+A BGH Smart devices API client written in python.
+
+
