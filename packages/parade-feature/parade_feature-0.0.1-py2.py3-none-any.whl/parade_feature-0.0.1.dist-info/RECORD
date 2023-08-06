@@ -1,0 +1,10 @@
+parade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parade/command/feature/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parade/command/feature/install.py,sha256=ieqmactb6PfLq_496VUxdxBGw7_huvNS_HpJTw2lBq0,1150
+parade/command/feature/search.py,sha256=P1_TVeb2Kur4BjpF90GN1j_eh3Iv7_3lQ5a7ThlgkoI,953
+parade_feature-0.0.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+parade_feature-0.0.1.dist-info/METADATA,sha256=5kCZ9DeCIA2u-hnV1R0GSg830Dsy6WmHOKrw3m7Z2aM,810
+parade_feature-0.0.1.dist-info/RECORD,,
+parade_feature-0.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+parade_feature-0.0.1.dist-info/metadata.json,sha256=BdBLvQo48f8kMCLetnw6gQuDO5NcUhgs-0uGRrzENtc,953
+parade_feature-0.0.1.dist-info/top_level.txt,sha256=xxqDOsrJpDjXRv7ZSVQIURUJXzQOi1nEXI-2yjWlyL0,7
