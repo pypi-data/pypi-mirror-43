@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+magichue/__init__.py
+magichue/magichue.py
+magichue/modes.py
+python_magichue.egg-info/PKG-INFO
+python_magichue.egg-info/SOURCES.txt
+python_magichue.egg-info/dependency_links.txt
+python_magichue.egg-info/top_level.txt
