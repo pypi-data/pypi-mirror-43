@@ -1,0 +1,10 @@
+vidgear/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vidgear/gears/__init__.py,sha256=TvQTP9dVC-1RpY3Ul0WdrGopF-44mLPBXqms3GVbgow,166
+vidgear/gears/camgear.py,sha256=IDaY7TE7qIQR-YR6mepgj7GswtmF6DKhqMgNA747U_k,1581
+vidgear/gears/pigear.py,sha256=yukMJD1XUE_cJl_9oqG6svBwStPMzEuxMMJt5odNcE8,2585
+vidgear/gears/videogear.py,sha256=xUSJ-afsMGHMpGEKFeMsJfaCSrBLf-dBQIyZJJ76KLE,983
+vidgear-0.1.1.dist-info/LICENSE,sha256=YKpe_MA1hHCCEIBYx42rQCwFc0r4ixCGb1gq5nDUtmw,1072
+vidgear-0.1.1.dist-info/METADATA,sha256=gH43ZY9ZajLRmMDEZxpdWe4G_Oqcyb_uiG3r_wLZhpk,4418
+vidgear-0.1.1.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+vidgear-0.1.1.dist-info/top_level.txt,sha256=wMDpfkAXKYNUYomHMyHOMD27Wpqq7wXanN4CotSQnag,8
+vidgear-0.1.1.dist-info/RECORD,,
