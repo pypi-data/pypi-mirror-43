@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: fleetgo
+Version: 0.9.7.4
+Summary: FleetGO API Access
+Home-page: http://github.com/depl0y/fleetgo-py
+Author: Wim Haanstra
+Author-email: wim@wim.me
+License: MIT
+Description: Simple library to have API access to the FleetGO cloud platform
+Platform: UNKNOWN
+Requires-Python: >=3
