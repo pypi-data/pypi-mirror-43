@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tap_s3_csv_philly/__init__.py
+tap_s3_csv_philly.egg-info/PKG-INFO
+tap_s3_csv_philly.egg-info/SOURCES.txt
+tap_s3_csv_philly.egg-info/dependency_links.txt
+tap_s3_csv_philly.egg-info/entry_points.txt
+tap_s3_csv_philly.egg-info/requires.txt
+tap_s3_csv_philly.egg-info/top_level.txt
+tap_s3_csv_philly/schemas/wireless_products.json

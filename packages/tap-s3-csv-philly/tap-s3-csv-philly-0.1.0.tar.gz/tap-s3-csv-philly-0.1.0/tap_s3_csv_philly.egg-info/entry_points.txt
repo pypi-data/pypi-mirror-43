@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap-s3-csv-philly=tap_s3_csv_philly:main
+    

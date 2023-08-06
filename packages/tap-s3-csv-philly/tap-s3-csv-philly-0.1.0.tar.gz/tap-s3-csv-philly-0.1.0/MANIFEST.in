@@ -1,0 +1,2 @@
+include LICENSE
+include tap_s3_csv_philly/schemas/*.json
