@@ -1,0 +1,7 @@
+numpy
+matplotlib
+astropy
+sympy
+healpy
+spherical_geometry
+seaborn
