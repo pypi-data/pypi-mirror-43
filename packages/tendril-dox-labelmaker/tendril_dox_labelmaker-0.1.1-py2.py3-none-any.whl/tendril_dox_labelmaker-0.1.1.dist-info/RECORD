@@ -1,0 +1,9 @@
+tendril/__init__.py,sha256=CyBA-t_7hHvwim5oh7A3IAtD-rOa6LxmGeEtaH83ta0,851
+tendril/dox/__init__.py,sha256=CyBA-t_7hHvwim5oh7A3IAtD-rOa6LxmGeEtaH83ta0,851
+tendril/dox/labelmaker.py,sha256=fGk1B7YI0qXoIbMJY_k1_hHVbwc8flvVNMy1edCKtw4,11000
+tendril_dox_labelmaker-0.1.1.dist-info/DESCRIPTION.rst,sha256=DJslkFuyQDxrBDfYZfZMU5ji0sCqA2uiUt1-2iSib7Y,547
+tendril_dox_labelmaker-0.1.1.dist-info/METADATA,sha256=y1MhAGwodzO0q0PhXvAdj0wuk9ga5K3aomgzvAz7Gvc,1144
+tendril_dox_labelmaker-0.1.1.dist-info/RECORD,,
+tendril_dox_labelmaker-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+tendril_dox_labelmaker-0.1.1.dist-info/metadata.json,sha256=QkgpoCl69U1IpLLI3xk2kCzrjXen1wdUNPS6dBnK-QU,768
+tendril_dox_labelmaker-0.1.1.dist-info/top_level.txt,sha256=cZ37ntjo8Mlxd4OJ5PNxFU0yufka_b2hcfS80URElIM,8
