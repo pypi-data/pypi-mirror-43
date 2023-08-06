@@ -1,0 +1,12 @@
+PfsenseFauxapi/PfsenseFauxapi.py,sha256=fwvnBzUW1bwSp8vgg-wYgWH7xjhzqYfQv4FjB1goaRg,8150
+PfsenseFauxapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PfsenseFauxapi/__version__.py,sha256=N5Wg7dhf7GUqxYmxHCg1_6Swotn9ihfMlMQHtBJ9efc,28
+pfsense_fauxapi-20190316.0.data/scripts/fauxapi,sha256=eAAWN0S4cxmGBw5sbxWfaqExv2Hvd-aIJfnykgNUkO8,5105
+pfsense_fauxapi-20190316.0.data/scripts/fauxapipy,sha256=9Td7GZtoB258JdXoVbGQneXt4z5krXX5vaplbQMFQhc,3995
+tests/__init__.py,sha256=1LIwwfQ1F9CMinlODVQiBTDKsiWaPMTkPHvmc1WoS0k,103
+tests/test_PfsenseFauxapi.py,sha256=GMi00E7p_6sM-SGWyogwy-QRaqeTXMsuzoI_R_7rFlI,244
+pfsense_fauxapi-20190316.0.dist-info/LICENSE,sha256=bXimctEqXDQi0m3361RjcZjt7njJnAgvpwmsEjNbgZA,11351
+pfsense_fauxapi-20190316.0.dist-info/METADATA,sha256=C4NLGfuIMmRbAwFaXl7eD9sAIicGrEFYDYVBibcVNVs,588
+pfsense_fauxapi-20190316.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pfsense_fauxapi-20190316.0.dist-info/top_level.txt,sha256=hByweXyM9-6VLHVbKpzfJr3qKBrWt8rwMkiYOK5cKlE,21
+pfsense_fauxapi-20190316.0.dist-info/RECORD,,

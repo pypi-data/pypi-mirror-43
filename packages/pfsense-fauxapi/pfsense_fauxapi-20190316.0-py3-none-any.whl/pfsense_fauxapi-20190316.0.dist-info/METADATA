@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pfsense-fauxapi
+Version: 20190316.0
+Summary: Python client for the pfSense-FauxAPI on a pfSense host
+Home-page: https://github.com/ndejong/pfsense_fauxapi
+Author: Nicholas de Jong
+Author-email: contact@nicholasdejong.com
+License: Apache
+Keywords: pfsense pfsense-fauxapi devops
+Platform: UNKNOWN
+Classifier: Topic :: System :: Networking :: Firewalls
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: requests
+
+UNKNOWN
+
+
