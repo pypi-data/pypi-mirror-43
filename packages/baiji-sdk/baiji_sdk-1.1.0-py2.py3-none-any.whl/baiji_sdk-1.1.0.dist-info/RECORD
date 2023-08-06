@@ -1,0 +1,10 @@
+baiji/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+baiji/sdk.py,sha256=9v5NYOGhF1impNoTACRTeCqhKr24fRmRlKS3zFdwhEk,5385
+baiji/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+baiji/clients/generic.py,sha256=khmdlV3F3LjK48U3Nl6ZLlVKftAiFbiRyyqSJm6o0iA,2827
+baiji/clients/resource.py,sha256=FAEUWjpJcWt_2M5flq1ZC1iGLshWYn35m04Vy3Vjw04,15885
+baiji_sdk-1.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+baiji_sdk-1.1.0.dist-info/METADATA,sha256=x-fvGI59x1yM22PE5LQzR1fhd4rlKzsodiGFg6mQ7xw,995
+baiji_sdk-1.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+baiji_sdk-1.1.0.dist-info/top_level.txt,sha256=MNdlqtXfltUp1EiNmniQEl5T_AQqaIZmo9ddDcyp1M4,6
+baiji_sdk-1.1.0.dist-info/RECORD,,
