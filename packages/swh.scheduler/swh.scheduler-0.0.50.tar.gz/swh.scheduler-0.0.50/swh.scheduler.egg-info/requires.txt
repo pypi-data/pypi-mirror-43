@@ -1,0 +1,17 @@
+arrow
+celery>=4
+Click
+elasticsearch>5.4
+flask
+kombu
+psycopg2
+pyyaml
+vcversioner
+swh.core>=0.0.51
+swh.storage>=0.0.129
+
+[testing]
+pytest<4
+pytest-postgresql
+celery>=4
+hypothesis>=3.11.0
