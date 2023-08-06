@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+lebowski/__init__.py
+lebowski/lebowski.py
+lebowski.egg-info/PKG-INFO
+lebowski.egg-info/SOURCES.txt
+lebowski.egg-info/dependency_links.txt
+lebowski.egg-info/top_level.txt
