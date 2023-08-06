@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+fst_lookup/__init__.py
+fst_lookup/__version__.py
+fst_lookup/data.py
+fst_lookup/flags.py
+fst_lookup/fst.py
+fst_lookup/parse.py
+fst_lookup/symbol.py
+fst_lookup.egg-info/PKG-INFO
+fst_lookup.egg-info/SOURCES.txt
+fst_lookup.egg-info/dependency_links.txt
+fst_lookup.egg-info/top_level.txt
