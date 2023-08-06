@@ -1,0 +1,9 @@
+govuk_country_register/__init__.py,sha256=rpbmykq3AIxq2XBEZ-TTgiF9TXHosTQUYCMhNf8tRr0,56
+govuk_country_register/country.csv,sha256=hPL4gNUvaYcUb7-urdoPA4woyBFYvMackrEtI0aMjf4,18025
+govuk_country_register/country.py,sha256=7BW0zZInaQriKZ5VEuGEVRMWhSUKoAsdXoPC4-aOFB0,791
+govuk_country_register/register.py,sha256=oxULz7I5LTdNW6qfus9H3qv6JMt8HvT0uXUtyqf3gXQ,1307
+govuk_country_register-0.3.0.dist-info/LICENSE.txt,sha256=PSjYWjWXFgZuMTBABG3gWuB9Ps1xHDCysyJRi96PKLY,1111
+govuk_country_register-0.3.0.dist-info/METADATA,sha256=DyDhAvVt_4ZkIRrJop0PKzfkJ5n9A0Dz22C4HTxRCV8,1145
+govuk_country_register-0.3.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+govuk_country_register-0.3.0.dist-info/top_level.txt,sha256=PyLsjfZoQ7KQltss7yG_ugtkJW4S_vZQQyspODicnCk,23
+govuk_country_register-0.3.0.dist-info/RECORD,,
