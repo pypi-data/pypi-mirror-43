@@ -1,0 +1,5 @@
+[console_scripts]
+spladder = spladder.spladder:main
+spladder-test = spladder.spladder_test:main
+spladder-viz = spladder.spladder_viz:spladder_viz
+
