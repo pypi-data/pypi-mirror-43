@@ -1,0 +1,39 @@
+<html>
+  <head>
+      <title>{{server.name}} - Data Upload</title>
+  </head>
+  <body>
+    <h1>Data Upload</h1>
+    <a href="/">Home Page</a>
+    <h2>JSON</h2>
+{% if not (upload_requires_auth and not needed_hashes) %}
+    To upload JSON data to this server from a bash terminal, run
+<pre style="color: #333333; background-color: #eeeeee; padding: 10px;">
+# specify the server address and the port
+SERVER=SERVER_ADDRESS_OR_IP:SERVER_PORT
+
+# specify the payload, we use JSON here
+PAYLOAD={{testdata.shell}}
+{% if upload_requires_auth %}
+# specify the secret salt that was configured in the server
+SALT='my-secret-salt'
+{% for alg in needed_hashes %}
+# calculate salted {{alg}} payload checksum
+SALTED_{{alg}}_CHECKSUM=`echo -n "$PAYLOAD$SALT"|{{alg}}sum|cut -d' ' -f1`
+{% endfor %} {% endif %} {% if upload_requires_auth %}
+# upload the data
+curl \
+    -H 'Content-Type: application/json' \
+{% for alg in needed_hashes %}    -H "Content-{{alg}}-Salted: $SALTED_{{alg}}_CHECKSUM" \
+{% endfor %}    -d "$PAYLOAD" $SERVER/upload
+{% else %}
+# upload the data
+curl -H 'Content-Type: application/json' -d "$PAYLOAD" $SERVER/upload
+{% endif %}
+</pre>
+{% else %}
+<strong>The server upload authentication configuration is wrong.
+  Upload is impossible.</strong>
+{% endif %}
+  </body>
+</html>

@@ -1,0 +1,8 @@
+flask
+
+[msgpack]
+msgpack
+
+[opensensemap]
+sensemapi[cache]>=0.0.11
+pandas
