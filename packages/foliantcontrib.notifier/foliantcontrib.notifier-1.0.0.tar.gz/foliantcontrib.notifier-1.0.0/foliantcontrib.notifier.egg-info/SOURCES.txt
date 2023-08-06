@@ -1,0 +1,8 @@
+README.md
+setup.py
+foliant/cli/notifier.py
+foliantcontrib.notifier.egg-info/PKG-INFO
+foliantcontrib.notifier.egg-info/SOURCES.txt
+foliantcontrib.notifier.egg-info/dependency_links.txt
+foliantcontrib.notifier.egg-info/requires.txt
+foliantcontrib.notifier.egg-info/top_level.txt
