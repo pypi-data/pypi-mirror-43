@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: vippool_storage
+Version: 1.0.0
+Summary: A simple interface for the block chain
+Home-page: https://github.com/vippool/storage
+Author: VIPPOOL Inc.
+Author-email: dev-team@vippool.net
+License: UNKNOWN
+Description: # vippool-storage
+        
+        このプロジェクトは、株式会社 VIPPOOL が運用している
+        vippool-clerk サービスへアクセスすることで、
+        Python から簡単にモナコインのブロックチェーンへの
+        データ書き込み・読み込みができるライブラリです。
+        
+        ## できること
+        
+        秘密鍵に対応するコインアドレスの、現在の残高を知ることが出来ます。
+        
+        秘密鍵に対応するコインアドレスから、別のコインアドレスへ送金することができます。
+        
+        ブロックチェーンに任意のデータ列を書き込むことができます。
+        （別途トランザクション手数料が必要です）。
+        
+        ブロックチェーンに書き込まれた任意データを読み込むことができます。
+        
+        ## インストール方法
+        
+        pip を用いてインストールが可能です。
+        
+        $ pip install vippool_storage
+        
+        ## 使用方法
+        
+        リポジトリの sample.py をご覧ください。
+        
+        ## 連絡先
+        
+        お問い合わせ、ご要望、バグ報告等は、github の issue へお気軽にどうぞ。
+        https://github.com/vippool/storage/issues
+        
+        もしくは、開発チームまでメールいただいても構いません。
+        dev-team@vippool.net
+        
+        ## ライセンス
+        
+        (C) 2019-2019 VIPPOOL Inc.
+        
+        このプロジェクトは、MIT ライセンスで提供されます。
+        
+Keywords: blockchain
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
