@@ -1,0 +1,4 @@
+
+    [gui_scripts]
+    madgui = madgui.core.app:main
+    
