@@ -1,0 +1,3 @@
+[console_scripts]
+alfred-installer = alfred.__main__:main
+
