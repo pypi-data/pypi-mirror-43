@@ -1,0 +1,5 @@
+akinaka_cleanup
+akinaka_client
+akinaka_rds
+akinaka_reporting
+akinaka_update
