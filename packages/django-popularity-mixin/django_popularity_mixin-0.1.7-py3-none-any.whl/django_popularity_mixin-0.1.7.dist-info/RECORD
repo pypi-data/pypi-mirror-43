@@ -1,0 +1,15 @@
+popularity/__init__.py,sha256=7FPA6UPFB6pnm2nsalxoQKsOfgwQ1Oq-Kc26Gqx3Qmo,75
+popularity/apps.py,sha256=88fmaJSsoMd0TiJVCYQF_kuga22gO5XVqZe6rs_ms_o,406
+popularity/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popularity/receivers.py,sha256=m1tPDP4GbUsU0CEKli07sjkVf53W0u_sVYHwtAAtNFM,446
+popularity/tasks.py,sha256=umzG3aO2aB73NQoKOLSG7HpNMDvufxi_FK39EG3RQlw,1034
+popularity/utils.py,sha256=VaZqYvWrChPUFB-c8AVuBz6IQD74KmR-1-kAeYozxKc,2580
+popularity/views.py,sha256=KUOoFtmdx6izUgji4MHJD8tiIYvEAgI2-cA0fnWfZEk,1761
+popularity/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popularity/templatetags/popularity_tags.py,sha256=e7ad0wGM4BNBCfyEVMrZUpevZAv5sNCDsrMGUgwe5g0,1961
+django_popularity_mixin-0.1.7.dist-info/AUTHORS,sha256=u1cm9Cmz96QJrvwR51crep7BQVjK_jy9A8gXmJkalNE,37
+django_popularity_mixin-0.1.7.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+django_popularity_mixin-0.1.7.dist-info/METADATA,sha256=x3v2Ipe_KiXkHqjQxzWzqRF7G-tI76duKYTgq-uymns,4570
+django_popularity_mixin-0.1.7.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_popularity_mixin-0.1.7.dist-info/top_level.txt,sha256=uaKretfxAGez72VlW3qvvGaYkdkWRsLDu_M7Qnz7-rQ,11
+django_popularity_mixin-0.1.7.dist-info/RECORD,,
