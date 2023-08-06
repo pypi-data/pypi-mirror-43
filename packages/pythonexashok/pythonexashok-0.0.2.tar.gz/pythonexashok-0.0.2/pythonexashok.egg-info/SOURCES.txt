@@ -1,0 +1,7 @@
+README.md
+setup.py
+Newpy/__init__.py
+pythonexashok.egg-info/PKG-INFO
+pythonexashok.egg-info/SOURCES.txt
+pythonexashok.egg-info/dependency_links.txt
+pythonexashok.egg-info/top_level.txt
