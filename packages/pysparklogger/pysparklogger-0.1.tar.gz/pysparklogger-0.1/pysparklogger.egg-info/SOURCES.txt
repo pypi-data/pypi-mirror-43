@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pysparklogger/__init__.py
+pysparklogger/logger.py
+pysparklogger.egg-info/PKG-INFO
+pysparklogger.egg-info/SOURCES.txt
+pysparklogger.egg-info/dependency_links.txt
+pysparklogger.egg-info/not-zip-safe
+pysparklogger.egg-info/top_level.txt
