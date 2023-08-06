@@ -1,0 +1,10 @@
+MANIFEST.in
+Makefile
+setup.py
+.github/README.md
+simple_rsa/__init__.py
+simple_rsa.egg-info/PKG-INFO
+simple_rsa.egg-info/SOURCES.txt
+simple_rsa.egg-info/dependency_links.txt
+simple_rsa.egg-info/requires.txt
+simple_rsa.egg-info/top_level.txt
