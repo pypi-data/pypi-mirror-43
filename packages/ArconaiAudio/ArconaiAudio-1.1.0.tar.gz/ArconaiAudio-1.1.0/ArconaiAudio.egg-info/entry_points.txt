@@ -1,0 +1,3 @@
+[console_scripts]
+ArconaiAudio = ArconaiAudio.cli:main
+
