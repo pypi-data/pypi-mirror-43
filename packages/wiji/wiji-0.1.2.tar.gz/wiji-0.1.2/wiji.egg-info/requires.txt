@@ -1,0 +1,16 @@
+
+[dev]
+pypandoc
+twine
+wheel
+Sphinx==1.8.3
+sphinx-autodoc-typehints==1.6.0
+
+[test]
+coverage
+flake8
+pylint
+black
+bandit
+mypy
+codecov
