@@ -1,0 +1,5 @@
+boto3>=1.7.13
+crc32c
+crcmod==1.7
+puremagic==1.4
+requests<3,>=2.18.4
