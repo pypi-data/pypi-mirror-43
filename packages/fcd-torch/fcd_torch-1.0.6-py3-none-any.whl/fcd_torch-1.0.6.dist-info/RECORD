@@ -1,0 +1,11 @@
+fcd_torch/ChemNet_v0.13_pretrained.pt,sha256=o2ZYzHyU08co6s1-0tLxBHU7sv3nQsKBfa7-lTOigIA,5627182
+fcd_torch/__init__.py,sha256=5wkZD4qzpS6eDXpDZVxIiKMeM9oGbgqM_sQPNeKOX6I,114
+fcd_torch/fcd.py,sha256=x6Oz7QYw8bmAw8CdA0QXA3YU11kOXh-uoc2nQXQhdfc,3367
+fcd_torch/keras2pytorch.py,sha256=aCd-glK7Oj7FQaA8qvwWiIiMAoWpo9peh_Fcp1Zdq2I,4943
+fcd_torch/torch_layers.py,sha256=IoTsCfxj9uANSwQrsnlDTw-JjxHhdPYZEl5lex8oMPA,1428
+fcd_torch/utils.py,sha256=e0MCAijWWHmjS5c1U9DRNA4PvFB42q4lZCi1FQ81Bkg,6023
+fcd_torch-1.0.6.dist-info/LICENSE,sha256=d1kQkpFwBYmBq5yqoueRzxBKSgYKMdNS4JzBcGBlXkc,1074
+fcd_torch-1.0.6.dist-info/METADATA,sha256=93J8iHfV9ITyLwwOi7w1cFFJArbYEaVUoNmNxWXnKI8,2929
+fcd_torch-1.0.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+fcd_torch-1.0.6.dist-info/top_level.txt,sha256=RCre3R8c4fbNw-A2RHq86_ZGLhG00Wi9OHYFoH3UaKk,10
+fcd_torch-1.0.6.dist-info/RECORD,,
