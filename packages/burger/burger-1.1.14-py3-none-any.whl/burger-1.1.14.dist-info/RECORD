@@ -1,0 +1,11 @@
+burger/__init__.py,sha256=_XD2FXJLDrS-XV5JmFNxKgav08Kzz502pqTF9p4I3MI,6678
+burger/__pkginfo__.py,sha256=IRGXAlK_vqpArJBPXT9k-NZxxriYNMvZMdGqtzhzXsU,815
+burger/buildutils.py,sha256=o71PRRN38wZRBTZH9i6N3eMKi-7LK5-ImOjR9vPznIo,30899
+burger/fileutils.py,sha256=CFAussRIYb2rL62cfCticJb0aT3ynpBHv7crPxWYEIg,21543
+burger/strutils.py,sha256=WHMWp1qZGzrn235MHwidZ_Uu3g-HXhOJr4tMhS5ttGo,17073
+burger/windowsutils.py,sha256=LfvWsIBHB3T9qfdiPk57XS9XSPAzrcYbLuaGi6mHtoE,2971
+burger-1.1.14.dist-info/LICENSE.txt,sha256=GRo1jnjpaX8hbjQZ01hQSY9Y3Yia4keYSpVHDuKNETA,1674
+burger-1.1.14.dist-info/METADATA,sha256=tRJtnEceHzeBUEk3yqSluLi9RZfBM3lwMZTQwuWnbJc,2741
+burger-1.1.14.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+burger-1.1.14.dist-info/top_level.txt,sha256=4fZ_wT2z331Ko3hlsPanwgvlYojYgZI9BW0Vp5O2Tss,7
+burger-1.1.14.dist-info/RECORD,,
