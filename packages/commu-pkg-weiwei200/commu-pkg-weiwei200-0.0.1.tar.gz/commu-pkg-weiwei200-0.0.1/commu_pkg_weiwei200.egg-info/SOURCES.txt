@@ -1,0 +1,7 @@
+setup.py
+commu_pkg/__init__.py
+commu_pkg/communication.py
+commu_pkg_weiwei200.egg-info/PKG-INFO
+commu_pkg_weiwei200.egg-info/SOURCES.txt
+commu_pkg_weiwei200.egg-info/dependency_links.txt
+commu_pkg_weiwei200.egg-info/top_level.txt
