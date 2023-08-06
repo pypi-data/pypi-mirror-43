@@ -1,0 +1,81 @@
+Metadata-Version: 1.1
+Name: noseprogress
+Version: 0.7
+Summary: A nosetests plugin with progress before testcase
+Home-page: https://github.com/landhu/nose-progress
+Author: land
+Author-email: landhu@hotmail.com
+License: BSD License
+Description: ================
+        nose-progress
+        ================
+        
+        Give your tests a progress before testcase name 3 lines::
+        
+            pip install nose-progress
+            cd your_project
+            nosetests --with-progress
+        
+        
+        Features
+        ========
+        
+        Progress Like this
+        ------------
+        
+        ::
+          (venv) E:\workspace>nosetests -v -s test_case_0000.py --with-scheduling
+           nose.config: INFO: Ignoring files matching ['^\\.', '^_', '^setup\\.py$']
+           [1/2] test_case.test_case_0000.test_learn_3 ... ok
+           [2/2] test_case.test_case_0000.test_lear_4 ... ok
+        
+        
+        Installation
+        ============
+        
+        ::
+        
+          pip install nose-progressive
+        
+        
+        Upgrading
+        =========
+        
+        To upgrade from an older version of nose-progressive, assuming you didn't
+        install it from git::
+        
+          pip install --upgrade nose-progress
+        
+        Use
+        ===
+        
+        The simple way::
+        
+          nosetests --with-scheduling
+        
+        
+        Author
+        ======
+        
+        landhu, while waiting for tests to complete ;-)
+        
+        Version History
+        ===============
+        
+        
+        0.1
+          * Initial release
+        
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries

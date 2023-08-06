@@ -1,0 +1,3 @@
+[nose.plugins]
+nosescheduling = noseprogress.noseprogress:Progress
+

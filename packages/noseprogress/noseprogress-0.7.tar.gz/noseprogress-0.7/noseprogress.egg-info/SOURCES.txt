@@ -1,0 +1,8 @@
+setup.py
+noseprogress/__init__.py
+noseprogress/noseprogress.py
+noseprogress.egg-info/PKG-INFO
+noseprogress.egg-info/SOURCES.txt
+noseprogress.egg-info/dependency_links.txt
+noseprogress.egg-info/entry_points.txt
+noseprogress.egg-info/top_level.txt
