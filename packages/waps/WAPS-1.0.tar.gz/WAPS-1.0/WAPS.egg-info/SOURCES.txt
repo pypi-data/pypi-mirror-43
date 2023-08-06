@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+WAPS/WAPS.py
+WAPS/__init__.py
+WAPS.egg-info/PKG-INFO
+WAPS.egg-info/SOURCES.txt
+WAPS.egg-info/dependency_links.txt
+WAPS.egg-info/requires.txt
+WAPS.egg-info/top_level.txt
+bin/Dsharp_PCompile
