@@ -1,0 +1,16 @@
+pjreports/__init__.py,sha256=tEgOud07Ko43nKkbPl3DP0z3NIATY3Q_yIkRCq4I6P0,26
+pjreports/report.py,sha256=TsiN79E8InpqWW53NJnVVwuZsvFI8l4D85q00lguMQ0,5030
+pjreports/reportManager.py,sha256=gMXo-UCOY_admLowXlGuJ6SI0PN_RB3a8OMkqNgsGNQ,411
+pjreports/settings.py,sha256=ZVqeUOFDqUSHrTjUW5eEAKYChMU6OiuIdxioH3jML0c,974
+pjreports/java/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pjreports/java/jpreports-java.jar,sha256=uuUtfoqXT7JWh7vOoK3pPAXUHud1wZTCKIzhXHbL1k8,44321890
+pjreports/managejrxml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pjreports/managejrxml/image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pjreports/managejrxml/parameter.py,sha256=OM7onEpgp10clPQV_w461y6ul0RQ0NCDhoVZoaOTaz0,2478
+pjreports/managejrxml/text.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pjreports/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pjreports/utils/decorators.py,sha256=8jNmaShXz0B2O9xiejGFym026FYeHu4qpZZyRRLi5N0,2860
+pjreports-0.0.1a4.dist-info/METADATA,sha256=q7Bd-shZYR6_LAQdOSxL9hHoBceM0eMPF6D1gAulecY,1049
+pjreports-0.0.1a4.dist-info/RECORD,,
+pjreports-0.0.1a4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pjreports-0.0.1a4.dist-info/top_level.txt,sha256=-O21eAqrDBk2LDQLqejX9pRa2pyoZaemJ35U7McEvrg,10

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pjreports
+Version: 0.0.1a4
+Summary: Create PDF files with text and images using jasperstudio templates
+Home-page: https://gitlab.com/hrl-upm-es/pjreports
+Author: Harbor Research Laboratory UPM
+Author-email: development@hrl-upm.es
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: tabulate (==0.7.7)
+Requires-Dist: python-box
+
+
+pjreports
+==========================
+pjreports is a library that is used to create PDF files using jasperstudio templates.
+
+
+Credits
+-------
+
+- `HRL-UPM`_
+
+.. _HRL-UPM: http://www.hrl-upm.es/
+
+
