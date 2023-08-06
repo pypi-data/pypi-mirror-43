@@ -1,0 +1,8 @@
+setup.py
+colorlogs/__init__.py
+colorlogs/colorlogs.py
+colorlogs.egg-info/PKG-INFO
+colorlogs.egg-info/SOURCES.txt
+colorlogs.egg-info/dependency_links.txt
+colorlogs.egg-info/not-zip-safe
+colorlogs.egg-info/top_level.txt
