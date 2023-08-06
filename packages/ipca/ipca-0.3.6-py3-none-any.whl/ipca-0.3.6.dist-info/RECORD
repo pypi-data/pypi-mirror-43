@@ -1,0 +1,8 @@
+ipca/__init__.py,sha256=l14bQZ65C5SOUzQu0GWnnV2jAxs23yReY6U7fwnfcIU,65
+ipca/ipca.py,sha256=RUzauQ0Q0NYTdQyogve3IDd01gO1r9L52TzkQKWZ0jc,23527
+ipca/test_ipca.py,sha256=7GGAsa9Vq8Qk5HcGp6RF39HGW467uPm6ngo15FST5hM,2416
+ipca-0.3.6.dist-info/LICENSE.md,sha256=6ThylAbOwgNlqxeTqi6tNos6Whb4cespm7V88FWSuh4,1078
+ipca-0.3.6.dist-info/METADATA,sha256=MVydN_txhs8OiXRAxcwGVe63pImAxtXct7WHGt5sA_c,375
+ipca-0.3.6.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+ipca-0.3.6.dist-info/top_level.txt,sha256=5czE8pIED6XW6b33DL1G-j3khQrWvl7ZK55PFyIJLfk,5
+ipca-0.3.6.dist-info/RECORD,,
