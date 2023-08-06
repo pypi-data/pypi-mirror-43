@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: format_byte
+Version: 1.1.0
+Summary: Convert interget to string and format byte unit string.
+Home-page: https://github.com/ChsHub/format_byte
+Author: ChsHub
+Author-email: christian1193@web.com
+License: MIT License
+Description: # format_byte
+        Convert interget to string and format byte unit string.
+        
+        ## Installation
+        `python3 -m pip install format_byte`
+        
+        ## Usage Examples
+        
+        ```python
+        from format_byte import format_byte
+        
+        format_byte(1024000)
+        >>> 1000.0kiB
+        
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+format_byte/__init__.py
+format_byte/format_byte.py
+format_byte.egg-info/PKG-INFO
+format_byte.egg-info/SOURCES.txt
+format_byte.egg-info/dependency_links.txt
+format_byte.egg-info/top_level.txt
