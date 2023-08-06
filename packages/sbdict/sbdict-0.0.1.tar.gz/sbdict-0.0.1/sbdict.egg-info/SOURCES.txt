@@ -1,0 +1,8 @@
+README.md
+setup.py
+sbdict/__init__.py
+sbdict/sbdict.py
+sbdict.egg-info/PKG-INFO
+sbdict.egg-info/SOURCES.txt
+sbdict.egg-info/dependency_links.txt
+sbdict.egg-info/top_level.txt

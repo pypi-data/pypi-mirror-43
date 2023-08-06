@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sbdict
+Version: 0.0.1
+Summary: A tool for translation from Any Language to Chinese in command line
+Home-page: https://github.com/sennhvi/sbdict
+Author: sennhvi
+Author-email: sennhvi@gmail.com
+License: UNKNOWN
+Description: # sbdict translation tool Package
+        
+        This is a simple package of translation app which use open api of youdao dict.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
