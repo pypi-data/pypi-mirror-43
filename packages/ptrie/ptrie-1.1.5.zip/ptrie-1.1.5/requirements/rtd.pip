@@ -1,0 +1,7 @@
+decorator>=4.4.0
+funcsigs>=1.0.2
+mock>=2.0.0
+pytest>=4.3.1
+sphinx>=1.8.5
+sphinxcontrib-inlinesyntaxhighlight>=0.2
+sphinxcontrib-shellcheck>=1.0.8
