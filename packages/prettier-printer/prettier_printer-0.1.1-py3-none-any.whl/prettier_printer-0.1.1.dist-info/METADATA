@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: prettier-printer
+Version: 0.1.1
+Summary: A syntax-highlighting for Python code.
+Home-page: https://github.com/maynewong/prettier_printer
+Author: Mayne Wong
+Author-email: maynewong1990@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: pygments
+
+
+Prettier_Printer: A syntax highlighting prettier printer for Python 3.6+
+========================================================================
+
+This library intends to print prettier for python code as simple and intuitive as possible.
+
+Tutorial
+========
+Pretty print common Python values:
+
+.. code-block:: pycon
+
+    >>> from prettier_printer import pprint
+    >>> d = {
+    ...    'example_tuple': (1, 2, 3, 4),
+    ...    'word': 'Python is an interpreted programming language.',
+    ...    'example dict': {'set': set([1, 2, 3, 4])}
+    ...}
+    >>> pprint(d, depth=10, indent=2, width=12)
+    {
+      (
+        'example ',
+        'tuple'
+      ): (1, 2, 3, 4),
+      'word': (
+        'Python  is  ',
+        'an ',
+        'interpreted ',
+        'programming ',
+        'language.'
+      ),
+      'example dict': {
+        'set': {1, 2, 3, 4}
+      }
+    }
+
+Pretty print common Python values with syntax highlight:
+
+.. image:: https://farm8.staticflickr.com/7823/32478690497_82c48fcd09_b.jpg
+
+Installation
+============
+
+.. code-block:: shell
+
+    $ pipenv install prettier_printer
+
+Only **Python 3.6** is supported.
+
