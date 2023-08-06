@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Pyewacket
+Version: 0.0.1b1
+Summary: Drop-in Replacement for the Python Random Library.
+Home-page: https://sharpdesigndigital.com
+Author: Broken aka Robert Sharp
+Author-email: webmaster@sharpdesigndigital.com
+License: Free for non-commercial use
+Keywords: Pyewacket
+Platform: Darwin
+Platform: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C++
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: Cython
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Pyewacket
+
+## Work In Progress
+
+
+*Recommended Installation:* `$ pip install Pyewacket`
+
+
