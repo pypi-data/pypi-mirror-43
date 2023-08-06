@@ -1,0 +1,38 @@
+- config:
+    name: "Shows how to use csv file."
+    variables:
+        user_agent: "testcase_agent"
+        device_sn: "testcase_sign"
+        os_platform: 'testcase_os'
+        app_version: 'testcase_version'
+        redis_key: "wangchen"
+    base_url: ${ENV(url)}
+
+- test:
+    name: call api def example
+    api: api/api_demo.yml
+    extract:
+        - id: content.id
+    validate:
+        - eq: ["status_code", 200]
+
+-   test:
+        name:  use redis ext api example
+        request:
+            json:
+                ZYBUSS: R2wZjrBdSurcW71Ed_nra2QQBcvAQb2gdRAIXRg5NDorqOZC6_SWIVZce5dR7o0u
+                _t_: '1544443254'
+                appId: homework
+                id: $id
+            headers:
+                Content-Type:  application/json; charset=UTF-8
+                user_agent: $user_agent
+            method: POST
+            url: set/redis
+        validate:
+        -   eq:
+            - status_code
+            - 200
+        - eq:
+            - ${get_redis_str_value($redis_key)}
+            - "67"

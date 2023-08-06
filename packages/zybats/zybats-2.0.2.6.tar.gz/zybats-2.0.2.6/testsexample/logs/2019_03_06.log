@@ -1,0 +1,8 @@
+[2019-03-06 19:54:04,046] INFO: [32mLoading environment variables from E:\python\automation\projects\test\tests\example\.env
+[2019-03-06 19:54:04,048] DEBUG: [36mSet OS environment variable: url
+[2019-03-06 19:54:04,272] INFO: [32mStart to run testcase: 
+[2019-03-06 19:54:04,273] ERROR: [31m!!!!!!!!!! exception stage: run test suite !!!!!!!!!!
+[2019-03-06 20:04:47,831] INFO: [32mLoading environment variables from E:\python\automation\projects\test\tests\example\.env
+[2019-03-06 20:04:47,832] DEBUG: [36mSet OS environment variable: url
+[2019-03-06 20:04:48,040] INFO: [32mStart to run testcase: 
+[2019-03-06 20:04:48,045] ERROR: [31m!!!!!!!!!! exception stage: run test suite !!!!!!!!!!

@@ -1,0 +1,8 @@
+config:
+    name: "Shows how to use csv file demo"
+testcases:
+    testcase1_name:
+        testcase: testcase/ref_csv_case_demo.yml
+        parameters:
+             user_agent: ${P(user_agent.csv)}
+             #user_agent: ["iOS/10.1","iOS/10.2","iOS/10.3"]
