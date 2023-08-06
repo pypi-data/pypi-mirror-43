@@ -1,0 +1,9 @@
+acglib/__init__.py,sha256=g77zneKs5ca4ClNQ2YxBho6H5PnLa2WnzaooF5VFALI,16
+acglib/aws/__init__.py,sha256=aoPQuk6wQI57TUvBe40MmS7qnP_KKJrrw8OeuPB8v44,72
+acglib/aws/iamhelper.py,sha256=brz8-CwFuErvXWEJoJdPJ3zqc1IauPiU-CSOf692vEg,6967
+acglib/aws/regionhelper.py,sha256=xVqEcrvhGZN7SuRX-mJhzfdOSKNXbjZloSrqep5y_eg,651
+acglib-0.1.dist-info/LICENSE,sha256=YuQ-Xm-qNK2rr811VS2gsKdJQhyZF5kziFZAgzLlEYw,1071
+acglib-0.1.dist-info/METADATA,sha256=Y0ERXi3S2YzOTybL2QJGW03U4DK4a0fTmTKl6He8IrQ,505
+acglib-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+acglib-0.1.dist-info/top_level.txt,sha256=nzzfW5H5WpT1KTbC236Z2S1JBcTzOY7-yrZquHXZ4O4,7
+acglib-0.1.dist-info/RECORD,,
