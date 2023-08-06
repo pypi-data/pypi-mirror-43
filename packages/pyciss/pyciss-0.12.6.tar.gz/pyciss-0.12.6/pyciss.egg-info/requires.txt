@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+pysis
+astropy
+xarray
+holoviews
+hvplot
+seaborn
+tables
+planetpy
