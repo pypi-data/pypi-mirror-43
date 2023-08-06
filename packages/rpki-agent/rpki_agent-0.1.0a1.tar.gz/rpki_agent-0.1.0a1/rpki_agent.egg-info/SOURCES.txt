@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+packaging/requirements.txt
+rpki_agent/__init__.py
+rpki_agent/__meta__.py
+rpki_agent/cli.py
+rpki_agent.egg-info/PKG-INFO
+rpki_agent.egg-info/SOURCES.txt
+rpki_agent.egg-info/dependency_links.txt
+rpki_agent.egg-info/entry_points.txt
+rpki_agent.egg-info/top_level.txt

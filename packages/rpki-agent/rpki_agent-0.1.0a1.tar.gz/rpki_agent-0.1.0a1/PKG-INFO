@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rpki_agent
+Version: 0.1.0a1
+Summary: An EOS agent to collect and process RPKI VRP data
+Home-page: https://github.com/wolcomm/eos-rpki-agent
+Author: Ben Maddison
+Author-email: benm@workonline.africa
+License: MIT
+Download-URL: https://github.com/wolcomm/eos-rpki-agent/0.1.0a1
+Description: 
+        # Arista EOS RPKI Agent
+        
+        Periodically retrieve the VRP set from an RPKI validation cache, and generate
+        prefix-lists.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Description-Content-Type: text/markdown
