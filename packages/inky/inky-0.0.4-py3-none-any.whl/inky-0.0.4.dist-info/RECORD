@@ -1,0 +1,10 @@
+inky/__init__.py,sha256=j0BfPR7bz7YCw9KNVl_hsq9_UL3WQpSTPmmCyaRBQt4,319
+inky/eeprom.py,sha256=DV5nab_t_oXCn-8wpYDPjcLQPGwVTc5NzwZSE1IjNAA,3545
+inky/inky.py,sha256=RaYWPuhq0IFbENKh3WVtQw2pOspEL8PE-Nxag0sSCpo,13343
+inky/phat.py,sha256=vSZlWKeGLQRfxC1Cor9ypud0FtdJONYkJuv5H7rD4n0,551
+inky/what.py,sha256=4zIwcir-449Xs7SNq0DnXhEDvj_EwoAnA-SDNXL0kHI,551
+inky-0.0.4.dist-info/LICENSE.txt,sha256=A1wQoAgYZY5vuxlaRdSkG9cI9IXOG4dLYFUXP2TifjQ,1070
+inky-0.0.4.dist-info/METADATA,sha256=pjnGbJs7C7b-MWd21APW4dl0mBwPkzEuuflokRWzuAw,3144
+inky-0.0.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+inky-0.0.4.dist-info/top_level.txt,sha256=gBEPSpDa0PPISzxlu55tt1E0tpUgCD6ubf2S4YIyqPw,5
+inky-0.0.4.dist-info/RECORD,,
