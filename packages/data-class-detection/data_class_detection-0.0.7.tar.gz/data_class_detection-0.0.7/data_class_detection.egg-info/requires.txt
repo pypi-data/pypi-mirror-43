@@ -1,0 +1,5 @@
+grpcio
+numpy
+tensorflow
+tensorflow-serving-api
+antlr4-python3-runtime
