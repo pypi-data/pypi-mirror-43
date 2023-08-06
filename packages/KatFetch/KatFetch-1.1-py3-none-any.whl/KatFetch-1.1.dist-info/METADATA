@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: KatFetch
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: distro
+Requires-Dist: py-cpuinfo
+Requires-Dist: hurry.filesize
+Requires-Dist: psutil
+Requires-Dist: click
+
+UNKNOWN
+
+
