@@ -1,0 +1,50 @@
+Metadata-Version: 2.0
+Name: mds-account-invoice-confirmpost
+Version: 4.6.0
+Summary: Queries a confirmation if you post an invoice.
+Home-page: https://www.m-ds.de/
+Author: m-ds
+Author-email: service@m-ds.de
+License: GPL-3
+Description-Content-Type: UNKNOWN
+Keywords: tryton account invoice confirm
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Natural Language :: German
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: trytond-account-invoice (<4.7,>=4.6)
+Requires-Dist: trytond (<4.7,>=4.6)
+
+mds-account-invoice-confirmpost
+===============================
+Queries a confirmation if you post an invoice.
+
+Install
+=======
+
+pip install mds-account-invoice-confirmpost
+
+Requires
+========
+- Tryton 4.6
+
+Changes
+=======
+*4.6.0 - 22.03.2019*
+
+- first public version
+
+
