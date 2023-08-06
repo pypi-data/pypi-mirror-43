@@ -1,0 +1,6 @@
+setup.py
+SimTtrading.egg-info/PKG-INFO
+SimTtrading.egg-info/SOURCES.txt
+SimTtrading.egg-info/dependency_links.txt
+SimTtrading.egg-info/requires.txt
+SimTtrading.egg-info/top_level.txt
