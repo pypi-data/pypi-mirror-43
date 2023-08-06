@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+
+# Copyright 2019 David R. Bild
+#
+#    Licensed under the Apache License, Version 2.0 (the "License");
+#    you may not use this file except in compliance with the License.
+#    You may obtain a copy of the License at
+#
+#        http://www.apache.org/licenses/LICENSE-2.0
+#
+#    Unless required by applicable law or agreed to in writing, software
+#    distributed under the License is distributed on an "AS IS" BASIS,
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#    See the License for the specific language governing permissions and
+#    limitations under the License
+
+"""Split an image file into multiple segment files by removing runs of
+null or zero bytes.
+
+Usage:
+    imgsplit (--version|--help)
+    imgsplit [--bs BS] [--minskip MINSKIP] [--outdir OUTDIR] <image> [<outpattern>]
+
+Arguments:
+    --bs BS            Block size in bytes. Segments are aligned to this size. [default: 512]
+    --minskip MINSKIP  Minimum number of zero blocks to skip. [default: 1024]
+    --outdir OUTDIR    Directory to put the image segments in. [default: ./]
+    <image>            Image file to split.
+    <outpattern>       Pattern to expand with segment offset to name the segment files, e.g., `image_%08x.img`.
+
+Example:
+    imgsplit input.img
+"""
+
+import docopt
+import os
+
+__version__ = "1.1.0"
+
+def is_zero_block(block):
+    for b in block:
+        if b != 0:
+            return False
+    return True
+
+def blocks_from_file(filename, bs=512):
+    offset = 0
+    with open(filename, "rb") as f:
+        while True:
+            b = f.read(bs)
+            if b:
+                yield (b, offset)
+            else:
+                break
+            offset += bs
+
+def main(image, outdir, outpat, bs=512, minskip=1024):
+    queued = []
+    out = None
+    zero_blocks = 0
+
+    for blk, offset in blocks_from_file(image, bs):
+        if is_zero_block(blk):
+            zero_blocks += 1
+
+            # Queue block if min skip length not yet reached
+            if zero_blocks < minskip:
+                queued.append(blk)
+
+            # Otherwise clear any queued and close the prior segement
+            else:
+                queued = []
+                if out:
+                    out.close()
+                    out = None
+
+        else:
+            zero_blocks = 0
+
+            # If open file for segment if needed
+            if not out:
+                out = open(os.path.join(outdir, outpat%offset), 'wb')
+
+            # Add this block to any previously queued blocks
+            queued.append(blk)
+
+            # Write all queued blocks to the segement
+            for q in queued:
+                out.write(q)
+            queued = []
+
+    if out:
+        out.close()
+        out = None
+
+def default_out_pattern(image):
+    base, ext = os.path.splitext(os.path.basename(image))
+    return ''.join([base, '_0x%08x', ext])
+
+if __name__ == "__main__":
+    args = docopt.docopt(
+        __doc__,
+        version="version "+__version__
+    )
+
+    bs      = int(args.get('--bs'))
+    minskip = int(args.get('--minskip'))
+    outdir  = args.get('--outdir')
+    image   = args.get('<image>')
+    outpat  = args.get('<outpattern>') or default_out_pattern(image)
+
+    main(image, outdir, outpat, bs=bs, minskip=minskip)
