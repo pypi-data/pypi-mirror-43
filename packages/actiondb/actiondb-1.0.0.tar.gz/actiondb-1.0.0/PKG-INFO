@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: actiondb
+Version: 1.0.0
+Summary: The database that doesn't wait for you, it comes.
+Home-page: https://github.com/Zwork101/actiondb
+Author: Nathan Zilora
+Author-email: zwork101@gmail.com
+License: MIT
+Description: 
+        # actionDB
+        The database that doesn't wait for you, it comes.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
