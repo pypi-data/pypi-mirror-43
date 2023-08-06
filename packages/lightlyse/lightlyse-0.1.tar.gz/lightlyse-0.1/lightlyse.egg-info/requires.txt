@@ -1,0 +1,11 @@
+atomicwrites
+attrs
+certifi
+h5py
+more-itertools
+numpy
+pluggy
+py
+pytest
+six
+virtualenv

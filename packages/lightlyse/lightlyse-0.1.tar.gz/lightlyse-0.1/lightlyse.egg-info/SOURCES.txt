@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+lightlyse/BasicClasses.py
+lightlyse/__init__.py
+lightlyse.egg-info/PKG-INFO
+lightlyse.egg-info/SOURCES.txt
+lightlyse.egg-info/dependency_links.txt
+lightlyse.egg-info/requires.txt
+lightlyse.egg-info/top_level.txt
