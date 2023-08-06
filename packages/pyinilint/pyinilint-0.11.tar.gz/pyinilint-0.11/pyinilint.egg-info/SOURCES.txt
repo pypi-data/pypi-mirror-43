@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pyinilint/__init__.py
+pyinilint/__main__.py
+pyinilint/pyinilint.py
+pyinilint.egg-info/PKG-INFO
+pyinilint.egg-info/SOURCES.txt
+pyinilint.egg-info/dependency_links.txt
+pyinilint.egg-info/entry_points.txt
+pyinilint.egg-info/top_level.txt
+pyinilint/tests/__init__.py
+pyinilint/tests/test_pyinilint.py
