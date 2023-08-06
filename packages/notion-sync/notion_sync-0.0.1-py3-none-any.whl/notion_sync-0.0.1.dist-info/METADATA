@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: notion-sync
+Version: 0.0.1
+Summary: A tool to sync a notion collection to markdown files
+Home-page: https://github.com/adjective-object/notion-sync
+Author: Maxwell Huang-Hobbs
+Author-email: mhuan13+pypy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: notion
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: beautifulsoup4 (==4.7.1)
+Requires-Dist: black (==19.3b0)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: cached-property (==1.5.1)
+Requires-Dist: certifi (==2019.3.9)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.0)
+Requires-Dist: commonmark (==0.8.1)
+Requires-Dist: dictdiffer (==0.8.0)
+Requires-Dist: future (==0.17.1)
+Requires-Dist: idna (==2.8)
+Requires-Dist: python-slugify (==3.0.0)
+Requires-Dist: pytz (==2018.9)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: soupsieve (==1.8)
+Requires-Dist: text-unidecode (==1.2)
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: tzlocal (==2.0.0b1)
+Requires-Dist: urllib3 (==1.24.1)
+
+# notion-sync
+
+A tool to sync a notion collection to markdown files
+
+## Setting up Notion
+
+- Create a collection table view
+- Add columns for
+  - Publish Date (type date)
+  - Status (type select, with Published as an option)
+  - Tags (type multi_select)
+
+## Setting up the Tool
+
+- copy `config-example.json` to `config.json`
+- set token_v2 to the value of your token_v2 token on a logged-in session of notion
+- set sync_root to the url of a collection view page (the database-as-rows page)
+
+In the same directory as your config file, run:
+
+```
+pip install notion-sync
+notion_sync
+```
+
+
