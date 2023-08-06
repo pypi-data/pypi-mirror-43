@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: gliaml
+Version: 0.0.1
+Summary: GliaML - Python Machine Learning Library
+Home-page: https://github.com/Archiecool4/gliaml
+Author: Archie Shahidullah
+Author-email: archie@caltech.edu
+License: http://www.apache.org/licenses/LICENSE-2.0
+Description: GliaML
+        ------
+        
+        GliaML is simple, yet powerful machine learning library written in Python.
+        
+        Currently, it allows a user to easily create a multi-layer perceptron neural network with
+        the following features:
+        
+            1. Allow backpropagation with the sigmoid, tanh, and ReLU activation functions.
+            2. Allow normalisation of a classifier with the softmax function.
+            3. Allow learning rate hyperparameter functionality (including biases)
+        
+        See example.py for usage.
+Keywords: machine learning neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6

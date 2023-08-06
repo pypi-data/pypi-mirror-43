@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gliaml.egg-info/PKG-INFO
+gliaml.egg-info/SOURCES.txt
+gliaml.egg-info/dependency_links.txt
+gliaml.egg-info/not-zip-safe
+gliaml.egg-info/requires.txt
+gliaml.egg-info/top_level.txt
+mlp/__init__.py
+mlp/activations.py
+mlp/network_utils.py
