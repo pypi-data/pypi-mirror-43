@@ -1,0 +1,8 @@
+flask_opencv_streamer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_opencv_streamer/login_manager.py,sha256=aGMoQyhNsFQUazAZrNC8W7YRRezCeY27usesYs5nojQ,3480
+flask_opencv_streamer/streamer.py,sha256=KBJZh1y7dWLMEbtiUFTxUxi99Zso8gfTRoJJrUlFGTI,7315
+flask_opencv_streamer-1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flask_opencv_streamer-1.3.dist-info/METADATA,sha256=xc3znbJzrciunfuyGnn-CzoUPWhRWodDtXnDuIGPUdY,2637
+flask_opencv_streamer-1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+flask_opencv_streamer-1.3.dist-info/top_level.txt,sha256=9HArLk1b94boZn84f9JIxxVuk5qwMFeBnawvDIifvDE,22
+flask_opencv_streamer-1.3.dist-info/RECORD,,
