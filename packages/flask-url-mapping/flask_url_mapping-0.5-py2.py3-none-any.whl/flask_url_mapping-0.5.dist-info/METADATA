@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-url-mapping
+Version: 0.5
+Summary: Django-style url handling for Flask
+Home-page: https://github.com/jboegeholz/flaskurls
+Author: Joern Boegeholz
+Author-email: boegeholz.joern@gmail.com
+License: MIT
+Download-URL: https://github.com/jboegeholz/flaskurls/archive/0.2.tar.gz
+Platform: UNKNOWN
+Requires-Dist: Flask
+Requires-Dist: Flask-Login
+
+UNKNOWN
+
+
