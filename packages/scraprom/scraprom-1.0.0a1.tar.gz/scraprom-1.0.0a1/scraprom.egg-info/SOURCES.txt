@@ -1,0 +1,12 @@
+README.md
+setup.py
+scraprom/__init__.py
+scraprom/defaults.py
+scraprom/exporter.py
+scraprom/myapp.py
+scraprom.egg-info/PKG-INFO
+scraprom.egg-info/SOURCES.txt
+scraprom.egg-info/dependency_links.txt
+scraprom.egg-info/not-zip-safe
+scraprom.egg-info/requires.txt
+scraprom.egg-info/top_level.txt
