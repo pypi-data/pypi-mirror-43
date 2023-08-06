@@ -1,0 +1,3 @@
+[console_scripts]
+beepdrive = beepdrive:main
+
