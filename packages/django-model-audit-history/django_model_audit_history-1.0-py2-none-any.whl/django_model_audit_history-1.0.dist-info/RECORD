@@ -1,0 +1,12 @@
+audit_history/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audit_history/apps.py,sha256=rXrpjbAd_hHJlWN_v7lReLBLruZ4izVxUXUgRlFwtkA,165
+audit_history/fields.py,sha256=nSesM6jbCJUDmnqTzAlYuDb27MCYm1jfbJ0cLTbVMB8,836
+audit_history/mixins.py,sha256=MFWloLv75-xcir5LqXcmQABybKEFiygALgpqWTBYyno,5651
+audit_history/settings.py,sha256=QmHobwmH8n_hNRwLAwUOBOQDdhynEPIr59y9unSvNBQ,106
+audit_history/utils.py,sha256=xeMAkyUPsNEl1E7mdSWpEc6BjZISruzrV565PwMaQKY,746
+audit_history/widgets.py,sha256=VvZ3h9Ou6S7J6MgNFP2_4q07hNK5opBXg8uZ-VBrtVI,1300
+audit_history/templates/widget.html,sha256=BNh3qoSX-vx-waPY2rmuTQYV5BE35SD-CLYCK_N0hrg,420
+django_model_audit_history-1.0.dist-info/METADATA,sha256=HmWHU7hdlYmjYzEIQ-D0V6LjjNqIwHMIrW2pBcguHXE,2852
+django_model_audit_history-1.0.dist-info/RECORD,,
+django_model_audit_history-1.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_model_audit_history-1.0.dist-info/top_level.txt,sha256=SgMD8I_bhyVMWU_pIjRFgkhSuwQLzue1EPiG4vkGVHM,14
