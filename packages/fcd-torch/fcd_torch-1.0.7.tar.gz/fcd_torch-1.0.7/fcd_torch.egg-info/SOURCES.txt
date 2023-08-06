@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+fcd_torch/ChemNet_v0.13_pretrained.pt
+fcd_torch/__init__.py
+fcd_torch/fcd.py
+fcd_torch/keras2pytorch.py
+fcd_torch/torch_layers.py
+fcd_torch/utils.py
+fcd_torch.egg-info/PKG-INFO
+fcd_torch.egg-info/SOURCES.txt
+fcd_torch.egg-info/dependency_links.txt
+fcd_torch.egg-info/requires.txt
+fcd_torch.egg-info/top_level.txt
