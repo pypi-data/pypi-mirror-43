@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: bluesocket
+Version: 0.0.1
+Summary: Django Channels logger
+Home-page: https://github.com/3megawatt/bluesocket
+Author: Emin Bugra Saral
+Author-email: eminbugrasaral@me.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: channels
+
+# bluesocket
+Logger for Django Channels
+
+Push your logging through socket connection.
+
+```
+from bluesocket import Logger, logging`
+
+logger = Logger(consumer, "name", level=logging.DEBUG)
+logger.debug('message')
+```
+
+# Supported Consumers
+
+`from channels.generic.websocket import WebsocketConsumer, JsonWebsocketConsumer`
+
+# Install
+
+`pip install bluesocket`
+
+
