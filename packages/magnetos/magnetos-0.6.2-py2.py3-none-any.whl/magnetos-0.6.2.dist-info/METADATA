@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: magnetos
+Version: 0.6.2
+Summary: Some hacker scripts.
+Home-page: https://github.com/restran/magnetos
+Author: restran
+Author-email: grestran@gmail.com
+License: MIT
+Keywords: python utils
+Platform: any
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: requests
+Requires-Dist: future
+Requires-Dist: validators
+Requires-Dist: mountains
+
+magnetos
+========
+
+|travis-ci| |Coverage Status|
+
+Toolkit for security scripts developing.
+
+
+
