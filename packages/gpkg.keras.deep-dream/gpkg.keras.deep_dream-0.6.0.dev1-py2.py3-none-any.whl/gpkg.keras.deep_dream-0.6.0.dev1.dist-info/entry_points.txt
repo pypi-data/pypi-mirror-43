@@ -1,0 +1,3 @@
+[guild.models]
+deep-dream = guild.model:PackageModel
+
