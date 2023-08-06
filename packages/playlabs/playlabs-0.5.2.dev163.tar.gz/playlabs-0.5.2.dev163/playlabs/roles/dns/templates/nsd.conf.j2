@@ -1,0 +1,16 @@
+# {{ ansible_managed }}
+server:
+  server-count: 1
+  ip4-only: yes
+  hide-version: yes
+  identity: ""
+  zonesdir: "/zones"
+
+remote-control:
+  control-enable: yes
+
+{% for zone in bind_zone_domains %}
+zone:
+  name: {{ zone.name }}
+  zonefile: db.{{ zone.name }}
+{% endfor %}
