@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+global_apbd_logging/__init__.py
+global_apbd_logging/nabire_logging.py
+global_apbd_logging.egg-info/PKG-INFO
+global_apbd_logging.egg-info/SOURCES.txt
+global_apbd_logging.egg-info/dependency_links.txt
+global_apbd_logging.egg-info/entry_points.txt
+global_apbd_logging.egg-info/requires.txt
+global_apbd_logging.egg-info/top_level.txt
