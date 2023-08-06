@@ -1,0 +1,9 @@
+README.md
+setup.py
+fern/__init__.py
+fern/fern.py
+fern_labextension.egg-info/PKG-INFO
+fern_labextension.egg-info/SOURCES.txt
+fern_labextension.egg-info/dependency_links.txt
+fern_labextension.egg-info/requires.txt
+fern_labextension.egg-info/top_level.txt
