@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: demo_generacion_libreria
+Version: 0.0.1
+Summary: Module to show how to create a library
+Home-page: UNKNOWN
+Author: Pablo Suana
+Author-email: pablo.suana@luceit.es
+License: UNKNOWN
+Description: ## Demo construccion librerÃ­a 
+        
+        En esta demo se va a explicar como generar una libreria instalable con el comando `pip install`.
+        AsÃ­ como cÃ³mo subirÃ­amos la librerÃ­a generada a PyPI para que sea instalable desde el repositorio online.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
