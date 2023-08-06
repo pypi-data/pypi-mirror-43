@@ -1,0 +1,7 @@
+setup.py
+HLTV_csgo_results.egg-info/PKG-INFO
+HLTV_csgo_results.egg-info/SOURCES.txt
+HLTV_csgo_results.egg-info/dependency_links.txt
+HLTV_csgo_results.egg-info/top_level.txt
+hltv-stats/__init__.py
+hltv-stats/hltv.py
