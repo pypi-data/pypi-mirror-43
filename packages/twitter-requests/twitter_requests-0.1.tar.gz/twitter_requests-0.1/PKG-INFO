@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: twitter_requests
+Version: 0.1
+Summary: Simple python lib for acquire your twitter data
+Home-page: https://github.com/ebysofyan
+Author: ebysofyan
+Author-email: eby.sofyan@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: twitter-lib,simple api,twitter requests
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
