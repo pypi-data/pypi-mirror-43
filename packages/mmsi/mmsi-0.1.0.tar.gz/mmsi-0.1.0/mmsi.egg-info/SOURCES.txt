@@ -1,0 +1,6 @@
+setup.py
+mmsi/__init__.py
+mmsi.egg-info/PKG-INFO
+mmsi.egg-info/SOURCES.txt
+mmsi.egg-info/dependency_links.txt
+mmsi.egg-info/top_level.txt
