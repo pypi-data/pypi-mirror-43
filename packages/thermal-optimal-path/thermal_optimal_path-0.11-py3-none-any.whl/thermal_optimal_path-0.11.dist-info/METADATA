@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thermal-optimal-path
+Version: 0.11
+Summary: Dynamic lead/lag inference for time series
+Home-page: https://github.com/amwatt/thermal_optimal_path
+Author: Alexis
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: numba
+
+UNKNOWN
+
+
