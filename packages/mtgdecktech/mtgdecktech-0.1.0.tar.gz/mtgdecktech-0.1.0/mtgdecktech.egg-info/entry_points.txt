@@ -1,0 +1,3 @@
+[console_scripts]
+mtgdecktech = mtgdecktech.cli:main
+
