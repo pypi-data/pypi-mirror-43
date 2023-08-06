@@ -1,0 +1,3 @@
+[console_scripts]
+awslog = awslog:main
+

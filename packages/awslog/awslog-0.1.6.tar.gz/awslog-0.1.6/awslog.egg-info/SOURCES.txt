@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+awslog/__init__.py
+awslog.egg-info/PKG-INFO
+awslog.egg-info/SOURCES.txt
+awslog.egg-info/dependency_links.txt
+awslog.egg-info/entry_points.txt
+awslog.egg-info/requires.txt
+awslog.egg-info/top_level.txt
