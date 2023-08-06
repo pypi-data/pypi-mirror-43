@@ -1,0 +1,15 @@
+[
+  "test_gffpandas.py::test_read_gff3_if_df_type",
+  "test_gffpandas.py::test_generate_gff_header",
+  "test_gffpandas.py::test_if_df_values_equal_gff_values",
+  "test_gffpandas.py::test_to_csv",
+  "test_gffpandas.py::test_to_tsv",
+  "test_gffpandas.py::test_to_gff3",
+  "test_gffpandas.py::test_filter_feature_of_type",
+  "test_gffpandas.py::test_filter_by_length",
+  "test_gffpandas.py::test_get_feature_by_attribute",
+  "test_gffpandas.py::test_attributes_to_columns",
+  "test_gffpandas.py::test_stats_dic",
+  "test_gffpandas.py::test_overlaps_with",
+  "test_gffpandas.py::test_find_duplicated_entries"
+]
