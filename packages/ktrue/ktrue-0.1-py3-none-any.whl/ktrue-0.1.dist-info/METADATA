@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ktrue
+Version: 0.1
+Summary: A Helm template generating for local Company App Package
+Home-page: https://github.com/javatechy/dokr
+Author: gtn
+Author-email: gtn3010@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: yamlordereddictloader
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+

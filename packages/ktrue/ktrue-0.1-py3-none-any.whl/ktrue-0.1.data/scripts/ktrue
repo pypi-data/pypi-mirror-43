@@ -1,0 +1,124 @@
+#!python
+
+import argparse
+import yaml
+import yamlordereddictloader
+import os
+from collections import OrderedDict
+from shutil import copyfile
+from itertools import chain
+
+parser = argparse.ArgumentParser(description='This Script is for generating Application Helm Template', epilog="This tool needs to run in helm-chart Application directory")
+
+parser.add_argument('--name', '-n', help='name of the Application and this is also Chart name', metavar='APP NAME', required=True)
+parser.add_argument('--project', '-p', help='name of the Project that application belongs to', metavar='PROJECT NAME', required=True)
+parser.add_argument('--route', '-r', help='This is list contains url and type of route if needed', metavar=('DOMAIN_NAME', 'TYPE(PRIVATE,PUBLIC,GENERAL,PARTNER)'), nargs=2)
+parser.add_argument('--replica', '-rep', help='name of the Application and this is also Chart name', metavar='NUMBER', type=int, required=True)
+parser.add_argument('--env', '-e', help='environment name like dev,qa,staging,production', metavar='ENV NAME')
+parser.add_argument('--cpu', '-c', help='cpu request/limit of that Application like 512m/1024m', metavar=('REQUEST_CPU', 'LIMIT_CPU'), nargs=2, required=True)
+parser.add_argument('--mem', '-m', help='memory request/limit of that Application like 1Gi/2Gi', metavar=('REQUEST_MEM', 'LIMIT_MEM'), nargs=2, required=True)
+parser.add_argument('-pv', help='pv and pvc information of that Application: mountPath capacity capacity_claim nfs_path like campaign-pv /var/log/app 30Gi 20Gi /home/nfs/campaign', metavar=('MOUNTPATH', 'CAPACITY', 'CAPACITY_CLAIM', 'NFS_PATH'), nargs=4)
+
+# parse all arguments you passed to a variable
+argument = parser.parse_args()
+
+# yamlordereddictloader: parse yaml file to dict with ordered (OrderedDict)
+with open("values.yml", "r") as values_file:
+  values = yaml.load(values_file, Loader=yamlordereddictloader.Loader)
+
+replica = OrderedDict({'replicas': argument.replica})
+
+image_params = {'repository': 'docker-registry.default.svc:5000/{{.Values.%s.namespace}}/{{.Chart.Name}}' % argument.project, 'tag': 'v1.0'}
+image = {'image': OrderedDict(image_params)}
+
+# OrderedDict: dict but ordered
+resourcequota_request_params = {'cpu': argument.cpu[0], 'memory': argument.mem[0]}
+resourcequota_request = {'requests': OrderedDict(resourcequota_request_params)}
+resourcequota_limit_params =  {'cpu': argument.cpu[1], 'memory': argument.mem[1]}
+resourcequota_limit = {'limits': OrderedDict(resourcequota_limit_params)}
+resourcequota_params = OrderedDict(chain(resourcequota_request.items(), resourcequota_limit.items()))
+resourcequota = {'resourcequota': resourcequota_params }
+
+if argument.route is not None:
+  route_params = {'name': argument.route[0], 'type': argument.route[1]}
+  route = {'route': OrderedDict(route_params)}
+else:
+  print("This Application doesn't use Route")
+
+if argument.pv is not None:
+  pv_params = {'mountPath': argument.pv[0] ,'capacity': argument.pv[1], 'capacity_claim': argument.pv[2], 'nfs_path': argument.pv[3]}
+  pv = {'pv': OrderedDict(pv_params)}
+else:
+  print("This Application doesn't use PersistentVolume")
+
+# chain: chained all of this items to a object chain
+app_params = chain(replica.items(), image.items(), resourcequota.items())
+
+if argument.route is not None:
+  app_params = chain(app_params, route.items())
+else:
+  app_params = app_params
+
+if argument.pv is not None:
+  app_params = chain(app_params, pv.items())
+else:
+  app_params = app_params
+
+app_params = OrderedDict(app_params)
+app = {argument.name: app_params}
+
+def generate_file(project,name,route,pv):
+  app_dir = project + '/' + name
+  app_dir_obj = project + '/' + name + '/templates'
+  os.makedirs(app_dir_obj, exist_ok=True)
+
+  copyfile('template-app/templates/application-dc.yml', app_dir_obj + '/application-dc.yml')
+  # replace string in file as we want
+  with open(app_dir_obj + '/application-dc.yml') as f:
+    newText = f.read().replace('#project_name#', project)
+  with open(app_dir_obj + '/application-dc.yml', 'wt') as f:
+    f.write(newText)
+
+  copyfile('template-app/templates/application-service.yml', app_dir_obj + '/application-service.yml')
+  with open(app_dir_obj + '/application-service.yml') as f:
+    newText = f.read().replace('#project_name#', project)
+  with open(app_dir_obj + '/application-service.yml', 'wt') as f:
+    f.write(newText)
+
+  copyfile('template-app/Chart.yml', app_dir + '/Chart.yml')
+  with open(app_dir + '/Chart.yml') as f:
+    newText = f.read().replace('#project_name#', project).replace('#app_name#', name)
+  with open(app_dir + '/Chart.yml', 'wt') as f:
+    f.write(newText)
+
+  if route is not None:
+    copyfile('template-app/templates/application-route.yml', app_dir_obj + '/application-route.yml')
+    with open(app_dir_obj + '/application-route.yml') as f:
+      newText = f.read().replace('#project_name#', project)
+    with open(app_dir_obj + '/application-route.yml', 'wt') as f:
+      f.write(newText)
+
+  if pv is not None:
+    copyfile('template-app/templates/application-pvc.yml', app_dir_obj + '/application-pvc.yml')
+    with open(app_dir_obj + '/application-pvc.yml') as f:
+      newText = f.read().replace('#project_name#', project)
+    with open(app_dir_obj + '/application-pvc.yml', 'wt') as f:
+      f.write(newText)
+
+if argument.project not in values:
+  print("Add new Project")
+  app_project = {argument.project: OrderedDict(app)}
+  values.update(app_project)
+  generate_file(argument.project, argument.name, argument.route, argument.pv)
+
+else:
+  if argument.name not in values[argument.project]:
+    values[argument.project].update(app)
+    generate_file(argument.project, argument.name, argument.route, argument.pv)
+
+  else:
+    values[argument.project][argument.name] = app_params
+
+# write OrderedDict we have dumped from first again to the values.yml file
+with open('values.yml', 'wt') as f:
+  yaml.dump(values, f, Dumper=yamlordereddictloader.Dumper, default_flow_style=False)
