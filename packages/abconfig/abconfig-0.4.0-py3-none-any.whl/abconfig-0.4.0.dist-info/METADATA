@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: abconfig
+Version: 0.4.0
+Summary: Dad for your config
+Home-page: https://github.com/kudato/abconfig.git
+Author: Alexander Shevchenko
+Author-email: kudato@me.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml (>=4.2b1)
+
+## ABConfig
+
+#### Install
+
+```bash
+pip install abconfig
+```
+
+#### Example:
+
+```python
+from abconfig import ABConfig
+
+class DBConf(ABConfig):
+	path 
+    redis = '127.0.0.1:6379'
+    postgres = dict(
+		user='db_user',
+        password='db_password'
+        host='localhost',
+        port='5432',
+    )
+```
+
+This class will be read file:
+
+##### Json
+
+```json
+{ 
+    "redis": "172.17.0.1:6379",
+    "postgres": {
+		"user": "db_user",
+        "password": "db_password",
+        "host": "172.17.0.1",
+        "port": "5432"
+    }
+}
+```
+
+or
+
+##### Yaml 
+
+```yaml
+redis: "172.17.0.1:6379"
+postgres:
+  user: "db_user"
+  password: "db_password"
+  host: "172.17.0.1"
+  port: "5432"
+```
+
+Create instance and use ```.get()``` or ```.get(key, default)```
+
+```python
+>> conf = DBConf()
+>> conf.get()
+{'redis': '172.17.0.1:6379', 'postgres': {'user': 'db_user', 'password': 'db_password', 'host': '172.17.0.1', 'port': '5432'}}
+>> conf.get('redis')
+172.17.0.1:6379
+>> conf['postgres']['user']
+db_user
+```
+
+**To override** value with environment variables, add them to os env in uppercase:
+
+```bash
+REDIS="172.17.0.3:6379"
+POSTGRES_HOST="172.17.0.3"
+POSTGRES_PORT="5432"
+```
+
+and create new class instance
+
+```python
+>> conf = DBConf()
+>> conf.get()
+{'redis': '172.17.0.3:6379', 'postgres': {'user': 'db_user', 'password': 'db_password', 'host': '172.17.0.3', 'port': '5432'}}
+```
+
+
+
