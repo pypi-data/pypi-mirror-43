@@ -1,0 +1,3 @@
+[console_scripts]
+multivolumecopy = multivolumecopy.cli:CommandlineInterface.show
+

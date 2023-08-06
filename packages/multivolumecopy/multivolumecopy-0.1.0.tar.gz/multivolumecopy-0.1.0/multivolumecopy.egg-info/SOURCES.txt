@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+data/autocomplete.zsh/_multivolumecopy
+multivolumecopy/__init__.py
+multivolumecopy/__main__.py
+multivolumecopy/cli.py
+multivolumecopy/filesystem.py
+multivolumecopy/mvcopy.py
+multivolumecopy.egg-info/PKG-INFO
+multivolumecopy.egg-info/SOURCES.txt
+multivolumecopy.egg-info/dependency_links.txt
+multivolumecopy.egg-info/entry_points.txt
+multivolumecopy.egg-info/top_level.txt
