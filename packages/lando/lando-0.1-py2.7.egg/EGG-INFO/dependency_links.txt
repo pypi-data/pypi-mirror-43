@@ -1,0 +1,1 @@
+https://github.com/Duke-GCB/lando-messaging/tarball/master#egg=lando-messaging
