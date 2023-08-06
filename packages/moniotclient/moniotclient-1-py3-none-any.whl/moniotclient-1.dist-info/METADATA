@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: moniotclient
+Version: 1
+Summary: IOT client
+Home-page: http://github.com/ayhant
+Author: Ayhan Taşyurt
+Author-email: ayhantsyurt@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: paho-mqtt
+
+MIT Lıcense
+
+
