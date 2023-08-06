@@ -1,0 +1,13 @@
+jsfiddle/__init__.py,sha256=8j5LhGQUIAIERbVc7y6I795escBQbVYPxEC29BffFrY,808
+jsfiddle/details/__init__.py,sha256=rOjqwxB-uhKn1IFghnNdabVHGNIzHuPBF5OE9WB2HOo,637
+jsfiddle/details/description.py,sha256=sJQkNfxgQjIwbhdjJ_erHQRCJ-aetwM7CcVy6ie8Scs,815
+jsfiddle/details/name.py,sha256=MtmzRcB5QAmGsD6qaYv3NgCOoCRDedY8VhpGj5Ljjh4,766
+jsfiddle/details/resources.py,sha256=bWmLh-o4BtzE_AfIu1im12MUBMgsh0X1aSPA4kyOkAo,880
+jsfiddle_build/__init__.py,sha256=1qR-yzSN442T4jakPTn_ilEvNpF5XXDI43eaQ_Xvzjg,1931
+jsfiddle_build/__main__.py,sha256=RMHX-UVn8YB0ilwfeGxzAGvbDzEVhqYo9vMEzPV6kWo,723
+jsfiddle_generator/__init__.py,sha256=9a7leuNmRbQqgs_PMoiabI2hziUKFNvLQNwIzqb2YeM,2110
+jsfiddle_generator/__main__.py,sha256=LPwHAS31nd9PKUrzgz_AeCCdb8MTvTc7b11-vavMcgk,759
+jsfiddle_build-2019.3.25.dist-info/METADATA,sha256=36QXwbDL5YkAeXdy0_OMj2X8kVOR81jfUNabpdPyOL0,2844
+jsfiddle_build-2019.3.25.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+jsfiddle_build-2019.3.25.dist-info/top_level.txt,sha256=CMezDC94Alqlh_XldaMn8ckCOXxI1kaVuIJLGSUCHDo,15
+jsfiddle_build-2019.3.25.dist-info/RECORD,,
