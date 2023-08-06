@@ -1,0 +1,12 @@
+README.md
+setup.py
+atcnoseplugin/__init__.py
+atcnoseplugin/category.py
+atcnoseplugin/fileoutput.py
+atcnoseplugin/planloader.py
+atcnoseplugin/tools.py
+atcnoseplugin.egg-info/PKG-INFO
+atcnoseplugin.egg-info/SOURCES.txt
+atcnoseplugin.egg-info/dependency_links.txt
+atcnoseplugin.egg-info/entry_points.txt
+atcnoseplugin.egg-info/top_level.txt
