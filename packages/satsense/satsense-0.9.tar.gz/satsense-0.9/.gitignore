@@ -1,0 +1,16 @@
+*.asv
+.coverage*
+doc/_build/
+.DS_Store
+.eggs/
+.hypothesis
+.ipynb_checkpoints/
+.project
+*.pyc
+__pycache__
+.pydevproject
+.pytest_cache/
+satsense.egg-info/
+test-reports/
+.vscode
+*.aux.xml

@@ -1,0 +1,23 @@
+---
+
+name: satsense
+channels:
+  - ioos
+
+dependencies:
+  - affine
+  - descartes
+  - fiona
+  - netcdf4
+  - numpy
+  - opencv<3.4.3
+  - python>=3.6
+  - rasterio
+  - scikit-image>=0.14.2
+  - scikit-learn
+  - scipy
+  - shapely
+  # Notebooks
+  - jupyter
+  - matplotlib
+  - nb_conda
