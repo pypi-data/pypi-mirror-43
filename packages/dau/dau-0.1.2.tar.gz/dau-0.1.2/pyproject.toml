@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dau"
+version = "0.1.2"
+description = "Automatic user creation at Django startup."
+authors = ["AndreGuerra123 <guerraandre@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/AndreGuerra123/dau"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+django = "^2.1"
+
+[tool.poetry.dev-dependencies]
+coverage = "^4.5"
+codecov = "^2.0"
+tox = "^3.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
