@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: gluster-health-report
+Version: 0.6
+Summary: Gluster Health Report tools
+Home-page: https://github.com/gluster/gluster-health-report
+Author: Gluster Developers
+Author-email: gluster-devel@gluster.org
+License: GPLv2
+Description: 
+            Gluster Health Report
+            
+Keywords: gluster,tool,health
+Platform: linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
