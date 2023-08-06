@@ -1,0 +1,11 @@
+mypackage/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+mypackage/__version__.py,sha256=MWtVuNTwIrVccpbrZEjmZf2_2L1Nm2iOdKPOA1tF_VA,352
+mypackage/core.py,sha256=zwkNiF4FUWP3XOhqeWf7lWtW-LI5hPCnU6bdRe23Ens,7145
+turiean/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+turiean/__version__.py,sha256=MWtVuNTwIrVccpbrZEjmZf2_2L1Nm2iOdKPOA1tF_VA,352
+turiean/core.py,sha256=zwkNiF4FUWP3XOhqeWf7lWtW-LI5hPCnU6bdRe23Ens,7145
+turiean-5.3.0.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+turiean-5.3.0.dist-info/METADATA,sha256=taEeWHRWpvx66h8qFoACB0zXOFw9qpxaABStsLTC9M0,2965
+turiean-5.3.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+turiean-5.3.0.dist-info/top_level.txt,sha256=0sG0RV6m4INnPfxEvWA3F9yTLdyIBR7TSY_4odLZkrY,8
+turiean-5.3.0.dist-info/RECORD,,
