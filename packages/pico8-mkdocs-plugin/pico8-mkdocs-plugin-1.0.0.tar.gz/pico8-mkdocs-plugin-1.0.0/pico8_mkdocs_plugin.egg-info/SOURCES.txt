@@ -1,0 +1,10 @@
+README.md
+setup.py
+pico8/__init__.py
+pico8/pico8.py
+pico8_mkdocs_plugin.egg-info/PKG-INFO
+pico8_mkdocs_plugin.egg-info/SOURCES.txt
+pico8_mkdocs_plugin.egg-info/dependency_links.txt
+pico8_mkdocs_plugin.egg-info/entry_points.txt
+pico8_mkdocs_plugin.egg-info/requires.txt
+pico8_mkdocs_plugin.egg-info/top_level.txt
