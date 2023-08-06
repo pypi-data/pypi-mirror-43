@@ -1,0 +1,8 @@
+README.md
+setup.py
+dea/__init__.py
+dea/dea.py
+ezdea.egg-info/PKG-INFO
+ezdea.egg-info/SOURCES.txt
+ezdea.egg-info/dependency_links.txt
+ezdea.egg-info/top_level.txt
