@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: zdsync
+Version: 0.0.2
+Summary: Command-line tool for syncing Zendesk environments
+Home-page: https://github.com/easypost/zdsync
+Author: Andrew Tribone
+Author-email: oss@easypost.com
+License: ISC
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Requires-Python: >3.5
