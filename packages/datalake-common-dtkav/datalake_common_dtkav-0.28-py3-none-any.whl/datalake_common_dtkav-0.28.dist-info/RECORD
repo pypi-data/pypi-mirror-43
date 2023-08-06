@@ -1,0 +1,15 @@
+datalake_common_dtkav-0.28.dist-info/RECORD,,
+datalake_common_dtkav-0.28.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
+datalake_common_dtkav-0.28.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+datalake_common_dtkav-0.28.dist-info/metadata.json,sha256=rkxv6v3PiLY9TuByi83ctZOzE5MF7RJIloKBDswTUmk,705
+datalake_common_dtkav-0.28.dist-info/METADATA,sha256=qZl6TnuyUu-IGAMZUK7elpuMKhXdRcycq8YXc0GIJMM,682
+datalake_common_dtkav-0.28.dist-info/top_level.txt,sha256=LdNjz2mRe2lpzSDCl6BnYRwk7d9p-6Xwvkq80pLW2E4,16
+datalake_common/__init__.py,sha256=tGonu204zAMuSrC1UTN6Im_wiB5bHqG5RF0uEfFVUWo,873
+datalake_common/errors.py,sha256=kiHiT2V36rBBV4DVH51ZBp4oKSKsRT_gWQyTy8JyscI,735
+datalake_common/metadata.py,sha256=Gd5Ds-NB-0dGaDokSadwZqB48bbQpNmJ_d4-sE19S_g,6433
+datalake_common/conf.py,sha256=9K93qZuQFQINBV8DOexKFSVTkKdGQ7piyFc8_6lUPvQ,2968
+datalake_common/_version.py,sha256=PbSnxzcoZGDy_tBgB8P8_o2gD9xDiJOa3s3xl1ZQTuk,470
+datalake_common/tests/__init__.py,sha256=YZJq42xyepJFUsS-uHx7ujHgoxH-b39WWEpqCWhqYUk,615
+datalake_common/tests/test_metadata.py,sha256=EUKf7SK-sIw6aFt7pz6JtoH_P-dYufo2HansJ-nRPZc,5692
+datalake_common/tests/test_conf.py,sha256=vLMvNVwD0Xqm-4ve5qXlaNiwjtra7FvMA2k3X1DcB7Y,2116
+datalake_common/tests/conftest.py,sha256=w0-fTNGR-omehowqiBznkM7RKbY3CR3OUMJZ_COwvFw,4074
