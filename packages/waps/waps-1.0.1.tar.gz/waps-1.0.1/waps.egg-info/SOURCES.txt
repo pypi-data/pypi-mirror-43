@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+waps/__init__.py
+waps/waps.py
+waps.egg-info/PKG-INFO
+waps.egg-info/SOURCES.txt
+waps.egg-info/dependency_links.txt
+waps.egg-info/requires.txt
+waps.egg-info/top_level.txt
