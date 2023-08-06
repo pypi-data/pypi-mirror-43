@@ -1,0 +1,23 @@
+twine
+flake8
+flake8-awesome; python_version > '3.0'
+flake8-formatter-junit-xml
+flake8-self; python_version > '3.0'
+flake8-isort
+flake8-eradicate; python_version > '3.0'
+flake8-alfred; python_version > '3.0'
+flake8-tabs; python_version > '3.0'
+flake8-builtins
+flake8-commas
+pylint>=2.3.0; python_version >= '3.4'
+pylint_junit; python_version >= '3.4'
+python-language-server[all]
+backports.tempfile; python_version < '3.0'
+coverage
+doit==0.29; python_version < '3.0'
+doit>0.29; python_version > '3.0'
+unittest-xml-reporting
+flaky
+pyfakefs==3.5.2
+gitchangelog
+-r requirements.txt
