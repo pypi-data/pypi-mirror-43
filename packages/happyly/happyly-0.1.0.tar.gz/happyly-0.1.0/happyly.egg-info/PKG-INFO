@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: happyly
+Version: 0.1.0
+Summary: Python library for Pub/Sub message handling
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: # happyly
+        HAndlers for Pub/sub as a PYthon LibrarY
+        
+        Check out [tutorial](Tutorial.ipynb)
+        
+Keywords: google pubsub
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Object Brokering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
