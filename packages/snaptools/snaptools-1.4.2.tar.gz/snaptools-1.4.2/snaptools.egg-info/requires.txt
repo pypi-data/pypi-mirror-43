@@ -1,0 +1,6 @@
+pysam
+h5py
+numpy
+pybedtools>=0.8
+python-louvain
+future
