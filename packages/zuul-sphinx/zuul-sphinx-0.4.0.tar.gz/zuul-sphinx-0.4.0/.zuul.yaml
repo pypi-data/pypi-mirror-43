@@ -1,0 +1,10 @@
+- project:
+    check:
+      jobs:
+        - tox-docs
+    gate:
+      jobs:
+        - tox-docs
+    post:
+      jobs:
+        - publish-zuul-docs
