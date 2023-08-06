@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: time-series
+Version: 0.1
+Summary: Python implementation of a sliding window.
+Home-page: https://github.com/ani071/timeseries
+Author: Andreas Isnes Nilsen
+Author-email: andnil94@gmail.com
+License: UNKNOWN
+Keywords: window,time,series
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Coverage](https://img.shields.io/badge/coverage-100-brightgreen.svg)
+![Version](https://img.shields.io/badge/Version-0.1-brightgreen.svg)
+
+# Time Series
+A simple python implementation of a sliding window.
+
+# Installation
+```bash
+pip install timeseries
+```
+
+# Examples
+
+```python
+import timeseries
+
+# max 10 data points
+fixed_window = timeseries.Fixed(10)
+
+# removes added data points after 10 seconds
+timer_window = timeseries.Timer(10)
+
+# deletes data points after 10 iterations
+for i in range(100):
+    current_window = fixed_window.slide(i)
+
+# deletes data points after 10 seconds have elapsed.
+for i in range(100):
+    current_window = timer_window.slide(i)
+
+# prints 89...99
+for i in fixed_window:
+    print(i)
+
+# will most likely print 0...99
+for i in timer_window:
+    print(i)
+
+if fixed_window.is_full:
+    print("fixed window is full")
+
+# shrinks the number of elements to 2 (threadsafe)
+fixed_window.maxsize = 2
+
+# print current number of items
+print(timer_window.size, len(timer_window))
+```
+
+
