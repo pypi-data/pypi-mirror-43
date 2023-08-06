@@ -1,0 +1,24 @@
+# description
+README.rst
+
+# version
+include bpforms/VERSION
+
+# license
+include LICENSE
+
+# requirements
+include requirements.txt
+include requirements.optional.txt
+
+# grammar
+include bpforms/grammar.lark
+
+# alphabets
+recursive-include bpforms *.yml
+
+# website
+graft bpforms/web
+
+# examples
+graft examples
