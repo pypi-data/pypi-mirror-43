@@ -1,0 +1,10 @@
+setuptools
+Products.CMFPlone>=5.1
+plone.app.contenttypes
+
+[test]
+plone.app.testing[robot]
+plone.app.robotframework
+plone.app.contenttypes
+robotframework-selenium2library
+robotframework-selenium2screenshots
