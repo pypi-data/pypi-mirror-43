@@ -1,0 +1,13 @@
+django_settings_custom/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_settings_custom/encryption.py,sha256=MQjQavQsWu0Ubd83qWOBCXy0DQiSieQ41RzSaKT0L6Y,2432
+django_settings_custom/management/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_settings_custom/management/commands/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_settings_custom/management/commands/generate_settings.py,sha256=rO0mosMv2Aixed2dy4CMk26r842QNHOBKAxMDHbd7L4,7224
+tests/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+tests/test_encryption.py,sha256=_-HFbCFA2u1ar_Y0O88Pn639SOoQydBNwklpNdMRAiU,808
+tests/test_generate_settings.py,sha256=ODVxZnEKfdtyAohuzfWCFBItL7KcNjbFIl-MPefGt2Y,6721
+django_settings_custom-1.0.9.dist-info/LICENSE,sha256=lZTBgax7HuDarcT-3KWsuPRuCWxcSJrtpi17R6lqze0,1071
+django_settings_custom-1.0.9.dist-info/METADATA,sha256=avrRG17O-Jc5sRu89s0HidO0gnE2BDqBJWRh1oMTlrg,7638
+django_settings_custom-1.0.9.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+django_settings_custom-1.0.9.dist-info/top_level.txt,sha256=HINfAIdwjqDBD9CRYc0-wypLhecJyroLyOl52jf12uU,29
+django_settings_custom-1.0.9.dist-info/RECORD,,
