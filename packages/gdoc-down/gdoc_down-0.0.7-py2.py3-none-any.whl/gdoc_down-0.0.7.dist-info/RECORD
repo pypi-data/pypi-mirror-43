@@ -1,0 +1,10 @@
+gdoc_down/VERSION,sha256=f1ZJodDSBedllUd695XkMIHn4PVZakWooPoRv_ogNDk,5
+gdoc_down/__init__.py,sha256=yMl66seicDnr3KpIbHjrU-KoiMHlsQhArPvtxwa_64I,196
+gdoc_down/__main__.py,sha256=lt84CZ9cc2HqIiinkyH16fxwj3WnjJWQHsFXXlFnWP0,1775
+gdoc_down/client.json,sha256=8cTtmG0tAaOHC-Gz474S9_w04KoJMuvdONL9JizD6OU,429
+gdoc_down/core.py,sha256=UX4iQgH4aaOFsuiM7sn_ccgcaclCpjz3CxX0EgasvrI,12128
+gdoc_down-0.0.7.dist-info/METADATA,sha256=YyxXtxQ4ZTrYhnTG-ULTK7jJB3DUvsP_iU6ZXjrsp1I,6550
+gdoc_down-0.0.7.dist-info/RECORD,,
+gdoc_down-0.0.7.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+gdoc_down-0.0.7.dist-info/entry_points.txt,sha256=xSXc6wyatpW9JWj-Ip7NEA5wEH4FQsBkz_T-DgjRbP8,55
+gdoc_down-0.0.7.dist-info/top_level.txt,sha256=Ekd2xDRgvuLtvKzuD9xy_LATahS9oy1Pn_E4Lwl6TWg,10
