@@ -1,0 +1,10 @@
+README
+setup.py
+apiendpoints/__init__.py
+apiendpoints/client.py
+apiendpoints/tests.py
+apiendpoints.egg-info/PKG-INFO
+apiendpoints.egg-info/SOURCES.txt
+apiendpoints.egg-info/dependency_links.txt
+apiendpoints.egg-info/requires.txt
+apiendpoints.egg-info/top_level.txt
