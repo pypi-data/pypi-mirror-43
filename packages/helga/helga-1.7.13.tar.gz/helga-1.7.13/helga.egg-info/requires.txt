@@ -1,0 +1,9 @@
+Twisted
+autobahn
+cffi
+decorator==3.4.0
+pyOpenSSL
+pymongo
+pystache==0.5.4
+requests
+smokesignal
