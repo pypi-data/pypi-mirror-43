@@ -1,0 +1,13 @@
+alchemysession/__init__.py,sha256=8-dP83hOcdOjzecwba6RC24XOAXGUBkuq5ZG7qDOc1E,120
+alchemysession/core.py,sha256=DXGiVbF6SSIZZOIT2Wcf85LsO-KvNhwYLvLYCeqLWKE,7116
+alchemysession/core_mysql.py,sha256=KLZD68nixDxPoELcS6y4YtcNOhYV7eAdCaWpZIT77J8,2017
+alchemysession/core_postgres.py,sha256=wHNm4BvoSP3m2RElNICe_eSoCuMWBT1yvNyI3LufTjc,2276
+alchemysession/core_sqlite.py,sha256=zq_xy_LG0Q9pQNV7Qy1CuWRweuzh5r7PhC37VJOd7Ow,2181
+alchemysession/orm.py,sha256=LIiFDK1IaxMZXiwthaKl4zGIHjJCp7DH0qL6fyXu5-s,6486
+alchemysession/sqlalchemy.py,sha256=rXPIrmvxbWiNATSylQpXFoUv4lrBZF7y4o4GYXR_03M,7846
+telethon_session_sqlalchemy-0.2.11.dist-info/DESCRIPTION.rst,sha256=RXtOcx9bKgoPvCTQLbCm1AT1dzXNUR3Dw0bOI5yWdCA,2425
+telethon_session_sqlalchemy-0.2.11.dist-info/METADATA,sha256=8STWiT5JchmgesMfTU5M14aYZs282UP2t67V7_mGSQ8,3102
+telethon_session_sqlalchemy-0.2.11.dist-info/RECORD,,
+telethon_session_sqlalchemy-0.2.11.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+telethon_session_sqlalchemy-0.2.11.dist-info/metadata.json,sha256=D5Fu2Zq9vDtBGs2T9yZ92VWWkWFNXS0gk1YaYhFmuJo,836
+telethon_session_sqlalchemy-0.2.11.dist-info/top_level.txt,sha256=zCf3lMN-arFtHE1KInzzpeUWhuYhTKsNpfDYdJGkow8,15
