@@ -1,0 +1,9 @@
+metamatex/grpc_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/proto2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/proto2/schema_pb2.py,sha256=ago78OjCOcfy0ngQEsCQ57XnE-6kvj5Dn_x8rELYEX8,3900569
+metamatex/grpc_sdk/v2019_02/proto2/schema_pb2_grpc.py,sha256=A6be9w-cRLDAyr6uk8ISYEup2gZ-iyvXxuYR1eWM3E4,186060
+metamatex.grpc_sdk-0.0.127.dist-info/METADATA,sha256=_vzjuHVLF-Ic0wgT9tScrjmYGcb25x73Za4_1NlEyGM,282
+metamatex.grpc_sdk-0.0.127.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+metamatex.grpc_sdk-0.0.127.dist-info/top_level.txt,sha256=8gRjqVQSgUPJYXdzivbFWt_PF4rfVHbKyPMyExazhK8,10
+metamatex.grpc_sdk-0.0.127.dist-info/RECORD,,
