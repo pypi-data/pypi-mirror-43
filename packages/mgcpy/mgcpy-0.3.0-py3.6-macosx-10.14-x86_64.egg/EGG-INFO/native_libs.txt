@@ -1,0 +1,4 @@
+mgcpy/independence_tests/mgc/distance_transform.cpython-36m-darwin.so
+mgcpy/independence_tests/mgc/local_correlation.cpython-36m-darwin.so
+mgcpy/independence_tests/mgc_utils/local_correlation.cpython-36m-darwin.so
+mgcpy/independence_tests/utils/distance_transform.cpython-36m-darwin.so
