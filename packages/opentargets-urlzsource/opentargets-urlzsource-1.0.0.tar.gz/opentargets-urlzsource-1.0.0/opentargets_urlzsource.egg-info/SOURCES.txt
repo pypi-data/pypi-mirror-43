@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+opentargets_urlzsource/__init__.py
+opentargets_urlzsource/version.py
+opentargets_urlzsource.egg-info/PKG-INFO
+opentargets_urlzsource.egg-info/SOURCES.txt
+opentargets_urlzsource.egg-info/dependency_links.txt
+opentargets_urlzsource.egg-info/requires.txt
+opentargets_urlzsource.egg-info/top_level.txt
