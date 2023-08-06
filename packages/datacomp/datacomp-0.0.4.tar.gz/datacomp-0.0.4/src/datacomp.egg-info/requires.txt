@@ -1,0 +1,10 @@
+pandas
+xlrd
+numpy
+scipy
+sklearn
+matplotlib_venn
+pymatch
+matplotlib
+statsmodels
+seaborn
