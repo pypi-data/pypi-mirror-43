@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dephell-licenses
+Version: 0.1.0
+Summary: Get info about OSS licenses
+Home-page: UNKNOWN
+Author: orsinium
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: attrs
+
+
+DepHell Licenses
+================
+
+...
+
+
