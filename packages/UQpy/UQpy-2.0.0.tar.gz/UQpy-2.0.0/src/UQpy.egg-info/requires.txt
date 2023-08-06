@@ -1,0 +1,6 @@
+numpy
+scipy
+chaospy
+pyDOE
+scikit-learn
+fire
