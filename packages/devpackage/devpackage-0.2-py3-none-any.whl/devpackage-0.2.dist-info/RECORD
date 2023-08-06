@@ -1,0 +1,10 @@
+devpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devpackage/cli.py,sha256=9zUWGCs1_9noWzOpKLBsIsCtCK-qk6Epa-9o9VscFKQ,6301
+devpackage/disttools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devpackage/disttools/path.py,sha256=4EnXmqxzoChBcDmPhq4XqzwzpQ0vbyR0yMjN-hnw1_o,32
+devpackage/disttools/version.py,sha256=MEQCwjLfk4G1xWtoQJtBpDOVHu5FZ_DbOyABGHwZUu0,461
+devpackage-0.2.dist-info/METADATA,sha256=0WaIxkjecs5TYs_TWRGr6YCSemHhSazRvTxD9rP3CwA,3677
+devpackage-0.2.dist-info/RECORD,,
+devpackage-0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+devpackage-0.2.dist-info/entry_points.txt,sha256=FbPa7o5Y0QrtA4eVM-Rm19Q4Ac35poa3jxdOHzh-KJ8,45
+devpackage-0.2.dist-info/top_level.txt,sha256=xxHu3xfnCQug18CZwiS1__bJwtkbgd-Rxi1hpJHOuKs,11
