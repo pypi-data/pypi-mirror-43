@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pip_install_test
+Version: 0.1
+Summary: A minimal stub package to test success of pip install
+Home-page: https://github.com/lsst-sqre/sqre-pip_install_test
+Author: Simon Krughoff
+Author-email: krughoff@lsst.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
