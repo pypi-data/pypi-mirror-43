@@ -1,0 +1,6 @@
+numpy
+matplotlib
+scipy>=1.2
+pillow
+pyproj
+scikit-learn
