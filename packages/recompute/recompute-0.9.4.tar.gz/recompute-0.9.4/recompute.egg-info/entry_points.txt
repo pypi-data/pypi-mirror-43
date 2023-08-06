@@ -1,0 +1,3 @@
+[console_scripts]
+re = recompute.recompute:main
+
