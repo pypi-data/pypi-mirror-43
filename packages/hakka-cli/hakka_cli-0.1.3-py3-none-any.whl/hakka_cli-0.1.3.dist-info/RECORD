@@ -1,0 +1,10 @@
+hakka_cli-0.1.3.data/scripts/install.sh,sha256=YP3dLHHSliBY4o9DpcoX3BAeUAIY0tfLPREXWchQmiM,402
+hakkacli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hakkacli/main.py,sha256=KykiXFKxPqfsFmrVJe1Kgjyv7qnX8-0qliXOL4ejJvo,1041
+hakkacli/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hakkacli/scripts/install.sh,sha256=YP3dLHHSliBY4o9DpcoX3BAeUAIY0tfLPREXWchQmiM,402
+hakka_cli-0.1.3.dist-info/METADATA,sha256=LHo4XZB1NNbeowPVy65wBmXm2bcq8dna1Z2G4Xf70iY,339
+hakka_cli-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+hakka_cli-0.1.3.dist-info/entry_points.txt,sha256=iOPkUDbSjD2jbxT4lT4luwVXqXsX-mVXO60fVG3S60Q,46
+hakka_cli-0.1.3.dist-info/top_level.txt,sha256=tKphF8PS3lbuVQ3E3RGsz8jwJDE7fDMmXhZhDHhP-5c,9
+hakka_cli-0.1.3.dist-info/RECORD,,
