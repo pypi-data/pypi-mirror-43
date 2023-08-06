@@ -1,0 +1,15 @@
+watson/__init__.py,sha256=OVvXxoW5VuLbnYiV2saDEG3F4jEvrDcAwzZripNF8PU,117
+watson/__main__.py,sha256=DzfQvpzt3AeHN2884y3dZpHJOFD4pmWzFw2_tPAHr5U,85
+watson/cli.py,sha256=x6ZcnZO2ctuHn7Y-LwTVR7XTvd8ueBidRQVTyB9q6s4,51239
+watson/config.py,sha256=RL9kuwGGgnnWVxywWb7zE5oQjrE6hAHSfrK3uqqbZr0,3666
+watson/frames.py,sha256=rXoLeUw0BcOF0SkpTzcik3RTbeWEVhNSsGJe67XMvDc,4357
+watson/fullmoon.py,sha256=BWKjM5oA_ssk_-OuFhteLUmiVmeeyhlpCzoZ1Yb7ugw,15846
+watson/utils.py,sha256=_pz0KOF_i2-zstiIgAGHLTjynZWmdbYC9ZKwsVxBWgg,7498
+watson/version.py,sha256=2zidNo1EO3-_DL3e67YTwaD69KKzJdNHQWqC4d2HKak,43
+watson/watson.py,sha256=OUVN9fOMBFIi9Vjc1s18VZt_FqrG0h84tQcZqz5UH28,17278
+td_watson-1.7.0.dist-info/LICENSE,sha256=6BRr8XeXTfMhXsvGRP6N2JV6BjvXn6CFgtZQPUw8RDs,1076
+td_watson-1.7.0.dist-info/METADATA,sha256=rEYKva3zC0r8ziBSYJ6-B83rWjG9AHq2VXiO9cI7DvQ,4001
+td_watson-1.7.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+td_watson-1.7.0.dist-info/entry_points.txt,sha256=WpzzIjq7ui6flju_uxNkqZzRYRgPhKfjvRj_r87AsvE,48
+td_watson-1.7.0.dist-info/top_level.txt,sha256=QQZdZ6AxPCQ1a1p0y2MpAF1x2wkCHy_btt5UXoEjT34,7
+td_watson-1.7.0.dist-info/RECORD,,
