@@ -1,0 +1,1 @@
+from papertraillogger.papertrail_logger import PapertrailLogger
