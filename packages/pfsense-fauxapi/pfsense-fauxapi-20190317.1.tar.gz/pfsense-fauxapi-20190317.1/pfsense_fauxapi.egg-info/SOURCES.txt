@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+PfsenseFauxapi/PfsenseFauxapi.py
+PfsenseFauxapi/__init__.py
+PfsenseFauxapi/__version__.py
+bin/fauxapi
+pfsense_fauxapi.egg-info/PKG-INFO
+pfsense_fauxapi.egg-info/SOURCES.txt
+pfsense_fauxapi.egg-info/dependency_links.txt
+pfsense_fauxapi.egg-info/requires.txt
+pfsense_fauxapi.egg-info/top_level.txt
+tests/__init__.py
+tests/test_PfsenseFauxapi.py
