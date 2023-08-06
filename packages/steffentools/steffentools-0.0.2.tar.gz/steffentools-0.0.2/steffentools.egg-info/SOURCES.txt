@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+steffentools/__init__.py
+steffentools/const.py
+steffentools/dict_to_namedtuple.py
+steffentools.egg-info/PKG-INFO
+steffentools.egg-info/SOURCES.txt
+steffentools.egg-info/dependency_links.txt
+steffentools.egg-info/top_level.txt

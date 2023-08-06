@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: steffentools
+Version: 0.0.2
+Summary: A collection of tools compiled for personal use.
+Home-page: https://github.com/cmsteffen-code/steffentools
+Author: CMSteffen
+Author-email: cmsteffen@protonmail.com
+License: MIT
+Project-URL: Source Code, https://github.com/cmsteffen-code/steffentools
+Project-URL: Documentation, https://steffentools.readthedocs.io/en/latest/
+Description: SteffenTools: Some Useful Tools
+        ===============================
+        [![PyPI](https://img.shields.io/pypi/v/steffentools.svg)](https://pypi.org/project/steffentools/)
+        [![GitHub](https://img.shields.io/github/license/cmsteffen-code/steffentools.svg)](https://github.com/cmsteffen-code/steffentools/blob/master/LICENSE)
+        [![Documentation Status](https://readthedocs.org/projects/steffentools/badge/?version=latest)](https://steffentools.readthedocs.io/en/latest/?badge=latest)
+        [![GitHub issues](https://img.shields.io/github/issues-raw/cmsteffen-code/steffentools.svg)](https://github.com/cmsteffen-code/steffentools/issues)
+        [![GitHub contributors](https://img.shields.io/github/contributors/cmsteffen-code/steffentools.svg)](https://github.com/cmsteffen-code/steffentools/graphs/contributors)
+        
+        The SteffenTools library is a collection of various tools compiled into a single library for my own personal use.
+        
+Keywords: steffentools tools library
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
