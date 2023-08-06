@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: finapi
+Version: 0.9.0
+Summary: finAPI RESTful Services
+Home-page: UNKNOWN
+Author: mishaker
+Author-email: misagh.shakeri@gmail.com
+License: UNKNOWN
+Description:     finAPI RESTful Services  # noqa: E501
+            
+Keywords: FinAPI,finAPI RESTful Services
+Platform: UNKNOWN
