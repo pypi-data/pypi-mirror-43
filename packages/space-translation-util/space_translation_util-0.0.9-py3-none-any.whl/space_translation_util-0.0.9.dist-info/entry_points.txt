@@ -1,0 +1,3 @@
+[console_scripts]
+space-translation-util = space_translation_util:main
+
