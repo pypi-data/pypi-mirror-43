@@ -1,0 +1,12 @@
+qcware/__init__.py,sha256=_X7XJHeLHghjnGUqyBWGvr8meIRIXcWR6Xig5bSa_4Q,97
+qcware/optimization.py,sha256=Jxf8KLItVTLNs6iK-7OIxB48Or_yygD2cjffphFiaiU,25066
+qcware/param_utils.py,sha256=ej6vGjqfPIsxEWAjRFr7a8mk8_DzqPd8PyoNY_3AQ4Y,5820
+qcware/params_pb2.py,sha256=XmmnEfW2euzG78ywxHGuAKLoy17k1rT3BGFjcqlCLKE,70172
+qcware/physics.py,sha256=3k9c0nSaL_w_lq4AIjuappHyHMT6_0nfYc_Ov-qzOTE,6346
+qcware/request.py,sha256=wL6NVMsDGFnd7NQmeEpZsBYImt1tkko9qeu6dbTuZ-M,918
+qcware/version.py,sha256=ygYqkFLcuV73269wsILsvX7LTpvf37Lb5wflkrXq5bQ,210
+qcware/wrappers.py,sha256=ydl4h9UUpK7vx5T982Ohz5BQs7olLFheNKsfMixs7_w,1724
+qcware-0.2.17.dist-info/METADATA,sha256=pGHuyYsOGFMTaY8NPEtbQsPJ5nMUS_45gYQjF_Ak1pw,490
+qcware-0.2.17.dist-info/RECORD,,
+qcware-0.2.17.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+qcware-0.2.17.dist-info/top_level.txt,sha256=AlhpEP-nmRn7sC7KFW_TmyvjAaHpOtqtTgMmPMA8V_4,7
