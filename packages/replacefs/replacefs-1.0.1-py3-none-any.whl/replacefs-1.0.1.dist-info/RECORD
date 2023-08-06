@@ -1,0 +1,11 @@
+replacefs/__init__.py,sha256=3Dd0mrK5SitJz_EyKKTgQmcWK6KZ-k2V6iDKAGq_FP4,17
+replacefs/logger.py,sha256=fibHQokPJh494yubuMdmbVOtlLcx3akAJmAdhU56eUc,245
+replacefs/replace.py,sha256=9_81rXbKjMmXTQuD9wJaH2TpPzp_hjSe2rMftx1H6cc,55159
+rp/__init__.py,sha256=3Dd0mrK5SitJz_EyKKTgQmcWK6KZ-k2V6iDKAGq_FP4,17
+rp/logger.py,sha256=fibHQokPJh494yubuMdmbVOtlLcx3akAJmAdhU56eUc,245
+rp/replace.py,sha256=nbxXOOFDC2g_FJ2O04XHxQY9b7dkxYT2-NvRTUr-hqw,52302
+replacefs-1.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+replacefs-1.0.1.dist-info/METADATA,sha256=00vsgvRFrZ_6Y9b-8SfcB2GgUHIaah65OQTqBYHsU6c,7602
+replacefs-1.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+replacefs-1.0.1.dist-info/top_level.txt,sha256=Jr4Wa68J88AD-CT3_apW-0_yWfXc0g1whNf9A4hFvno,10
+replacefs-1.0.1.dist-info/RECORD,,
