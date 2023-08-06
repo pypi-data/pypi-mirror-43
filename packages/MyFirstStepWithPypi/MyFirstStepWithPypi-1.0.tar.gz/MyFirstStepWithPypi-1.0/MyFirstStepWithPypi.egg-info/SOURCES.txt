@@ -1,0 +1,5 @@
+setup.py
+MyFirstStepWithPypi.egg-info/PKG-INFO
+MyFirstStepWithPypi.egg-info/SOURCES.txt
+MyFirstStepWithPypi.egg-info/dependency_links.txt
+MyFirstStepWithPypi.egg-info/top_level.txt
