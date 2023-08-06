@@ -1,0 +1,7 @@
+README.txt
+rxys.py
+setup.py
+rxys.egg-info/PKG-INFO
+rxys.egg-info/SOURCES.txt
+rxys.egg-info/dependency_links.txt
+rxys.egg-info/top_level.txt
