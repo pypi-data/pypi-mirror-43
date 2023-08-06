@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: wimprates
+Version: 0.2.0
+Summary: Differential rates of WIMP-nucleus scattering
+Home-page: https://github.com/jelleaalbers/wimprates
+Author: Jelle Aalbers
+Author-email: UNKNOWN
+License: MIT
+Description: wimprates
+        =========
+        
+        Differential rates of WIMP-nucleus scattering in the standard halo model, for liquid xenon detectors.
+        
+        `https://github.com/JelleAalbers/wimprates`
+        
+        [![Build Status](https://travis-ci.org/JelleAalbers/wimprates.svg?branch=master)](https://travis-ci.org/JelleAalbers/wimprates)
+        
+        Installation and usage
+        ----------------------
+        
+         - Clone the repository and `cd` into its directory
+         - `pip install -e .`
+         - [See this basic example for usage.](https://github.com/JelleAalbers/wimprates/blob/master/notebooks/Example.ipynb)
+        
+        The package uses numericalunits (https://pypi.python.org/pypi/numericalunits); all function inputs
+        are expected to have proper units.
+        
+        
+        Features
+        --------
+          - Spin-indendent and spin-dependent DM-nucleus scattering;
+          - Elastic NR, bremsstrahlung, and Migdal effect detection mechanisms;
+          - Time dependent observed dark matter speed distribution (annual modulation only, no daily modulation).
+        
+        
+        How to cite
+        ------------
+         - To cite wimprates itself, we will soon add a zenodo DOI link.
+         - Please cite the theory papers for the different models you use:
+           - **Spin-dependent scattering**: Klos, P. et al., [Phys.Rev. D88 (2013) no.8, 083516](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.88.083516), Erratum: [Phys.Rev. D89 (2014) no.2, 029901](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.89.029901). [[arXiv:1304.7684]](https://arxiv.org/abs/1304.7684)  
+           - **Bremsstrahlung**: C. Kouvaris and J. Pradler, [Phys. Rev. Lett. 118, 031803 (2017)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.031803). [arXiv:1607.01789](https://arxiv.org/abs/1607.01789)
+           - **Migdal effect**: M. Ibe et al., [JHEP 1803 (2018) 194](https://link.springer.com/article/10.1007/JHEP03(2018)194). [arXiv:1707.07258](https://arxiv.org/abs/1707.07258) 
+        
+        Contributors
+        -------------
+        
+         * Jelle Aalbers
+         * Bart Pelssers
+        
+        
+        
+        History
+        -------
+        
+        ------------------
+        0.2.0 (2019-03-23)
+        ------------------
+        * Annual modulation (#2)
+        * Migdal effect
+        * Configurable mediator mass
+        * Resistance to numericalunits.reset_units()
+        * Restructure as python package
+        
+        ----------------
+        0.1 (2018-01-17)
+        ----------------
+        * Initial release
+        
+Keywords: wimp,spin-dependent,spin-independent,bremsstrahlung,migdal
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
