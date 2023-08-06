@@ -1,0 +1,3 @@
+include cortix/examples/input/*
+include cortix/tests/input/*
+include cortix/examples/modulib/droplet/manifest.xml
