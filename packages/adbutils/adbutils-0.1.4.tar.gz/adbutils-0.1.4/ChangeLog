@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.1.4
+-----
+
+* fix py2 timestamp error
+
+0.1.3
+-----
+
+* fix travis
+* add travis deployment
+* add travis
+* first ok version
+* Initial commit
