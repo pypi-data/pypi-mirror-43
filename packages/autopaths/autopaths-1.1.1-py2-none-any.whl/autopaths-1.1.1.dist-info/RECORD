@@ -1,0 +1,12 @@
+autopaths/__init__.py,sha256=bvpk_UVesWAWjGlPvNWsrzrtXStPODuKvp5dK69MvkU,289
+autopaths/auto_paths.py,sha256=WCio0Pyv4hCAolSjCns5-1ZzS84G9hk5ZjqPjTJaDdQ,6342
+autopaths/common.py,sha256=WmXkahonnXQ-6VR7ADGQBVxof1lfXs_QsOiZW9JR6PE,2809
+autopaths/dir_path.py,sha256=W1bSICpuXOpQjxlzwZtx46o7In62Ye4sWNztAtJvCDk,10612
+autopaths/file_path.py,sha256=DugWVwe6ns1BSZBR2xbQ_u5YocGF06dh6BeuK4IfdYM,16720
+autopaths/file_permissions.py,sha256=g8vhUfRrKi-On13SA1rLu7ZiYDuqfXyZEu5FBHQv9pM,678
+autopaths/file_size.py,sha256=EoBLbwEJCrJ-Cn3zVJ5MWXg_ygvfJD-wDNryiC2tB54,1657
+autopaths-1.1.1.dist-info/LICENSE.txt,sha256=vA5oGATxliW5s8q66Cpjrv8kKnAF0qHXMzWgg2OE3MM,1057
+autopaths-1.1.1.dist-info/METADATA,sha256=21b67ZAjezL9uvmgckTRE2FxD3EZqvvfcos3rNBIugA,2296
+autopaths-1.1.1.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+autopaths-1.1.1.dist-info/top_level.txt,sha256=o_pEzzx_DEqopO04mkViWmQEhETQjqHOHeg2FcDbhEw,10
+autopaths-1.1.1.dist-info/RECORD,,
