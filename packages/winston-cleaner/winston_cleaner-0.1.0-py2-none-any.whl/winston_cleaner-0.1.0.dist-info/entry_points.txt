@@ -1,0 +1,5 @@
+[console_scripts]
+winston_find_contaminations = bin:find_contaminations.main
+winston_generate_config = bin:generate_config.main
+winston_prepare_data = bin:prepare_data.main
+
