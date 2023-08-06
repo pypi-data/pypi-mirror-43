@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: scipion-em-xmipp
+Version: 19.3.2b0
+Summary: Plugin to use Xmipp programs within the Scipion framework.
+Available software: - xmippSrc: Sources to compile Xmipp software
+                    - xmippBin_Debian: Precompiled Xmipp software for Debian based distros (and OpenSUSE15).
+                    - xmippBin_Centos: Precompiled Xmipp software for Centos based distros (and OpenSUSE42.3).
+                    - nma: Software for (pseudo)atoms fitting to volumes using Normal Modes Analysis.
+                    - deepLearningToolkit: toolkit to run deep learning based protocols(basically tensorflow, keras and pre-trained models)
+NOTE: Cuda related code is implemented/compiled with CUDA 8.0
+Home-page: https://github.com/i2pc/scipion-em-xmipp
+Author: I2PC
+Author-email: scipion@cnb.csic.es
+License: UNKNOWN
+Description: # scipion-em-xmipp
+        
+        Plugin to use Xmipp programs within the Scipion framework.
+        
+        You can install it either using the Scipion software following 
+        [this](https://github.com/I2PC/scipion/wiki/Integrated-Packages) (production users) 
+        or cloning it on your own and link it to Scipion following 
+        [this](https://github.com/I2PC/xmipp/wiki/Migrating-branches-from-nonPluginized-Scipion-to-the-new-Scipion-Xmipp-structure#xmipp) (developers). 
+        
+Keywords: scipion cryoem imageprocessing scipion-1.2
+Platform: UNKNOWN
