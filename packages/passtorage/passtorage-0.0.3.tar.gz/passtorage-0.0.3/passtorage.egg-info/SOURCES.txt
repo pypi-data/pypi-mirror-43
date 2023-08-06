@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+passtorage/__main2__.py
+passtorage/__main__.py
+passtorage.egg-info/PKG-INFO
+passtorage.egg-info/SOURCES.txt
+passtorage.egg-info/dependency_links.txt
+passtorage.egg-info/entry_points.txt
+passtorage.egg-info/top_level.txt
+passtorage/data/icon.ico
+passtorage/data/reg/test
