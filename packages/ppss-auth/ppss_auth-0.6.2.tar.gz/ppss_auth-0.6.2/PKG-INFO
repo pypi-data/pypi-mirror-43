@@ -1,0 +1,58 @@
+Metadata-Version: 1.2
+Name: ppss_auth
+Version: 0.6.2
+Summary: simple auth scheme for pyramid, based on Mako template and sqlalchemy backend
+Home-page: http://www.pingpongstars.it
+Author: pdepmcp
+Author-email: d.cariboni@pingpongstars.it
+License: MIT
+Description: This package aims to give and easy pluggable module to provide authentication and user maintennance in a Pyramid web application.
+        It relies the Pyramid+SQLAlchemy+Mako stack. Implementation for other template languages is on the roadmap.
+        
+        To activate the package, in your main *\_\_init\_\_.py* file, inside the main function, add this line: 
+        ```python
+          config.include('ppss_auth')
+        ```
+        
+        
+        SQLAlchemy backend for the creation and usage of 3 main tables:
+        *  ppss_user - containing basic information about the users (username, hashed password and related data )
+        *  ppss_group - user groups to allow for easier handling of user groups and permissions
+        *  ppss_permission - a list of permissions (just an id and a name)
+        
+        When a user login, *essionauthpolicy*is used to store her informations (userid and user groups)
+        
+        ppss_auth use these info from the ini file:
+        
+        - ppss_auth.adminname - the name of a sueruser. Deafult to "admin"
+        - ppss_auth.adminpass - the corresponding password. If not provided the admin is not allowed to log in (with the ini credentials. It may exist in database)
+        - ppss_auth.post_login_follow - try to redirect the browser back to where it came from after successful login (use true case insensitive to activate it). It's useful if combined with the forbidden pattern
+        - ppss_auth.post_login_route - name of the route where to send the browser after user logged in. Default to Home. Ignored if ppss_auth.post_login_follow is set to true AND there is a referer to go to.
+        - ppss_auth.post_logout_route - name of the route where to send the browser after log out. Defaults to home
+        - ppss_auth.logintemplate - name of the login template. It defaults to the internal template: "ppss_auth:/templates/login.mako"
+        - ppss_auth.changepasswordtemplate - name of the change password template. Defaults to: ppss_auth:/templates/change.mako
+        - ppss_auth.modifyusertemplate - Defaults to: ppss_auth:/templates/modifyuser.mako
+        - ppss_auth.listusertemplate - Defaults to: ppss_auth:/templates/listuser.mako
+        - ppss_auth.logintemplateinherit - Defaults to: ppss_auth:/templates/layout.mako
+        
+        
+        to init the Tables, in the initialization script (usually in *scripts/intializedb.py*), add this row:
+        ```python
+          from ppss_auth import (models as ppssmodels)
+        ```
+        
+        While creating the default data you use something like:
+        ```python
+          ppssmodels.initdb(dbsession,createdefault=False)
+        ```
+        
+        This creates the tables and, if createdefault evaulates to True, it create a default admin/admin user with the admin permission. 
+        Please change the password to avoid secuirity issues.
+        Use the setPassword method on PPSsuser instances to change the password, providing the new password.
+Keywords: pyramid module authentication accelerator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Python: >=2.7, <3
