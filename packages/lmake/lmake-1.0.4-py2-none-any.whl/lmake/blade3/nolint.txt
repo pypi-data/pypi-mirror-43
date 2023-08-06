@@ -1,0 +1,14 @@
+media_server_library/third_party/*/*.h
+media_server_library/third_party/*/*.hpp
+media_server_library/third_party/*/*.c
+media_server_library/third_party/*/*.cc
+media_server_voo/third-party/include/*/*.h
+media_server_vocs/access_point/thrift/gen-cpp/*.cpp
+media_server_vocs/access_point/thrift/gen-cpp/*.h
+media_server_vocs/access_point/third_party/*/*/*.h
+media_server_vocs/access_point/third_party/*/*/*.c
+media_server_vocs/access_point/third_party/*/*/*.cpp
+media_server_vocs/access_point/third_party/*/*/*.hpp
+media_server_vocs/access_point/third_party/*/*/*.cc
+media_server_vocs/access_point/third_party/*/*/*.hh
+media_server_signaling/stress_test/include/agora_sig.h
