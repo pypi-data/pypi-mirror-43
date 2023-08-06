@@ -1,0 +1,240 @@
+# PomodoroWarrior #
+
+A command line tool that integrates with TaskWarrior and TimeWarrior to implement the Pomodoro Technique.
+
+## Configuration ##
+
+The configuration file is located at `$HOME/.config/pomw/pomwrc`
+
+### Timewarrior integration ###
+
+PomodoroWarrior aims to play nicely with TimeWarrior. By default all intervals created by PomodoroWarrior will also be updated in TimeWarrior. To change the default value, add the following section to your configuration file:
+ 
+```ini
+[timew]
+sync = false
+```
+
+### Pomodoro length ###
+
+Pomodoro lengths are also configurable. Default length is 25 minutes.
+
+```ini
+[pomw]
+length = 30
+```
+
+## Command Line Interface ##
+
+PomodoroWarrior uses a command line interface similar to TaskWarrior and TimeWarrior.
+
+Commands can refer to both TaskWarrior task ids, and PomodoroWarrior interval ids. To make the distinction clear, we force interval ids to be prepended by a `@` sign.
+
+The commands can be grouped into 2 categories. Those that deal with Pomodoros, and those that deal with generic time intervals.
+
+### Workflow example ###
+
+First thing in the morning, we plan our Pomodoros for the day. We view our TaskWarrior task list.
+
+```bash
+$ task next
+```
+
+```
+ID Age  P Project      Tag  Due Description                      Urg 
+1 6w   M pomw                2d Create documentation for pomw     10
+2 6w   M python              1w Find the holy grail                8
+```
+
+We decide to plan 5 pomodoros for writing this documentation
+
+```bash
+$ pomw plan -q 4 1 # Plan 4 pomodoros for task 1
+```
+
+We check our To Do Today sheet
+
+```bash
+$ pomw tdt # Print the To Do Today sheet
+```
+
+```
+To Do Today                                                        2019-03-21
+-----------                                                        ----------
+                                     ┌─┐┌─┐┌─┐┌─┐
+1  Create documentation for pomw     │ ││ ││ ││ │
+                                     └─┘└─┘└─┘└─┘
+```
+
+Oops, we wanted 5 pomodoros, but we only planned 4. We now have 2 options, we can either override the number of planned pomodoros
+
+```bash
+$ pomw plan -q 5 1 # Plan 5 pomodoros for task 1
+```
+
+or append more pomodoros to the existing number of planned pomodoros
+
+```bash
+$ pomw plan -q +1 1 # Increment the planned pomodoros for task 1 by 1
+```
+
+We check our tdt sheet again, and all is good!
+
+```
+To Do Today                                                        2019-03-21
+-----------                                                        ----------
+                                     ┌─┐┌─┐┌─┐┌─┐┌─┐
+1  Create documentation for pomw     │ ││ ││ ││ ││ │
+                                     └─┘└─┘└─┘└─┘└─┘
+```
+
+Since we cannot find the holy grail using pomodoros, we will add the time we spend on this task using (non-pomodoro) intervals. 
+
+Our To Do Today sheet looks good, and we start working on our first pomodoro.
+
+<!-- After working for several minutes, we remember that we need to buy SPAM. We add this to our shopping list, and mark an internal interruption -->
+
+<!-- ``` -->
+<!-- $ pomw interrupt internal 1 -->
+<!-- ``` -->
+
+<!-- Now our To Do Today sheet looks like this -->
+
+<!-- ``` -->
+<!-- To Do Today                                                        2019-03-21 -->
+<!-- -----------                                                        ---------- -->
+<!--                                      ┌─┐┌─┐┌─┐┌─┐┌─┐ -->
+<!-- 1  Create documentation for pomw     │ │ │ │ │ │ │ │ │ │ -->
+<!--                                      └─┘└─┘└─┘└─┘└─┘ -->
+<!-- ``` -->
+
+After working for several minutes, we start dreaming about lady Gwenevere, and before we realize it 10 minutes have passed. Because we believe in strictly following the Pomodoro Technique, we void the pomodoro.
+
+```bash
+$ pomw void 1 # Void the current pomodoro for task 1
+```
+
+Our TDT sheet reflects the voided Pomodoro
+
+```
+To Do Today                                                        2019-03-21
+-----------                                                        ----------
+                                     ┌─┐┌─┐┌─┐┌─┐┌─┐
+1  Create documentation for pomw     │/││ ││ ││ ││ │
+                                     └─┘└─┘└─┘└─┘└─┘
+```
+
+On our second attempt, we complete a pomodoro. Once it rings, we mark the pomodoro as done.
+
+```bash
+$ pomw done 1 # Complete a pomodoro for task 1
+```
+
+```
+To Do Today                                                        2019-03-21
+-----------                                                        ----------
+                                     ┌─┐┌─┐┌─┐┌─┐┌─┐
+1  Create documentation for pomw     │/││x││ ││ ││ │
+                                     └─┘└─┘└─┘└─┘└─┘
+                                      --------
+                                      00:25:00
+```
+
+We search for the grail. After an hour we give up to take a nap. We log our time as an interval
+
+```bash
+$ pomw add -d 60 2 # Add a 60 minute time interval for task 2
+```
+
+```
+To Do Today                                                        2019-03-21
+-----------                                                        ----------
+                                     ┌─┐┌─┐┌─┐┌─┐┌─┐
+1  Create documentation for pomw     │/││x││ ││ ││ │
+                                     └─┘└─┘└─┘└─┘└─┘
+                                      -------
+                                      0:25:00
+                                      
+Non Pomodoro Time                     
+-----------------
+2  Find the holy grail                1:00:00
+                                      -------
+                                      1:00:00
+```
+
+King Arthur will only pay for 50 minutes of our time, so we modify the time interval
+
+```bash
+$ pomw ls  # Lists the time intervals contained in the database
+```
+
+```
+ID   Type    Date        Start     End       Project                Task
+@1   NonPom  2019-03-21  13:43:32  14:43:32  python                 Find the holy grail
+@2   Pom     2019-03-21  13:15:17  13:40:17  pomw                   Create documentation for pomw
+```
+
+From the listing, we see that we need to modify interval `@1`. We set the new end time to 14:33:32
+
+```bash
+$ pomw mod -e 14:33:32 @1 # Modify interval @1, set new end time as 14:33:32
+```
+
+```
+ID   Type    Date        Start     End       Project                Task
+@1   NonPom  2019-03-21  13:43:32  14:33:32  python                 Find the holy grail
+@2   Pom     2019-03-21  13:15:17  13:40:17  pomw                   Create documentation for pomw
+```
+
+King Arthur will not pay for our documentation creation efforts. We delete the pomodoro at interval `@2`.
+
+```bash
+$ pomw rm @2 # Delete interval @2 
+```
+
+```
+ID   Type    Date        Start     End       Project                Task
+@1   NonPom  2019-03-21  13:43:32  14:33:32  python                 Find the holy grail
+```
+
+
+Hopefully this gave you a (not too confusing) introduction on the power of PomodoroWarrior. 
+
+There are many more command line arguments available than was illustrated in this example. Use the `--help` option for any command to learn its complete usage.  
+
+
+## Caveat ##
+
+TimeWarrior intervals does not have unique ids, and as such, PomodoroWarrior matches intervals through start and end times. 
+
+If intervals are modified with TimeWarrior directly, the link for that interval between the databases is lost.
+
+PomodoroWarrior tries to handle this situation gracefully, but it is recommend that you use PomodoroWarrior to modify any intervals, in order to keep the databases in sync.
+
+## Development ##
+
+### Build System ###
+
+Starting with version `0.0.3` we replace [setuptools](https://setuptools.readthedocs.io) with [poetry](https://poetry.eustace.io).
+Poetry is [PEP 518](https://www.python.org/dev/peps/pep-0518/) compliant, and uses `pyproject.toml` for configuration. In my opinion it provides for a simpler development experience.
+
+Poetry recommends that you install it isolated from the rest of your system. This can be done by running the install script:
+
+`curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python`
+
+### Release ###
+
+The script `./release.py` have been developed to automate cutting releases. It requires [git-extras](https://github.com/tj/git-extras) to be installed on your system.
+
+If you want to manually create a release, you have to follow these rules:
+
+- Only release from `master`
+- Update `pomw/__version__.py` with the new version number
+- Update `pyproject.toml` with the new version number
+- Update `Changelog` with the commits since the previous release
+
+### Upload a release to PYPI ###
+
+Once a tag is created, and pushed to Gitlab, the release is automatically uploaded to PYPI by the Gitlab CI publish stage.
+
+
