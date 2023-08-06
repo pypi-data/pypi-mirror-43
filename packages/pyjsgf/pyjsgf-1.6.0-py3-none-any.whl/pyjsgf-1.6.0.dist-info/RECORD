@@ -1,0 +1,17 @@
+jsgf/__init__.py,sha256=OhcenTOdW-mcz3_JH3ckb4N8DSfBefabXy1IwWCIqZM,1492
+jsgf/errors.py,sha256=zRLICw4nmfmOMGa88IomKWz8ev8ywAhyG-ndbLVoWRI,1245
+jsgf/expansions.py,sha256=unzkd0mYGcQAi1O__cZBCYstttwcJy9BUZw--rVW1dU,54436
+jsgf/grammars.py,sha256=--GA34YAt9vJjbyxijJJ-TaXKtFRVpISOrt9BNSXiWQ,14467
+jsgf/parser.py,sha256=LYonSu9mKA3-VFcXsxHM42XvbLV1KVGyqGOs0N8-D_E,19751
+jsgf/references.py,sha256=E2HsHpA77SKK5TfYGcG6V_I87pfvKWCmpEijm5pbqgc,3146
+jsgf/rules.py,sha256=mfMiVvNRd9qBE1tI3CXddNYmH0mqBEBduVtdxVk8RTU,9932
+jsgf/ext/__init__.py,sha256=EtLNTfcMPJkIislumUYMqOIIfBQ3579UbQ8xoMNrltM,525
+jsgf/ext/expansions.py,sha256=zN8Jv9hBngju0RpW0obhZVSak3S2krXOrrpYFBJTMEc,20569
+jsgf/ext/grammars.py,sha256=981fMSODUCcds_86ERQhpXswZFXIqnhJaW4JeZ-MO38,9554
+jsgf/ext/rules.py,sha256=A27pTQvMzEoWtniZ5ysih-9KQyweBZEZrkisd5hgdtU,10922
+pyjsgf-1.6.0.dist-info/DESCRIPTION.rst,sha256=hgruRM7gabFlzbr3_O5zpgfHDQtqShUldg7g6Xryhz0,3206
+pyjsgf-1.6.0.dist-info/METADATA,sha256=xr3Sdsuwwmti3Q8-tGK5LoBKVIOppVvWCI7p5-eOgJI,3975
+pyjsgf-1.6.0.dist-info/RECORD,,
+pyjsgf-1.6.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyjsgf-1.6.0.dist-info/metadata.json,sha256=I4R6mXjxzJ0UejyDmWtu3NhK1PAReP5QNaFUKqup9ak,915
+pyjsgf-1.6.0.dist-info/top_level.txt,sha256=m-WJmGYyWFpjtONy7_fPvCJQn8FAG3LVTTteqlf2yhY,5
