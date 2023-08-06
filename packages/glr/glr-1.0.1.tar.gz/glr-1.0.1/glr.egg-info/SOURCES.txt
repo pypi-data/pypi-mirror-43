@@ -1,0 +1,9 @@
+README.md
+glr.py
+setup.py
+glr.egg-info/PKG-INFO
+glr.egg-info/SOURCES.txt
+glr.egg-info/dependency_links.txt
+glr.egg-info/entry_points.txt
+glr.egg-info/requires.txt
+glr.egg-info/top_level.txt
