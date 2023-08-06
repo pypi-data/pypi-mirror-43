@@ -1,0 +1,7 @@
+README.rst
+setup.py
+datacomp.egg-info/PKG-INFO
+datacomp.egg-info/SOURCES.txt
+datacomp.egg-info/dependency_links.txt
+datacomp.egg-info/requires.txt
+datacomp.egg-info/top_level.txt
