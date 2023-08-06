@@ -1,0 +1,30 @@
+---
+image: fedora:latest
+
+linting:
+    script:
+        - dnf install -y which python-pip
+        # Install netssh2 so all required dependencies are installed
+        - python setup.py install
+        # Remove installation files
+        - rm -rf build/ dist/ netssh2.egg-info .eggs
+        # Install python syntax check tools
+        - pip install flake8 pylint
+        # We should enable Errors, Warnings and Flake errors once they are fixed
+        - flake8 --exclude .git --max-line-length=120 .
+        # Run pylint for general errors in code
+        # W0511(fixme) spots all fixme and todo comments
+        - pylint --disable W0511 --max-line-length=120 --msg-template "{path} {line} \[{msg_id}({symbol}), {obj}\] {msg}" netssh2 tests
+        # Run pylint for python 2/3 compatibility errors (--py3k disables all other checkers)
+        # Run it as separate to
+        - pylint --py3k --max-line-length=120 --msg-template "{path} {line} \[{msg_id}({symbol}), {obj}\] {msg}" netssh2 tests
+
+regression:
+    script:
+        - dnf install -y which python-pip tox
+        # Install netssh2 so all required dependencies are installed
+        - python setup.py install
+        # Remove installation files
+        - rm -rf build/ dist/ netssh2.egg-info .eggs
+        # Run tox tests
+        - tox
