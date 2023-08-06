@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: opencensus-ext-dbapi
+Version: 0.1.0
+Summary: OpenCensus Database API Integration
+Home-page: https://github.com/census-instrumentation/opencensus-python/tree/master/contrib/opencensus-ext-dbapi
+Author: OpenCensus Authors
+Author-email: census-developers@googlegroups.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: opencensus (<1.0.0,>=0.3.0)
+
+OpenCensus Database API Integration
+============================================================================
+
+Installation
+------------
+
+::
+
+    pip install opencensus-ext-dbapi
+
+Usage
+-----
+
+.. code:: python
+
+    # TBD
+
+
