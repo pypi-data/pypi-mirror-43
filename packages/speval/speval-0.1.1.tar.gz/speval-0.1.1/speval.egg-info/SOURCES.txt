@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+Manifest.in
+README.rst
+setup.py
+examples/01_hello_world.py
+examples/02_retrieve_results.py
+examples/02_store_results.py
+examples/03_fit_line.py
+examples/03_get_best_fit.py
+speval/__init__.py
+speval/speval.py
+speval.egg-info/PKG-INFO
+speval.egg-info/SOURCES.txt
+speval.egg-info/dependency_links.txt
+speval.egg-info/top_level.txt
