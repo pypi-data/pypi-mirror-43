@@ -1,0 +1,10 @@
+setup.py
+simple_NER/__init__.py
+simple_NER.egg-info/PKG-INFO
+simple_NER.egg-info/SOURCES.txt
+simple_NER.egg-info/dependency_links.txt
+simple_NER.egg-info/requires.txt
+simple_NER.egg-info/top_level.txt
+simple_NER/rules/__init__.py
+simple_NER/rules/neural.py
+simple_NER/rules/regex.py
