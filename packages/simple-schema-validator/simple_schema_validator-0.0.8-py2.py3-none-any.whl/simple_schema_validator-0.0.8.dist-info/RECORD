@@ -1,0 +1,11 @@
+simple_schema_validator/__init__.py,sha256=toCwt7gNqVP7G6zYWQZIUFte7WjKzVZrSupK-x3s8F8,93
+simple_schema_validator/__version__.py,sha256=CUFSe51cOx-MkpbHv7vHwQi5A6WKEPHxGyrHVcTP1pM,63
+simple_schema_validator/schema_types.py,sha256=n2eShNNeMI7whzUlgVv7VtOG06N28lPzdNFGSBMVByE,2422
+simple_schema_validator/schema_validator.py,sha256=MGurPIy6EVdDMUyHvFFqfv-pmjS__TVj7O919dHwnjA,3078
+simple_schema_validator/tests.py,sha256=fbAxsbPoCfRx-HRYEOrAfBwa8UU-yuRBClO92FsZ3EA,18110
+simple_schema_validator/utils.py,sha256=VrsucwuooN9Sv2_sTWU-VE0okiCb8Pry1AWA77pZh9s,1854
+simple_schema_validator-0.0.8.dist-info/LICENSE,sha256=LKK_23dhRf6mZic2sTBZZzdTGWKyAnG3eFTLUqYO94M,1065
+simple_schema_validator-0.0.8.dist-info/METADATA,sha256=0FqzN10KevoFoevT_LebXvjIgHqAexUAD7uQKS5Cthw,4816
+simple_schema_validator-0.0.8.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+simple_schema_validator-0.0.8.dist-info/top_level.txt,sha256=7UC4N85Fv1m1AIOue20Cq1jb8PQOL9815WIojCxZGIE,24
+simple_schema_validator-0.0.8.dist-info/RECORD,,
