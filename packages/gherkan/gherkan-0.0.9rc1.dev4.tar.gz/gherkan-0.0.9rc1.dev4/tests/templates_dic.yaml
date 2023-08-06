@@ -1,0 +1,130 @@
+1:
+  Name: sIn0
+  TempStr:
+  - "(?P<subject>\\w+)(?P<prep>:In|On|To|At)(?P<object>\\w+)"
+  TempToNLP: "(?P<subject>\\w+) Is (?P<prep>\\w+) the (?P<object>\\w+)"
+  Inclinations:
+  - 1
+  - 0
+  - 3
+  Type:
+  - Bool
+2:
+  Name: sStart
+  TempStr:
+  - "(?P<subject>\\w+)(?P<state>:Start|Stop)"
+  TempToNLP: "(?P<subject>\\w+) (?P<state>\\w+)"
+  Inclinations:
+  - 1
+  - 11
+  Type: Bool
+3:
+  Name: PNStart
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  TempToNLP: "(?P<subject>\\w+) Program Number is (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 1
+  Type:
+  - Integer
+4:
+  Name: sState
+  TempStr:
+  - "(?P<subject>\\w+)(?P<state>:Free|Full)"
+  TempToNLP: "(?P<subject>\\w+) Is (?P<state>)"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - Bool
+5:
+  Name: sDest
+  TempStr:
+  - "(?P<subject>\\w+)Destination"
+  TempToNLP: "Destination of (?P<subject>\\w+) Is (?P<value>\\w+)"
+  Inclinations:
+  - 4
+  - 1
+  Type:
+  - String
+6:
+  Name: sAtStat
+  TempStr:
+  - "(?P<subject>\\w+)AtStation"
+  TempToNLP: "(?P<subject>\\w+) Is At Station (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 1
+  Type:
+  - String
+7:
+  Name: sAct
+  TempStr:
+  - "(?P<subject>\\w+)(?P<action>:Move)"
+  TempToNLP: "(?P<action>\\w+) (?P<subject>)"
+  Inclinations:
+  - 1
+  - 10
+  Type:
+  - Bool
+8:
+  Name: sProgramEnd
+  TempStr:
+  - "(?P<subject>\\w+)ProgramEnd"
+  TempToNLP: "(?P<subject>\\w+) Ended Program"
+  Inclinations:
+  - 1
+  Type:
+  - Bool
+9:
+  Name: ActionS
+  TempStr:
+  - "(?P<action>:Replenish)(?P<subject>\\w+)"
+  TempToNLP: "(?P<action>) (?P<subject>\\w+)"
+  Inclinations:
+  - 14
+  - 1
+  Type:
+  - Bool
+10:
+  Name: sCount
+  TempStr:
+  - "(?P<subject>\\w+)Count"
+  TempToNLP: "(?P<subject>\\w+) Count Is (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  Type:
+  - Integer
+11:
+  Name: Alert
+  TempStr:
+  - "alert(?P<action>\\w+)"
+  TempToNLP: "(?P<action>\\w+)"
+  Inclinations:
+  - 1
+  Type:
+  - Bool
+12:
+  Name: Statement
+  TempStr:
+  - "(?P<place>:Station)(?P<state>:Locked)"
+  TempToNLP: "(?P<place>) Is (?P<state>)"
+  Inclinations:
+  - 1
+  - 0
+  Type:
+  - Bool
+13:
+  Name: PNStart
+  TempStr:
+  - "(?P<subject>\\w+)ProgramNumber"
+  - "(?P<subject>\\w+)Program(?P<state>:Started|Ended)"
+  TempToNLP: "(?P<subject>\\w+) (?P<state>) (?P<value>\\w+)"
+  Inclinations:
+  - 1
+  - 11
+  - 1
+  Type:
+  - Integer
+  - Bool

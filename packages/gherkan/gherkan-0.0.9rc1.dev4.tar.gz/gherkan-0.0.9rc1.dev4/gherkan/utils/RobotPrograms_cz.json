@@ -1,0 +1,16 @@
+{
+    "r1": {
+        "1": "zvednout všechny červené kostky",
+        "2": "zvednout všechny zelené kostky",
+        "3": "zvednout všechny žluté kostky"
+    },
+    "r2": {
+        "1": "dát kostku 1 na podnos",
+        "2": "dát kostku 2 na podnos",
+        "3": "dát kostku 3 na podnos"
+    },
+    "r3": {
+        "1": "sestavit produkt",
+        "2": "dát produkt do krabice"
+    }
+}
