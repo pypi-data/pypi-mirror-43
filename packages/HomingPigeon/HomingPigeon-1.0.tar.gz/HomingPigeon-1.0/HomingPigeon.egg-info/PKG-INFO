@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: HomingPigeon
+Version: 1.0
+Summary: Homing Pigeon utility package
+Home-page: https://github.com/aliosm/homingpigeon
+Author: Ali Fadel
+Author-email: aliosm1997@gmail.com
+License: MIT
+Description: # Homing Pigeon
+        
+        This is a utility wrapper package for [Homing Pigeon](https://homingpigeon.herokuapp.com) website.
+        
+        ## Example
+        
+        ```python
+        from homingpigeon import SendData
+        SendData('pigeon token', 'your data')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
