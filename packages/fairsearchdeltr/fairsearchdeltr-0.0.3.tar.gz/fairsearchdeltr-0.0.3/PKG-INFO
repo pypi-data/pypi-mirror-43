@@ -1,0 +1,45 @@
+Metadata-Version: 1.2
+Name: fairsearchdeltr
+Version: 0.0.3
+Summary: A Python library for disparate exposure in ranking (a learning to rank approach)
+Home-page: https://github.com/fair-search/fairsearchdeltr-python
+Author: Ivan Kitanovski
+Author-email: ivan.kitanovski@gmail.com
+License: Apache 2.0
+Description: # Fair search DELTR for Python
+        
+        [![image](https://img.shields.io/pypi/status/fairsearchdeltr.svg)](https://pypi.org/project/fairsearchcore/)
+        [![image](https://img.shields.io/pypi/v/fairsearchdeltr.svg)](https://pypi.org/project/fairsearchcore/)
+        [![image](https://img.shields.io/pypi/pyversions/fairsearchdeltr.svg)](https://pypi.org/project/fairsearchcore/)
+        [![image](https://img.shields.io/pypi/l/fairsearchdeltr.svg)](https://pypi.org/project/fairsearchcore/)
+        [![image](https://img.shields.io/pypi/implementation/fairsearchdeltr.svg)](https://pypi.org/project/fairsearchcore/)
+        
+        This is the Python library that implements the [DELTR](https://arxiv.org/pdf/1805.08716.pdf) model for fair ranking.
+        
+        ## Installation
+        To install `fairsearchdeltr`, simply use `pip` (or `pipenv`):
+        ```bash
+        pip install fairsearchdeltr
+        ```
+        And, that's it!
+        
+        ## Using it in your code
+        You need to import the class from the package first: 
+        ```python
+        from fairsearchdeltr import Deltr
+        ```
+          
+Keywords: search,fairness,deltr,disparate exposure in ranking,learning to rank
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.0
