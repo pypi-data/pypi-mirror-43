@@ -1,0 +1,2 @@
+pandas>=0.23
+ddf_utils==0.6.4

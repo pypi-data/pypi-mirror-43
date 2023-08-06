@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: frame2package
+Version: 0.0.4
+Summary: Pandas dataframes to DDF packages.
+Home-page: UNKNOWN
+Author: Robin Linderborg
+Author-email: robin@datastory.org
+License: UNKNOWN
+Download-URL: https://github.com/datastory-org/frame2package/archive/0.0.4.tar.gz
+Description: Frame2Package
+        =============
+        
+        A helper library for converting Pandas dataframes to DDF packages: [frame2package.readthedocs.io](https://frame2package.readthedocs.io).
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
