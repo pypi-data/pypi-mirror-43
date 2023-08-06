@@ -1,0 +1,11 @@
+reposync/__init__.py,sha256=7vIM-tMpAzSQEc1bOE2VB6rXYNo-2W1JbTx7xMjYDpI,31
+reposync/git.py,sha256=RN6GQOvOBMikaUEjZYE8TYrw32B55wiWqc37NgdDikY,2759
+reposync/parser.py,sha256=40kMWyg_RcJes2u-lPUJlGAHhA1GHGyrTUL-h1RXuZY,1164
+reposync/reposync.py,sha256=ZV0l9j9IGUWbYTw9bzYMnxdrXVoehbPf_BBAijPW6Tg,917
+reposync/tree.py,sha256=MUIDi0QeXyvSYNyGYmiifVfglvUaHLtqSS4BSMw9JoU,677
+reposync-0.4.2.data/scripts/reposync,sha256=mCaBYx1vwqX5f2uNCWZR7zzsrK0Q2j-s640TFHWv7Q0,105
+reposync-0.4.2.dist-info/LICENSE,sha256=gsdUUdYE4KjUQhBY2AS07ecb3kkdzTEolGSPjynkSkc,1069
+reposync-0.4.2.dist-info/METADATA,sha256=CGgQqgkh6DsujnwaWLyX7jjPKGLKHz5Ii9_zA2J6GCU,3199
+reposync-0.4.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+reposync-0.4.2.dist-info/top_level.txt,sha256=z21QXHyeIX7yc86_YV_LyAbtio-HX9ivAeRWjL3qwzI,9
+reposync-0.4.2.dist-info/RECORD,,
