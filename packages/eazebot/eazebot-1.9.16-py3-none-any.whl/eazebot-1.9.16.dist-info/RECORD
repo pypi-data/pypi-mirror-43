@@ -1,0 +1,14 @@
+eazebot/APIs.json,sha256=-NzfWdS53SLH6Ov6yfMkpzYJhoc-t8RqD-KpXOGTQKU,173
+eazebot/EazeBot.py,sha256=wQ_ZOOz0Ak0K3N_p411ljr_XNlwiRD74Y6Mr0GfYD7E,64648
+eazebot/__init__.py,sha256=jhHnRe-3lCDfAjF4PRifTKUO9Xi3T3k0PsDgDvJmOr0,99
+eazebot/auxiliaries.py,sha256=W6tzctkYfRjjSlhiaX9fde-K0jUPncUrC7gkAQre1x0,5364
+eazebot/botConfig.json,sha256=E5XvxBqNU4R9QmN2YiAx0iM9rWA84QAhEDgAr_06Psw,154
+eazebot/startBot.bat,sha256=SQ85Q9HR0czZQcP8YfgGkYuzJcVvH41TKNPsUTYxTLw,34
+eazebot/startBotScript.py,sha256=AtLcgGjzHPhk-BgaBHisvpa2l30l5-ev_rifUORNC4Y,322
+eazebot/tradeHandler.py,sha256=ODxWdrIfQMPE1gG0g_qG-dwHfEkVKsLXmw-o1IRZFOE,74726
+eazebot/updateBot.bat,sha256=FsqIBmRr5v4JRU-IYS21gHGSe3FC3hRRF1io61_00NU,61
+eazebot/version.txt,sha256=T1GNXDjpv_0DX75MijwRMhXKRjEKPvdyIbLM0U_nz7U,874
+eazebot-1.9.16.dist-info/METADATA,sha256=L8m9cGkP0njvZ6eWf98PRzSsFx8wnc_Z7K5OCnJZXH8,683
+eazebot-1.9.16.dist-info/RECORD,,
+eazebot-1.9.16.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+eazebot-1.9.16.dist-info/top_level.txt,sha256=Jum278yllE1yTyjD8PBhTlNxash1p9UwDMRaXPj6WFk,8
