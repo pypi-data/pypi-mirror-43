@@ -1,0 +1,7 @@
+setup.py
+chandra_proj1/__init__.py
+chandra_proj1.egg-info/PKG-INFO
+chandra_proj1.egg-info/SOURCES.txt
+chandra_proj1.egg-info/dependency_links.txt
+chandra_proj1.egg-info/not-zip-safe
+chandra_proj1.egg-info/top_level.txt
