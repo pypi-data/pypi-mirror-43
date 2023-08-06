@@ -1,0 +1,9 @@
+README.md
+setup.py
+hubzero_jupyterhub_hzjwtauthenticator.egg-info/PKG-INFO
+hubzero_jupyterhub_hzjwtauthenticator.egg-info/SOURCES.txt
+hubzero_jupyterhub_hzjwtauthenticator.egg-info/dependency_links.txt
+hubzero_jupyterhub_hzjwtauthenticator.egg-info/requires.txt
+hubzero_jupyterhub_hzjwtauthenticator.egg-info/top_level.txt
+hzjwtauthenticator/__init__.py
+hzjwtauthenticator/hzjwtauthenticator.py
