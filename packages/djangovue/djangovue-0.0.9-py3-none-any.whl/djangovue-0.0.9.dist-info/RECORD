@@ -1,0 +1,13 @@
+djangovue/__init__.py,sha256=46Yjk3fz9o8aTN8E95McnzpJcjGzVJmHmQqUZ5mXzfc,22
+djangovue/apps.py,sha256=NnYNvEnEAzXzlG4RyoI0lrxepdr7e1OMuVgnMzg8aJs,94
+djangovue/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangovue/forms/widgets.py,sha256=xrSibSSBIZwyfAGhhsyYWqfwQ03M4XvacfR_v4cPo7g,3204
+djangovue/static/djangovue/djangovue.js,sha256=8k9Pq_-OrujVlLd0EZWRRbPsrPPCEbvPBb4hfEWqxzI,87578
+djangovue/static/djangovue/djangovue.js.map,sha256=9biQyg4wn4ZUyqu9fLtQ-sWB4qup5ZsC82qozOcN2lk,760153
+djangovue/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangovue/templatetags/djangovue.py,sha256=nGngawf5y8n5h6JvUmpBAXFB7zg3DDUa5IoSv58UT-c,4338
+djangovue/vue.py,sha256=x5f8BPvaRn_QLAnIqfKutyog3fnjBXjnKnKcUpT23H0,3709
+djangovue-0.0.9.dist-info/LICENSE,sha256=9RdlHtvDVilZKQWhbd-EPRzTErkBKm-ZYgkQy_qx31A,1078
+djangovue-0.0.9.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+djangovue-0.0.9.dist-info/METADATA,sha256=jrx_4DOtX15zoEpus2okRRW1eIKWLM9-kbZFc26_Uiw,3764
+djangovue-0.0.9.dist-info/RECORD,,
