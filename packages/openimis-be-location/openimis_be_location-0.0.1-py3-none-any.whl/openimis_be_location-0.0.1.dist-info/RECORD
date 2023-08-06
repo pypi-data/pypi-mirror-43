@@ -1,0 +1,13 @@
+location/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+location/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+location/apps.py,sha256=35qK9I-Y_yOtjh6fQIskixNKWb3IWe0dY1dtUU5pXx0,91
+location/models.py,sha256=R0tJz7sDEl4Lz2DSYYl_yNgETHWobZopqGdNIJyvCls,1959
+location/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+location/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+location/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+location/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openimis_be_location-0.0.1.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_location-0.0.1.dist-info/METADATA,sha256=3Iwb98bKUnYovXiTpPPSVkK8IWB_im6BrSIVhxRsYn4,1316
+openimis_be_location-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+openimis_be_location-0.0.1.dist-info/top_level.txt,sha256=g_Vd61IqrPQ9aqWXIla3VnmVDDtH6rUZJITbWjM6meA,9
+openimis_be_location-0.0.1.dist-info/RECORD,,
