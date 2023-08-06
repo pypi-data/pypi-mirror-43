@@ -1,0 +1,10 @@
+setup.py
+autophonesync/adb.py
+autophonesync/cli.py
+autophonesync/udev_handler.py
+autophonesync.egg-info/PKG-INFO
+autophonesync.egg-info/SOURCES.txt
+autophonesync.egg-info/dependency_links.txt
+autophonesync.egg-info/entry_points.txt
+autophonesync.egg-info/requires.txt
+autophonesync.egg-info/top_level.txt
