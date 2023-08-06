@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+gemeinsprache/__init__.py
+gemeinsprache/posix.py
+gemeinsprache/shell.py
+gemeinsprache/time.py
+gemeinsprache/utils.py
+gemeinsprache.egg-info/PKG-INFO
+gemeinsprache.egg-info/SOURCES.txt
+gemeinsprache.egg-info/dependency_links.txt
+gemeinsprache.egg-info/top_level.txt
