@@ -1,0 +1,12 @@
+setup.py
+syntax/__init__.py
+syntax/anon.py
+syntax/decorators.py
+syntax/maps.py
+syntax/snip.py
+syntax.egg-info/PKG-INFO
+syntax.egg-info/SOURCES.txt
+syntax.egg-info/dependency_links.txt
+syntax.egg-info/not-zip-safe
+syntax.egg-info/requires.txt
+syntax.egg-info/top_level.txt
