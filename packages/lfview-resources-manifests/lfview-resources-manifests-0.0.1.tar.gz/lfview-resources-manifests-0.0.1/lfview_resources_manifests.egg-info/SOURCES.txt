@@ -1,0 +1,11 @@
+README.rst
+setup.py
+lfview/__init__.py
+lfview/resources/__init__.py
+lfview/resources/manifests/__init__.py
+lfview/resources/manifests/manifests.py
+lfview_resources_manifests.egg-info/PKG-INFO
+lfview_resources_manifests.egg-info/SOURCES.txt
+lfview_resources_manifests.egg-info/dependency_links.txt
+lfview_resources_manifests.egg-info/requires.txt
+lfview_resources_manifests.egg-info/top_level.txt
