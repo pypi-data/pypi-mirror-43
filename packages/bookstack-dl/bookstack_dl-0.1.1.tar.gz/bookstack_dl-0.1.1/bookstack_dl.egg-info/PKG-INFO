@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: bookstack-dl
+Version: 0.1.1
+Summary: Automatically export all pages in Bookstack.
+Home-page: https://gitlab.com/rveach/bookstack-dl
+Author: Ryan Veach
+Author-email: rveach@gmail.com
+License: MIT
+Description: # bookstack-dl
+        
+        Python module to help automatically export all pages in a bookstack instances.
+        This will crawl through the web api, listing all books, chapters, and pages.
+        Then, it will download them in a folder heirarchy.
+        
+        ## Installation
+        
+        ```bash
+        pip install bookstack_dl
+        ```
+        
+        ## Usage
+        
+        ```python
+        from bookstack_dl import BookstackAPI
+        
+        # Initiate and log in.
+        bs = BookstackAPI("https://your.bookstackinstall.com", "user@email.com", "userpassword")
+        
+        # kick off gathering meta data
+        bs.get_all_books()
+        
+        # download all
+        bs.download_all("<full_path_to_root_download_dir>")
+        ```
+        
+        ## Python Dependencies
+        
+        Currently, this requires Python 3.6+ due to the use of f-strings.
+        The os.makedirs exist_ok option requires 3.5+.
+        Contributions are welcome to help lower the minimum required version.
+        
+Keywords: Bookstack,BookstackApp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
