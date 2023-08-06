@@ -1,0 +1,8 @@
+requests
+lxml
+PySocks
+bs4
+pexpect
+mysql-connector
+scapy
+stem
