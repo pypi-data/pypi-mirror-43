@@ -1,0 +1,48 @@
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
+
+#### Installation
+```bash
+$ [sudo] pip install mac-login-items
+```
+
+#### CLI
+```bash
+usage: login-items command [args]
+
+Available commands:
+    add                    add login items
+    list                   print login items names
+    paths                  print login items paths
+    rm                     remove login items
+
+run `login-items COMMAND --help` for more infos
+```
+
+#### Examples
+```bash
+$ login-items names
+Google Chrome
+Windscribe
+```
+
+```bash
+$ login-items paths
+/Users/russianidiot/Applications/Google Chrome.app
+/Applications/Windscribe.app
+```
+
+```bash
+$ login-items add /Applications/CCMenu.app
+```
+
+```bash
+$ login-items rm CCMenu
+```
+
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
