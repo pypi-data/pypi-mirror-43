@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+osis_book_tools/__init__.py
+osis_book_tools/db.sqlite
+osis_book_tools.egg-info/PKG-INFO
+osis_book_tools.egg-info/SOURCES.txt
+osis_book_tools.egg-info/dependency_links.txt
+osis_book_tools.egg-info/top_level.txt

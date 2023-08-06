@@ -1,0 +1,56 @@
+# OSIS Book Tools
+
+This packages contains tools for converting between OSIS abbreviations
+(both IDs and paratext abbreviations) for books in the canonical Old and
+New Testaments and localized book names.
+
+The core of this is a sqlite database which does all the mappings, and ensures basic
+data integrity. Data is currently loaded once during module init. After that, all
+operations are in-memory.
+
+This abbreviations were compiled from https://wiki.crosswire.org/OSIS_Book_Abbreviations
+(fetched 2019-03-25).
+
+## Usage Examples
+
+### Reference a book via enumeration value
+
+```python
+OSISBook.Gen    # Genesis
+OSISBook._1Sam  # 1 Samuel (note the leading underscore to make the identifier valid)
+```
+
+### Construct a book from a paratext value
+
+```python
+OSISBook.from_paratext("GEN")
+```
+
+### Get the paratext abbreviation for a book
+
+```python
+OSISBook.Gen.paratext_abbreviation
+```
+
+### Get the localized name of a book
+
+This function expects the shortest possible ISO 639 code available for the language. English
+is guaranteed to be available, so use this as a fallback.
+
+```python
+OSISBook.Gen.localized_name("en")
+```
+
+### Get the localized chapter descriptor for a book
+
+This function returns the chapter descriptor, which may be slightly different from the name. Use this when
+constructing a reference string. For example, you write `Psalm 23`, not `Psalms 23`. This is the difference
+between `localized_name` and `chapter_descriptor`.
+
+Like `localized_name`, this function expects the shortest possible ISO 639 code available for the language. English
+is guaranteed to be available, so use this as a fallback. If a localized name exists, a chapter descriptor must
+also exist.
+
+```python
+OSISBook.Gen.chapter_descriptor("en")
+```
