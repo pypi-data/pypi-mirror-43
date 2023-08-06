@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: querytools
+Version: 0.0.1
+Summary: Tools for querying data
+Home-page: https://bostata.com/
+Author: Jake Thomas
+Author-email: jake@bostata.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Datatools
+
+Querying databases for humans. And databases.
+
+
