@@ -1,0 +1,9 @@
+README.rst
+dj_admins_setting.py
+setup.cfg
+setup.py
+dj_admins_setting.egg-info/PKG-INFO
+dj_admins_setting.egg-info/SOURCES.txt
+dj_admins_setting.egg-info/dependency_links.txt
+dj_admins_setting.egg-info/not-zip-safe
+dj_admins_setting.egg-info/top_level.txt
