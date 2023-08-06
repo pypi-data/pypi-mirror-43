@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: thepipe
+Version: 1.0.0
+Summary: A lightweight, general purpose pipeline framework.
+Home-page: http://github.com/tamasgal/thepipe
+Author: Tamas Gal
+Author-email: tgal@km3net.de
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.org/tamasgal/thepipe.svg?branch=master)](https://travis-ci.org/tamasgal/thepipe)
+        [![codecov.io](http://codecov.io/github/tamasgal/thepipe/coverage.svg?branch=master)](http://codecov.io/github/tamasgal/thepipe?branch=master)
+        
+        
+        # thepipe
+        A simplistic, general purpose pipeline framework.
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Requires-Python: >=3.5
