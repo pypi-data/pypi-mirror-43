@@ -1,0 +1,11 @@
+README.md
+setup.py
+bcl2fq/__init__.py
+bcl2fq/bcl2fq.py
+bcl2fq_local.egg-info/PKG-INFO
+bcl2fq_local.egg-info/SOURCES.txt
+bcl2fq_local.egg-info/dependency_links.txt
+bcl2fq_local.egg-info/entry_points.txt
+bcl2fq_local.egg-info/requires.txt
+bcl2fq_local.egg-info/top_level.txt
+bin/bcl2fastq

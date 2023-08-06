@@ -1,0 +1,3 @@
+[console_scripts]
+bcl2fq-local = bcl2fq.bcl2fq:main
+
