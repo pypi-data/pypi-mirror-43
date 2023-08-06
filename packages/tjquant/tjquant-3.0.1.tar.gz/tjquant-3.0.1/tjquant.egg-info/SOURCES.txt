@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+tjquant/__init__.py
+tjquant/client.ini.py
+tjquant/client.py
+tjquant/client_sqlite.py
+tjquant/smtp_163.py
+tjquant.egg-info/PKG-INFO
+tjquant.egg-info/SOURCES.txt
+tjquant.egg-info/dependency_links.txt
+tjquant.egg-info/top_level.txt
+tjquant/demo/__init__.py
+tjquant/demo/client_sqlite_demo.py
