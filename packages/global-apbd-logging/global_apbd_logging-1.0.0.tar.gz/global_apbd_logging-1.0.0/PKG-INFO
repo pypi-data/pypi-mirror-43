@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: global_apbd_logging
+Version: 1.0.0
+Summary: A Python package to get log of apbd.
+Home-page: https://github.com/adityayudhi/global_apbd_logging
+Author: Aditya Yudhi Hanafi
+Author-email: adityayudhi10@gmail.com
+License: MIT
+Description: # --- Activity Logging ---
+        
+        Digunakan untuk log aplikasi nabire (apbd) 2019.
+        
+        
+        # Cara menggunakan
+        
+         - Tambahkan 
+        	> from global_apbd_logging import nabire_logging
+         - Cara Memanggil 
+        
+        	> nabire_logging.logging(request, session_username, nama_db)
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
