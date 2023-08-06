@@ -1,0 +1,3 @@
+docassemble.base==0.4.24
+docassemble==0.4.24
+python-dateutil
