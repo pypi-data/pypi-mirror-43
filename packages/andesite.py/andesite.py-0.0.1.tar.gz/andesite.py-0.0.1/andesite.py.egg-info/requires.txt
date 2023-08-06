@@ -1,0 +1,4 @@
+aiohttp
+lettercase
+websockets
+yarl
