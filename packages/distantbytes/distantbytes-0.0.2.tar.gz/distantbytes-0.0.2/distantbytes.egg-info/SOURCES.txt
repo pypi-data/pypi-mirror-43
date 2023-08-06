@@ -1,0 +1,8 @@
+README.md
+setup.py
+distantbytes/__init__.py
+distantbytes/distantbytes.py
+distantbytes.egg-info/PKG-INFO
+distantbytes.egg-info/SOURCES.txt
+distantbytes.egg-info/dependency_links.txt
+distantbytes.egg-info/top_level.txt

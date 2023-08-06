@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: distantbytes
+Version: 0.0.2
+Summary: Print text to a web terminal viewer
+Home-page: http://www.distantbytes.com
+Author: Thomas Rowntree
+Author-email: thomas.james.rowntree@gmail.com
+License: UNKNOWN
+Description: # Easy Use
+        ```python
+        #import distantbytes package
+        import distantbytes
+        #overwrite normal print
+        print = distantbytes.Print("my_terminal_name")
+        #print to both local terminal and web terminal
+        print("Hello World")
+        
+        #On web page www.distantbytes.com/my_terminal_name
+        # >>Hello World
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
