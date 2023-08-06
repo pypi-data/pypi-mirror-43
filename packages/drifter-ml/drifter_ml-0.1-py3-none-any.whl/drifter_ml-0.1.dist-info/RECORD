@@ -1,0 +1,13 @@
+drifter_ml/__init__.py,sha256=oTlpjsFnJvJTChPw36CmuNyXaNnThr8ikp0obNY_xLQ,307
+drifter_ml/classification_tests/__init__.py,sha256=VDewtNJhDTYx9GHSK8VmrBnWVkRMOZnBIgz1KXS_35o,168
+drifter_ml/classification_tests/classification_tests.py,sha256=ogh8JY_P0I4pwYBy3mfqe4fkPCt0Tu_e37ll4fz6qUQ,6190
+drifter_ml/columnar_tests/__init__.py,sha256=mGFcuqjeBaZCcuUVbsWP3Hpz5sW1fIgas4FRv1KjzX4,134
+drifter_ml/columnar_tests/columnar_tests.py,sha256=jzxkT4Oee-G8lNqOLWF1osr-UD3RX2oJKEUzDZa8GdA,2923
+drifter_ml/regression_tests/__init__.py,sha256=zlJ1TRWFORaPjTNaTFv1L3h7mVzJLOw7e9CcZE3JtYQ,152
+drifter_ml/regression_tests/regression_tests.py,sha256=KR-ENToJ6N3nTRbxrNHmqGLSpkqOSJnDlTze0bj3XyQ,3587
+drifter_ml/structural_tests/__init__.py,sha256=XeJxM6Ik0r_miNwEuLAYSdzJFt7Rb7qQb1jybkyemBs,74
+drifter_ml/structural_tests/structural_tests.py,sha256=krEDyudW6vZEMBIGx8FvSN1PTTrGDExzyMEVXqSKUb8,7639
+drifter_ml-0.1.dist-info/METADATA,sha256=U-Fufvd-g-hFDY7ZEes7hU7zTeNzVvjvLL8igYmk3wo,3683
+drifter_ml-0.1.dist-info/RECORD,,
+drifter_ml-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+drifter_ml-0.1.dist-info/top_level.txt,sha256=-5SUGaN-z8kFHxAqlEYJA7YjpwCLvARYMZZHzlI-9l8,11
