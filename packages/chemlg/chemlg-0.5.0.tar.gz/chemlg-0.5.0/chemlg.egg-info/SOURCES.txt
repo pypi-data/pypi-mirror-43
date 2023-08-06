@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+chemlg/__init__.py
+chemlg/constrained.py
+chemlg/libgen.py
+chemlg.egg-info/PKG-INFO
+chemlg.egg-info/SOURCES.txt
+chemlg.egg-info/dependency_links.txt
+chemlg.egg-info/not-zip-safe
+chemlg.egg-info/requires.txt
+chemlg.egg-info/top_level.txt
+chemlg/templates/__init__.py
+lib/chemlgshell
