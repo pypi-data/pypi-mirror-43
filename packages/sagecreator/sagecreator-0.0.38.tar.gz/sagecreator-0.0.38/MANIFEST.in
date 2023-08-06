@@ -1,0 +1,4 @@
+include requirements.txt
+recursive-include sagebase *
+recursive-exclude *.pyc
+prune __pycache__
