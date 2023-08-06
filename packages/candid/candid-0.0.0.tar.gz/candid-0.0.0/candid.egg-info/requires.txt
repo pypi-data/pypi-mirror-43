@@ -1,0 +1,8 @@
+numpy
+matplotlib
+tqdm
+scipy==1.1.0
+scikit-learn==0.19.1
+theano==1.0.4
+h5py==2.9.
+pymc3==3.4.1

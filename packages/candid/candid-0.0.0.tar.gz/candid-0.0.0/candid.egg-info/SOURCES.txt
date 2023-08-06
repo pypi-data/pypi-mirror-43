@@ -1,0 +1,9 @@
+README.md
+setup.py
+candid/__init__.py
+candid/__version__.py
+candid.egg-info/PKG-INFO
+candid.egg-info/SOURCES.txt
+candid.egg-info/dependency_links.txt
+candid.egg-info/requires.txt
+candid.egg-info/top_level.txt

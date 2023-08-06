@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: candid
+Version: 0.0.0
+Summary: Complete And Noiseless Distributions from Incomplete Data
+Home-page: https://github.com/philastrophist/bayesian
+Author: philastrophist
+Author-email: shaun.c.read@gmail.com
+License: MIT
+Description: 
+        # CANDID
+        Complete And Noiseless Distributions from Incomplete Data
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
