@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tdameritrade-client"
+version = "0.1.0"
+description = "A client for the TDA API"
+authors = ["Joe Castagneri <jcastagneri@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+url = "https://gitlab.com/tdameritrade-tools/tdameritrade-client"
+classifiers = [
+        "Programming Language :: Python :: 3.6",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX :: Linux",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "^2.21"
+environs = "^4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
