@@ -1,0 +1,10 @@
+easy_profile/__init__.py,sha256=BipI42UZN2FaflAiwu1ClbL9mI5Z5Kh3plwtRVdZp6o,470
+easy_profile/middleware.py,sha256=19PNohKPf_YVyxuk9MFfGVKuUwPSnJ0MrzPVkXWGrB0,2167
+easy_profile/profiler.py,sha256=RrmBAbz8RHMAFVhl-fay7ofH9wP8eQOPf9Zb6YZLebY,5342
+easy_profile/reporters.py,sha256=zSX1M9dgfKWfhyS4FNRecHthcyilkewpr5ss67Rbw2w,5316
+easy_profile/termcolors.py,sha256=88P4nGqb4tw4BOrGbSLJx08gQ4XVUHamzFZNF639zQA,1581
+sqlalchemy_easy_profile-1.0.0.dist-info/LICENSE,sha256=CH2dTILE9U_GUCvw0G5lWVCWvNfHVJOSj9oAK_o-vcg,1100
+sqlalchemy_easy_profile-1.0.0.dist-info/METADATA,sha256=B6m35yA-DcJX3EwNHDio1Jo7BPVSDCkrI3i3txlUrOI,5042
+sqlalchemy_easy_profile-1.0.0.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+sqlalchemy_easy_profile-1.0.0.dist-info/top_level.txt,sha256=_jg-ReRMKrG0QbnIgWSmwLM4U9dI6SXfH2l7qT06e5k,13
+sqlalchemy_easy_profile-1.0.0.dist-info/RECORD,,
