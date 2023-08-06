@@ -1,0 +1,9 @@
+README.md
+setup.py
+confusion_matrix/__init__.py
+confusion_matrix/__main__.py
+confusion_matrix.egg-info/PKG-INFO
+confusion_matrix.egg-info/SOURCES.txt
+confusion_matrix.egg-info/dependency_links.txt
+confusion_matrix.egg-info/requires.txt
+confusion_matrix.egg-info/top_level.txt
