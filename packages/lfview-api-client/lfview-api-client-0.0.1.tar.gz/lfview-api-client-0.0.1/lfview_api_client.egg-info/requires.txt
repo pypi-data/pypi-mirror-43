@@ -1,0 +1,13 @@
+requests
+properties[full]>=0.5.6
+lfview-resources-files
+lfview-resources-spatial
+lfview-resources-manifests
+lfview-resources-scene
+
+[omf]
+omf
+steno3d
+
+[steno3d]
+steno3d
