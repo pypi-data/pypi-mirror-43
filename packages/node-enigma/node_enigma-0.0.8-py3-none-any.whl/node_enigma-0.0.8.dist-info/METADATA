@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: node-enigma
+Version: 0.0.8
+Summary: UNKNOWN
+Home-page: https://github.com/dyeboah/enigma.py
+Author: David Yeboah
+Author-email: dyeboah@oswego.edu
+License: ['MIT']
+Platform: UNKNOWN
+Requires-Dist: Argparse
+Requires-Dist: Requests
+
+UNKNOWN
+
+
