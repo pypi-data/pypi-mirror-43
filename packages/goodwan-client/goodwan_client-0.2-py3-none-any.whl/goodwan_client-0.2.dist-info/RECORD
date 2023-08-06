@@ -1,0 +1,13 @@
+goodwan_client/__init__.py,sha256=6NRyCC6uROJOBwJ8KeRCqv8Tfq25pNIpbbNRz-lrR6I,222
+goodwan_client/classes.py,sha256=3rOO0MkHFcgLQ-SAIdYDe0dwm-Gt8p5wXqC5vcaghzw,397
+goodwan_client/client.py,sha256=_nhtEjttVlchJ3CKMAndVXaG1fbRAKks2sg8Y6K9FS4,4381
+goodwan_client/devices.py,sha256=7xklVhlJlOWvP2gVlKU9bIMibxzk70xuYlZs5O5e8Pw,5446
+goodwan_client/errors.py,sha256=7aEX8zew691Tf65lnk3PPIpoINFt60Ln83KtCI7CnPg,349
+goodwan_client/event.py,sha256=EBfS7XxFyW-DHgAxE22PspNEy5JV_brWnTEN4u5kxlc,817
+goodwan_client/helpers.py,sha256=-SfPHIRgp73bUPnK7B7kZS0VgQbFa6EaWlWqiYOuDik,1247
+goodwan_client/serializer.py,sha256=imW5HVlLXtRfdsaCAxPbtvTvqcNfOMqV9o80K3_N65I,4396
+goodwan_client-0.2.dist-info/LICENSE.md,sha256=6YfFz7SorCUuw2_hB5TmP7Ct38rtr9BJ5nDnXt87zcI,1071
+goodwan_client-0.2.dist-info/METADATA,sha256=eig4n2G4UstWeBaVw_VR0Tzczei_HFuhBQNXkoNxvOw,1699
+goodwan_client-0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+goodwan_client-0.2.dist-info/top_level.txt,sha256=iS3PjU7WLc7kqcCZ9WK0wnmjVums-v56DxsOUrIWBlc,15
+goodwan_client-0.2.dist-info/RECORD,,
