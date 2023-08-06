@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyovp
+Version: 0.1.1
+Summary: 
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Shogo
+Author-email: shogo@example.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
