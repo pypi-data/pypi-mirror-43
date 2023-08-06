@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/reportabug/__init__.py
+src/reportabug/__main__.py
+src/reportabug.egg-info/PKG-INFO
+src/reportabug.egg-info/SOURCES.txt
+src/reportabug.egg-info/dependency_links.txt
+src/reportabug.egg-info/entry_points.txt
+src/reportabug.egg-info/top_level.txt
+src/reportabug.egg-info/zip-safe
