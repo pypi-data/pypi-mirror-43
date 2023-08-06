@@ -1,0 +1,14 @@
+imgresizer/__init__.py,sha256=p5fOdzKC1G3pyICgh7Cnx8fBqQi8wLbRdmbP_tnmmu0,184
+imgresizer/__main__.py,sha256=d24u18ysmg2LescT9hIoKrFzS76JSs_BEzM1B4Qgvk4,1226
+imgresizer/controller/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+imgresizer/controller/image_sizer_controller.py,sha256=2eBKU0uutNHicfIEbfihz_hpudPlTfAInRdwIbFmUf4,5032
+imgresizer/model/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+imgresizer/model/image.py,sha256=MOwdCl7nl5MJj2XyPApbKvURy2F0eZ8S11Bb0hPU9oQ,3437
+imgresizer/view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imgresizer/view/cli_image_resizer.py,sha256=05uyWm8S3g0Zlomj8csilnKLBQ1Ae4mNV7YTGYEN29o,3611
+imgresizer-1.0.0.dist-info/LICENSE,sha256=QPW3GFwHzv1gUmMNWtsp3VWAGhDKReVjRwTZ1_O0tYw,1069
+imgresizer-1.0.0.dist-info/METADATA,sha256=sVTrWtNUnL7B2seZrpj69CrJIm3VGQIz23NGVglZjvg,1687
+imgresizer-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+imgresizer-1.0.0.dist-info/entry_points.txt,sha256=MDrHLG8DPZsYBW2ehQhlxNy9r3Y4vKTFe4ip_aRf4lE,57
+imgresizer-1.0.0.dist-info/top_level.txt,sha256=DJ6iv4NUiUzgbmQLApgIE6yheHuHHBOfoLw1-qiiHYY,11
+imgresizer-1.0.0.dist-info/RECORD,,
