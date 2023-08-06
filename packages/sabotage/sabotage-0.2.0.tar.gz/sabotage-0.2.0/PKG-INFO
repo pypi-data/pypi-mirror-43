@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sabotage
+Version: 0.2.0
+Summary: Infra-tests made easy
+Home-page: https://github.com/nikitanovosibirsk/sabotage
+Author: Nikita Tsvetkov
+Author-email: nikitanovosibirsk@yandex.com
+License: Apache 2
+Description: # sabotage
+        
+        [![License](https://img.shields.io/github/license/nikitanovosibirsk/sabotage.svg)](https://github.com/nikitanovosibirsk/sabotage)
+        [![PyPI](https://img.shields.io/pypi/v/sabotage.svg)](https://pypi.python.org/pypi/sabotage)
+        [![Python Version](https://img.shields.io/pypi/pyversions/sabotage.svg)](https://pypi.python.org/pypi/sabotage)
+        
+        ## Installation
+        
+        ```bash
+        pip3 install sabotage
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
