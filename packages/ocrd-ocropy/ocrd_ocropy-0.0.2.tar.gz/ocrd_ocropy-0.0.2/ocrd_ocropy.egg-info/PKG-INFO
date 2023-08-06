@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ocrd-ocropy
+Version: 0.0.2
+Summary: ocropy bindings
+Home-page: https://github.com/OCR-D/ocrd_ocropy
+Author: Konstantin Baierer
+Author-email: unixprog@gmail.com, wuerzner@gmail.com
+License: Apache License 2.0
+Description: # ocrd_ocropy
+        
+        [![image](https://travis-ci.org/OCR-D/ocrd_ocropy.svg?branch=master)](https://travis-ci.org/OCR-D/ocrd_ocropy)
+        
+        [![Docker Automated build](https://img.shields.io/docker/automated/ocrd/ocropy.svg)](https://hub.docker.com/r/ocrd/ocropy/tags/)
+        
+        > Wrapper for the ocropy OCR engine
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
