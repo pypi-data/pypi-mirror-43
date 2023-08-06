@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: apiendpoints
+Version: 0.9.0
+Summary: Wraps Python Requests with an (even) easier to use programming model for accessing a REST API.
+Home-page: https://github.com/sethlivingston/python-api-client
+Author: Seth M. Livingston
+Author-email: webdevbyseth@gmail.com
+License: MIT
+Description: # API Endpoints
+        
+        Wraps Python Requests with an (even) easier to use programming model for
+        accessing a REST API.
+        
+            from apiendpoints import API, APIEndpoint
+        
+            api = API('https://webhook.site/')
+            endpoint = APIEndpoint(api, '/75b8e281-bb6d-4611-8cca-860d9d083545')
+        
+            response: dict = endpoint.fetch()
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
