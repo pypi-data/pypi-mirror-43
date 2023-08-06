@@ -1,0 +1,173 @@
+Metadata-Version: 1.1
+Name: her
+Version: 1.5.0
+Summary: A new file format
+Home-page: https://github.com/hearot/HER
+Author: Gabriel Hearot
+Author-email: gabriel@hearot.it
+License: UNKNOWN
+Download-URL: https://github.com/hearot/HER/archive/v1.5.0.tar.gz
+Description: HER, a new Text Format |Build Status|
+        =====================================
+        
+        Search informations about the Syntax and Types using the `Wiki
+        section`_.
+        
+        Content table
+        -------------
+        
+        -  `What’s HER?`_
+        -  `Why shall I use HER?`_
+        -  `Why HER?`_
+        -  **Python Module**
+        
+           -  `Installation`_
+           -  `Import Module`_
+           -  `Encode a Dictionary`_
+           -  `Decode a String`_
+           -  `HER class`_
+           -  `Documentation`_
+        
+        What’s HER?
+        -----------
+        
+        HER is text format, like XML/Json. The difference is that HER is easier
+        than others. Just see:
+        
+        ::
+        
+            - Category -
+                >> Array[]
+                * Array[] = "Umh, that's pretty good!"
+        
+        Why shall I use HER?
+        --------------------
+        
+        As I said before, HER is **simple** and **easy to use**. You can pass
+        informations, or better, store informations\* and document them.
+        
+        Feel the difference:
+        
+        **XML:**
+        
+        .. code:: xml
+        
+            <christmas>
+                <greetings>Merry christmas!</greetings>
+                <greetings>Spam, Python, Eggs</greetings>
+            </christmas>
+        
+        **HER:**
+        
+        ::
+        
+            - Christmas -
+                >> Greetings[]
+                * Greetings[] = "Merry christmas!"
+                * Greetings[] = "Spam, Python, Eggs"
+        
+        Python Module
+        =============
+        
+        Installation
+        ------------
+        
+        You can easily install that module using `pip`_:
+        
+        .. code:: bash
+        
+            pip install her
+        
+        Or, if you want to upgrade the module:
+        
+        .. code:: bash
+        
+            pip install --upgrade her
+        
+        Import Module
+        -------------
+        
+        You must use ``import her`` to import all the HER module.
+        
+        .. code:: python
+        
+            import her
+            ...
+        
+        Encode a Dictionary
+        -------------------
+        
+        Just use the ``encode`` function.
+        
+        .. code:: python
+        
+            from her import encode
+            her = encode({'Category':{'hello world':True}})
+            print(her)
+        
+        Output:
+        
+        ::
+        
+            - Category -
+                * hello world = True
+        
+        Decode a String
+        ---------------
+        
+        Just use the ``decode`` function.
+        
+        .. code:: python
+        
+            from her import decode
+            dictionary = decode("- Category -\n    * hello world = True")
+            print(dictionary)
+        
+        Output:
+        
+        ::
+        
+            {'Category':{'hello world':True}}
+        
+        HER class
+        ---------
+        
+        You can use the ``HER`` class to call less
+        ``encode`` & ``decode`` functions and optimize
+        your codebase. It updates all its attributes
+        automatically.
+        
+        .. code:: python
+        
+                x = her.HER()
+                x.value = {"foo": {"lol": 1}}
+                print(repr(x.representation)) # Output: '- foo -\n    * lol = 1'
+        
+        You can also pass a parameter (*dict* or *str*):
+        
+        .. code:: python
+        
+                x = her.HER('- foo -\n    * lol = 1')
+                print(x.value) # Output: {"foo": {"lol": 1}}
+        
+                y = her.HER({"foo": {"lol": 1}})
+                print(repr(x.representation)) # Output: '- foo -\n    * lol = 1'
+        
+        
+        .. _Wiki section: https://github.com/hearot/HER/wiki
+        .. _What’s HER?: #whats-her
+        .. _Why shall I use HER?: #why-shall-i-use-her
+        .. _Why HER?: #why-her
+        .. _Installation: #installation
+        .. _Import Module: #import-module
+        .. _Encode a Dictionary: #encode-a-dictionary
+        .. _Decode a String: #decode-a-string
+        .. _HER class: #her-class
+        .. _Documentation: http://her.readthedocs.org
+        .. _pip: https://pypi.org/project/pip/
+        
+        .. |Build Status| image:: https://travis-ci.org/hearot/HER.svg?branch=master
+           :target: https://travis-ci.org/hearot/HER
+        
+Keywords: python,her
+Platform: UNKNOWN
