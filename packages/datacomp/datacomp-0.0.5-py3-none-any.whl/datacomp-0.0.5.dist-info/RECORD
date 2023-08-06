@@ -1,0 +1,12 @@
+datacomp/__init__.py,sha256=_-oJbpgAk0AX1UK1ihBDqQ2eIJ8HTR2ztIT0E6cf_m4,515
+datacomp/datacollection.py,sha256=35XHkJmHYN2ICvX9o1pZHz8Rd0h0T995Fj6z1Wggz4Q,29851
+datacomp/longitudinal.py,sha256=buSgte-BWBGf6TjZE8EfG531HL1JklSuejQDra9fxVQ,1794
+datacomp/prop_matching.py,sha256=cKZQQWGMqz8qeN0Xl05z5jdD06gF6EKQu2jrDcS-Vgg,3293
+datacomp/stats.py,sha256=-nqjHiSuq3DF3LCNZLVvAL1BvVtvVIG_sPZ8IQdulfs,8398
+datacomp/utils.py,sha256=_HQBRruJ1adneBs8lieWZE-C2moiMivV8eC6so7Igvk,8578
+datacomp/visualization.py,sha256=PqFTZBEUZtXdrJDO0Bbs0E2BX__WktZkSMNObqAvX9k,19205
+datacomp-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datacomp-0.0.5.dist-info/METADATA,sha256=XY5KK_08rJ3aJRnHINs3fC7UpJb6L3HPvM6OM_wiCOE,3892
+datacomp-0.0.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+datacomp-0.0.5.dist-info/top_level.txt,sha256=wuMU_t2pz1L-IvwjVQBmihxbYV0fx4kSmoZxk1aeVpc,9
+datacomp-0.0.5.dist-info/RECORD,,
