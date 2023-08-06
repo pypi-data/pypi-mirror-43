@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: scikit-vectors
+Version: 0.6.0
+Summary: Functions to create n-dimensional vector classes
+Home-page: https://github.com/t-o-k/scikit-vectors
+Author: Tor Olav Kristensen
+Author-email: tor.olav.k@gmail.com
+License: BSD
+Description: # Functions to make n-dimensional vector classes:
+        
+        * create_class_Fundamental_Vector
+        * create_class_Simple_Vector
+        * create_class_Vector
+        * create_class_Cartesian_Vector
+        * create_class_Cartesian_2D_Vector
+        * create_class_Cartesian_3D_Vector
+        * create_class_Versatile_Vector
+        * create_class_Tolerant_Cartesian_Vector
+        * create_class_Tolerant_Cartesian_2D_Vector
+        * create_class_Tolerant_Cartesian_3D_Vector
+        * create_class_Tolerant_Versatile_Vector
+        
+        Tor Olav
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
