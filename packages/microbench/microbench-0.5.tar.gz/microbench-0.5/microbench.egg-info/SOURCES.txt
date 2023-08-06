@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+microbench/__init__.py
+microbench/_version.py
+microbench.egg-info/PKG-INFO
+microbench.egg-info/SOURCES.txt
+microbench.egg-info/dependency_links.txt
+microbench.egg-info/top_level.txt
+microbench.egg-info/zip-safe
