@@ -1,0 +1,16 @@
+mattes_dada/__init__.py,sha256=fTwctI9qkhZ5lxZMhBs1mG3WFeeL4Gr7f2TZtCQa_i4,43
+mattes_dada/cmd.py,sha256=Tcjf1Uylms-iA2ikL9gZYv5ALXEvRkVy51ueKM6cKew,734
+mattes_dada/dada.py,sha256=scjE2y11x7GFJRFlm0EvcWyTJhYPgEP3IzeP3NkzRac,529
+mattes_dada/model/__init__.py,sha256=R8-0C9ITTtAjhgK8f-Iq03yIXGdrL3lvDeDGLBqeLK8,32
+mattes_dada/model/dada_text.py,sha256=eFmLNsUrOV7jHRojAMZzkD_TpNA5k97mWGS2E2qJC2E,2115
+mattes_dada/nltk_data/__init__.py,sha256=uHqZskcpac8SqfkoRa1NUcNY0FFIkgnvHMaBzhcKAns,81
+mattes_dada/nltk_data/nltk_data.py,sha256=eLDRCi3XJ4hC7FAUyqpnhLVffgdTE_FYe4FpHR0MsT8,2406
+mattes_dada/odt/__init__.py,sha256=MyVHHtaMBNlGcGp1UoSkWWDLN5dR4WGmqUvrSQkraeM,43
+mattes_dada/odt/content.py,sha256=qJ_CqcfT4LBDgJDNdnd9hG_0gdy2a3DYW3rhDLlauSI,3704
+mattes_dada/odt/handler.py,sha256=g1PyFrn4x4ysJMjuISEjym1v0hu3EqUAYwjlp0PScwQ,1034
+mattes_dada/odt/styles.py,sha256=ZGeH9pEMxbe7Vdi7xgkkbhOSDUkDebXBjBTKvWX3zlQ,960
+mattes_dada-0.2.2.dist-info/entry_points.txt,sha256=oJLl1QhRW9capJUSMBuhrFKD--fepswJ4JNwxfSgqbo,46
+mattes_dada-0.2.2.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+mattes_dada-0.2.2.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+mattes_dada-0.2.2.dist-info/METADATA,sha256=I59QDiS8QL10Y-ONRYLOf9AKONtBfKm8-C-cfmJDgUE,2037
+mattes_dada-0.2.2.dist-info/RECORD,,
