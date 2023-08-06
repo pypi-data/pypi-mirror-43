@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+from os.path import dirname as __dirname, realpath as __realpath, join as __join
+
+sys.path.append(__join(__dirname(__dirname(__realpath(__file__))), "Modules", "Python"))
+from subprocess import check_output
+import re
+import EtnaAPI
+import EtnaAPI.Authentication
+import EtnaAPI.Todos
+
+try:
+    with open("/tmp/jawa-commit-type", 'r') as f:
+        commit_type = f.read().split('\n')[0]
+except (OSError, IOError) as e:
+    print(e)
+    exit(1)
+
+if commit_type in ("commit", "squash", "merge"):
+    exit(0)
+
+IDs = []
+
+for line in sys.stdin:
+    msg = check_output(["git", "log", "-1", "--format=%B", line.split(" ", 3)[1]]).decode("utf-8").split('\n')[0]
+    if re.match("\[[^#]+#(\d+)\].*", msg):
+        IDs.append(msg)
+
+IDs = list(set(IDs))
+
+session = EtnaAPI.Session()
+auth_src = EtnaAPI.Authentication.KeyringAuthenticator()
+auth_src.authenticate(session)
+todoController = EtnaAPI.Todos.Controller(session)
+
+for curID in IDs:
+    others = list(filter(lambda x: x != curID), IDs)
+    todo = dict()
+    todo['id'] = int(curID)
+    todo['type'] = "commit"
+    todo['message'] = "**Rewrite/Rebase**\n\n" \
+                      "Une branche contenant des références vers ce ticket vient d'être réécrite/rebase."
+    if len(others) > 0:
+        todo['message'] += "  \nC'est également le cas pour :\n\nle #" + ', le #'.join(others)
+    todoController.update_todo(todo['id'], todo)

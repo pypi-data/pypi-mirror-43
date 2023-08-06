@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import sys
+import shutil
+import re
+
+
+def print_error(msg, status=0):
+    print(msg, file=sys.stderr)
+    exit(status)
+
+
+commitFile = sys.argv[1]
+
+try:
+    with open(commitFile, 'r') as f:
+        data = f.read()
+except (OSError, IOError) as e:
+    print_error("Unable to open commit file", 1)
+
+lines = data.split('\n', 7)
+
+if len(lines) != 8:
+    print_error("Invalid number of lines, expected 8, got " + str(len(lines)), 1)
+
+subject, _, title, ttl, tags, users, _, message = lines
+
+if re.match("\[?TMP", subject):
+    print_error("'TMP' tag detected, skipping checks", 0)
+if re.match("\$Revert", subject):
+    print_error("'Revert' tag detected, skipping checks", 0)
+if re.search("blablabla", subject):
+    print_error("Template detected, aborting", 1)
+if not re.match("\[(?:FEATURE|FIX|CR|HF)#\d+\] .+", subject):
+    print_error("Error line 1: Description line", 1)
+if not re.match("# titre: .+", title):
+    print_error("Error line 3: invalid parameter Title", 1)
+if not re.match("# ttl: \d{4}-\d{2}-\d{2}", ttl):
+    print_error("Error line 4: invalid parameter TTL", 1)
+if not re.match("# tags: (?:(?:[a-z0-9]+),? ?)+", tags):
+    print_error("Error line 5: invalid parameter Tags", 1)
+if not re.match("# users: (?:(?:(?:adm|student|prof|istm):(?:[a-z]{1,6}_[a-z]|[a-z]+\.[a-z]+)),? ?)+", users):
+    print_error("Error line 5: invalid parameter Tags", 1)
+if message == "":
+    print_error("Error line 8: you MUST provide a real description")
+shutil.copyfile(commitFile, '/tmp/jawa-commit-msg')
