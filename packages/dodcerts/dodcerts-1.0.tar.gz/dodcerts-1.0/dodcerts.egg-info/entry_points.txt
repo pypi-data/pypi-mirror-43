@@ -1,0 +1,3 @@
+[console_scripts]
+dodcerts = dodcerts.cli:cli
+
