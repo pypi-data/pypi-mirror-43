@@ -1,0 +1,54 @@
+Metadata-Version: 1.1
+Name: djangoplus-documentos
+Version: 0.2
+Summary: A simple djangoplus application that contains classes for some document types used in Brazil
+Home-page: http://djangoplus.net/
+Author: Breno Silva
+Author-email: brenokcc@yahoo.com.br
+License: BSD License
+Description: Documentos
+        =======
+        
+        Documentos is a simple djangoplus app that contains some document types used in Brazil.
+        
+        It has four model classes:
+        
+        - RG
+        - TituloEleitor
+        - Certidao
+        - CertidaoMilitar
+        
+        ### Dependecies
+        
+        djangoplus-enderecos
+        
+        ### Steps
+        
+        Execute the following steps to use it:
+        
+        1. Install it
+        
+            pip install djangoplus_documentos
+        
+        
+        1. Add "documentos" to your INSTALLED_APPS settings
+        
+            INSTALLED_APPS = \[..., 'documentos']
+        
+        2. Create the tables
+        
+            python manage.py sync
+        
+        3. Use the models
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
