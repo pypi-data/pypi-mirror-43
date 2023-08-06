@@ -1,0 +1,7 @@
+README.md
+setup.py
+jwt_auth_micro.egg-info/PKG-INFO
+jwt_auth_micro.egg-info/SOURCES.txt
+jwt_auth_micro.egg-info/dependency_links.txt
+jwt_auth_micro.egg-info/top_level.txt
+jwt_auth_micro.egg-info/zip-safe
