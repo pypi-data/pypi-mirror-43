@@ -1,0 +1,1 @@
+https://github.com/corpetty/py-etherscan-api/archive/18ee101.zip#egg=py-etherscan-api-0.7.0
