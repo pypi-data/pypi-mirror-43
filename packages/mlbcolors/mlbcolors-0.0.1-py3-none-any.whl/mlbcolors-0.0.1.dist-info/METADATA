@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mlbcolors
+Version: 0.0.1
+Summary: Easy access to the official colors of every team in Major League Baseball
+Home-page: http://www.github.com/datadesk/mlbcolors
+Author: Ben Welsh
+Author-email: ben.welsh@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+
+UNKNOWN
+
+
