@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: gconf
+Version: 0.5.2
+Summary: Managing a config globally throughout a Python application
+Home-page: https://gitlab.com/max-tet/gconf
+Author: Max von Tettenborn
+Author-email: max@vtettenborn.net
+License: LICENSE
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
