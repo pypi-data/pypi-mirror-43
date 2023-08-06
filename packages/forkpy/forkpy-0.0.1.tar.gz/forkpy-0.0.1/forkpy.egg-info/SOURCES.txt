@@ -1,0 +1,8 @@
+README.rst
+setup.py
+forkpy/__init__.py
+forkpy/factory.py
+forkpy.egg-info/PKG-INFO
+forkpy.egg-info/SOURCES.txt
+forkpy.egg-info/dependency_links.txt
+forkpy.egg-info/top_level.txt
