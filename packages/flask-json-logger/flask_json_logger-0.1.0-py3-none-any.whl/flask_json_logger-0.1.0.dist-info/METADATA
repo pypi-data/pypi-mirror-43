@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: flask-json-logger
+Version: 0.1.0
+Summary: Simple JSON log formatter with additional flask context variables
+Home-page: https://github.com/hubo1016/flask-json-logger
+Author: hubo
+Author-email: hubo1016@126.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: python-json-logger (>=0.1.2)
+Requires-Dist: Flask
+Requires-Dist: pychecktype (>=1.4.1)
+
+UNKNOWN
+
+
