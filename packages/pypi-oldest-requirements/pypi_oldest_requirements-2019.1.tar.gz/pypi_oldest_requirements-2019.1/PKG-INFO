@@ -1,0 +1,65 @@
+Metadata-Version: 1.2
+Name: pypi_oldest_requirements
+Version: 2019.1
+Summary: Get "oldest" fitting requirements from pypi
+Home-page: https://github.com/renefritze/pypi_oldest_requirements
+Author: René Fritze
+Author-email: rene.fritze@wwu.de
+License: BSD license
+Description: ========================
+        PyPi Oldest Requirements
+        ========================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/pypi_oldest_requirements.svg
+                :target: https://pypi.python.org/pypi/pypi_oldest_requirements
+        
+        .. image:: https://img.shields.io/travis/renefritze/pypi_oldest_requirements.svg
+                :target: https://travis-ci.org/renefritze/pypi_oldest_requirements
+        
+        .. image:: https://readthedocs.org/projects/pypi-oldest-requirements/badge/?version=latest
+                :target: https://pypi-oldest-requirements.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Get "oldest" fitting requirements from pypi
+        
+        
+        * Free software: BSD license
+        * Documentation: https://pypi-oldest-requirements.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        2019.0 (2019-03-15)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pypi_oldest_requirements
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
