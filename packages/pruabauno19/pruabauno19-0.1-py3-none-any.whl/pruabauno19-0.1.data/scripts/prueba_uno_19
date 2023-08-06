@@ -1,0 +1,27 @@
+#!python
+def Get_type_athena(tipo):
+    clases = {'str': 'VARCHAR',
+              'int32': 'INT',
+              'int64' : 'BIGINT',
+              'date' : 'DATE',
+              'Timestamp' : 'TIMESTAMP',
+              'float' : 'FLOAT',
+              'bool' : 'BO0LEAN',
+            }
+    return clases[tipo]
+
+def Get_string(columns, df):
+    atributos = ''
+    for x in columns:
+        if x != 'periodo':
+            atributos+= x +' '+ Get_type_athena(df[x][0].__class__.__name__)
+            if x != df.columns[-1]:
+                atributos+=','
+
+    sql_string = 'create external table if not exists test.fraude(' + atributos +""") partitioned by (periodo 
+date)
+                             stored as parquet
+                             location 's3://datalake-analytics-entel/fraude/';"""
+
+    return sql_string
+#
