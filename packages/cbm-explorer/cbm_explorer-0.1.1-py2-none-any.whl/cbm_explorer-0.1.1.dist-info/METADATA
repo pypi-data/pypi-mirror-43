@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cbm-explorer
+Version: 0.1.1
+Summary: A package for exploring the results of a CBM run and the corresponding Access databases.
+Home-page: UNKNOWN
+Author: Lucas Sinclair
+Author-email: lucas.sinclair@me.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: autopaths
+Requires-Dist: plumbing
+Requires-Dist: pandas
+
+# `cbm_explorer` version 0.1.1
+
+Here, `cbm_explorer` is a package for exploring the results of a CBM run and the corresponding Access databases
+
+## Warnings
+
+This package is currently under heavy development and the master branch is subject to breaking changes at each commit. Until we reach version 1.0 we recommend all users to first contact the authors before building something that depends on the stability of the API of `cbm_explorer`.
+
+## Installing
+
+Use the python package index and the pip tool to obtain this package. From the command line:
+
+    $ pip install --user cbm_explorer
+
