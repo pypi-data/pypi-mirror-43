@@ -1,0 +1,7 @@
+README.md
+setup.py
+django_hybrid_translation.egg-info/PKG-INFO
+django_hybrid_translation.egg-info/SOURCES.txt
+django_hybrid_translation.egg-info/dependency_links.txt
+django_hybrid_translation.egg-info/requires.txt
+django_hybrid_translation.egg-info/top_level.txt
