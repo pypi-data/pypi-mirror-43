@@ -1,0 +1,8 @@
+globconf/__init__.py,sha256=Jl6dHWp0XoUONEPcYhCDwZa6SYFoBNqJrLJ2VnvWt0M,717
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_verify_required_options.py,sha256=W6NL5-Dmr85XlFJHI2jmRef1d4biOcU1mLQmNyM99Dk,629
+klang_globconf-0.0.6.dist-info/LICENSE.md,sha256=gpUCmEjf2ymi9CYo6rpNrPzAxZyY7IqxljSIJXFAeEc,1074
+klang_globconf-0.0.6.dist-info/METADATA,sha256=1bnkrx3dgi9lRwa-XFH7u46REGCGjXGmzOQnGo_9UdY,2360
+klang_globconf-0.0.6.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+klang_globconf-0.0.6.dist-info/top_level.txt,sha256=c3KsRsSutH32wJz0b-d4P_NdnL-glpc-wtPgmXSvnrs,14
+klang_globconf-0.0.6.dist-info/RECORD,,
