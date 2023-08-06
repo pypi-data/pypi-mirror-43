@@ -1,0 +1,9 @@
+horimote/__init__.py,sha256=OhN6CeR2gCe6cj1eD4iQm7pyZ5Rv4Me6Zy9n9EmM1dk,35
+horimote/client.py,sha256=4dCCtmA-3DldVOrH4wW8n6jvAlPV5LWtlQfJnd2kSOg,4464
+horimote/exceptions.py,sha256=XCN-4kGSY8mRyhX2kuubF4hm3okyQVTnSAfu3CK_Nck,121
+horimote/keys.py,sha256=dPxfCR3_VZlmxQpMJ9_BazERVRqFAj3OAlyqDUkMHi8,1459
+horimote-0.4.1.dist-info/LICENSE,sha256=b806gB6IyfdwhczVMdWUiv3bUVvD9kUS6nfytLoFLpM,1089
+horimote-0.4.1.dist-info/METADATA,sha256=uDpguwIBJSk1b660umARPkwlBbCrc1HYb5DFidSf8uA,2653
+horimote-0.4.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+horimote-0.4.1.dist-info/top_level.txt,sha256=VEcpI6327ezolX15BnxhhdOh8Obil6ysx-Ci7-7MIkA,9
+horimote-0.4.1.dist-info/RECORD,,
