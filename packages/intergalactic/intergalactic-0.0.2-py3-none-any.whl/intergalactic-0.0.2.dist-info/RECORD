@@ -1,0 +1,17 @@
+intergalactic/__init__.py,sha256=S32H1KztUFO9BSS8rkbMjfUUKBBXft9PoY0LP26Aspo,110
+intergalactic/abundances.py,sha256=0tQRwhMnAlmcI3rp-zlH3cf907rtKaD0q5JLjtI7i04,5062
+intergalactic/cli.py,sha256=3PMekVRVBIZcp1IhebVd-SrqZTsxuldmqxh8YKXJFqQ,1204
+intergalactic/constants.py,sha256=WUFJOzDtJY2Oa-ORb_kKL8mwWppK10EOmNbm41HCyEw,881
+intergalactic/elements.py,sha256=na-bBOV4a5YIRbtKSTZ90vMu746-7J60AHeAVfMTRec,2131
+intergalactic/functions.py,sha256=CJqjJ3kgQu1rmh7RHC8cDojGkl2c10-30onMeJhaVkk,6720
+intergalactic/imfs.py,sha256=EdcEfe0HpxUGJs1RaV7u4AGGEurqUNUpRd_xPXZcQGI,3362
+intergalactic/matrix.py,sha256=huYW8T1Pd3Brm-1O65yCKJUe4OQYCUa8R1JIRUF2s9w,8257
+intergalactic/model.py,sha256=nCDeKxvsU7xffMYSqpUH_vhyHjU1yB2sIduGFlDkXoM,7749
+intergalactic/settings.py,sha256=UKYe1xxloTJcFAYdfNj6AqRD3-wU986ioaZnf7M2kCE,1197
+intergalactic/sample_input/expelled_elements,sha256=D8CX7gAAHD9E3B40rjxPjl6JDSbOCAmVr0cyjrQ2ohM,19120
+intergalactic-0.0.2.dist-info/LICENSE,sha256=Tu4TOm9xiz6hedoLrVx9AmJFT-3rozUeXBlKquk-UQI,1070
+intergalactic-0.0.2.dist-info/METADATA,sha256=a0d-LLh1jo53_e4EFw_A3c_uRcydz8ZqC5Rr-4FY2s4,5135
+intergalactic-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+intergalactic-0.0.2.dist-info/entry_points.txt,sha256=fKCezb-deI5SicJPUq3Xq9nVEibHywIeN8fG2oMgys0,58
+intergalactic-0.0.2.dist-info/top_level.txt,sha256=3HEV0FcWvPyLhEwT7q1y5_iTgWXK90r70iIBfEqmmWQ,14
+intergalactic-0.0.2.dist-info/RECORD,,
