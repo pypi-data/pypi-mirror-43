@@ -1,0 +1,13 @@
+unv/__init__.py,sha256=tqnq_Q0F-tOSCBS_h8hYwEaedyxMG-LFgjOC_97LWxs,64
+unv/deploy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unv/deploy/app.py,sha256=PTp_pWkAV9zgKspAOvjbbdqLK9K-RjO_A9KI8rkZeUg,94
+unv/deploy/helpers.py,sha256=M_iQnueAvHDUHWiZub6uO2zCgqWBeXRrcotsJx3voBs,4462
+unv/deploy/packages.py,sha256=DFhtoIfBZSqks_yMCeTTHRX17Pytnhi97WpUWEmJbNc,8239
+unv/deploy/settings.py,sha256=vPgTalAQKacujSyrARtJjQcjM-jxAXH-V6K06Aa6b2Q,143
+unv/deploy/tasks.py,sha256=mM9NV9DxmbDOkHphMq_ceeYXra3gpnDIg6_EEpgi6QY,587
+unv.deploy-0.1.8.dist-info/LICENSE,sha256=Pz57WrERCKx4JxUII3BxCQfGaY-Ztn9syRh4Ecxd3sk,1113
+unv.deploy-0.1.8.dist-info/METADATA,sha256=ZV7gSny2s4pHHDrrvQpJoqCycZUxySbEECC-fQ5tffc,911
+unv.deploy-0.1.8.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+unv.deploy-0.1.8.dist-info/top_level.txt,sha256=zpZYkrC2GtfZ4NGMGPyb4mTQKR8et7gz1WrWIMjPIHI,4
+unv.deploy-0.1.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+unv.deploy-0.1.8.dist-info/RECORD,,
