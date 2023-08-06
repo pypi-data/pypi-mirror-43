@@ -1,0 +1,8 @@
+marmotester.py
+setup.py
+marmo_tester.egg-info/PKG-INFO
+marmo_tester.egg-info/SOURCES.txt
+marmo_tester.egg-info/dependency_links.txt
+marmo_tester.egg-info/entry_points.txt
+marmo_tester.egg-info/requires.txt
+marmo_tester.egg-info/top_level.txt
