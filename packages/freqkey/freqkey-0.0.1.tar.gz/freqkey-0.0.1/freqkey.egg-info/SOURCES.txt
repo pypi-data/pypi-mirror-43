@@ -1,0 +1,9 @@
+README.md
+setup.py
+freqkey/__init__.py
+freqkey.egg-info/PKG-INFO
+freqkey.egg-info/SOURCES.txt
+freqkey.egg-info/dependency_links.txt
+freqkey.egg-info/entry_points.txt
+freqkey.egg-info/requires.txt
+freqkey.egg-info/top_level.txt
