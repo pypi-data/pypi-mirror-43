@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+setup.cfg
+setup.py
+calypso/__init__.py
+calypso.egg-info/PKG-INFO
+calypso.egg-info/SOURCES.txt
+calypso.egg-info/dependency_links.txt
+calypso.egg-info/entry_points.txt
+calypso.egg-info/not-zip-safe
+calypso.egg-info/requires.txt
+calypso.egg-info/top_level.txt

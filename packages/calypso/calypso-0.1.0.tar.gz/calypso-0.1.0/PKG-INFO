@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: calypso
+Version: 0.1.0
+Summary: Calypso
+Home-page: https://github.com/flowdas/flowdas
+Author: Flowdas Inc.
+Author-email: propsero@flowdas.com
+License: MPL 2.0
+Project-URL: Code, https://github.com/flowdas/flowdas
+Project-URL: Issue tracker, https://github.com/flowdas/flowdas/issues
+Description: Calypso
+        =======
+        
+        Calypso requires Python 3.6+.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: dev
