@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: cnnfacerecognition
+Version: 1.0
+Summary: Python wrapper for the cnnfacerecognition
+Home-page: https://github.com/yishuihanhan/face-recognition
+Author: yishuihancheng
+Author-email: yishuihancheng@qq.com
+License: BSD
+Description: cnnfacerecognition
+Keywords: face,recognition,cnnfacerecognition,cnn
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP

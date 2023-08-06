@@ -1,0 +1,11 @@
+setup.py
+cnnfacerecognition/__init__.py
+cnnfacerecognition/cameraDemo.py
+cnnfacerecognition/dataHelper.py
+cnnfacerecognition/demoForShow.py
+cnnfacerecognition/faceRegnigtionModel.py
+cnnfacerecognition/getCameraPics.py
+cnnfacerecognition.egg-info/PKG-INFO
+cnnfacerecognition.egg-info/SOURCES.txt
+cnnfacerecognition.egg-info/dependency_links.txt
+cnnfacerecognition.egg-info/top_level.txt
