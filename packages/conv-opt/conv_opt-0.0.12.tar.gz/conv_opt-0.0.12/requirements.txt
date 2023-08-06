@@ -1,0 +1,13 @@
+abduct
+attrdict
+cylp
+cython
+mock
+numpy
+optlang
+quadprog
+setuptools
+scipy
+six
+swiglpk
+sympy
