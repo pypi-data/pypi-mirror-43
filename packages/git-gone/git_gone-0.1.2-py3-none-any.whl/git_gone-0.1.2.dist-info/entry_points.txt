@@ -1,0 +1,3 @@
+[console_scripts]
+gitgone=git_gone.__main__:main
+
