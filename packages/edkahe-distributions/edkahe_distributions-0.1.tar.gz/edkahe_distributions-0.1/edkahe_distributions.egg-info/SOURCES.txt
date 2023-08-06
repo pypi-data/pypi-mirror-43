@@ -1,0 +1,10 @@
+setup.py
+edkahe_distributions/Binomialdistribution.py
+edkahe_distributions/Gaussiandistribution.py
+edkahe_distributions/Generaldistribution.py
+edkahe_distributions/__init__.py
+edkahe_distributions.egg-info/PKG-INFO
+edkahe_distributions.egg-info/SOURCES.txt
+edkahe_distributions.egg-info/dependency_links.txt
+edkahe_distributions.egg-info/not-zip-safe
+edkahe_distributions.egg-info/top_level.txt
