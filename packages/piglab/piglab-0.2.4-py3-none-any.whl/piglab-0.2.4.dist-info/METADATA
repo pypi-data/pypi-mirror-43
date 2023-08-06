@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: piglab
+Version: 0.2.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: yanjingang@mail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: python-chess
+Requires-Dist: pyquery
+Requires-Dist: xpinyin
+
+UNKNOWN
+
+
