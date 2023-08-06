@@ -1,0 +1,11 @@
+scopedconfig/__init__.py,sha256=0vzQ_N65K1X--5shetR0bbm3hGDdKyX8WdkWiV2_c9c,160
+scopedconfig/config.py,sha256=_nG17cHktI9D8rIh1JRGsXly3Krjaj2O4DnMldpTJ7c,3269
+scopedconfig/error.py,sha256=lIXe7shwaM_5yKCvZqp-ODO4EDH_QRStPuKFj4nXPiY,229
+scopedconfig/lexer.py,sha256=LCAyEKThlzPstPAtPwLgVyxGHVsXobivGgODwpFuHx0,1912
+scopedconfig/parser.py,sha256=gYSH40RbQ4Z4jlq1W5uC4vMoJLtE1TlOaXYOiX5BlCY,4631
+scopedconfig-0.0.0.dist-info/LICENSE.rst,sha256=yL2E9rRLxyUgi5Hkp17yniQtcPm4o0p_ICKhClU9bD0,1324
+scopedconfig-0.0.0.dist-info/METADATA,sha256=9PIJFJ343HMwfl3gln8pcKqYJ3jqRYsZJz7xlHdXtRI,1666
+scopedconfig-0.0.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+scopedconfig-0.0.0.dist-info/top_level.txt,sha256=iMQ37bkcDra6On7Bnnim09q1L2thMNKA56FiDJb1rZQ,13
+scopedconfig-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scopedconfig-0.0.0.dist-info/RECORD,,
