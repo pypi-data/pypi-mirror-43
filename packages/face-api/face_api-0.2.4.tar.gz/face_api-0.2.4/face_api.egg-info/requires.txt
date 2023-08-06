@@ -1,0 +1,7 @@
+numpy
+Pillow
+grpcio
+tensorflow
+tensorflow-serving-api
+dlib
+click
