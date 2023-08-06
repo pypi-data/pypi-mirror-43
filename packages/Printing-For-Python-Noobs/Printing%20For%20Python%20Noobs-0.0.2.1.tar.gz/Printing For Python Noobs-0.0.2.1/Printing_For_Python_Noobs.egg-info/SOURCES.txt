@@ -1,0 +1,8 @@
+README.md
+setup.py
+Printing For Noobs/__init__.py
+Printing For Noobs/printing.py
+Printing_For_Python_Noobs.egg-info/PKG-INFO
+Printing_For_Python_Noobs.egg-info/SOURCES.txt
+Printing_For_Python_Noobs.egg-info/dependency_links.txt
+Printing_For_Python_Noobs.egg-info/top_level.txt
