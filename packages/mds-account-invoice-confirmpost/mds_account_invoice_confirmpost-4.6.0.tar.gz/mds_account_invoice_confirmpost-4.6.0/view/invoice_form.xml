@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    
+    <xpath 
+        expr="/form/notebook/page[@id='invoice']/group[@id='taxes_amount_state_buttons']/group[@id='amount_state_buttons']/group[@id='buttons']/button[@name='post']"
+        position="replace_attributes">
+        <button name="post" icon="tryton-ok" confirm="The invoice will now be posted. Continue?"/>
+    </xpath>
+    
+</data>
