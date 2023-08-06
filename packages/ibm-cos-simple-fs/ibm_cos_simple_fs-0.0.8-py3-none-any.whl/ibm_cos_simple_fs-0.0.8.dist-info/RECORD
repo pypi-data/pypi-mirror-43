@@ -1,0 +1,8 @@
+ibm_cos_fs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ibm_cos_fs/bucket_tree.py,sha256=g5iAUOFqOFxQGsBmPx_3jA0bL6TsCw3tN7dbpam9YbQ,8584
+ibm_cos_fs/bucket_tree_node.py,sha256=i_3CqJsl47UFtOr8UNcGQFSIbC6a0UXchl14_tzP1T0,2417
+ibm_cos_fs/test_cos_fs.py,sha256=Ky_-Stv9canwSmXy42ly0AlV7gK0FrqEvpuSNzCYrGs,4960
+ibm_cos_simple_fs-0.0.8.dist-info/METADATA,sha256=g-ETmWpHj6Voq-QpNYNzT4oOkXqBG_A55ThbO1FE558,5312
+ibm_cos_simple_fs-0.0.8.dist-info/RECORD,,
+ibm_cos_simple_fs-0.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ibm_cos_simple_fs-0.0.8.dist-info/top_level.txt,sha256=QwaIsEUBwZES83hlGWmardFzEzAC1xHQMukKy7QLL8I,11
