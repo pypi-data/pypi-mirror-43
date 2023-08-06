@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: windb
+Version: 0.0.1
+Summary: Wind + MongoDb
+Home-page: https://github.com/fuchen/windb
+Author: fuchen
+Author-email: ink.pad@163.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: loguru
+Requires-Dist: pdwind
+Requires-Dist: pymongo
+
+UNKNOWN
+
+
