@@ -1,0 +1,11 @@
+text2array/__init__.py,sha256=6I3XHTSZLQpp0yL6y_jzu1-wIum-7pKGXAencMQ9DW8,835
+text2array/batches.py,sha256=WqudgPtUQIzObAMFQYIvfqd5zbSQSKnahOunb4WGwCM,4102
+text2array/datasets.py,sha256=IuGUOC3Sk_XL77HbrESBJaUjZ2LZbj6M6xr6V4AwQbQ,8840
+text2array/iterators.py,sha256=IHBAI4wQRk8OXrjuLMyGs4amSU0SmSTtEueTGCiXiwc,5334
+text2array/samples.py,sha256=YX3GmC8OSzc9YrjtvRMQmjIOkjJUTscBwzvxKcjI8qI,891
+text2array/vocab.py,sha256=qAXXQDqm6AVCNqxoN8djhchU1AGmEzcrov_rQcXjtcg,8855
+text2array-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+text2array-0.0.8.dist-info/METADATA,sha256=vZZ2IMTR9aB0dn12DyQFj6xiRjCmh2aKSbsi_Os7mI4,2689
+text2array-0.0.8.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+text2array-0.0.8.dist-info/top_level.txt,sha256=IHDCuxiIQJ26uWgDVk5RNuoikz8OSpg9IoO0nflIpoE,11
+text2array-0.0.8.dist-info/RECORD,,
