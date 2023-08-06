@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: remhind
+Version: 0.1.0
+Summary: A daemon to display notifications of iCalendar events
+Home-page: UNKNOWN
+Author: Nicolas Évrard
+Author-email: nicoe@openhex.org
+License: GPL-3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Utilities
+Classifier: Topic :: Office/Business :: Scheduling
+Description-Content-Type: text/markdown
+Requires-Dist: icalendar
+Requires-Dist: python-dateutil
+Requires-Dist: pyinotify
+Requires-Dist: PyGObject
+Requires-Dist: toml
+Requires-Dist: tzlocal
+Requires-Dist: xdg
+
+# remhind
+
+A notification daemon of events stored in directories
+
+Those directories will be monitored for change in order to allow you to use
+solution like [vdirsyncer](https://github.com/pimutils/vdirsyncer) to sync your
+CalDAV server with your local filesystem.
+
+## Getting Started
+
+`remhind` use a [toml](https://github.com/toml-lang/toml) configuration file
+indicating which directories holds your event files. Here's a simple example:
+
+```
+[calendars]
+    [calendars.test]
+    name = "Test"
+    path = "~/projets/perso/remhind/test_calendar"
+```
+
+## Installing
+
+`remhind` can be installed through PyPI using pip.
+
+```
+pip install remhind
+```
+
+## Acknowledgments
+
+This work has been inspired by the work of the [pimutils group](https://github.com/pimutils)
+
+

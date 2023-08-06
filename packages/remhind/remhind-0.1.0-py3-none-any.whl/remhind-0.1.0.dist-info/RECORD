@@ -1,0 +1,13 @@
+remhind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remhind/__main__.py,sha256=uvtA327bGajJAmqw90UbV_DvThDHLOnquYVsUsGzH24,1298
+remhind/events.py,sha256=m6VQrWxlSzrRsSnLGav7dU13oANzblEbHqrzg5Px-i0,12683
+remhind/monitor.py,sha256=0aOYhIdp52CsseUP1muF_p4eMARu0saM8nTnOBDzdDE,1679
+remhind/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remhind/tests/test_events.py,sha256=stj1Tl4-fRQoReHalGZCLsJFuVGEjLE4Cs7bK1bs3AQ,9605
+remhind-0.1.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+remhind-0.1.0.dist-info/METADATA,sha256=cHvqW0poi_PXtmPHJZyy5LkNrJwHuT7QhOH5CPkuFXQ,1439
+remhind-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+remhind-0.1.0.dist-info/entry_points.txt,sha256=sgYH-dOk5gzD6xJ3-B8Anqn5S4uP7Ut-MjXfO3Wrdxg,51
+remhind-0.1.0.dist-info/top_level.txt,sha256=or76zDCWb8eQZXXoXpWf5ikSmXzBO9FlDoqIT4CWojI,8
+remhind-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remhind-0.1.0.dist-info/RECORD,,
