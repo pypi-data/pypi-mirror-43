@@ -1,0 +1,1 @@
+Put the file "Gtopo30" downloaded on Eartexplorer in this folder.
