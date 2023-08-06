@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: folder-rotator
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/kevinglasson/folder_rotator
+Author: Kevin Glasson
+Author-email: kevinglasson+folderrotator@gmail.com
+License: LICENSE.txt
+Description:  ==============
+         Folder Rotator
+         ==============
+         
+         This rotates the ouput paths so that write limitation are not exceeded. This
+         is mostly for writing lots of sound files for an IOx app I created.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.6

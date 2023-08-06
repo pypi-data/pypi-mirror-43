@@ -1,0 +1,9 @@
+README.txt
+setup.cfg
+setup.py
+folder_rotator/__init__.py
+folder_rotator/rotator.py
+folder_rotator.egg-info/PKG-INFO
+folder_rotator.egg-info/SOURCES.txt
+folder_rotator.egg-info/dependency_links.txt
+folder_rotator.egg-info/top_level.txt
