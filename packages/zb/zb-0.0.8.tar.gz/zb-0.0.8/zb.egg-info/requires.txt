@@ -1,0 +1,9 @@
+requests
+pandas
+click
+numpy
+bs4
+jieba
+pypdf2
+pynput
+pdfminer3k
