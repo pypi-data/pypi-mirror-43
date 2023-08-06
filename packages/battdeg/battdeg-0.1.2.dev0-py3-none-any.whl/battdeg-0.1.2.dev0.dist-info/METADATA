@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: battdeg
+Version: 0.1.2.dev0
+Summary: battdeg : predict battery degradation using machine learning
+Home-page: http://github.com/chintan/battdeg
+Author: Shrilakshmi Bonageri, Ge Gu, Guoyao Chen, Chintan Pathak
+Author-email: 
+Maintainer: Chintan Pathak
+Maintainer-email: chintan.pathak@gmail.com
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: pandas
+Requires: numpy
+Requires: sklearn
+Requires: keras
+Requires: pytest
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: keras
+Requires-Dist: pytest
+
+
+
+BattDeg
+========
+BattDeg is a template project for prediction degrdataion of lithium ion battery 
+using machine learning.
+
+.. _README: https://github.com/chintanp/BattDeg/blob/master/README.md
+
+License
+=======
+``battdeg`` is licensed under the terms of the MIT license. See the file
+"LICENSE" for information on the history of this software, terms & conditions
+for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
+All trademarks referenced herein are property of their respective holders.
+
+Copyright (c) 2019--, Shrilakshmi Bonageri, Ge Gu, Guoyao Chen, Chintan Pathak,
+University of Washington
+
+
