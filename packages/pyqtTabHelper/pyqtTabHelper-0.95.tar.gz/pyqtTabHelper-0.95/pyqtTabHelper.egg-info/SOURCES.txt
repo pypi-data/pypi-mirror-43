@@ -1,0 +1,6 @@
+pyqtTabHelper.py
+setup.py
+pyqtTabHelper.egg-info/PKG-INFO
+pyqtTabHelper.egg-info/SOURCES.txt
+pyqtTabHelper.egg-info/dependency_links.txt
+pyqtTabHelper.egg-info/top_level.txt
