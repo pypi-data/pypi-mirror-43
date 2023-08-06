@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: dnbpy
+Version: 0.1
+Summary: DnBPy, A Dots 'n Boxes Game Engine for Python
+Home-page: http://github.com/lantunes/dnbpy
+Author: Luis M. Antunes
+Author-email: lantunes@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: DnBPy is a light-weight Dots 'n Boxes game engine for Python.It is particularly useful for AI projects, and can be used as an environment for Reinforcement Learning projects.
+Keywords: dots and boxes,game environment,reinforcement learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.5.2
