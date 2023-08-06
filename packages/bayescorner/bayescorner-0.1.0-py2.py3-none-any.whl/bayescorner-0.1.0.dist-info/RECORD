@@ -1,0 +1,9 @@
+bayescorner/__init__.py,sha256=QLDgHI8mkGGgpgQ0cx4YZlq_wzkv5oiNlvzCXd7_Zas,70
+bayescorner/__version__.py,sha256=hADnZNgUsrba4tNuQmCnyh4Hifbh2bINMYUNy8aYnj8,352
+bayescorner/compute_sigma_level.py,sha256=_p2N9jhJnYn_kARkh4ubYWOA6cvjdQooEp79gSatcfE,868
+bayescorner/corner.py,sha256=CFCBosINZCdYotH7P1bZZvk6bCaDlweaAb3mMTZv4Gw,3321
+bayescorner-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bayescorner-0.1.0.dist-info/METADATA,sha256=-2sbO1a6kph_oCDbiQXmI2XkXl2aOzJRTaEOdiPldFo,429
+bayescorner-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+bayescorner-0.1.0.dist-info/top_level.txt,sha256=VqdVRsBMNEfOJzUi2cldDABrk27cGqN9_K_Koi8CM9Q,12
+bayescorner-0.1.0.dist-info/RECORD,,
