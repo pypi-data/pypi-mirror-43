@@ -1,0 +1,10 @@
+django-basetestcase/__init__.py,sha256=hMGC1lpUT1GXki3pKPINqfIixtDMYfOUiK7GLW8ZUnk,215
+django-basetestcase/base_FormTestCase.py,sha256=i7m1dBGpU4cBDorZi8hMIr3j40WG4RU2boiBUkQ1wUs,3292
+django-basetestcase/base_FunctionalTestCase.py,sha256=LQ_jytn8BCOqtHc3hXjxKEEjNgZH_VkKdM8I9pc4OgY,10541
+django-basetestcase/base_ModelTestCase.py,sha256=Au5_HdClUAE13l1Wq0YlSWSDdMwmIE4Lh9ZGvmgc--U,3812
+django-basetestcase/base_ViewTestCase.py,sha256=vGwkMt3xcqKU8KaNutHRMnoiwa9FzyT795KB1wymCUo,1824
+django_basetestcase-0.0.2.dist-info/LICENSE.txt,sha256=9rmfYDRUSWGOrkyREVtQdBL3PBzItuh3PuUqkG6l_gc,1056
+django_basetestcase-0.0.2.dist-info/METADATA,sha256=yzp4FC63XOCLYkYDBu1qM1eD76Ik8X5VHky7oGyJ1dE,999
+django_basetestcase-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_basetestcase-0.0.2.dist-info/top_level.txt,sha256=wEgPy_gBA2wklrlaumO4I-MGvGckFyVbpkC3aoGQPIM,20
+django_basetestcase-0.0.2.dist-info/RECORD,,
