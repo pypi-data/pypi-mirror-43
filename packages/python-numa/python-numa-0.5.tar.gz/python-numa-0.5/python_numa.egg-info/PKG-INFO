@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: python-numa
+Version: 0.5
+Summary: Python libnuma ctypes wrapper
+Home-page: https://github.com/zakalibit/python-numa
+Author: Alex Revetchi
+Author-email: alex.revetchi@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: Python interface for numa(3) Linux library
+        ===============================================
+        
+        A python ctypes wrapper for numa(3) Linux library. It does not implement numa(3) functions that require the use of ctypes as a function argument, or return type.
+        
+        Installation:
+        
+            pip install python-numa
+        
+Platform: Linux
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
