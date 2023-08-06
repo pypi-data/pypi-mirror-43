@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: happyly
+Version: 0.1.1
+Summary: Python library for Pub/Sub message handling
+Home-page: UNKNOWN
+Author: "Alexander Tsukanov"
+Author-email: "aliaksandr.tsukanau@itechart-group.com"
+License: MIT
+Description: # happyly
+        HAndlers for Pub/sub as a PYthon LibrarY
+        
+        Check out [tutorial](https://github.com/equeumco/happyly/blob/master/Tutorial.ipynb)
+        
+        
+        # development
+        
+        Please install [pre-commit](https://pre-commit.com/) to auto-check code for style and types.
+        
+Keywords: google pubsub
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Object Brokering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
