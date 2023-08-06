@@ -1,0 +1,9 @@
+setup.py
+projectstarter/__init__.py
+projectstarter.egg-info/PKG-INFO
+projectstarter.egg-info/SOURCES.txt
+projectstarter.egg-info/dependency_links.txt
+projectstarter.egg-info/requires.txt
+projectstarter.egg-info/top_level.txt
+projectstarter/bin/projectstarter.py
+projectstarter/bin/projectstarter.py
