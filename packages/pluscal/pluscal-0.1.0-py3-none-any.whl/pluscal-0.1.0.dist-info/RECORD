@@ -1,0 +1,10 @@
+pluscal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pluscal/ast/__init__.py,sha256=6lw2GwXcyJBdPeNiEnr9H8_M1vOVztW1aVjpMKU8b1M,166
+pluscal/ast/algorithm.py,sha256=_SMxYW1xbvRvc_MzxElBDwkU6ZZGvnO0rMUUNe4qqHk,381
+pluscal/ast/id.py,sha256=Ik5tFL-BROJxdIeWEWG-D23fdJXFfHVrnqsk464p14k,142
+pluscal/ast/print.py,sha256=kCkgxG4fFiJli3QA3_vmk6yaTTgTFOA73-G_Sa2a4Hg,160
+pluscal-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pluscal-0.1.0.dist-info/METADATA,sha256=KpkwyJt_Tp0NghyABfEpYQUwz4agXtB6UPyf8NLVsbI,641
+pluscal-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pluscal-0.1.0.dist-info/top_level.txt,sha256=WkoJZGoueYXHDACHxvu0tFxFzw-lFhaKslz_o9pXcAo,8
+pluscal-0.1.0.dist-info/RECORD,,
