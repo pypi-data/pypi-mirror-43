@@ -1,0 +1,10 @@
+flask
+flask_cors
+matplotlib
+numpy
+pykep
+requests
+
+[dev]
+
+[test]

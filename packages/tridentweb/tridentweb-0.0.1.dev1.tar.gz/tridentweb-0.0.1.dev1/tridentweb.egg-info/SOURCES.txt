@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+tridentweb/__init__.py
+tridentweb/tridentweb.py
+tridentweb.egg-info/PKG-INFO
+tridentweb.egg-info/SOURCES.txt
+tridentweb.egg-info/dependency_links.txt
+tridentweb.egg-info/entry_points.txt
+tridentweb.egg-info/requires.txt
+tridentweb.egg-info/top_level.txt
