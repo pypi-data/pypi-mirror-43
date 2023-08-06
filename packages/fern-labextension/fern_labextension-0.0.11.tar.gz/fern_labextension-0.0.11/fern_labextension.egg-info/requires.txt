@@ -1,0 +1,5 @@
+ipython
+pandas
+numpy
+jupyterlab
+amieci>=0.0.7
