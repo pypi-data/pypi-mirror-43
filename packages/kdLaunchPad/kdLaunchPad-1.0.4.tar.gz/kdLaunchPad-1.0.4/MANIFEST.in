@@ -1,0 +1,4 @@
+include LICENSE
+include main.py
+include kdLaunchPad/*.ui
+include kdLaunchPad/image/*
