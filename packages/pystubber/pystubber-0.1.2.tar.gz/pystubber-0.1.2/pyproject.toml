@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.scripts]
+pystubber = "pystubber.cli:main"
+
+[tool.flit.metadata]
+module = "pystubber"
+home-page="https://github.com/alanjds/pystubber"
+author = "Alan Justino da Silva"
+author-email = "alan.justino@yahoo.com.br"
+classifiers = [
+    'Development Status :: 2 - Pre-Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: Apache Software License',
+    'Natural Language :: English',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.6',
+]
+requires-python="~=3.5"
+description-file="README.md"

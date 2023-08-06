@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pystubber
+Version: 0.1.2
+Summary: pystubber - Creates a stub python file from a python module
+Home-page: https://github.com/alanjds/pystubber
+Author: Alan Justino da Silva
+Author-email: alan.justino@yahoo.com.br
