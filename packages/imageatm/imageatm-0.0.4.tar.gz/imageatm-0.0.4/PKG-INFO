@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: imageatm
+Version: 0.0.4
+Summary: Image classification for everyone
+Home-page: UNKNOWN
+Author: Christopher Lennan, Malgorzata Adamczyk, Gunar Maiwald, Dat Tran
+Author-email: datitran@gmail.com
+License: Apache 2.0
+Description: 
+        Image ATM is a one-click tool that automates the workflow of a typical image classification pipeline in an opinionated way, this includes:
+        
+        - Preprocessing and validating input images and labels
+        - Starting/terminating cloud instance with GPU support
+        - Training
+        - Model evaluation
+        
+        Read the documentation at: https://idealo.github.io/imageatm/
+        
+        Image ATM is compatible with Python 3.6 and is distributed under the Apache 2.0 license.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: tests
+Provides-Extra: docs
