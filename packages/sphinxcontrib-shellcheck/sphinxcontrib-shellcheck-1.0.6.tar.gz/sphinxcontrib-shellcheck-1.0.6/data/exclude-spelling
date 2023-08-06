@@ -1,0 +1,7 @@
+.gitignore
+.pre-commit-config.yaml
+.pylintrc
+azure-pipelines.yml
+data/exclude-spelling
+data/whitelist.en.pws
+tests/support/conf.py
