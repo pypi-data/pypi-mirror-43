@@ -1,0 +1,7 @@
+setup.py
+ipeadatapy/__init__.py
+ipeadatapy.egg-info/PKG-INFO
+ipeadatapy.egg-info/SOURCES.txt
+ipeadatapy.egg-info/dependency_links.txt
+ipeadatapy.egg-info/not-zip-safe
+ipeadatapy.egg-info/top_level.txt
