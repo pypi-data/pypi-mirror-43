@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pubsub_split/__init__.py
+pubsub_split/split.py
+pubsub_split.egg-info/PKG-INFO
+pubsub_split.egg-info/SOURCES.txt
+pubsub_split.egg-info/dependency_links.txt
+pubsub_split.egg-info/requires.txt
+pubsub_split.egg-info/top_level.txt
+pubsub_split.egg-info/zip-safe
