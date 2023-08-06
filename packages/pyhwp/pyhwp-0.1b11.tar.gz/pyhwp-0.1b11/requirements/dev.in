@@ -1,0 +1,14 @@
+argcomplete
+babel
+coloredlogs
+jip
+jupyter
+lxml
+pip-tools >= 2.0.2
+pyside
+qtconsole
+restview
+tox >= 3.7.0
+wheel
+zc.buildout
+zest.releaser
