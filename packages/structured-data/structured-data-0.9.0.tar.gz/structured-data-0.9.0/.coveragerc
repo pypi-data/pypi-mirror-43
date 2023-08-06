@@ -1,0 +1,16 @@
+[paths]
+source =
+    src/structured_data
+
+[run]
+branch = true
+source =
+    src
+    tests
+    test_resources
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
