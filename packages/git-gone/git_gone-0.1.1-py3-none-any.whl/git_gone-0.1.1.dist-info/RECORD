@@ -1,0 +1,10 @@
+git_gone/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_gone/__main__.py,sha256=QFuSEBJXs_FvqrN24tA5Eejeln9hoOX1eqBrppZmVjw,646
+git_gone/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_gone/data/track-changed-repos.sh,sha256=OQIOR06lNUOT90EDnMkAT_M1acycOuKLPNv-ygzPN3o,426
+git_gone/install.py,sha256=StF4BR8TynoIqQ8Ze5E87rFPTqjlviPxflATC5XVY-w,404
+git_gone/read_changes.py,sha256=QUrOjZgPZVjqKWHxsX0M_1C60QARFm8eGLyLXibI4T8,2544
+git_gone-0.1.1.dist-info/entry_points.txt,sha256=UpIQk5uWm4scKEXbJ4gpgWi08Z9_2BrN5-GNWp834IA,50
+git_gone-0.1.1.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+git_gone-0.1.1.dist-info/METADATA,sha256=osn0JTHqpAxP8bIJzbiN_r6Bx_kO0DZsogxW9qUJf0o,507
+git_gone-0.1.1.dist-info/RECORD,,
