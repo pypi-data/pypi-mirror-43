@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aiida-kkr
+Version: 1.0.2
+Summary: AiiDA plugin for the KKR code
+Home-page: https://github.com/JuDFTteam/aiida-kkr
+Author: Philipp Rüssmann
+Author-email: p.ruessmann@fz-juelich.de
+Keywords: material science,plots,visualization,aiida,dft
+Requires-Python: >=2.7,<3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: aiida-core (==1.0.0a4)
+Requires-Dist: bumpversion
+Requires-Dist: masci-tools
+Requires-Dist: pgtest
+Requires-Dist: pytest-cov (>=2.5.0,<3.0.0)
+Requires-Dist: seekpath
+Requires-Dist: sphinx
+Requires-Dist: sphinx_rtd_theme
+Project-URL: Documentation, https://aiida-kkr.readthedocs.io
+Project-URL: Repository, https://github.com/JuDFTteam/aiida-kkr
