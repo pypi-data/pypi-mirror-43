@@ -1,0 +1,12 @@
+numpy
+matplotlib
+opencv-python
+Pillow
+click
+decorator
+
+[dev]
+pytest
+pylint
+jupyter
+twine
