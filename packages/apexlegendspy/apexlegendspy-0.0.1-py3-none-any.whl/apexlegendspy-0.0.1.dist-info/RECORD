@@ -1,0 +1,11 @@
+apexpy/__init__.py,sha256=VVt1MDEDy864N4DVuMzg3d8Yzvlk1qQ9i3nkgcqrHk8,54
+apexpy/api.py,sha256=l5boeabzVGLIQ88HpU2V8trWFKS1cH-tsOPiyT75MVw,2191
+apexpy/characters.py,sha256=K2__lNqhn98HrgWv5CiI5LP-KSr6tUyvEuNHxYhdnbA,1427
+apexpy/exceptions.py,sha256=5eNXUfkNtPMfYX5CHFUh2m-AyoXSp-bIjSyj7FjvU6E,811
+apexpy/httprequest.py,sha256=J6gdBgvMlLZHxUFzqB30UX3bLCawbkGzmNuRMyfuOGY,1967
+apexpy/utils.py,sha256=AAaUWyOnE2lDtGh3J9X6g7ojeo0NnCC02CsXxY-_SLU,745
+apexlegendspy-0.0.1.dist-info/LICENSE.md,sha256=fxKdur4mFyQbKsT73XtfN717qLQLpE2ZVj0jwbRnTeE,1073
+apexlegendspy-0.0.1.dist-info/METADATA,sha256=46d2WBd3UuSBkOr6LSAg4MNbmEyB9yicH7vE8iuuTWo,2377
+apexlegendspy-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+apexlegendspy-0.0.1.dist-info/top_level.txt,sha256=IXlD-kHO3JXJHdSFCjcj1L13BiqQ5Rkb_xKKrJVTIX4,7
+apexlegendspy-0.0.1.dist-info/RECORD,,
