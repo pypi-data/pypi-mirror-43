@@ -1,0 +1,9 @@
+README.rst
+setup.py
+maflib/MAF.py
+maflib/__init__.py
+maflib.egg-info/PKG-INFO
+maflib.egg-info/SOURCES.txt
+maflib.egg-info/dependency_links.txt
+maflib.egg-info/requires.txt
+maflib.egg-info/top_level.txt
