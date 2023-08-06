@@ -1,0 +1,7 @@
+setup.py
+adApkTools.egg-info/PKG-INFO
+adApkTools.egg-info/SOURCES.txt
+adApkTools.egg-info/dependency_links.txt
+adApkTools.egg-info/top_level.txt
+adapktools/__init__.py
+adapktools/tools.py
