@@ -1,0 +1,13 @@
+django_ultimatethumb-1.1.0.dist-info/METADATA,sha256=SXF4fY-PXy3LFMLeN92P1rFiH1OeVgFXIK90Czk5TpY,2731
+django_ultimatethumb-1.1.0.dist-info/RECORD,,
+django_ultimatethumb-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_ultimatethumb-1.1.0.dist-info/top_level.txt,sha256=mNcpVaIcJATrmWwkpU4kFK57GSesws7vCkQamuFJazM,14
+ultimatethumb/__init__.py,sha256=b6-WiVk0Li5MaV2rBnHYl104TsouINojSWKqHDas0js,22
+ultimatethumb/commands.py,sha256=n9Vb6NCYltrVJtoaD1XFIL5gyEYxXREJsfUklp0sONE,1628
+ultimatethumb/storage.py,sha256=sLp_aoX1gouE8C1gPxBHT-lxAUQi4F_FtBvBlBI3Kyo,1555
+ultimatethumb/thumbnail.py,sha256=t7ECBQml4PcTDZRZ3WYQB0Ab6R8YFleqXbDQD-CJ5wo,13611
+ultimatethumb/urls.py,sha256=SmZDSPESoAcdrdxTj9Nc5rU9wOxjnztrMlOBa5NsSSs,431
+ultimatethumb/utils.py,sha256=tIOGD9UuYsE1ZYP8ZkFnV1oYdWff3YTg4g1Pli3GvSg,5433
+ultimatethumb/views.py,sha256=F36CR2YIsC-JKVuEIwLUcwvx_PUyyf7qDhqzL1eJfbU,2668
+ultimatethumb/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ultimatethumb/templatetags/ultimatethumb_tags.py,sha256=kGVYVJ1v0RRjI-_qfCvX8nNu7SdA4jJlJ5rsLP4oSNs,1153
