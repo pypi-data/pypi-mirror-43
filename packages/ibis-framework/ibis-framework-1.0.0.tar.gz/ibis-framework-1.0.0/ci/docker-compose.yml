@@ -1,0 +1,132 @@
+version: '3'
+services:
+
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: postgres
+
+  mysql:
+    image: mariadb:10.2
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_DATABASE: ibis_testing
+      MYSQL_USER: ibis
+      MYSQL_PASSWORD: ibis
+
+  impala:
+    image: ibisproject/impala:latest
+    hostname: impala
+    networks:
+      default:
+        aliases:
+          - quickstart.cloudera
+    environment:
+      PGPASSWORD: postgres
+    ports:
+      # HDFS
+      - 9020:9020
+      - 50070:50070
+      - 50075:50075
+      - 8020:8020
+      - 8042:8042
+      # Hive
+      - 9083:9083
+
+      # Impala
+      - 21000:21000
+      - 21050:21050
+      - 25000:25000
+      - 25010:25010
+      - 25020:25020
+
+  clickhouse:
+    image: yandex/clickhouse-server:18.12
+    ports:
+      - 8123:8123
+      - 9000:9000
+
+  kudu-master:
+    image: ibisproject/kudu:latest
+    networks:
+      default:
+        aliases:
+          - kudu
+    cap_add:
+      - SYS_TIME
+    ports:
+      - 7051:7051
+      - 8051:8051
+    environment:
+      KUDU_MASTER: "true"
+
+  kudu-tserver:
+    image: ibisproject/kudu:latest
+    cap_add:
+      - SYS_TIME
+    ports:
+      - 7050:7050
+      - 8050:8050
+    environment:
+      KUDU_MASTER: "false"
+
+  mapd:
+    image: mapd/mapd-ce-cpu:v4.4.2
+    ports:
+      - 9090:9090
+      - 9091:9091
+      - 9092:9092
+      - 9093:9093
+    environment:
+      - MAPD_HOST=mapd
+      - MAPD_PORT=9091
+      - MAPD_DATABASE=ibis_testing
+      - MAPD_USER=mapd
+    volumes:
+      - ./mapd.conf:/mapd-storage/mapd.conf
+
+  waiter:
+    image: jwilder/dockerize
+    command: |
+      dockerize -wait tcp://mapd:9091
+                -wait tcp://mysql:3306
+                -wait tcp://postgres:5432
+                -wait tcp://impala:21050
+                -wait tcp://impala:50070
+                -wait tcp://kudu-master:7051
+                -wait tcp://kudu-master:8051
+                -wait tcp://kudu-tserver:7050
+                -wait tcp://kudu-tserver:8050
+                -wait tcp://clickhouse:9000
+                -wait-retry-interval 5s
+                -timeout 5m
+
+  ibis:
+    image: ibis:${PYTHON_VERSION:-3.6}
+    env_file:
+      - ./.env
+    volumes:
+      - /tmp/ibis:/tmp
+      - ..:/ibis
+    build:
+      context: ..
+      dockerfile: ci/Dockerfile.dev
+      args:
+        PYTHON: ${PYTHON_VERSION:-3.6}
+
+  ibis-docs:
+    image: ibis-docs:${PYTHON_VERSION:-3.6}
+    env_file:
+      - ./.env
+    volumes:
+      - /tmp/ibis:/tmp
+      - ..:/ibis
+    build:
+      context: ..
+      dockerfile: ci/Dockerfile.docs
+      args:
+        PYTHON: ${PYTHON_VERSION:-3.6}
