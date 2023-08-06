@@ -1,0 +1,119 @@
+Metadata-Version: 2.0
+Name: inky
+Version: 0.0.4
+Summary: Inky pHAT Driver
+Home-page: http://www.pimoroni.com
+Author: Philip Howard
+Author-email: phil@pimoroni.com
+License: MIT
+Keywords: Raspberry Pi e-paper display driver
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Hardware
+Requires-Dist: RPi.GPIO
+Requires-Dist: numpy
+Requires-Dist: smbus2
+Requires-Dist: spidev
+
+Inky
+====
+
+|Build Status| |Coverage Status| |PyPi Package| |Python Versions|
+
+Python library for the `Inky
+pHAT <https://shop.pimoroni.com/products/inky-phat>`__ and `Inky
+wHAT <https://shop.pimoroni.com/products/inky-what>`__ e-paper displays.
+
+Inky pHAT
+---------
+
+`Inky pHAT <https://shop.pimoroni.com/products/inky-phat>`__ is a
+212x104 pixel e-paper display, available in red/black/white,
+yellow/black/white and black/white. It's great for nametags and
+displaying very low frequency information such as a daily calendar or
+weather overview.
+
+Inky wHAT
+---------
+
+`Inky wHAT <https://shop.pimoroni.com/products/inky-what>`__ is a
+400x300 pixel e-paper display available in red/black/white. It's got
+tons of resolution for detailed daily todo lists, multi-day weather
+forecasts, bus timetables and more.
+
+Installation
+============
+
+The Python pip package is named einky, install with:
+
+::
+
+    sudo pip install einky
+
+Usage
+=====
+
+The Inky library contains modules for both the pHAT and wHAT, load the
+InkyPHAT one as follows:
+
+.. code:: python
+
+    from inky import InkyPHAT
+
+You'll then need to pick your colour, one of 'red', 'yellow' or 'black'
+and instantiate the class:
+
+.. code:: python
+
+    inkyphat = InkyPHAT('red')
+
+If you're using the wHAT you'll need to load the InkyWHAT class from the
+Inky library like so:
+
+.. code:: python
+
+    from inky import InkyWHAT
+    inkywhat = InkyWHAT('red')
+
+Since Inky wHAT is currently only available in red, we pick that colour.
+
+.. |Build Status| image:: https://travis-ci.com/pimoroni/inky.svg?branch=master
+   :target: https://travis-ci.com/pimoroni/inky
+.. |Coverage Status| image:: https://coveralls.io/repos/github/pimoroni/inky/badge.svg?branch=master
+   :target: https://coveralls.io/github/pimoroni/inky?branch=master
+.. |PyPi Package| image:: https://img.shields.io/pypi/v/einky.svg
+   :target: https://pypi.python.org/pypi/einky
+.. |Python Versions| image:: https://img.shields.io/pypi/pyversions/einky.svg
+   :target: https://pypi.python.org/pypi/einky
+
+0.0.4
+-----
+
+* BugFix: Reverted normal red LUTs to correct values
+
+0.0.3
+-----
+
+* Enhancement: Added support for display variant detection
+* Enhancement: Added DocStrings
+* BugFix: Fixed set_border for all colours
+
+0.0.2
+-----
+
+* BugFix: Yellow Inky pHAT now yellow instead of brown/black
+* Enhancement: Performance tweak for set_image
+
+0.0.1
+-----
+
+* Initial Release
+
+
