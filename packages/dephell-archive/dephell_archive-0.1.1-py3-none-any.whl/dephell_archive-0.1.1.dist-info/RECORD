@@ -1,0 +1,9 @@
+dephell_archive/__init__.py,sha256=2bEjaOnAoq9CDf-iVOIEHQtYKu0SvQ3I-xqLqw3pPY8,111
+dephell_archive/_glob.py,sha256=A2ptZwyZYf4tm5G0ZQfPBTbVTIzXMMdBclr65eiWhEs,774
+dephell_archive/_path.py,sha256=JbLp9yhmscgdA7A3S9IDAEOXpwUt3f55u8quNNgwvF8,4662
+dephell_archive/_stream.py,sha256=vnmZBlf9JFCFgwdhY0j2DRu4G0xn2pQU27FrczMcGe8,1176
+dephell_archive-0.1.1.dist-info/LICENSE,sha256=LP8ZBpk5qMajpTnMvrtyZa1lKOyVUv_77opcxvZlyck,1064
+dephell_archive-0.1.1.dist-info/METADATA,sha256=vpOZskutzU0LjOCMyizCsfyyNkMsszCeW42IUcpRVIQ,1110
+dephell_archive-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+dephell_archive-0.1.1.dist-info/top_level.txt,sha256=bfwd2zd3CTbvXw18Jp4251QrheH4ZpxlCRW0Q-2Wb2g,16
+dephell_archive-0.1.1.dist-info/RECORD,,
