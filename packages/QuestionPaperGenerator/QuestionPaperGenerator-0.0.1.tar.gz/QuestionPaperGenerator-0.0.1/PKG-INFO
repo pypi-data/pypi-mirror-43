@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: QuestionPaperGenerator
+Version: 0.0.1
+Summary: A practice Python Repository which generates a question paper based on marks distribution, questions and difficulty given
+Home-page: https://github.com/GowthamSiddarth/QuestionPaperGenerator.git
+Author: Gowtham Behara
+Author-email: gothsiddu@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
