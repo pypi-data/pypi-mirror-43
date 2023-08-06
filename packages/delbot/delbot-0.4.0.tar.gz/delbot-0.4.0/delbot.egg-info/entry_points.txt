@@ -1,0 +1,3 @@
+[console_scripts]
+delbot = delbot.cli:main
+
