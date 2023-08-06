@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: V2ray.Stats
+Version: 0.2.0
+Summary: Collect V2Ray traffic stats by API.
+Home-page: https://github.com/Ricky-Hao/V2Ray.Stats
+Author: Ricky Hao
+Author-email: a959695@live.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: schedule
+Requires-Dist: texttable
+
+# V2Ray.Stats
+Collect V2Ray traffic stats by API.
+
+
