@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyMigrate/__init__.py
+pyMigrate/deps_handler.py
+pyMigrate/env.py
+pyMigrate/parser_import.py
+pyMigrate/walk.py
+pymigrate_np.egg-info/PKG-INFO
+pymigrate_np.egg-info/SOURCES.txt
+pymigrate_np.egg-info/dependency_links.txt
+pymigrate_np.egg-info/top_level.txt
