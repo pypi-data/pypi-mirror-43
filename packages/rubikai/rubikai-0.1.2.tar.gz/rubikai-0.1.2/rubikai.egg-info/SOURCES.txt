@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+rubikai/__init__.py
+rubikai.egg-info/PKG-INFO
+rubikai.egg-info/SOURCES.txt
+rubikai.egg-info/dependency_links.txt
+rubikai.egg-info/requires.txt
+rubikai.egg-info/top_level.txt
+rubikai/cube/__init__.py
+rubikai/cube/cube.py
+rubikai/solver/__init__.py
+rubikai/solver/learning.py
+rubikai/solver/search.py
+rubikai/solver/solver.py
+rubikai/solver/util.py

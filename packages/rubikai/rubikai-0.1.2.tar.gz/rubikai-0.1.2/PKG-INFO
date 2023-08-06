@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rubikai
+Version: 0.1.2
+Summary: Rubik AI
+Home-page: UNKNOWN
+Author: Forest Agostinelli
+Author-email: agostinelli.f@hotmail.com
+License: UNKNOWN
+Description: # Rubik AI
+        # Forest Agostinelli
+        # Python 3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
