@@ -1,0 +1,9 @@
+airflow/hooks/glue_presto_apas.py,sha256=i_KHXkNImnqCbbPQzZ4Y3JqneZXt6Zz9iKYsQeksdl4,6638
+airflow/operators/glue_add_partition.py,sha256=56llVg1SZrYAfzNNfJ1s4d3-IwyUrGczKiRQwXfvthM,7459
+airflow/operators/glue_presto_apas.py,sha256=H8Z6qsU1QBBJIC7bUWV-G52rcbPw-Rc_J9G94pLj6ms,11197
+airflow/plugins/glue_presto_apas.py,sha256=B8KSzmB0-c_AUfC1mYUOSwSV4Q04nMP6m12dohgdZqY,457
+airflow_plugin_glue_presto_apas-0.0.4.dist-info/entry_points.txt,sha256=zJMkAq5usfX12UhNgpmkzuPcZLZA0-DC-3S4J64bpA0,90
+airflow_plugin_glue_presto_apas-0.0.4.dist-info/LICENSE.txt,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+airflow_plugin_glue_presto_apas-0.0.4.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+airflow_plugin_glue_presto_apas-0.0.4.dist-info/METADATA,sha256=hbrjlcsvN1PC2cIHvxVS5YtQn__rVSgYPkyXKzvoq_A,5075
+airflow_plugin_glue_presto_apas-0.0.4.dist-info/RECORD,,
