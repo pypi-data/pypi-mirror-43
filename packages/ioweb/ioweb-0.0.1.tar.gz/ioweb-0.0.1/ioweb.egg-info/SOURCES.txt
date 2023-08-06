@@ -1,0 +1,17 @@
+setup.py
+ioweb/__init__.py
+ioweb/cli.py
+ioweb/crawler.py
+ioweb/error.py
+ioweb/loop.py
+ioweb/request.py
+ioweb/response.py
+ioweb/session.py
+ioweb/stat.py
+ioweb/transport.py
+ioweb/util.py
+ioweb.egg-info/PKG-INFO
+ioweb.egg-info/SOURCES.txt
+ioweb.egg-info/dependency_links.txt
+ioweb.egg-info/entry_points.txt
+ioweb.egg-info/top_level.txt
