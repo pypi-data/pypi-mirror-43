@@ -1,0 +1,9 @@
+mdbsession/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdbsession/session.py,sha256=dOzy4bY84e2Ry71XzhTy3P0rZP_XIbPraUYyQPjjUqk,2700
+t/__init__.py,sha256=-EWzwkDta2OApicWfug-SxEz_bz3hgUUefK_3bWBjJs,235
+t/test_session.py,sha256=oXuut_g_DYLLXKPWi9ETfRkd3lgaY_-sHBY8sEV1cMs,2246
+django_mdbsessions-0.0.2.dist-info/LICENSE,sha256=V0ZeMttWyFz8s1f4poNHWXaNISZneS2If08TzBTn7RY,1065
+django_mdbsessions-0.0.2.dist-info/METADATA,sha256=wb8gXZmjCwAZyyfFhGUCNv7YqiyNvGqx8Hd8gz404fY,2197
+django_mdbsessions-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_mdbsessions-0.0.2.dist-info/top_level.txt,sha256=Mqa4zl7qv4t5jMbMok-Pc38rJeMK05l60Pr-ncsY36k,13
+django_mdbsessions-0.0.2.dist-info/RECORD,,
