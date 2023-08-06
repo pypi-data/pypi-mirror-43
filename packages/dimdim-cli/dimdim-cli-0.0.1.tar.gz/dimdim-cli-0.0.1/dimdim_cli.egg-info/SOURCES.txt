@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dimdim_cli/__init__.py
+dimdim_cli/increment.py
+dimdim_cli/version.py
+dimdim_cli.egg-info/PKG-INFO
+dimdim_cli.egg-info/SOURCES.txt
+dimdim_cli.egg-info/dependency_links.txt
+dimdim_cli.egg-info/entry_points.txt
+dimdim_cli.egg-info/not-zip-safe
+dimdim_cli.egg-info/requires.txt
+dimdim_cli.egg-info/top_level.txt

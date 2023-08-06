@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dimdim-cli
+Version: 0.0.1
+Summary: DimDim Backend team CLI.
+Home-page: https://dimdim.com.ua/dimdim-cli/
+Author: Serhii Berebko
+Author-email: s.berebko@wrenchtech.io
+License: BSD-3-Clause License
+Description: # dimdim-cli
+        
+        This repository built by the dimdim backend team for own processes, 
+        the control of code style, store useful scripts, etc. that are included in most of the dimdim backend repositories in the one place.
+Keywords: dimdim gitlab styleguide
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5.2
+Description-Content-Type: text/markdown

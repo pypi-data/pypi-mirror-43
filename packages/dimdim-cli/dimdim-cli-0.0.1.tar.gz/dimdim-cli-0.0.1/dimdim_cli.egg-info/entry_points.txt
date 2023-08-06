@@ -1,0 +1,3 @@
+[console_scripts]
+dimdim_cli = dimdim_cli.increment:main
+
