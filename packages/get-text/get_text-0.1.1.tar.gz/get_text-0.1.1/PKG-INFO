@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: get_text
+Version: 0.1.1
+Summary: Test loader with news sites
+Home-page: https://github.com/NMelis/get_text
+Author: Melis
+Author-email: melis.zhoroev+python@gmail.com
+License: MIT license
+Description: ==================================
+        Парсинг статей и новостей с сайтов
+        ==================================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/get_text.svg
+                :target: https://pypi.python.org/pypi/get_text
+        
+        
+        Получение теста статьи и новости с новостных сайтов
+        
+        
+        * Бесплатно программное обеспечение: MIT license
+        * Установка: https://github.com/NMelis/get_text/blob/master/docs/installation.rst
+        * Гайд по использование: https://github.com/NMelis/get_text/blob/master/docs/usage.rst.
+        
+        
+        В будущем
+        ---------
+        
+        - [ ] Возможность указать файл со списоком ссылок
+        - [ ] Работа с прокси серверами
+        - [ ] Возможность асинхронной работы при передаче файла с списком урлов
+        - [ ] Обработка изображении (как с ссылкой)
+        - [ ] Возможность рендринга html файла
+        - [ ] Json ответ
+        - [ ] Более продуманная логика получение текста (с подчетом точек в текстах)
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-03-19)
+        ------------------
+        
+        * Первый релиз на PyPI.
+        
+Keywords: get_text
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
