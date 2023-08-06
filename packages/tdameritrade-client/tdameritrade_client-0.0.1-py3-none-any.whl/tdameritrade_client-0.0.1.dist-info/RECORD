@@ -1,0 +1,13 @@
+tdameritrade_client/__init__.py,sha256=GbbtzXBiWEWbzshsMjjl1Mt2b3ydHIFwFLguaqxnGpg,51
+tdameritrade_client/auth.py,sha256=QB5gpHAIswjqEMMjW9Q6BDGpKUnOlO8_G-3RwtDx7IA,8599
+tdameritrade_client/client.py,sha256=vVYxXyfX6v8oQzDnfmfW6WVhiP_xy7sRVDmIxYV-YuI,3518
+tdameritrade_client/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdameritrade_client/utils/urls.py,sha256=Z2RL76t_tcbRgVa9-ejOfz9tD4b5JOMNSqjjTKEV_IM,587
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tdauth.py,sha256=vypqW3iha9Ixdkmwh2Xwb7B-6ztDmrzSUDKTdoT7sLg,291
+tests/test_tdclient.py,sha256=RIrrYLXie7mdno8VOebDw-64hFtgHMObDaHHoJjWAyQ,350
+tdameritrade_client-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tdameritrade_client-0.0.1.dist-info/METADATA,sha256=fwJ44rQC5V6App26IFYlfu12i2XgHoO2UpZRmK_fejE,1321
+tdameritrade_client-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+tdameritrade_client-0.0.1.dist-info/top_level.txt,sha256=2QOslbnVoYWCiGnBdUJGTnSeDWDGzEzpeeEcUv4tbdY,26
+tdameritrade_client-0.0.1.dist-info/RECORD,,
