@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: aioroku
+Version: 0.0.2
+Summary: An asynchronous library to control all the rokus in your life. Easy, breezy,
+Home-page: https://gitlab.com/pancho-villa/aioroku
+Author: Adam Garcia
+Author-email: garciadam@gmail.com

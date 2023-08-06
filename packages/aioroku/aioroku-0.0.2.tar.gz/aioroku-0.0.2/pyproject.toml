@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "aioroku"
+author = "Adam Garcia"
+author-email = "garciadam@gmail.com"
+home-page = "https://gitlab.com/pancho-villa/aioroku"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = ["aiohttp"]
+description-file = "README.rst"
