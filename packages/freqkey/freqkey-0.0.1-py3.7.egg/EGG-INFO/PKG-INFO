@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: freqkey
+Version: 0.0.1
+Summary: Counts your keypresses
+Home-page: https://github.com/vixus0/freqkey
+Author: Anshul Sirur
+Author-email: vixus0@gmail.com
+License: UNKNOWN
+Description:      _                   _             
+            | |                 | |            
+            | |  ,_    _   __,  | |   _        
+            |/  /  |  |/  /  |  |/_) |/  |   | 
+            |__/   |_/|__/\_/|_/| \_/|__/ \_/|/
+            |\               |\ that's      /| 
+            |/               |/ "freaky"    \| 
+        
+        
+        # What do
+        
+        Listens in on all your keypresses (without logging them consecutively, this is not a keylogger).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
