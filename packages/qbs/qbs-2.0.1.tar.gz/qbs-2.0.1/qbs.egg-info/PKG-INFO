@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qbs
+Version: 2.0.1
+Summary: Quick (and dirty) build system
+Home-page: https://gitlab.com/nonnymoose/qbs
+Author: Nonny Moose
+Author-email: moosenonny10@gmail.com
+License: UNKNOWN
+Description: See the [GitLab repository](https://gitlab.com/nonnymoose/qbs) for the most up-to-date documentation.
+        
+        New in version 2.0.0: t_auto command! Any existing commands named t_auto will be broken.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3
+Description-Content-Type: text/markdown
