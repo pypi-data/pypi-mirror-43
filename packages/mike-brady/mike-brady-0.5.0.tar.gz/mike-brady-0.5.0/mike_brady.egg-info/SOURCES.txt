@@ -1,0 +1,10 @@
+README.md
+setup.py
+mike_brady.egg-info/PKG-INFO
+mike_brady.egg-info/SOURCES.txt
+mike_brady.egg-info/dependency_links.txt
+mike_brady.egg-info/entry_points.txt
+mike_brady.egg-info/requires.txt
+mike_brady.egg-info/top_level.txt
+src/__init__.py
+src/main.py

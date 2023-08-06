@@ -1,0 +1,3 @@
+[console_scripts]
+mikeb = src.main:main
+
