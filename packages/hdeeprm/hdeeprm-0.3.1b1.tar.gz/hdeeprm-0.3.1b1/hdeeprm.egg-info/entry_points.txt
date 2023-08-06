@@ -1,0 +1,7 @@
+[console_scripts]
+hdeeprm-clean = hdeeprm.cmd:clean
+hdeeprm-jobstat = hdeeprm.cmd:jobstat
+hdeeprm-launch = hdeeprm.cmd:launch
+hdeeprm-metrics = hdeeprm.cmd:metrics
+hdeeprm-visual = hdeeprm.cmd:visual
+
