@@ -1,0 +1,9 @@
+click
+pygments
+setproctitle
+commonmark
+
+[test]
+pytest>=4.3.1
+pytest-runner>=4.4
+pytest-console-scripts>=0.1.9
