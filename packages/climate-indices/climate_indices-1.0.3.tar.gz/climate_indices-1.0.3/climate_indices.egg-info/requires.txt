@@ -1,0 +1,11 @@
+dask
+lmoments3
+nco
+netcdf4
+numba
+numpy
+pandas
+pytest
+scipy
+toolz
+xarray
