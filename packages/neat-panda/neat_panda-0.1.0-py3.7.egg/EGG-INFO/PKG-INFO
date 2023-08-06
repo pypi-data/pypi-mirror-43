@@ -1,0 +1,68 @@
+Metadata-Version: 1.1
+Name: neat-panda
+Version: 0.1.0
+Summary: Neat Panda contains functions written to mimic the R package Tidyr.
+Home-page: https://github.com/htp84/neat_panda
+Author: Henric Sundberg
+Author-email: henric.sundberg@gmail.com
+License: MIT license
+Description: 
+        #Neat Panda
+        
+        [![pypi](https://img.shields.io/pypi/v/neat_panda.svg)](https://pypi.python.org/pypi/neat_panda)
+        
+        [![Build status](https://img.shields.io/travis/htp84/neat_panda.svg)](https://travis-ci.org/htp84/neat_panda)
+        
+        
+        Neat Panda contains functions written to mimic the R package Tidyr.
+        
+        
+        * Free software: MIT license
+        
+        
+        ##Features
+        ###Spread
+        #### R
+        ```R
+        library(tidyr)
+        library(gapminder)
+        
+        gapminder2 <- gapminder %>% select(country, year, pop)
+        gapminder2 %>% spread(key=year, value=pop)
+        ```
+        #### Python
+        ```python
+        from neat_panda import spread
+        from gapminder import gapminder
+        
+        gapminder2 = gapminder[["country", "year", "pop"]]
+        spread(df=gapminder2, key="year", value="pop")
+        # or
+        gapminder2.pipe(spread, key="year", value="pop")
+        ```
+        
+        ###Gather
+        #### R
+        ```R
+        library(tidyr)
+        # hitta bra exempeldata
+        ```
+        #### Python
+        ```python
+        from neat_panda import gather
+        # hitta bra exempeldata
+        ```
+        
+        
+        
+        
+        
+        
+Keywords: neat_panda
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
