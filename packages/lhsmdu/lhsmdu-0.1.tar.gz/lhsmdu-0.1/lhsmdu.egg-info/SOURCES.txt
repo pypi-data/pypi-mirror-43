@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+lhsmdu/__init__.py
+lhsmdu.egg-info/PKG-INFO
+lhsmdu.egg-info/SOURCES.txt
+lhsmdu.egg-info/dependency_links.txt
+lhsmdu.egg-info/not-zip-safe
+lhsmdu.egg-info/requires.txt
+lhsmdu.egg-info/top_level.txt
