@@ -1,0 +1,17 @@
+sopel_modules.tableflip-0.1.2-nspkg.pth,sha256=GpO4OWqrcKGJyabPvvsBuBcrUk4pFr3K5HYvSnuQBi8,574
+sopel_modules/tableflip/__init__.py,sha256=NpAHh-qyVk-UzfTkLzqpIwJ43v2nCxd2sZSF1wVdGoA,305
+sopel_modules/tableflip/tableflip.py,sha256=Mxv4Q9xVnp5UHsZcXaCRvxa1uoJ9N7rEXb01O46la0g,6029
+sopel_modules.tableflip-0.1.2.dist-info/DESCRIPTION.rst,sha256=TNVoGrQPharoF8qwgtiIn3o7JjChjvKWGzlWrQupG0k,763
+sopel_modules.tableflip-0.1.2.dist-info/METADATA,sha256=9nNaur-P1WExpO1DkcAMMddU9X34KBxiKSozK5wlLd8,1093
+sopel_modules.tableflip-0.1.2.dist-info/RECORD,,
+sopel_modules.tableflip-0.1.2.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+sopel_modules.tableflip-0.1.2.dist-info/metadata.json,sha256=bI0OdOS5cuJn4pLg1s3KQ9vZpK44EYXuWHpQFhSjI-E,577
+sopel_modules.tableflip-0.1.2.dist-info/namespace_packages.txt,sha256=1GJk87jnz3vpuDVQimAVoSTAzCNN7PNkycVbH0Q1pkg,14
+sopel_modules.tableflip-0.1.2.dist-info/top_level.txt,sha256=_ZwLN-V1x1etvfwqzYdX0btb7nbM-uSphbb8tSb8fKU,20
+tests/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+tests/requirements.txt,sha256=cjgHfazMu5x8R2-6qbg0-jyw2dglQYJrJgwodXV4RFY,89
+tests/test_tableflip.py,sha256=i8ryglvsX6EwCCr1Qo8CvUVCede0BJ5rzXPXaNQ2wXk,351
+tests/.ropeproject/config.py,sha256=K-MBh5BebpsuRcchqpFh8rxdFscReixRks0wagzAFo0,4089
+tests/.ropeproject/globalnames,sha256=rSWYMEqK9pfQwzWlCj5aG6Bsgtm2PvX50-cwtUz5FIo,6
+tests/.ropeproject/history,sha256=NXUtf7uaoFt73LFvPnQDsi_ICbkJFdvhqEaJ8mKVDNI,14
+tests/.ropeproject/objectdb,sha256=rSWYMEqK9pfQwzWlCj5aG6Bsgtm2PvX50-cwtUz5FIo,6
