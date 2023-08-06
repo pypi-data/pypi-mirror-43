@@ -1,0 +1,10 @@
+alchemize/__init__.py,sha256=mqRpnIbn-0x3jWI7x3etKbDwizwSMY1gjGGC9JZXlak,263
+alchemize/helpers.py,sha256=2xLWimLKL8yhMGf1LvVWNS0AgmBwx6AdMRLhyH9KaR8,3263
+alchemize/mapping.py,sha256=qfVHtHtOYDZ8p2KBsA7nli0zOnZYLTrOlZgX37_IK0M,4475
+alchemize/transmute.py,sha256=cNgOirJUiktFsCTtGcMlGYjNAm52eLEjI_as_F5q00A,13937
+alchemize-0.14.0.data/data/LICENSE,sha256=U5VWO2Q4t2z7pFdbrHdeLSyW9jOWeeEwMDUpQsp3RTA,549
+alchemize-0.14.0.dist-info/LICENSE,sha256=U5VWO2Q4t2z7pFdbrHdeLSyW9jOWeeEwMDUpQsp3RTA,549
+alchemize-0.14.0.dist-info/METADATA,sha256=bX8yDPDS-CydA7pCOpbWn4r2V4pJzN4JwQtJO6WABhI,1905
+alchemize-0.14.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+alchemize-0.14.0.dist-info/top_level.txt,sha256=uTpga8BYV-VnuOT-5Zo8ssbS0gltlFJnhArVCQv4BBU,10
+alchemize-0.14.0.dist-info/RECORD,,
