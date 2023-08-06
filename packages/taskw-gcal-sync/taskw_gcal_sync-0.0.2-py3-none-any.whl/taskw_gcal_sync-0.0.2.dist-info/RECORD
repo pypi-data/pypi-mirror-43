@@ -1,0 +1,15 @@
+taskw_gcal_sync/GCalSide.py,sha256=kp8_fMURpz_7i5M3-hcb_CmTns75lwNKNTNw8AJd4Iw,10334
+taskw_gcal_sync/GenericSide.py,sha256=fQyzQoCxz8tozwckurNZ9JDm9hbllzyDB1Jc2Xcqhs4,2383
+taskw_gcal_sync/PrefsManager.py,sha256=uvsCah-6eK4F4IWWruX02hhysj04SnaCmL4PZuy1GVQ,4726
+taskw_gcal_sync/TWGCalAggregator.py,sha256=rYXpteRm1_z-Ozqt6gKqggAJZl6hqxO9QjlPZkxnPM4,14402
+taskw_gcal_sync/TaskWarriorSide.py,sha256=AlZLpF7tVKSAukLVUqQRhlw1uVj5_KWt8IcHP2ltrrE,3281
+taskw_gcal_sync/__init__.py,sha256=ogzSd1AjA1EK6P6OJZ4Au08hn_73ubSUmieL_a_RlKY,334
+taskw_gcal_sync/clogger.py,sha256=yBzvZUr8GISZOFDrUjbZVs2fBRoQ00lHJqC5E9iQiwI,2506
+taskw_gcal_sync/helpers.py,sha256=241NgHW5WmrO5myutPQ45LR8zgkMHdOzeb72Q3SvxnA,1324
+taskw_gcal_sync/utils.py,sha256=DWKkpTDFfd20-oTVdAVkFj1DEDOMZW-1ap80-C_WHuw,1073
+taskw_gcal_sync-0.0.2.data/scripts/tw_gcal_sync.py,sha256=7UM1bKAts41wHhWcFF41TdC0ajes6jTZK1uBibKRzzA,783
+taskw_gcal_sync-0.0.2.dist-info/LICENSE,sha256=WIue69M1u7g9vOO1ReId9spgQA0aAsWMEyvUAwp_75k,1053
+taskw_gcal_sync-0.0.2.dist-info/METADATA,sha256=LM0i8Y06NoNeZ7whMZwfaB2Lh1wmlJ1J3rfLSTKb4sg,4894
+taskw_gcal_sync-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+taskw_gcal_sync-0.0.2.dist-info/top_level.txt,sha256=j7vd_ozQsPp9qwC5J5wx0sG0n7gxFLBV9ydcQtfehng,16
+taskw_gcal_sync-0.0.2.dist-info/RECORD,,
