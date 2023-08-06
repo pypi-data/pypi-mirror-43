@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rogue-gym
+Version: 0.0.1
+Summary: OpenAI gym environment for rogue-gym
+Home-page: https://github.com/kngwyu/rogue-gym
+Author: Yuji Kanagawa
+Author-email: yuji.kngw.80s.revive@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX
+Provides-Extra: rainy
+Requires-Dist: numpy
+Requires-Dist: gym
+Provides-Extra: rainy
+Requires-Dist: rainy; extra == 'rainy'
+
+UNKNOWN
+
+
