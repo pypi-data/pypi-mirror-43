@@ -1,0 +1,8 @@
+README.md
+setup.py
+indexisinlist/__init__.py
+indexisinlist/indexisinlist.py
+indexisinlist.egg-info/PKG-INFO
+indexisinlist.egg-info/SOURCES.txt
+indexisinlist.egg-info/dependency_links.txt
+indexisinlist.egg-info/top_level.txt
