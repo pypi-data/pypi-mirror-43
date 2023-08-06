@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: weios-mytest1
+Version: 0.1.0
+Summary: time and path tool
+Home-page: https://github.com/weios001/weios_mytest.git
+Author: weios
+Author-email: weios@woodcol.com
+License: MIT Licence
+Description: time and path tool
+Keywords: pip,weios_test1,mage
+Platform: any
