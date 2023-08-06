@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kisseru
+Version: 0.2.3
+Summary: A simply scriptable workflow library for data pipelines.
+Home-page: https://github.com/chamibuddhika/kisseru
+Author: Buddhika Chamith
+Author-email: chamibuddhika@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: xlwt
+Requires-Dist: xlrd
+Requires-Dist: numpy
+Requires-Dist: jsonpickle
+Requires-Dist: click
+
+
+Kisseru lets you script your data pipelines. No need to learn another framework or another DSL. Just write pipeline tasks as plain python functions. And then chain the function calls the way you need the data to flow in the pipeline and you are done!!
+
+You can take the pipeline and run it locally in your machine (or in a cluster or in a cloud if you want it to scale -- these modes still in the works) and Kisseru will figure out how to run it most efficiently without you having to worry
+about it.
+
