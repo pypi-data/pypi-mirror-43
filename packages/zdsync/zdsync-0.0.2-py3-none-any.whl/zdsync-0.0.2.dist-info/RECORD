@@ -1,0 +1,11 @@
+zdsync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zdsync/cli.py,sha256=ofcpJqRXRgUGz0mp-SkZtyuMrVPlYEy79nb0dv97a80,1685
+zdsync/client.py,sha256=hhzZ16ioMJIjQPPXeOO3Cz1kyGD0B_pFE4KG4EhrMq4,1886
+zdsync/printer.py,sha256=6XRADqM0-5-9Ta5KMMh9qTFoQZ7Ny7_vYzVXAtAUFCI,1580
+zdsync/synchronizer.py,sha256=21nbwyEC6qszO8fQ95XU-GTVdadw7LNROgpoXGTgjRU,8445
+zdsync-0.0.2.dist-info/LICENSE.txt,sha256=Oso-PQD3MzSJ7tddbHC5GPeez9hFuTvdBbR6ejtYhQA,746
+zdsync-0.0.2.dist-info/METADATA,sha256=ltkHV6mqSYtGPRR16EMpi9Ng2yWAB2jbdbtXVca_Dbo,636
+zdsync-0.0.2.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+zdsync-0.0.2.dist-info/entry_points.txt,sha256=q5_FprJoNdlB63AQNlm2nEqty5SpYXg6PH1j5TaoeYg,44
+zdsync-0.0.2.dist-info/top_level.txt,sha256=RMduD7GSpnIgdT1E2XzfekQ9naVcK9_E7uRiznqS8_E,7
+zdsync-0.0.2.dist-info/RECORD,,
