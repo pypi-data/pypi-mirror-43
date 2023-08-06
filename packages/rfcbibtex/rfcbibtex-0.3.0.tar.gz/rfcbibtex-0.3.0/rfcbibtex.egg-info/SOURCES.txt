@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+bin/rfcbibtex
+rfc_bibtex/__init__.py
+rfc_bibtex/errors.py
+rfc_bibtex/exceptions.py
+rfc_bibtex/parser.py
+rfc_bibtex/rfc_bibtex.py
+rfc_bibtex/utils.py
+rfcbibtex.egg-info/PKG-INFO
+rfcbibtex.egg-info/SOURCES.txt
+rfcbibtex.egg-info/dependency_links.txt
+rfcbibtex.egg-info/top_level.txt
