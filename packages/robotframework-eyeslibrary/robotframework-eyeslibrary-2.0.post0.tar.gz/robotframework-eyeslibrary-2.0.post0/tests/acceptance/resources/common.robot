@@ -1,0 +1,2 @@
+*** Variables ***
+${API KEY}    YourApplitoolsApiKey
