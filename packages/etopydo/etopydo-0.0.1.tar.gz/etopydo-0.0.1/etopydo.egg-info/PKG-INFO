@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: etopydo
+Version: 0.0.1
+Summary: A powerful todo.txt application for the console
+Home-page: https://www.example.org
+Author: Eddie
+Author-email: eddie@example.org
+License: UNKNOWN
+Description: \This is just eddie dicking around with topydo.
+        	I am very new to programming and make no garuntees of anything working.
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Provides-Extra: test
+Provides-Extra: ical
+Provides-Extra: prompt
+Provides-Extra: columns
