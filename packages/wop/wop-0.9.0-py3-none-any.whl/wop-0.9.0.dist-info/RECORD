@@ -1,0 +1,9 @@
+whatsopt/__init__.py,sha256=IT42Lp98K9V7LKQDOTS8pm1IpH4yOkdD-afirSJubno,21
+whatsopt/whatsopt_client.py,sha256=M42gvW6gMgnbv9c_5Er-uwqDwpFrZTx3uvWoVeOCPDI,26625
+whatsopt/wop.py,sha256=1ThL5oqMYhfX9QBRSjs7No4t0nCfGB66NCjj50TZHTk,4203
+wop-0.9.0.dist-info/METADATA,sha256=kwmUD3w9lxYN5Et0mbj3I2XML1VW_1ByualxwhLJ06w,1097
+wop-0.9.0.dist-info/RECORD,,
+wop-0.9.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wop-0.9.0.dist-info/entry_points.txt,sha256=5PACSlJZ1U2IhKV1llJwisZC4VEI3Ngxi-v9jbshPzY,60
+wop-0.9.0.dist-info/top_level.txt,sha256=W-FTtahW6Q0_7vzhpkNgBE-1qH0_zBztfaz8HNMHgwU,9
+wop-0.9.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
