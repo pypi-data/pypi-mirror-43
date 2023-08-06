@@ -1,0 +1,85 @@
+
+[TOC]
+
+##简介
+
+利用工具，即可对android移动端APP进行快速的性能测试(CPU、内存)、开发日志的查看、Crash日志查看统计等
+测试任务就是保证功能的正常，并且不会有遗留的内存对象，造成内存泄漏问题
+
+
+##环境要求
++ macOS
++ Python3.6及以上
++ android adb 
+
+
+##使用
+##测试流程
+###1. 前提
+	使用时，通过USB线连接手机和电脑即可。
+
+###2. 测试
+开始监听
+
+	p = PerformanceManger()
+ 	p.begin(device_id='HT7131700092', save_path='',package_process='', peformance_interal=5, hrof_interal=)
+	
+结束监听
+
+	p.end()
+
+###字段说明
+
+	device_id::  id of adb devices
+	save_path::  file path to save
+	package_process::  dump the heap of a process. The given <PROCESS> argument may be either a process name or pid
+	peformance_interal:: the interal of memory to get
+	hrof_interal::  the interal of hrof to get
+
+###3. 测试场景
+1. 新开发或者改进的某项功能，随着测试功能的反复使用
+2. 长时间运行的稳定性测试
+3. 反馈切换页面，有数据缓存的
+	
+###4. 测试重点
+1. 多张图片的界面，大图片
+2. 网络传输大量的数据
+3. 后台异步给前端
+	
+
+###5. 查看结果
+1. 默认保存在”results/device_id/日期_时间“文件下,如
+	
+	results/HT7131700092/20190114_081654
+	
+或者保存路径“save_path/device_id/日期_时间“下。
+	
+	
+2. 查看Dalvik和 Native 内存值的内存值曲线,内存变化的波动情况
+
+<img src="./image/1547080924680-image.png" style="width:800px">
+
+
+###6. 确定问题
+1. 一直在增长
+2. 大幅度波动
+使用 Memory Analyzer Tool (MAT)分析问题
+
+##附录
+
+###代码流程
+<img src="./image/1547080945217-image.png" style="width:800px">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
