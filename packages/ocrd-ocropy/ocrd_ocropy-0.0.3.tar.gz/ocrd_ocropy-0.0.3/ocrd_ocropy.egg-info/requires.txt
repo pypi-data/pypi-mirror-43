@@ -1,0 +1,3 @@
+ocrd>=1.0.0b8
+ocrd-fork-ocropy>=1.4.0a3
+click
