@@ -1,0 +1,5 @@
+recursive-include excel2table *.j2 *.js *.py
+include LICENSE
+include README.rst
+include CHANGELOG.rst
+recursive-include tests *
