@@ -1,0 +1,4 @@
+setuptools
+rl>=3.0
+kmd>=2.3
+term>=2.3
