@@ -1,0 +1,12 @@
+issho/__init__.py,sha256=WhkPoLyW_bP6xQXUyOZFOGqNZIiJOPUfGnZpLZPNxTg,925
+issho/cli.py,sha256=b2OIKFnuI3E8g_OicQOr5P0CRlGmYbNkzUObtiHDkaE,1349
+issho/config.py,sha256=oK-T-vnIDDJyq73wC2zXJP_v7t6txAqUgGnr0K8fQ6U,657
+issho/helpers.py,sha256=wzcQeMXSift2cm-8ayiItYVBypLFwJ9VrDmcdX39C5w,928
+issho/issho.py,sha256=an4cyaa17UKmDjrHA4g7rwCsKKTFhBs3Ud-pC9oUZSc,6770
+issho-0.2.3.dist-info/AUTHORS.rst,sha256=HoSrZ2MhcSgrPC_3NMhxnmYiJzDp4T15wBzxHWo1Ft4,164
+issho-0.2.3.dist-info/LICENSE,sha256=LDRefwzypkqu0rSgmltzGVP6G35SiRz6Dez6yQ6NsvU,1072
+issho-0.2.3.dist-info/METADATA,sha256=UOOznCu0aZ8AT0Tf6KFxzeiL_sJ5b3YHvDTXW7a9ckw,3653
+issho-0.2.3.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+issho-0.2.3.dist-info/entry_points.txt,sha256=VHrEt-B8FqxCo427qyhYIdC2o0nDkfb3-Zbq3bS0mrQ,60
+issho-0.2.3.dist-info/top_level.txt,sha256=n7-HaL6nQgnOng5ACP2sEV5GUQANqrmpCvMyX1XN7Ew,6
+issho-0.2.3.dist-info/RECORD,,
