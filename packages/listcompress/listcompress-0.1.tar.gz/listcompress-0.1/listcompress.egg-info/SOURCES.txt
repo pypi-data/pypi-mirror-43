@@ -1,0 +1,8 @@
+README.md
+setup.py
+listcompress/__init__.py
+listcompress/listcompress.py
+listcompress.egg-info/PKG-INFO
+listcompress.egg-info/SOURCES.txt
+listcompress.egg-info/dependency_links.txt
+listcompress.egg-info/top_level.txt
