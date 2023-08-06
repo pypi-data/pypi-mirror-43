@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: bikeshm
+Version: 0.7
+Summary: Bikesh M
+Home-page: UNKNOWN
+Author: Bikesh M
+Author-email: bikeshm@gmail.com
+License: MIT
+Description: 
+            pip install bikeshm
+        
+            import bikeshm
+        
+            print(bikeshm.about())
+        
+        
+Platform: UNKNOWN
