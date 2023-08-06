@@ -1,0 +1,4 @@
+fastavro
+pandas
+multiprocessing
+joblib

@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: fastpandavro
+Version: 1.1
+Summary: Parallel conversion of Avro file to Pandas dataframe and conversion of pandas dataframe to avro file
+Home-page: https://github.com/deepakagrawal/fastpandavro
+Author: Deepak Agrawal
+Author-email: agrawal.deepankur@gmail.com
+License: MIT
+Download-URL: https://github.com/deepakagrawal/fastpandavro/archive/v1.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
