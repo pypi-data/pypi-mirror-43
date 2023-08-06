@@ -1,0 +1,1 @@
+from owotrans import owo

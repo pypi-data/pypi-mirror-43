@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: owotranslator
+Version: 0.0.1
+Summary: A package that owoifies your text
+Home-page: https://github.com/usvimal/owotranslator
+Author: Vimal
+Author-email: usvimal@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/usvimal/owotrans/archive/0.0.1.tar.gz
+Description: # owotranslator
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
