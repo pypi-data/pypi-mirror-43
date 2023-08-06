@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: muarch
+Version: 0.0.3
+Summary: Multiple Univariate ARCH modeling toolbox built on top of the ARCH package
+Home-page: UNKNOWN
+Author: Daniel Bok
+Author-email: daniel.bok@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Requires-Dist: arch (>=4.7)
+Requires-Dist: copulae (>=0.2.0)
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy (>=1.1)
+Requires-Dist: pandas (>=0.23)
+
+UNKNOWN
+
+
