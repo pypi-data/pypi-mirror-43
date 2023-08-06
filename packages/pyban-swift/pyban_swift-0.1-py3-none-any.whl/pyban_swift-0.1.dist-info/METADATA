@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyban-swift
+Version: 0.1
+Summary: IBAN validation tool in Python
+Home-page: https://github.com/Imperatus/PyBan
+Author: Jurgen Buisman
+Author-email: jurgen@labela.nl
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Dist: pycountry
+
+UNKNOWN
+
+
