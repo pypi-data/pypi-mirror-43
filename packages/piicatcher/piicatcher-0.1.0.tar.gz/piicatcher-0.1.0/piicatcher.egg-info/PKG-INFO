@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: piicatcher
+Version: 0.1.0
+Summary: Find PII data in databases
+Home-page: https://github.com/vrajat/piicatcher
+Author: Rajat Venkatesh
+Author-email: vrajat@dblint.io
+License: Apache 2.0
+Download-URL: https://github.com/vrajat/piicatcher/tarball/0.1.0
+Description: [![Build Status](https://travis-ci.org/dblintio/piicatcher.svg?branch=master)](https://travis-ci.org/dblintio/piicatcher)
+        [![codecov](https://codecov.io/gh/dblintio/piicatcher/branch/master/graph/badge.svg)](https://codecov.io/gh/dblintio/piicatcher)
+        
+        Pii Catcher for MySQL, PostgreSQL & Redshift
+        ===============================
+        
+        Overview
+        --------
+        
+        A utility to find PII data in databases
+        
+        Installation / Usage
+        --------------------
+        
+        To install use pip:
+        
+            $ pip install piicatcher
+        
+        
+        Or clone the repo:
+        
+            $ git clone https://github.com/vrajat/piicatcher.git
+            $ python setup.py install
+            
+        Contributing
+        ------------
+        
+        TBD
+        
+        Example
+        -------
+        
+        TBD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3

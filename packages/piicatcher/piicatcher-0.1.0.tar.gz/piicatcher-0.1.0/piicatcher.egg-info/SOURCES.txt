@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+piicatcher/__init__.py
+piicatcher/command_line.py
+piicatcher/dbexplorer.py
+piicatcher/dbmetadata.py
+piicatcher/piitypes.py
+piicatcher/scanner.py
+piicatcher.egg-info/PKG-INFO
+piicatcher.egg-info/SOURCES.txt
+piicatcher.egg-info/dependency_links.txt
+piicatcher.egg-info/entry_points.txt
+piicatcher.egg-info/requires.txt
+piicatcher.egg-info/top_level.txt
