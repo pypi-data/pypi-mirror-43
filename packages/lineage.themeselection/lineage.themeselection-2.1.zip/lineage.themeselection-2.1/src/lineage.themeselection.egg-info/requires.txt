@@ -1,0 +1,5 @@
+setuptools
+collective.lineage
+lineage.registry
+lineage.controlpanels
+plone.app.theming
