@@ -1,0 +1,3 @@
+[console_scripts]
+b3get = b3get.cli:main
+
