@@ -1,0 +1,15 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_kdl_ldap.egg-info/PKG-INFO
+django_kdl_ldap.egg-info/SOURCES.txt
+django_kdl_ldap.egg-info/dependency_links.txt
+django_kdl_ldap.egg-info/requires.txt
+django_kdl_ldap.egg-info/top_level.txt
+kdl_ldap/__init__.py
+kdl_ldap/apps.py
+kdl_ldap/settings.py
+kdl_ldap/signal_handlers.py

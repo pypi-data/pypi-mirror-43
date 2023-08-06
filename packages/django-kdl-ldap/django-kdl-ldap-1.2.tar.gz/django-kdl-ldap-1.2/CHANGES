@@ -1,0 +1,5 @@
+# 1.2 2019.03.26 Brian Maher <brian.maher@kcl.ac.uk>
+    * Updated user permission logic to fix issue with wagtail
+
+# 1.1 2017.06.28 Miguel Vieira <jose.m.vieira@kcl.ac.uk>
+    * Changed the user/group flags for is_active and is_staff to use the kdl-staff group

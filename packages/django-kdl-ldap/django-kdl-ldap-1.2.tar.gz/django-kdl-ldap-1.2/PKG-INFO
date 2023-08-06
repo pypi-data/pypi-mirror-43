@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: django-kdl-ldap
+Version: 1.2
+Summary: Django LDAP authentication for KDL
+Home-page: https://github.com/kingsdigitallab/django-kdl-ldap
+Author: King's Digital Lab
+Author-email: kdl-info@kcl.ac.uk
+License: MIT
+Description: Django LDAP authentication
+        ==========================
+        
+        This application uses django-auth-ldap_ to authenticate against KDL's LDAP service. If the LDAP authentication fails it falls back to Django authentication, so it is possible to have local Django accounts.
+        
+        Configuration
+        -------------
+        #. ``pip install django-kdl-ldap``
+        #. add ``kdl_ldap`` to ``INSTALLED_APPS``
+        #. import the ``kdl_ldap`` settings into your project's settings ``from kdl_ldap.settings import *  # noqa``.
+        #. Add the setting ``AUTH_LDAP_REQUIRE_GROUP`` to your project settings and set it to the LDAP group you want to authenticate to: ``AUTH_LDAP_REQUIRE_GROUP = 'cn=PROJECT_GROUP_NAME,' + LDAP_BASE_OU``.
+        #. Add ``kdl_ldap`` signal handler into your project urls:
+        
+                from kdl_ldap.signal_handlers import register_signal_handlers as \
+                    kdl_ldap_register_signal_hadlers
+                kdl_ldap_register_signal_hadlers()
+        
+        System requirements
+        -------------------
+        
+        The python/django LDAP libraries depend on the ``libldap2-dev`` and ``libsasl2-dev`` systemlibraries.
+        
+        .. _django-auth-ldap: http://pythonhosted.org/django-auth-ldap/
+        
+Keywords: django kdl ldap
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: System :: Systems Administration :: Authentication/Directory :: LDAP
+Classifier: Topic :: Utilities
