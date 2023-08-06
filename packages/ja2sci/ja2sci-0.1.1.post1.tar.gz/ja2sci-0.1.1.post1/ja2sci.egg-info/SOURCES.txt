@@ -1,0 +1,10 @@
+README.md
+setup.py
+ja2sci/__init__.py
+ja2sci/main.py
+ja2sci.egg-info/PKG-INFO
+ja2sci.egg-info/SOURCES.txt
+ja2sci.egg-info/dependency_links.txt
+ja2sci.egg-info/entry_points.txt
+ja2sci.egg-info/requires.txt
+ja2sci.egg-info/top_level.txt
