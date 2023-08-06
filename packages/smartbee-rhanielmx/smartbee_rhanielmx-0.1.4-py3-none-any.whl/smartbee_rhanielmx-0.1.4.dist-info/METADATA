@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: smartbee-rhanielmx
+Version: 0.1.4
+Summary: Biblioteca do projeto smartbee
+Home-page: https://github.com/rhanielmx/smartbee
+Author: Rhaniel Magalhães
+Author-email: rhaniel@alu.ufc.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# smartbee
+
+Módulo para o projeto smartbee. #Ainda em criação
+
+## Instalação
+pip install smartbee
+
+
