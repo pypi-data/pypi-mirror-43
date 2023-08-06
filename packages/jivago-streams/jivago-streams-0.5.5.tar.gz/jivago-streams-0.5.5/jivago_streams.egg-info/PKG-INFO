@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: jivago-streams
+Version: 0.5.5
+Summary: Chainable functional-style operations for Python3.
+Home-page: https://github.com/jivago-python/jivago-streams
+Author: Kento A. Lauzon
+Author-email: kento.lauzon@ligature.ca
+License: UNKNOWN
+Description: # Jivago-Streams
+        [![Build Status](https://travis-ci.com/jivago-python/jivago-streams.svg?branch=master)](https://travis-ci.com/jivago-python/jivago-streams)
+        [![codecov](https://codecov.io/gh/jivago-python/jivago-streams/branch/master/graph/badge.svg)](https://codecov.io/gh/jivago-python/jivago-streams)
+        
+        Jivago-Streams brings the ability to chain functional-style operations on collections. 
+        This package provides a single class (`Stream`), which is extracted from the Jivago web framework.
+        Note that *jivago-streams* can be used independently from the Jivago web framework.
+        
+        ```python
+        from jivago_streams import Stream
+        
+        # Result : [4, 16, 36]
+        square_of_even_numbers = Stream([1, 2, 3, 4, 5, 6]) \
+            .filter(lambda x: x % 2 == 0) \
+            .map(lambda x: x ** 2) \
+            .toList()
+        ```
+        
+        ## Installation
+        `pip install jivago-streams`
+        
+        ## Documentation
+        The documentation is available at [https://docs.jivago.io](https://docs.jivago.io/en/develop/streams/index.html).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

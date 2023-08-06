@@ -1,0 +1,7 @@
+README.md
+setup.py
+jivago_streams/__init__.py
+jivago_streams.egg-info/PKG-INFO
+jivago_streams.egg-info/SOURCES.txt
+jivago_streams.egg-info/dependency_links.txt
+jivago_streams.egg-info/top_level.txt
