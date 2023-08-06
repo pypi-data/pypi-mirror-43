@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: ddf-utils
+Version: 0.2.12
+Summary: Commonly used functions/utilities for DDF file model.
+Home-page: https://github.com/semio/ddf_utils
+Author: Semio Zheng
+Author-email: prairy.long@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: cookiecutter
+Requires-Dist: daff
+Requires-Dist: jsonschema
+Requires-Dist: orderedattrdict
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: typing
+Requires-Dist: unidecode
+
+UNKNOWN
+
+
