@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: mPython-motor
+Version: 0.0.1
+Summary: Motor control by i2c communication for mPython library
+Home-page: https://github.com/labplus-cn/mPython_motor
+Author: tangliufeng@LabPlus
+Author-email: 137513285@qq.com
+Maintainer: LabPlus Developers
+License: MIT
+Description: <img width="400" src="/docs/images/mpython.png"/>
+        
+        ## 概述
+        
+        Motor control by i2c communication for mPython library
+        
+        更多的mPython library：https://github.com/labplus-cn/mPython-lib
+        
+        ## 库的安装方法
+        
+        可通过以下任一方法进行安装。
+        1. 将项目中的`motor.py` 
+        2. 在掌控板REPL界面中，使用upip安装，步骤如下：
+            * 前置条件需要掌控板连接网络
+            * 导入upip模块，执行`import upip`
+            * 执行`upip.install('mPython-motor'）
+        
+        ```python
+        >>> import upip
+        >>> upip.install('mPython-motor')
+        ```
+        
+        ## 使用
+        
+        电机控制通讯协议数据：
+        
+        | Type    | Command  | motor_no  | speed(int) |
+        | :------ | :------  | :------   | :------    |
+        | 控制电机 | 0x01     | 0x01/0x02 | -100~100   |
+        
+        </br>
+        motor Library Documentation：https://mpython-motor.readthedocs.io
+        
+        ## 执照
+        
+        所有代码均在MIT许可下发布。
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
