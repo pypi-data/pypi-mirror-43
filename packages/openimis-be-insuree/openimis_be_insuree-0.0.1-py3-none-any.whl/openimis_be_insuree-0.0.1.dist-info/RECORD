@@ -1,0 +1,13 @@
+insuree/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insuree/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+insuree/apps.py,sha256=1lpcUYfLJipYmj9_AsxsQIcqJywttt1tJLzAu73REGU,89
+insuree/models.py,sha256=4mXYnnsYCwf_QWAp0MD9XWbvg7V-VYArsWTQNRHRO8A,3304
+insuree/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+insuree/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+insuree/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+insuree/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openimis_be_insuree-0.0.1.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_insuree-0.0.1.dist-info/METADATA,sha256=ejG87QwM-IZ45gPLLUe_3Vl3SDBv69bFi53t82oWMPE,1355
+openimis_be_insuree-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+openimis_be_insuree-0.0.1.dist-info/top_level.txt,sha256=yFQIBq3A7hAKWk-U3Z-HGZRQHhEo7hQZNa87oAbitNI,8
+openimis_be_insuree-0.0.1.dist-info/RECORD,,
