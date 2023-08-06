@@ -1,0 +1,8 @@
+Orange3>=3.7.0
+Pillow!=5.1.0,>=4.2.1
+cachecontrol
+hypertemp
+lockfile
+ndf>=0.1.2
+numpy>=1.13.0
+requests
