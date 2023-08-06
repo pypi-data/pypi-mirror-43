@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pmast
+Version: 0.1
+Summary: Pattern Matching for the Python AST
+Home-page: https://github.com/campadrenalin/pmast
+Author: Philip Horger
+Author-email: campadrenalin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
