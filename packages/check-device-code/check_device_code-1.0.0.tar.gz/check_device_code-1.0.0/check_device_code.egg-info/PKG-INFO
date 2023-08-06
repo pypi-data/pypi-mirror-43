@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: check-device-code
+Version: 1.0.0
+Summary: 校验手机设备码
+Home-page: https://github.com/Cuile/check_device_code
+Author: cuile
+Author-email: i@cuile.com
+License: UNKNOWN
+Description: # check_device_code
+        校验手机设备码
+        
+Keywords: imei emid
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
