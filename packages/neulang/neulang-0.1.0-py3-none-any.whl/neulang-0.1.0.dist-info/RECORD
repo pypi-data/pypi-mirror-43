@@ -1,0 +1,17 @@
+neulang/__init__.py,sha256=WWX3IeIj8lUP1YjHiYCReLqE8qJbwuSEgzAqPX1oUsY,79
+neulang/astir.py,sha256=oshWg3G3vBifMdNSRF1tqHX5Xh8oxkHgbpy8a-aCqSw,23297
+neulang/astpp.py,sha256=oaOWWMqU7kyOt_m11WPg5g6HwybTmGgylZDYYvlUIEM,3319
+neulang/base.py,sha256=eMZFexX_asHCohJqyBE54dT2Qg_bkmZQT_9FT-o8ohU,10156
+neulang/cerebrum.py,sha256=QZgoicXU71QKLh18Iy6Nt_G7UOnH4l7Adu6kFo1v3WU,9052
+neulang/core.ast.py,sha256=Ue7ieGyLCVkrZUCp8kWusJvARuWtj7BbQYmFFbLHDVU,23212
+neulang/core.py,sha256=Rz6Y9CDZpbRPYUVND3Kp7c_N_lXDMG6fxvPPuheOFXk,2422
+neulang/interact.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neulang/main.py,sha256=8W3rkcbZYX6WrlGrbsXSuRqYn--Vr--QvjaNtJF9LDA,2713
+neulang/omp.py,sha256=kdKVSQNGFQCtYWx_hY0tBBP6xkqWSzw6kKQMjM66SgE,3235
+neulang/resolvers.py,sha256=Y8_7tTIxMYOGrknXbU_V54mWFg0MFqfASJIAg610sak,7060
+neulang-0.1.0.dist-info/LICENSE.md,sha256=rYWNU8rgXu2VMezUxGdECAOs_-NMad57iOA6_8W2ob0,34283
+neulang-0.1.0.dist-info/METADATA,sha256=DvVYoWlv2-nrV3cgYJUBSJat_ftlZs37d5mgeXF1Hk0,1672
+neulang-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+neulang-0.1.0.dist-info/entry_points.txt,sha256=WCAzfgtZB8g7O9aVJbNOB00_iWtjRiqLhCZGrL7xPBY,42
+neulang-0.1.0.dist-info/top_level.txt,sha256=mBhdKxNFvbmYAOCWZfiAO4koU51eY6QqpkbJGQ8rGJY,8
+neulang-0.1.0.dist-info/RECORD,,
