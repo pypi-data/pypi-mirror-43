@@ -1,0 +1,11 @@
+argopt>=0.3.5
+tabulate
+
+[dev]
+py-make>=0.1.0
+pyyaml
+
+[tabulate]
+
+[yaml]
+pyyaml
