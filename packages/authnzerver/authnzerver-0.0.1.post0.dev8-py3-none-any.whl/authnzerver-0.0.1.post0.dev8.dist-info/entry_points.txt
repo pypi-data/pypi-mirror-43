@@ -1,0 +1,3 @@
+[console_scripts]
+authnzrv = authnzerver.main:main
+
