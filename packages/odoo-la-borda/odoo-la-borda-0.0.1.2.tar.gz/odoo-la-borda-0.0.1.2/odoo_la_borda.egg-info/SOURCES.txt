@@ -1,0 +1,8 @@
+README.md
+setup.py
+la-borda/__init__.py
+la-borda/__manifest__.py
+odoo_la_borda.egg-info/PKG-INFO
+odoo_la_borda.egg-info/SOURCES.txt
+odoo_la_borda.egg-info/dependency_links.txt
+odoo_la_borda.egg-info/top_level.txt
