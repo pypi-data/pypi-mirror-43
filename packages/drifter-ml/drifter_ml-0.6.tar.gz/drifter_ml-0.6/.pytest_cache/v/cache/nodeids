@@ -1,0 +1,3 @@
+[
+  "tests/test_example.py::test_precision_recall_f1_basic"
+]
