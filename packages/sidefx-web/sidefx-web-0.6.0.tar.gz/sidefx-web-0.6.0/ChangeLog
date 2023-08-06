@@ -1,0 +1,42 @@
+CHANGES
+=======
+
+v0.6.0
+------
+
+* Fix --setup parameter failing when no subcmd
+* List Python 3 as a requirement
+* Set cfg permissions to rw for owner only
+
+v0.5.0
+------
+
+* Mask part of the secret key
+
+v0.4.0
+------
+
+* Require command to be passed
+* Add setup to install instructions
+
+v0.3.0
+------
+
+* Set description content type to markdown
+
+v0.2.0
+------
+
+* Add install instructions
+* Turn sidefx\_web.py into a package
+
+v0.1.0
+------
+
+* Update web links
+* Add Example usage for sidefx-web
+* Add command to download houdini
+* Add command to list available builds
+* Add token caching
+* Initialize project and add token API
+* Initial commit
