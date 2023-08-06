@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dlr
+Version: 1.0
+Summary: Common runtime for machine learning models compiled by         AWS SageMaker Neo, TVM, or TreeLite.
+Home-page: https://github.com/neo-ai/neo-ai-dlr
+Author: AWS Neo
+Author-email: aws-neo-ai@amazon.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: numpy
+
+# DLR
+
+DLR is a compact, common runtime for deep learning models and decision tree models compiled by [AWS SageMaker Neo](https://aws.amazon.com/sagemaker/neo/), [TVM](https://tvm.ai/), or [Treelite](https://treelite.readthedocs.io/en/latest/install.html). DLR uses the TVM runtime, Treelite runtime, NVIDIA TensorRT™, and can include other hardware-specific runtimes. DLR provides unified Python/C++ APIs for loading and running compiled models on various devices. DLR currently supports platforms from Intel, NVIDIA, and ARM, with support for Xilinx, Cadence, and Qualcomm coming soon.
+
+## Documentation
+For instructions on installilng DLR, please refer to [Installing DLR](https://neo-ai-dlr.readthedocs.io/en/latest/install.html)
+
+For instructions on using DLR, please refer to [Amazon SageMaker Neo – Train Your Machine Learning Models Once, Run Them Anywhere](https://aws.amazon.com/blogs/aws/amazon-sagemaker-neo-train-your-machine-learning-models-once-run-them-anywhere/)
+
+Also check out the [API documentation](https://neo-ai-dlr.readthedocs.io/en/latest/)
+
+## License
+
+This library is licensed under the Apache License Version 2.0. 
+
+

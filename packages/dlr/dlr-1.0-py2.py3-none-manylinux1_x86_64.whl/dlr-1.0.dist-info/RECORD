@@ -1,0 +1,8 @@
+dlr/__init__.py,sha256=9siTAcOCQ9nUooFpNNtQAYpA21RfY1ORFD58FFwQv2w,172
+dlr/api.py,sha256=KAspjBZnlw5WcP6qhDvrZd5hHBvSfdS0CbQ1TyjUWz0,9998
+dlr/libpath.py,sha256=c3GZF7upsp0lFd3x_BTRVIJs4Lfg41mRKRCaurxRmFo,2044
+dlr-1.0.data/data/dlr/libdlr.so,sha256=kBU6vJEXXZAmnPKlV4PWbnUQlW2w5j9dmPuoBynDaH0,1177552
+dlr-1.0.dist-info/METADATA,sha256=iRao2EzyY7YxbVuHh_qx1n9eqay-vYifWe2NzUskVCY,1613
+dlr-1.0.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+dlr-1.0.dist-info/top_level.txt,sha256=x0WplVNWdbIjRMeCgU3v9gSjvdqEBbJdXCY97CHE4-Y,4
+dlr-1.0.dist-info/RECORD,,
