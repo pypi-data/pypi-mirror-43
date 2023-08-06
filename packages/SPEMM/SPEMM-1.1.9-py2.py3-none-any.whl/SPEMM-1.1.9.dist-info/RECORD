@@ -1,0 +1,11 @@
+SPEMM/__init__.py,sha256=xArOjBcMhpUJY5mIcCSaOR9PkSvVlAIWd3EDNc6yNtI,1475
+SPEMM/comp.py,sha256=gsfrZ3PXb0HVex5R_D3NAiH1Scqp7iSsbdGG8oTyYuU,3014
+SPEMM/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SPEMM/metrics.py,sha256=hstsapHUgw-gbQR46MbrMyeEbNWQGHSfJyMv1ujnSJI,1575
+SPEMM/utils.py,sha256=aYZQcOlOv1U6PKU_tz11nbMUENLoYsJzbaUIXkOWWXY,1742
+SPEMM-1.1.9.dist-info/METADATA,sha256=ufNeG4oz_h9HFDGeFE4hU9fAMNhWrXu6X_xWFB86fFg,2514
+SPEMM-1.1.9.dist-info/RECORD,,
+SPEMM-1.1.9.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+SPEMM-1.1.9.dist-info/entry_points.txt,sha256=jnyYO3IC6767sMeuX_Rh9l8PsY35Z9m0W8WHwvbbkoo,37
+SPEMM-1.1.9.dist-info/top_level.txt,sha256=koLuh-5n0IxuDWd5LmaRtK_OX2m5EN1QGaWu1EVLVUs,6
+SPEMM-1.1.9.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
