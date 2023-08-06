@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: accession
+Version: 0.0.5
+Summary: Accessioning tool to submit genomics pipeline outputs to the ENCODE Portal
+Home-page: http://github.com/ENCODE-DCC/accession
+Author: Ulugbek Baymuradov
+Author-email: ulugbekbk@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: encode-utils (==2.5.0)
+Requires-Dist: google-cloud-storage
+
+UNKNOWN
+
+
