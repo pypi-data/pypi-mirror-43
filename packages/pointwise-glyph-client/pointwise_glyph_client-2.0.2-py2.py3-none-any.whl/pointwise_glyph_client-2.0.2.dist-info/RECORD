@@ -1,0 +1,9 @@
+pointwise/__init__.py,sha256=aX2QRlyfvP8BFETmVzmf1q7X_cTOe44mwj1fanyuNXY,73
+pointwise/glyph_client.py,sha256=iTiHGjXrQN3CW1V_7gKxGAFqIdcjMGh9HbkRYru1xe8,21757
+pointwise/glyphapi/__init__.py,sha256=CGh7V08_MdJYpnaj4zR18E75ZOSKQziuGexaBtK00M0,2389
+pointwise/glyphapi/glyphobj.py,sha256=P9uoO3E43F5HcMeJIXeMN3PSsgNyZq_yKseStUPM67s,21857
+pointwise/glyphapi/utilities.py,sha256=7xEF_gowFx-Rz6rRPONJ3S4JDlB5ng7AdopfX3dZgIQ,50990
+pointwise_glyph_client-2.0.2.dist-info/METADATA,sha256=JndTOsIy9EzlxpAc1JuVRB3Eb9WWVCjN0rjNiOU5BlI,307
+pointwise_glyph_client-2.0.2.dist-info/RECORD,,
+pointwise_glyph_client-2.0.2.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+pointwise_glyph_client-2.0.2.dist-info/top_level.txt,sha256=2MMtiw8Bkw77H1oUIWT-wzO26THSbwOOHP7OAEXbzQI,10
