@@ -1,0 +1,11 @@
+aiohttp>=3.2.1
+boto3>=1.9.94
+requests>=2.18.4
+ujson>=1.35
+
+[dev]
+codecov
+mock
+pytest>=3.6
+pytest-cov
+pytest-mock
