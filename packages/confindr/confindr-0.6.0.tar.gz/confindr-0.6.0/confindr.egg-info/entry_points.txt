@@ -1,0 +1,4 @@
+[console_scripts]
+confindr.py = confindr_src.confindr:main
+confindr_database_setup = confindr_src.database_setup:main
+
