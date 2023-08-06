@@ -1,0 +1,8 @@
+README.md
+setup.py
+spotflock_studio.egg-info/PKG-INFO
+spotflock_studio.egg-info/SOURCES.txt
+spotflock_studio.egg-info/dependency_links.txt
+spotflock_studio.egg-info/top_level.txt
+studio/__init__.py
+studio/core.py
