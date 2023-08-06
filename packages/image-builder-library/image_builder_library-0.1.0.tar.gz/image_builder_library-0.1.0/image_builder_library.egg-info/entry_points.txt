@@ -1,0 +1,3 @@
+[console_scripts]
+image_builder_library = image_builder_library.cli:main
+
