@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: cliep
+Version: 1.0.3
+Summary: Simple CLI entrypoint and argument parsing.
+Home-page: https://github.com/hsorenson/cliep
+Author: Harald Sorenson
+Author-email: haraldesorenson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# CLIEP Python Console Entrypoint Library
+
+CLIEP (CLI Entrypoint) is a small, no dependency system to streamline interfacing with TTYs and consoles, using a primary entrypoint function via decorators with optional automatic argument parsing.
+
+## Installation:
+```pip3 install cliep```
+
+It is recommended you use a virtualenv for individual project's dependencies.
+You can also add cliep to your requirements.txt for larger projects.
+
+## Documentation:
+The `cliep` namespace contains two important elements: `entrypoint`, and `Argument`.
+
+```
+entrypoint:
+	arg_map - the list of arguments to parse and send to the entrypoint.
+	help_func - function to handle printing the help page on err/trigger. Uses builtin help generator by default.
+	help_trigger - The flag to trigger help off of, defaults to '-h'. NOTE: this overrides any arguments that share the same name.
+```
+
+Entrypoints are also required to type hint that they return either `int` or `None`, otherwise
+the entrypoint will not be allowed to run.
+
+```
+Argument:
+	shortname: str - Required, specifies the shorthand command name ('-a', '-b', etc).
+	longname: str - Optional, allows for a second proper command name ('--append').
+	is_flag: bool - Specifies whether or not the argument is expecting a value, defaults False.
+	is_required: bool - Specifies whether or not this argument must be found, defaults False.
+	default: any - Specifies a default value for optional arguments that are not supplied.
+```
+
+These two elements make up the entirety of the use case CLIEP hopes to solve.
+This allows for auto-parsing of arguments and feeding them into the specified entrypoint.
+
+An important note: When using Arguments the values of each Argument are passed into
+the entrypoint in the order they are added. e.g. arguments `a, b, c` will be sent to
+the entrypoint as `a, b, c`. Furthermore, arguments use the type hinting of the entrypoints
+parameters to typecast before sending. So type hints are required for custom argument parsing.
+
+An example of this is as follows:
+
+```python
+@entrypoint([Argument('-a')])
+def main(a: int) -> int:
+	return a
+```
+
+This example will only work as long as the `a` parameter is type hinted.
+
+This extensive use of type hinting is present in order to remove a guessing game of what
+is being passed back and forth, and to lower possible points of failure.
+
+If bad data is supplied to a type casted argument (e.g. `str` -> `int`), then the value
+will be set to `None`, and forwarded to the entrypoint. If the argument that failed to be 
+coerced is a required field, the help message will be displayed to the user. This is so that
+the proper entrypoint can handle informing the user of bad (or no) input, or manually setting a
+default value. Although this may not be the most elegant solution, this allows for proper
+error handling in cases where the type cast is wanted or required.
+
+If a type hint in the entrypoint is `list` or `dict` (or the generic counterparts), 
+CLIEP will raise a `NotImplementedError` due to complications with Pythons preprocessing
+or argv.
+
+In cases where you want to override the default help output, `help_func` should expect:
+
+```
+error: str = Error text in case of missing required field.
+args: List[Argument] - The list of argument objects.
+trigger: str - The trigger phrase that is used to trigger the help screen.
+```
+
+## Examples:
+In it's most basic form, an entrypoint looks like this:
+
+```python
+from cliep import entrypoint
+
+@entrypoint
+def main(argv, argc) -> int:
+    return 0
+```
+
+You see without custom argument parsing, the entrypoint will just forward the argv and len(argv) to the entrypoint.
+Another important thing to notice is the use of type hinting. CLIEP uses type hinting to enforce returns to the TTY.
+As such, an entrypoint function must either type hint a return of type "int" or type "None".
+
+A more complicated example could look like this:
+
+```python
+from cliep import entrypoint, Argument
+
+@entrypoint([
+    Argument('-f', '--flag', is_flag=True),
+    Argument('-i', '--input', is_required=True),
+])
+def main(flag: bool, user_input: int) -> int:
+    print(flag, user_input)
+    return user_input or 0
+```
+
+In this example we further the use of type hinting, as the Arguments in the list are passed
+to the entrypoint function in order of their place in the list, and as the values of each
+Argument are gathered, they use the type hints in the main function declaration to know what
+to type cast too. Because of this, in an entrypoint function all arguments must have a type
+hint.
+
+
