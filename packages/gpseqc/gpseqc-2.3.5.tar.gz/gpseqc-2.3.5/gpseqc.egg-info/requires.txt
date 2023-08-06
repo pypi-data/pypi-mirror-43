@@ -1,0 +1,8 @@
+ggc>=0.0.3
+joblib>=0.11
+matplotlib>=2.2.2
+numpy>=1.14.2
+pandas>=0.22.0
+pybedtools>=0.7.10
+pyemd>=0.5.1
+scipy>=1.0.1
