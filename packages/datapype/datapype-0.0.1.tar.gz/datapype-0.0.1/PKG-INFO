@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: datapype
+Version: 0.0.1
+Summary: Proof of concept pipeline framework
+Home-page: https://github.com/a-johnston/datapype
+Author: Adam Johnston
+Author-email: amj69@case.edu
+License: ['MIT']
+Description: # [WIP!] datapype
+        Proof of concept pipeline framework. I also just wanted to put something onto pypi at some point.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+datapype/__init__.py
+datapype/conf.py
+datapype.egg-info/PKG-INFO
+datapype.egg-info/SOURCES.txt
+datapype.egg-info/dependency_links.txt
+datapype.egg-info/requires.txt
+datapype.egg-info/top_level.txt
