@@ -1,0 +1,8 @@
+apiendpoints/__init__.py,sha256=rudh6TlOR4kXTNZSgBiCpCU01sD63f3FOSGuGUbSvbU,127
+apiendpoints/client.py,sha256=RTXR5H6XlIPnLTRspowUolf2C_2YYRrr6oNdrHPAVSM,4983
+apiendpoints/tests.py,sha256=xhTTZpiXUOQJ56rLMoqJDmSdW_WV69J7Dv0zKm4JXKg,7988
+apiendpoints-0.9.0.dist-info/LICENSE,sha256=FEOF5vpWv44WmzJ7ncnO7908OnALKh8ApVzeABTgqAI,1096
+apiendpoints-0.9.0.dist-info/METADATA,sha256=90Ya0y-sSGbFO_V0dfGpDJK_XYxRF-Qh2jr1uE8VZDY,846
+apiendpoints-0.9.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+apiendpoints-0.9.0.dist-info/top_level.txt,sha256=XRkXJy4QTqKJ0vkAyWkqWqHeD-aj-BGFuoACZtvSMek,13
+apiendpoints-0.9.0.dist-info/RECORD,,
