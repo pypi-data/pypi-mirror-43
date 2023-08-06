@@ -1,0 +1,8 @@
+README.md
+setup.py
+storystructure/__init__.py
+storystructure/storystructure.py
+storystructure.egg-info/PKG-INFO
+storystructure.egg-info/SOURCES.txt
+storystructure.egg-info/dependency_links.txt
+storystructure.egg-info/top_level.txt
