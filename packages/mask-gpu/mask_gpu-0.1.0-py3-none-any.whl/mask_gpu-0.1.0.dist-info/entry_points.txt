@@ -1,0 +1,3 @@
+[console_scripts]
+mask-gpu = mask_gpu.command_line:main
+
