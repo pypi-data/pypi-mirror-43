@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: cdlib
+Version: 0.1.5
+Summary: Community Discovery Library
+Home-page: https://github.com/GiulioRossetti/cdlib
+Author: Giulio Rossetti
+Author-email: giulio.rossetti@gmail.com
+License: BSD-Clause-2
+Description: UNKNOWN
+Keywords: community-discovery node-clustering edge-clustering complex-networks
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
