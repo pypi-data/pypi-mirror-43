@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: fortnite_easy_api
+Version: 0.7
+Summary: A simple python library for developers and beginners to easily use difficult apis
+Home-page: https://github.com/OsOmE1/fortnite-easy-api
+Author: OsOmE1
+Author-email: gamerosome@gmail.com
+License: MIT
+Download-URL: https://github.com/OsOmE1/fortnite_easy_api/archive/0.7.tar.gz
+Description: UNKNOWN
+Keywords: python,fortnite,api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
