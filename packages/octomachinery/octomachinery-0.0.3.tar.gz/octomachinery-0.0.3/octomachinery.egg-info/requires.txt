@@ -1,0 +1,13 @@
+aiohttp
+cryptography
+environ-config
+envparse
+gidgethub
+pyjwt
+setuptools_scm
+
+[docs]
+sphinx
+
+[testing]
+pytest
