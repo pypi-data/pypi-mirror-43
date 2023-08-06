@@ -1,0 +1,13 @@
+trytond/modules/account_invoice_confirmpost/README.rst,sha256=rCzsQ-TlhJkev0G8WaENLbdi2vPdhlV2QwZWCGoV-oM,267
+trytond/modules/account_invoice_confirmpost/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+trytond/modules/account_invoice_confirmpost/invoice.xml,sha256=uOY-spn7ElqBOVEhneRp6eP3cJwMukMypf_AX-vePUY,476
+trytond/modules/account_invoice_confirmpost/tryton.cfg,sha256=LfQRTtk8r4eh0dmmD3AMLGLHbn69CWCD0KWisaPUy9A,73
+trytond/modules/account_invoice_confirmpost/versiondep.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trytond/modules/account_invoice_confirmpost/locale/de.po,sha256=quWFYQwMH9s3M7BMCusb5Px9f2vWrLnwPDCrcncxEr0,205
+trytond/modules/account_invoice_confirmpost/locale/en.po,sha256=fafBoQt-JO383baEu8lrS0iFcvpUIpjazIz5GGsE_K4,196
+trytond/modules/account_invoice_confirmpost/view/invoice_form.xml,sha256=ZyCD2WZFzBVJCz4gezpI3oMbt0NSD84VHKR5x_uNZx4,525
+mds_account_invoice_confirmpost-5.0.0.dist-info/METADATA,sha256=k1yOtPHbLuh_xE66rYWGm-YDFN0tEGXro7GX64Yldgc,1426
+mds_account_invoice_confirmpost-5.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+mds_account_invoice_confirmpost-5.0.0.dist-info/entry_points.txt,sha256=5ME-iUJFt7quycNSdmYXfxcjYqxVk_BUtBAC8BZB5i8,106
+mds_account_invoice_confirmpost-5.0.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+mds_account_invoice_confirmpost-5.0.0.dist-info/RECORD,,
