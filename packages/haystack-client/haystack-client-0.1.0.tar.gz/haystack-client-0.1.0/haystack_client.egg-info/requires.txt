@@ -1,0 +1,5 @@
+opentracing==2.0.0
+requests<3.0,>=2.19
+requests-futures<1.0,==0.9.9
+protobuf<4.0,>=3.6.0
+grpcio<2.0],>=1.18.0
