@@ -1,0 +1,11 @@
+pyungo/__init__.py,sha256=e91MzLM6d3P1Tm4uAZa3UJ6HwjyeK5_5Evlf0Ov70hY,62
+pyungo/core.py,sha256=MX1DMUf0p18w8v77DaMqyevmmjF0xuOdd5m9IrC0nB4,13334
+pyungo/data.py,sha256=v8UC6XK1iWNwJ0b0w9kkU-c02r49IZjppc__FzasEHo,1393
+pyungo/errors.py,sha256=5c_w3jSYlOTwbMJISnPn7dV5FU3dfnIMZAFEBnpiazU,99
+pyungo/io.py,sha256=zgRipQbtSZt58MekVeP13fsMnWYy1tnA2vQ7dWOMuOg,4342
+pyungo-0.8.dist-info/DESCRIPTION.rst,sha256=UQjox1L4jCQBTEq3-xjx9wD3aIv7OBfd2lnygMKQHbI,1838
+pyungo-0.8.dist-info/METADATA,sha256=87SuIRuWmjWfodIEIZHpQCth4y5Dhrvuh-NCkGn0gfo,2455
+pyungo-0.8.dist-info/RECORD,,
+pyungo-0.8.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+pyungo-0.8.dist-info/metadata.json,sha256=iBDDV61Kz_v6WDGY0fKA4_1EfVa_KqZuY6VgTTBvxQQ,773
+pyungo-0.8.dist-info/top_level.txt,sha256=zUTdnalQS8rXeYkUMt4OHSGztKAQMcqaOh0QittR70k,7
