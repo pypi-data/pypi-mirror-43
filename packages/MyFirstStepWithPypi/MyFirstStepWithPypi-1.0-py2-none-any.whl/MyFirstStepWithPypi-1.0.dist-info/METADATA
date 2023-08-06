@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: MyFirstStepWithPypi
+Version: 1.0
+Summary: Some description
+Home-page: http://hammr.io
+Author: Joris Bremond
+Author-email: joris.bremond@usharesoft.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+
+command-line tool for building/publishing/migrating consistent machine images for virtual datacenters and cloud platforms
+
+
