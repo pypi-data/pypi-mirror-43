@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aws-v4signer
+Version: 0.1
+Summary: A python class to get the headers needed for v4 signing an AWS request
+Home-page: https://github.com/gridsmartercities/aws-v4signer
+Author: Grid Smarter Cities
+Author-email: open-source@gridsmartercities.com
+License: MIT
+Description: # aws-python-v4signer
+        A python package to v4 sign requests
+        
+Keywords: aws python v4 signature
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
