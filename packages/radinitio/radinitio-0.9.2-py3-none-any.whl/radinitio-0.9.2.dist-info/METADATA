@@ -1,0 +1,353 @@
+Metadata-Version: 2.1
+Name: radinitio
+Version: 0.9.2
+Summary: A package for the simulation of RADseq data.
+Home-page: https://github.com/pypa/sampleproject
+Author: Angel G. Rivera-Colon <angelgr2@illinois.edu>, Nicolas Rochette <rochette@illinois.edu>, Julian Catchen <jcatchen@illinois.edu>
+Author-email: angelgr2@illinois.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: msprime
+
+# RADinitio
+
+**RADinitio** is  pipeline for the assessment of RADseq experiments via prospective and retrospective data simulation. Sequencing data is generated *de novo* for multiple individuals via a coalescent simulation under a user-defined demographic model using **msprime**. The genetic variants in each sample are simulated in a genomic context that can impact downstream generation of RAD loci and sequencing reads. The per-individual sequences then treated to an *in silico* RADseq library preparation. The components of the library are defined by the user, allowing for the exploration of parameters including restriction enzyme selection, insert size, sequencing coverage, and PCR duplicate distribution. **RADinitio** simulations can also be applied retrospectively by comparing and modelling sources of error in empirical datasets. The purpose of **RADinitio** is for researchers to fully explore possible variables in their data generation process to ensure that their protocol selection and library preparation is performed optimally, within the limitations of technical and experimental error.
+
+## Installation
+
+### Requirements
+
+1. UNIX-like environment (Apple OS X, Linux, etc.)
+2. Python 3.6 or greater
+3. **msprime** ([Kelleher, et al. 2016](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004842/ "Kelleher, et al. 2016"))
+
+
+### Installation guide
+
+**RADinitio** can be installed via the Python Package Index (PyPI) using the following command:
+
+```sh
+python3 -m pip install radinitio
+```
+
+A local install can also be made by running:
+
+```sh
+python3 -m pip install --user radinitio
+```
+
+Installing through PyPI will take care of all dependencies, including **msprime**, **scipy**, **numpy**.
+
+Alternatively, the software can be downloaded from the [Catchen Lab](http://catchenlab.life.illinois.edu/#software "Catchen Lab") website. *Note: This is just a placeholder section. Needs to be updated once the software is hosted on the lab website.*
+
+## Pipeline structure
+
+**RADinitio** is designed as a series of independent functions that simulate different aspects of the RADseq library preparation process. The pipeline can be broken down into three main steps:
+
+### Variant generation and processing
+
+Variants are generated with **msprime** from an user-defined demographic. Independent simulations are run for different chromosomes present in an user-provided reference genome. The simulated variants are then projected against the reference genome to obtain the reference alleles, which are then converted into alternative alleles using an user-defined model.
+
+### Extraction of RAD alleles
+
+The reference genome is *in silico* digested to obtain a series of refence RAD loci. The positions of the refernce loci in the genome then used to filter the simulated variants for all samples to include only variants present in RAD loci, improving downstream performance. For each sample, we extract the RAD alleles-the reference RAD loci are modified to include the corresponding genetic variants for each sample. This process can alter a cutsite's sequence, resulting in a dropped allele for that sample.
+
+### Simulate library enrichment and sequencing
+
+Once extracted, the alleles for each sample are randomly sampled to obtain paired-end sequences for each allele template. The alleles are sampled with replacement, proportional to the desired sequencing coverage of the library. Each iteration of the sampling is treated as an independent sequence template that is truncated to a random lenth sampled from a simulated insert size distribution. A PCR duplicate distribution, generaed from an user defined model, can be applied to the sampling process, resulting in the duplicate sampling of unique template sequences. This process can also introduce random error to the sequence, simulating the generation of PCR errors. Finally, paired end sequence are generated from the each of each template, each with its own unique sequencing error.
+
+The corresponding functions for each stage can be run independently. We do provide a wrapper script, `radinitio.py`, that calls the main `ri.simulate()` functions which runs the pipeline from start to finish.
+
+## Running the pipeline
+
+The simplest way to run **RADinitio** is via the `radinitio.py` wrapper. This script calls the main `ri.simulate()` function, which runs all the stages of the pipeline.
+
+### Command line options
+
+The program options are the following:
+
+```sh
+radinitio.py --genome path --chrom-list path --output dir --num-pop int --num-sam int --enz str --pcr-c int --threads int
+```
+
+#### Input/Output files
+
+`-g`, `--genome` : Path to reference genome (fasta file)
+
+`-l`, `--chrom-list` : File containing a subsample of chromosomes to simulate. Contains one chromosome id per line
+
+`-o`, `--output` : Path to an output directory where all files will be written
+
+#### Demographic model (simple island model)
+
+`-p`, `--num-pop`: (*int*) Number of populations in the island model (default = 2)
+
+`-s`, `--num-sam` : (*int*) Number of samples sampled from each population (default = 10)
+
+#### Library preparation/sequencing
+
+`-e`, `--enz` : Restriction enzyme (sbfI, pstI, ecoRI, bamHI, etc.) (default = 'sbfI')
+
+`-c`, `--pcr-c` : (*int*) Number of PCR cycles (default = 0)
+
+#### Other
+
+`-t`, `--threads` : (*int*) Number of threads
+
+### Example usage
+
+```sh
+radinitio.py --genome ./genome/reference.fa.gz --chrom-list \
+    ./genome/chrom.list --output ./simulations/ --num-pop 4 \
+    --num-sam 10 --enz sfbI --pcr-c 12 --threads 6
+```
+
+`reference.fa.gz` is a gzipped genome fasta file. **RADinitio** can simulate using both compressed and uncompressed fasta files.
+
+`chrom.list` is contains a list with all the chromosome ids to simulate. Only the chromosomes on the list will be used as input for the simulations. This is important when working with highly fragmented assemblies or those with many small unplaced scaffolds. The structure of `chrom.list` is the following:
+
+```sh
+chrom_1
+chrom_2
+chrom_3
+...
+```
+
+The `--output` is the output directory for the simulations. Inside it series of subdirectories and files will be generated (described bellow).
+
+`--num-pop` and `--num-sam` contains the parameters of a simple **msprime** island demographic model. In this example, we are simulating 4 populations from which we sample 10 individuals each. More complex demographic parameters can be generated using additional **RADinitio** functions.
+
+`--enz` is the main restriction enzyme used for generating a single-digest RADseq library, as described by the protocols by [Baird, et al. 2008](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003376 "Baird, et al. 2008") and [Etter, et al. 2011](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018561 "Etter, et al. 2011"). In this example, the restriction enzyme *SbfI* is used, but other enzymes such as *EcoRI*, *PstI*, *BamHI*, among others, are available. The simulated library will have an average insert size of 350bp (+-35bp), 2x150bp paired end reads, and 20X sequencing coverage. Additional library parameters can be generated using additional **RADinitio** functions.
+
+`pcr-c` defines a RAD library enriched using 12 cycles of PCR. The library has a 1:1 template molecules to sequenced reads ratio. More complex PCR parameters can be generated using additional **RADinitio** functions.
+
+## Outputs
+
+Running the `radinitio.py` wrapper script on the `simulations` directory will generate a series of subdirectories and files containing the outputs of the pipeline. The structire of the output directory is the following:
+
+```sh
+simulations:
+    popmap.tsv
+
+simulations/msprime_vcfs:
+    chrom_1.vcf.gz
+    chrom_2.vcf.gz
+    chrom_3.vcf.gz
+    chrom_4.vcf.gz
+    chrom_5.vcf.gz
+
+simulations/ref_loci_vars:
+    reference_rad_loci_SbfI.fa.gz
+    reference_rad_loci_SbfI.stats.gz
+    ri_master.vcf.gz
+
+simulations/rad_alleles:
+    msp_0.SbfI_alleles.fa.gz
+    msp_1.SbfI_alleles.fa.gz
+    msp_2.SbfI_alleles.fa.gz
+    msp_3.SbfI_alleles.fa.gz
+    msp_4.SbfI_alleles.fa.gz
+
+simulations/rad_reads:
+    msp_0.1.fa.gz   msp_0.2.fa.gz
+    msp_1.1.fa.gz   msp_1.2.fa.gz
+    msp_2.1.fa.gz   msp_2.2.fa.gz
+    msp_3.1.fa.gz   msp_3.2.fa.gz
+    msp_4.1.fa.gz   msp_4.2.fa.gz
+```
+### Top level directory
+
+A `popmap.tsv` file is generated in the top level output directory. It will contain the ids for all samples and their population of origin in the **msprime** demographic model. Samples are named with the `msp_` suffix (for **msprime** sample) and a id number.
+
+```sh
+msp_0   pop0
+msp_1   pop0
+msp_2   pop1
+msp_3   pop1
+msp_4   pop2
+```
+
+### `msprime_vcfs/`
+
+The `msprime_vcfs/` directory contains output VCFs product of the **msprime** simulations. Chromosomes are simulated independently, thus one VCF is generated per chromosome using `msprime.write_vcf()`. These reference and alternative alleles present in these files are placeholders, and are processed when the variants are merged.
+
+### `ref_loci_vars/`
+
+The `ref_loci_vars/` directory contains the processed genome-wide variants, stored in the `ri_master.vcf.gz` file. Variants in this file have been merged from all the simulated VCFs and have been projected against the defined reference genome to obtain the correct reference alleles, while the alternative alleles are mutated accordingly. The new alleles might contains indels simulated using the parameters specified in `ri.MutationModel()`. By default, indels have a 1% frequency.
+
+`reference_rad_loci_SbfI.fa.gz` contains all the reference RAD loci obtained from the reference genome. By default, the base reference loci are 1Kb long for single-digest RAD libraries. For each locus, the fasta headers contains the id of the locus and its positon in the reference.
+
+```sh
+>t0n ref_pos=groupI:10818-11817
+TGCAGGCACGCAAGCGGCTCTAGGGATTCCTTGAGAGGAAAAATGCAACGCTGGTTTAACGGTGTAACTATTCATATTAAATATAATTGAATCTAGTTTGT...
+>t0p ref_pos=groupI:11814-12813
+TGCAGGGGCCCCCGCACCACACGTTGGGAACCCCTGATTGACCAGAAACATATTAAAGTTGTGACATCATCAGAGATTCATGAAAACGCTCCTGTCACAAT...
+>t1n ref_pos=groupIII:23979-24978
+TGCAGGGACGGCAGATTGCAGCCGATCACCCTCTCTGCAGAGACGCTGCAGCCTGCCCTTGTCCTTGGCTGTGGCTGCAGCGTACCAGACGCTGATGGAGG...
+>t1p ref_pos=groupIII:24975-25974
+TGCAGGACTTCGCTTCCAGGTCTCTGAAGCAGATCGTAGCCGACCCCTCTCACCCCGGACAATATTTTAAATGTTTAACTCTAACTTTATTCTCTTGTTTT...
+>t2n ref_pos=groupIV:2947-3946
+TGCAGGAAGAGACTAACCCATCGCCAGTACCACCCCCTGTACATCTGACATCACTCTTACATCGTCATATGCCTTAGGTACTTTTGGACGTTATGTTTCTA...
+```
+
+`reference_rad_loci_SbfI.stats.gz` contains information on the position and status of every cutsite found on the genome with the defined restricton enzyme. Only the cutsites marked as `kept` are kept for further processing in the pipeline. The contents of this file can be used to generate a tally of the number of cutsites in the genome, and the distribution of inter-cutsite distances.
+
+```sh
+#chrom_id  cut_pos_start  cut_pos_end  cutsite_status
+chrom_1    11811          11818        kept
+chrom_2    329            336          rm_chrom_end
+chrom_3    24972          24979        kept
+chrom_4    3940           3947         kept
+chrom_4    15514          15521        kept
+chrom_4    28776          28783        kept
+chrom_5    5137           5144         kept
+chrom_5    22829          22836        rm_too_close
+chrom_5    22954          22961        rm_too_close
+```
+
+### `rad_alleles/`
+
+`rad_alleles/` contains per-individual gzipped fasta files contining the RAD alleles for each simulated sample. For each allele, the fasta headers contains the following information:
+
+```sh
+>refernce_locus_id:sample_id:allele_i cig=CIGAR
+```
+Here, `refernce_locus_id` referes to the original reference locus the allele was generated. `sample_id` is the **msprime** sample id, `allele_i` refers to the allele number (`a1` or `a2` in diploid individuals), and the `CIGAR` referes to the alignment of the allele to the reference locus.
+
+```sh
+>t0n:msp_0:a1 cig=1000M
+TGCAGGCACGCAAGCGGCTCTAGGGATTCCTTGAGAGGAAAAATGCAACGCTGGTTTAACGGTGTAACTATTCATATTAAATATAATTGAATCTAGTTTGTG...
+>t0n:msp_0:a2 cig=1000M
+TGCAGGCACGCAAGCGGCTCTAGGGATTCCTTGAGAGGAAAAATGCAACGCTGGTTTAACGGTGTAACTATTCATATTAAATATAATTGAATCTAGTTTGTG...
+>t0p:msp_0:a1 cig=1000M
+TGCAGGGGCCCCCGCACCACACGTTGGGAACCCCTGATTGACCAGAAACATATTAAAGTTGTGACATCATCAGAGATTCATGAAAACGCTCCTGTCACAATG...
+>t0p:msp_0:a2 cig=1000M
+TGCAGGGGCCCCCGCACCACACGTTGGGAACCCCTGATTGACCACAAACATATTAAAGTTGTGACATCATCAGAGATTCATGAAAACGCTCCTGTCACAATG...
+```
+
+### `rad_reads/`
+
+`rad_reads/` contains per-individual gzipped paired-end fasta files contining the RAD reads for each simulated sample. For each individual read, the fasta headers contains the following information:
+
+```sh
+>reference_locus_id:sample_id:allele_i:cig1=CIGAR1:cig2=CIGAR2:clone_id:duplicate_i/read_pair
+```
+
+The basename of the read, which contains `>reference_locus_id:sample_id:allele_i`, comes from the source locus of the reads. `cig1` refers to the alignment of the forward read to the original locus, while `cig2` refers to the alignment of the reverse (paired) read and can be used to determine the template's insert length. `clone_id` referes to the source template id, while `duplicate_i` is the duplicate number for each read in the clone. `read_pair` is the standard designation for paired-end reads, `/1` for forward read and `/2` for the corresponding paired read.
+
+Notice bellow that for reads 3 and 4, they both have a `clone_id` of 3. Read 3 has a `clone_i` of 1, meaning is the first read in the clone. Read 4 has a `clone_i` of 2, meaning it is the second read in the clone and thus a duplicate product of PCR.
+
+```sh
+>t5n:msp_0:a2:cig1=150M850H:cig2=659H150M191H:1:1/1
+TGCAGGCTTAGGCTACACCCAACGAGCCACTGGGTGCAGTTGGACCCGAGGGATCTGTATGGGAGGCGAGAGTGGTAAACACTACTACACCGTACCTCGTCA...
+>t4n:msp_0:a1:cig1=150M850H:cig2=610H150M240H:2:1/1
+TGCAGGTCTCCTGCTACCACCATTCCACCTGTGCAGCTCATCCAGAATGCAGCAGCTCCACTGGTCTTTAACCTTCCTAAGTTCTCCCACACTACTCCACTC...
+>t2n:msp_0:a2:cig1=150M850H:cig2=682H150M168H:3:1/1
+TGCAGGAAGAGACGAACCCATCGCCAGTACCACCCCCTGTACATCTGACATCACTCTTACATCGTCATATGCCTTAGGTACTTTTGGACGTTATGTTTCTAG...
+>t2n:msp_0:a2:cig1=150M850H:cig2=682H150M168H:3:2/1
+TGCAGGAAGAGACGAACCCATCGCCAGTACCACCCCCTGTACATCTGACATCACTCTTACATCGTCATATGCCTTAGGTACTTTTGGACGTTATGTTTCTAG...
+>t5p:msp_0:a1:cig1=150M850H:cig2=672H150M178H:4:1/1
+TGCAGGGCTTCCACTCCATACTTGTAAAATTAGGGGAAAACACTTTTTTTAACCTCCCAGTCCGGAAAAGAATCCCAACATTTTTGCCAAAAAGTCATGAAT...
+```
+
+The contents of `rad_reads/` contain the main output of **RADinitio**. These reads behave as empirical paired-end reads and are fully compatible with the majority of bioinformatic software.
+
+## Tutorial
+
+### Simple simulation
+
+Once **RADinitio** has been installed, a simple simulation can be run using the `radinitio.py` wrapper script. For this, we first need a reference genome to simulate over. If you don't have any genomes available, you can download one from a public database. For this example, we are downloading the three-spine stickleback (*Gasterosteus aculeatus*) from the [ENSEMBL database](https://useast.ensembl.org/Gasterosteus_aculeatus/Info/Index "ENSEMBL database"). Let's create a new `simulations` directory and download the genome. Run the following commands:
+
+```sh
+# Make new simulations directory
+mkdir simulations
+cd simulations
+# Download reference genome from ENSEMBL
+wget ftp://ftp.ensembl.org/pub/release-95/fasta/gasterosteus_aculeatus/dna/Gasterosteus_aculeatus.BROADS1.dna.toplevel.fa.gz
+```
+
+Let's now generate a `chrom.list` file. In this case, we want to run the simulations only on the main stickleback chromosomes (names as `groups`). For time, we are simulating only the first 3 chromosomes in this example. Run the following command to create the list and display it. 
+
+```sh
+# Create chrom.list
+zcat Gasterosteus_aculeatus.BROADS1.dna.toplevel.fa.gz | grep '^>group' | cut -f1 -d ' ' | tr -d '>' | head -n 3 > chrom.list
+cat chrom.list
+```
+
+Now that we have the reference genome and the list of chromosomes we can run `radinitio.py`. We will use the stickleback reference genome and our list of selected chromosomes. We will simulate 2 populations, samping 10 individuals each. The library will be prepared using the *SbfI* restriction enzyme and no PCR enrichment. ***Note:*** *Running this command will take around 15 minutes.*
+
+```sh
+radinitio.py --genome Gasterosteus_aculeatus.BROADS1.dna.toplevel.fa.gz --chrom-list chrom.list \
+    --output ./ -enz sbfI --num-pop 2 --num-sam 10
+```
+
+Once completed, you can check the output directories by running:
+
+```sh
+ls *
+```
+
+Output should look like this:
+
+```sh
+Gasterosteus_aculeatus.BROADS1.dna.toplevel.fa.gz 
+popmap.tsv  chrom.list
+
+msprime_vcfs:
+groupI.vcf.gz  groupII.vcf.gz  groupIII.vcf.gz
+
+rad_alleles:
+msp_00.SbfI_alleles.fa.gz  msp_10.SbfI_alleles.fa.gz
+msp_01.SbfI_alleles.fa.gz  msp_11.SbfI_alleles.fa.gz
+msp_02.SbfI_alleles.fa.gz  msp_12.SbfI_alleles.fa.gz
+msp_03.SbfI_alleles.fa.gz  msp_13.SbfI_alleles.fa.gz
+msp_04.SbfI_alleles.fa.gz  msp_14.SbfI_alleles.fa.gz
+msp_05.SbfI_alleles.fa.gz  msp_15.SbfI_alleles.fa.gz
+msp_06.SbfI_alleles.fa.gz  msp_16.SbfI_alleles.fa.gz
+msp_07.SbfI_alleles.fa.gz  msp_17.SbfI_alleles.fa.gz
+msp_08.SbfI_alleles.fa.gz  msp_18.SbfI_alleles.fa.gz
+msp_09.SbfI_alleles.fa.gz  msp_19.SbfI_alleles.fa.gz
+
+rad_reads:
+msp_00.1.fa.gz  msp_04.1.fa.gz  msp_08.1.fa.gz  msp_12.1.fa.gz  msp_16.1.fa.gz
+msp_00.2.fa.gz  msp_04.2.fa.gz  msp_08.2.fa.gz  msp_12.2.fa.gz  msp_16.2.fa.gz
+msp_01.1.fa.gz  msp_05.1.fa.gz  msp_09.1.fa.gz  msp_13.1.fa.gz  msp_17.1.fa.gz
+msp_01.2.fa.gz  msp_05.2.fa.gz  msp_09.2.fa.gz  msp_13.2.fa.gz  msp_17.2.fa.gz
+msp_02.1.fa.gz  msp_06.1.fa.gz  msp_10.1.fa.gz  msp_14.1.fa.gz  msp_18.1.fa.gz
+msp_02.2.fa.gz  msp_06.2.fa.gz  msp_10.2.fa.gz  msp_14.2.fa.gz  msp_18.2.fa.gz
+msp_03.1.fa.gz  msp_07.1.fa.gz  msp_11.1.fa.gz  msp_15.1.fa.gz  msp_19.1.fa.gz
+msp_03.2.fa.gz  msp_07.2.fa.gz  msp_11.2.fa.gz  msp_15.2.fa.gz  msp_19.2.fa.gz
+
+ref_loci_vars:
+reference_rad_loci_SbfI.fa.gz     ri_master.vcf.gz
+reference_rad_loci_SbfI.stats.gz
+```
+
+The simulated reads are stored in `rad_reads/` and can then be used for other bioinformatic applications applications.
+
+### Python API Example
+
+*More complex tutorial working on `ri.simulate()` from the Python API*
+
+```py
+import radinitio as ri
+import msprime
+...
+```
+
+## Authors
+
+Angel G. Rivera-Colon <angelgr2@illinois.edu>
+
+Nicolas Rochette <rochette@illinois.edu>
+
+Julian Catchen <jcatchen@illinois.edu>
+
+
+
