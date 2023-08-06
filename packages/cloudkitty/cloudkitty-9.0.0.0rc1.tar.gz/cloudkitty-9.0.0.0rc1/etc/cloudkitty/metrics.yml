@@ -1,0 +1,85 @@
+metrics:
+  cpu:
+    unit: instance
+    alt_name: instance
+    groupby:
+      - id
+      - project_id
+    metadata:
+      - flavor
+      - flavor_id
+      - vcpus
+    mutate: NUMBOOL
+    extra_args:
+      aggregation_method: mean
+      resource_type: instance
+
+  image.size:
+    unit: MiB
+    factor: 1/1048576
+    groupby:
+      - id
+      - project_id
+    metadata:
+      - container_format
+      - disk_format
+    extra_args:
+      aggregation_method: mean
+      resource_type: image
+
+  volume.size:
+    unit: GiB
+    groupby:
+      - id
+      - project_id
+    metadata:
+      - volume_type
+    extra_args:
+      aggregation_method: mean
+      resource_type: volume
+
+  network.outgoing.bytes:
+    unit: MB
+    groupby:
+      - id
+      - project_id
+    factor: 1/1000000
+    metadata:
+      - instance_id
+    extra_args:
+      aggregation_method: mean
+      resource_type: instance_network_interface
+
+  network.incoming.bytes:
+    unit: MB
+    groupby:
+      - id
+      - project_id
+    factor: 1/1000000
+    metadata:
+      - instance_id
+    extra_args:
+      aggregation_method: mean
+      resource_type: instance_network_interface
+
+  ip.floating:
+    unit: ip
+    groupby:
+      - id
+      - project_id
+    metadata:
+      - state
+    mutate: NUMBOOL
+    extra_args:
+      aggregation_method: mean
+      resource_type: network
+
+  radosgw.objects.size:
+    unit: GiB
+    groupby:
+      - id
+      - project_id
+    factor: 1/1073741824
+    extra_args:
+      aggregation_method: mean
+      resource_type: ceph_account
