@@ -1,0 +1,9 @@
+README.md
+setup.py
+aws_v4signer/__init__.py
+aws_v4signer/aws_v4signer.py
+aws_v4signer.egg-info/PKG-INFO
+aws_v4signer.egg-info/SOURCES.txt
+aws_v4signer.egg-info/dependency_links.txt
+aws_v4signer.egg-info/not-zip-safe
+aws_v4signer.egg-info/top_level.txt

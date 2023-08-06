@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aws-v4signer
+Version: 0.3
+Summary: A python class to get the headers needed for v4 signing an AWS request
+Home-page: https://github.com/gridsmartercities/aws-v4signer
+Author: Grid Smarter Cities
+Author-email: open-source@gridsmartercities.com
+License: MIT
+Description: [<img align="right" alt="Grid Smarter Cities" src="https://s3.eu-west-2.amazonaws.com/open-source-resources/grid_smarter_cities_small.png">](https://www.gridsmartercities.com/)
+        
+        ![Build Status](https://codebuild.eu-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTlhUdENsZkFTZzhmejdiWk5Ya1hzd1JqUk1wdjBjU015aktYTnJnM0taSXJxYXFCNnQ4RmZ4Ym5CUUlnOVYwbUtoRnM2djhuQ0s5bUgrUDRPVE1zRmZ3PSIsIml2UGFyYW1ldGVyU3BlYyI6ImIyZ2Fpd3J5d01SS2kzU1giLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+        [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        ![Github Release](https://img.shields.io/github/release/gridsmartercities/aws-v4signer.svg?style=flat)
+        \
+        \
+        ![Python Versions](https://img.shields.io/pypi/pyversions/aws-v4signer.svg?style=flat)
+        ![PyPi Version](https://img.shields.io/pypi/v/aws-v4signer.svg?style=flat)
+        ![PyPi Status](https://img.shields.io/pypi/status/aws-v4signer.svg?style=flat)
+        ![Pypi Downloads](https://img.shields.io/pypi/dm/aws-v4signer.svg?style=flat&logo=pypi)
+        
+        # aws-python-v4signer
+        
+        A python package to obtain AWS v4 signature headers.
+        
+         
+        
+        
+        
+        
+Keywords: aws python v4 signature
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
