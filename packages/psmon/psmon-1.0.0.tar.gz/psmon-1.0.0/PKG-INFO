@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: psmon
+Version: 1.0.0
+Summary: Process monitoring
+Home-page: https://github.com/rkkautsar/psmon
+Author: Rakha Kanz Kautsar
+Author-email: rkkautsar@gmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: loguru (>=0.2.5,<0.3.0)
+Requires-Dist: psutil (>=5.5,<6.0)
+Project-URL: Repository, https://github.com/rkkautsar/psmon
