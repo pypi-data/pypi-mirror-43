@@ -1,0 +1,6 @@
+tendril-utils-core>=0.1.4
+psycopg2
+SQLAlchemy
+sqlalchemy_utils
+alembic
+arrow
