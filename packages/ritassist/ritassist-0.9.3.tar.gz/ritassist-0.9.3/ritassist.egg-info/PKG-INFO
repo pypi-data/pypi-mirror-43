@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ritassist
+Version: 0.9.3
+Summary: RitAssist API Access
+Home-page: http://github.com/depl0y/ritassist-py
+Author: Wim Haanstra
+Author-email: wim@wim.me
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
