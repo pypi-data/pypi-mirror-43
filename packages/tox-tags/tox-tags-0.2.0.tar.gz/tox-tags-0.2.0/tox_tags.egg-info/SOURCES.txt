@@ -1,0 +1,16 @@
+AUTHORS
+ChangeLog
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+tox.ini
+tox_tags.py
+tox_tags.egg-info/PKG-INFO
+tox_tags.egg-info/SOURCES.txt
+tox_tags.egg-info/dependency_links.txt
+tox_tags.egg-info/not-zip-safe
+tox_tags.egg-info/pbr.json
+tox_tags.egg-info/requires.txt
+tox_tags.egg-info/top_level.txt
