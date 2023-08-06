@@ -1,0 +1,14 @@
+face/__init__.py,sha256=8bP7h-9SVOq3C9d4w5G4UlYXmdQ5hd50_ENWjOazT6U,522
+face/command.py,sha256=KjvZAxQ6b1_mHK1YrXTGdxkK_FSwH6fFnyeLawi5sAU,19258
+face/helpers.py,sha256=4xv6obk--dIPbQBPmszFLyBmmEjNOVj9crwK10ugHP0,18866
+face/middleware.py,sha256=CH_mFH0W9jJ5RzwQU9UU09WTp2WuMNGTmPXzVUGqmE4,11962
+face/parser.py,sha256=G0UfoVoVLlYCfwsmrQrXXYCaIm9VAlylmAXHZO-pKas,51911
+face/sinter.py,sha256=C7Bg2tYubJjlyrlHk1YKGYuejobsIBim9Laz2l8ccRg,5602
+face/utils.py,sha256=de_HPzU-niOlXXZ65zTUoeoKR_4woDxsiTCsrAsxoqE,1723
+face/test/test_parse.py,sha256=T61_16fUycE4UavUaY9nmkRDZ3CXJlsD5A4k0OsZZd4,1444
+face-19.0.0.dist-info/DESCRIPTION.rst,sha256=p6gFELGkpi9gvx7n31M-lmsFRHSzsMW4zfZiHV7jF_8,99
+face-19.0.0.dist-info/METADATA,sha256=8WcJKIyLNMG7hVcG0ltrz0OV3ZMilOgXexQsMtBGPE4,861
+face-19.0.0.dist-info/RECORD,,
+face-19.0.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+face-19.0.0.dist-info/metadata.json,sha256=19tShOs_5kTGaEbxMq5nrPo5qCq4xqiLWYITOiI6C44,957
+face-19.0.0.dist-info/top_level.txt,sha256=mNV8JaK-0oPAkLwlCAePr_BBJiiAvsm2t0TmNy1KXwk,5
