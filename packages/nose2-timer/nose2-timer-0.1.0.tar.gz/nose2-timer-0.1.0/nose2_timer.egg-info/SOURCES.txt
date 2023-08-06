@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+nose2_timer/__init__.py
+nose2_timer/plugin.py
+nose2_timer.egg-info/PKG-INFO
+nose2_timer.egg-info/SOURCES.txt
+nose2_timer.egg-info/dependency_links.txt
+nose2_timer.egg-info/entry_points.txt
+nose2_timer.egg-info/requires.txt
+nose2_timer.egg-info/top_level.txt

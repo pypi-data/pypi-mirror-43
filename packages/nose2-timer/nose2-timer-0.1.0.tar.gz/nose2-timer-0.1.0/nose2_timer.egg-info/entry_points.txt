@@ -1,0 +1,3 @@
+[nose.plugins.0.10]
+nose2_timer = nose2_timer.plugin:TimerPlugin
+
