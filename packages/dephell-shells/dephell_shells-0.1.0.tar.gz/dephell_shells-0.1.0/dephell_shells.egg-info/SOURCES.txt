@@ -1,0 +1,12 @@
+README.rst
+setup.py
+dephell_shells/__init__.py
+dephell_shells/_base.py
+dephell_shells/_manager.py
+dephell_shells/_shells.py
+dephell_shells/_utils.py
+dephell_shells.egg-info/PKG-INFO
+dephell_shells.egg-info/SOURCES.txt
+dephell_shells.egg-info/dependency_links.txt
+dephell_shells.egg-info/requires.txt
+dephell_shells.egg-info/top_level.txt
