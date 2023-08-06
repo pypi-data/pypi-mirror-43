@@ -1,0 +1,4 @@
+githubrelease>=1.5.7
+
+[:python_version < "3.8"]
+lxml
