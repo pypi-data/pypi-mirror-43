@@ -1,0 +1,4 @@
+[console_scripts]
+lotrpc-example = lotrpc.clsrv:cli
+lotrpc-rpcgen = lotrpc.rpcgen:cli
+
