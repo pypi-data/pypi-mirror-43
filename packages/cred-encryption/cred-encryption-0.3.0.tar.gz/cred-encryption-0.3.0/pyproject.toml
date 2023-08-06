@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cred-encryption"
+version = "0.3.0"
+description = ""
+authors = ["Chris Davies <christopher.davies@asg-worldwide.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+cleo = "^0.7.2"
+cryptography = "^2.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+encryption = "cred_encryption:run"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
