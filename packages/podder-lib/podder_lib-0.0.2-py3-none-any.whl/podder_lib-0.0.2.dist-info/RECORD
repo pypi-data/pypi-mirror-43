@@ -1,0 +1,9 @@
+podder_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+podder_lib/auto_correctors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+podder_lib/data_sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+podder_lib/validators/__init__.py,sha256=6T20Z-1xVpE42Oz-PvzstI-VM0hdwK0qrfPp5QckXng,77
+podder_lib/validators/data_validator.py,sha256=v8PrWKsV8Blt-JfBvZPabR3bPrImVKDOiQGZOXOz_J4,579
+podder_lib-0.0.2.dist-info/METADATA,sha256=CgyK_f-mVKVfcN0Vfi5mS_qMfRt1Nu3c9VCa5SawpH4,229
+podder_lib-0.0.2.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+podder_lib-0.0.2.dist-info/top_level.txt,sha256=Sd2i1QgOgl1dOBU1GviAaoQDt-JmPJiVIeAkUMbiJ3g,11
+podder_lib-0.0.2.dist-info/RECORD,,
