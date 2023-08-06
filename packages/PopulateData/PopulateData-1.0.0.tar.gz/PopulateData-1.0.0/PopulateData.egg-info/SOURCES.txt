@@ -1,0 +1,11 @@
+README.md
+setup.py
+Popdata/Analyze.py
+Popdata/Evaluator.py
+Popdata/Generator.py
+Popdata/__init__.py
+Popdata/main.py
+PopulateData.egg-info/PKG-INFO
+PopulateData.egg-info/SOURCES.txt
+PopulateData.egg-info/dependency_links.txt
+PopulateData.egg-info/top_level.txt

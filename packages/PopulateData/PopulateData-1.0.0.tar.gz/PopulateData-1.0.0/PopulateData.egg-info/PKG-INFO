@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: PopulateData
+Version: 1.0.0
+Summary: Populate / generate data based on certain conditions
+Home-page: https://github.com/JuneSunshine/Magic_Square
+Author: JuneSunshine
+Author-email: ljygeek@gmail.com
+License: MIT Licence
+Description-Content-Type: UNKNOWN
+Description: Populate / generate data based on certain conditions
+Keywords: populatedata python3 package
+Platform: all
