@@ -1,0 +1,15 @@
+param
+
+[all]
+flake8
+nose
+param>=1.7.0
+setuptools
+
+[build]
+param>=1.7.0
+setuptools
+
+[tests]
+flake8
+nose
