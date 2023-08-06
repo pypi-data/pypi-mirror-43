@@ -1,0 +1,6 @@
+README.md
+setup.py
+nanoballs.egg-info/PKG-INFO
+nanoballs.egg-info/SOURCES.txt
+nanoballs.egg-info/dependency_links.txt
+nanoballs.egg-info/top_level.txt
