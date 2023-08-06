@@ -1,0 +1,9 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_grammar.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trishula/__init__.py,sha256=k8kA-zVrjs2lioa0nLxxzDPJt3crWiP8w_BnJqXbpw8,394
+trishula/decorator.py,sha256=tKLZD8l2SYamRpscKKDhUSskbSffptv339UXRyjmHOQ,1007
+trishula/grammar.py,sha256=e3VqDCe2cZn4LyOE5J8dvsBKQHO66GsUhnIGmTZgB40,7604
+trishula-0.0.9.dist-info/METADATA,sha256=uBFpqJLwQR_bX9yXOQYbG11RAfIvEYfUdc4BWDlRgqU,3900
+trishula-0.0.9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+trishula-0.0.9.dist-info/top_level.txt,sha256=wu1d8fJ8iH3eSYikSARyhiM-nqz_qT5HyjX_BsuSlvQ,14
+trishula-0.0.9.dist-info/RECORD,,
