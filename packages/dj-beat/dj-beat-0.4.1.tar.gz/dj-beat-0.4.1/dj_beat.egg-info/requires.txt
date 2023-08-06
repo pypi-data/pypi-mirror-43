@@ -1,0 +1,6 @@
+Cython
+numpy
+tqdm
+madmom
+librosa
+pyfiglet
