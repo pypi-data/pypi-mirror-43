@@ -1,0 +1,358 @@
+Metadata-Version: 2.1
+Name: python-ucp-cli
+Version: 0.1.9
+Summary: UNKNOWN
+Home-page: https://github.com/martencassel/python-ucp-cli
+Author: Mårten Cassel
+Author-email: marten.cassel@conoa.se
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: requests
+
+## A CLI for Docker UCP
+
+![Screenshot](help2.png)
+
+![Example](example_login.png)
+
+## Installation
+
+Run the following to install:
+
+```
+$ pip install python-ucp-cli
+```
+
+
+## References:
+Reference: https://docs.docker.com/ee/ucp/user-access/cli/
+
+
+### Get Started
+
+For usage and help content, pass in the `--help` parameter, for example:
+
+```bash
+
+$ ucp-cli --help
+
+Usage: ucp-cli [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help Show this mesage and exit
+
+Commands:
+  env
+  login
+  org
+  team
+  user
+```
+
+## Short login one-liner
+```bash
+$ ucp-cli login --username user1 --password --url ucp-manager.local && eval $(ucp-cli env)
+```
+## Detailed login example
+
+```bash
+$ pip install python-ucp-cli
+...
+$ ucp-cli login --username user1 --password password --url ucp-manager.local
+Login Succeeded
+
+$ ls -R  ~/.ucp
+/home/user/.ucp:
+bundle  bundle.zip  config.json
+
+/home/user/.ucp/bundle:
+ca.pem  cert.pem  cert.pub  env.cmd  env.ps1  env.sh  key.pem  kube.yml
+
+$ eval $(ucp-cli env)
+~
+Cluster "ucp_ucp-manager.local:6443_user1" set.
+User "ucp_ucp-manager.local:6443_user1" set.
+Context "ucp_ucp-manager.local:6443_user1" created.
+~
+$ docker node ls
+ID                          HOSTNAME          STATUS          AVAILABILITY          MANAGER STATUS    ENGINE VERSION 
+1nsupdtjmsfsndvm7rsg52cho   ucp-manager.local Ready           Active                                  18.09.0
+
+$ kubectl get node
+NAME                  STATUS        ROLES       AGE         VERSION
+ucp-manager.local     Ready         master      103d        v1.11.5-docker-4
+```
+
+
+## Manage users, teams and organizations
+```bash
+$ ucp-cli user --help
+
+Usage: ucp-cli user [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create
+  delete
+  list
+  show
+```
+
+```bash
+$ ucp-cli user list
+{
+  "name": "user1",
+  "id": "244a07da-1392-4d43-936a-5313ad0d2ff8",
+  "fullName": "",
+  "isOrg": false,
+  "isAdmin": false,
+  "isActive": true,
+  "isImported": false
+},
+{
+  "name": "user2",
+  "id": "a7d432be-4bb1-4c6b-b5ff-6bcfab04ebfb",
+  "fullName": "",
+  "isOrg": false,
+  "isAdmin": false,
+  "isActive": true,
+  "isImported": false
+},
+{
+  "name": "user3",
+  "id": "b50ebff2-0d54-4dae-b03b-65e0b007a631",
+  "fullName": "",
+  "isOrg": false,
+  "isAdmin": false,
+  "isActive": true,
+  "isImported": false
+}
+],
+"usersCount": 3,
+"orgsCount": 3,
+"nextPageStart": "",
+"resourceCount": 10
+}
+```
+
+### Create a user
+```bash
+$ ucp-cli user create --name user4 --password P@ssw0rd
+```
+
+### Show user details
+```bash
+$ ucp-cli user show --name user3
+{
+  "name": "user3",
+  "id": "b50ebff2-0d54-4dae-b03b-65e0b007a631",
+  "fullName": "",
+  "isOrg": false,
+  "isAdmin": false,
+  "isActive": true,
+  "isImported": false
+ }
+```
+
+### Delete a user
+```bash
+$ ucp-cli user delete --name user3
+```
+
+## Manage organizations
+```bash
+ucp-cli org                     
+Usage: ucp-cli org [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create
+  delete
+  list
+  member
+  show
+```
+
+### List organizations
+```bash
+$ ucp-cli org list
+{
+  "accounts": [
+   {
+    "name": "conoa",
+    "id": "a9a34cb4-8b5e-45c4-af3e-6c68c33662d6",
+    "fullName": "",
+    "isOrg": true,
+    "membersCount": 1,
+    "teamsCount": 1
+   },
+   {
+    "name": "docker-datacenter",
+    "id": "5617e97d-cea6-456c-8adc-d540696529de",
+    "fullName": "Docker Datacenter",
+    "isOrg": true,
+    "membersCount": 5,
+    "teamsCount": 0
+   },
+   {
+    "name": "kenneth",
+    "id": "2ae7eee8-597b-489c-af9a-ae1722adb5c2",
+    "fullName": "",
+    "isOrg": true,
+    "membersCount": 1,
+    "teamsCount": 1
+   }
+  ],
+  "usersCount": 6,
+  "orgsCount": 3,
+  "nextPageStart": "",
+  "resourceCount": 9
+ }
+```
+
+
+### Create organization and view details
+
+```bash
+$ ucp-cli org create --name neworg1                                               
+$ ucp-cli org show --name neworg1  
+{
+  "name": "neworg1",
+  "id": "812d6278-d73a-47d4-8320-f395e87cbd79",
+  "fullName": "",
+  "isOrg": true,
+  "membersCount": 0,
+  "teamsCount": 0
+ }
+
+```
+
+### List organization members
+
+```bash
+$ ucp-cli org member list --org kenneth
+{
+  "members": [
+   {
+    "member": {
+     "name": "alex",
+     "id": "2a1f2531-7902-4d79-b11c-6dee6242ca18",
+     "fullName": "",
+     "isOrg": false,
+     "isAdmin": false,
+     "isActive": true,
+     "isImported": false
+    },
+    "isAdmin": false
+   }
+  ],
+  "nextPageStart": "",
+  "resourceCount": 1
+ }
+```
+
+## Manage teams
+
+```bash
+$ ucp-cli team                   
+Usage: ucp-cli team [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  create
+  delete
+  list
+  member
+  show
+```
+
+```bash
+$ ucp-cli team list --org kenneth
+{
+  "teams": [
+   {
+    "orgID": "2ae7eee8-597b-489c-af9a-ae1722adb5c2",
+    "name": "dev",
+    "id": "9cf63dce-6f7c-4144-88d1-bbca2af29737",
+    "description": "",
+    "membersCount": 1
+   }
+  ],
+  "nextPageStart": "",
+  "resourceCount": 1
+ }
+```
+
+### Create team and add member
+
+```bash
+$ ucp-cli team create --org kenneth --name devops 
+
+$ ucp-cli team list --org kenneth                
+{
+  "teams": [
+   {
+    "orgID": "2ae7eee8-597b-489c-af9a-ae1722adb5c2",
+    "name": "dev",
+    "id": "9cf63dce-6f7c-4144-88d1-bbca2af29737",
+    "description": "",
+    "membersCount": 1
+   },
+   {
+    "orgID": "2ae7eee8-597b-489c-af9a-ae1722adb5c2",
+    "name": "devops",
+    "id": "d00d68e3-3e30-4343-b1f1-3deee1182176",
+    "description": "",
+    "membersCount": 0
+   }
+  ],
+  "nextPageStart": "",
+  "resourceCount": 2
+ }
+
+$ ucp-cli team member list --org kenneth --team devops
+{
+  "members": [],
+  "nextPageStart": "",
+  "resourceCount": 0
+}
+
+$ ucp-cli team member list --org kenneth --team devops
+{
+  "members": [],
+  "nextPageStart": "",
+  "resourceCount": 0
+}
+
+$ ucp-cli team member  add --name user1 --team devops --org kenneth 
+{
+  "member": {
+   "name": "user1",
+   "id": "244a07da-1392-4d43-936a-5313ad0d2ff8",
+   "fullName": "",
+   "isOrg": false,
+   "isAdmin": false,
+   "isActive": true,
+   "isImported": false
+  },
+  "isAdmin": false
+ }
+```
+
+## Compatibility
+
+This project is currently tested with Docker EE UCP 3.1.4.
+https://docs.docker.com/ee/ucp/release-notes/
+
