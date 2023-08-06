@@ -1,0 +1,14 @@
+README.md
+setup.py
+psfcube/__init__.py
+psfcube/chromatic_model.py
+psfcube/collection.py
+psfcube/fitter.py
+psfcube/model.py
+psfcube/psfslice.py
+psfcube/script.py
+psfcube/tools.py
+psfcube.egg-info/PKG-INFO
+psfcube.egg-info/SOURCES.txt
+psfcube.egg-info/dependency_links.txt
+psfcube.egg-info/top_level.txt
