@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: screen19
+Version: 0.200
+Summary: Infrastructure components for automated data processing at Diamond Light Source
+Home-page: https://github.com/xia2/screen19
+Author: Diamond Light Source
+Author-email: scientificsoftware@diamond.ac.uk
+License: BSD license
+Description: ===
+        I19
+        ===
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+                :target: https://github.com/ambv/black
+                :alt: Code style: black
+        
+        Module containing code specific to beamline I19 at the Diamond Light Source
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
