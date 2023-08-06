@@ -1,0 +1,8 @@
+*.pyc
+red.xml
+*.project
+settings.json
+*.libspec
+report.html
+log.html
+output.xml
