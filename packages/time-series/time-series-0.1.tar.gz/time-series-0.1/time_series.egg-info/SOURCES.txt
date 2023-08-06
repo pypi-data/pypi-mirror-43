@@ -1,0 +1,8 @@
+README.md
+setup.py
+time_series.egg-info/PKG-INFO
+time_series.egg-info/SOURCES.txt
+time_series.egg-info/dependency_links.txt
+time_series.egg-info/top_level.txt
+timeseries/__init__.py
+timeseries/main.py
