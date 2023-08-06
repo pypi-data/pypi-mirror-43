@@ -1,0 +1,57 @@
+Metadata-Version: 1.2
+Name: mypy-structured-data
+Version: 0.1.0
+Summary: Mypy plugin for the Structured Data library
+Home-page: https://github.com/mwchase/python-mypy-structured-data
+Author: Max Woerner Chase
+Author-email: max.chase@gmail.com
+License: MIT license
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        A Mypy plugin for analyzing code written with the Structured Data library.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install mypy-structured-data
+        
+        Documentation
+        =============
+        
+        https://python-mypy-structured-data.readthedocs.io/
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        
+        Changelog
+        =========
+        
+        Unreleased
+        ----------
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7

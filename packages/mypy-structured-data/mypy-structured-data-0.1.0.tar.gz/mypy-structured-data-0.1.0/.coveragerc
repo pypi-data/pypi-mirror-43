@@ -1,0 +1,15 @@
+[paths]
+source =
+    src/mypy_structured_data
+
+[run]
+branch = true
+source =
+    src
+    tests
+dynamic_context = test_function
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
