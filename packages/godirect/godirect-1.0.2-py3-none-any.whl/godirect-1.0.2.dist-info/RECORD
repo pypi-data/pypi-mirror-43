@@ -1,0 +1,13 @@
+godirect/__init__.py,sha256=5NrOVwVzUlsqay_Cwfa2r2Gbr9xSG9-cRSTHg_nrdzI,2813
+godirect/backend.py,sha256=Cod9Il_oQezrgVvk8aDICWg32X-CbaIjPLe92QxWP_I,312
+godirect/backend_ble.py,sha256=_EnIUsyhh3F5Y7JOBoVnWLf168eSLPZWuuyErWoa_Js,2219
+godirect/backend_usb.py,sha256=ED0qf3C-8KUTa56sGYkBtGlZgfLFyVKq_gAGYet33oY,872
+godirect/device.py,sha256=k35h8kAoQM2Dk7JMxTnS8GAMWiNzkmVu4mDjVtYsUY0,25842
+godirect/device_ble.py,sha256=9PHNTECBKjOvyhoeLKpPLv6vEpIJ4EEBqHe4xWNZuwk,3903
+godirect/device_usb.py,sha256=Q6kywoPSsOcMRj3jQs3Q6j0L0e671YNbS7BGzM8vDb8,2660
+godirect/sensor.py,sha256=VT5njEo6FJFjP_aKZf7-VM4gjn8yiWcLqRfxqWa-lKg,4881
+godirect-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+godirect-1.0.2.dist-info/METADATA,sha256=58zsEYoJRLxvAqUpk5592KIhesXnLTuDQ7tuCSbc6IU,5523
+godirect-1.0.2.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+godirect-1.0.2.dist-info/top_level.txt,sha256=Gd3QH5nyrsJe4JSp8c8JehP0Lx9S_RhiRVtGHFZicLY,9
+godirect-1.0.2.dist-info/RECORD,,
