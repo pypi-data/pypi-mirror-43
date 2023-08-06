@@ -1,0 +1,5 @@
+scipy>=0.19
+numpy>=1.13.3
+bottleneck>=1.2.1
+psutil>=3.3.0
+gdal>=2.1.3

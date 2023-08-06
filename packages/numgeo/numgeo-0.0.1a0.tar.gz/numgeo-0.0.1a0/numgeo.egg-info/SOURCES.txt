@@ -1,0 +1,17 @@
+README.md
+setup.py
+./numgeo/scripts/skel/SkeletonScript.py
+numgeo/__init__.py
+numgeo/geom.py
+numgeo/opt.py
+numgeo/skel.py
+numgeo/util.py
+numgeo/vec_io.py
+numgeo.egg-info/PKG-INFO
+numgeo.egg-info/SOURCES.txt
+numgeo.egg-info/dependency_links.txt
+numgeo.egg-info/requires.txt
+numgeo.egg-info/top_level.txt
+numgeo/scripts/__init__.py
+numgeo/scripts/skel/SkeletonScript.py
+numgeo/scripts/skel/__init__.py
