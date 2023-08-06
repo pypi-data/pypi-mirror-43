@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+objectsinpython.egg-info/PKG-INFO
+objectsinpython.egg-info/SOURCES.txt
+objectsinpython.egg-info/dependency_links.txt
+objectsinpython.egg-info/top_level.txt
+oip/__init__.py
+oip/generate.py
+oip/main.py
+oip/serial.py
