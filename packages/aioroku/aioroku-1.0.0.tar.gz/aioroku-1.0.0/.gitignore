@@ -1,0 +1,9 @@
+*~
+*.pyc
+.DS_Store
+.env
+.cache/
+.tox/
+dist/
+build/
+*egg-info/

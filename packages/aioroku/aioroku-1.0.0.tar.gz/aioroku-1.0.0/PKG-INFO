@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: aioroku
+Version: 1.0.0
+Summary: Asynchronous library to the Roku media player. Easy, breezy, beautiful.
+Home-page: https://gitlab.com/pancho-villa/aioroku
+Author: Adam Garcia
+Author-email: garciadam@gmail.com
