@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: masci-tools
+Version: 0.3.0
+Summary: Tools for Materials science. Vis contains wrapers of matplotlib functionality to visualalize common material science data. Plus wrapers of visualisation for aiida-fleur workflow nodes
+Home-page: https://github.com/JuDFTteam/masci-tools
+Author: Jens Bröder
+Author-email: j.broeder@fz-juelich.de
+Keywords: material science,plots,visualization,aiida,dft
+Requires-Python: >=2.7,<3.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: bumpversion
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pytest-cov
+Requires-Dist: scipy
+Project-URL: Documentation, https://masci-tools.readthedocs.io
+Project-URL: Repository, https://github.com/JuDFTteam/masci-tools
