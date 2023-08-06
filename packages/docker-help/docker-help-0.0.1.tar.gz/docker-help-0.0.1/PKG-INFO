@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: docker-help
+Version: 0.0.1
+Summary: Pacote para manipular o docker 
+Home-page: https://github.com/pypa/sampleproject
+Author: Gabriel Sousa dos Santos
+Author-email: ggbr12.neg@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
