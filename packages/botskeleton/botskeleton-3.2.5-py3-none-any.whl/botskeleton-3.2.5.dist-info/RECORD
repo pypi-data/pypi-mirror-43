@@ -1,0 +1,16 @@
+botskeleton/__init__.py,sha256=dtFoRomM-bx2pwLRS9xAZYU00vRd1yrBjyqdnkHfwBc,160
+botskeleton/botskeleton.py,sha256=bDEfRxfjeBimbWGSWcfZGwzvVP_Y8K69bp99LEWe6Ys,19700
+botskeleton/error.py,sha256=EwT02aZ7EAxnwZbOp1VPT5XO_0tmMVWPt4SAsbiUbd0,289
+botskeleton/outputs/__init__.py,sha256=4faUaSld_ab7NDZ4M9thgnyX1eGc6qhXYrCu8-97yKc,81
+botskeleton/outputs/output_birdsite.py,sha256=AYVxR-mWUR0pDMNe9ItzTrt_P35-jWq2ZrkXrxCIZmE,14911
+botskeleton/outputs/output_mastodon.py,sha256=gR9ECUDl1JMjMIfxh4GOEAhZWkEwILeyxpGYKKal2hg,10041
+botskeleton/outputs/output_utils.py,sha256=iZxCznHuIYjDqVJRaVwqlkVRZbf_9KJmm7l2FiYdmpg,2310
+botskeleton/test/__init__.py,sha256=5-FB9nv_QGbWi_ciHwwRXd20mLNLonP_-jK0Q9a-rkw,41
+botskeleton/test/test_botskeleton.py,sha256=Gs_545n44uhA1Dtm5lBE94t_n2b0kWeAWgx-bCFwWAk,5460
+botskeleton/test/test_output_birdsite.py,sha256=OO1F1ZXyPDV3VR4TYxhHlOz1210WaGP6AlHZmv7NRWY,2057
+botskeleton/test/test_output_mastodon.py,sha256=B-_SucTz-Xts5eB_P5XoMmDgSi1IkK1BYxJ23zW6BYk,2068
+botskeleton-3.2.5.dist-info/LICENSE,sha256=rOKkm_GRM72C88GOphwfT5sr4tJ4-PNoniUSQBbOET0,1464
+botskeleton-3.2.5.dist-info/METADATA,sha256=7J-Ja88dJLjspjuzGz1pBQCzjVlChTVX2cZC-IPSEc4,11520
+botskeleton-3.2.5.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+botskeleton-3.2.5.dist-info/top_level.txt,sha256=j9rKITZco_leYInux8Ey23FE_sK0HXliuKM1aAKyjMk,12
+botskeleton-3.2.5.dist-info/RECORD,,
