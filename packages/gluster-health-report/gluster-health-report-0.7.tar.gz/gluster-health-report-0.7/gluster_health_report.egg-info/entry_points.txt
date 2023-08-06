@@ -1,0 +1,3 @@
+[console_scripts]
+gluster-health-report = glusterhealth.main:main
+
