@@ -1,0 +1,12 @@
+reposync/__init__.py,sha256=7vIM-tMpAzSQEc1bOE2VB6rXYNo-2W1JbTx7xMjYDpI,31
+reposync/git.py,sha256=RN6GQOvOBMikaUEjZYE8TYrw32B55wiWqc37NgdDikY,2759
+reposync/parser.py,sha256=MZfcSzrFdS08z9V5AxFWE2vPU1PzJyOz5xGunLT2mm8,1140
+reposync/reposync.py,sha256=ZV0l9j9IGUWbYTw9bzYMnxdrXVoehbPf_BBAijPW6Tg,917
+reposync/tree.py,sha256=MUIDi0QeXyvSYNyGYmiifVfglvUaHLtqSS4BSMw9JoU,677
+reposync-0.4.1.data/scripts/reposync,sha256=mCaBYx1vwqX5f2uNCWZR7zzsrK0Q2j-s640TFHWv7Q0,105
+reposync-0.4.1.dist-info/DESCRIPTION.rst,sha256=P8W8sqp6Zqe2Fo0SQLbPNL1SfDTrpC6STQqUW39kbGo,2218
+reposync-0.4.1.dist-info/METADATA,sha256=_TcHKhIWtUJyH-Slu9tTSrDERAaTE_23mNfLN14FpII,3199
+reposync-0.4.1.dist-info/RECORD,,
+reposync-0.4.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+reposync-0.4.1.dist-info/metadata.json,sha256=rdyvVPQvua-cyzgRH4nUVGnYAv3HXvv8NXJeQagjboM,1000
+reposync-0.4.1.dist-info/top_level.txt,sha256=z21QXHyeIX7yc86_YV_LyAbtio-HX9ivAeRWjL3qwzI,9
