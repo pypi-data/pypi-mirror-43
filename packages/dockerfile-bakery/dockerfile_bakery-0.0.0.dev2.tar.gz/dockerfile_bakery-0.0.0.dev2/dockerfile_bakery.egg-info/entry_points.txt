@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dockerfile_bakery = dockerfile_bakery.cli:main
+      
