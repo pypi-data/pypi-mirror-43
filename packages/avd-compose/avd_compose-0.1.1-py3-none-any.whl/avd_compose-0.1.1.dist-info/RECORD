@@ -1,0 +1,12 @@
+avd_compose/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+avd_compose/androidstudio/avdmanager.py,sha256=Zhr6FM9Q4_a5r-wGo3kP9nQxXBEA6qP9r1y7CO7GYn8,1050
+avd_compose/androidstudio/sdkmanager.py,sha256=ypXkY-ZQodNKHbWSjCCOlpWPvgEniUpM6JZZvvaj5KA,207
+avd_compose/cli.py,sha256=y4pkojOd7ofUlcBVtxP8iTJP5msD3oove20v14Vfcgk,2392
+avd_compose/parser.py,sha256=wM2H0hNym_GmKrkyTLW0L3n8gbGSDObt6HaiO4evxWY,241
+avd_compose/utils/shell.py,sha256=X2TXrHexHZPr0tQWpmbB5JEeycqe1_p8CX4yzbSdFeU,157
+avd_compose/utils/yaml.py,sha256=ByLtC5cRwLeRFlX-7CbASQSfOhrEe1UADL-kAOpmpiE,118
+avd_compose-0.1.1.dist-info/entry_points.txt,sha256=VkMlV7F-4bGn_-zdRhsEBpk1DqB18oJR-cOa95Axdkk,52
+avd_compose-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+avd_compose-0.1.1.dist-info/WHEEL,sha256=vZ9uOqWz9Nn_iQiloIvXrEesMclaDmme0lZSy9xq2xk,85
+avd_compose-0.1.1.dist-info/METADATA,sha256=4diwBl9lUELCb31R5MFfBWjoTN3lb1I7XvevO5JILcs,1472
+avd_compose-0.1.1.dist-info/RECORD,,
