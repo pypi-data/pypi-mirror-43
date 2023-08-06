@@ -1,0 +1,13 @@
+README.rst
+setup.py
+flask_sqlalchemy_core/__init__.py
+flask_sqlalchemy_core.egg-info/PKG-INFO
+flask_sqlalchemy_core.egg-info/SOURCES.txt
+flask_sqlalchemy_core.egg-info/dependency_links.txt
+flask_sqlalchemy_core.egg-info/not-zip-safe
+flask_sqlalchemy_core.egg-info/requires.txt
+flask_sqlalchemy_core.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_basic_usage.py
+tests/utils.py
