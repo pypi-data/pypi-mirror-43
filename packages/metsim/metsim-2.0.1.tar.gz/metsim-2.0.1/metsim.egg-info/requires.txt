@@ -1,0 +1,9 @@
+xarray==0.10.9
+numba
+numpy
+pandas
+dask
+distributed
+toolz
+netCDF4
+scipy
