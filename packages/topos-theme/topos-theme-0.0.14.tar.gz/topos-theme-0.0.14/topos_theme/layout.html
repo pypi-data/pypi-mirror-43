@@ -1,0 +1,72 @@
+{%- extends "basic/layout.html"  %}
+
+{% block css %}
+{#
+  Modified version of the css() macro from the basic theme that doesn't
+  the include pygments css file
+#}
+<link rel="stylesheet" href="{{ pathto('_static/' + style, 1) }}" type="text/css" />
+<link rel="stylesheet" href="{{ pathto('_static/css/theme.css', 1) }}" type="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+<link rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous">
+
+{%- for css in css_files %}
+    {%- if css|attr("filename") %}
+      {{ css_tag(css) }}
+    {%- else %}
+      <link rel="stylesheet" href="{{ pathto(css, 1) }}" type="text/css" />
+    {%- endif %}
+{%- endfor %}
+
+{% endblock %}
+
+{% block htmltitle %}
+<title>{{ title | striptags | e}} | {{project}} v{{version}}</title>
+{% endblock %}
+
+{% block extrahead %}
+{{ super() }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#222">
+{% endblock %}
+
+{% block body_tag %}<body class="grid">{% endblock %}
+
+{# Disable the built-in navbars #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+
+{% block header %}
+        <div class="left-sidebar sidebar fg-light bg-dark">
+            <div class="side-content">
+                <a href="{{ pathto('index') }}"
+                id="site-name"
+                class="fg-light"><h2>{{project}}<sub class="fg-accent">v{{version}}</sub></h2></a>
+                <form class="search" action="{{ pathto('search') }}" method="get">
+                    <input class="search-bar bg-dark" type="text" name="q" placeholder="Search"/>
+                    <input type="hidden" name="check_keywords" value="yes" />
+                    <input type="hidden" name="area" value="default" />
+                </form>
+            </div>
+        </div>
+
+        <div class="right-sidebar sidebar fg-light bg-dark">
+                <div class="side-content">
+                <div class="menu">
+                    {{ toctree(maxdepth=2, collapse=False) }}
+                </div>
+            </div>
+        </div>
+{% endblock %}
+
+{%- block content %}
+        <div class="content bg-light">
+            <div class="main">
+                {% block body %} {% endblock %}
+            </div>
+        </div>
+{%- endblock %}
