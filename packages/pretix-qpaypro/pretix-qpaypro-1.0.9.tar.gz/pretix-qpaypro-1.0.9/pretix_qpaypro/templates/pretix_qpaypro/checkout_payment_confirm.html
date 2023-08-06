@@ -1,0 +1,24 @@
+{% load i18n %}
+
+<div class="row cart-row">
+    <dl class="dl-horizontal">
+        <dt>{% trans "Payment Method" %}</dt>
+        <dd>{{ provider.public_name }}</dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>{% trans "Card Type" %}</dt>
+        <dd>{{ cc_type }}</dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>{% trans "Credit Card Number" %}</dt>
+        <dd>{{ cc_number }}</dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>{% trans "Expiration" %}</dt>
+        <dd>{{ cc_exp_month }} / {{ cc_exp_year }}</dd>
+    </dl>
+    <dl class="dl-horizontal">
+        <dt>{% trans "Cardholder\'s Name" %}</dt>
+        <dd>{{ cc_first_name }} {{ cc_last_name }}</dd>
+    </dl>
+</div>
