@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+matrix_pybot.py
+setup.py
+matrix_pybot.egg-info/PKG-INFO
+matrix_pybot.egg-info/SOURCES.txt
+matrix_pybot.egg-info/dependency_links.txt
+matrix_pybot.egg-info/requires.txt
+matrix_pybot.egg-info/top_level.txt

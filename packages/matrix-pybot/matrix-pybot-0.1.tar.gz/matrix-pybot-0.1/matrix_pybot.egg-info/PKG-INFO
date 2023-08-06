@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: matrix-pybot
+Version: 0.1
+Summary: One file library to create matrix bots (https://matrix.org).
+Home-page: https://github.com/whitie/matrix-bot
+Author: Thorsten Weimann <@Thorsten:whitie.ddns.net>
+Author-email: weimann.th@yahoo.com
+License: MIT
+Description: 
+        Project: matrix-pybot
+        
+        
+Keywords: python matrix matrix.org bot matrix-python
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
