@@ -1,0 +1,7 @@
+README.md
+setup.py
+el_paquete_de_barbi.egg-info/PKG-INFO
+el_paquete_de_barbi.egg-info/SOURCES.txt
+el_paquete_de_barbi.egg-info/dependency_links.txt
+el_paquete_de_barbi.egg-info/top_level.txt
+paquete/__init__.py
