@@ -1,0 +1,11 @@
+SEON/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SEON/service/Organization_Service.py,sha256=vo38gDqh6tiBxZISfMhnkM5TXGHFlfxRkzw0K0up1Ck,526
+SEON/service/Project_Service.py,sha256=1IicpbGX4LDfd2HEVfUwFlUsoCzhJjjCjnWH3earoeU,625
+SEON/service/Project_Team_Service.py,sha256=vjsW-vkc_4uPujuzlXen4gVbqk0kNQ_m5mRa4mE218g,1376
+SEON/service/Service_Abstract.py,sha256=HT8CWrGzr8r85G3KrzotB2cZzc2j0YA1zD0GMIJ2Dj0,1097
+SEON/service/Team_Member_Service.py,sha256=AukkXeyg5rx--bm9Ym4Ikrk_o185E5MPTP53NOg7E3k,171
+SEON/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seon-1.2.19.dist-info/METADATA,sha256=eRBDYyIzcm3pga8aThUH1k_dtrbZ64PYOyakOQxJRzI,435
+seon-1.2.19.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+seon-1.2.19.dist-info/top_level.txt,sha256=t69hqeeT8Ibm41YUCm4iT1Kk9gF4sU4RJpujHnX-FZc,5
+seon-1.2.19.dist-info/RECORD,,
