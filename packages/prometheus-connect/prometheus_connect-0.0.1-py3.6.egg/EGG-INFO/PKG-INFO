@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: prometheus-connect
+Version: 0.0.1
+Summary: A small python api to collect data from prometheus
+Home-page: https://github.com/4n4nd/prometheus-connect
+Author: Anand Sanmukhani
+Author-email: asan@bu.edu
+License: UNKNOWN
+Description: # prometheus-connect
+        
+        [![Codacy Badge](https://api.codacy.com/project/badge/Grade/48cebb81b5d34d7cb45bcc5f5e0d505b)](https://app.codacy.com/app/4n4nd/prometheus-connect?utm_source=github.com&utm_medium=referral&utm_content=4n4nd/prometheus-connect&utm_campaign=Badge_Grade_Settings)
+        
+        
+        A python wrapper for the prometheus http api
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

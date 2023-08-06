@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+prometheus_connect/__init__.py
+prometheus_connect/prometheus_connect.py
+prometheus_connect.egg-info/PKG-INFO
+prometheus_connect.egg-info/SOURCES.txt
+prometheus_connect.egg-info/dependency_links.txt
+prometheus_connect.egg-info/requires.txt
+prometheus_connect.egg-info/top_level.txt
