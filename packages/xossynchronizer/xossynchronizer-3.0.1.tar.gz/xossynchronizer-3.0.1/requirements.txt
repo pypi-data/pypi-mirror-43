@@ -1,0 +1,8 @@
+Jinja2~=2.10
+astunparse~=1.5.0
+confluent-kafka==0.11.5
+inflect~=1.0.1
+multistructlog~=2.1.0
+networkx~=1.11
+xosconfig~=3.0.0
+xosgenx~=3.0.0
