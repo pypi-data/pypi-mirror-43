@@ -1,0 +1,1 @@
+{"robot r1": {"1": "pick up cube one"}, "robot r3": {"1": "pick up cube one", "2": "put cube on shuttle xy on position two"}, "robot r2": {"1": "make product", "2": "put pick up robot r4 put cube on chassi then cube five"}, "box and robot r3": {"1": "collect cube"}, "robot r4": {"1": "put cube on chassi then cube five be pick up by robot r2"}}
