@@ -1,0 +1,5 @@
+swutil
+IPython
+matplotlib
+numpy
+argcomplete
