@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gbmgeometry
+Version: 0.1.2
+Summary: Geometry calculations for Fermi GBM
+Home-page: https://github.com/mpe-grb/gbmgeometry
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Requires-Dist: sympy
+Requires-Dist: healpy
+Requires-Dist: spherical-geometry
+Requires-Dist: seaborn
+
+# gbmgeometry
+Routines to handle GBM geometry and plotting 
+
+## Requirements
+* astropy
+* numpy
+* matplotlib
+* scipy
+* Basemap
+* seaborn
+* spherical_geometry
+
+## Install
+
+$> python setup.py install
+
+
