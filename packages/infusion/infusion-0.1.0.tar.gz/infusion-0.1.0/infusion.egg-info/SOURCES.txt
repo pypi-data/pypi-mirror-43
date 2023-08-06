@@ -1,0 +1,6 @@
+README.md
+setup.py
+infusion.egg-info/PKG-INFO
+infusion.egg-info/SOURCES.txt
+infusion.egg-info/dependency_links.txt
+infusion.egg-info/top_level.txt
