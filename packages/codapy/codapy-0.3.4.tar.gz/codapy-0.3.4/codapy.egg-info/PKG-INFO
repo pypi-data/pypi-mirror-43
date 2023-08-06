@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: codapy
+Version: 0.3.4
+Summary: Coded statement of Account (CODA) python API
+Home-page: https://github.com/mhemeryck/pycoda
+Author: Martijn Hemeryck
+Author-email: martijn.hemeryck@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Office/Business :: Financial :: Accounting
