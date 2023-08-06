@@ -1,0 +1,4 @@
+get_shell
+get_wm
+katfetch
+memory
