@@ -1,0 +1,4 @@
+[console_scripts]
+odk2stata = odk2stata.dofile.cli:cli
+odk2stata-gui = odk2stata.gui:create_app
+
