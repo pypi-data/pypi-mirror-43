@@ -1,0 +1,34 @@
+CHANGES
+=======
+
+* Fixed: Formatting in README
+* Fixed: Tried to fix the wrong tests 👌
+* Refactored: Use a connectionpool to connect instead
+* Fixed: REDIS\_HOST not used in one test failed the CI
+* Updated: README
+* Refactored: Use \*\*kwargs in class for redis connection Before we only allowed a small number of ways to connect to a Redis instance, which is why we moved to the \*\*kwargs approach. This way everyone can set up the connection in the way that's needed for their project, rather just using host, port and password
+* Refactored: Other options available asides from pure channel publishing. Since our usecase required use to offer new options, a dedicated handler was written for that. This introduces the ability to use a RedisKeyHandler which rpushes every message onto a key. The basehandler was opened up to allow users to implement custom redis commands
+* Add fixture to fetch the env vars
+* Use connectionpools to retrieve params in use. Extra tests added, where the host gets default to environment variables
+* Renamed module file to be PEP8 compliant
+* Added ping() to assert status
+* Possibility to add redis\_client to a Handler. Updated tests accordingly
+* Correct gitlab ci settings
+* Moved connect job to test stage
+* Added redis service
+* Tests use a tryout arg to allow for the channel to init
+* Removed trailing import statement
+* Moved Redis connection init to Handler init
+* use proper attribute to set readme content type
+* add home page
+* add tests into CI
+* pre-install wheel
+* add CI setup
+* how to use section added
+* Packaging for module
+* Tests added
+* Log handler added
+* Requirements file added
+* Added gitignore file
+* Add LICENSE
+* Initial commit
