@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: Flask-Melodramatiq
+Version: 0.1
+Summary: A Flask extension that adds support for the "dramatiq" task processing library
+Home-page: https://github.com/epandurski/flask_melodramatiq
+Author: Evgeni Pandurski
+Author-email: epandurski@gmail.com
+License: MIT
+Description: 
+        Flask-Melodramatiq
+        ------------------
+        
+        A Flask extension that adds support for the "dramatiq" task processing library.
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
