@@ -1,0 +1,5 @@
+click
+click-log
+PyYAML
+Jinja2
+docker-compose
