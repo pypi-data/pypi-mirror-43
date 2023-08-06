@@ -1,0 +1,10 @@
+README.md
+setup.py
+mapycli/__init__.py
+mapycli/session.py
+mapycli/wms.py
+mapycli.egg-info/PKG-INFO
+mapycli.egg-info/SOURCES.txt
+mapycli.egg-info/dependency_links.txt
+mapycli.egg-info/requires.txt
+mapycli.egg-info/top_level.txt
