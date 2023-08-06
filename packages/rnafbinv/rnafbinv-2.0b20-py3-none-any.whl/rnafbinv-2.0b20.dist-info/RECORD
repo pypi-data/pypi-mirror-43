@@ -1,0 +1,14 @@
+rnafbinv/IUPAC.py,sha256=KDHPOxV_VJaK7zi3vr_g4puQaDjpK-7uVyP3izs6Nuk,14409
+rnafbinv/ListMotifs.py,sha256=JHdR4XQ4FuK3sjNZ88ex6ZTpRYjDNGXXV_QCQRgtBu0,1330
+rnafbinv/RNAfbinvCL.py,sha256=rUJHBis_Y0pYd4UpCREj-ny_6dqyCMFAX4pLbg8rOl0,18166
+rnafbinv/mutator.py,sha256=Q6mmYpV1ndlDywI_565d0dFtXrV7Vtap8gpGus0XF4Y,3365
+rnafbinv/sfb_designer.py,sha256=l4WfKWkjSQSIDRFdplWpPdK-rIhXeu_XaQVocHvATH4,11143
+rnafbinv/shapiro_generator.py,sha256=BnW59SNfyuTBzcDqygfUQijtfkFg5JnzTeUX7Is-edc,6732
+rnafbinv/shapiro_tree_aligner.py,sha256=EMTRIKa-J8APg1tpsKBEMGQ1jOL1gGa2jsB3K_OWYlU,19115
+rnafbinv/tree_aligner.py,sha256=pXW6IT8fneoLzWKDiy-qH78uJ9lHRg6dEKRR6drl23Y,13069
+rnafbinv/vienna.py,sha256=L93f3vzRvX8o2SUjjsR685aHte8KuVPBnARltI4OZNY,9492
+rnafbinv-2.0b20.dist-info/LICENSE,sha256=WrpeEktIqDcn0-G3iOLDyesd9CiUDcLFmm-mONFcjeI,1086
+rnafbinv-2.0b20.dist-info/METADATA,sha256=FBVN7-c7UqCkcpEhNDYmOMLGlT2LUE0hjgfiJGOGCuo,5844
+rnafbinv-2.0b20.dist-info/WHEEL,sha256=ekss6qCJcIZ1jvsOZb3ewnzAyJD9JSfQQg87sLq_G8M,97
+rnafbinv-2.0b20.dist-info/top_level.txt,sha256=o6pdK5bFKAxJuqrn0WgBlI1IuvZ1XYPjlhVEhDjo03s,9
+rnafbinv-2.0b20.dist-info/RECORD,,
