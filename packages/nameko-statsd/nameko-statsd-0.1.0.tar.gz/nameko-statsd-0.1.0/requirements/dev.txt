@@ -1,0 +1,5 @@
+coverage
+flake8
+pytest
+restructuredtext-lint
+Pygments
