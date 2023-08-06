@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: biomarker-survival
+Version: 0.1
+Summary: Utilities for performing biomarker survival analyses
+Home-page: http://github.com/joansmith/biomarker-survival
+Author: Joan Smith
+Author-email: joans@alum.mit.edu
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: rpy2
+Requires-Dist: pandas
+
+UNKNOWN
+
+
