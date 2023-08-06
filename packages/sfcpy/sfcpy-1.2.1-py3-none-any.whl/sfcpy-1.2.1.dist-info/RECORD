@@ -1,0 +1,13 @@
+sfcpy/__init__.py,sha256=IAh76gAXldcXq9wLttu-D49Bb7ifeNK8Hj3PAvioxjY,244
+sfcpy/__main__.py,sha256=_WS5fgt6ti9HEhOgF58a8UFsJKVaJN8vGGY3aVv--CI,1683
+sfcpy/data.py,sha256=totWQv7ESl4V2oa6hwAKrVHDnCXzP14ifHWs6vZSFgs,120
+sfcpy/generator.py,sha256=3liVIb_QBMqOYg6QP4ptIAXTyJDwVgrwCci6QEbzurY,1818
+sfcpy/hc_lookup.txt,sha256=X2jdy9ukuYfULn6NdnkK1VKCTqy9H-SvZ0kP8o8mfaE,2446754
+sfcpy/hilbert.py,sha256=CdVgBH6BJx2PRINz803OFZfCRxfy9YdsiOkm85qeiKI,2411
+sfcpy-1.2.1.dist-info/DESCRIPTION.rst,sha256=09aqqUGB4U85ewIAn8-fgVyRVZ-TlcqxFpa_xsSxok4,127
+sfcpy-1.2.1.dist-info/METADATA,sha256=vY1zfxDpSMdzOZ86muTn7QKP1tQ6wE-TdSKH-FsFgbs,774
+sfcpy-1.2.1.dist-info/RECORD,,
+sfcpy-1.2.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+sfcpy-1.2.1.dist-info/entry_points.txt,sha256=cl66nj3zNUoCtQqr3Jp0OqsNpDV2EXuWn1nQBAInfb4,47
+sfcpy-1.2.1.dist-info/metadata.json,sha256=hVGDCIRuv5Ik9aCP545bEhDqcJ894nyG2PHWZ1XEdQg,1002
+sfcpy-1.2.1.dist-info/top_level.txt,sha256=U2qEz5bdGX59ZvlejI9XwKpO5x4yLt6TWqIqvaKYgx4,6
