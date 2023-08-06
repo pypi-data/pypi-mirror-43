@@ -1,0 +1,9 @@
+setup.py
+HeadFirstPython/__init__.py
+HeadFirstPython/al_test.py
+HeadFirstPython/di_gui_diao_yong.py
+HeadFirstPython.egg-info/PKG-INFO
+HeadFirstPython.egg-info/SOURCES.txt
+HeadFirstPython.egg-info/dependency_links.txt
+HeadFirstPython.egg-info/requires.txt
+HeadFirstPython.egg-info/top_level.txt
