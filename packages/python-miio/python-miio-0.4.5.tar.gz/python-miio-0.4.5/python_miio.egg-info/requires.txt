@@ -1,0 +1,12 @@
+appdirs
+attrs
+click
+construct
+cryptography
+netifaces
+pytz
+tqdm
+zeroconf
+
+[Android backup extraction]
+android_backup
