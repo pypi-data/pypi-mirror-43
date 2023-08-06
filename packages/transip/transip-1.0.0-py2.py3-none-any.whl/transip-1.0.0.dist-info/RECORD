@@ -1,0 +1,16 @@
+transip/__init__.py,sha256=EV7fytZ4GuoFp8-2PF4ScfTSZKZuDs16wnGZGkpUZdg,201
+transip/client.py,sha256=CLqABrHOjFupHLgk6up9pEHJF0_t2UUcJcKgnetnFOg,6996
+transip/transip_cli.py,sha256=BXzNv3io6wHVhoAdsi9D8GoZ6hwYNGg53twWcwq1D9Y,4740
+transip/service/__init__.py,sha256=5RYUK9sdzLxtZWsBOwEDhWF1dWlE-21PFinPXVeSJxo,188
+transip/service/domain.py,sha256=HblKxVgNC2ZrF7pWcON5tR-EGGCTOxThrfl3Yv7YfHo,7711
+transip/service/haip.py,sha256=_R_p_XhWnpwl15QQTq7CSYotcmnrPii2nwMLL-ab3zE,1149
+transip/service/objects.py,sha256=vVVqViBh-cOHJcWV-jbyq_ec8EDbt0EtRtJnBsupyQk,7814
+transip/service/vps.py,sha256=SNNmHdtgz2KtmHNfKfl_pNcUbws8fVGUmXWcHN1Vyyg,15433
+transip/service/webhosting.py,sha256=DAJ53kWw3A9w2GxgetBJiOEF-VYjmLdQjdwQFkWxdd4,2612
+transip-1.0.0.dist-info/DESCRIPTION.rst,sha256=1l4EMJ44eDofnkBLC_wQ9SzJb4xGZECV_focmOlWPyk,3795
+transip-1.0.0.dist-info/METADATA,sha256=wojZJAHwTlF9k2MlPlc4RYv_2uuyb-ie00JpsPBgdeI,4594
+transip-1.0.0.dist-info/RECORD,,
+transip-1.0.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+transip-1.0.0.dist-info/entry_points.txt,sha256=vycPqjPX8o6m2kCimgkH2pXc-JaIHaBiC_8YCxxAnvo,58
+transip-1.0.0.dist-info/metadata.json,sha256=AUZxjQnnYB2PMFwrz4rwJMD4qfiBz8k6rohvYvu_4SQ,1130
+transip-1.0.0.dist-info/top_level.txt,sha256=xV5LTYooIpidc0pDm-we_5gurQqwfWjvwIrWCT0Ocek,8
