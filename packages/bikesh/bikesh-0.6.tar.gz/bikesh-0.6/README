@@ -1,0 +1,8 @@
+Readme
+
+import bikesh
+bikesh.about()
+
+
+from bikesh import me
+me.about()
