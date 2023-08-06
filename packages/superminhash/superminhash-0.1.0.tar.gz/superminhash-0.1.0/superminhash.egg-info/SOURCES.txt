@@ -1,0 +1,12 @@
+README.md
+setup.py
+superminhash/__init__.py
+superminhash/utlilits.py
+superminhash.egg-info/PKG-INFO
+superminhash.egg-info/SOURCES.txt
+superminhash.egg-info/dependency_links.txt
+superminhash.egg-info/not-zip-safe
+superminhash.egg-info/requires.txt
+superminhash.egg-info/top_level.txt
+test/__init__.py
+test/test_superminhash.py
