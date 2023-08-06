@@ -1,0 +1,10 @@
+SPEMM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SPEMM/main.py,sha256=ij8EyOR4era3dkIPYvxG-HqcREvN48sIRaGcezJRSRI,4285
+SPEMM/metrics.py,sha256=hstsapHUgw-gbQR46MbrMyeEbNWQGHSfJyMv1ujnSJI,1575
+SPEMM/utils.py,sha256=aYZQcOlOv1U6PKU_tz11nbMUENLoYsJzbaUIXkOWWXY,1742
+SPEMM-1.1.7.dist-info/METADATA,sha256=MV_YkYsHIjU2x1r_4hYnW0abr32m3MzAWxXVIopCcvw,2514
+SPEMM-1.1.7.dist-info/RECORD,,
+SPEMM-1.1.7.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+SPEMM-1.1.7.dist-info/entry_points.txt,sha256=ejAyeu3jGT9sGUiNgkrIlo-N0yxf_XclWGAc8O0Q9hY,38
+SPEMM-1.1.7.dist-info/top_level.txt,sha256=koLuh-5n0IxuDWd5LmaRtK_OX2m5EN1QGaWu1EVLVUs,6
+SPEMM-1.1.7.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
