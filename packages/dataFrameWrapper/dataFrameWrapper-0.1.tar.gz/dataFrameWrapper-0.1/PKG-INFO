@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dataFrameWrapper
+Version: 0.1
+Summary: Package wrapper of dataframes
+Home-page: https://github.com/rahmaniali/dataFrameWrapper.git
+Author: ali rahmani
+Author-email: institut.ali53@gmail.com
+License: MIT
+Download-URL: https://github.com/rahmaniali/dataFrameWrapper/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: dataframes,pandas,wrapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
