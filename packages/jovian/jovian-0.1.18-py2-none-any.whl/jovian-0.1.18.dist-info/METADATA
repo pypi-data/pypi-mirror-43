@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jovian
+Version: 0.1.18
+Summary: Jovian Python SDK
+Home-page: https://jovian.ai/
+Author: SwiftAce
+Author-email: opensource@swiftace.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+<closed file 'README.md', mode 'rb' at 0x1017e3e40>
+
+
