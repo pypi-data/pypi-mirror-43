@@ -1,0 +1,4 @@
+[console_scripts]
+knora-create-ontology = knora.create_ontology:main
+knoractl = knora.knora_ctl:cli
+

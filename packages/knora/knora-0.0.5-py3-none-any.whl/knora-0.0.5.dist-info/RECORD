@@ -1,0 +1,13 @@
+knora/__init__.py,sha256=AA37U3CQAMSmZJgqFxQPvKh9S3sYfZyLsxlk16NqzJM,85
+knora/create_ontology.py,sha256=K8ckJIzAh3j2AC-6sdd0kbeFq1L4cJrCfK2iShVErjE,9399
+knora/knora-ctl.py,sha256=JowKvWNPODsTM_YO1SpJJw5jZ2UonkttUMxsyAjDEH4,265
+knora/knora-schema-lists.json,sha256=Axii1vJk5MSPFqIpzEsxvWEYc6AAxqnQOcuXfHdIjTk,1788
+knora/knora-schema.json,sha256=1IETCmgUfV6b7p0nQ69swvb3xyvWiHpGbnFWeaaFcxg,7194
+knora/knora.py,sha256=LpiB6m4l6wvJFs257xBwsNAzHC86D5wUFA4QJ1vcRvw,42394
+knora/knoraConsole.py,sha256=74uBA2Yg_FioP7UkkIsu1RN5I2rtAEHg3bSbmg_o6RQ,11976
+knora-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+knora-0.0.5.dist-info/METADATA,sha256=rWBnZe7AZtSDvgIAe0MpjVFKVj4CGb40HeqCGigFfV0,577
+knora-0.0.5.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+knora-0.0.5.dist-info/entry_points.txt,sha256=_L2qPhbqXG4pNLS-bDVCFF8y1_OwbfMgzWGpy1AVt7s,101
+knora-0.0.5.dist-info/top_level.txt,sha256=pEnroNav0C0OR74WHTMkd4IDmfjKh2LMjQ5EkmLTSQs,6
+knora-0.0.5.dist-info/RECORD,,
