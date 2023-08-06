@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: type-checker
+Version: 1.0.1
+Summary: Type checker helpers for Python.
+Home-page: https://gitlab.com/robjampar/type-checker
+Author: Robert Parker
+Author-email: rob@parob.com
+License: MIT
+Download-URL: https://gitlab.com/robjampar/type-checker/-/archive/v1.0.1/type-checker-v1.0.1.tar.gz
+Description: # Type Checker
+        
+        Validate Python types with support for nested lists and dictionaries.
+Keywords: Type,Checker,Validator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
