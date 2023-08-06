@@ -1,0 +1,10 @@
+zevents/__init__.py,sha256=zS02ZtgGuFaPy4zDaCujNE0BXFAiM1poDEOX5iVy4Cc,155
+zevents/core.py,sha256=Fu2sOkFg5se5cBaKP7a_bkPdtqEntNL0U8tOkOG3E-c,5238
+zevents/dispatch.py,sha256=ocwfbJw6Zw-VFLGRycekZF9KkGGtlfEADg17dldmQZQ,831
+zevents/events.py,sha256=2mRPJW8hcY_vAehYe3HI3XE8aOzwHpCW7I4b78LjQvw,532
+tchappui_zevents-0.2.5.dist-info/AUTHORS.rst,sha256=BwehXqdCT1ml1jUAGtQDALBVMT2RudQ3jsVyJCiavEI,161
+tchappui_zevents-0.2.5.dist-info/LICENSE,sha256=b2cMEtK9l8iUmXDP3UB1YI0lDglDdvbOrkE6wLQ8g1c,1075
+tchappui_zevents-0.2.5.dist-info/METADATA,sha256=f4WwvwnEIsaF6NTnBdQIpJY-vJJIss-xG9TMsVEnlhQ,1640
+tchappui_zevents-0.2.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+tchappui_zevents-0.2.5.dist-info/top_level.txt,sha256=DX7_OycZqgd_EXSYAUF_J7-puOwj2ZLbrEt64vqPCP4,8
+tchappui_zevents-0.2.5.dist-info/RECORD,,
