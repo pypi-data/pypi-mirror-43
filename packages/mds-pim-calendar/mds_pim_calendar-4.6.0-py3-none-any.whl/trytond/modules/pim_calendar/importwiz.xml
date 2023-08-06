@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- wizard: import events -->
+        <record model="ir.action.wizard" id="act_wiz_import_event">
+            <field name="name">Import ICS-file</field>
+            <field name="wiz_name">pim_calendar.wiz_import_event</field>
+        </record>
+        <!-- view 'import events' -->
+        <record model="ir.ui.view" id="import_wizard_start_form">
+            <field name="model">pim_calendar.wiz_import_event.start</field>
+            <field name="type">form</field>
+            <field name="name">import_event_form</field>
+        </record>
+
+        <record model="ir.action.keyword" id="act_wiz_import_event_keyword1">
+            <field name="keyword">form_action</field>
+            <field name="model">pim_calendar.calendar,-1</field>
+            <field name="action" ref="act_wiz_import_event"/>
+        </record>
+
+    </data>
+</tryton>

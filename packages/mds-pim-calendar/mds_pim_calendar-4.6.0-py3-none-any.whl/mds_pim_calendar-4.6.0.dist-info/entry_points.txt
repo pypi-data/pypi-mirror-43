@@ -1,0 +1,4 @@
+ 
+    [trytond.modules]
+    pim_calendar = trytond.modules.pim_calendar
+    

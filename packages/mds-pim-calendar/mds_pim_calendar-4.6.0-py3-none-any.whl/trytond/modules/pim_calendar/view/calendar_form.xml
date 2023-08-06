@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="4" cursor="name">
+    <notebook colspan="4">
+        <page string="Settings" id="pg1" col="2">
+            <group col="1" yfill="1" id="grp1">
+                <group name="name" col="2">
+                    <label name="name"/>
+                    <field name="name"/>
+                    <label name="owner"/>
+                    <field name="owner"/>
+                </group>
+                <group id="grp2" string="Settings" col="4">
+                    <label name="cal_visible"/>
+                    <field name="cal_visible"/>
+                    <label name="cal_color"/>
+                    <field name="cal_color"/>
+                    <label name="cal_limittext"/>
+                    <field name="cal_limittext"/>
+                    <label name="cal_limitanz"/>
+                    <field name="cal_limitanz"/>
+                </group>
+                <group name="note" col="1" yfill="1" yexpand="1">
+                    <field name="note" yfill="1"/>
+                </group>
+            </group>
+            <field name="visitors"/>
+        </page>
+        <page name="events" col="1">
+            <field name="events"/>
+        </page>
+    </notebook>
+    <field name="isowner"/>
+</form>
