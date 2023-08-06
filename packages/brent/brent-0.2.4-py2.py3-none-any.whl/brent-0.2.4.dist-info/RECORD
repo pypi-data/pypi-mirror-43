@@ -1,0 +1,14 @@
+brent/__init__.py,sha256=gVSyslyY-6oYRE97JIr9UOYNF6iBZDirvsCbhnUIoCQ,2777
+brent/common.py,sha256=mEdIXTUPcDp6n_gLu7nXW0J5uUSdPQc_IwEwiWagG60,8089
+brent/datasets.py,sha256=rSaYN5lZmv7f6lnhSA5hQHB3-mx_2Icaz6bFGL4oweU,5918
+brent/examples.py,sha256=5z_3CV6UnWVJ-g2Ob2Xs7dQlDvJTxKJT0OX3ehiIKCM,1816
+brent/graph.py,sha256=V4rNkUDMuxH0Rcp_A8Tp0W3VBtiV5fJLwWwEBsjoVlM,12502
+brent/query.py,sha256=yufRxtmbv4LNS3d4gJNVVNYsolULRyk8YEN-AkvMi4E,10777
+brent/sklearn.py,sha256=9MmtueiL7VCiXQdTGETafdCC38yLJnJiCOMq7aeqdoU,2935
+brent/parsers/__init__.py,sha256=aD5i0g97ReaoyNoZTbugGkVOBPKgmFFBbGGn2zYjmJw,40
+brent/parsers/bif.py,sha256=7WEaevUjXpjeDJslHBqMpXU9F1Wrhyc_s1-YJhREngo,4257
+brent-0.2.4.dist-info/LICENSE,sha256=zku9PW0ad6nCeFbdG0cnOsaNLWl5I2QHaUCGMMpCXMY,1093
+brent-0.2.4.dist-info/METADATA,sha256=hifunslqa5_FCg7UV_Y-chcAmd2VnMfUQHmy8iN9sJQ,3673
+brent-0.2.4.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+brent-0.2.4.dist-info/top_level.txt,sha256=JjCqozjdyPF5YnA0oaDmJ1nehPm6oBgiRjM9Ml5abDg,6
+brent-0.2.4.dist-info/RECORD,,
