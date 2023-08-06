@@ -1,0 +1,6 @@
+README.md
+setup.py
+samplepackage_saileshasp.egg-info/PKG-INFO
+samplepackage_saileshasp.egg-info/SOURCES.txt
+samplepackage_saileshasp.egg-info/dependency_links.txt
+samplepackage_saileshasp.egg-info/top_level.txt
