@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nbtty
+Version: 1.0.1
+Summary: Run web tty from jupyter notebooks
+Home-page: https://github.com/glasslion/nbtty
+Author: Leonardo Zhou
+Author-email: glasslion@gmail.com.com
+License: UNKNOWN
+Description: # NB TTY
+        
+        Run web tty from jupyter notebooks
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+nbtty/__init__.py
+nbtty/core.py
+nbtty.egg-info/PKG-INFO
+nbtty.egg-info/SOURCES.txt
+nbtty.egg-info/dependency_links.txt
+nbtty.egg-info/top_level.txt
