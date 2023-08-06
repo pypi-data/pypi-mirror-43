@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: CCIT
+Version: 0.3
+Summary: Model Powered CI Test
+Home-page: https://github.com/rajatsen91/CCIT.git
+Author: Rajat Sen
+Author-email: rsen91@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: markdown
+Requires-Dist: xgboost
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
