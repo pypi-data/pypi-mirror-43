@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: frelpt
+Version: 0.0.1
+Summary: Loop pushdown translator
+Home-page: https://github.com/NCAR/Frelpt
+Author: Youngsung Kim
+Author-email: youngsun@ucar.edu
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Code Generators
+
+Loop pushdown translator (LPT)
+=================================
+
+Frelpt is a loop pushdown translation tool written in Python.
+
+Documentation
+----------------
+
+    https://ncar.github.io/frelptdoc/
+
+
