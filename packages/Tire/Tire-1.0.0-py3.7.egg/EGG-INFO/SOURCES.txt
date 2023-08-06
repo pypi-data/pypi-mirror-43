@@ -1,0 +1,6 @@
+Tire.py
+setup.py
+Tire.egg-info/PKG-INFO
+Tire.egg-info/SOURCES.txt
+Tire.egg-info/dependency_links.txt
+Tire.egg-info/top_level.txt
