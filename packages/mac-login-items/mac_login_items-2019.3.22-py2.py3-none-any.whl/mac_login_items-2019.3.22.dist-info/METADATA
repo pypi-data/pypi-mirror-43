@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: mac-login-items
+Version: 2019.3.22
+Summary: manage MacOS login items
+Home-page: https://github.com/looking-for-a-job/mac-login-items
+License: UNKNOWN
+Keywords: mac
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/badge/OS-MacOS-blue.svg?longCache=True)]()
+
+#### Installation
+```bash
+$ [sudo] pip install mac-login-items
+```
+
+#### CLI
+```bash
+usage: login-items command [args]
+
+Available commands:
+    add                    add login items
+    list                   print login items names
+    paths                  print login items paths
+    rm                     remove login items
+
+run `login-items COMMAND --help` for more infos
+```
+
+#### Examples
+```bash
+$ login-items names
+Google Chrome
+Windscribe
+```
+
+```bash
+$ login-items paths
+/Users/russianidiot/Applications/Google Chrome.app
+/Applications/Windscribe.app
+```
+
+```bash
+$ login-items add /Applications/CCMenu.app
+```
+
+```bash
+$ login-items rm CCMenu
+```
+
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
+
