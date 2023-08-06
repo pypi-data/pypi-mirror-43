@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dodcerts
+Version: 1.0
+Summary: DoD Certificate Chain
+Home-page: https://github.com/erdc/dodcerts
+Author: Kevin Winters
+Author-email: Kevin.D.Winters@erdc.dren.mil
+License: BSD
+Keywords: dodcerts
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Requires-Dist: cryptography
+
+UNKNOWN
+
+
