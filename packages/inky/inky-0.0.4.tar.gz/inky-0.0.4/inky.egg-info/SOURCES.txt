@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+inky/__init__.py
+inky/eeprom.py
+inky/inky.py
+inky/phat.py
+inky/what.py
+inky.egg-info/PKG-INFO
+inky.egg-info/SOURCES.txt
+inky.egg-info/dependency_links.txt
+inky.egg-info/requires.txt
+inky.egg-info/top_level.txt

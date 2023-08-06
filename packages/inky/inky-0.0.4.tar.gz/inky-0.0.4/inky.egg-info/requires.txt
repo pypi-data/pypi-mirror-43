@@ -1,0 +1,4 @@
+numpy
+spidev
+RPi.GPIO
+smbus2
