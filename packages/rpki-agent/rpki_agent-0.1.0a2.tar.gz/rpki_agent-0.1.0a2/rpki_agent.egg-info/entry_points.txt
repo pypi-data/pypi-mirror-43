@@ -1,0 +1,3 @@
+[console_scripts]
+RpkiAgent = rpki_agent.cli:main
+
