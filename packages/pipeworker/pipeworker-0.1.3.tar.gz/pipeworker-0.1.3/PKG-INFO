@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pipeworker
+Version: 0.1.3
+Summary: Simplistic framework for structuring data science and machine learning pipelines.
+Home-page: https://github.com/sitnarf/tube
+Author: František Sabovčik
+Author-email: sitnarf@gmail.com
+License: MIT
+Description: 
+        # Pipeworker
+        
+        This library servers as framework for creating data processing blocks, which can be then interconnected to create machine learning or data mining pipelines.
+        
+        ## Example
+        
+        For full example, see [piperwork-example]() repository.
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
