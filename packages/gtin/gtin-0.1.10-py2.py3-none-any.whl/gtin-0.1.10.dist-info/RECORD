@@ -1,0 +1,9 @@
+gtin/__init__.py,sha256=dDtqTh47yrWV_Dt0xfvryWp_-1KvgGhNPGyzUcEPino,10885
+gtin/gcp/GCPPrefixFormatList.xml,sha256=F4tAXff_p7jipGsamkkAyIdQLaJpj9tKtGDscJn4kUE,961135
+gtin/gcp/__init__.py,sha256=pWSHHhUVkRizNDeE9q46Dp8IMH5mB9xjD7rXIl4IMyw,3520
+gtin-0.1.10.dist-info/LICENSE,sha256=hC6vrgaouYwbWZ9jgZt2QEwnW223cdiAValdVMLr6cw,1085
+gtin-0.1.10.dist-info/METADATA,sha256=L3jI-qMrfX9lq0pNL9YAps-TF-RG4icXnZ4eaSjITlw,1060
+gtin-0.1.10.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+gtin-0.1.10.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+gtin-0.1.10.dist-info/top_level.txt,sha256=9W3PlxzmnEYBlwDBEQ5sLgLSS62ohqWCCcofBwf9LvI,5
+gtin-0.1.10.dist-info/RECORD,,
