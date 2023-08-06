@@ -1,0 +1,5 @@
+[console_scripts]
+ex_img2fes = face_api.ex_img2fes:main
+face_det = face_api.face_det:main
+face_rec = face_api.face_rec:main
+
