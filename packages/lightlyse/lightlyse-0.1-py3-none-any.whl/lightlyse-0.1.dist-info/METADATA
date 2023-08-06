@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: lightlyse
+Version: 0.1
+Summary: Some of the API of the lyse package without the GUI.
+Home-page: https://github.com/synqs/lightlyse
+Author: Fred Jendrzejewski
+Author-email: fred.jendrzejewski@gmail.com
+License: MIT
+Download-URL: https://github.com/synqs/lightlyse/archive/v_01.tar.gz
+Keywords: labscriptsuite,python,data-analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: atomicwrites
+Requires-Dist: attrs
+Requires-Dist: certifi
+Requires-Dist: h5py
+Requires-Dist: more-itertools
+Requires-Dist: numpy
+Requires-Dist: pluggy
+Requires-Dist: py
+Requires-Dist: pytest
+Requires-Dist: six
+Requires-Dist: virtualenv
+
+UNKNOWN
+
+
