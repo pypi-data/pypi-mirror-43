@@ -1,0 +1,10 @@
+README.md
+setup.py
+swagger2json/__init__.py
+swagger2json/swagger2json.py
+swagger2json.egg-info/PKG-INFO
+swagger2json.egg-info/SOURCES.txt
+swagger2json.egg-info/dependency_links.txt
+swagger2json.egg-info/not-zip-safe
+swagger2json.egg-info/requires.txt
+swagger2json.egg-info/top_level.txt
