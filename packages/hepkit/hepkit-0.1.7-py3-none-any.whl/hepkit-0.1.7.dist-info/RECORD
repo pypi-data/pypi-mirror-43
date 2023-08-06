@@ -1,0 +1,10 @@
+hepkit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hepkit/hepData.py,sha256=Q15hx8IT2-ZvD1moeFp7sthS2B0GcCifPdozfZj07M4,230
+hepkit/hepFormat.py,sha256=JUnGB4czbZkhVB9UD1GBexUg_Paq0gCUZoFvZ02R8mo,307
+hepkit/hepIO.py,sha256=vGL56Hp5gLAww77Q2rvWqvGDAaes5IVI2YlTJFLP-iU,978
+hepkit/hepPlot.py,sha256=ieg-txoMgs9R_r5z09jTlCxb4i4DzlhOogSu5OFAH6k,4623
+hepkit-0.1.7.dist-info/LICENSE.txt,sha256=noc2LsfbOn8UT5ZRm-C2ruR0Lfys9XeqJtE_FrnmePg,1062
+hepkit-0.1.7.dist-info/METADATA,sha256=akHHxSuRjXjYLMq75NuxpkicyeDaWgdlCYjx3c2jZH0,319
+hepkit-0.1.7.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+hepkit-0.1.7.dist-info/top_level.txt,sha256=MaarVEe9xwxuyD9wJ-WAXOC2qQ94eyOtqsgS7jRRWlE,7
+hepkit-0.1.7.dist-info/RECORD,,
