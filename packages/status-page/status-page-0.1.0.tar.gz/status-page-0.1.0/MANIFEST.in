@@ -1,0 +1,3 @@
+graft status_page/templates
+graft status_page/static
+include version
