@@ -1,0 +1,10 @@
+README.md
+setup.py
+spots/__init__.py
+spots/staypoint.py
+spots/utils.py
+spots.egg-info/PKG-INFO
+spots.egg-info/SOURCES.txt
+spots.egg-info/dependency_links.txt
+spots.egg-info/requires.txt
+spots.egg-info/top_level.txt
