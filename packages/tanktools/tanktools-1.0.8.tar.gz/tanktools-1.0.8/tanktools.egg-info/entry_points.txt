@@ -1,0 +1,4 @@
+[console_scripts]
+har2ammo = tanktools.har2ammo:main
+pcap2ammo = tanktools.pcap2ammo:main
+
