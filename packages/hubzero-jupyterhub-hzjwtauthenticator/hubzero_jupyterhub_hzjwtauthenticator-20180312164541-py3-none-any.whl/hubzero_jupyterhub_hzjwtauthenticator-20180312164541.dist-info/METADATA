@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hubzero-jupyterhub-hzjwtauthenticator
+Version: 20180312164541
+Summary: JSONWebToken Authenticator for JupyterHub, based on mogthesprog/jwtauthenticator
+Home-page: https://github.com/hubzero/jwtauthenticator.git
+Author: David Benham
+Author-email: david.r.benham@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: jupyterhub
+Requires-Dist: python-jose
+
+UNKNOWN
+
+
