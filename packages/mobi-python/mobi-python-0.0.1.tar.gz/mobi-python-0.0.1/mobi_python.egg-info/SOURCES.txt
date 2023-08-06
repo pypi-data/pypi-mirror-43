@@ -1,0 +1,9 @@
+README.md
+setup.py
+mobi/__init__.py
+mobi/lz77.py
+mobi/utils.py
+mobi_python.egg-info/PKG-INFO
+mobi_python.egg-info/SOURCES.txt
+mobi_python.egg-info/dependency_links.txt
+mobi_python.egg-info/top_level.txt
