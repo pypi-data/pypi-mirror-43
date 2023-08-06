@@ -1,0 +1,10 @@
+README.md
+setup.py
+tgshg/__init__.py
+tgshg/audio_process.py
+tgshg/maya_commands.py
+tgshg/maya_mesh_vertexs.py
+tgshg.egg-info/PKG-INFO
+tgshg.egg-info/SOURCES.txt
+tgshg.egg-info/dependency_links.txt
+tgshg.egg-info/top_level.txt
