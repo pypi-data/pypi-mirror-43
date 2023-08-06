@@ -1,0 +1,199 @@
+|
+
+The GMU PyPi Template
+---------------------
+|  
+
+.. image:: birdie_logo_64x96.png
+
+
+https://www.thegmu.com/
+
+:Authors: Mybrid Wonderful, Gregg Yearwood
+:Date: 03/16/2019
+:Support: mybrid@thegmu.com
+:Version: 1.0.2
+
+----
+
+Introduction
+------------
+
+The GMU PyPi template is for developers to install a set of files for starting a Python project at The Gregg & Mybrid Upgrade, Inc. This ``README.rst`` is displayed as help for the Makefile in this director. The utility of this template is to standardize on various Python project tools and configuration files for new Python projects.
+
+If you are not a developer for The GMU then feel free to clone the git repo and salt-and-pepper to your taste.
+
+::
+
+ git clone https://bitbucket.org/thegmu/thegmu-pypi-template
+
+----
+
+New GMU Python Project Instructions
+-----------------------------------
+
+:: 
+
+ # Minimal configuration 
+ PROJECT_NAME=fun
+ PROJECT_DIR=fun
+ # 1. Create a Python3 virtualenv.
+ python3.6 -m venv ~/workspace/run/py36_$PROJECT_NAME
+ 
+ # 2. Create an empty Python3 project directory.
+ mkdir ~/workspace/gmu/$PROJECT_NAME
+ 
+ # 3. Activate the Python3 virtualenv.
+ . ~/workspace/run/py36_$PROJECT_NAME/bin/activate
+  
+ # 4. Install thegmu-pypi-template.
+ # TEST: pip install --index-url https://test.pypi.org/simple/ thegmu-pypi-template
+ pip install thegmu-pypi-template
+  
+ # 5. Change directory into the empty Python3 project directory.
+ cd  ~/workspace/gmu/$PROJECT_NAME
+  
+ # 6. Run the install script to install the files into the current directory.
+ thegmu-pypi-template
+
+ # 7. Rename the project directory.
+ mv thegmu_pypi_template $PROJECT_DIR
+
+ # 8. Edit the Makefile and edit the four variables:
+ #    PROJECTNAME, PROJECTDIR, VENVDIR, PYTHON.
+  
+ Makefile:PROJECTNAME:=fun
+ Makefile:PROJECTDIR:=fun
+ Makefile:VENVDIR:=${HOME}/workspace/run/py36_fun
+ Makefile:PYTHON=python3.6
+
+ # 9. Edit tox.ini and set the python version.
+ tox.ini:envlist = py36
+
+ # 10. Edit setup.py and change the NAME to your PROJECTNAME
+ #    and remove bin/thegmu-pypi-template script
+ setup.py:NAME = "fun"
+ setup.py:SCRIPTS = []
+
+ # 11. Edit tests/sample_test.py and change the import directory to your project.
+ tests/sample_test.py: from fun.sample import Sample
+
+ # 12. Validate the minimal configuration by running the following make commands. 
+ make init
+ make test
+ make dist
+ make test-dist
+
+ # Complete configuration
+ # 13. Edit fully the configuration files.
+ #     The following is a list of files that will need to be updated
+ #     such as changing the email address, a new software version '0.1.0', etc.
+ #     Makefile - update variables
+ #     README.rst - complete rewrite
+ #     setup.py - update variables
+ #     $PROJECT_NAME/__init__.py - complete rewrite
+ #     $PROJECT_NAME/sample.py - delete
+ #     tests/sample_test.py - delete
+
+----
+
+Requirements
+------------
+
+#. Encourage Python standards are followed for packaging and source.
+#. Pylint for validating PEP8 standards of code.
+#. Sphinx documentation to integrate with readthedocs.org
+#. Test automation in the dedicated tests directory.
+#. PyPi package deployment.
+#. ReadTheDocs documentation deployment.
+
+
+**Tools**:
+
+#. **autopep8**: pep8 code beautifier
+#. **pylint**: coding standards
+#. **pytest**: test source
+#. **readthedocs.org**: public documentation using sphinx
+#. **sphinx**: html documentation
+#. **tox**: test the source as installed package
+#. **twine**: deploy the package to pypi.org, test.pypi.org
+#. **Makefile**: run the tools
+
+
+**Configuration files**:
+
+#. **.gitignore**: ignore pylint, pytest, tox and build files as well .settings, .project, and .pydevproject directories from Eclipse.
+#. **.pylintrc**: The GMU specific PEP8 suppression.
+
+----
+
+Makefile Options
+----------------
+
+make <option>
+
+_default:
+    Same as help.
+
+clean:
+    Removes Python compiled files, pytest files, and tox test files. 
+    See clean-pyc and clean-tox.
+
+clean-dist:
+    Removes Python packaging files.
+
+clean-docs:
+    Removes sphinx documentation build files. Configuration files are not removed. 
+
+clean-pyc:
+    Removes Python compiled files and pytest files. 
+
+clean-tox: 
+    Removes tox test files. 
+
+dist:
+    Creates source and binary Python packages suitable for PyPi. 
+
+docs-init:
+    Creates the configuration files for sphinx.
+
+docs:
+    Build the the HTML documentation files in docs/_build.
+
+help:
+    Displays this file.
+
+init:
+    Install Python tools used by this Makefile.
+
+pep8:
+    Run ``autopep8`` and update all the project and test files in place with white space changes.
+ 
+publish:
+    Publish the package to production 'pypi.org'.
+    User name and password prompt are given. 
+
+publish-test:
+    Publish the package to test 'test-pypi.org'. 
+    User name and password prompt are given. 
+
+pylint:
+    Run ``pylint`` and output results. No other action is taken. See ``pep8`` option to fix white space problems. 
+
+requirements:
+    Python 'pip' packages for the tools. 
+
+test:
+    Run the tests from source using pytest. 
+
+test-dist:
+    Build the packages and then run the test as packages in temporary Python virtualenv environments. 
+
+upgrade:
+    Upgrade Python 'pip' packages for the tools. 
+
+---- 
+
+    The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself.  Therefore all progress depends on the unreasonable man. --George Bernard Shaw
+
+**The End**
