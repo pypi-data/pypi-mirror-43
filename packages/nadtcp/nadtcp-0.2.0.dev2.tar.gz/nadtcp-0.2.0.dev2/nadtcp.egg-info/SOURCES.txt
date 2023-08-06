@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+nadtcp/__init__.py
+nadtcp.egg-info/PKG-INFO
+nadtcp.egg-info/SOURCES.txt
+nadtcp.egg-info/dependency_links.txt
+nadtcp.egg-info/top_level.txt
+nadtcp.egg-info/zip-safe
