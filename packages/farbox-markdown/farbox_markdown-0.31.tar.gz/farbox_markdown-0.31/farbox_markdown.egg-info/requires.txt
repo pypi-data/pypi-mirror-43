@@ -1,0 +1,4 @@
+pygments
+shortuuid
+PyYAML==3.11
+pyaml==13.12.0
