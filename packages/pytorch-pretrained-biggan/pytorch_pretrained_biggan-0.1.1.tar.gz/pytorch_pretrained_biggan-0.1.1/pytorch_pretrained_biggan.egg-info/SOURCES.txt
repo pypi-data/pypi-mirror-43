@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pytorch_pretrained_biggan/__init__.py
+pytorch_pretrained_biggan/config.py
+pytorch_pretrained_biggan/convert_tf_to_pytorch.py
+pytorch_pretrained_biggan/file_utils.py
+pytorch_pretrained_biggan/model.py
+pytorch_pretrained_biggan/utils.py
+pytorch_pretrained_biggan.egg-info/PKG-INFO
+pytorch_pretrained_biggan.egg-info/SOURCES.txt
+pytorch_pretrained_biggan.egg-info/dependency_links.txt
+pytorch_pretrained_biggan.egg-info/entry_points.txt
+pytorch_pretrained_biggan.egg-info/requires.txt
+pytorch_pretrained_biggan.egg-info/top_level.txt
