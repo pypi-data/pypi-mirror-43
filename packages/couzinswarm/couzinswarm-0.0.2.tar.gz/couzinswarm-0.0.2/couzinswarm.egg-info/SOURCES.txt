@@ -1,0 +1,15 @@
+README.md
+README.rst
+setup.cfg
+setup.py
+couzinswarm/__init__.py
+couzinswarm/metadata.py
+couzinswarm/objects.py
+couzinswarm/simulation.py
+couzinswarm/tools.py
+couzinswarm.egg-info/PKG-INFO
+couzinswarm.egg-info/SOURCES.txt
+couzinswarm.egg-info/dependency_links.txt
+couzinswarm.egg-info/not-zip-safe
+couzinswarm.egg-info/requires.txt
+couzinswarm.egg-info/top_level.txt
