@@ -1,0 +1,17 @@
+nuclio/__init__.py,sha256=pcl-mNte2AiBMl7S_-sw6jP5Avn9eCIOFBT_bt34s8M,968
+nuclio/__main__.py,sha256=FiJFCzWznkEjngrWhxz2bt-qtGY3mi2rfaKKq1ZzX_I,1712
+nuclio/archive.py,sha256=hzQgGroJI33ZaSNGCpRVF8cZk7JhUYpU3CwDSzQu86w,3942
+nuclio/build.py,sha256=MY5eZs6Bt0bDAjeIY9qba28_r_v4TWjaaFhs5XHTLPs,2713
+nuclio/config.py,sha256=YNfUoZbZNvzkvEYwJcVZZ5k-rzntfUZrp54VMt9gklA,436
+nuclio/deploy.py,sha256=RcCmyQ4OPr6x7dVVE4ZVqAwBjpPUe2s7pegGuh3OVw0,11357
+nuclio/export.py,sha256=C5zodrPBeTZqOP38fxBx960uMaLlmPhKwBjIE-HswKE,11941
+nuclio/magic.py,sha256=owkwcxC9J9KcqlE8VEdBFKfDx0TdwtjqyLp7LinmZUc,14612
+nuclio/request.py,sha256=UItutYTTU2ap1dzqcU5ZS3Wzz51QKw3sQrA-ODdT-gE,1534
+nuclio/utils.py,sha256=759TXDVyNAMv-HXImaZEj-IrWhIBkgIDTJR3NQ4Se9o,7844
+nuclio_jupyter-0.7.0.dist-info/DESCRIPTION.rst,sha256=qziBvqOurHpLYP68KKu2Fe48m-RN7lQzkVc96RaAAGE,16851
+nuclio_jupyter-0.7.0.dist-info/METADATA,sha256=lagnKfmt-tPzY_kjupmyTMJknoa7gzchoRYIrjC98dY,18038
+nuclio_jupyter-0.7.0.dist-info/RECORD,,
+nuclio_jupyter-0.7.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+nuclio_jupyter-0.7.0.dist-info/entry_points.txt,sha256=-Dde77INiaQOuqNABAMuoLcCAVcr6AF2srJh210H4hc,110
+nuclio_jupyter-0.7.0.dist-info/metadata.json,sha256=eUoRgQufDDg5-llLmIgUZV40oGSAki1-PuxorkD6P1g,1526
+nuclio_jupyter-0.7.0.dist-info/top_level.txt,sha256=xH_PrJDXo9P_qJMqLZQZlkMCYFZQlWKtE9lcDNaigJk,7
