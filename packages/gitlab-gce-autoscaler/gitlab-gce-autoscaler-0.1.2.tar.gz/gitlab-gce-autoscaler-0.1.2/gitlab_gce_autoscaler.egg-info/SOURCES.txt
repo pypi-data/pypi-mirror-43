@@ -1,0 +1,10 @@
+README.md
+setup.py
+gitlab_gce_autoscaler/__init__.py
+gitlab_gce_autoscaler/main.py
+gitlab_gce_autoscaler.egg-info/PKG-INFO
+gitlab_gce_autoscaler.egg-info/SOURCES.txt
+gitlab_gce_autoscaler.egg-info/dependency_links.txt
+gitlab_gce_autoscaler.egg-info/entry_points.txt
+gitlab_gce_autoscaler.egg-info/requires.txt
+gitlab_gce_autoscaler.egg-info/top_level.txt
