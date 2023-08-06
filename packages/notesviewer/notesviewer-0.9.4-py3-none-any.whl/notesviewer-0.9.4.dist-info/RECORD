@@ -1,0 +1,17 @@
+notesviewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notesviewer/_version,sha256=phzHqZBViit2xKgU6yMyZ-IZFY3PGEtrMM5FjScCdnQ,6
+notesviewer/commands.py,sha256=1SMTqZepa-GJlNTtV15oWcqyfeG01gmDB6RAxA91PVE,27289
+notesviewer/config.py,sha256=Dy1J9e-52ce9mgQ7Cq8mN_x0EOZw5oxjpY9WJapWnps,8258
+notesviewer/error.py,sha256=6oS-c60ZjlnP9Pp49SxhjMo12pjxBYRz-1FV_sXsbDw,453
+notesviewer/file.py,sha256=q21nMxqbolHyA_WZzPf2VEus8ALJkXjeZFI1X2_ucrs,7826
+notesviewer/interactive.py,sha256=gcncvNnrSwh7mXEABNBAiYVgMqTUfJUmmUAUmiJJ27s,2205
+notesviewer/note.py,sha256=cxmANsWAhJREP_uuVXMWJqnF_k6UGwZarJkl1wmIVww,5257
+notesviewer/nv.py,sha256=3qvqfZAVPQHVyr6KFE0C5Yw6GPcBj5LIkoS1jQpsQ-0,8657
+notesviewer/utils.py,sha256=f5P2jxX0T44q0Tg4FIk688bbsBzMfoTcWcaJS2reQoc,5134
+notesviewer/vardata.py,sha256=YTrGbB3FnJe3mBdJpQFcc5fisd0X1KkwcYF9xuSdh_Y,1900
+notesviewer-0.9.4.dist-info/LICENSE,sha256=JKDHELX3EMhTaopvM_1T5oS2Ioko8rO5-fBn9kNT2dM,35925
+notesviewer-0.9.4.dist-info/METADATA,sha256=5yOdd613zAcxJQrGOe5HsijaSops8OscdifkdifxBt8,2053
+notesviewer-0.9.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+notesviewer-0.9.4.dist-info/entry_points.txt,sha256=Gw4CAhnLx4Z_P5TqY83AXX7k1z36yinOmAseJIgW1lI,53
+notesviewer-0.9.4.dist-info/top_level.txt,sha256=W5unHNMoE5jLduPwrC-GcLIKL5SvR4OrxmJpamS5JwU,12
+notesviewer-0.9.4.dist-info/RECORD,,
