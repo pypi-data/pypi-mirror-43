@@ -1,0 +1,223 @@
+CC  = gcc
+CXX = g++
+
+DEBUG_CC  = gcc
+DEBUG_CXX = g++
+
+MEDIA_BUILD_ROOT = ${MEDIA_BUILD_ROOT_PATH}
+
+LLVM_DIR = ${MEDIA_BUILD_ROOT_PATH}/build_tools/blade3
+LAYOUT_TOOL_DIR = ${MEDIA_BUILD_ROOT_PATH}/build_tools/blade3/bin
+AR  = ar rcs
+
+CPPFLAGS  = -D__STDC_FORMAT_MACROS -DUSE_SYMBOLIZE -I. \
+			-isystem ${MEDIA_BUILD_ROOT_PATH}/build_tools/third_party/m${PLATFORM}/include \
+			-isystem ${MEDIA_BUILD_ROOT_PATH}/build_tools/third_party/include \
+			-isystem .build/.lib/m${PLATFORM}/include \
+			-isystem .build/pb/c++ \
+			-I.build/include \
+			${EXTRA_CXXFLAGS}
+
+# COMPILE_FLAGS 设置的是对 C 和 C++ 都生效的那部分编译选项
+COMPILE_FLAGS  = -m${PLATFORM} -MMD -msse3 \
+				 -fPIC -fstrict-aliasing \
+				 -Wall -Wextra \
+				 -Wtrigraphs \
+				 -Wuninitialized \
+				 -Wwrite-strings \
+				 -Wpointer-arith \
+				 -Wredundant-decls \
+				 -Wunused \
+				 -Wmissing-include-dirs  \
+				 -Wno-missing-field-initializers \
+
+WARN_AS_ERROR = -Werror
+
+CFLAGS    = -D_GNU_SOURCE ${COMPILE_FLAGS} \
+			-Werror-implicit-function-declaration \
+			${WARN_AS_ERROR} \
+			${EXTRA_CXXFLAGS} \
+
+# NOTE: 这里一定要用 c++0x
+CXXFLAGS  = ${COMPILE_FLAGS} -std=c++0x \
+			-Wvla \
+			-Wnon-virtual-dtor \
+			-Woverloaded-virtual \
+			-Wno-invalid-offsetof \
+			-Werror=non-virtual-dtor \
+			${EXTRA_CXXFLAGS} \
+			${WARN_AS_ERROR} \
+
+# 注意: linker 对库的顺序敏感，不要随意更改库的顺序
+
+LDFLAGS  = -L${MEDIA_BUILD_ROOT_PATH}/build_tools/third_party/m${PLATFORM}/lib \
+		   -L${MEDIA_BUILD_ROOT_PATH}/build_tools/third_party/lib/m${PLATFORM} \
+		   -L.build/.lib/m${PLATFORM}/lib \
+		   -m${PLATFORM} -levent -levent_pthreads \
+		   -pthread -lpthread -Wl,--no-as-needed -ldl -lrt
+
+# RELEASE_CFLAGS 和 RELEASE_CXXFLAGS, 分别针对 C 程序和 C++ 程序, 独立设置
+RELEASE_CC = ${CC}
+RELEASE_CXX = ${CXX}
+RELEASE_CPPFLAGS = ${CPPFLAGS} -DNDEBUG -DUSE_TCMALLOC=1
+RELEASE_CFLAGS = ${CFLAGS} -DNDEBUG -O3 -ggdb3 -Wformat=2 -Wstrict-aliasing=3 \
+		-fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc \
+		-fno-builtin-free3 -Wframe-larger-than=65535 -fno-omit-frame-pointer
+
+RELEASE_CXXFLAGS = ${CXXFLAGS} -DNDEBUG -O3 -ggdb3 -Wformat=2 -Wstrict-aliasing=3 \
+		-fno-builtin-malloc -fno-builtin-calloc -fno-builtin-realloc \
+		-fno-builtin-free -Wframe-larger-than=65535 -fno-omit-frame-pointer
+
+# libunwind 一定要放在最后，libtcmalloc_and_profiler 一定要放在倒数第二
+RELEASE_LDFLAGS = ${LDFLAGS} -Wl,-Bstatic,-ltcmalloc_minimal -Wl,-Bdynamic
+
+# DEBUG_CFLAGS 和 DEBUG_CXXFLAGS, 分别针对 C 程序和 C++ 程序, 独立设置
+DEBUG_CC = ${CC}
+DEBUG_CXX = ${CXX}
+DEBUG_CPPFLAGS = ${CPPFLAGS} -ftest-coverage -fprofile-arcs #-DUSE_TCMALLOC=1 # -D_GLIBCXX_DEBUG
+DEBUG_CFLAGS = ${CFLAGS} -O0 -ggdb3 -Wformat=2 -Wstrict-aliasing=3 \
+		-fsanitize=address -fno-inline -fno-omit-frame-pointer \
+		-fno-builtin -fno-optimize-sibling-calls \
+		-Wframe-larger-than=65535 -fno-omit-frame-pointer
+
+DEBUG_CXXFLAGS = ${CXXFLAGS} -O0 -ggdb3 -Wformat=2 -Wstrict-aliasing=3 \
+		-fsanitize=address -fno-inline -fno-omit-frame-pointer -fno-builtin \
+		-fno-optimize-sibling-calls -Wframe-larger-than=65535 \
+		-fno-omit-frame-pointer
+
+# libunwind 一定要放在最后，libtcmalloc_and_profiler 一定要放在倒数第二
+DEBUG_LDFLAGS = -ftest-coverage -fprofile-arcs ${LDFLAGS} -static-libasan \
+				-Wl,-Bstatic,-lasan -Wl,-Bdynamic -ldl
+
+STATIC_DEBUG_CC = ${CC}
+STATIC_DEBUG_CXX = ${CXX}
+STATIC_DEBUG_CPPFLAGS = ${CPPFLAGS} -ftest-coverage -fprofile-arcs #-DUSE_TCMALLOC=1 # -D_GLIBCXX_DEBUG
+STATIC_DEBUG_CFLAGS = ${CFLAGS} -static -static-libgcc -O0 -ggdb3 -Wformat=2 \
+								-Wstrict-aliasing=3 -DSTATIC_LINK -fsanitize=address \
+								-fno-inline -fno-omit-frame-pointer -fno-builtin \
+								-fno-optimize-sibling-calls -Wframe-larger-than=65535 \
+								-fno-omit-frame-pointer
+
+STATIC_DEBUG_CXXFLAGS = ${CXXFLAGS} -static -static-libgcc -static-libstdc++ \
+									-DSTATIC_LINK -O0 -ggdb3 -Wformat=2 -Wstrict-aliasing=3 \
+									-fsanitize=address -fno-inline -fno-omit-frame-pointer \
+									-fno-builtin -fno-optimize-sibling-calls \
+									-Wframe-larger-than=65535 -fno-omit-frame-pointer
+
+# libunwind 一定要放在最后，libtcmalloc_and_profiler 一定要放在倒数第二
+STATIC_DEBUG_LDFLAGS = -ftest-coverage -fprofile-arcs ${LDFLAGS} -static \
+					   -static-libasan -lasan -ldl
+
+STATIC_RELEASE_CC = ${CC}
+STATIC_RELEASE_CXX = ${CXX}
+STATIC_RELEASE_CPPFLAGS = ${CPPFLAGS} -DNDEBUG -DUSE_TCMALLOC=1
+STATIC_RELEASE_CFLAGS = ${CFLAGS} -static -static-libgcc \
+								  -DSTATIC_LINK -DNDEBUG -O3 -ggdb3 -Wformat=2 \
+								  -Wstrict-aliasing=3 -fno-builtin-malloc \
+								  -fno-builtin-calloc -fno-builtin-realloc \
+								  -fno-builtin-free3 -Wframe-larger-than=65535 \
+								  -fno-omit-frame-pointer
+
+STATIC_RELEASE_CXXFLAGS = ${CXXFLAGS} -static -static-libgcc -static-libstdc++ \
+									  -DSTATIC_LINK -DNDEBUG -O3 -ggdb3 -Wformat=2 \
+									  -Wstrict-aliasing=3 -fno-builtin-malloc \
+									  -fno-builtin-calloc -fno-builtin-realloc \
+									  -fno-builtin-free -Wframe-larger-than=65535 \
+									  -fno-omit-frame-pointer
+
+# libunwind 一定要放在最后，libtcmalloc_and_profiler 一定要放在倒数第二
+STATIC_RELEASE_LDFLAGS = ${LDFLAGS} -static -Wl,-Bstatic,-ltcmalloc_minimal
+
+CPPLINT = python -m 'lmake.cpplint'
+
+PRINT = python -m 'lmake.blade3.color_print' green
+PRINT_WARNING = python -m 'lmake.blade3.color_print' yellow
+PRINT_ERROR = python -m 'lmake.blade3.color_print' red
+
+default: debug
+all: debug release
+test: debug_test
+all_test: debug_test release_test
+
+DEP_FILE = .build/include/release/git_version.h
+
+.PHONY: clean pre default all test all_test lint debug_test release_test \
+		test_until_die debug_test_until_die release_test_until_die ${DEP_FILE}
+
+${DEP_FILE}:
+	@mkdir -p .build/include/release
+	@echo "// Copyright (c) 2014-2018 Agora.io, Inc." >${DEP_FILE}
+	@echo "// Basic git-version support" >>${DEP_FILE}
+	@echo "//" >>${DEP_FILE}
+	@echo "#pragma once  // NOLINT(build/header_guard)" >>${DEP_FILE}
+	@echo "" >>${DEP_FILE}
+	@echo "#if !defined(BUILD_TIME)" >>${DEP_FILE}
+	@echo "#define BUILD_TIME __DATE__ \" \"  __TIME__" >>${DEP_FILE}
+	@echo "#endif" >>${DEP_FILE}
+	@echo "" >>${DEP_FILE}
+	@touch ${DEP_FILE}
+
+
+pre: .build/pb/c++ .build/.lib/m32/include .build/.lib/m64/include ${DEP_FILE}
+
+.build/pb/c++:
+	@mkdir -p .build/pb/c++
+
+.build/.lib/m32/include:
+	@mkdir -p .build/.lib/m32/include
+
+.build/.lib/m64/include:
+	@mkdir -p .build/.lib/m64/include
+
+%.h:
+	@[ ! -f $@ ] && ${PRINT} && ${PRINT_ERROR} ".h file not found: $@" && \
+		${PRINT_ERROR} "try to run 'make clean' before running 'make' again." && \
+		${PRINT} && false
+
+internal_debug_test_until_die:
+	test_until_die_pass=0; \
+  while true; \
+  do\
+	make debug_test; \
+	[ $$? -ne 0 ] && break; \
+	test_until_die_pass=`expr $$test_until_die_pass + 1`; \
+  done; \
+  ${PRINT} "stopped at pass $$test_until_die_pass"
+
+internal_release_test_until_die:
+	test_until_die_pass=0; \
+  while true; \
+  do \
+	make release_test; \
+	[ $$? -ne 0 ] && break; \
+	test_until_die_pass=`expr $$test_until_die_pass + 1`; \
+  done; \
+  ${PRINT} "stopped at pass $$test_until_die_pass"
+
+internal_test_until_die:
+	test_until_die_pass=0; \
+  while true; \
+  do \
+	make debug_test; \
+	[ $$? -ne 0 ] && break; \
+	make release_test; \
+	[ $$? -ne 0 ] && break; \
+	test_until_die_pass=`expr $$test_until_die_pass + 1`; \
+  done; \
+  ${PRINT} "stopped at pass $$test_until_die_pass"
+
+internal_no_test_defined:
+	@${PRINT_WARNING} 'No test defined in your BUILD files'
+
+check_list_file:
+	@if [ ! -f .blade/all_deps ]; then \
+	  ${PRINT_ERROR} "list file '.blade/all_deps' not found. please run " \
+			"gen_makefile.sh again to generate it."; \
+		exit 1; \
+	fi
+
+regen_makefile: check_list_file
+	@python ${MEDIA_BUILD_ROOT_PATH}/build_tools/blade3/regen_makefile.py .blade/all_deps
+
+clean:
+	rm -rf .build
