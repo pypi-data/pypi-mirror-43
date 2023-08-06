@@ -1,0 +1,3 @@
+[console_scripts]
+cfs = cf.__main__:main
+
