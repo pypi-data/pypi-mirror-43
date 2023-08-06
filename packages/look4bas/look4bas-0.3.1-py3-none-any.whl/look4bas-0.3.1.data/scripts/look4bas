@@ -1,0 +1,3 @@
+#!python
+from look4bas.cli import main
+main()
