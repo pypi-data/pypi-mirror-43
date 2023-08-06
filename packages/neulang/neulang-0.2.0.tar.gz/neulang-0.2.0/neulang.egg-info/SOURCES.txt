@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+neulang/__init__.py
+neulang/adapt_resolver.py
+neulang/astir.py
+neulang/base.py
+neulang/core.py
+neulang/main.py
+neulang/omp.py
+neulang/resolvers.py
+neulang.egg-info/PKG-INFO
+neulang.egg-info/SOURCES.txt
+neulang.egg-info/dependency_links.txt
+neulang.egg-info/entry_points.txt
+neulang.egg-info/requires.txt
+neulang.egg-info/top_level.txt
