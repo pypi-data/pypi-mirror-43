@@ -1,0 +1,9 @@
+pyepicollect/__init__.py,sha256=kq4744QxhTzhATmsnhhYD-7D5iBofAS5D55EJpUe2Oo,151
+pyepicollect/api.py,sha256=M7QviOnGoVvv6mvW2K4fv1nEKKsYRCxl25cV4OWTauo,3362
+pyepicollect/auth.py,sha256=8snyPE7-y5gzQiD-WorP0uo8FiffhlAVzhxD1kBdSSk,702
+tests/__init__.py,sha256=jy496EXPBqj5HuByl9SyWJhrneQbV25WNVbnUKxXoXk,50
+tests/test_auth.py,sha256=YRECak48GNNa5ihNzEd_bYnOPqDjmapJw17O16zU1fI,1557
+pyepicollect-5.1.0.dist-info/METADATA,sha256=wSJa8WsYGHRt_XooOI4kC51cyy1l68A5NzkPWs8A6SU,1393
+pyepicollect-5.1.0.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+pyepicollect-5.1.0.dist-info/top_level.txt,sha256=DOxNfSDLaXlN4avO70NcSTPUSC0ukFGvLGSQEmYZlN0,19
+pyepicollect-5.1.0.dist-info/RECORD,,
