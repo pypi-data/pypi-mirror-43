@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pyalisuredemo/__init__.py
+pyalisuredemo/python_1.py
+pyalisuredemo/python_2.py
+pyalisuredemo.egg-info/PKG-INFO
+pyalisuredemo.egg-info/SOURCES.txt
+pyalisuredemo.egg-info/dependency_links.txt
+pyalisuredemo.egg-info/top_level.txt

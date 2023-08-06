@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pyalisuredemo
+Version: 0.0.1
+Summary: Pip Demo.
+Home-page: https://github.com/alisure-ml/pyalisure
+Author: ALISURE
+Author-email: 562282219@qq.com
+License: BSD License
+Description-Content-Type: UNKNOWN
+Description: - Demo for Pip
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
