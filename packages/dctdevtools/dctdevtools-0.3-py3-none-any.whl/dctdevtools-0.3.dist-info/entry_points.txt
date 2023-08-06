@@ -1,0 +1,3 @@
+[console_scripts]
+dctdevtools = dctdevtools.__main__:run
+

@@ -1,0 +1,9 @@
+dctdevtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dctdevtools/__main__.py,sha256=EZvpxBeFSCO9Gn9LB5lPOBjNc3OTHmM2BeBaDH89qhU,249
+dctdevtools/odoo_modules.py,sha256=RxRCUuFwREFQdx26JJektPvdt5bsl33RSAz9o1KTb0s,3885
+dctdevtools-0.3.data/scripts/dctdevtools,sha256=n6DFY2jAeDchV3Rio0Pij3wtIArqcaPV89uDhs8zxOc,94
+dctdevtools-0.3.dist-info/METADATA,sha256=oQwu7xX6z7oyUhWvsCo5IogDyHQTpG4zKckI1Sip2CQ,201
+dctdevtools-0.3.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+dctdevtools-0.3.dist-info/entry_points.txt,sha256=3sUbIRyDWdtXADm11epNTZjB4AI9anZpN2K5J-3VgZs,58
+dctdevtools-0.3.dist-info/top_level.txt,sha256=8EfyvR2nPAOTrx4FFqrFOj_hq5ZKuLNMHixcsyfxb7g,12
+dctdevtools-0.3.dist-info/RECORD,,
