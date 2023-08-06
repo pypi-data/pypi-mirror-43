@@ -1,0 +1,10 @@
+mezzanine_cartridge_api/__init__.py,sha256=hUWkSikE2TSlgLKuid6bWSwSwh5DTVzm2audneiToV0,412
+mezzanine_cartridge_api/apps.py,sha256=tjVHuTJJe4hsfoLQt-tSbk7k4WiKDnGXUmCDGpH-ABw,119
+mezzanine_cartridge_api/serializers.py,sha256=0AApnyY5b90_yhI_6spf44HoQWzfhHClPn1RuVQgYkY,4451
+mezzanine_cartridge_api/settings.py,sha256=PfGecXTUIGuiM5Ct0pczYXqPQlAiNZBqeueeV-t1m6U,1781
+mezzanine_cartridge_api/urls.py,sha256=lN-efur5PNetmfOhJ9UoTu98-cFUE1DdtJpQIYN7-94,1919
+mezzanine_cartridge_api/views.py,sha256=rlacZ9VYgBiWrFJz-XMgpxz7T4XHVb10BZVb0auL0U4,9107
+mezzanine_cartridge_api-1.0.0.dist-info/METADATA,sha256=llaUfeO-JH0q0ti38v3DiyR_jW6aJPRWXP20dyKL6pQ,3982
+mezzanine_cartridge_api-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mezzanine_cartridge_api-1.0.0.dist-info/top_level.txt,sha256=5C6KQi6Zz0CB1rUJFFCqVWYgROWLMPmf1rOx5WDJyQs,24
+mezzanine_cartridge_api-1.0.0.dist-info/RECORD,,
