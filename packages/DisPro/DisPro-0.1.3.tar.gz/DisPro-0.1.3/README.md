@@ -1,0 +1,25 @@
+DisPro: The Distributed Processing Framework
+============================================
+![PyPI](https://img.shields.io/pypi/v/DisPro.svg)
+![GitHub](https://img.shields.io/github/license/cmsteffen-code/DisPro.svg)
+![Documentation Status](https://readthedocs.org/projects/dispro/badge/?version=latest)](https://dispro.readthedocs.io/en/latest/?badge=latest)
+![GitHub issues](https://img.shields.io/github/issues-raw/cmsteffen-code/DisPro.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/cmsteffen-code/DisPro.svg)
+
+
+The DisPro framework allows you to employ distributed processing in your project by deploying numerous worker nodes across the internet, all controlled by a central master server. DisPro allows you to focus on implementing the unique functionality specific to your project, without having to reinvent the wheel to implement distributed processing.
+
+*Please note, DisPro does not make any assumptions as to the nature of your project, such as data types, databases, front-ends, etc. All of this is left up to the users.*
+
+Core Components
+---------------
+
+DisPro implements the two core components required to produce a distributed processing network:
+
+**Worker**
+
+The Worker is the distributed aspect of the DisPro framework, capable of being deployed on remote systems, communicating with the Master in order to request new tasks and transmit the results of its labor.
+
+**Master**
+
+The Master is responsible for the delegation of tasks to each remote Worker, as well as the processing and storage of all returned results. It is managed by the Master.

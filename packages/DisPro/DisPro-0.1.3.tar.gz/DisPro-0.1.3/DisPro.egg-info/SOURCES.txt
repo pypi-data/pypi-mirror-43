@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+DisPro.egg-info/PKG-INFO
+DisPro.egg-info/SOURCES.txt
+DisPro.egg-info/dependency_links.txt
+DisPro.egg-info/top_level.txt
+dispro/__init__.py
+dispro/const.py
