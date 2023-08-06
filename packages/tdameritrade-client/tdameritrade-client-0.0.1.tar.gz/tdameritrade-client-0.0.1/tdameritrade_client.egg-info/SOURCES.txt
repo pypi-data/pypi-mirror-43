@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+tdameritrade_client/__init__.py
+tdameritrade_client/auth.py
+tdameritrade_client/client.py
+tdameritrade_client.egg-info/PKG-INFO
+tdameritrade_client.egg-info/SOURCES.txt
+tdameritrade_client.egg-info/dependency_links.txt
+tdameritrade_client.egg-info/requires.txt
+tdameritrade_client.egg-info/top_level.txt
+tdameritrade_client/utils/__init__.py
+tdameritrade_client/utils/urls.py
+tests/__init__.py
+tests/test_tdauth.py
+tests/test_tdclient.py
