@@ -1,0 +1,8 @@
+README.md
+setup.py
+styled_log.py
+styled_log.egg-info/PKG-INFO
+styled_log.egg-info/SOURCES.txt
+styled_log.egg-info/dependency_links.txt
+styled_log.egg-info/requires.txt
+styled_log.egg-info/top_level.txt
