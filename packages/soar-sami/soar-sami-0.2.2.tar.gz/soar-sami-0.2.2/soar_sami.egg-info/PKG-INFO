@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: soar-sami
+Version: 0.2.2
+Summary: Data-Reduction Pipeline for the SAM Imager, a facility instrument at SOAR Telescope
+Home-page: https://github.com/soar-telescope/sami
+Author: Bruno Quint, 
+Author-email: bquint@ctio.noao.edu
+License: BSD 3-clause "New" or "Revised License"
+Description: UNKNOWN
+Keywords: soar pipelines astronomy images
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
