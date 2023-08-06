@@ -1,0 +1,41 @@
+[
+{
+    "pk": 1, 
+    "model": "accounts.user", 
+    "fields": 
+    {
+        "username": "john", 
+        "first_name": "John", 
+        "last_name": "Doe", 
+        "email": "john@example.com", 
+        "timezone": "Europe/Istanbul",
+        "locale": "tr-tr",
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "password": "pbkdf2_sha256$120000$quGL0NaiEIJ0$ro0l7vj3bLbWW3Ilz0k3UcHm3kWYu4Wi759v7W5E2IA=", 
+        "activation_key": "ALREADY_ACTIVATED",
+        "last_login": "2012-12-31T22:00:00Z", 
+        "date_joined": "2012-12-31T22:00:00Z"
+    }
+}, 
+{
+    "pk": 2, 
+    "model": "accounts.user", 
+    "fields": 
+    {
+        "username": "jane", 
+        "first_name": "Jane", 
+        "last_name": "Doe", 
+        "email": "jane@example.com",
+        "timezone": "Europe/Istanbul",
+        "locale": "en-us",
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": false, 
+        "password": "pbkdf2_sha256$120000$quGL0NaiEIJ0$ro0l7vj3bLbWW3Ilz0k3UcHm3kWYu4Wi759v7W5E2IA=", 
+        "last_login": "2012-12-31T22:00:00Z", 
+        "date_joined": "2012-12-31T22:00:00Z"
+    }
+}
+]
