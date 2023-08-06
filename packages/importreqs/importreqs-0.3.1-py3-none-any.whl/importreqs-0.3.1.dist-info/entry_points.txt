@@ -1,0 +1,3 @@
+[console_scripts]
+importreqs = importreqs.cli:main
+
