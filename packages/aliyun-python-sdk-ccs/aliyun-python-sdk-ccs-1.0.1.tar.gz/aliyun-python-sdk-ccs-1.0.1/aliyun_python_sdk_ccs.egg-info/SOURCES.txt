@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_ccs.egg-info/PKG-INFO
+aliyun_python_sdk_ccs.egg-info/SOURCES.txt
+aliyun_python_sdk_ccs.egg-info/dependency_links.txt
+aliyun_python_sdk_ccs.egg-info/requires.txt
+aliyun_python_sdk_ccs.egg-info/top_level.txt
+aliyunsdkccs/__init__.py
+aliyunsdkccs/request/__init__.py
+aliyunsdkccs/request/v20171001/CreateTicketRequest.py
+aliyunsdkccs/request/v20171001/GetHotlineRecordRequest.py
+aliyunsdkccs/request/v20171001/ProceedTicketRequest.py
+aliyunsdkccs/request/v20171001/QueryHotlineRecordRequest.py
+aliyunsdkccs/request/v20171001/QueryTicketRequest.py
+aliyunsdkccs/request/v20171001/__init__.py
