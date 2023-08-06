@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: hydrus
+Version: 0.2.1
+Summary: Hydra Ecosystem Flagship Server
+Home-page: https://github.com/HTTP-APIs/hydrus
+Author: Hydra Ecosystem
+Author-email: hydraecosystem@googlegroups.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
