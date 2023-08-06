@@ -1,0 +1,9 @@
+ss_py/__init__.py,sha256=0IegRxzgqwIGBh9R1prhVheUSBygDDZdJtYROM9xCt8,613
+ss_py/__main__.py,sha256=XIrjWaBECZMsV9E9hsqrysYfQVYeP9UdRibgKxrPvCY,91
+ss_py/ssprofile.py,sha256=lkekS3okO04dIOIWZrJGxfy7JpXOQb5CBLgumzscuZo,1655
+ss_py/sstool.py,sha256=DtN12Q-ovfRFPyQ1bq0yPTvKb_T8J1-yjTypBosaTXY,1116
+ss_py-2019.3.13.1.dist-info/METADATA,sha256=pe6dcQVD1FIfcYZtYQ0agC6Pco9ZQ5L03MaTpn_8DxI,205
+ss_py-2019.3.13.1.dist-info/WHEEL,sha256=NvLheO0f8_uAcwoMijaCN7IVIIaldpzEnN1plXS6P6E,97
+ss_py-2019.3.13.1.dist-info/entry_points.txt,sha256=qCr1i_y5MArl229mEmOag67vr9NzLz5Wb3vwsOuhGg0,38
+ss_py-2019.3.13.1.dist-info/top_level.txt,sha256=wMYciHXJyLHvjhTzkF6HThdV9pLxxR-q55xlEQiyN3c,6
+ss_py-2019.3.13.1.dist-info/RECORD,,
