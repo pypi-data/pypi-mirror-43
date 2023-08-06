@@ -1,0 +1,2 @@
+tendril-utils-core>=0.1.4
+fs==0.5.4
