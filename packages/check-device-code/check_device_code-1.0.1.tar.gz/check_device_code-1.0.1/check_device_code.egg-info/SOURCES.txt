@@ -1,0 +1,7 @@
+README.md
+setup.py
+check_device_code/__init__.py
+check_device_code.egg-info/PKG-INFO
+check_device_code.egg-info/SOURCES.txt
+check_device_code.egg-info/dependency_links.txt
+check_device_code.egg-info/top_level.txt
