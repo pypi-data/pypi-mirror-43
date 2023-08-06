@@ -1,0 +1,10 @@
+setup.py
+bayescorner/__init__.py
+bayescorner/__version__.py
+bayescorner/compute_sigma_level.py
+bayescorner/corner.py
+bayescorner.egg-info/PKG-INFO
+bayescorner.egg-info/SOURCES.txt
+bayescorner.egg-info/dependency_links.txt
+bayescorner.egg-info/requires.txt
+bayescorner.egg-info/top_level.txt
