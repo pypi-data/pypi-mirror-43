@@ -1,0 +1,3 @@
+[console_scripts]
+ros-lab = ros_lab.entry:main
+
