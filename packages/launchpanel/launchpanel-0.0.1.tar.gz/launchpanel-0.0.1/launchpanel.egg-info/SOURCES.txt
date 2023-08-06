@@ -1,0 +1,6 @@
+setup.py
+launchpanel/__init__.py
+launchpanel.egg-info/PKG-INFO
+launchpanel.egg-info/SOURCES.txt
+launchpanel.egg-info/dependency_links.txt
+launchpanel.egg-info/top_level.txt
