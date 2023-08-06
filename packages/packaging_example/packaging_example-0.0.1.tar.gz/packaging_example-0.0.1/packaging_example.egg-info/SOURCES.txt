@@ -1,0 +1,8 @@
+setup.py
+packaging_example/__init__.py
+packaging_example/methods.py
+packaging_example.egg-info/PKG-INFO
+packaging_example.egg-info/SOURCES.txt
+packaging_example.egg-info/dependency_links.txt
+packaging_example.egg-info/not-zip-safe
+packaging_example.egg-info/top_level.txt
