@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: pyalisure
+Version: 0.0.1
+Summary: 写程序的时候发现有很多常用的方法，每次都需要实现，因此我把这些功能抽取出来，写成一个pyhton包并发布出来。
+Home-page: https://github.com/alisure-ml/pyalisure
+Author: ALISURE
+Author-email: 562282219@qq.com
+License: BSD License
+Description-Content-Type: UNKNOWN
+Description: - First item with some lengthy
+          text wrapping hopefully
+          across several lines.
+        
+          * We can have subitems
+          * separated by a blank line
+          * and indented.
+        
+        - Second item
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
