@@ -1,0 +1,15 @@
+toil_say/VERSION,sha256=6d2FB_S_DG9CRY5BrqgzrQvT9hJycjNe7pv01YVB7Wc,6
+toil_say/__init__.py,sha256=FjxJOBhZJ0_jGd10WqFMgM9k6ejqrdvcfCV53FW6FMA,273
+toil_say/__main__.py,sha256=6HYyMpSokuDbd3SWi_2-qis8Wh1y6ZwY7J5ytH6BhsU,347
+toil_say/cli.py,sha256=RmHj4fjBsXMBoeaudz1GqoLfrIVqv_dtawfMMB8kWKE,716
+toil_say/commands.py,sha256=Jwr5GVnrVDjNvtPfxUfD0o2h6D23ZmoFXa_NDewhGqg,3055
+toil_say/exceptions.py,sha256=bM0Z1-qRTv19PbxI17r1w54T5yi3RjkngJvwE9zKLM8,892
+toil_say/utils.py,sha256=_4K-asVfOYoNwP5qqqC_eXVmdSDA5FlFeyrf6-z9jLc,621
+toil_say/validators.py,sha256=qz5kQxooPLIdd_bXpsgpvMSqiWg5JkZYMUEyeriBhC4,1647
+toil_say/data/README.md,sha256=eMBsTHJbN6BGTFzVWNxpAro3k7FIvdIZMWECvqIhJcE,315
+toil_say-0.1.0.dist-info/LICENSE,sha256=hxxeyPNWIxNIfBwruIv81ACSBxBe4gi2LsW6u3C8Q-A,1083
+toil_say-0.1.0.dist-info/METADATA,sha256=GUUSw2AlTs0Gl-oN5vNeyjWLv5EftQ32CwS15iSywXo,1218
+toil_say-0.1.0.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+toil_say-0.1.0.dist-info/entry_points.txt,sha256=YWD2d9koq8WddlZW41g674Xs-AWk2g0Bc37OunXAdWU,48
+toil_say-0.1.0.dist-info/top_level.txt,sha256=V8zU3V8reNFiEg_o1cpDQ_vhVgoL32WsfTjkwA7nY4g,9
+toil_say-0.1.0.dist-info/RECORD,,
