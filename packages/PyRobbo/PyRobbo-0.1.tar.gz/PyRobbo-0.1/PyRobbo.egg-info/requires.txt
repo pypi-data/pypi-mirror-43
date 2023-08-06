@@ -1,0 +1,4 @@
+PyYAML
+appdirs
+pygame
+setuptools
