@@ -1,0 +1,7 @@
+setuptools
+pyyaml
+requests
+mock
+requests_mock
+MySQL-python
+PyXML>=0.8.4
