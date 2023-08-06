@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyShEx
+Version: 0.7.10
+Summary: Python ShEx Implementation
+Home-page: https://github.com/hsolbrig/PyShEx
+Author: Harold Solbrig
+Author-email: solbrig@jhu.edu
+License: Apache 2.0
+Keywords: ShEx
+Requires-Dist: cfgraph (>=0.2.1)
+Requires-Dist: pyshexc (>=0.5.4)
+Requires-Dist: rdflib-jsonld (>=0.4.0)
+Requires-Dist: rdflib (>=4.2.2)
+Requires-Dist: requests
+Requires-Dist: shexjsg (>=0.6.5)
+Requires-Dist: sparql-slurper (>=0.2.1)
+Requires-Dist: sparqlwrapper
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
