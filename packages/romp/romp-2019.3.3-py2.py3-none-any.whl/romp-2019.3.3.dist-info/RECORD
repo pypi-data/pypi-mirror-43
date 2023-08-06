@@ -1,0 +1,10 @@
+romp/__init__.py,sha256=PiUSiFLCm0YX5rbHS4xOLGdqdPDC8j3etV3nmEaelzI,92
+romp/_core.py,sha256=5GXb4KmhVhLgOQ27ePjpuJ46YqS2LGadHC04VKWKwvA,4413
+romp/_version.py,sha256=NGKWZq9P8na4RCNYfOt5uks8VIXD3CmjXOjGOWYcDDs,500
+romp/cli.py,sha256=EssgSelV_hA4wxdv30UcQ_SICH7F1ujmW7AXRtoPeQo,4309
+romp-2019.3.3.dist-info/LICENSE,sha256=siL8rptM-HFf6aOSRcr_OhVPrAfv0vWuU4NKf39oyw8,1071
+romp-2019.3.3.dist-info/METADATA,sha256=eexnFjmkL8mxv0ruxLSAUBHi98T47J1zRAJ2HySQWvQ,2046
+romp-2019.3.3.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+romp-2019.3.3.dist-info/entry_points.txt,sha256=oVJ2QNbHFR70I-8AznI60pbw-u53MuMbUyB77Q6LavQ,40
+romp-2019.3.3.dist-info/top_level.txt,sha256=OVEFyZ4dRUSzy-UjshilkHPszBI-uIOoiPYwctPohpM,5
+romp-2019.3.3.dist-info/RECORD,,
