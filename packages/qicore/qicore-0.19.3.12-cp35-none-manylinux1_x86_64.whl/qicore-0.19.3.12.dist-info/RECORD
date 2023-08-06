@@ -1,0 +1,9 @@
+qicore/__init__.py,sha256=WV1y6yNRjmiWnzVRwLLCTaNUmbRsB5CP07iznqFuF18,1008
+qicore/version.py,sha256=6dDMasYTNHE9hV2X23DiYaNXMf664twUqBoqOpwORhk,68
+qicore/linux/lib/libqicore.so,sha256=FkJBtkSG1m80hWnoAw45HwBrIO6NhKjnEDHWqHLY7Ao,2033968
+qicore/linux/share/qi/module/qicore.mod,sha256=st3_n7dR9Y75QOgD4nJcJed-luRnmOMrSoGkUl0VO1I,4
+qicore-0.19.3.12.dist-info/LICENSE.txt,sha256=JzQA36qe9hGYgJxwt2LysExpjUZe8xvERreMYqVJjVo,36
+qicore-0.19.3.12.dist-info/METADATA,sha256=cqQfcutjYc8fAULV48OP2sg38UGuojyd8UhtyvSywDA,676
+qicore-0.19.3.12.dist-info/WHEEL,sha256=oRYIpiRHUSUAZJFZvUPwoY7mPlhx5Py0nnhdROglOFM,107
+qicore-0.19.3.12.dist-info/top_level.txt,sha256=_yDYl0orjEIe_ZwK2RIIm5SDFd_tII8yw3684_5nTLE,7
+qicore-0.19.3.12.dist-info/RECORD,,
