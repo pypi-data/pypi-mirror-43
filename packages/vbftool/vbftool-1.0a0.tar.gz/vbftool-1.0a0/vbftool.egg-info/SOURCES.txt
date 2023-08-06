@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tests/reference.vbf
+vbftool/__init__.py
+vbftool/checksum.py
+vbftool/options.py
+vbftool/vbf.py
+vbftool.egg-info/PKG-INFO
+vbftool.egg-info/SOURCES.txt
+vbftool.egg-info/dependency_links.txt
+vbftool.egg-info/requires.txt
+vbftool.egg-info/top_level.txt
