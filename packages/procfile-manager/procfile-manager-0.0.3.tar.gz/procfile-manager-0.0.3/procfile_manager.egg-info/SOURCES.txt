@@ -1,0 +1,13 @@
+MANIFEST.in
+Makefile
+setup.py
+.github/README.md
+procfile_manager/__init__.py
+procfile_manager/__main__.py
+procfile_manager/command.py
+procfile_manager.egg-info/PKG-INFO
+procfile_manager.egg-info/SOURCES.txt
+procfile_manager.egg-info/dependency_links.txt
+procfile_manager.egg-info/entry_points.txt
+procfile_manager.egg-info/requires.txt
+procfile_manager.egg-info/top_level.txt
