@@ -1,0 +1,13 @@
+appex/__init__.pyi,sha256=WXs6q-9teAv0OGav24Uk-W2pyOuDptxTKM2K9H1k5GM,684
+appex-stubs/__init__.pyi,sha256=WXs6q-9teAv0OGav24Uk-W2pyOuDptxTKM2K9H1k5GM,684
+clipboard/__init__.pyi,sha256=hP-_Z4ILc0vY5zw0E-nFTofi7Kvc6TXzw0XBjt92Jfs,274
+clipboard-stubs/__init__.pyi,sha256=hP-_Z4ILc0vY5zw0E-nFTofi7Kvc6TXzw0XBjt92Jfs,274
+console/__init__.pyi,sha256=c06ExZwGtLBpDQ8s9ngC8Kx5wxJdO6vtG3FWvvK7fA0,1486
+console-stubs/__init__.pyi,sha256=c06ExZwGtLBpDQ8s9ngC8Kx5wxJdO6vtG3FWvvK7fA0,1486
+reminders/__init__.pyi,sha256=nOES9PyjLw-6hJWCOKtwwXO0A4XhG4zLfyHsRZxUoMU,888
+reminders-stubs/__init__.pyi,sha256=nOES9PyjLw-6hJWCOKtwwXO0A4XhG4zLfyHsRZxUoMU,888
+pythonista_stubs-0.0.2.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+pythonista_stubs-0.0.2.dist-info/METADATA,sha256=zfdSpKUF1HJM2OBWbRzcrPbmNTHQT1OIgOplSHfre4U,5807
+pythonista_stubs-0.0.2.dist-info/WHEEL,sha256=ZenmQtjt4etEZlyoFFA3Bd8pVkjneWord4ycgKmVLx4,92
+pythonista_stubs-0.0.2.dist-info/top_level.txt,sha256=glQ88RuMUT7yMtibALl16Tjl2_msMWpEDZWhOT02kFI,58
+pythonista_stubs-0.0.2.dist-info/RECORD,,
