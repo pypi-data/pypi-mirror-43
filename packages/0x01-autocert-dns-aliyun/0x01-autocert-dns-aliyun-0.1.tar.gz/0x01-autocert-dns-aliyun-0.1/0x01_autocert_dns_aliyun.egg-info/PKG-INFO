@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: 0x01-autocert-dns-aliyun
+Version: 0.1
+Summary: Aliyun DNS plugin for autocert project
+Home-page: https://github.com/Smart-Hypercube/autocert
+Author: Hypercube
+Author-email: hypercube@0x01.me
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
