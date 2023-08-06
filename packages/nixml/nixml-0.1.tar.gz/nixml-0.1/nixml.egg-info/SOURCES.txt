@@ -1,0 +1,15 @@
+README.md
+setup.py
+nixml/__init__.py
+nixml/generate.py
+nixml/main.py
+nixml/nixml_version.py
+nixml.egg-info/PKG-INFO
+nixml.egg-info/SOURCES.txt
+nixml.egg-info/dependency_links.txt
+nixml.egg-info/entry_points.txt
+nixml.egg-info/top_level.txt
+nixml/languages/__init__.py
+nixml/languages/nix.py
+nixml/languages/python.py
+nixml/languages/texlive.py
