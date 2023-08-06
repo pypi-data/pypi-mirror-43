@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    swagger11-codegen = trio_swagger11.codegen:main
+    
