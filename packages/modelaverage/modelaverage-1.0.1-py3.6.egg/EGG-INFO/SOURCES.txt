@@ -1,0 +1,9 @@
+README.md
+setup.py
+modelaverage/__init__.py
+modelaverage/average.py
+modelaverage.egg-info/PKG-INFO
+modelaverage.egg-info/SOURCES.txt
+modelaverage.egg-info/dependency_links.txt
+modelaverage.egg-info/requires.txt
+modelaverage.egg-info/top_level.txt
