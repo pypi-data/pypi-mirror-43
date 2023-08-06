@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: marmo-tester
+Version: 0.0.9
+Summary: Marmo wallet Python SDK
+Home-page: UNKNOWN
+Author: Agustin Aguilar
+Author-email: agusxrun@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
