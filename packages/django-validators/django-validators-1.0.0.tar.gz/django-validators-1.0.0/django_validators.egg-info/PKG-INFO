@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-validators
+Version: 1.0.0
+Summary: Django validators used for commonly used validations
+Home-page: https://github.com/devangpadhiyar/django-validators
+Author: Devang Padhiyar
+Author-email: devangpadhiyar700@gmail.com
+License: UNKNOWN
+Description: #  Django Validators
+        
+        
+        ### Quick start
+        
+        1. Install `django-validators` using `pip`
+        
+            `pip install django-validators`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

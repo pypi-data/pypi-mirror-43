@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+django_validators.egg-info/PKG-INFO
+django_validators.egg-info/SOURCES.txt
+django_validators.egg-info/dependency_links.txt
+django_validators.egg-info/requires.txt
+django_validators.egg-info/top_level.txt
+djangovalidators/__init__.py
+djangovalidators/apps.py
+djangovalidators/validators.py
