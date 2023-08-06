@@ -1,0 +1,8 @@
+README.rst
+setup.py
+cookiecutter_django_backend.egg-info/PKG-INFO
+cookiecutter_django_backend.egg-info/SOURCES.txt
+cookiecutter_django_backend.egg-info/dependency_links.txt
+cookiecutter_django_backend.egg-info/not-zip-safe
+cookiecutter_django_backend.egg-info/requires.txt
+cookiecutter_django_backend.egg-info/top_level.txt
