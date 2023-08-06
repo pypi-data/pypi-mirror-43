@@ -1,0 +1,4 @@
+[console_scripts]
+hello = hello_pypi_ye:hello
+pypi = hello_pypi_ye:pypi
+
