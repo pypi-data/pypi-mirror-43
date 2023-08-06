@@ -1,0 +1,10 @@
+GooCalendar-0.5.dist-info/DESCRIPTION.rst,sha256=qRURbV0sMT0lr8KfGgM2MnbxR6SJKjJ9ew_zkN-dj1E,406
+GooCalendar-0.5.dist-info/METADATA,sha256=54PxHOyfjF-tuA9UFRskAyEWeVF-ZU6NI5E2oSKK_2Q,1225
+GooCalendar-0.5.dist-info/RECORD,,
+GooCalendar-0.5.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+GooCalendar-0.5.dist-info/metadata.json,sha256=UcrjiyAYhSF1-TuciW3gYgFftnxzPnvqRolPNcc3qhY,941
+GooCalendar-0.5.dist-info/top_level.txt,sha256=ddDl4JFAaoq-YMqbObvgXEGY8UiDteM-9wXxsB7i_og,12
+goocalendar/__init__.py,sha256=1vSKsw2liSci_sggBazSBEQA5iupHl64rnZcL_9K2N4,401
+goocalendar/_calendar.py,sha256=MLGd1Dkt-_vlKWIt0bQPyHwqFAiYErk4fDtqyjiEUCA,56410
+goocalendar/_event.py,sha256=8qJgbCFzL1kVsRjwojrHWZdIIThjE72GQ0XJ482qq-I,3055
+goocalendar/util.py,sha256=uo0w6oUt_qd5RyjVzb312KIOUhZaV1Z9BP-NXpn2RQk,7673
