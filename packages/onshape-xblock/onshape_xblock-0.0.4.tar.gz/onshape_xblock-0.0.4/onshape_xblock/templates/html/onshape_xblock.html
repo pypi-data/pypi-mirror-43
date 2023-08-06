@@ -1,0 +1,70 @@
+<div class="activetable_block">
+
+
+    {% if help_text %}
+    <div class="activetable-help">
+      <button id="activetable-help-button" aria-controls="activetable-help-text" aria-haspopup="true"
+              aria-expanded="false">+help</button>
+      <p id="activetable-help-text">{{ help_text }}</p>
+    </div>
+    {% endif %}
+
+    <h3 class="myxblock-prompt">{{ prompt }}</h3>
+
+    <div>
+        <label for="onshape_url" class="sr">Onshape Element URL:</label>
+        <input id="onshape_url" class="myxblock-documentUrl" type="text"/>
+    </div>
+
+    <div class="action" >
+        <button id="check_button"><span class="check-label btn btn-default has-spinner">Check Your Answer</span></button>
+    </div>
+
+    <div id="attempt_counter" class="submission-feedback" aria-live="polite" ></div>
+    <div id="status_message"></div>
+    <ul id="response_list" class="check-list" aria-live="polite" ></ul>
+    <div id="total_points_counter" class="submission-feedback" aria-live="polite" ></div>
+
+    <div class="action">
+        <button id="final_submit_button"><span class="check-label btn btn-default has-spinner">Submit Current Answer</span></button>
+    </div>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <div class="container" style="margin-top:150px">
+      <button class="btn btn-default has-spinner" id="btnTest">Trigger Spinner</button>
+    </div>
+
+    <script>
+
+
+      (function($) {
+        $.fn.buttonLoader = function(action) {
+          var self = $(this);
+          //start loading animation
+          if (action === 'start') {
+            if ($(self).attr("disabled") == "disabled") {
+              e.preventDefault();
+            }
+            //disable buttons when loading state
+            $('.has-spinner').attr("disabled", "disabled");
+            $(self).attr('data-btn-text', $(self).text());
+            //binding spinner element to button and changing button text
+            $(self).html('<span class="spinner"><i class="fa fa-spinner fa-spin"></i></span>Loading');
+            $(self).addClass('active');
+          }
+          //stop loading animation
+          if (action === 'stop') {
+            $(self).html($(self).attr('data-btn-text'));
+            $(self).removeClass('active');
+            //enable buttons after finish loading
+            $('.has-spinner').removeAttr("disabled");
+          }
+        }
+      })(jQuery);
+
+    </script>
+
+</div>
+
