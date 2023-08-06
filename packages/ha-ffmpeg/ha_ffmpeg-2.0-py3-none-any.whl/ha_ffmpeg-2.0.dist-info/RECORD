@@ -1,0 +1,10 @@
+haffmpeg/__init__.py,sha256=Bh7PadmlLd-_vYMHMKSHcsxEhjRPQWD5QHphudsLdy0,90
+haffmpeg/camera.py,sha256=oyB90Z_frepVGdJVGXBnUAAOBZ0rLAY7N8VYjF3NnDM,608
+haffmpeg/core.py,sha256=wQ9mJIBKuuqEXh-SLMzdRy4VqSXxRS9m2OcnYPb6lIY,8565
+haffmpeg/sensor.py,sha256=5l-TMt5Eh8oLQZKz6uLyW_gB6KF517fBsE91QXcvvoc,7769
+haffmpeg/tools.py,sha256=p2h9ZZ3X-YIsDd7W_Kka2OD4_Zfs2cbOUZQQWWmT-2s,2427
+ha_ffmpeg-2.0.dist-info/LICENSE,sha256=t9jBvLWzowgEzsptyPD4EWArxCOlnpE9ugmzHTMCEbY,1482
+ha_ffmpeg-2.0.dist-info/METADATA,sha256=glxmavbY5dXyEme4vq4l5sTMxOwC-AI9X6BL_kPkXqw,1284
+ha_ffmpeg-2.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+ha_ffmpeg-2.0.dist-info/top_level.txt,sha256=NXfniCKSV5wR4_5w0xdBp7co-6bJ1erVeo0q9OqKsOs,9
+ha_ffmpeg-2.0.dist-info/RECORD,,
