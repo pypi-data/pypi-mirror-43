@@ -1,0 +1,8 @@
+README.md
+setup.py
+gskpackage/__init__.py
+gskpackage/classes.py
+gskpackage.egg-info/PKG-INFO
+gskpackage.egg-info/SOURCES.txt
+gskpackage.egg-info/dependency_links.txt
+gskpackage.egg-info/top_level.txt
