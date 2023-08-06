@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: tooling
+Version: 0.0.0a0
+Summary: Tools required for everyday development of Python code.
+Home-page: https://github.com/SpikingNeurons/tooling.git
+Author: Praveen Baburao Kulkarni
+Author-email: praveenneuron@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
