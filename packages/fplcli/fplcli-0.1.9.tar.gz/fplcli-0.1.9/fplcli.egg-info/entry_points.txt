@@ -1,0 +1,3 @@
+[console_scripts]
+fpl = fplcli.cli:main
+
