@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: django-throttling-py
+Version: 0.1.1
+Summary: Django throttling
+Home-page: https://github.com/hotbaby/django-throttling-py
+Author: Meng yangyang
+Author-email: mengyy_linux@163.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: # django-throttling
+        django流控机制
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
