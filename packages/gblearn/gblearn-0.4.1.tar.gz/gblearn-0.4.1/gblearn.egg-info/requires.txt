@@ -1,0 +1,8 @@
+argparse
+termcolor
+numpy
+matplotlib
+tqdm
+ase
+pycsoap
+falconn==1.3.0
