@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyplotjuggler/__init__.py
+pyplotjuggler/pyplotjuggler.py
+pyplotjuggler.egg-info/PKG-INFO
+pyplotjuggler.egg-info/SOURCES.txt
+pyplotjuggler.egg-info/dependency_links.txt
+pyplotjuggler.egg-info/top_level.txt
