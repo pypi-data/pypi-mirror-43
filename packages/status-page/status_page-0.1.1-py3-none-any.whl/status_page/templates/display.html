@@ -1,0 +1,40 @@
+{#
+Copyright 2019 Hermann Krumrey <hermann@krumreyh.com>
+
+This file is part of status-page.
+
+status-page is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+status-page is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with status-page.  If not, see <http://www.gnu.org/licenses/>.
+#}
+
+{% extends "base.html" %}
+{% block body %}
+    <table>
+        <tr>
+            <th>Device</th>
+            <th>Online?</th>
+            <th>Up-To-Date?</th>
+        </tr>
+        {% for server, data in display_data.items() %}
+            <tr>
+                <td>{{server}}</td>
+                <td class="{{str(data["is_up"]).lower()}}">{{data["is_up"]}}</td>
+                {% if data.get("version") %}
+                    <td>{{data["version"]}}</td>
+                {% else %}
+                    <td>N/A</td>
+                {% endif %}
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
