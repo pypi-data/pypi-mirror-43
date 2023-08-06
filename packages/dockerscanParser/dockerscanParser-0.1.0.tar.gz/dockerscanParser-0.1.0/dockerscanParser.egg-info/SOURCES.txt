@@ -1,0 +1,7 @@
+README.md
+setup.py
+dockerscanParser/__init__.py
+dockerscanParser.egg-info/PKG-INFO
+dockerscanParser.egg-info/SOURCES.txt
+dockerscanParser.egg-info/dependency_links.txt
+dockerscanParser.egg-info/top_level.txt

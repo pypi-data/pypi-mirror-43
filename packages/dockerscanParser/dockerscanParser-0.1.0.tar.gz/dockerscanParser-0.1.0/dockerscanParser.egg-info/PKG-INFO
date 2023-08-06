@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dockerscanParser
+Version: 0.1.0
+Summary: Parse Dockerscan report issues into lists of dictionaries
+Home-page: https://github.com/GoVanguard/dockerscanParser
+Author: Shane Scott
+Author-email: sscott@gvit.com
+License: UNKNOWN
+Description: # dockerscanParser 
+        Prototype parser for Dockerscan reports as a stepping stone to a Dradis integration
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
