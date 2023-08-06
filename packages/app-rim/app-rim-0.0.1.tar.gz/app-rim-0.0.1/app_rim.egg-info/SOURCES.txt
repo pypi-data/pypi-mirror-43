@@ -1,0 +1,9 @@
+README.md
+setup.py
+app_rim.egg-info/PKG-INFO
+app_rim.egg-info/SOURCES.txt
+app_rim.egg-info/dependency_links.txt
+app_rim.egg-info/top_level.txt
+arim/__init__.py
+arim/__main__.py
+arim/layout.py
