@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: spops
+Version: 0.2.1
+Summary: Database of population synthesis simulations of spinning black-hole binaries
+Home-page: https://github.com/dgerosa/spops
+Author: Davide Gerosa
+Author-email: dgerosa@caltech.edu
+License: MIT
+Description: See: `https://github.com/dgerosa/spops <https://github.com/dgerosa/spops>`_.
+Keywords: gravitational-wave,black-hole binary
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

@@ -1,0 +1,10 @@
+README.md
+setup.py
+spops/__init__.py
+spops/spops.py
+spops.egg-info/PKG-INFO
+spops.egg-info/SOURCES.txt
+spops.egg-info/dependency_links.txt
+spops.egg-info/not-zip-safe
+spops.egg-info/requires.txt
+spops.egg-info/top_level.txt
