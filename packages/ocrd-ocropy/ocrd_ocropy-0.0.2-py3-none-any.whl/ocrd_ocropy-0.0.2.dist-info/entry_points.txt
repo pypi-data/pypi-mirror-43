@@ -1,0 +1,3 @@
+[console_scripts]
+ocrd-ocropy-segment = ocrd_ocropy.cli:ocrd_ocropy_segment
+
