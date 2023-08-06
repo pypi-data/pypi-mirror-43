@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: adp-webscrape
+Version: 0.1.0
+Summary: Log into and download reports from ADP Resource and ezLaborManager.
+Home-page: None
+Author: Liam Corbett
+Author-email: None
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: selenium (>=3.141,<4.0)
