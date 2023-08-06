@@ -1,0 +1,14 @@
+README.md
+setup.py
+InstagramGraphQL.egg-info/PKG-INFO
+InstagramGraphQL.egg-info/SOURCES.txt
+InstagramGraphQL.egg-info/dependency_links.txt
+InstagramGraphQL.egg-info/requires.txt
+InstagramGraphQL.egg-info/top_level.txt
+igql/__init__.py
+igql/exceptions.py
+igql/hashtag.py
+igql/igql.py
+igql/location.py
+igql/media.py
+igql/user.py
