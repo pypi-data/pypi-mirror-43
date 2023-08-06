@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+sfcpy/__init__.py
+sfcpy/__main__.py
+sfcpy/data.py
+sfcpy/generator.py
+sfcpy/hc_lookup.txt
+sfcpy/hilbert.py
+sfcpy.egg-info/PKG-INFO
+sfcpy.egg-info/SOURCES.txt
+sfcpy.egg-info/dependency_links.txt
+sfcpy.egg-info/entry_points.txt
+sfcpy.egg-info/requires.txt
+sfcpy.egg-info/top_level.txt
