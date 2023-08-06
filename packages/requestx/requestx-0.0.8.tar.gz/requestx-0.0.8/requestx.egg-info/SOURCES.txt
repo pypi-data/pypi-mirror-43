@@ -1,0 +1,9 @@
+README.md
+setup.py
+requestx/RequestX.py
+requestx/__init__.py
+requestx.egg-info/PKG-INFO
+requestx.egg-info/SOURCES.txt
+requestx.egg-info/dependency_links.txt
+requestx.egg-info/requires.txt
+requestx.egg-info/top_level.txt
