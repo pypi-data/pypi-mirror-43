@@ -1,0 +1,9 @@
+aklogger/__init__.py,sha256=M3omqPmq6xOXtrqtxg35ZaU-tcdX_q0hLV_Uxxj4RAo,4807
+aklogger/handlers.py,sha256=aM-TuwbBJgi8yBBM3g-QJu0zWaeqFX-WNDNwESSqwQE,677
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aklogger.py,sha256=a6OOzS_5AtYk1Nm6ZACciRFBAd_wVprWAOxGk1hcS94,1853
+aklogger-0.1.0.dist-info/LICENSE,sha256=IYopMirrQ1ISjtjhCANCtRIdkAdh40xFL0C3dUkPjDc,1077
+aklogger-0.1.0.dist-info/METADATA,sha256=i3CZMGP8ltr1FxEStRuauYaLnQKhRd35kJ-RguFFXO8,1681
+aklogger-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+aklogger-0.1.0.dist-info/top_level.txt,sha256=ygjwDAcHbXmt2r2kz02tBSTt7Vj-YpHlS3J-gHGgxts,15
+aklogger-0.1.0.dist-info/RECORD,,
