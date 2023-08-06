@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gunicorn-healthz-filter
+Version: 1.0
+Summary: Filter /healthz endpoint access from your gunicorn logs.
+Home-page: UNKNOWN
+Author: Chris Latham
+Author-email: backwardspy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gunicorn
+
+UNKNOWN
+
+
