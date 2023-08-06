@@ -1,0 +1,9 @@
+amntftp/__init__.py,sha256=-uTy1T3Lj4zorefnMddEQQgwUAdB0nUVir2o9OmrMVE,16
+amntftp/client.py,sha256=BQRnXQbs4M3HrNwVv28PCftxRNvnJGWEyuOfSoyX3F8,14179
+amntftp/consts.py,sha256=wF0bygxBOY2obal13gN2l5zuEa7NTKRjv8ehM933P8w,556
+amntftp/server.py,sha256=NmJapX54P_VJYqwTtQC_Omko8C730QjNlxxvtrUn3pU,12797
+amntftp-0.1.1.dist-info/LICENSE,sha256=nTcBs-8HQN5gFs_fyds9lp6_VgI74vrrQ5OD31raEUM,1092
+amntftp-0.1.1.dist-info/METADATA,sha256=hCu0N2Lny4_q2xCzqg3iwoIlaKpTkfNkRWjnZiu5uA8,495
+amntftp-0.1.1.dist-info/WHEEL,sha256=6EdtIfQmBpGgb6Y7UyywfQ8EO2xmaQlvEiD3D9cjVh4,97
+amntftp-0.1.1.dist-info/top_level.txt,sha256=klUJRPfYRAsZHMRrPPZfIMEU2n27EytA0oR8Zvh3KR8,8
+amntftp-0.1.1.dist-info/RECORD,,
